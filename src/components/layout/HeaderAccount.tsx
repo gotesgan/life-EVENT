@@ -20,7 +20,7 @@ export async function HeaderAccount() {
       <Button
         component={Link}
         href="/sign-in?next=%2Faccount"
-        variant="secondary"
+        variant="primary"
         size="sm"
         leftSection={<IconUser size="1rem" stroke={1.5} aria-hidden />}
       >
@@ -36,7 +36,7 @@ export async function HeaderAccount() {
       <Button
         component={Link}
         href="/account"
-        variant="secondary"
+        variant="primary"
         size="sm"
         leftSection={<IconUserCircle size="1rem" stroke={1.5} aria-hidden />}
       >
@@ -53,7 +53,7 @@ export function HeaderAccountFallback() {
     <Button
       component={Link}
       href="/sign-in?next=%2Faccount"
-      variant="secondary"
+      variant="primary"
       size="sm"
       leftSection={<IconUser size="1rem" stroke={1.5} aria-hidden />}
     >
