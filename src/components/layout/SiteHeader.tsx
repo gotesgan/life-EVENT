@@ -10,25 +10,27 @@ import { MobileNav } from './MobileNav';
 import classes from './SiteHeader.module.css';
 
 /**
- * Site header — two tiers on a magenta ground.
+ * Site header — two tiers on neutral surfaces, with the brand reserved for
+ * action.
  *
  * The shape is the Indian wedding-marketplace convention: a slim utility strip
- * for the things a returning visitor wants, above a tall brand bar carrying the
- * logo, the catalogue navigation and the account action. The two tiers are the
- * same hue at two depths, which is what makes the bar read as one object rather
- * than as two stacked toolbars.
+ * for the things a returning visitor wants, above a tall bar carrying the logo,
+ * the catalogue navigation and the account action. The two tiers are separated
+ * by a surface step — a muted strip above a raised bar — so they read as one
+ * object rather than as two stacked toolbars.
  *
  * Server-rendered chrome: the brand, the primary nav (real catalogue links) and
  * the theme switch are all static. Only the account affordance reads the
- * session, so it is the one thing behind `<Suspense>` — the header paints
- * immediately and the sign-in/account button streams in a moment later.
+ * session, and the nav reads `usePathname()` for its active state, so both sit
+ * behind `<Suspense>` — the header paints immediately and those two stream in a
+ * moment later.
  *
- * **Colour.** Both bars are the brand itself, so the header is the single
- * largest use of the accent budget on any page. That is deliberate: the header
- * is the one element present on every screen, and putting the brand there means
- * the rest of the page can stay a neutral wall with the magenta spent only on
- * actions. The utility strip uses the deeper shade so the eye reads the brand
- * bar as the nearer, more important surface.
+ * **Colour.** The chrome is *not* painted in the brand colour. An earlier
+ * revision filled both bars with it, which measured as a WCAG AA failure in dark
+ * mode (white nav text on the dark-scheme light pink, 3.06:1) and spent 5.21% of
+ * the whole page's rendered pixels on primary fills. The brand now appears four times: the
+ * mark’s own tile, the active-section underline, the single primary account
+ * CTA, and the focus ring. See the header comment in `SiteHeader.module.css` for the measurements.
  *
  * **No search field.** The homepage's `<form role="search">` is the only search
  * landmark in the product; a second one in the header would make

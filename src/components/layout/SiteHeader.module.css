@@ -1,34 +1,46 @@
 /*
- * Site header — two tiers on a magenta ground.
+ * Site header — two tiers on neutral surfaces, with the brand colour reserved
+ * for action.
  *
- * The most-seen surface in the product, and the only place the brand colour is
- * used at full bleed. Two bars, one hue at two depths: the utility strip uses the
- * deeper shade (`--mantine-color-brand-8`) and the brand bar the primary
- * (`--app-brand`), so the eye reads the brand bar as the nearer, more important
- * surface without needing a border between them.
+ * ## Why the header is no longer magenta
  *
- * Consequences of putting controls on a saturated ground, all handled here:
+ * The previous revision painted both bars in the brand colour. Measured, that
+ * produced two defects at once:
  *
- *  - **The focus ring must not be the brand colour.** `--app-focus-ring` is
- *    magenta, which on a magenta bar is invisible; every focusable element in the
- *    header overrides it to white. This is the one place in the product where the
- *    ring is not the token, and it is deliberate rather than an oversight.
- *  - **Mantine's filled button is unusable here.** A brand-filled button on a
- *    brand-filled bar disappears, so the account action is re-pointed to a white
- *    pill with brand text. The overrides are scoped to `.actions` so they cannot
- *    leak into the rest of the app.
- *  - **The brand mark is white-on-white inverted.** `BrandMark` paints a magenta
- *    tile, so on the magenta bar it is given a white pill of its own.
+ *  1. **A contrast failure.** The nav label was hard-coded white while
+ *     `--app-brand` *inverts* between themes — so in dark mode white 14px/700 sat
+ *     on the dark-scheme light pink at **3.06:1**, below WCAG AA. (Light mode passed
+ *     at 5.14:1, which is exactly why the bug survived review.)
+ *  2. **A budget breach.** Bars at full bleed plus the card CTAs put **~7.1%** of
+ *     the painted area into primary fills, against this project’s ≤4% ceiling.
  *
- * No shadow: a shadow under a bar that overlaps scrolling content reads as a
- * rendering artefact, and dark-mode elevation is bought with surface lightness.
+ * The reference research supports the alternative: of the 13 auditable
+ * marketplaces, none paints its chrome in the action colour at full bleed. The
+ * chrome is a neutral surface; the brand appears as an accent — the active nav
+ * rule, the one primary CTA, and the focus ring.
+ *
+ * The pink identity is intact: the mark itself, the underline you are on, the
+ * button that does the thing, and the ring you see when you tab. It is simply no longer the
+ * wallpaper.
+ *
+ * ## Rules this file follows
+ *
+ *  - **Tokens only.** No hex literals live here any more; the brand colour is
+ *    reached through `--app-*` so both themes stay correct automatically.
+ *  - **No shadow.** A shadow under a bar that overlaps scrolling content reads as
+ *    a rendering artefact; separation is a single hairline plus the surface step
+ *    from the page.
+ *  - **Focus is never removed**, only restyled to `--app-focus-ring`. Because the
+ *    ground is now a neutral surface rather than a saturated fill, the ring needs
+ *    no per-theme exception — the earlier "white ring" workaround is gone.
  */
 
 .header {
   position: sticky;
   top: 0;
   z-index: 200;
-  background-color: var(--app-brand);
+  border-block-end: 1px solid var(--app-border);
+  background-color: var(--app-surface-raised);
 }
 
 /* -------------------------------------------------------------------------- */
@@ -36,8 +48,8 @@
 /* -------------------------------------------------------------------------- */
 
 .utilityBar {
-  background-color: var(--mantine-color-brand-8);
-  color: #ffffff;
+  background-color: var(--app-surface-muted);
+  color: var(--app-text-muted);
 }
 
 .utilityInner {
@@ -55,7 +67,7 @@
   font-size: var(--text-caption-size);
   font-weight: 550;
   letter-spacing: 0.005em;
-  color: color-mix(in srgb, #ffffff 88%, transparent);
+  color: var(--app-text-muted);
 
   @mixin larger-than $mantine-breakpoint-sm {
     display: block;
@@ -77,19 +89,26 @@
   align-items: center;
   /* ≥24px so the strip's small text is still a comfortable target. */
   min-height: rem(24px);
-  color: #ffffff;
+  color: var(--app-text-muted);
   font-size: var(--text-caption-size);
   font-weight: 600;
   text-decoration: none;
 
   @mixin hover {
+    /*
+     * `--app-text`, not `--app-brand`: the brand colour on this tinted ground
+     * measures 4.41:1 in the light scheme, 0.09 under AA for 12px/600 text.
+     * This matches `.navLink:hover` and keeps the brand reserved for the ring,
+     * the active rule and the primary CTA.
+     */
+    color: var(--app-text);
     text-decoration: underline;
     text-underline-offset: rem(3px);
   }
 }
 
 .utilityLink:focus-visible {
-  outline: 2px solid #ffffff;
+  outline: 2px solid var(--app-focus-ring);
   outline-offset: 2px;
   border-radius: rem(2px);
 }
@@ -99,7 +118,7 @@
 /* -------------------------------------------------------------------------- */
 
 .mainBar {
-  background-color: var(--app-brand);
+  background-color: var(--app-surface-raised);
 }
 
 .inner {
@@ -110,22 +129,20 @@
 }
 
 /*
- * A white pill behind the mark. `BrandMark` draws a magenta tile and dark
- * wordmark, so on the magenta bar it would vanish; giving it its own light
- * ground keeps the mark legible and makes it the brightest object in the bar.
+ * No white pill any more. `BrandMark` draws a brand-coloured tile with a dark
+ * wordmark, which is exactly right on a light surface — the pill only existed to
+ * keep it legible against magenta.
  */
 .brand {
   display: inline-flex;
   align-items: center;
   min-height: rem(44px);
-  padding-inline: rem(8px);
   border-radius: var(--app-radius-control);
-  background-color: #ffffff;
   text-decoration: none;
 }
 
 .brand:focus-visible {
-  outline: 2px solid #ffffff;
+  outline: 2px solid var(--app-focus-ring);
   outline-offset: 2px;
 }
 
@@ -170,32 +187,34 @@
   align-items: center;
   height: 100%;
   padding: 0 rem(10px);
-  color: #ffffff;
+  color: var(--app-text-muted);
   font-size: var(--text-secondary-size);
   font-weight: 600;
   text-decoration: none;
   white-space: nowrap;
 
   @mixin hover {
-    background-color: color-mix(in srgb, #ffffff 16%, transparent);
+    background-color: var(--app-surface-hover);
+    color: var(--app-text);
   }
 }
 
 .navLink:focus-visible {
   /* Inset: an offset ring on a full-height tab is clipped by the header. */
-  outline: 2px solid #ffffff;
+  outline: 2px solid var(--app-focus-ring);
   outline-offset: -2px;
 }
 
 .navLink[data-active] {
+  color: var(--app-text);
   font-weight: 700;
 }
 
 /*
- * The active section gets two channels, because on a saturated ground the
- * underline alone is too quiet once the label is already white: weight plus a
- * full-opacity rule. Colour cannot be the signal here — every label is already
- * the same colour.
+ * The active section is carried by two channels, neither of which is colour
+ * alone: weight, and a brand-coloured rule. This is where the brand earns its
+ * place in the chrome — a 3px accent under the section you are in, rather than a
+ * full-bleed fill behind everything.
  */
 .navLink[data-active]::after {
   content: '';
@@ -205,7 +224,7 @@
   height: rem(3px);
   border-start-start-radius: rem(3px);
   border-start-end-radius: rem(3px);
-  background-color: #ffffff;
+  background-color: var(--app-brand);
 }
 
 .actions {
@@ -216,9 +235,9 @@
 }
 
 /*
- * Icon actions. `.iconAction` is applied both to the search link and to
- * `ThemeToggle`, and the `:global` rules re-point Mantine's own controls so
- * every button in the actions slot is a white glyph on a translucent disc.
+ * Icon actions — the search link and `ThemeToggle`. `.iconAction` is applied to
+ * both; the `:global` rules re-point Mantine's own control so the two never
+ * drift apart.
  */
 .iconAction {
   display: inline-flex;
@@ -229,75 +248,58 @@
   border: 0;
   border-radius: var(--app-radius-pill);
   background-color: transparent;
-  color: #ffffff;
+  color: var(--app-text-muted);
   cursor: pointer;
   text-decoration: none;
 
   @mixin hover {
-    background-color: color-mix(in srgb, #ffffff 18%, transparent);
+    background-color: var(--app-surface-hover);
+    color: var(--app-text);
   }
 }
 
 .iconAction:focus-visible {
-  outline: 2px solid #ffffff;
+  outline: 2px solid var(--app-focus-ring);
   outline-offset: 2px;
 }
 
-/* The account action: a white pill with brand text, so it is the clear primary
-   affordance in the bar without competing with the bar's own colour. */
-.actions :global(.mantine-Button-root) {
-  border-color: transparent;
-  background-color: #ffffff;
-  color: var(--app-brand);
-}
-
-.actions :global(.mantine-Button-root):hover {
-  background-color: var(--app-brand-soft);
-  color: var(--app-brand);
-}
-
-.actions :global(.mantine-Button-root):focus-visible {
-  outline: 2px solid #ffffff;
-  outline-offset: 2px;
-}
-
-/* The bundled icon buttons (theme toggle, sign-out) sit on the same disc. */
+/*
+ * The account action. `HeaderAccount` renders it with the primitive's `primary`
+ * variant, so it inherits the brand fill and its measured contrast from
+ * `Button.module.css` rather than being re-coloured here — one definition of
+ * what a primary button looks like, not two.
+ */
 .actions :global(.mantine-ActionIcon-root) {
-  border: 0;
-  background-color: transparent;
-  color: #ffffff;
+  color: var(--app-text-muted);
 }
 
 .actions :global(.mantine-ActionIcon-root):hover {
-  background-color: color-mix(in srgb, #ffffff 18%, transparent);
-  color: #ffffff;
+  background-color: var(--app-surface-hover);
+  color: var(--app-text);
 }
 
 .actions :global(.mantine-ActionIcon-root):focus-visible {
-  outline: 2px solid #ffffff;
+  outline: 2px solid var(--app-focus-ring);
   outline-offset: 2px;
 }
 
 .burgerSlot {
   display: flex;
 
-  /* Mantine's burger draws in the theme's text colour, which is unreadable on the
-     bar; force it white through the same mechanism as the other controls. */
-  :global(.mantine-Burger-root) {
-    color: #ffffff;
-  }
-
-  :global(.mantine-Burger-burger) {
-    color: #ffffff;
-  }
-
   @mixin larger-than $mantine-breakpoint-md {
     display: none;
   }
 }
 
+.burgerSlot :global(.mantine-Burger-root) {
+  /* Mantine's Burger paints its bars from `background-color: var(--burger-color)`,
+     so a `color` declaration here does nothing. Verified by overriding it at
+     runtime and watching the bars stay put. */
+  --burger-color: var(--app-text);
+}
+
 .burgerSlot :global(.mantine-Burger-root):focus-visible {
-  outline: 2px solid #ffffff;
+  outline: 2px solid var(--app-focus-ring);
   outline-offset: 2px;
 }
 

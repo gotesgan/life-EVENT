@@ -13,7 +13,7 @@ import classes from './SiteHeader.module.css';
  * (brand, theme switch, account fallback) is still server-rendered.
  *
  * Active state is carried by `aria-current="page"` on the element itself and by
- * two non-colour channels on screen: a 2px brand indicator under the tab and a
+ * two non-colour channels on screen: a 3px brand indicator under the tab and a
  * heavier ink. Colour alone would fail WCAG 1.4.1, and animating the label's
  * weight on hover is explicitly out of bounds (brief §5).
  */
