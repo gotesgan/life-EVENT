@@ -1,0 +1,907 @@
+// Live Envt — wedding & event vendor discovery and lead-generation platform.
+//
+// Design notes (see docs/database-design.md for the full rationale):
+//  * One generic `BusinessListing` for every provider category. There are no
+//    per-category tables; category-specific data is expressed through the
+//    configurable attribute system (AttributeDefinition / CategoryAttribute /
+//    ListingAttributeValue).
+//  * Filterable category attributes use typed value columns (number/boolean/
+//    date/text/option) so range and facet filters are genuinely indexable.
+//    JSONB is reserved for non-queried payloads only.
+//  * One `Enquiry` holds the shared event brief; each provider is an
+//    `EnquiryListing` with its own status, assignee and history.
+//
+// Prisma 7: the datasource URL lives in prisma.config.ts, not here.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ---------------------------------------------------------------------------
+// Enums — closed sets. Lead statuses are enums so arbitrary strings are
+// impossible at the database level.
+// ---------------------------------------------------------------------------
+
+enum UserRole {
+  CUSTOMER
+  ADMIN
+}
+
+enum UserStatus {
+  ACTIVE
+  SUSPENDED
+  DEACTIVATED
+}
+
+enum ContactMethod {
+  EMAIL
+  PHONE
+  WHATSAPP
+}
+
+enum LocationType {
+  COUNTRY
+  STATE
+  CITY
+  LOCALITY
+}
+
+enum PublicationStatus {
+  DRAFT
+  PUBLISHED
+  UNPUBLISHED
+  ARCHIVED
+}
+
+enum VerificationStatus {
+  UNVERIFIED
+  PENDING
+  VERIFIED
+  REJECTED
+}
+
+enum PriceUnit {
+  PER_EVENT
+  PER_PERSON
+  PER_PLATE
+  PER_DAY
+  PER_HOUR
+  PER_PACKAGE
+}
+
+enum AttributeDataType {
+  TEXT
+  NUMBER
+  BOOLEAN
+  DATE
+  SINGLE_SELECT
+  MULTI_SELECT
+}
+
+/// Optional per-category override of the filter control the UI renders.
+/// When null the control is derived from `AttributeDataType`.
+enum FilterControl {
+  CHECKBOX
+  RADIO
+  MULTI_SELECT
+  SINGLE_SELECT
+  RANGE
+  SLIDER
+  BOOLEAN
+  DATE
+  TEXT
+}
+
+enum MediaKind {
+  IMAGE
+}
+
+enum MediaStatus {
+  PENDING
+  READY
+  FAILED
+}
+
+enum EnquiryStatus {
+  NEW
+  CONTACTED
+  QUALIFIED
+  SHARED_WITH_PROVIDER
+  CONVERTED
+  LOST
+  CANCELLED
+  DUPLICATE
+  SPAM
+}
+
+enum EnquiryActivityType {
+  CREATED
+  STATUS_CHANGED
+  ASSIGNED
+  UNASSIGNED
+  NOTE_ADDED
+  CUSTOMER_UPDATED
+  CONTACT_DISCLOSED
+  DUPLICATE_FLAGGED
+  PROVIDER_RESPONSE_RECORDED
+  CANCELLED_BY_CUSTOMER
+}
+
+enum EnquirySource {
+  WEB
+}
+
+// Extensions (pg_trgm) are enabled in prisma/migrations/00000000000000_enable_extensions.
+
+// ---------------------------------------------------------------------------
+// Identity and access
+// Models `User`, `Session`, `Account`, `Verification` follow the shape the
+// Better Auth Prisma adapter expects; application-specific columns (role,
+// status, moderation fields) are added alongside. Sessions are stored in the
+// database so moderation and role changes take effect immediately.
+// ---------------------------------------------------------------------------
+
+model User {
+  id            String     @id @default(cuid())
+  name          String
+  email         String     @unique
+  emailVerified Boolean    @default(false)
+  image         String?
+  role          UserRole   @default(CUSTOMER)
+  status        UserStatus @default(ACTIVE)
+  banned        Boolean?   @default(false)
+  banReason     String?
+  banExpires    DateTime?
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+
+  sessions          Session[]
+  accounts          Account[]
+  profile           CustomerProfile?
+  enquiries         Enquiry[]          @relation("EnquiryCustomer")
+  assignedEnquiries Enquiry[]          @relation("EnquiryAssignee")
+  assignedLeads     EnquiryListing[]   @relation("EnquiryListingAssignee")
+  activities        EnquiryActivity[]
+  notes             EnquiryNote[]
+  auditLogs         AuditLog[]
+  createdListings   BusinessListing[]  @relation("ListingCreatedBy")
+  uploadedMedia     ListingMedia[]     @relation("MediaUploadedBy")
+
+  @@index([role, status])
+  @@map("users")
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  token     String   @unique
+  userId    String
+  expiresAt DateTime
+  ipAddress String?
+  userAgent String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+  @@map("sessions")
+}
+
+model Account {
+  id                    String    @id @default(cuid())
+  accountId             String
+  providerId            String
+  userId                String
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([providerId, accountId])
+  @@index([userId])
+  @@map("accounts")
+}
+
+model Verification {
+  id         String   @id @default(cuid())
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([identifier])
+  @@map("verifications")
+}
+
+/// Optional customer-specific profile. Kept separate from `User` so
+/// authentication data and marketplace preferences stay decoupled.
+model CustomerProfile {
+  id                     String        @id @default(cuid())
+  userId                 String        @unique
+  phone                  String?
+  cityId                 String?
+  preferredContactMethod ContactMethod @default(EMAIL)
+  marketingConsent       Boolean       @default(false)
+  createdAt              DateTime      @default(now())
+  updatedAt              DateTime      @updatedAt
+
+  user User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  city Location? @relation("ProfileCity", fields: [cityId], references: [id], onDelete: SetNull)
+
+  @@map("customer_profiles")
+}
+
+// ---------------------------------------------------------------------------
+// Geography
+// ---------------------------------------------------------------------------
+
+/// Self-referencing hierarchy: COUNTRY -> STATE -> CITY -> LOCALITY.
+/// `path` is the materialised slug path and is the authoritative uniqueness key
+/// (a nullable `parentId` cannot be part of a reliable unique constraint).
+model Location {
+  id          String       @id @default(cuid())
+  /// Globally unique so a location is addressable by a single clean URL
+  /// segment. Localities are therefore slugged with their city context
+  /// (e.g. `mumbai-bandra-west`) rather than bare (`bandra-west`).
+  slug        String       @unique
+  name        String
+  type        LocationType
+  path        String       @unique
+  parentId    String?
+  isActive    Boolean      @default(true)
+  latitude    Float?
+  longitude   Float?
+  heroImageUrl String?
+  description String?      @db.Text
+  sortOrder   Int          @default(0)
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  parent           Location?            @relation("LocationTree", fields: [parentId], references: [id], onDelete: Restrict)
+  children         Location[]           @relation("LocationTree")
+  primaryListings  BusinessListing[]    @relation("ListingPrimaryLocation")
+  serviceAreas     ListingServiceArea[]
+  profileCities    CustomerProfile[]    @relation("ProfileCity")
+  enquiries        Enquiry[]
+
+  @@index([type, isActive, name])
+  @@index([parentId])
+  @@map("locations")
+}
+
+// ---------------------------------------------------------------------------
+// Categories, event types and the configurable attribute system
+// ---------------------------------------------------------------------------
+
+/// Self-referencing so subcategories are just children — arbitrary depth with
+/// no separate Subcategory table and no duplicated filter plumbing.
+model Category {
+  id               String   @id @default(cuid())
+  slug             String   @unique
+  name             String
+  path             String   @unique
+  parentId         String?
+  shortDescription String?
+  description      String?  @db.Text
+  iconKey          String?
+  heroImageUrl     String?
+  metaTitle        String?
+  metaDescription  String?
+  isActive         Boolean  @default(true)
+  sortOrder        Int      @default(0)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  parent        Category?           @relation("CategoryTree", fields: [parentId], references: [id], onDelete: Restrict)
+  children      Category[]          @relation("CategoryTree")
+  primaryListings BusinessListing[] @relation("ListingPrimaryCategory")
+  listingLinks  ListingCategory[]
+  attributes    CategoryAttribute[]
+
+  @@unique([parentId, slug])
+  @@index([parentId, isActive, sortOrder])
+  @@map("categories")
+}
+
+model EventType {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  description String?
+  iconKey     String?
+  isActive    Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  listingLinks ListingEventType[]
+  enquiries    Enquiry[]
+
+  @@index([isActive, sortOrder])
+  @@map("event_types")
+}
+
+/// Global catalogue of attribute definitions. The same definition is bound to
+/// many categories with different behaviour through `CategoryAttribute`, so
+/// adding a category or a filter is a data operation, not a code change.
+model AttributeDefinition {
+  id           String            @id @default(cuid())
+  code         String            @unique
+  label        String
+  dataType     AttributeDataType
+  unit         String?
+  helpText     String?
+  placeholder  String?
+  minNumber    Float?
+  maxNumber    Float?
+  maxLength    Int?
+  isGlobal     Boolean           @default(false)
+  sortOrder    Int               @default(0)
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+
+  options          AttributeOption[]
+  categoryBindings CategoryAttribute[]
+  values           ListingAttributeValue[]
+
+  @@index([dataType])
+  @@map("attribute_definitions")
+}
+
+/// Per-category binding: what this attribute means for this category.
+model CategoryAttribute {
+  id                  String         @id @default(cuid())
+  categoryId          String
+  attributeId         String
+  isRequired          Boolean        @default(false)
+  isFilterable        Boolean        @default(false)
+  isSearchable        Boolean        @default(false)
+  isVisibleOnProfile  Boolean        @default(true)
+  isComparable        Boolean        @default(false)
+  /// Marks an attribute as a highlight on search-result cards. Venues surface
+  /// capacity and venue type, photographers surface style and coverage hours —
+  /// driven by data so cards are not forced into one generic shape.
+  showOnCard          Boolean        @default(false)
+  filterControl       FilterControl?
+  groupLabel          String?
+  sortOrder           Int            @default(0)
+  createdAt           DateTime       @default(now())
+  updatedAt           DateTime       @updatedAt
+
+  category  Category            @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  attribute AttributeDefinition @relation(fields: [attributeId], references: [id], onDelete: Cascade)
+
+  @@unique([categoryId, attributeId])
+  @@index([categoryId, isFilterable, sortOrder])
+  @@map("category_attributes")
+}
+
+model AttributeOption {
+  id          String   @id @default(cuid())
+  attributeId String
+  value       String   @db.VarChar(64)
+  label       String
+  sortOrder   Int      @default(0)
+  isActive    Boolean  @default(true)
+
+  attribute AttributeDefinition @relation(fields: [attributeId], references: [id], onDelete: Cascade)
+
+  singleSelectValues ListingAttributeValue[] @relation("ValueOption")
+
+  @@unique([attributeId, value])
+  @@index([attributeId, isActive, sortOrder])
+  @@map("attribute_options")
+}
+
+/// Normalised amenity/tag catalogue, shared across categories.
+model Amenity {
+  id         String   @id @default(cuid())
+  code       String   @unique
+  label      String
+  groupLabel String?
+  iconKey    String?
+  isActive   Boolean  @default(true)
+  sortOrder  Int      @default(0)
+
+  listings ListingAmenity[]
+
+  @@index([isActive, sortOrder])
+  @@map("amenities")
+}
+
+// ---------------------------------------------------------------------------
+// Business listings
+// ---------------------------------------------------------------------------
+
+model BusinessListing {
+  id          String @id @default(cuid())
+  slug        String @unique
+  name        String
+  tagline     String?
+  description String? @db.Text
+  about       String? @db.Text
+
+  primaryCategoryId String
+  primaryLocationId String
+
+  publicationStatus  PublicationStatus  @default(DRAFT)
+  verificationStatus VerificationStatus @default(UNVERIFIED)
+  isFeatured         Boolean            @default(false)
+  publishedAt        DateTime?
+  archivedAt         DateTime?
+
+  // Contact details. Each channel has an explicit disclosure flag so provider
+  // privacy is a stored, auditable decision rather than a UI convention.
+  contactPersonName String?
+  contactPhone      String?
+  contactEmail      String?
+  contactWhatsapp   String?
+  websiteUrl        String?
+  showPhone         Boolean            @default(false)
+  showEmail         Boolean            @default(false)
+  showWhatsapp      Boolean            @default(false)
+  showWebsite       Boolean            @default(true)
+
+  addressLine1 String?
+  addressLine2 String?
+  postalCode   String?
+  latitude     Float?
+  longitude    Float?
+
+  // Denormalised commercial summary. These back the universal budget and
+  // capacity filters and sorts, so they are real indexed columns rather than
+  // values that would have to be recomputed from child rows per query.
+  priceMin     Int?
+  priceMax     Int?
+  priceUnit    PriceUnit?
+  capacityMin  Int?
+  capacityMax  Int?
+
+  /// Service-maintained lowercase haystack (name + tagline + description +
+  /// categories + event types + locations + services). Indexed with a trigram
+  /// GIN index so `contains` searches and relevance ordering are
+  /// index-accelerated. No dedicated search engine is required at this scale.
+  searchText String @default("") @db.Text
+
+  createdById String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  primaryCategory Category  @relation("ListingPrimaryCategory", fields: [primaryCategoryId], references: [id], onDelete: Restrict)
+  primaryLocation Location  @relation("ListingPrimaryLocation", fields: [primaryLocationId], references: [id], onDelete: Restrict)
+  createdBy       User?     @relation("ListingCreatedBy", fields: [createdById], references: [id], onDelete: SetNull)
+
+  categories      ListingCategory[]
+  eventTypes      ListingEventType[]
+  serviceAreas    ListingServiceArea[]
+  media           ListingMedia[]
+  services        ListingService[]
+  packages        ListingPackage[]
+  venueSpaces     VenueSpace[]
+  attributeValues ListingAttributeValue[]
+  amenities       ListingAmenity[]
+  enquiryListings EnquiryListing[]
+
+  @@index([publicationStatus, isFeatured, publishedAt(sort: Desc)])
+  @@index([publicationStatus, priceMin])
+  @@index([publicationStatus, capacityMax])
+  @@index([primaryCategoryId, publicationStatus, priceMin])
+  @@index([primaryLocationId, publicationStatus])
+  @@index([verificationStatus, publicationStatus])
+  @@index([publicationStatus, updatedAt(sort: Desc)])
+  @@index([searchText(ops: raw("gin_trgm_ops"))], type: Gin)
+  @@map("business_listings")
+}
+
+/// A listing may serve several categories; exactly one is flagged primary.
+/// "Exactly one" is enforced by the listing service inside a transaction
+/// because PostgreSQL cannot express that as a partial unique index through
+/// Prisma migrations portably.
+model ListingCategory {
+  id         String  @id @default(cuid())
+  listingId  String
+  categoryId String
+  isPrimary  Boolean @default(false)
+  sortOrder  Int     @default(0)
+
+  listing  BusinessListing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  category Category        @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@unique([listingId, categoryId])
+  @@index([categoryId, isPrimary])
+  @@map("listing_categories")
+}
+
+model ListingEventType {
+  id          String @id @default(cuid())
+  listingId   String
+  eventTypeId String
+
+  listing   BusinessListing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  eventType EventType       @relation(fields: [eventTypeId], references: [id], onDelete: Cascade)
+
+  @@unique([listingId, eventTypeId])
+  @@index([eventTypeId])
+  @@map("listing_event_types")
+}
+
+model ListingServiceArea {
+  id         String @id @default(cuid())
+  listingId  String
+  locationId String
+
+  listing  BusinessListing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  location Location        @relation(fields: [locationId], references: [id], onDelete: Cascade)
+
+  @@unique([listingId, locationId])
+  @@index([locationId])
+  @@map("listing_service_areas")
+}
+
+model ListingMedia {
+  id          String      @id @default(cuid())
+  listingId   String
+  storageKey  String      @unique
+  publicUrl   String
+  altText     String
+  kind        MediaKind   @default(IMAGE)
+  status      MediaStatus @default(PENDING)
+  mimeType    String
+  sizeBytes   Int
+  width       Int?
+  height      Int?
+  blurDataUrl String?     @db.Text
+  sortOrder   Int         @default(0)
+  isCover     Boolean     @default(false)
+  failureReason String?
+
+  uploadedById String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  listing    BusinessListing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  uploadedBy User?           @relation("MediaUploadedBy", fields: [uploadedById], references: [id], onDelete: SetNull)
+
+  @@index([listingId, status, sortOrder])
+  @@index([listingId, isCover])
+  @@index([status, createdAt])
+  @@map("listing_media")
+}
+
+model ListingService {
+  id              String     @id @default(cuid())
+  listingId       String
+  name            String
+  description     String?    @db.Text
+  priceFrom       Int?
+  priceTo         Int?
+  priceUnit       PriceUnit?
+  durationMinutes Int?
+  includes        String[]
+  isActive        Boolean    @default(true)
+  sortOrder       Int        @default(0)
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+
+  listing BusinessListing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+
+  @@index([listingId, isActive, sortOrder])
+  @@map("listing_services")
+}
+
+model ListingPackage {
+  id          String     @id @default(cuid())
+  listingId   String
+  name        String
+  description String?    @db.Text
+  price       Int?
+  priceUnit   PriceUnit?
+  minGuests   Int?
+  maxGuests   Int?
+  inclusions  String[]
+  exclusions  String[]
+  isActive    Boolean    @default(true)
+  sortOrder   Int        @default(0)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  listing BusinessListing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+
+  @@index([listingId, isActive, sortOrder])
+  @@map("listing_packages")
+}
+
+/// Venue-specific spaces. Modelled as an optional child of any listing (not a
+/// separate venue entity) so a resort with banquet halls, a lawn and a poolside
+/// can describe capacity and layout without a second listing system.
+model VenueSpace {
+  id               String  @id @default(cuid())
+  listingId        String
+  name             String
+  description      String? @db.Text
+  capacitySeated   Int?
+  capacityStanding Int?
+  areaSqft         Int?
+  isIndoor         Boolean @default(true)
+  isOutdoor        Boolean @default(false)
+  layoutOptions    String[]
+  sortOrder        Int     @default(0)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  listing BusinessListing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+
+  @@index([listingId, sortOrder])
+  @@map("venue_spaces")
+}
+
+/// One row per (listing, attribute) with typed columns. Multi-select values use
+/// a Postgres text array so writes stay atomic and `hasSome` gives correct
+/// AND/OR facet semantics with a GIN index.
+model ListingAttributeValue {
+  id          String   @id @default(cuid())
+  listingId   String
+  attributeId String
+  valueText   String?
+  valueNumber Float?
+  valueBoolean Boolean?
+  valueDate   DateTime?
+  optionId    String?
+  optionIds   String[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  listing   BusinessListing     @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  attribute AttributeDefinition @relation(fields: [attributeId], references: [id], onDelete: Cascade)
+  option    AttributeOption?    @relation("ValueOption", fields: [optionId], references: [id], onDelete: SetNull)
+  // Multi-select values live in the `optionIds` array on each value row, not
+  // in a relation.
+  // The implicit `_ValueOptions` join table that used to be declared here was
+  // migrated but never written by any code path, which misrepresented how the
+  // data is stored and cost an unused table plus two indexes.
+
+  @@unique([listingId, attributeId])
+  @@index([attributeId, valueNumber])
+  @@index([attributeId, valueBoolean])
+  @@index([attributeId, optionId])
+  @@index([attributeId, valueText])
+  @@index([optionIds], type: Gin)
+  @@map("listing_attribute_values")
+}
+
+model ListingAmenity {
+  id        String @id @default(cuid())
+  listingId String
+  amenityId String
+
+  listing BusinessListing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  amenity Amenity         @relation(fields: [amenityId], references: [id], onDelete: Cascade)
+
+  @@unique([listingId, amenityId])
+  @@index([amenityId])
+  @@map("listing_amenities")
+}
+
+// ---------------------------------------------------------------------------
+// Enquiries and lead management
+// ---------------------------------------------------------------------------
+
+/// The shared customer event brief. A single enquiry can target several
+/// providers without duplicating the brief, and each provider gets an
+/// independent lead record (`EnquiryListing`).
+model Enquiry {
+  id            String @id @default(cuid())
+  referenceCode String @unique
+
+  // Null for guest submissions. Guests are never auto-claimed by a later
+  // sign-up (see docs/security.md).
+  customerUserId String?
+  contactName    String
+  contactEmail   String
+  /// Digits-only form of `contactPhone`, maintained by the service so duplicate
+  /// detection can match `+91 98765 43210`, `098765-43210` and `9876543210`
+  /// with an indexed lookup instead of a scan.
+  contactPhoneNormalised String
+  contactPhone   String
+  contactCityId  String?
+  contactMethod  ContactMethod @default(EMAIL)
+
+  eventTypeId       String?
+  eventDate         DateTime?
+  eventDateFlexible Boolean   @default(true)
+  guestCount        Int?
+  budgetMin         Int?
+  budgetMax         Int?
+  requirements      String?   @db.Text
+  referralSource    String?
+
+  status                EnquiryStatus @default(NEW)
+  isPotentialDuplicate  Boolean       @default(false)
+  assignedAdminId       String?
+
+  consentPrivacy     Boolean   @default(false)
+  consentPolicyVersion String?
+  consentedAt        DateTime?
+
+  source          EnquirySource @default(WEB)
+  submittedIpHash String?
+  userAgent       String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  customer      User?     @relation("EnquiryCustomer", fields: [customerUserId], references: [id], onDelete: SetNull)
+  assignedAdmin User?     @relation("EnquiryAssignee", fields: [assignedAdminId], references: [id], onDelete: SetNull)
+  contactCity   Location? @relation(fields: [contactCityId], references: [id], onDelete: SetNull)
+  eventType     EventType? @relation(fields: [eventTypeId], references: [id], onDelete: SetNull)
+
+  listings   EnquiryListing[]
+  activities EnquiryActivity[]
+  notes      EnquiryNote[]
+
+  @@index([customerUserId, createdAt(sort: Desc)])
+  @@index([status, createdAt(sort: Desc)])
+  @@index([contactEmail, createdAt(sort: Desc)])
+  @@index([contactPhoneNormalised, createdAt(sort: Desc)])
+  @@index([assignedAdminId, status])
+  @@index([eventTypeId, createdAt(sort: Desc)])
+  @@index([createdAt(sort: Desc)])
+  @@map("enquiries")
+}
+
+/// A single provider lead inside an enquiry. Independent status, assignee and
+/// SLA timestamps per provider.
+model EnquiryListing {
+  id        String @id @default(cuid())
+  enquiryId String
+  listingId String
+  status    EnquiryStatus @default(NEW)
+
+  assignedAdminId String?
+  assignedAt      DateTime?
+
+  firstContactedAt     DateTime?
+  sharedWithProviderAt DateTime?
+  convertedAt          DateTime?
+  lostAt               DateTime?
+  lostReason           String?
+  providerResponseNote String?   @db.Text
+
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  enquiry       Enquiry         @relation(fields: [enquiryId], references: [id], onDelete: Cascade)
+  listing       BusinessListing @relation(fields: [listingId], references: [id], onDelete: Restrict)
+  assignedAdmin User?           @relation("EnquiryListingAssignee", fields: [assignedAdminId], references: [id], onDelete: SetNull)
+
+  activities EnquiryActivity[]
+  notes      EnquiryNote[]
+
+  @@unique([enquiryId, listingId])
+  @@index([listingId, status, createdAt])
+  @@index([assignedAdminId, status])
+  @@index([status, createdAt(sort: Desc)])
+  @@map("enquiry_listings")
+}
+
+/// Append-only lead history. `isCustomerVisible` is the single switch that
+/// decides whether an entry may cross into the customer-facing projection.
+model EnquiryActivity {
+  id               String              @id @default(cuid())
+  enquiryId        String
+  enquiryListingId String?
+  type             EnquiryActivityType
+  fromStatus       EnquiryStatus?
+  toStatus         EnquiryStatus?
+  message          String?             @db.Text
+  isCustomerVisible Boolean            @default(false)
+  actorUserId      String?
+  actorName        String?
+  metadata         Json?
+  createdAt        DateTime            @default(now())
+
+  enquiry        Enquiry         @relation(fields: [enquiryId], references: [id], onDelete: Cascade)
+  enquiryListing EnquiryListing? @relation(fields: [enquiryListingId], references: [id], onDelete: Cascade)
+  actor          User?           @relation(fields: [actorUserId], references: [id], onDelete: SetNull)
+
+  @@index([enquiryId, createdAt])
+  @@index([enquiryListingId, createdAt])
+  @@index([enquiryId, isCustomerVisible, createdAt])
+  @@map("enquiry_activities")
+}
+
+/// Private internal notes. Never selected by any customer-facing query.
+model EnquiryNote {
+  id               String   @id @default(cuid())
+  enquiryId        String
+  enquiryListingId String?
+  authorUserId      String?
+  authorName        String?
+  body             String   @db.Text
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  enquiry        Enquiry         @relation(fields: [enquiryId], references: [id], onDelete: Cascade)
+  enquiryListing EnquiryListing? @relation(fields: [enquiryListingId], references: [id], onDelete: Cascade)
+  author         User?           @relation(fields: [authorUserId], references: [id], onDelete: SetNull)
+
+  @@index([enquiryId, createdAt])
+  @@index([enquiryListingId, createdAt])
+  @@map("enquiry_notes")
+}
+
+// ---------------------------------------------------------------------------
+// Platform administration and abuse control
+// ---------------------------------------------------------------------------
+
+/// Audit trail for administrative actions. `action` is a string validated
+/// against a closed Zod enum in src/lib/validation/audit.ts — a string rather
+/// than a database enum here because audit actions are extended far more often
+/// than domain statuses, and a log table should never block a migration.
+model AuditLog {
+  id          String   @id @default(cuid())
+  action      String
+  entityType  String
+  entityId    String
+  summary     String
+  actorUserId String?
+  actorName   String?
+  metadata    Json?
+  ipHash      String?
+  userAgent   String?
+  createdAt   DateTime @default(now())
+
+  actor User? @relation(fields: [actorUserId], references: [id], onDelete: SetNull)
+
+  @@index([entityType, entityId, createdAt(sort: Desc)])
+  @@index([actorUserId, createdAt(sort: Desc)])
+  @@index([action, createdAt(sort: Desc)])
+  @@map("audit_logs")
+}
+
+/// Fixed-window rate limiting. Deliberately in PostgreSQL rather than process
+/// memory: serverless instances do not share memory, so an in-memory limiter is
+/// silently wrong under scale-out.
+model RateLimitBucket {
+  id          String   @id @default(cuid())
+  key         String
+  windowStart DateTime
+  count       Int      @default(0)
+  expiresAt   DateTime
+
+  @@unique([key, windowStart])
+  @@index([expiresAt])
+  @@map("rate_limit_buckets")
+}
+
+/// Replay protection for enquiry submission. The unique constraint on `key` is
+/// the mechanism — never a SELECT followed by an INSERT.
+model IdempotencyKey {
+  id          String   @id @default(cuid())
+  key         String
+  scope       String
+  requestHash String
+  enquiryId   String?
+  createdAt   DateTime @default(now())
+  expiresAt   DateTime
+
+  @@unique([scope, key])
+  @@index([expiresAt])
+  @@index([enquiryId])
+  @@map("idempotency_keys")
+}

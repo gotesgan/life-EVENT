@@ -1,0 +1,254 @@
+import { Suspense } from 'react';
+import { connection } from 'next/server';
+import type { Metadata } from 'next';
+import Link from '@/components/ui/ClientLink';
+import { Button, Group, SimpleGrid, Skeleton, Stack } from '@mantine/core';
+import { HeroSearchBar } from '@/components/filters/HeroSearchBar';
+import { HomeHero } from '@/components/layout/HomeHero';
+import { PageSection } from '@/components/layout/PageSection';
+import { SiteShell } from '@/components/layout/SiteShell';
+import { CategoryCard } from '@/components/listing/CategoryCard';
+import { ListingGrid } from '@/components/listing/ListingGrid';
+import { ListingResultsSkeleton } from '@/components/listing/ListingResultsSkeleton';
+import { LocationLinks } from '@/components/listing/LocationLinks';
+import { Container } from '@/components/ui/Container';
+import { EmptyState } from '@/components/ui/EmptyState';
+import { Surface } from '@/components/ui/Surface';
+import { searchQuerySchema } from '@/lib/validation/search';
+import { listCategories, listLocations } from '@/server/services/catalog.service';
+import { searchPublicListings } from '@/server/services/search.service';
+
+export const metadata: Metadata = {
+  title: 'Wedding and event vendors, with published prices',
+  description: 'Compare published prices and send one enquiry to the businesses you choose.',
+  alternates: { canonical: '/' },
+};
+
+/*
+ * Every data-reading subtree below is its own async component behind a
+ * `<Suspense>` boundary. `cacheComponents: true` makes an uncached database read
+ * outside a boundary a build error, and it is also the right shape: the hero and
+ * the section headings are static, and each band streams in as its query
+ * finishes rather than holding up the whole page.
+ */
+
+async function HomeSearch() {
+  // `connection()` marks this subtree as request-time. Without it Next tries to
+  // prerender the homepage at build time, which both freezes build-time listing
+  // data into the HTML and fails outright: the Prisma client calls
+  // `crypto.randomUUID()` internally, and `cacheComponents` rejects that as an
+  // unstable value during prerendering. Declaring the dependency explicitly is
+  // the documented way to say "this data is per-request".
+  await connection();
+
+  const [categories, cities] = await Promise.all([
+    listCategories(),
+    listLocations({ type: 'CITY' }),
+  ]);
+
+  return (
+    <HeroSearchBar
+      categories={categories.map((category) => ({ slug: category.slug, name: category.name }))}
+      locations={cities.map((city) => ({ slug: city.slug, name: city.name }))}
+    />
+  );
+}
+
+function SearchSkeleton() {
+  return (
+    <SimpleGrid cols={{ base: 1, sm: 4 }} spacing="sm">
+      <Skeleton height={62} radius="md" />
+      <Skeleton height={62} radius="md" />
+      <Skeleton height={62} radius="md" />
+      <Skeleton height={62} radius="md" />
+    </SimpleGrid>
+  );
+}
+
+async function PopularCategories() {
+  // `connection()` marks this subtree as request-time. Without it Next tries to
+  // prerender the homepage at build time, which both freezes build-time listing
+  // data into the HTML and fails outright: the Prisma client calls
+  // `crypto.randomUUID()` internally, and `cacheComponents` rejects that as an
+  // unstable value during prerendering. Declaring the dependency explicitly is
+  // the documented way to say "this data is per-request".
+  await connection();
+
+  const categories = await listCategories();
+  const ranked = [...categories].sort(
+    (a, b) => b.listingCount - a.listingCount || a.name.localeCompare(b.name),
+  );
+  const withListings = ranked.filter((category) => category.listingCount > 0);
+  const shown = (withListings.length > 0 ? withListings : ranked).slice(0, 8);
+
+  return (
+    <SimpleGrid cols={{ base: 1, xs: 2, md: 3, lg: 4 }} spacing="sm">
+      {shown.map((category) => (
+        <CategoryCard
+          key={category.id}
+          slug={category.slug}
+          name={category.name}
+          listingCount={category.listingCount}
+          shortDescription={category.shortDescription}
+        />
+      ))}
+    </SimpleGrid>
+  );
+}
+
+async function CityStrip() {
+  // `connection()` marks this subtree as request-time. Without it Next tries to
+  // prerender the homepage at build time, which both freezes build-time listing
+  // data into the HTML and fails outright: the Prisma client calls
+  // `crypto.randomUUID()` internally, and `cacheComponents` rejects that as an
+  // unstable value during prerendering. Declaring the dependency explicitly is
+  // the documented way to say "this data is per-request".
+  await connection();
+
+  const cities = await listLocations({ type: 'CITY' });
+  if (cities.length === 0) return null;
+
+  return (
+    <LocationLinks
+      label="Browse by city"
+      locations={cities.slice(0, 18).map((city) => ({ slug: city.slug, name: city.name }))}
+    />
+  );
+}
+
+async function VerifiedRail() {
+  // `connection()` marks this subtree as request-time. Without it Next tries to
+  // prerender the homepage at build time, which both freezes build-time listing
+  // data into the HTML and fails outright: the Prisma client calls
+  // `crypto.randomUUID()` internally, and `cacheComponents` rejects that as an
+  // unstable value during prerendering. Declaring the dependency explicitly is
+  // the documented way to say "this data is per-request".
+  await connection();
+
+  const result = await searchPublicListings({
+    query: searchQuerySchema.parse({ verified: 'true', page: 1, pageSize: 4, sort: 'recommended' }),
+    rawParams: { verified: 'true' },
+    basePath: '/vendors',
+  });
+
+  if (result.cards.length === 0) {
+    return (
+      <EmptyState
+        title="No verified businesses yet"
+        description="Browse every listing in the meantime."
+        primaryAction={
+          <Button component={Link} href="/vendors" variant="default">
+            Browse all vendors
+          </Button>
+        }
+      />
+    );
+  }
+
+  return (
+    <>
+      <ListingGrid listings={result.cards} label="Verified businesses" />
+      <Group mt="md">
+        <Button component={Link} href="/vendors?verified=true" variant="default" size="sm">
+          See all verified businesses
+        </Button>
+      </Group>
+    </>
+  );
+}
+
+export default function HomePage() {
+  return (
+    <SiteShell>
+      {/* The hero and every band below it are the editorial register: one message
+          in the viewport, so the page breathes. Density is only added where the
+          task demands comparison — the browse grid (guide §8.1). */}
+      <div className="surface--editorial">
+        <HomeHero
+          title="Your wedding, your way."
+          lede="Compare published prices, then send one enquiry."
+          facts={['Published prices and inclusions', 'One enquiry to up to 10 businesses']}
+          imageUrl="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2000&auto=format&fit=crop"
+          imageAlt="Bride and groom celebrating with confetti"
+          popularSearches={[
+            { label: 'Banquet halls', href: '/vendors?category=venues' },
+            { label: 'Photographers', href: '/vendors?category=photographers' },
+            { label: 'Makeup artists', href: '/vendors?category=makeup-artists' },
+            { label: 'Decorators', href: '/vendors?category=decorators-and-florists' },
+          ]}
+        >
+          <Suspense fallback={<SearchSkeleton />}>
+            <HomeSearch />
+          </Suspense>
+        </HomeHero>
+      </div>
+
+      <Container className="surface--editorial">
+        <PageSection
+          id="popular-categories"
+          title="Browse by category"
+          action={
+            <Button component={Link} href="/categories" variant="default" size="sm">
+              All categories
+            </Button>
+          }
+        >
+          <Suspense
+            fallback={
+              <SimpleGrid cols={{ base: 1, xs: 2, md: 3, lg: 4 }} spacing="sm">
+                {Array.from({ length: 8 }, (_, index) => (
+                  <Skeleton key={index} height={104} radius="lg" />
+                ))}
+              </SimpleGrid>
+            }
+          >
+            <PopularCategories />
+          </Suspense>
+        </PageSection>
+
+        <PageSection id="by-city" title="Find vendors near you">
+          <Suspense
+            fallback={
+              <Group gap="xs">
+                {Array.from({ length: 8 }, (_, index) => (
+                  <Skeleton key={index} height={40} width={120} radius="xl" />
+                ))}
+              </Group>
+            }
+          >
+            <CityStrip />
+          </Suspense>
+        </PageSection>
+
+        <PageSection id="verified" title="Verified businesses">
+          <Suspense fallback={<ListingResultsSkeleton count={4} />}>
+            <VerifiedRail />
+          </Suspense>
+        </PageSection>
+
+        <PageSection id="how-it-works" title="How it works">
+          <SimpleGrid cols={{ base: 1, md: 3 }} spacing="lg">
+            <Surface tone="raised" padding="md" radius="card">
+              <Stack gap="xs">
+                <h3>Compare</h3>
+                <p>Price, capacity and inclusions as published. No guesses.</p>
+              </Stack>
+            </Surface>
+            <Surface tone="raised" padding="md" radius="card">
+              <Stack gap="xs">
+                <h3>Enquire once</h3>
+                <p>One form to up to ten businesses.</p>
+              </Stack>
+            </Surface>
+            <Surface tone="raised" padding="md" radius="card">
+              <Stack gap="xs">
+                <h3>Track replies</h3>
+                <p>One reference code. No account needed.</p>
+              </Stack>
+            </Surface>
+          </SimpleGrid>
+        </PageSection>
+      </Container>
+    </SiteShell>
+  );
+}

@@ -1,0 +1,227 @@
+/*
+ * Admin chrome.
+ *
+ * The back office is an *operations tool*: an administrator reads it for hours,
+ * so the shell spends its contrast budget on orientation (which page am I on)
+ * rather than expression. Everything here consumes app tokens — no hex, no raw
+ * px type sizes.
+ *
+ * Two surfaces meet in the shell: the rail and the topbar sit on
+ * `--app-surface-muted` (chrome), the workspace pane is `--app-surface-raised`
+ * (content). That one step is what makes the navigation read as a rail rather
+ * than as more content stacked above the page.
+ */
+
+/* --- Topbar ---------------------------------------------------------------- */
+
+.header {
+  background: var(--app-surface-muted);
+  border-bottom: 1px solid var(--app-border);
+  /* A sticky bar is separated by its hairline, never by a shadow (guide §5.3). */
+}
+
+.headerInner {
+  height: 100%;
+  padding-inline: var(--mantine-spacing-md);
+  gap: var(--mantine-spacing-md);
+}
+
+.headerBrand {
+  display: flex;
+  align-items: center;
+  gap: rem(8px);
+  min-width: 0;
+}
+
+.headerDivider {
+  color: var(--app-border-strong);
+}
+
+.headerRole {
+  font-size: var(--text-label-size);
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  color: var(--app-text-muted);
+  white-space: nowrap;
+}
+
+.headerRight {
+  gap: rem(10px);
+  min-width: 0;
+}
+
+/* Who is acting. The name is the audit identity for every mutation on this
+   screen, so it is ink, labelled, and truncating rather than wrapping. */
+.actor {
+  display: flex;
+  align-items: center;
+  gap: rem(6px);
+  min-width: 0;
+  padding: rem(3px) rem(8px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-pill);
+  background: var(--app-surface-raised);
+}
+
+.actorLabel {
+  font-size: var(--text-caption-size);
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--app-text-subtle);
+}
+
+.actorName {
+  max-width: rem(180px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: var(--text-caption-size);
+  font-weight: 600;
+  color: var(--app-text);
+}
+
+.publicLink {
+  display: inline-flex;
+  align-items: center;
+  gap: rem(5px);
+  height: rem(30px);
+  padding-inline: rem(10px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-control);
+  background: var(--app-surface-raised);
+  font-size: var(--text-caption-size);
+  font-weight: 650;
+  color: var(--app-text-muted);
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    background-color var(--app-duration-micro) var(--app-ease-out),
+    border-color var(--app-duration-micro) var(--app-ease-out),
+    color var(--app-duration-micro) var(--app-ease-out);
+
+  @mixin hover {
+    background: var(--app-surface-hover);
+    border-color: var(--app-border-strong);
+    color: var(--app-text);
+    text-decoration: none;
+  }
+}
+
+/* --- Navigation rail ------------------------------------------------------- */
+
+.navbar {
+  background: var(--app-surface-muted);
+  border-inline-end: 1px solid var(--app-border);
+}
+
+.navSections {
+  padding: rem(10px) rem(8px) rem(16px);
+}
+
+.navGroupLabel {
+  margin: 0;
+  padding: rem(12px) rem(10px) rem(4px);
+  font-size: var(--text-caption-size);
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--app-text-subtle);
+}
+
+.navItem {
+  position: relative;
+  border-radius: var(--app-radius-control);
+  padding: rem(7px) rem(10px);
+  column-gap: rem(10px);
+  color: var(--app-text-muted);
+  font-weight: 550;
+  transition:
+    background-color var(--app-duration-micro) var(--app-ease-out),
+    color var(--app-duration-micro) var(--app-ease-out);
+}
+
+/* `.navItem.navItem:hover` (0,2,0 + `:hover`) out-specifies Mantine's own
+   `:where([data-mantine-color-scheme]) .root:hover` pair without `!important`. */
+.navItem.navItem:hover {
+  background: var(--app-surface-hover);
+  color: var(--app-text);
+}
+
+/* Two classes, so this beats Mantine's own `.m_…:where([data-active])` rule
+   (class + zero-specificity `:where()`) without reaching for `!important`. */
+.navItem.navItemActive {
+  background: var(--app-brand-soft);
+  color: var(--app-brand-soft-text);
+  font-weight: 650;
+}
+
+.navItem.navItemActive:hover {
+  background: var(--app-brand-soft-hover);
+  color: var(--app-brand-soft-text);
+}
+
+.navItemParent {
+  font-weight: 600;
+  color: var(--app-text);
+}
+
+/* The marker is the *primary* channel for "you are here", so the state survives
+   a greyscale screenshot and a colour-blind reader. It is paired with the page
+   `h1`, which names the same page in words. Drawn as a child span rather than
+   with `::before` so it is a real, styleable box. */
+.navMarker {
+  width: rem(3px);
+  height: rem(18px);
+  border-radius: var(--app-radius-pill);
+  background: var(--app-brand);
+  flex: none;
+}
+
+.navMarkerIdle {
+  background: transparent;
+}
+
+.navLabel {
+  display: flex;
+  align-items: center;
+  gap: rem(10px);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.navChildren {
+  margin-top: rem(2px);
+  padding-inline-start: rem(14px);
+  border-inline-start: 1px solid var(--app-border);
+}
+
+.navInboxBadge {
+  /* Tabular so the badge width does not change as leads arrive. */
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+/* --- Workspace ------------------------------------------------------------- */
+
+.main {
+  background: var(--app-surface-raised);
+}
+
+.mainInner {
+  max-width: var(--app-max-width);
+  margin-inline: auto;
+  width: 100%;
+}
+
+@mixin smaller-than $mantine-breakpoint-sm {
+  .headerInner {
+    padding-inline: var(--mantine-spacing-sm);
+  }
+
+  .actor {
+    display: none;
+  }
+}

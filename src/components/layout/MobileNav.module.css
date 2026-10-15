@@ -1,0 +1,42 @@
+/*
+ * Mobile navigation drawer.
+ *
+ * Row height is 40px, not 32px: this is a phone, the whole row is the hit
+ * target, and 40px is the smallest comfortable thumb target that still fits
+ * ~20 rows without scrolling for most of the list.
+ */
+
+.drawerBody {
+  padding-inline: rem(8px);
+  padding-block: rem(12px) rem(24px);
+}
+
+.group + .group {
+  margin-block-start: rem(20px);
+}
+
+.groupLabel {
+  margin: 0 0 rem(4px);
+  padding-inline: rem(12px);
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.groupList {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  min-height: rem(40px);
+  border-radius: var(--app-radius-control);
+  color: var(--app-text);
+  font-size: var(--text-secondary-size);
+  font-weight: 600;
+}

@@ -1,0 +1,580 @@
+URL_REQUESTED https://www.weddingwire.in/wedding-venues
+STATUS 200
+FINAL_URL https://www.weddingwire.in/wedding-venues
+TITLE Wedding Venues - Find the Best Marriage Venues Near You/Me, Small Party venue
+STAGE pre-screenshot 15038 ms
+SCREENSHOT docs/research/shots/weddingwire-listing.png
+STAGE pre-extract 15356 ms
+STAGE pre-hover 15405 ms
+RAW docs/research/raw/weddingwire-listing.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(34, 34, 34)","fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 800x42 "Wedding venues"
+  H2 1296x30 "Venues by region"
+  H2 493x40 "Find your wedding venue"
+  H2 1296x30 "Venues in Hyderabad"
+  H2 270x54 "Hilton Hyderabad Genome Valley Resort & Spa"
+  H2 270x54 "Marasa Sarovar Premiere, Tirupati"
+  H2 270x27 "The Platinum Business Hotel"
+  H2 270x27 "Town Square Suites"
+  H2 1296x30 "Venues in Bangalore"
+  H2 270x27 "Inari Meadows"
+  H2 270x27 "Amita Rasa"
+  H2 270x27 "Big Banyan Vineyard & Resort"
+  H2 270x27 "Rustique Winds"
+  H2 1296x30 "Venues in Mumbai"
+  H2 270x27 "Indana Palace, Jodhpur"
+  H2 270x27 "Satyam Banquets"
+  H2 270x27 "Blue Sea Mumbai"
+  H2 270x27 "Grape County Eco Resort & Spa"
+  H2 1296x30 "Venues in Chennai"
+  H2 270x27 "Blue Bay Beach Resort"
+  H2 270x27 "ORO The Estates, Nandi Hills"
+  H2 270x27 "MGM Beach Resort"
+  H2 270x27 "GKS Convention Centre"
+  H2 1296x30 "Every type of venue to make your unique wedding a reality"
+  H2 270x81 "Diamond Crown Banquets Expressway (A Unit of Bobby Tikki Wala)"
+  H2 270x27 "Corbett Adventure Resort"
+  H2 270x54 "Sterling Ooty Fern Hill - Resorts and Hotels"
+  H2 270x27 "Orchid Lawns And Banquets"
+  H2 270x27 "Palm Beach Lawn & Banquets"
+  H2 270x27 "The Windflower Resort & Spa"
+  H2 270x27 "Swosti Chilika Resort"
+  H2 270x27 "Swosti Premium"
+  H3 1296x30 "Promotions you might be interested in"
+  H2 1296x30 "12 Factors to consider before choosing the venue for your wedding"
+  H2 1296x30 "How to find the right wedding venue near you"
+  H3 1296x30 "Frequently asked questions regarding Wedding Venues"
+  H3 1296x30 "Wedding Venues by zone"
+  H2 1296x32 "All wedding vendors"
+  H3 1296x24 "Wedding Venues"
+--- HEADER {"position":"relative","top":"0px","height":"96px","backgroundColor":"rgba(0, 0, 0, 0)","borderBottom":"0px none rgb(34, 34, 34)","boxShadow":"none","zIndex":"auto"} 1360x96
+--- HEADER_TEXT Planning Tools Wedding Venues Wedding Vendors Brides Grooms Blogs Community ARE YOU A VENDOR? Log In Free sign up
+--- HEADER_LINKS Planning Tools | Wedding Venues | Wedding Vendors | Brides | Grooms | Blogs | Community | ARE YOU A VENDOR? | Log In | Free sign up
+--- NAV_ALL Planning Tools | Wedding Venues | Wedding Vendors | Brides | Grooms | Blogs | Community | Wedding
+--- SEARCH_INPUTS
+  {"tag":"INPUT","type":"text","ph":"Search vendor category or name","aria":"Search vendor category or name","name":"txtStrSearch","r":{"x":119,"y":203,"w":293,"h":54}}
+  {"tag":"INPUT","type":"text","ph":"Location","aria":"Location","name":"txtLocSearch","r":{"x":470,"y":203,"w":192,"h":54}}
+--- FILTER_CONTAINERS
+  [0] DIV "searcher__category app-filter-searcher-field " {"x":72,"y":202,"w":355,"h":56} CTRLS=[{"tag":"INPUT","type":"text","role":null,"aria":"Search vendor category or name","label":""}]
+  [1] INPUT "searcher__input app-filter-searcher-input app-searcher-category-input-tracking app-searcher-category-input" {"x":119,"y":203,"w":293,"h":54} CTRLS=[]
+--- CARDS
+  [0] imgRatio=1 145x145 alt="Hyderabad"
+     d0 PICTURE "venuesCitiesList__image" 145x145 {"borderRadius":"50%","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "venuesCitiesList__item app-landing-city-tile" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues"
+     d2 DIV "scrollSnap__item app-scroll-snap-item venuesCitiesList__slide" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues"
+     d3 DIV "scrollSnap__container app-scroll-snap-container venuesCitiesList__slider" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+     d4 DIV "scrollSnap app-scroll-snap-wrapper scrollSnap--fullBleed scrollSnap--floatArrows" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+  [1] imgRatio=1 145x145 alt="Bangalore"
+     d0 PICTURE "venuesCitiesList__image" 145x145 {"borderRadius":"50%","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "venuesCitiesList__item app-landing-city-tile" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Bangalore 805 venues"
+     d2 DIV "scrollSnap__item app-scroll-snap-item venuesCitiesList__slide" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Bangalore 805 venues"
+     d3 DIV "scrollSnap__container app-scroll-snap-container venuesCitiesList__slider" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+     d4 DIV "scrollSnap app-scroll-snap-wrapper scrollSnap--fullBleed scrollSnap--floatArrows" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+  [2] imgRatio=1 145x145 alt="Mumbai"
+     d0 PICTURE "venuesCitiesList__image" 145x145 {"borderRadius":"50%","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "venuesCitiesList__item app-landing-city-tile" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Mumbai 975 venues"
+     d2 DIV "scrollSnap__item app-scroll-snap-item venuesCitiesList__slide" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Mumbai 975 venues"
+     d3 DIV "scrollSnap__container app-scroll-snap-container venuesCitiesList__slider" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+     d4 DIV "scrollSnap app-scroll-snap-wrapper scrollSnap--fullBleed scrollSnap--floatArrows" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+  [3] imgRatio=1 145x145 alt="Chennai"
+     d0 PICTURE "venuesCitiesList__image" 145x145 {"borderRadius":"50%","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "venuesCitiesList__item app-landing-city-tile" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Chennai 356 venues"
+     d2 DIV "scrollSnap__item app-scroll-snap-item venuesCitiesList__slide" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Chennai 356 venues"
+     d3 DIV "scrollSnap__container app-scroll-snap-container venuesCitiesList__slider" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+     d4 DIV "scrollSnap app-scroll-snap-wrapper scrollSnap--fullBleed scrollSnap--floatArrows" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+  [4] imgRatio=1 145x145 alt="Delhi NCR"
+     d0 PICTURE "venuesCitiesList__image" 145x145 {"borderRadius":"50%","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "venuesCitiesList__item app-landing-city-tile" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Delhi NCR 2,047 venues"
+     d2 DIV "scrollSnap__item app-scroll-snap-item venuesCitiesList__slide" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Delhi NCR 2,047 venues"
+     d3 DIV "scrollSnap__container app-scroll-snap-container venuesCitiesList__slider" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+     d4 DIV "scrollSnap app-scroll-snap-wrapper scrollSnap--fullBleed scrollSnap--floatArrows" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+  [5] imgRatio=1 145x145 alt="Lucknow"
+     d0 PICTURE "venuesCitiesList__image" 145x145 {"borderRadius":"50%","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "venuesCitiesList__item app-landing-city-tile" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Lucknow 507 venues"
+     d2 DIV "scrollSnap__item app-scroll-snap-item venuesCitiesList__slide" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Lucknow 507 venues"
+     d3 DIV "scrollSnap__container app-scroll-snap-container venuesCitiesList__slider" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+     d4 DIV "scrollSnap app-scroll-snap-wrapper scrollSnap--fullBleed scrollSnap--floatArrows" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+  [6] imgRatio=1 145x145 alt="Kolkata"
+     d0 PICTURE "venuesCitiesList__image" 145x145 {"borderRadius":"50%","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "venuesCitiesList__item app-landing-city-tile" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Kolkata 289 venues"
+     d2 DIV "scrollSnap__item app-scroll-snap-item venuesCitiesList__slide" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Kolkata 289 venues"
+     d3 DIV "scrollSnap__container app-scroll-snap-container venuesCitiesList__slider" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+     d4 DIV "scrollSnap app-scroll-snap-wrapper scrollSnap--fullBleed scrollSnap--floatArrows" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+  [7] imgRatio=1 145x145 alt="Ahmedabad"
+     d0 PICTURE "venuesCitiesList__image" 145x145 {"borderRadius":"50%","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "venuesCitiesList__item app-landing-city-tile" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Ahmedabad 269 venues"
+     d2 DIV "scrollSnap__item app-scroll-snap-item venuesCitiesList__slide" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Ahmedabad 269 venues"
+     d3 DIV "scrollSnap__container app-scroll-snap-container venuesCitiesList__slider" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+     d4 DIV "scrollSnap app-scroll-snap-wrapper scrollSnap--fullBleed scrollSnap--floatArrows" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+  [8] imgRatio=1 145x145 alt="Indore"
+     d0 PICTURE "venuesCitiesList__image" 145x145 {"borderRadius":"50%","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "venuesCitiesList__item app-landing-city-tile" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Indore 65 venues"
+     d2 DIV "scrollSnap__item app-scroll-snap-item venuesCitiesList__slide" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Indore 65 venues"
+     d3 DIV "scrollSnap__container app-scroll-snap-container venuesCitiesList__slider" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+     d4 DIV "scrollSnap app-scroll-snap-wrapper scrollSnap--fullBleed scrollSnap--floatArrows" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+  [9] imgRatio=1 145x145 alt="Patna"
+     d0 PICTURE "venuesCitiesList__image" 145x145 {"borderRadius":"50%","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "venuesCitiesList__item app-landing-city-tile" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Patna 132 venues"
+     d2 DIV "scrollSnap__item app-scroll-snap-item venuesCitiesList__slide" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Patna 132 venues"
+     d3 DIV "scrollSnap__container app-scroll-snap-container venuesCitiesList__slider" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+     d4 DIV "scrollSnap app-scroll-snap-wrapper scrollSnap--fullBleed scrollSnap--floatArrows" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+  [10] imgRatio=1 145x145 alt="Gurgaon"
+     d0 PICTURE "venuesCitiesList__image" 145x145 {"borderRadius":"50%","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "venuesCitiesList__item app-landing-city-tile" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Gurgaon 415 venues"
+     d2 DIV "scrollSnap__item app-scroll-snap-item venuesCitiesList__slide" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Gurgaon 415 venues"
+     d3 DIV "scrollSnap__container app-scroll-snap-container venuesCitiesList__slider" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+     d4 DIV "scrollSnap app-scroll-snap-wrapper scrollSnap--fullBleed scrollSnap--floatArrows" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+  [11] imgRatio=1 145x145 alt="Agra"
+     d0 PICTURE "venuesCitiesList__image" 145x145 {"borderRadius":"50%","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "venuesCitiesList__item app-landing-city-tile" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Agra 131 venues"
+     d2 DIV "scrollSnap__item app-scroll-snap-item venuesCitiesList__slide" 150x200 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Agra 131 venues"
+     d3 DIV "scrollSnap__container app-scroll-snap-container venuesCitiesList__slider" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+     d4 DIV "scrollSnap app-scroll-snap-wrapper scrollSnap--fullBleed scrollSnap--floatArrows" 1296x216 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venues Ahmedabad 269 venues Indore 65 venues Patna 132 venues Gurgaon 415 venues Agra 
+  [12] imgRatio=2.815 816x290 alt="Find your wedding venue"
+     d0 PICTURE "categoryModuleBanner__image" 1296x290 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 DIV "categoryModuleBanner" 1296x290 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Find your wedding venue Search through a vast selection of venues to find the place that perfectly matches your wedding vision."
+     d2 SECTION "categoryModule categoryModule--bannerOnly" 1296x325 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Find your wedding venue Search through a vast selection of venues to find the place that perfectly matches your wedding vision."
+     d3 ARTICLE "categoryGroupListing app-internal-tracking-page app-category-group-listing-venues" 1296x7751 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Wedding venues in Find Planning is easier on the app Get the app Venues by region Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 venues Kolkata 289 venu
+     d4 MAIN "layoutMain" 1360x7776 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 32px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Wedding Wedding Venues Wedding venues in Find Planning is easier on the app Get the app Venues by region Hyderabad 458 venues Bangalore 805 venues Mumbai 975 venues Chennai 356 venues Delhi NCR 2,047 venues Lucknow 507 
+  [13] imgRatio=1.499 302x201 alt="Hilton Hyderabad Genome Valley Resort & Spa"
+     d0 PICTURE "vendorTileGallery__image" 302x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 302x208 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="TOP"
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 302x448 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"box-shadow 0.2s","overflow":"visible","display":"grid","gap":"normal"} TEXT="TOP Hilton Hyderabad Genome Valley Resort & Spa Shamirpet, Hyderabad From ₹5,000 50 to 1000 Guests 1 promotion -10% Discount Request pricing"
+     d3 DIV "scrollSnap__item app-scroll-snap-item categoryModuleVendorList__sliderItem" 312x458 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="TOP Hilton Hyderabad Genome Valley Resort & Spa Shamirpet, Hyderabad From ₹5,000 50 to 1000 Guests 1 promotion -10% Discount Request pricing"
+     d4 DIV "scrollSnap__container app-scroll-snap-container categoryModuleVendorList__slider" 1296x474 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="TOP Hilton Hyderabad Genome Valley Resort & Spa Shamirpet, Hyderabad From ₹5,000 50 to 1000 Guests 1 promotion -10% Discount Request pricing PREMIUM Marasa Sarovar Premiere, Tirupati 5.0 (2) · Hyderabad From ₹1,200 100 
+--- IMAGES
+  210x29 nat=220x30 fit=fill radius=0px alt="Wedding"
+  44x44 nat=65x65 fit=fill radius=0px alt=""
+  24x24 nat=24x24 fit=fill radius=0px alt=""
+  145x145 nat=225x286 fit=cover radius=0px alt="Hyderabad"
+  145x145 nat=225x286 fit=cover radius=0px alt="Bangalore"
+  145x145 nat=225x286 fit=cover radius=0px alt="Mumbai"
+  145x145 nat=225x286 fit=cover radius=0px alt="Chennai"
+  145x145 nat=225x286 fit=cover radius=0px alt="Delhi NCR"
+  145x145 nat=225x286 fit=cover radius=0px alt="Lucknow"
+  145x145 nat=225x286 fit=cover radius=0px alt="Kolkata"
+  145x145 nat=225x286 fit=cover radius=0px alt="Ahmedabad"
+  145x145 nat=225x286 fit=cover radius=0px alt="Indore"
+  145x145 nat=225x286 fit=cover radius=0px alt="Patna"
+  145x145 nat=225x286 fit=cover radius=0px alt="Gurgaon"
+  145x145 nat=0x0 fit=cover radius=0px alt="Agra"
+  816x290 nat=1630x580 fit=cover radius=8px alt="Find your wedding venue"
+  302x201 nat=640x427 fit=fill radius=0px alt="Hilton Hyderabad Genome Valley Resort & Spa"
+  302x201 nat=640x427 fit=fill radius=0px alt="Marasa Sarovar Premiere, Tirupati"
+--- TYPE_ROLES
+  h1 "Wedding venues" {"fontFamily":"Merriweather, Merriweather-fallback-TimesNewRoman, times, serif","fontSize":"30px","fontWeight":"700","lineHeight":"42px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "Venues by region" {"fontFamily":"Merriweather, Merriweather-fallback-TimesNewRoman, times, serif","fontSize":"24px","fontWeight":"700","lineHeight":"30px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 24px"}
+  card-title "Find your wedding venue" {"fontFamily":"Merriweather, Merriweather-fallback-TimesNewRoman, times, serif","fontSize":"26.08px","fontWeight":"700","lineHeight":"40px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 8px"}
+  card-title "Venues in Hyderabad" {"fontFamily":"Merriweather, Merriweather-fallback-TimesNewRoman, times, serif","fontSize":"24px","fontWeight":"700","lineHeight":"30px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 24px"}
+  card-meta "Planning is easier on the app" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px","fontWeight":"600","lineHeight":"24px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "Search through a vast selection of venues to find the place that perfe" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 16px"}
+  card-meta "Take your venue shortlist on the go" {"fontFamily":"Merriweather, Merriweather-fallback-TimesNewRoman, times, serif","fontSize":"40px","fontWeight":"700","lineHeight":"50px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  nav-link "" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"color 0.15s","padding":"0px","margin":"20px 0px 0px"}
+  nav-link "Planning Tools" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px","fontWeight":"600","lineHeight":"24px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"color 0.15s","padding":"0px 12px","margin":"0px"}
+  nav-link "Wedding Venues" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px","fontWeight":"600","lineHeight":"24px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"color 0.15s","padding":"0px 12px","margin":"0px"}
+  price "From ₹5,000" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"21px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  price "" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"0px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 5.92px 0px 0px"}
+  price "From ₹1,200" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"21px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+--- BODY_TEXT
+Ir al contenido principal
+Planning Tools
+Wedding Venues
+Wedding Vendors
+Brides
+Grooms
+Blogs
+Community
+ ARE YOU A VENDOR?
+Log In
+Free sign up
+Wedding  Wedding Venues
+Wedding venues
+in
+Find
+
+Planning is easier on the app
+
+Get the app
+Venues by region
+Hyderabad
+458 venues
+Bangalore
+805 venues
+Mumbai
+975 venues
+Chennai
+356 venues
+Delhi NCR
+2,047 venues
+Lucknow
+507 venues
+Kolkata
+289 venues
+Ahmedabad
+269 venues
+Indore
+65 venues
+Patna
+132 venues
+Gurgaon
+415 venues
+Agra
+131 venues
+Find your wedding venue
+
+Search through a vast selection of venues to find the place that perfectly matches your wedding vision.
+
+Venues in Hyderabad
+TOP
+Hilton Hyderabad Genome Valley Resort & Spa
+Shamirpet, Hyderabad
+From ₹5,000
+50 to 1000
+Guests
+1 promotion -10%
+Discount
+Request pricing
+PREMIUM
+Marasa Sarovar Premiere, Tirupati
+5.0
+(2)
+ · 
+Hyderabad
+From ₹1,200
+100 to 700
+Guests
+3 promotions -10%
+Discount
+Request pricing
+PREMIUM
+The Platinum Business Hotel
+5.0
+(6)
+ · 
+Himayath Nagar, Hyderabad
+From ₹900
+30 to 500
+Guests
+1 promotion -5%
+Discount
+Request pricing
+PREMIUM
+Town Square Suites
+Shamshabad, Hyderabad
+From ₹900
+10 to 1000
+Guests
+1 promotion -5%
+Discount
+Request pricing
+Discover 458 venues in Hyderabad
+
+Take your venue shortlist on the go
+
+Track your favorites, compare pricing, and message venues instantly with the WeddingWire app.
+
+Get the WeddingWire app
+
+Scan this QR code.
+
+Venues in Bangalore
+TOP
+Inari Meadows
+Yelahanka - Kempegowda International Airport, Bangalore
+From ₹1,200
+50 to 1500
+Guests
+1 promotion -15%
+Discount
+Request pricing
+TOP
+Amita Rasa
+Bangalore
+From ₹0.50
+300 to 1500
+Guests
+Request pricing
+TOP
+Big Banyan Vineyard & Resort
+Mysore Road, Bangalore
+From ₹1,500
+25 to 3000
+Guests
+1 promotion -5%
+Discount
+Request pricing
+TOP
+Rustique Winds
+4.8
+(7)
+ · 
+Whitefield, Bangalore
+From ₹1,100
+50 to 700
+Guests
+Request pricing
+Discover 805 venues in Bangalore
+Venues in Mumbai
+PREMIUM
+Indana Palace, Jodhpur
+4.8
+(1)
+ · 
+Mumbai
+From ₹1,600
+50 to 1500
+Guests
+1 promotion -5%
+Discount
+Request pricing
+PREMIUM
+Satyam Banquets
+5.0
+(12)
+ · 
+Powai, Mumbai
+From ₹1,300
+100 to 1000
+Guests
+1 promotion -10%
+Discount
+Request pricing
+PREMIUM
+Blue Sea Mumbai
+5.0
+(3)
+ · 
+Worli - Parel, Mumbai
+From ₹4,195
+50 to 500
+Guests
+1 promotion -5%
+Discount
+Request pricing
+PREMIUM
+Grape County Eco Resort & Spa
+4.9
+(11)
+ · 
+Mumbai
+From ₹1,750
+50 to 2700
+Guests
+1 promotion -5%
+Discount
+Request pricing
+Discover 975 venues in Mumbai
+Venues in Chennai
+PREMIUM
+Blue Bay Beach Resort
+5.0
+(12)
+ · 
+Egmore, Chennai
+From ₹750
+250 to 500
+Guests
+1 promotion -10%
+Discount
+Request pricing
+PREMIUM
+ORO The Estates, Nandi Hills
+4.8
+(2)
+ · 
+Chennai
+From ₹1,900
+50 to 1000
+Guests
+1 promotion -10%
+Discount
+Request pricing
+PREMIUM
+MGM Beach Resort
+Muttukadu, Chennai
+From ₹2,000
+50 to 9999
+Guests
+1 promotion -10%
+Discount
+Request pricing
+PREMIUM
+GKS Convention Centre
+5.0
+(4)
+ · 
+Avadi, Chennai
+From ₹700
+100 to 2000
+Guests
+Request pricing
+Discover 356 venues in Chennai
+Every type of venue to make your unique wedding a reality
+Banquet Halls
+Hotels
+Marriage Garden
+Kalyana Mandapams
+Wedding Resorts
+Wedding Lawns Farmhouses
+Diamond Crown Banquets Expressway (A Unit of Bobby Tikki Wala)
+4.9
+(9)
+ · 
+East Delhi
+From ₹2,000
+50 to 2000
+Guests
+1 promotion -5%
+Discount
+Request pricing
+Corbett Adventure Resort
+4.9
+(85)
+ · 
+Ramnagar - Jim Corbett, Nainital
+From ₹2,500
+100 to 700
+Guests
+1 promotion -5%
+Discount
+Request pricing
+Sterling Ooty Fern Hill - Resorts and Hotels
+4.6
+(1)
+ · 
+Udhagamandalam, Nilgiris
+From ₹1,800
+300 to 600
+Guests
+1 promotion -5%
+Discount
+Request pricing
+Orchid Lawns And Banquets
+5.0
+(2)
+ · 
+Sakchi, Jamshedpur
+From ₹580
+200 to 1000
+Guests
+1 promotion -5%
+Discount
+Request pricing
+Palm Beach Lawn & Banquets
+4.9
+(8)
+ · 
+Sanpada, Mumbai
+From ₹450
+50 to 1500
+Guests
+1 promotion -5%
+Discount
+Request pricing
+The Windflower Resort & Spa
+Bangalore
+From ₹900
+100 to 2000
+Guests
+1 promotion -5%
+Discount
+Request pricing
+Swosti Chilika Resort
+5.0
+(1)
+ · 
+Ganjam City, Ganjam
+From ₹2,000
+250 to 1000
+Guests
+1 promotion -5%
+Discount
+Request pricing
+Swosti Premium
+5.0
+(2)
+ · 
+Jayadev Vihar, Bhubaneswar
+From ₹1,300
+10 to 1000
+Guests
+Request pricing
+Promotions you might be interested in
+EXCLUSIVE DISCOUNT
+10% discount for WeddingWire.in couples
+
+Bon Vivant Lifestyle Resort
+
+Wedding Resorts · Nashik Road
+EXCLUSIVE DISCOUNT
+10% discount for WeddingWire.in couples
+
+Huda Gymkhana Club Sonipat
+
+5.0 out of 5 rating, 6 reviews,
+5.0
+(6)
+ · Banquet Halls · Sonipat City
+EXCLUSIVE DISCOUNT
+3% discount for WeddingWire.in couples
+
+Pushp Vatika Resort & Lawns
+
+4.0 out of 5 rating, 1 review,
+4.0
+(1)
+ · Banquet Halls · Panvel
+EXCLUSIVE DISCOUNT
+5% discount for WeddingWire.in couples
+
+Kapila Resorts
+
+4.4 out of 5 rating, 7 reviews,
+4.4
+(7)
+ · Banquet Halls · Kharadi
+EXCLUSIVE DISCOUNT
+10% discount for WeddingWire.in couples
+
+Mauli Banquets
+
+3.0 out of 5 rating, 2 reviews,
+3.0
+(2)
+ · Wedding Lawns Farmhouses · Mira Road
+Explore all promotions
+12 Factors to consider before choosing the venue for your wedding
+
+Finding the most fitting venue for your wedding ceremonies and celebrations can be a daunting task, but we're going to help you narrow your search and guide you through the first steps. Are you ready?
+
+Budget. One of the most deciding factors that will guide your venue search is your budget. Once you've got a clear idea of how much you can spend on the venue, you'll be able to narrow your search and take advantage of your precious time as you make visits.
+
+Availability. Once you have a wedding date, it's a good idea to ask if the venue is available on your wedding date. If they are available and you're clear on your priorities and the services they offer are suitable to you, ask how far in advance you can reserve the venue. Also ask if they do multiple weddings in one day.
+
+Capacity. Next, you'll need to ensure your guest list will fit in the venue. Ask how many guests can the venue accommodate, what facilities do they offer for pre- and post-wedding events?
+
+Accommodation. Does the venue provide accommodation? What are the costs and are there deals for large groups? If they don't have accommodation on the premises, perhaps they can recommend nearby hotels.
+
+Services. What are the services the venue can offer? It's a good idea to get a detailed list with pricing to make the best decisions going forward. If you prefer your own photographer or caterer to the one the venue provides, be sure to ask if you can bring your own vendors.
+
+Time. It's important to get a precise answer to this question. For how many hours can we use this venue as per the quoted rental amount? Are there fixed timelines?.
+
+Rules. It's a good idea to ask about any specific rules the venue has, such as noise-reduction, curfews, or protocols that your vendors should know about. What spaces do vendors have access to?.
+
+Facilities. What facilities and equipment can the venue supply for your wedding? This could include equipment for the DJ, caterer, and anything else you may need. It may seem obvious that certain things would be included, but it is better to be sure.
+
+Logistics. Are there parking facilities at the venue to accommodate all your guests and is there a fee? Is there wheelchair access throughout the venue or are there limited areas? What is the backup plan if the weather impedes your planned outdoor wedding celebration?.
+
+Menu. If the venue will cater your wedding, ask for prices per person, special menus, allergies, and you may also want to ask if alcohol is allowed and if it can be arranged? Finally, get detailed pricing for everything.
+
+Point of contact. Take a close and thorough look at their photo gallery to see the quality of their work. If they are decorators, for example, their design style should match the kind of wedding aesthetic you are going for. If they are photographers, their photos should reflect the style of photography you're looking for.
+
+Fine print. Go over every possible scenario, extra services, over-time fees, cancellation policy and anything else that could surprise you when it's time to pay. You should also be informed on the payment methods and timings. Once you've covered these points, you're ready to book your venue.
+
+How to find the right wedding venue near you
+
+Booking your wedding venue is one of the most important decisions in your wedding planning journey. The wedding venue you choose can set the theme for your wedding celebrations. Do you already have a theme and setup in mind? Did you envision a beach wedding or a glamorous night with white lights and candles all around in an open-air venue? Some couples also want their wedding to be steeped in traditions and prefer wedding halls with grand in-house wedding venue decoration. Couples who want a royal wedding, book palaces in India that are available to host weddings, or choose 5-star hotels that have state-of-the-art infrastructure.
+
+We have no doubt that you'll find your dream venue among over 8,900 at your fingertips in WeddingWire.in. You can find unique wedding venue
+STAGE pre-write 15411 ms STAGE done 15528 ms

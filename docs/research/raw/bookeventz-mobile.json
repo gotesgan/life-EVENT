@@ -1,0 +1,2611 @@
+{
+ "slug": "bookeventz",
+ "mode": "mobile",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "Popular Venue We turn the wedding of your dreams to reality of your life!! 5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle",
+   "r": {
+    "x": 0,
+    "y": 1536,
+    "w": 390,
+    "h": 1805
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(51, 51, 51)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 390,
+    "h": 1805
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(51, 51, 51)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://www.bookeventz.com/",
+  "title": "BookEventz | Book Banquet halls, Wedding Halls and vendors in Mumbai",
+  "viewport": {
+   "w": 390,
+   "h": 844
+  },
+  "docHeight": 5989,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Find Your Ideal Vendors At Best Prices Search. Book. Relax",
+    "x": -8,
+    "y": 55,
+    "w": 406,
+    "h": 325
+   },
+   {
+    "tag": "H2",
+    "text": "Bookeventz Services",
+    "x": 7,
+    "y": 716,
+    "w": 376,
+    "h": 34
+   },
+   {
+    "tag": "H2",
+    "text": "Our Blogs",
+    "x": 7,
+    "y": 2441,
+    "w": 376,
+    "h": 38
+   },
+   {
+    "tag": "H2",
+    "text": "Our Customers Love us",
+    "x": 7,
+    "y": 3391,
+    "w": 376,
+    "h": 22
+   }
+  ],
+  "header": null,
+  "navAll": [],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Select City",
+    "aria": null,
+    "name": "CityName",
+    "r": {
+     "x": 21,
+     "y": 389,
+     "w": 348,
+     "h": 48
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Select Vendor",
+    "aria": null,
+    "name": "name",
+    "r": {
+     "x": 21,
+     "y": 445,
+     "w": 348,
+     "h": 48
+    }
+   }
+  ],
+  "filterContainers": [
+   {
+    "tag": "DIV",
+    "cls": "filterRow",
+    "r": {
+     "x": 8,
+     "y": 388,
+     "w": 374,
+     "h": 160
+    },
+    "text": "Search",
+    "controls": [
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": "combobox",
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": "combobox",
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Search"
+     }
+    ]
+   },
+   {
+    "tag": "DIV",
+    "cls": "filterSection",
+    "r": {
+     "x": 8,
+     "y": 388,
+     "w": 374,
+     "h": 48
+    },
+    "text": "",
+    "controls": [
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": "combobox",
+      "aria": "",
+      "label": ""
+     }
+    ]
+   },
+   {
+    "tag": "DIV",
+    "cls": "filterSection",
+    "r": {
+     "x": 8,
+     "y": 444,
+     "w": 374,
+     "h": 48
+    },
+    "text": "",
+    "controls": [
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": "combobox",
+      "aria": "",
+      "label": ""
+     }
+    ]
+   },
+   {
+    "tag": "BUTTON",
+    "cls": "btn-sm btn-primary submitfilterHomePage",
+    "r": {
+     "x": 8,
+     "y": 500,
+     "w": 374,
+     "h": 48
+    },
+    "text": "Search",
+    "controls": []
+   },
+   {
+    "tag": "SPAN",
+    "cls": "filter-search-text",
+    "r": {
+     "x": 9,
+     "y": 500,
+     "w": 372,
+     "h": 48
+    },
+    "text": "Search",
+    "controls": []
+   }
+  ],
+  "images": [
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/ui_website/images/hamburger.svg",
+    "alt": "Open side nav",
+    "nat": "30x18",
+    "r": {
+     "x": 15,
+     "y": 18,
+     "w": 30,
+     "h": 18
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media.bookeventz.com/html/bookeventz.com/asset/images/bzMainLogo.svg",
+    "alt": "Home page",
+    "nat": "160x24",
+    "r": {
+     "x": 55,
+     "y": 15,
+     "w": 165,
+     "h": 25
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media.bookeventz.com/html/bookeventz.com/asset/images/flagship_1.png",
+    "alt": "media.bookeventz.com",
+    "nat": "174x94",
+    "r": {
+     "x": 13,
+     "y": 759,
+     "w": 176,
+     "h": 104
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media.bookeventz.com/html/bookeventz.com/asset/images/venue_1.png",
+    "alt": "media.bookeventz.com",
+    "nat": "173x94",
+    "r": {
+     "x": 201,
+     "y": 759,
+     "w": 176,
+     "h": 104
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media.bookeventz.com/html/bookeventz.com/asset/images/photographer_1.png",
+    "alt": "media.bookeventz.com",
+    "nat": "174x94",
+    "r": {
+     "x": 13,
+     "y": 1011,
+     "w": 176,
+     "h": 104
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media.bookeventz.com/html/bookeventz.com/asset/images/makeup_1.png",
+    "alt": "media.bookeventz.com",
+    "nat": "174x94",
+    "r": {
+     "x": 201,
+     "y": 1011,
+     "w": 176,
+     "h": 104
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media.bookeventz.com/html/bookeventz.com/asset/images/mehndi_1.png",
+    "alt": "media.bookeventz.com",
+    "nat": "174x94",
+    "r": {
+     "x": 13,
+     "y": 1263,
+     "w": 176,
+     "h": 104
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media.bookeventz.com/html/bookeventz.com/asset/images/Decorator_1.png",
+    "alt": "media.bookeventz.com",
+    "nat": "174x94",
+    "r": {
+     "x": 201,
+     "y": 1263,
+     "w": 176,
+     "h": 104
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media.bookeventz.com/html/bookeventz.com/asset/images/5starHotel.jpg",
+    "alt": "Popular venue image",
+    "nat": "165x99",
+    "r": {
+     "x": 22,
+     "y": 1662,
+     "w": 165,
+     "h": 99
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media.bookeventz.com/html/bookeventz.com/asset/images/Bz+Venue.jpg",
+    "alt": "Popular venue image",
+    "nat": "165x99",
+    "r": {
+     "x": 22,
+     "y": 1955,
+     "w": 165,
+     "h": 99
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/conference_hall.jpg",
+    "alt": "Popular venue image",
+    "nat": "948x532",
+    "r": {
+     "x": 22,
+     "y": 2184,
+     "w": 165,
+     "h": 99
+    },
+    "fit": "fill",
+    "radius": "5px"
+   },
+   {
+    "src": "https://www.bookeventz.com/blog/wp-content/uploads/Auspicious-Wedding.png",
+    "alt": "Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide",
+    "nat": "1672x941",
+    "r": {
+     "x": 7,
+     "y": 2495,
+     "w": 376,
+     "h": 240
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/blog/wp-content/uploads/Wedding-Games-for-Joyful-Guests-1.png",
+    "alt": "Wedding Games That Actually Get Guests Involved",
+    "nat": "1672x941",
+    "r": {
+     "x": 7,
+     "y": 2749,
+     "w": 182,
+     "h": 120
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/blog/wp-content/uploads/a9f89322-32fd-4847-8639-5fa2235b7aa8-1.png",
+    "alt": "How to Choose the Right Auditorium in Mumbai for Your Event",
+    "nat": "1672x941",
+    "r": {
+     "x": 201,
+     "y": 2749,
+     "w": 182,
+     "h": 120
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/blog/wp-content/uploads/184c69ef-fff8-4240-8d11-158d49d70478-2.png",
+    "alt": "Wedding Venue Booking Checklist: 15 Things to Check Before Booking",
+    "nat": "1654x951",
+    "r": {
+     "x": 7,
+     "y": 3033,
+     "w": 182,
+     "h": 120
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/blog/wp-content/uploads/3dacb7ff-2997-48bd-bd28-102b20a662e3-2.png",
+    "alt": "How Much Does Bridal Makeup Cost in Mumbai?",
+    "nat": "1536x1024",
+    "r": {
+     "x": 201,
+     "y": 3033,
+     "w": 182,
+     "h": 120
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/bookeventz.com/images/headerFooterIcons/closo.svg",
+    "alt": "Close",
+    "nat": "9x9",
+    "r": {
+     "x": 344,
+     "y": 27,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "media.bookeventz.com",
+     "ratio": 1.692,
+     "r": {
+      "w": 176,
+      "h": 104
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "serviceImage",
+      "r": {
+       "x": 13,
+       "y": 759,
+       "w": 176,
+       "h": 104
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px 10px 0px 0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row flagshipVenues",
+      "r": {
+       "x": 12,
+       "y": 758,
+       "w": 178,
+       "h": 236
+      },
+      "text": "BookEventz Flagship Fully managed venues",
+      "style": {
+       "borderRadius": "8px",
+       "border": "1px solid rgb(217, 217, 217)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-sm-6",
+      "r": {
+       "x": 7,
+       "y": 750,
+       "w": 188,
+       "h": 252
+      },
+      "text": "BookEventz Flagship Fully managed venues",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 5px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 383,
+       "y": 750,
+       "w": 0,
+       "h": 0
+      },
+      "text": "BookEventz Flagship Fully managed venues",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row",
+      "r": {
+       "x": 7,
+       "y": 750,
+       "w": 376,
+       "h": 756
+      },
+      "text": "BookEventz Flagship Fully managed venues Venue Banquet halls, Lawns/Farmhouse Photographers Photographers, Cinema/Video, Pre-wedding.. Makeup Bridal Makeup, Family Makeup Mehendi Bridal Mehendi Decorators Stage Decor, Floral Lighting & more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 6
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "media.bookeventz.com",
+     "ratio": 1.692,
+     "r": {
+      "w": 176,
+      "h": 104
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "serviceImage",
+      "r": {
+       "x": 201,
+       "y": 759,
+       "w": 176,
+       "h": 104
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px 10px 0px 0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row venuesWrap",
+      "r": {
+       "x": 200,
+       "y": 758,
+       "w": 178,
+       "h": 236
+      },
+      "text": "Venue Banquet halls, Lawns/Farmhouse",
+      "style": {
+       "borderRadius": "8px",
+       "border": "1px solid rgb(217, 217, 217)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-sm-6 no-pad",
+      "r": {
+       "x": 195,
+       "y": 750,
+       "w": 188,
+       "h": 252
+      },
+      "text": "Venue Banquet halls, Lawns/Farmhouse",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 5px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 383,
+       "y": 750,
+       "w": 0,
+       "h": 0
+      },
+      "text": "Venue Banquet halls, Lawns/Farmhouse",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row",
+      "r": {
+       "x": 7,
+       "y": 750,
+       "w": 376,
+       "h": 756
+      },
+      "text": "BookEventz Flagship Fully managed venues Venue Banquet halls, Lawns/Farmhouse Photographers Photographers, Cinema/Video, Pre-wedding.. Makeup Bridal Makeup, Family Makeup Mehendi Bridal Mehendi Decorators Stage Decor, Floral Lighting & more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 6
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "media.bookeventz.com",
+     "ratio": 1.692,
+     "r": {
+      "w": 176,
+      "h": 104
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "serviceImage",
+      "r": {
+       "x": 13,
+       "y": 1011,
+       "w": 176,
+       "h": 104
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px 10px 0px 0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row photographerWrap",
+      "r": {
+       "x": 12,
+       "y": 1010,
+       "w": 178,
+       "h": 236
+      },
+      "text": "Photographers Photographers, Cinema/Video, Pre-wedding..",
+      "style": {
+       "borderRadius": "8px",
+       "border": "1px solid rgb(217, 217, 217)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-sm-6",
+      "r": {
+       "x": 7,
+       "y": 1002,
+       "w": 188,
+       "h": 252
+      },
+      "text": "Photographers Photographers, Cinema/Video, Pre-wedding..",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 5px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 383,
+       "y": 750,
+       "w": 0,
+       "h": 0
+      },
+      "text": "Photographers Photographers, Cinema/Video, Pre-wedding..",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row",
+      "r": {
+       "x": 7,
+       "y": 750,
+       "w": 376,
+       "h": 756
+      },
+      "text": "BookEventz Flagship Fully managed venues Venue Banquet halls, Lawns/Farmhouse Photographers Photographers, Cinema/Video, Pre-wedding.. Makeup Bridal Makeup, Family Makeup Mehendi Bridal Mehendi Decorators Stage Decor, Floral Lighting & more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 6
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "media.bookeventz.com",
+     "ratio": 1.692,
+     "r": {
+      "w": 176,
+      "h": 104
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "serviceImage",
+      "r": {
+       "x": 201,
+       "y": 1011,
+       "w": 176,
+       "h": 104
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px 10px 0px 0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row makeupWrap",
+      "r": {
+       "x": 200,
+       "y": 1010,
+       "w": 178,
+       "h": 236
+      },
+      "text": "Makeup Bridal Makeup, Family Makeup",
+      "style": {
+       "borderRadius": "8px",
+       "border": "1px solid rgb(217, 217, 217)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-sm-6 no-pad",
+      "r": {
+       "x": 195,
+       "y": 1002,
+       "w": 188,
+       "h": 252
+      },
+      "text": "Makeup Bridal Makeup, Family Makeup",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 5px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 383,
+       "y": 750,
+       "w": 0,
+       "h": 0
+      },
+      "text": "Makeup Bridal Makeup, Family Makeup",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row",
+      "r": {
+       "x": 7,
+       "y": 750,
+       "w": 376,
+       "h": 756
+      },
+      "text": "BookEventz Flagship Fully managed venues Venue Banquet halls, Lawns/Farmhouse Photographers Photographers, Cinema/Video, Pre-wedding.. Makeup Bridal Makeup, Family Makeup Mehendi Bridal Mehendi Decorators Stage Decor, Floral Lighting & more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 6
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "media.bookeventz.com",
+     "ratio": 1.692,
+     "r": {
+      "w": 176,
+      "h": 104
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "serviceImage",
+      "r": {
+       "x": 13,
+       "y": 1263,
+       "w": 176,
+       "h": 104
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px 10px 0px 0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row mehendiWrap",
+      "r": {
+       "x": 12,
+       "y": 1262,
+       "w": 178,
+       "h": 236
+      },
+      "text": "Mehendi Bridal Mehendi",
+      "style": {
+       "borderRadius": "8px",
+       "border": "1px solid rgb(217, 217, 217)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-sm-6",
+      "r": {
+       "x": 7,
+       "y": 1254,
+       "w": 188,
+       "h": 252
+      },
+      "text": "Mehendi Bridal Mehendi",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 5px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 383,
+       "y": 750,
+       "w": 0,
+       "h": 0
+      },
+      "text": "Mehendi Bridal Mehendi",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row",
+      "r": {
+       "x": 7,
+       "y": 750,
+       "w": 376,
+       "h": 756
+      },
+      "text": "BookEventz Flagship Fully managed venues Venue Banquet halls, Lawns/Farmhouse Photographers Photographers, Cinema/Video, Pre-wedding.. Makeup Bridal Makeup, Family Makeup Mehendi Bridal Mehendi Decorators Stage Decor, Floral Lighting & more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 6
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "media.bookeventz.com",
+     "ratio": 1.692,
+     "r": {
+      "w": 176,
+      "h": 104
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "serviceImage",
+      "r": {
+       "x": 201,
+       "y": 1263,
+       "w": 176,
+       "h": 104
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px 10px 0px 0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row decoratorWrap",
+      "r": {
+       "x": 200,
+       "y": 1262,
+       "w": 178,
+       "h": 236
+      },
+      "text": "Decorators Stage Decor, Floral Lighting & more",
+      "style": {
+       "borderRadius": "8px",
+       "border": "1px solid rgb(217, 217, 217)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-sm-6 no-pad",
+      "r": {
+       "x": 195,
+       "y": 1254,
+       "w": 188,
+       "h": 252
+      },
+      "text": "Decorators Stage Decor, Floral Lighting & more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 5px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 383,
+       "y": 750,
+       "w": 0,
+       "h": 0
+      },
+      "text": "Decorators Stage Decor, Floral Lighting & more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row",
+      "r": {
+       "x": 7,
+       "y": 750,
+       "w": 376,
+       "h": 756
+      },
+      "text": "BookEventz Flagship Fully managed venues Venue Banquet halls, Lawns/Farmhouse Photographers Photographers, Cinema/Video, Pre-wedding.. Makeup Bridal Makeup, Family Makeup Mehendi Bridal Mehendi Decorators Stage Decor, Floral Lighting & more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 6
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Popular venue image",
+     "ratio": 1.667,
+     "r": {
+      "w": 165,
+      "h": 99
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 22,
+       "y": 1662,
+       "w": 165,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "img-venue-box",
+      "r": {
+       "x": 22,
+       "y": 1662,
+       "w": 346,
+       "h": 217
+      },
+      "text": "Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "16px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-sm-4",
+      "r": {
+       "x": 7,
+       "y": 1630,
+       "w": 376,
+       "h": 249
+      },
+      "text": "5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 15px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 7,
+       "y": 1630,
+       "w": 376,
+       "h": 783
+      },
+      "text": "5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All Bz Venues Windflower Banquets & Conventions, Vashi Tunga International, Andheri San",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "container-fluid finestVenueSection",
+      "r": {
+       "x": 0,
+       "y": 1536,
+       "w": 390,
+       "h": 1805
+      },
+      "text": "Popular Venue We turn the wedding of your dreams to reality of your life!! 5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All Bz Venue",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 7px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Popular venue image",
+     "ratio": 1.667,
+     "r": {
+      "w": 165,
+      "h": 99
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 22,
+       "y": 1955,
+       "w": 165,
+       "h": 153
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "img-venue-box",
+      "r": {
+       "x": 22,
+       "y": 1955,
+       "w": 346,
+       "h": 153
+      },
+      "text": "Windflower Banquets & Conventions, Vashi Tunga International, Andheri Sanoor Banquets, Ghatkopar Vihang's Inn, Thane View All",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "16px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-sm-4",
+      "r": {
+       "x": 7,
+       "y": 1923,
+       "w": 376,
+       "h": 185
+      },
+      "text": "Bz Venues Windflower Banquets & Conventions, Vashi Tunga International, Andheri Sanoor Banquets, Ghatkopar Vihang's Inn, Thane View All",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 15px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 7,
+       "y": 1630,
+       "w": 376,
+       "h": 783
+      },
+      "text": "5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All Bz Venues Windflower Banquets & Conventions, Vashi Tunga International, Andheri San",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "container-fluid finestVenueSection",
+      "r": {
+       "x": 0,
+       "y": 1536,
+       "w": 390,
+       "h": 1805
+      },
+      "text": "Popular Venue We turn the wedding of your dreams to reality of your life!! 5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All Bz Venue",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 7px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Popular venue image",
+     "ratio": 1.667,
+     "r": {
+      "w": 165,
+      "h": 99
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 22,
+       "y": 2184,
+       "w": 165,
+       "h": 185
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "img-venue-box",
+      "r": {
+       "x": 22,
+       "y": 2184,
+       "w": 346,
+       "h": 185
+      },
+      "text": "Jio World Convention Centre, BKC- Grand Hyatt, Santacruz- Cidco Exhibition Centre, Vashi- West Block Sahara Star, Vile Parle- Courtyard by Marriott, Navi Mumbai- View All",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "16px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-sm-4",
+      "r": {
+       "x": 7,
+       "y": 2152,
+       "w": 376,
+       "h": 217
+      },
+      "text": "Conference Halls Jio World Convention Centre, BKC- Grand Hyatt, Santacruz- Cidco Exhibition Centre, Vashi- West Block Sahara Star, Vile Parle- Courtyard by Marriott, Navi Mumbai- View All",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 15px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 7,
+       "y": 1630,
+       "w": 376,
+       "h": 783
+      },
+      "text": "5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All Bz Venues Windflower Banquets & Conventions, Vashi Tunga International, Andheri San",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "container-fluid finestVenueSection",
+      "r": {
+       "x": 0,
+       "y": 1536,
+       "w": 390,
+       "h": 1805
+      },
+      "text": "Popular Venue We turn the wedding of your dreams to reality of your life!! 5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All Bz Venue",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 7px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide",
+     "ratio": 1.567,
+     "r": {
+      "w": 376,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "homepage-blog-featured",
+      "r": {
+       "x": 7,
+       "y": 2495,
+       "w": 376,
+       "h": 240
+      },
+      "text": "Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide The winter season is one of the most popular wedding seasons in India. The weather is nice, it’s the holiday",
+      "style": {
+       "borderRadius": "12px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "homepage-blogs-grid",
+      "r": {
+       "x": 7,
+       "y": 2495,
+       "w": 376,
+       "h": 846
+      },
+      "text": "Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide The winter season is one of the most popular wedding seasons in India. The weather is nice, it’s the holiday Wedding Games That Actually Get Guests Involved There are many special moments in",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "16px"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "blogWrapper",
+      "r": {
+       "x": 7,
+       "y": 2441,
+       "w": 376,
+       "h": 900
+      },
+      "text": "Our Blogs Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide The winter season is one of the most popular wedding seasons in India. The weather is nice, it’s the holiday Wedding Games That Actually Get Guests Involved There are many special ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "SECTION",
+      "cls": "container-fluid finestVenueSection",
+      "r": {
+       "x": 0,
+       "y": 1536,
+       "w": 390,
+       "h": 1805
+      },
+      "text": "Popular Venue We turn the wedding of your dreams to reality of your life!! 5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All Bz Venue",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 7px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 0,
+       "y": 1536,
+       "w": 390,
+       "h": 2658
+      },
+      "text": "Popular Venue We turn the wedding of your dreams to reality of your life!! 5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All Bz Venue",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Wedding Games That Actually Get Guests Involved",
+     "ratio": 1.517,
+     "r": {
+      "w": 182,
+      "h": 120
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "homepage-blog-side-card",
+      "r": {
+       "x": 7,
+       "y": 2749,
+       "w": 182,
+       "h": 272
+      },
+      "text": "Wedding Games That Actually Get Guests Involved There are many special moments in a wedding – entrance of the couple, the garland exchange, music, food and dance.",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 1px 4px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "homepage-blog-side-list",
+      "r": {
+       "x": 7,
+       "y": 2749,
+       "w": 376,
+       "h": 540
+      },
+      "text": "Wedding Games That Actually Get Guests Involved There are many special moments in a wedding – entrance of the couple, the garland exchange, music, food and dance. How to Choose the Right Auditorium in Mumbai for Your Event Here are some tips for selecting the ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "12px"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "homepage-blogs-grid",
+      "r": {
+       "x": 7,
+       "y": 2495,
+       "w": 376,
+       "h": 846
+      },
+      "text": "Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide The winter season is one of the most popular wedding seasons in India. The weather is nice, it’s the holiday Wedding Games That Actually Get Guests Involved There are many special moments in",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "16px"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "blogWrapper",
+      "r": {
+       "x": 7,
+       "y": 2441,
+       "w": 376,
+       "h": 900
+      },
+      "text": "Our Blogs Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide The winter season is one of the most popular wedding seasons in India. The weather is nice, it’s the holiday Wedding Games That Actually Get Guests Involved There are many special ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "SECTION",
+      "cls": "container-fluid finestVenueSection",
+      "r": {
+       "x": 0,
+       "y": 1536,
+       "w": 390,
+       "h": 1805
+      },
+      "text": "Popular Venue We turn the wedding of your dreams to reality of your life!! 5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All Bz Venue",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 7px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "How to Choose the Right Auditorium in Mumbai for Your Event",
+     "ratio": 1.517,
+     "r": {
+      "w": 182,
+      "h": 120
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "homepage-blog-side-card",
+      "r": {
+       "x": 201,
+       "y": 2749,
+       "w": 182,
+       "h": 272
+      },
+      "text": "How to Choose the Right Auditorium in Mumbai for Your Event Here are some tips for selecting the appropriate Auditorium in Mumbai for your event. The selection of an auditorium in",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 1px 4px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "homepage-blog-side-list",
+      "r": {
+       "x": 7,
+       "y": 2749,
+       "w": 376,
+       "h": 540
+      },
+      "text": "Wedding Games That Actually Get Guests Involved There are many special moments in a wedding – entrance of the couple, the garland exchange, music, food and dance. How to Choose the Right Auditorium in Mumbai for Your Event Here are some tips for selecting the ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "12px"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "homepage-blogs-grid",
+      "r": {
+       "x": 7,
+       "y": 2495,
+       "w": 376,
+       "h": 846
+      },
+      "text": "Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide The winter season is one of the most popular wedding seasons in India. The weather is nice, it’s the holiday Wedding Games That Actually Get Guests Involved There are many special moments in",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "16px"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "blogWrapper",
+      "r": {
+       "x": 7,
+       "y": 2441,
+       "w": 376,
+       "h": 900
+      },
+      "text": "Our Blogs Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide The winter season is one of the most popular wedding seasons in India. The weather is nice, it’s the holiday Wedding Games That Actually Get Guests Involved There are many special ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "SECTION",
+      "cls": "container-fluid finestVenueSection",
+      "r": {
+       "x": 0,
+       "y": 1536,
+       "w": 390,
+       "h": 1805
+      },
+      "text": "Popular Venue We turn the wedding of your dreams to reality of your life!! 5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All Bz Venue",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 7px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Wedding Venue Booking Checklist: 15 Things to Check Before Booking",
+     "ratio": 1.517,
+     "r": {
+      "w": 182,
+      "h": 120
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "homepage-blog-side-card",
+      "r": {
+       "x": 7,
+       "y": 3033,
+       "w": 182,
+       "h": 256
+      },
+      "text": "Wedding Venue Booking Checklist: 15 Things to Check Before Booking When you’re looking for a wedding venue, it’s important that you have a checklist on hand to help you make",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 1px 4px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "homepage-blog-side-list",
+      "r": {
+       "x": 7,
+       "y": 2749,
+       "w": 376,
+       "h": 540
+      },
+      "text": "Wedding Games That Actually Get Guests Involved There are many special moments in a wedding – entrance of the couple, the garland exchange, music, food and dance. How to Choose the Right Auditorium in Mumbai for Your Event Here are some tips for selecting the ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "12px"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "homepage-blogs-grid",
+      "r": {
+       "x": 7,
+       "y": 2495,
+       "w": 376,
+       "h": 846
+      },
+      "text": "Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide The winter season is one of the most popular wedding seasons in India. The weather is nice, it’s the holiday Wedding Games That Actually Get Guests Involved There are many special moments in",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "16px"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "blogWrapper",
+      "r": {
+       "x": 7,
+       "y": 2441,
+       "w": 376,
+       "h": 900
+      },
+      "text": "Our Blogs Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide The winter season is one of the most popular wedding seasons in India. The weather is nice, it’s the holiday Wedding Games That Actually Get Guests Involved There are many special ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "SECTION",
+      "cls": "container-fluid finestVenueSection",
+      "r": {
+       "x": 0,
+       "y": 1536,
+       "w": 390,
+       "h": 1805
+      },
+      "text": "Popular Venue We turn the wedding of your dreams to reality of your life!! 5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All Bz Venue",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 7px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "How Much Does Bridal Makeup Cost in Mumbai?",
+     "ratio": 1.517,
+     "r": {
+      "w": 182,
+      "h": 120
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "homepage-blog-side-card",
+      "r": {
+       "x": 201,
+       "y": 3033,
+       "w": 182,
+       "h": 256
+      },
+      "text": "How Much Does Bridal Makeup Cost in Mumbai? You’ve shortlisted five Bridal makeup artists in Mumbai, and their quotes range from ₹8,000 to ₹75,000 for what sounds like",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 1px 4px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "homepage-blog-side-list",
+      "r": {
+       "x": 7,
+       "y": 2749,
+       "w": 376,
+       "h": 540
+      },
+      "text": "Wedding Games That Actually Get Guests Involved There are many special moments in a wedding – entrance of the couple, the garland exchange, music, food and dance. How to Choose the Right Auditorium in Mumbai for Your Event Here are some tips for selecting the ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "12px"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "homepage-blogs-grid",
+      "r": {
+       "x": 7,
+       "y": 2495,
+       "w": 376,
+       "h": 846
+      },
+      "text": "Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide The winter season is one of the most popular wedding seasons in India. The weather is nice, it’s the holiday Wedding Games That Actually Get Guests Involved There are many special moments in",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "16px"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "blogWrapper",
+      "r": {
+       "x": 7,
+       "y": 2441,
+       "w": 376,
+       "h": 900
+      },
+      "text": "Our Blogs Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide The winter season is one of the most popular wedding seasons in India. The weather is nice, it’s the holiday Wedding Games That Actually Get Guests Involved There are many special ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "SECTION",
+      "cls": "container-fluid finestVenueSection",
+      "r": {
+       "x": 0,
+       "y": 1536,
+       "w": 390,
+       "h": 1805
+      },
+      "text": "Popular Venue We turn the wedding of your dreams to reality of your life!! 5 star hotels Tunga International, Andheri The Lalit, Andheri Sahara Star, Vile Parle Holiday Inn, Andheri The Goldfinch Hotel, Andheri Fairfield by Marriott, Sakinaka View All Bz Venue",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 7px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "Search",
+   "Tunga International, Andheri",
+   "The Lalit, Andheri",
+   "Sahara Star, Vile Parle",
+   "Holiday Inn, Andheri",
+   "The Goldfinch Hotel, Andheri",
+   "Fairfield by Marriott, Sakinaka",
+   "View All",
+   "Windflower Banquets & Conventions, Vashi",
+   "Tunga International, Andheri",
+   "Sanoor Banquets, Ghatkopar",
+   "Vihang's Inn, Thane",
+   "View All",
+   "Jio World Convention Centre, BKC-",
+   "Grand Hyatt, Santacruz-",
+   "Cidco Exhibition Centre, Vashi-",
+   "West Block Sahara Star, Vile Parle-",
+   "Courtyard by Marriott, Navi Mumbai-",
+   "View All",
+   "View more...",
+   "Previous",
+   "Next",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18",
+   "19",
+   "20",
+   "21",
+   "22",
+   "23",
+   "About Us",
+   "Team",
+   "Contact Us",
+   "FAQ",
+   "Create Event Website",
+   "List With Us",
+   "Media",
+   "Add Your Venue",
+   "Feedback",
+   "Real Events",
+   "Offers",
+   "Corporate Offerings",
+   "Jobs",
+   "Testimonial",
+   "Blog",
+   "Agra",
+   "Ahmedabad",
+   "Aligarh",
+   "Ambala",
+   "Amritsar",
+   "Aurangabad",
+   "Bangalore",
+   "Belgaum",
+   "Bhopal",
+   "Bhubaneswar",
+   "Chandigarh",
+   "Chennai",
+   "Coimbatore",
+   "Dehradun",
+   "Delhi NCR",
+   "Digha",
+   "Faridabad",
+   "Gandhinagar",
+   "Ghaziabad",
+   "Goa",
+   "Gorakhpur",
+   "Gurgaon",
+   "Guwahati",
+   "Gwalior",
+   "Hubli",
+   "Hyderabad",
+   "Imphal",
+   "Indore",
+   "Jabalpur",
+   "Jaipur",
+   "Jalandhar",
+   "Jhansi",
+   "Jodhpur",
+   "Kannur",
+   "Kanpur",
+   "Kochi",
+   "Kolhapur",
+   "Kolkata",
+   "Kollam",
+   "Kota",
+   "Kozhikode",
+   "Lucknow",
+   "Ludhiana",
+   "Mangalore",
+   "Mathura",
+   "Meerut",
+   "Mumbai",
+   "Mussoorie",
+   "Mysore",
+   "Nagpur",
+   "Nashik",
+   "Noida",
+   "Palakkad",
+   "Patiala",
+   "Patna",
+   "Puducherry",
+   "Pune",
+   "Purnea",
+   "Raipur",
+   "Rajkot",
+   "Ranchi",
+   "Rohtak",
+   "Roorkee",
+   "Salem",
+   "Shimla",
+   "Shimoga",
+   "Shirdi",
+   "Siliguri",
+   "Surat",
+   "Thiruchirapalli",
+   "Thrissur",
+   "Tiruchirappalli",
+   "Tirunelveli",
+   "Udaipur",
+   "Ujjain",
+   "Vadodara",
+   "Varanasi",
+   "Vijayawada",
+   "Vizag",
+   "Andheri",
+   "Borivali",
+   "Chembur",
+   "Dadar",
+   "Ghatkopar",
+   "Malad",
+   "Mira Road",
+   "Thane",
+   "Vashi",
+   "Hotel",
+   "Restaurant",
+   "Lounge",
+   "Resort",
+   "Party Lawns",
+   "5 Star Hotel",
+   "Training/Boardroom",
+   "Coworking spaces",
+   "Wedding Anniversary",
+   "First Birthday Party",
+   "Corporate Event",
+   "Mehendi Ceremony",
+   "Product Launch",
+   "Seminar",
+   "Conference",
+   "Annual Meet",
+   "Naming Ceremony",
+   "Baby Shower",
+   "Birthday Party",
+   "Wedding",
+   "Engagement",
+   "Cocktail Party",
+   "Under ₹500 per plate",
+   "₹500 to ₹700 per plate",
+   "₹700 to ₹1200 per plate",
+   "Above ₹1200 per plate",
+   "Upto 50 Guests",
+   "51 to 200 Guests",
+   "201 to 300 Guests",
+   "301 to 500 Guests",
+   "500+ Guests",
+   "Terms Of Services",
+   "Policies"
+  ],
+  "bodyText": "Find Your Ideal Vendors At Best Prices\nSearch. Book. Relax\nSearch\n24,764\nVenues & Services\n5,94,729\n+\nHappy Customers\nBookeventz Services\nBookEventz Flagship\nFully managed venues\nVenue\nBanquet halls, Lawns/Farmhouse\nPhotographers\nPhotographers, Cinema/Video, Pre-wedding..\nMakeup\nBridal Makeup, Family Makeup\nMehendi\nBridal Mehendi\nDecorators\nStage Decor, Floral Lighting & more\nPopular Venue\n\nWe turn the wedding of your dreams to reality of your life!!\n\n5 star hotels\n\nTunga International, Andheri\n\nThe Lalit, Andheri\n\nSahara Star, Vile Parle\n\nHoliday Inn, Andheri\n\nThe Goldfinch Hotel, Andheri\n\nFairfield by Marriott, Sakinaka\n\nView All\n\nBz Venues\n\nWindflower Banquets & Conventions, Vashi\n\nTunga International, Andheri\n\nSanoor Banquets, Ghatkopar\n\nVihang's Inn, Thane\n\nView All\n\nConference Halls\n\nJio World Convention Centre, BKC-\n\nGrand Hyatt, Santacruz-\n\nCidco Exhibition Centre, Vashi-\n\nWest Block Sahara Star, Vile Parle-\n\nCourtyard by Marriott, Navi Mumbai-\n\nView All\nOur Blogs\nAuspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide\n\nThe winter season is one of the most popular wedding seasons in India. The weather is nice, it’s the holiday\n\nWedding Games That Actually Get Guests Involved\n\nThere are many special moments in a wedding – entrance of the couple, the garland exchange, music, food and dance.\n\nHow to Choose the Right Auditorium in Mumbai for Your Event\n\nHere are some tips for selecting the appropriate Auditorium in Mumbai for your event. The selection of an auditorium in\n\nWedding Venue Booking Checklist: 15 Things to Check Before Booking\n\nWhen you’re looking for a wedding venue, it’s important that you have a checklist on hand to help you make\n\nHow Much Does Bridal Makeup Cost in Mumbai?\n\nYou’ve shortlisted five Bridal makeup artists in Mumbai, and their quotes range from ₹8,000 to ₹75,000 for what sounds like\n\nView more...\nOur Customers Love us\n Previous\nGarvika's First Birthday Party\nThank your BookEventZ for making my daughters first birthday a success. The event was beautifully planned with the photography, the host and everything else. We didn't have to worry about anything. The team did an excellent job, we're definitely booking you'll again for our next event, Thank you\n\n\n\n\n0\nGreetings, We have organised a Shiv Sanchar Sena Summit wherein we were looking at 5 star hotels to organize a event and we were not able to execute the event till almost 2 days back also we were not able to finalize the venue hence falling short on time. While browsing for venues we came over the company by the name \"BookEventz\". After we contacted them, It was all hassale free they also helped us finalize the venue and all the elements. They helped us organize the event in such a smooth fashion that now at the end of the event i am very satisfied with their services and the event was very well organized so kudos to Team BookEventz and In the future i recommend if you have any events coming up do contact them their team is very hospitable and friendly, Therefore much recommended.\n\n\nShiv Sanchar Sena\n\n\nTransIndia Group Testimonial\nAccording to my experience the event was really nice, specially i would like to thank your team to be like a part of our TransIndia family and everything went flawless, very smoothly thats what i liked. Rating : Out of 5 i would like to give you a 6. One word for BookEventz fantastically engaging. Feedback : You guys are doing really great also you guys have a very beautiful design sense and a good flow of action.\n\n\nTransIndia Group\n\n\nLivlong, Tunga International Hotel\nHi, Everyone we basically had to do this event on a very short notice and i was scouting place around Andheri Thats where i met Azhar from BookEventz, he personally came with me and showed me the venues and we closed in like the same day and in two day's time the event was done and it was organized really well. Hundred people on such short notice and it was nicely done. I think this will go a long way and most of our events will be going to BookEventz now.\n\n\n\n\nRXO, Holiday Inn\nHi. This is Praful. I'm very grateful and thankful to the BookEventz Team. Especially, Abhishek and Sajid. Well, they managed our RXO annual party very well. The decor the theme was, very properly designed within the given timeline. As well as the guys have done a really good job start to end. Thanks to the complete BookEventz Team.\n\n\n\n\nGNG Electronics Bazaar, Le Meridian Hotel\nHey. I'm Julie working for GNG Electronics Private Limited. So I'm connected with BookEventz from last two years. They organized us for Lonavala event, and this is the second event happening in Goa in Le Meridien. In regarding the arrangements and the whole event was organized by them. It was really good, and I really give a cheets to Sajid and Abhishek for giving me the best coordination and support regarding to every perspective. Yes, Looking forward for more, events to be coming up with them, globally, I would say. So yes. So cheers for BookEventz.\n\n\n\n\nShriram Life Insurance, Kohinoor Elite\nThe overall experience is very good. If you ask me for the rating, I will be five or five rating for the experience. Everything is well good. The Kohinoor Elite is every good suggestion. It is matched my expectations, like what I was expecting. Food quality is very good and taste is also very good. So I'll definitely put that to you for the, future events.\n\n\n\n\nAnatek Services, West Block\nReally very happy to know about Bookeventz, and it has been very nicely arranged, and food was also very good. We thoroughly enjoyed the event and overall the event was very successful and thank you so much for the arrangements and all the efforts.\n\n\n\n\nCult-Fit@Holiday Inn, Mumbai\nSo we had our event today for cult-fit and the entire event was fabulous. The sales staff called me and very humbly they took us around, showed us a couple of venues, and said that you don't worry, we will close this venue. We will give you the best price an you will only have to be there on the day of the event and that's what happened. We only arrived at the hotel on the day of the event and everything was set. The food was also delicious. Thank you Bookeventz Team\n\n\n\n\nThe overall experience with book events has been excellent. I would definitely recommend book events to friends, family, and relatives. You know, I think it's one of the most efficient ways of in finding out these venues and like you know, getting these kind of events small scale or big scale executed. Thanks book events for making this a great success.\n\n\n\n\nSo when we we went on to Bookeventz, it was a very hassle free experience. They are very proactive, very engaging. I will definitely recommend Bookeventz to other people, especially those people who want to have a very warm and engaging experience. Because end of the day, event is all about, celebrating your joy and it is important the event management people understand it.\n\n\n\n\nSaima & Rashid's Wedding Reception @ Rajiv Gandhi Banquet Hall\nI am the bride’s younger brother and I’m really surprised by the event that has been managed by BookEventz. It’s really nice and the best part is it’s free of cost. The food was really good and my friends really loved it. Thank you so much for the service.\n\n\nSaima Shaikh\n\n\nShreya & Ricky's Wedding Reception @ J W Marriott Hotel, Juhu\nAll my wedding functions are finally over and all I want to say is thank you for an amazing experience. We were looking forward to this very special day and we had a lot of expectations from you guys. Today has been the most special day of my entire life and you guys are the major contributors to it.\n\n\nShreya & Ricky\n\n\nINTECH Program Organised By BookEventZ\nThis is the second time we are organizing our INTECH program with BookEventZ. Since the first time, we have been amazed by the level of dedication and hard work which has been put into organizing our event by their team. I am really grateful for the fact that they sometimes even worked at odd hours for us! And, I would love to work with them in the future.\n\n\n-Geeta, Northeastern University, Boston\n\n\nDarshana & Jaykrishnan's Wedding @ Galaxy Banquets\nI found the Galaxy Banquet venue through BookEventZ for my wedding. They have arranged everything very well, right from the decorations, to the hall and catering. I would suggest everyone to choose BookEventZ to plan their Big Day!\n\n\n- Darshana\n\n\nCarwale, Cidco\nIt was a rocking event. The event team was very supportive, patient and always available. We were impressed by the Design Team’s execution and understanding of the concept, as well as the effort they put in to make it all come to life.\n\n\n\n\nAspiring She, The Lalit\nThank you Bookeventz for the wonderful experience and congratulations on the success of yet another event. We look forward to working with you’ll again\n\n\n\n\nInnersense , West Block Sahar Star\nThanks to Bookeventz for their continuous support right up from choosing the venue to venue decor. They were also kind enough to accommodate our last minute ch",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Find Your Ideal Vendors At Best Prices Search. Book. Relax",
+     "style": {
+      "fontFamily": "Metropolis, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, sans-serif",
+      "fontSize": "31px",
+      "fontWeight": "500",
+      "lineHeight": "41px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "99px 0px",
+      "margin": "0px 0px 6px"
+     },
+     "r": {
+      "x": -8,
+      "y": 55,
+      "w": 406,
+      "h": 325
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Bookeventz Services",
+     "style": {
+      "fontFamily": "\"Proxima Nova\", Metropolis, Arial, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 103, 103)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(103, 103, 103)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px 0px 12px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 7,
+      "y": 716,
+      "w": 376,
+      "h": 34
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Our Blogs",
+     "style": {
+      "fontFamily": "Metropolis, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 103, 103)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(103, 103, 103)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px 0px 12px",
+      "margin": "0px 0px 16px"
+     },
+     "r": {
+      "x": 7,
+      "y": 2441,
+      "w": 376,
+      "h": 38
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Our Customers Love us",
+     "style": {
+      "fontFamily": "Metropolis, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 103, 103)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(103, 103, 103)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "20px 0px 10px"
+     },
+     "r": {
+      "x": 7,
+      "y": 3391,
+      "w": 376,
+      "h": 22
+     }
+    }
+   ],
+   "card-meta": [
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "There are many special moments in a wedding – entrance of the couple, ",
+     "style": {
+      "fontFamily": "Metropolis, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "lineHeight": "15.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(102, 102, 102)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(102, 102, 102)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 17,
+      "y": 2934,
+      "w": 162,
+      "h": 77
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "Here are some tips for selecting the appropriate Auditorium in Mumbai ",
+     "style": {
+      "fontFamily": "Metropolis, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "lineHeight": "15.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(102, 102, 102)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(102, 102, 102)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 211,
+      "y": 2934,
+      "w": 162,
+      "h": 77
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "When you’re looking for a wedding venue, it’s important that you have ",
+     "style": {
+      "fontFamily": "Metropolis, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "lineHeight": "15.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(102, 102, 102)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(102, 102, 102)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 17,
+      "y": 3218,
+      "w": 162,
+      "h": 62
+     }
+    }
+   ],
+   "filter-label": [],
+   "nav-link": [],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(51, 51, 51)",
+    "fontFamily": "Metropolis, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, sans-serif",
+    "fontSize": "14px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

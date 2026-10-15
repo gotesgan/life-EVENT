@@ -1,0 +1,80 @@
+/*
+ * Admin table.
+ *
+ * Density is `--text-dense` (13px) rather than a shrunken body size, and
+ * `tabular-nums` is on so a column of currency figures lines up. The scroll
+ * container is what prevents page-level horizontal overflow.
+ */
+.root {
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-raised);
+  overflow: hidden;
+}
+
+.scroller {
+  border-radius: inherit;
+}
+
+.table {
+  font-size: var(--text-dense-size);
+  font-weight: var(--text-dense-weight);
+  line-height: var(--text-dense-leading);
+  color: var(--app-text);
+}
+
+.caption {
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: var(--text-label-leading);
+  color: var(--app-text-muted);
+  text-align: start;
+  padding-block: rem(10px);
+}
+
+.thead {
+  background-color: var(--app-surface-muted);
+}
+
+/* Column headers are the one uppercase permitted here: a repeated, ≤3-word
+   token (guide §4.4). Sentence-case captions above them are not. */
+.th {
+  height: rem(40px);
+  font-size: var(--text-caption-size);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--app-text-muted);
+  white-space: nowrap;
+}
+
+/* Fixed row height so `TableSkeleton`'s 44px rows are the real rows. */
+.td {
+  height: rem(44px);
+  color: var(--app-text);
+  vertical-align: middle;
+}
+
+.alignStart {
+  text-align: start;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignEnd {
+  text-align: end;
+}
+
+.stateCell {
+  padding: 0;
+}
+
+.defaultEmpty {
+  margin: 0;
+  padding: rem(32px) rem(16px);
+  text-align: center;
+  font-size: var(--text-secondary-size);
+  color: var(--app-text-muted);
+}

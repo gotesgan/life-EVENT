@@ -1,0 +1,54 @@
+/*
+ * The profile form.
+ *
+ * Editorial register: this is a page a customer fills in once, so the fields
+ * breathe and the two questions the form answers are stated rather than
+ * implied. The measure is capped because these are typing fields, not columns of
+ * data.
+ */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: rem(24px);
+  min-width: 0;
+  max-width: rem(520px);
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: rem(20px);
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.legend {
+  padding: 0;
+  margin-bottom: rem(16px);
+  color: var(--app-text);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: var(--text-label-leading);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: rem(10px);
+  padding-top: rem(20px);
+  border-top: 1px solid var(--app-border);
+}
+
+/* The unsaved-changes hint sits at the far end of the row it shares with the
+   actions, in a slot that is reserved whether or not it has anything to say. */
+.dirty {
+  margin: 0 0 0 auto;
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+}

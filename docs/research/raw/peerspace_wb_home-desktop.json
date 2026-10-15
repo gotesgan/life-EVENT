@@ -1,0 +1,2743 @@
+{
+ "slug": "peerspace_wb_home",
+ "mode": "desktop",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "",
+   "r": {
+    "x": 48,
+    "y": 1069,
+    "w": 896,
+    "h": 550
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px solid rgb(18, 18, 18)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 896,
+    "h": 550
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px solid rgb(18, 18, 18)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://web.archive.org/web/20251005215616/https://www.peerspace.com/",
+  "title": "Peerspace | Unique venues for events, meetings, photo &amp; film shoots",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 9816,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Find a space. Fulfill your vision.",
+    "x": 64,
+    "y": 658,
+    "w": 645,
+    "h": 192
+   },
+   {
+    "tag": "H2",
+    "text": "A space for every moment",
+    "x": 64,
+    "y": 1859,
+    "w": 640,
+    "h": 128
+   },
+   {
+    "tag": "H3",
+    "text": "Book a unique space for your activity",
+    "x": 64,
+    "y": 2003,
+    "w": 640,
+    "h": 24
+   },
+   {
+    "tag": "H1",
+    "text": "Made in",
+    "x": 0,
+    "y": 2854,
+    "w": 1440,
+    "h": 160
+   },
+   {
+    "tag": "H1",
+    "text": "Peerspace",
+    "x": 0,
+    "y": 3014,
+    "w": 1440,
+    "h": 160
+   },
+   {
+    "tag": "H1",
+    "text": "Your something starts somewhere",
+    "x": 176,
+    "y": 3859,
+    "w": 528,
+    "h": 128
+   },
+   {
+    "tag": "H2",
+    "text": "Why",
+    "x": 176,
+    "y": 4989,
+    "w": 1200,
+    "h": 160
+   },
+   {
+    "tag": "H2",
+    "text": "Peerspace",
+    "x": 288,
+    "y": 5149,
+    "w": 1088,
+    "h": 160
+   },
+   {
+    "tag": "H3",
+    "text": "New and never-ending possibilities",
+    "x": 736,
+    "y": 5559,
+    "w": 478,
+    "h": 96
+   },
+   {
+    "tag": "H1",
+    "text": "Where extraordinary begins",
+    "x": 458,
+    "y": 6139,
+    "w": 524,
+    "h": 288
+   },
+   {
+    "tag": "H2",
+    "text": "If walls could talk",
+    "x": 64,
+    "y": 7015,
+    "w": 1312,
+    "h": 64
+   },
+   {
+    "tag": "H3",
+    "text": "Earn Extra Cash as a Peerspace Ambassador",
+    "x": 176,
+    "y": 7485,
+    "w": 288,
+    "h": 78
+   },
+   {
+    "tag": "H3",
+    "text": "The new Peerspace: Where extraordinary begins",
+    "x": 620,
+    "y": 7485,
+    "w": 288,
+    "h": 78
+   },
+   {
+    "tag": "H3",
+    "text": "Shea Couleé x Peerspace: Go behind the scenes",
+    "x": 1064,
+    "y": 7485,
+    "w": 288,
+    "h": 78
+   },
+   {
+    "tag": "H3",
+    "text": "Caelynn Miller-Keyes’ engagement party",
+    "x": 1508,
+    "y": 7485,
+    "w": 288,
+    "h": 78
+   },
+   {
+    "tag": "H3",
+    "text": "Big Boi &amp; Sleepy Brown launch Big Sleepover album with Peerspace",
+    "x": 1952,
+    "y": 7485,
+    "w": 288,
+    "h": 78
+   },
+   {
+    "tag": "H3",
+    "text": "Host Spotlight: Sally F.",
+    "x": 2396,
+    "y": 7485,
+    "w": 288,
+    "h": 78
+   },
+   {
+    "tag": "H3",
+    "text": "Here’s everything you need on your pre-production checklist",
+    "x": 2840,
+    "y": 7485,
+    "w": 288,
+    "h": 78
+   },
+   {
+    "tag": "H3",
+    "text": "How and where to rent an office for a day",
+    "x": 3284,
+    "y": 7485,
+    "w": 288,
+    "h": 78
+   },
+   {
+    "tag": "H3",
+    "text": "9 team offsite ideas to engage employees",
+    "x": 3728,
+    "y": 7485,
+    "w": 288,
+    "h": 78
+   },
+   {
+    "tag": "H3",
+    "text": "10 fabulous murder mystery party ideas",
+    "x": 4172,
+    "y": 7485,
+    "w": 288,
+    "h": 78
+   },
+   {
+    "tag": "H3",
+    "text": "How to rent your home for movies",
+    "x": 4616,
+    "y": 7485,
+    "w": 288,
+    "h": 78
+   },
+   {
+    "tag": "H3",
+    "text": "12 simple photoshoot ideas",
+    "x": 5060,
+    "y": 7485,
+    "w": 288,
+    "h": 78
+   },
+   {
+    "tag": "H2",
+    "text": "New places, new possibilities in the US",
+    "x": 64,
+    "y": 7793,
+    "w": 670,
+    "h": 128
+   },
+   {
+    "tag": "H2",
+    "text": "Earn income as a Peerspace host",
+    "x": 736,
+    "y": 8590,
+    "w": 528,
+    "h": 128
+   },
+   {
+    "tag": "H2",
+    "text": "Put your space to work. Earn extra income by opening your doors to personal and professional gatherings in your area.",
+    "x": 736,
+    "y": 8750,
+    "w": 528,
+    "h": 104
+   }
+  ],
+  "header": {
+   "tag": "NAV",
+   "rect": {
+    "x": 0,
+    "y": 67,
+    "w": 1440,
+    "h": 72
+   },
+   "style": {
+    "position": "sticky",
+    "top": "0px",
+    "height": "72px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderBottom": "0px solid rgb(18, 18, 18)",
+    "boxShadow": "none",
+    "zIndex": "1020"
+   },
+   "text": "Browse Spaces List Your Space (current) Log In Sign Up",
+   "links": [
+    {
+     "t": "List Your Space (current)",
+     "tag": "A",
+     "href": "/host",
+     "r": {
+      "x": 1071,
+      "y": 67,
+      "w": 123,
+      "h": 72
+     }
+    },
+    {
+     "t": "Log In",
+     "tag": "A",
+     "href": "#a=login",
+     "r": {
+      "x": 1203,
+      "y": 67,
+      "w": 59,
+      "h": 72
+     }
+    },
+    {
+     "t": "Sign Up",
+     "tag": "A",
+     "href": "#a=signup&source=nav",
+     "r": {
+      "x": 1270,
+      "y": 83,
+      "w": 86,
+      "h": 40
+     }
+    }
+   ]
+  },
+  "navAll": [
+   "List Your Space (current)",
+   "Log In",
+   "Sign Up",
+   "About",
+   "Press",
+   "Careers",
+   "Activities",
+   "Locations",
+   "Resources",
+   "Ambassador Program",
+   "List your space",
+   "Community",
+   "Deutschland",
+   "United Kingdom",
+   "United States",
+   "Canada",
+   "Australia",
+   "España",
+   "France",
+   "Help Center",
+   "Trust and Safety",
+   "Terms",
+   "Privacy",
+   "California Privacy",
+   "App Store",
+   "Google Play Store"
+  ],
+  "searchInputs": [],
+  "filterContainers": [],
+  "images": [
+   {
+    "src": "https://web.archive.org/web/20251005215704/https://assets.peerspace.com/globe.svg?v=rb",
+    "alt": "",
+    "nat": "20x20",
+    "r": {
+     "x": 898,
+     "y": 94,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://web.archive.org/web/20251005215616im_/https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_1920/Rebrand%20Imagery/Hero/02_-_HERO",
+    "alt": "Couples photo shoot in bright photo studio location with white backdrop",
+    "nat": "1440x800",
+    "r": {
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 700
+    },
+    "fit": "cover",
+    "radius": "2px"
+   },
+   {
+    "src": "https://web.archive.org/web/20251005215616im_/https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_1920/Rebrand%20Imagery/Hero/03_-_HERO",
+    "alt": "Meeting in a bohemian loft space",
+    "nat": "1440x800",
+    "r": {
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 700
+    },
+    "fit": "cover",
+    "radius": "2px"
+   },
+   {
+    "src": "https://web.archive.org/web/20251005215616im_/https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_1920/jk50ga04qfwiion0aqdl",
+    "alt": "Peerspace Open Door Awards 2025",
+    "nat": "1440x999",
+    "r": {
+     "x": 48,
+     "y": 1069,
+     "w": 896,
+     "h": 550
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://web.archive.org/web/20251005215616im_/https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_1920/Rebrand%20Imagery/Activities/03_BIRTHDAY_2",
+    "alt": "Birthday Party",
+    "nat": "1440x1459",
+    "r": {
+     "x": 784,
+     "y": 1859,
+     "w": 568,
+     "h": 600
+    },
+    "fit": "cover",
+    "radius": "2px"
+   },
+   {
+    "src": "https://web.archive.org/web/20251005215616im_/https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_384/Rebrand%20Imagery/Made%20In%20Peerspace/06_-_M",
+    "alt": "",
+    "nat": "320x480",
+    "r": {
+     "x": 680,
+     "y": 2774,
+     "w": 320,
+     "h": 480
+    },
+    "fit": "cover",
+    "radius": "2px"
+   },
+   {
+    "src": "https://web.archive.org/web/20251005215616im_/https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_384/Rebrand%20Imagery/Made%20In%20Peerspace/07_-_M",
+    "alt": "",
+    "nat": "320x480",
+    "r": {
+     "x": 620,
+     "y": 2774,
+     "w": 320,
+     "h": 480
+    },
+    "fit": "cover",
+    "radius": "2px"
+   },
+   {
+    "src": "https://web.archive.org/web/20251005215616im_/https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_384/Rebrand%20Imagery/Made%20In%20Peerspace/08_-_M",
+    "alt": "",
+    "nat": "320x480",
+    "r": {
+     "x": 560,
+     "y": 2774,
+     "w": 320,
+     "h": 480
+    },
+    "fit": "cover",
+    "radius": "2px"
+   },
+   {
+    "src": "https://web.archive.org/web/20251005215616im_/https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_384/Rebrand%20Imagery/Made%20In%20Peerspace/09_-_M",
+    "alt": "",
+    "nat": "320x480",
+    "r": {
+     "x": 820,
+     "y": 2774,
+     "w": 320,
+     "h": 480
+    },
+    "fit": "cover",
+    "radius": "2px"
+   },
+   {
+    "src": "https://web.archive.org/web/20251005215616im_/https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_384/Rebrand%20Imagery/Made%20In%20Peerspace/10_-_M",
+    "alt": "",
+    "nat": "320x480",
+    "r": {
+     "x": 760,
+     "y": 2774,
+     "w": 320,
+     "h": 480
+    },
+    "fit": "cover",
+    "radius": "2px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_3840/Rebrand%20Imagery/Locations/PARIS",
+    "alt": "Bright and spacious apartment ",
+    "nat": "0x0",
+    "r": {
+     "x": 768,
+     "y": 3859,
+     "w": 584,
+     "h": 684
+    },
+    "fit": "cover",
+    "radius": "2px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_3840/Rebrand%20Imagery/Why%20Peerspace/01_POSSIBILITIES",
+    "alt": "New and never-ending possibilities",
+    "nat": "0x0",
+    "r": {
+     "x": 64,
+     "y": 5327,
+     "w": 640,
+     "h": 480
+    },
+    "fit": "cover",
+    "radius": "2px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_3840/Rebrand%20Imagery/Where%20extraordinary%20begins/EXTRAORDINARY",
+    "alt": "Where extraordinary begins",
+    "nat": "0x0",
+    "r": {
+     "x": 0,
+     "y": 5867,
+     "w": 1440,
+     "h": 900
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_3840/v1669817679/Ambassador-Launch",
+    "alt": "Earn Extra Cash as a Peerspace Ambassador",
+    "nat": "0x0",
+    "r": {
+     "x": 64,
+     "y": 7225,
+     "w": 400,
+     "h": 343
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_3840/v1669817679/Rebrand%20Imagery/Blog%20/REBRAND",
+    "alt": "The new Peerspace: Where extraordinary begins",
+    "nat": "0x0",
+    "r": {
+     "x": 508,
+     "y": 7225,
+     "w": 400,
+     "h": 343
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_3840/v1669817679/Rebrand%20Imagery/Blog%20/SHEA",
+    "alt": "Shea Couleé x Peerspace: Go behind the scenes",
+    "nat": "0x0",
+    "r": {
+     "x": 952,
+     "y": 7225,
+     "w": 400,
+     "h": 343
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_3840/v1669817679/Rebrand%20Imagery/Blog%20/CAELYNN",
+    "alt": "Caelynn Miller-Keyes’ engagement party",
+    "nat": "0x0",
+    "r": {
+     "x": 1396,
+     "y": 7225,
+     "w": 400,
+     "h": 343
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_3840/v1669817678/Rebrand%20Imagery/Blog%20/MANSION",
+    "alt": "10 fabulous murder mystery party ideas",
+    "nat": "0x0",
+    "r": {
+     "x": 4060,
+     "y": 7225,
+     "w": 400,
+     "h": 343
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_3840/v1669817679/Rebrand%20Imagery/Blog%20/SANTA_BARBARA",
+    "alt": "How to rent your home for movies",
+    "nat": "0x0",
+    "r": {
+     "x": 4504,
+     "y": 7225,
+     "w": 400,
+     "h": 343
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_3840/v1669818299/Rebrand%20Imagery/Blog%20/BRIGHT_STUDIO",
+    "alt": "12 simple photoshoot ideas",
+    "nat": "0x0",
+    "r": {
+     "x": 4948,
+     "y": 7225,
+     "w": 400,
+     "h": 343
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/f_auto,q_auto,dpr_auto,w_3840/Rebrand%20Imagery/Host%20/HOST",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 176,
+     "y": 8590,
+     "w": 528,
+     "h": 600
+    },
+    "fit": "cover",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "Peerspace Open Door Awards 2025",
+     "ratio": 1.629,
+     "r": {
+      "w": 896,
+      "h": 550
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 64,
+       "y": 1069,
+       "w": 864,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-6 col-md-7 col-lg-8",
+      "r": {
+       "x": 48,
+       "y": 1069,
+       "w": 896,
+       "h": 550
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "DesktopAwardsSection_awards_section_wrap__4Baes ps-row h-100",
+      "r": {
+       "x": 48,
+       "y": 1039,
+       "w": 1344,
+       "h": 600
+      },
+      "text": "Announcing the 2025 Discover the best in space rentals",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "30px 0px 20px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "SECTION",
+      "cls": "DesktopAwardsSection_oda_2024__UetXd oda_2024  position-relative ps-container-md-margin",
+      "r": {
+       "x": 0,
+       "y": 1039,
+       "w": 1440,
+       "h": 600
+      },
+      "text": "Announcing the 2025 Discover the best in space rentals",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(52, 26, 74)",
+       "padding": "0px 48px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 0,
+       "y": 1039,
+       "w": 1440,
+       "h": 8211
+      },
+      "text": "Announcing the 2025 Discover the best in space rentals A space for every moment Book a unique space for your activity Photo shoot Meeting Birthday party Video shoot Baby shower Workshop Wedding reception Live music Party Music video Bridal shower Event Engagem",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Birthday Party",
+     "ratio": 0.947,
+     "r": {
+      "w": 568,
+      "h": 600
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "LabeledImage_img_wrap__XPtf4 position-relative",
+      "r": {
+       "x": 784,
+       "y": 1859,
+       "w": 568,
+       "h": 600
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "LabeledImage_labeled_img_wrap__7bACS d-flex",
+      "r": {
+       "x": 784,
+       "y": 1859,
+       "w": 592,
+       "h": 600
+      },
+      "text": "Birthday Party HOUSTON TX, US",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-absolute",
+      "r": {
+       "x": 784,
+       "y": 1859,
+       "w": 592,
+       "h": 600
+      },
+      "text": "Birthday Party HOUSTON TX, US",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 784,
+       "y": 1859,
+       "w": 592,
+       "h": 0
+      },
+      "text": "Birthday Party HOUSTON TX, US",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "DesktopActivitiesSection_img_content_wrap__9aoDn position-relative",
+      "r": {
+       "x": 784,
+       "y": 1859,
+       "w": 592,
+       "h": 600
+      },
+      "text": "Birthday Party HOUSTON TX, US",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.667,
+     "r": {
+      "w": 320,
+      "h": 480
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_img_wrap_inner__p57MI position-relative",
+      "r": {
+       "x": 680,
+       "y": 2774,
+       "w": 320,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 680,
+       "y": 2774,
+       "w": 0,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_slide__KL7fi position-relative",
+      "r": {
+       "x": 680,
+       "y": 2774,
+       "w": 0,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_track__poELk position-relative",
+      "r": {
+       "x": 460,
+       "y": 2774,
+       "w": 520,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_wrap__6_fyb d-flex align-items-center justify-content-center",
+      "r": {
+       "x": 0,
+       "y": 3014,
+       "w": 1440,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.667,
+     "r": {
+      "w": 320,
+      "h": 480
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_img_wrap_inner__p57MI position-relative",
+      "r": {
+       "x": 620,
+       "y": 2774,
+       "w": 320,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 620,
+       "y": 2774,
+       "w": 0,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_slide__KL7fi position-relative",
+      "r": {
+       "x": 620,
+       "y": 2774,
+       "w": 0,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_track__poELk position-relative",
+      "r": {
+       "x": 460,
+       "y": 2774,
+       "w": 520,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_wrap__6_fyb d-flex align-items-center justify-content-center",
+      "r": {
+       "x": 0,
+       "y": 3014,
+       "w": 1440,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.667,
+     "r": {
+      "w": 320,
+      "h": 480
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_img_wrap_inner__p57MI position-relative",
+      "r": {
+       "x": 560,
+       "y": 2774,
+       "w": 320,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 560,
+       "y": 2774,
+       "w": 320,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_slide__KL7fi position-relative",
+      "r": {
+       "x": 560,
+       "y": 2774,
+       "w": 320,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_track__poELk position-relative",
+      "r": {
+       "x": 460,
+       "y": 2774,
+       "w": 520,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_wrap__6_fyb d-flex align-items-center justify-content-center",
+      "r": {
+       "x": 0,
+       "y": 3014,
+       "w": 1440,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.667,
+     "r": {
+      "w": 320,
+      "h": 480
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_img_wrap_inner__p57MI position-relative",
+      "r": {
+       "x": 820,
+       "y": 2774,
+       "w": 320,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 820,
+       "y": 2774,
+       "w": 0,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_slide__KL7fi position-relative",
+      "r": {
+       "x": 820,
+       "y": 2774,
+       "w": 0,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_track__poELk position-relative",
+      "r": {
+       "x": 460,
+       "y": 2774,
+       "w": 520,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_wrap__6_fyb d-flex align-items-center justify-content-center",
+      "r": {
+       "x": 0,
+       "y": 3014,
+       "w": 1440,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.667,
+     "r": {
+      "w": 320,
+      "h": 480
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_img_wrap_inner__p57MI position-relative",
+      "r": {
+       "x": 760,
+       "y": 2774,
+       "w": 320,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 760,
+       "y": 2774,
+       "w": 0,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_slide__KL7fi position-relative",
+      "r": {
+       "x": 760,
+       "y": 2774,
+       "w": 0,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_track__poELk position-relative",
+      "r": {
+       "x": 460,
+       "y": 2774,
+       "w": 520,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "AnimatedMockSlider_mock_slider_wrap__6_fyb d-flex align-items-center justify-content-center",
+      "r": {
+       "x": 0,
+       "y": 3014,
+       "w": 1440,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Bright and spacious apartment ",
+     "ratio": 0.854,
+     "r": {
+      "w": 584,
+      "h": 684
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "LabeledImage_img_wrap__XPtf4 position-relative",
+      "r": {
+       "x": 768,
+       "y": 3859,
+       "w": 584,
+       "h": 684
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "LabeledImage_labeled_img_wrap__7bACS d-flex",
+      "r": {
+       "x": 768,
+       "y": 3859,
+       "w": 608,
+       "h": 684
+      },
+      "text": "Bright and spacious apartment PARIS, FR",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-absolute",
+      "r": {
+       "x": 768,
+       "y": 3859,
+       "w": 608,
+       "h": 684
+      },
+      "text": "Bright and spacious apartment PARIS, FR",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 768,
+       "y": 3859,
+       "w": 608,
+       "h": 0
+      },
+      "text": "Bright and spacious apartment PARIS, FR",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "DesktopCitiesSection_img_content_wrap__bCDUB position-relative w-100",
+      "r": {
+       "x": 768,
+       "y": 3859,
+       "w": 608,
+       "h": 684
+      },
+      "text": "Bright and spacious apartment PARIS, FR",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "New and never-ending possibilities",
+     "ratio": 1.333,
+     "r": {
+      "w": 640,
+      "h": 480
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "LabeledImage_img_wrap__XPtf4 position-relative",
+      "r": {
+       "x": 64,
+       "y": 5327,
+       "w": 640,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "LabeledImage_labeled_img_wrap__7bACS d-flex",
+      "r": {
+       "x": 64,
+       "y": 5327,
+       "w": 640,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-absolute",
+      "r": {
+       "x": 64,
+       "y": 5327,
+       "w": 640,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 64,
+       "y": 5327,
+       "w": 640,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "w-100 DesktopWhyPeerspaceSection_carousel_inner_body__194k4",
+      "r": {
+       "x": 64,
+       "y": 5327,
+       "w": 640,
+       "h": 480
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Earn Extra Cash as a Peerspace Ambassador",
+     "ratio": 1.167,
+     "r": {
+      "w": 400,
+      "h": 343
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "DesktopBlogSection_carousel_image__Px9uI",
+      "r": {
+       "x": 64,
+       "y": 7225,
+       "w": 400,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "DesktopBlogSection_carousel_slide__iIlAF",
+      "r": {
+       "x": 64,
+       "y": 7225,
+       "w": 400,
+       "h": 340
+      },
+      "text": "ANNOUNCEMENTS Earn Extra Cash as a Peerspace Ambassador",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "cursor-pointer",
+      "r": {
+       "x": 64,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "ANNOUNCEMENTS Earn Extra Cash as a Peerspace Ambassador",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 64,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "ANNOUNCEMENTS Earn Extra Cash as a Peerspace Ambassador",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active slick-current",
+      "r": {
+       "x": 64,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "ANNOUNCEMENTS Earn Extra Cash as a Peerspace Ambassador",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "The new Peerspace: Where extraordinary begins",
+     "ratio": 1.167,
+     "r": {
+      "w": 400,
+      "h": 343
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "DesktopBlogSection_carousel_image__Px9uI",
+      "r": {
+       "x": 508,
+       "y": 7225,
+       "w": 400,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "DesktopBlogSection_carousel_slide__iIlAF",
+      "r": {
+       "x": 508,
+       "y": 7225,
+       "w": 400,
+       "h": 340
+      },
+      "text": "ANNOUNCEMENTS The new Peerspace: Where extraordinary begins",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "cursor-pointer",
+      "r": {
+       "x": 508,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "ANNOUNCEMENTS The new Peerspace: Where extraordinary begins",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 508,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "ANNOUNCEMENTS The new Peerspace: Where extraordinary begins",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active",
+      "r": {
+       "x": 508,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "ANNOUNCEMENTS The new Peerspace: Where extraordinary begins",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Shea Couleé x Peerspace: Go behind the scenes",
+     "ratio": 1.167,
+     "r": {
+      "w": 400,
+      "h": 343
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "DesktopBlogSection_carousel_image__Px9uI",
+      "r": {
+       "x": 952,
+       "y": 7225,
+       "w": 400,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "DesktopBlogSection_carousel_slide__iIlAF",
+      "r": {
+       "x": 952,
+       "y": 7225,
+       "w": 400,
+       "h": 340
+      },
+      "text": "PARTNERSHIPS Shea Couleé x Peerspace: Go behind the scenes",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "cursor-pointer",
+      "r": {
+       "x": 952,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "PARTNERSHIPS Shea Couleé x Peerspace: Go behind the scenes",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 952,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "PARTNERSHIPS Shea Couleé x Peerspace: Go behind the scenes",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active",
+      "r": {
+       "x": 952,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "PARTNERSHIPS Shea Couleé x Peerspace: Go behind the scenes",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Caelynn Miller-Keyes’ engagement party",
+     "ratio": 1.167,
+     "r": {
+      "w": 400,
+      "h": 343
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "DesktopBlogSection_carousel_image__Px9uI",
+      "r": {
+       "x": 1396,
+       "y": 7225,
+       "w": 400,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "DesktopBlogSection_carousel_slide__iIlAF",
+      "r": {
+       "x": 1396,
+       "y": 7225,
+       "w": 400,
+       "h": 340
+      },
+      "text": "PARTNERSHIPS Caelynn Miller-Keyes’ engagement party",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "cursor-pointer",
+      "r": {
+       "x": 1396,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "PARTNERSHIPS Caelynn Miller-Keyes’ engagement party",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 1396,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "PARTNERSHIPS Caelynn Miller-Keyes’ engagement party",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active",
+      "r": {
+       "x": 1396,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "PARTNERSHIPS Caelynn Miller-Keyes’ engagement party",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "10 fabulous murder mystery party ideas",
+     "ratio": 1.167,
+     "r": {
+      "w": 400,
+      "h": 343
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "DesktopBlogSection_carousel_image__Px9uI",
+      "r": {
+       "x": 4060,
+       "y": 7225,
+       "w": 400,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "DesktopBlogSection_carousel_slide__iIlAF",
+      "r": {
+       "x": 4060,
+       "y": 7225,
+       "w": 400,
+       "h": 340
+      },
+      "text": "EVENTS 10 fabulous murder mystery party ideas",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "cursor-pointer",
+      "r": {
+       "x": 4060,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "EVENTS 10 fabulous murder mystery party ideas",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(106, 110, 122)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 4060,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "EVENTS 10 fabulous murder mystery party ideas",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 4060,
+       "y": 7225,
+       "w": 444,
+       "h": 340
+      },
+      "text": "EVENTS 10 fabulous murder mystery party ideas",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "List Your Space (current)",
+   "Log In",
+   "Sign Up",
+   "Enter your activity",
+   "San Francisco, CA, US",
+   "Anytime",
+   "Search",
+   "Photo shoot",
+   "Meeting",
+   "Birthday party",
+   "Video shoot",
+   "Baby shower",
+   "Workshop",
+   "Wedding reception",
+   "Live music",
+   "Party",
+   "Music video",
+   "Bridal shower",
+   "Event",
+   "Engagement party",
+   "Corporate event",
+   "Graduation party",
+   "Pop-up",
+   "Gala",
+   "Film shoot",
+   "Browse all activities",
+   "Discover the possibilities",
+   "View all articles",
+   "HOSTS Host Spotlight: Sally F.",
+   "MEETINGS 9 team offsite ideas to engage employees",
+   "EVENTS 10 fabulous murder mystery party ideas",
+   "HOSTING How to rent your home for movies",
+   "PRODUCTIONS 12 simple photoshoot ideas",
+   "Photo Studios",
+   "Events",
+   "Parties",
+   "Conference Rooms",
+   "Dance Studios",
+   "Corporate Events",
+   "Rooftops",
+   "Recording Studios",
+   "Film Studios",
+   "Dallas photo studios",
+   "Chicago photo studios",
+   "Atlanta photo studios",
+   "San Francisco photo studios",
+   "Boston photo studios",
+   "Brooklyn photo studios",
+   "Los Angeles photo studios",
+   "Nashville photo studios",
+   "Houston photo studios",
+   "Find photo studios near me",
+   "List your space",
+   "List your space",
+   "About",
+   "Press",
+   "Careers",
+   "Activities",
+   "Locations",
+   "Resources",
+   "Ambassador Program",
+   "List your space",
+   "Community",
+   "Deutschland",
+   "United Kingdom",
+   "United States",
+   "Canada",
+   "Australia",
+   "España",
+   "France",
+   "Help Center",
+   "Trust and Safety",
+   "Terms",
+   "Privacy",
+   "California Privacy",
+   "App Store",
+   "Google Play Store",
+   "English (US)",
+   "Your privacy choices"
+  ],
+  "bodyText": "Browse Spaces\nList Your Space\n(current)\nLog In\nSign Up\n\nMeeting — Splendid loft\nPARIS, FR\n\nWhat are you planning?\nEnter your activity\nWhere?\nSan Francisco, CA, US\nWhen?\nAnytime\nSearch\nFind a space.\nFulfill your vision.\nAnnouncing the 2025\n\nDiscover the best in space rentals\n\nA space for\nevery moment\nBook a unique space for your activity\nPhoto shoot\nMeeting\nBirthday party\nVideo shoot\nBaby shower\nWorkshop\nWedding reception\nLive music\n\nParty\nMusic video\nBridal shower\nEvent\nEngagement party\nCorporate event\nGraduation party\nPop-up\nGala\n\nFilm shoot\nBrowse all activities\nBirthday Party\nHOUSTON TX, US\nMade in\nPeerspace\n\nMade in\nPeerspace\n\nDiscover the possibilities\nYour something\nstarts somewhere\nLondon\nUK\nVancouver\nCA\nParis\nFR\nSydney\nAU\nNew York\nUS\nLos Angeles\nUS\nBerlin\nDE\nBarcelona\nES\nView all cities\nBright and spacious apartment\nPARIS, FR\nWhy\nPeerspace\nNew and never-ending possibilities\n\nFind everything from professionally equipped studios to unconventional rooms and residences.\n\n01 / 03\n\nWhere\nextraordinary\nbegins\nFind your space\n\nPEERSPACE BLOG\n\nIf walls could talk\nView all articles\n\nANNOUNCEMENTS\n\nEarn Extra Cash as a Peerspace Ambassador\n\nANNOUNCEMENTS\n\nThe new Peerspace: Where extraordinary begins\n\nPARTNERSHIPS\n\nShea Couleé x Peerspace: Go behind the scenes\n\nPARTNERSHIPS\n\nCaelynn Miller-Keyes’ engagement party\n\nPARTNERSHIPS\n\nBig Boi &amp; Sleepy Brown launch Big Sleepover album with Peerspace\n\nHOSTS\n\nHost Spotlight: Sally F.\n\nPRODUCTION\n\nHere’s everything you need on your pre-production checklist\n\nMEETINGS\n\nHow and where to rent an office for a day\n\nMEETINGS\n\n9 team offsite ideas to engage employees\n\nEVENTS\n\n10 fabulous murder mystery party ideas\n\nHOSTING\n\nHow to rent your home for movies\n\nPRODUCTIONS\n\n12 simple photoshoot ideas\nNew places, new possibilities in the US\nPhoto Studios\nEvents\nParties\nConference Rooms\nDance Studios\nCorporate Events\nRooftops\nRecording Studios\nFilm Studios\nDallas photo studios\nTEXAS, US\nChicago photo studios\nILLINOIS, US\nAtlanta photo studios\nGEORGIA, US\nSan Francisco photo studios\nCALIFORNIA, US\nBoston photo studios\nMASSACHUSETTS, US\nBrooklyn photo studios\nNEW YORK, US\nLos Angeles photo studios\nCALIFORNIA, US\nNashville photo studios\nTENNESSEE, US\nHouston photo studios\nTEXAS, US\nFind photo studios near me\nEarn income as a\nPeerspace host\nPut your space to work.\n\nEarn extra income by opening your doors to personal and professional gatherings in your area.\nList your space\n\nCompany\n\nAbout\nPress\nCareers\n\nExplore\n\nActivities\nLocations\nResources\nAmbassador Program\n\nHost\n\nList your space\nCommunity\n\nCountries\n\nDeutschland\nUnited Kingdom\nUnited States\nCanada\nAustralia\nEspaña\nFrance\n\nSupport\n\nHelp Center\nTrust and Safety\nTerms\nPrivacy\nCalifornia Privacy\n\nDownload\n\nApp Store\nGoogle Play Store\n\n© Peerspace\n\nEnglish (US)\n•\nYour privacy choices",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Find a space. Fulfill your vision.",
+     "style": {
+      "fontFamily": "__ABCSocialBold_2b51a8, __ABCSocialBold_Fallback_2b51a8, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "88px",
+      "fontWeight": "400",
+      "lineHeight": "96px",
+      "letterSpacing": "-1.76px",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 32px"
+     },
+     "r": {
+      "x": 64,
+      "y": 658,
+      "w": 645,
+      "h": 192
+     }
+    },
+    {
+     "sel": "h1",
+     "text": "Made in",
+     "style": {
+      "fontFamily": "__ABCSocialBold_2b51a8, __ABCSocialBold_Fallback_2b51a8, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "160px",
+      "fontWeight": "400",
+      "lineHeight": "160px",
+      "letterSpacing": "-4.8px",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 0,
+      "y": 2854,
+      "w": 1440,
+      "h": 160
+     }
+    },
+    {
+     "sel": "h1",
+     "text": "Peerspace",
+     "style": {
+      "fontFamily": "__ABCSocialBold_2b51a8, __ABCSocialBold_Fallback_2b51a8, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "160px",
+      "fontWeight": "400",
+      "lineHeight": "160px",
+      "letterSpacing": "-4.8px",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 0,
+      "y": 3014,
+      "w": 1440,
+      "h": 160
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, [class*='listing'] h2, h2, h3",
+     "text": "A space for every moment",
+     "style": {
+      "fontFamily": "__ABCSocialMedium_4ea368, __ABCSocialMedium_Fallback_4ea368, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "56px",
+      "fontWeight": "400",
+      "lineHeight": "64px",
+      "letterSpacing": "-1.12px",
+      "color": "rgb(18, 18, 18)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(18, 18, 18)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+     },
+     "r": {
+      "x": 64,
+      "y": 1859,
+      "w": 640,
+      "h": 128
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, [class*='listing'] h2, h2, h3",
+     "text": "Book a unique space for your activity",
+     "style": {
+      "fontFamily": "__ABCSocialMedium_4ea368, __ABCSocialMedium_Fallback_4ea368, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(18, 18, 18)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(18, 18, 18)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+     },
+     "r": {
+      "x": 64,
+      "y": 2003,
+      "w": 640,
+      "h": 24
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, [class*='listing'] h2, h2, h3",
+     "text": "Why",
+     "style": {
+      "fontFamily": "__ABCSocialBold_2b51a8, __ABCSocialBold_Fallback_2b51a8, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "160px",
+      "fontWeight": "400",
+      "lineHeight": "160px",
+      "letterSpacing": "-4.8px",
+      "color": "rgb(18, 18, 18)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(18, 18, 18)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 176,
+      "y": 4989,
+      "w": 1200,
+      "h": 160
+     }
+    }
+   ],
+   "card-meta": [],
+   "filter-label": [
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "What are you planning?",
+     "style": {
+      "fontFamily": "__ABCSocialMedium_4ea368, __ABCSocialMedium_Fallback_4ea368, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "color": "rgb(106, 110, 122)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(106, 110, 122)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 304,
+      "y": 311,
+      "w": 312,
+      "h": 16
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "Where?",
+     "style": {
+      "fontFamily": "__ABCSocialMedium_4ea368, __ABCSocialMedium_Fallback_4ea368, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "color": "rgb(106, 110, 122)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(106, 110, 122)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 632,
+      "y": 311,
+      "w": 178,
+      "h": 16
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "When?",
+     "style": {
+      "fontFamily": "__ABCSocialMedium_4ea368, __ABCSocialMedium_Fallback_4ea368, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "color": "rgb(106, 110, 122)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(106, 110, 122)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 826,
+      "y": 311,
+      "w": 178,
+      "h": 16
+     }
+    }
+   ],
+   "nav-link": [],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(18, 18, 18)",
+    "fontFamily": "__ABCSocialRegular_d682e4, __ABCSocialRegular_Fallback_d682e4, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

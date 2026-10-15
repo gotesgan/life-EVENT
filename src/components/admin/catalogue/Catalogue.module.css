@@ -1,0 +1,149 @@
+/*
+ * Catalogue administration.
+ *
+ * No hex, no raw px type sizes, radius from `--app-radius-*`.
+ */
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(rem(240px), 1fr));
+  gap: rem(8px) rem(16px);
+  margin: 0;
+}
+
+.legendTerm {
+  margin: 0;
+  font-size: var(--mantine-font-size-sm);
+  font-weight: 600;
+  color: var(--app-text);
+}
+
+.legendValue {
+  margin: 0 0 rem(6px);
+  font-size: var(--mantine-font-size-xs);
+  color: var(--app-text-muted);
+  line-height: 1.5;
+}
+
+.treeList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: rem(6px);
+}
+
+.treeListNested {
+  margin-top: rem(6px);
+  margin-inline-start: rem(16px);
+}
+
+.treeRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-sm);
+  flex-wrap: wrap;
+  padding: rem(8px) rem(10px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-control);
+  background: var(--app-surface-raised);
+}
+
+.treeMain {
+  min-width: 0;
+}
+
+.treeTitle {
+  display: flex;
+  align-items: center;
+  gap: rem(8px);
+  flex-wrap: wrap;
+}
+
+.treeMeta {
+  display: flex;
+  align-items: center;
+  gap: rem(10px);
+  flex-wrap: wrap;
+  font-size: var(--mantine-font-size-xs);
+  color: var(--app-text-muted);
+}
+
+.path {
+  font-family: var(--mantine-font-family-monospace);
+  font-size: var(--mantine-font-size-xs);
+  overflow-wrap: anywhere;
+  color: var(--app-text-subtle);
+}
+
+.bindingCard {
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  padding: rem(12px);
+  background: var(--app-surface-raised);
+}
+
+.bindingHead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-sm);
+  flex-wrap: wrap;
+  margin-bottom: rem(10px);
+}
+
+.flagGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(rem(200px), 1fr));
+  gap: rem(10px) rem(14px);
+}
+
+.overrideGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(rem(170px), 1fr));
+  gap: rem(10px);
+  align-items: end;
+  margin-top: rem(12px);
+}
+
+.optionRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-sm);
+  padding: rem(6px) 0;
+  border-bottom: 1px solid var(--app-border);
+}
+
+.optionRow:last-child {
+  border-bottom: none;
+}
+
+.code {
+  font-family: var(--mantine-font-family-monospace);
+  font-size: var(--mantine-font-size-xs);
+}
+
+.helpText {
+  font-size: var(--mantine-font-size-xs);
+  color: var(--app-text-subtle);
+  margin: rem(4px) 0 0;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(rem(220px), 1fr));
+  gap: var(--mantine-spacing-sm);
+  align-items: start;
+}
+
+.fullWidth {
+  grid-column: 1 / -1;
+}
+
+.switchRow {
+  display: flex;
+  align-items: center;
+  gap: rem(8px);
+}

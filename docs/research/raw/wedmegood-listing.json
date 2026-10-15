@@ -1,0 +1,3329 @@
+{
+ "slug": "wedmegood",
+ "mode": "listing",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "Madhavgarh Palace 5.0 (19 reviews) Gurgaon, Gurgaon Heritage Palace Hotel Veg ₹ 3,000 per plate Non veg ₹ 3,250 per plate 100-2500 pax 75 Rooms +4 more",
+   "r": {
+    "x": 110,
+    "y": 360,
+    "w": 400,
+    "h": 385
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(74, 74, 74)",
+    "transition": "0.3s",
+    "transitionDuration": "0.3s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 400,
+    "h": 385
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.05) 0px 0px 15px 0px",
+    "border": "0px none rgb(74, 74, 74)",
+    "transitionDuration": "0.3s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://www.wedmegood.com/vendors/delhi-ncr/wedding-venues/all/banquet-hall/",
+  "title": "20 Best Banquet Halls in Delhi Ncr with Price",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 9848,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Banquet Halls in Delhi NCR",
+    "x": 120,
+    "y": 214,
+    "w": 313,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "How To Find The Best Banquet Halls in Delhi NCR near me?",
+    "x": 120,
+    "y": 3345,
+    "w": 1200,
+    "h": 24
+   },
+   {
+    "tag": "H2",
+    "text": "Which localities near me in Delhi have the best banquets?",
+    "x": 120,
+    "y": 3655,
+    "w": 1200,
+    "h": 24
+   },
+   {
+    "tag": "H2",
+    "text": "Frequently Asked Questions",
+    "x": 120,
+    "y": 3825,
+    "w": 1200,
+    "h": 24
+   },
+   {
+    "tag": "H3",
+    "text": "Do Banquet hall prices include decoration cost?",
+    "x": 120,
+    "y": 3869,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H3",
+    "text": "Can we customize decorations in banquets in Delhi NCR? Can we hire our own decorator?",
+    "x": 120,
+    "y": 4009,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H3",
+    "text": "What is the catering policy in Delhi NCR banquets? Can I hire our own caterers?",
+    "x": 120,
+    "y": 4149,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H3",
+    "text": "Does every banquet provide inhouse DJ?",
+    "x": 120,
+    "y": 4289,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H3",
+    "text": "What capacity should I look for in banquets in Delhi NCR?",
+    "x": 120,
+    "y": 4429,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H3",
+    "text": "How do Banquet halls in Delhi NCR charge?",
+    "x": 120,
+    "y": 4569,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H3",
+    "text": "Can we get alcohol from outside?",
+    "x": 120,
+    "y": 4733,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H3",
+    "text": "Are there rooms available in Banquets?",
+    "x": 120,
+    "y": 4873,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H3",
+    "text": "What are the cancellation policies?",
+    "x": 120,
+    "y": 5013,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H3",
+    "text": "What time do banquet halls close?",
+    "x": 120,
+    "y": 5153,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H3",
+    "text": "Are there any hotels that have banquet halls?",
+    "x": 120,
+    "y": 5293,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H3",
+    "text": "How soon should we book banquets for weddings?",
+    "x": 120,
+    "y": 5433,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H3",
+    "text": "Is enough parking available?",
+    "x": 120,
+    "y": 5573,
+    "w": 1200,
+    "h": 52
+   },
+   {
+    "tag": "H2",
+    "text": "Can I get the best deals on Delhi Banquet pricing?",
+    "x": 120,
+    "y": 5713,
+    "w": 1200,
+    "h": 24
+   },
+   {
+    "tag": "H2",
+    "text": "Which are the popular Banquets in Delhi near me?",
+    "x": 120,
+    "y": 5990,
+    "w": 1200,
+    "h": 24
+   },
+   {
+    "tag": "H2",
+    "text": "Which are the budget Banquets near me in Delhi?",
+    "x": 120,
+    "y": 6136,
+    "w": 1200,
+    "h": 24
+   },
+   {
+    "tag": "H2",
+    "text": "How to choose the best banquets in Delhi near me?",
+    "x": 120,
+    "y": 6412,
+    "w": 1200,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "Latest Reviews",
+    "x": 120,
+    "y": 7396,
+    "w": 1200,
+    "h": 26
+   }
+  ],
+  "header": {
+   "tag": "HEADER",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 90
+   },
+   "style": {
+    "position": "static",
+    "top": "auto",
+    "height": "90px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderBottom": "0px none rgb(74, 74, 74)",
+    "boxShadow": "none",
+    "zIndex": "9"
+   },
+   "text": "Write A Review Download App India's Favourite Wedding Planning Platform Delhi NCR Venues Vendors Photos Real Weddings Blog E-Invites Genie Log In",
+   "links": [
+    {
+     "t": "Write A Review",
+     "tag": "A",
+     "href": "/write-a-review",
+     "r": {
+      "x": 1094,
+      "y": 0,
+      "w": 155,
+      "h": 40
+     }
+    },
+    {
+     "t": "Venues",
+     "tag": "A",
+     "href": "/vendors/delhi-ncr/wedding-venues/",
+     "r": {
+      "x": 274,
+      "y": 52,
+      "w": 55,
+      "h": 26
+     }
+    },
+    {
+     "t": "Vendors",
+     "tag": "A",
+     "href": "/vendors/delhi-ncr/",
+     "r": {
+      "x": 364,
+      "y": 52,
+      "w": 61,
+      "h": 26
+     }
+    },
+    {
+     "t": "Photos",
+     "tag": "A",
+     "href": "/photos",
+     "r": {
+      "x": 460,
+      "y": 52,
+      "w": 53,
+      "h": 26
+     }
+    },
+    {
+     "t": "Real Weddings",
+     "tag": "A",
+     "href": "/real_wedding",
+     "r": {
+      "x": 549,
+      "y": 52,
+      "w": 110,
+      "h": 26
+     }
+    },
+    {
+     "t": "Blog",
+     "tag": "A",
+     "href": "/blog",
+     "r": {
+      "x": 694,
+      "y": 52,
+      "w": 33,
+      "h": 26
+     }
+    },
+    {
+     "t": "E-Invites",
+     "tag": "A",
+     "href": "/wedding-invitations",
+     "r": {
+      "x": 762,
+      "y": 52,
+      "w": 66,
+      "h": 26
+     }
+    },
+    {
+     "t": "Genie",
+     "tag": "A",
+     "href": "/genie",
+     "r": {
+      "x": 863,
+      "y": 52,
+      "w": 44,
+      "h": 26
+     }
+    }
+   ]
+  },
+  "navAll": [],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Search Wedding Venues...",
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 955,
+     "y": 234,
+     "w": 205,
+     "h": 22
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "email",
+    "ph": "Email*",
+    "aria": null,
+    "name": "EMAIL",
+    "r": {
+     "x": 120,
+     "y": 9193,
+     "w": 300,
+     "h": 40
+    }
+   }
+  ],
+  "filterContainers": [
+   {
+    "tag": "DIV",
+    "cls": "unfixed-filter",
+    "r": {
+     "x": 0,
+     "y": 90,
+     "w": 1440,
+     "h": 50
+    },
+    "text": "Locality No. of Guests Room Count Price per plate (Rs) Rental Cost Venue Type Space Rating",
+    "controls": []
+   },
+   {
+    "tag": "DIV",
+    "cls": "filter-name full-filter-name fcol",
+    "r": {
+     "x": 40,
+     "y": 90,
+     "w": 111,
+     "h": 50
+    },
+    "text": "Locality",
+    "controls": []
+   },
+   {
+    "tag": "DIV",
+    "cls": "filter-name full-filter-name fcol",
+    "r": {
+     "x": 191,
+     "y": 90,
+     "w": 152,
+     "h": 50
+    },
+    "text": "No. of Guests",
+    "controls": []
+   },
+   {
+    "tag": "DIV",
+    "cls": "filter-name full-filter-name fcol",
+    "r": {
+     "x": 383,
+     "y": 90,
+     "w": 145,
+     "h": 50
+    },
+    "text": "Room Count",
+    "controls": []
+   },
+   {
+    "tag": "DIV",
+    "cls": "filter-name full-filter-name fcol",
+    "r": {
+     "x": 568,
+     "y": 90,
+     "w": 195,
+     "h": 50
+    },
+    "text": "Price per plate (Rs)",
+    "controls": []
+   },
+   {
+    "tag": "DIV",
+    "cls": "filter-name full-filter-name fcol",
+    "r": {
+     "x": 803,
+     "y": 90,
+     "w": 140,
+     "h": 50
+    },
+    "text": "Rental Cost",
+    "controls": []
+   },
+   {
+    "tag": "DIV",
+    "cls": "filter-name full-filter-name fcol",
+    "r": {
+     "x": 983,
+     "y": 90,
+     "w": 138,
+     "h": 50
+    },
+    "text": "Venue Type",
+    "controls": []
+   },
+   {
+    "tag": "DIV",
+    "cls": "filter-name full-filter-name fcol",
+    "r": {
+     "x": 1161,
+     "y": 90,
+     "w": 99,
+     "h": 50
+    },
+    "text": "Space",
+    "controls": []
+   }
+  ],
+  "images": [
+   {
+    "src": "https://image.wedmegood.com/resized/20X/images/icons/write_a_review_new.png",
+    "alt": "write-review",
+    "nat": "20x22",
+    "r": {
+     "x": 1129,
+     "y": 10,
+     "w": 18,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/20X/images/icons/download_app_new.png",
+    "alt": "download-app",
+    "nat": "20x34",
+    "r": {
+     "x": 1284,
+     "y": 10,
+     "w": 12,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/images/WMG-logo.svg",
+    "alt": "wmg logo",
+    "nat": "194x30",
+    "r": {
+     "x": 40,
+     "y": 50,
+     "w": 194,
+     "h": 30
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/14X/images/icons/search_icon_white.png",
+    "alt": "search",
+    "nat": "14x14",
+    "r": {
+     "x": 1218,
+     "y": 58,
+     "w": 14,
+     "h": 14
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/images/icons/genie_icon.svg",
+    "alt": "",
+    "nat": "28x16",
+    "r": {
+     "x": 580,
+     "y": 235,
+     "w": 28,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.wedmegood.com/static/media/ListBlackIcon.c88b0d38.svg",
+    "alt": "list",
+    "nat": "20x14",
+    "r": {
+     "x": 1193,
+     "y": 238,
+     "w": 20,
+     "h": 14
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.wedmegood.com/static/media/GridColoured.ade2802b.svg",
+    "alt": "grid",
+    "nat": "14x14",
+    "r": {
+     "x": 1267,
+     "y": 238,
+     "w": 14,
+     "h": 14
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/450X/uploads/member/26474687/1777028323_MADHAVGARH_PALACE_155.jpg?crop=6,58,1266,712",
+    "alt": "vendor-pic",
+    "nat": "450x253",
+    "r": {
+     "x": 120,
+     "y": 370,
+     "w": 380,
+     "h": 214
+    },
+    "fit": "cover",
+    "radius": "10px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/26X/uploads/icons/handpicked-web.png",
+    "alt": "Paid Vendor",
+    "nat": "26x26",
+    "r": {
+     "x": 120,
+     "y": 370,
+     "w": 26,
+     "h": 26
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/NewInfoIconCropped.5709ead4.png",
+    "alt": "",
+    "nat": "61x59",
+    "r": {
+     "x": 470,
+     "y": 550,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/location.417064ed.svg",
+    "alt": "Location",
+    "nat": "11x14",
+    "r": {
+     "x": 120,
+     "y": 628,
+     "w": 11,
+     "h": 14
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/ResortIcon.00b02371.svg",
+    "alt": "Venue",
+    "nat": "14x14",
+    "r": {
+     "x": 265,
+     "y": 625,
+     "w": 14,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/450X/uploads/member/24879423/1789548960_WhatsApp_Image_2026_09_16_at_01.47.59.jpeg",
+    "alt": "vendor-pic",
+    "nat": "450x300",
+    "r": {
+     "x": 120,
+     "y": 765,
+     "w": 380,
+     "h": 214
+    },
+    "fit": "cover",
+    "radius": "10px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/26X/uploads/icons/handpicked-web.png",
+    "alt": "Paid Vendor",
+    "nat": "26x26",
+    "r": {
+     "x": 120,
+     "y": 765,
+     "w": 26,
+     "h": 26
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/NewInfoIconCropped.5709ead4.png",
+    "alt": "",
+    "nat": "61x59",
+    "r": {
+     "x": 470,
+     "y": 945,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/location.417064ed.svg",
+    "alt": "Location",
+    "nat": "11x14",
+    "r": {
+     "x": 120,
+     "y": 1023,
+     "w": 11,
+     "h": 14
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/ResortIcon.00b02371.svg",
+    "alt": "Venue",
+    "nat": "14x14",
+    "r": {
+     "x": 293,
+     "y": 1020,
+     "w": 14,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/450X/uploads/member/12781/1701763756_Opal_Image_3.jpeg",
+    "alt": "vendor-pic",
+    "nat": "450x300",
+    "r": {
+     "x": 120,
+     "y": 1160,
+     "w": 380,
+     "h": 214
+    },
+    "fit": "cover",
+    "radius": "10px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/26X/uploads/icons/handpicked-web.png",
+    "alt": "Paid Vendor",
+    "nat": "26x26",
+    "r": {
+     "x": 120,
+     "y": 1160,
+     "w": 26,
+     "h": 26
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/NewInfoIconCropped.5709ead4.png",
+    "alt": "",
+    "nat": "61x59",
+    "r": {
+     "x": 470,
+     "y": 1340,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/location.417064ed.svg",
+    "alt": "Location",
+    "nat": "11x14",
+    "r": {
+     "x": 120,
+     "y": 1418,
+     "w": 11,
+     "h": 14
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/ResortIcon.00b02371.svg",
+    "alt": "Venue",
+    "nat": "14x14",
+    "r": {
+     "x": 256,
+     "y": 1415,
+     "w": 14,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/450X/uploads/member/4589718/1714112896_pavilion__3.jpeg",
+    "alt": "vendor-pic",
+    "nat": "450x319",
+    "r": {
+     "x": 120,
+     "y": 1555,
+     "w": 380,
+     "h": 214
+    },
+    "fit": "cover",
+    "radius": "10px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/26X/uploads/icons/handpicked-web.png",
+    "alt": "Paid Vendor",
+    "nat": "26x26",
+    "r": {
+     "x": 120,
+     "y": 1555,
+     "w": 26,
+     "h": 26
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/NewInfoIconCropped.5709ead4.png",
+    "alt": "",
+    "nat": "61x59",
+    "r": {
+     "x": 470,
+     "y": 1735,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/location.417064ed.svg",
+    "alt": "Location",
+    "nat": "11x14",
+    "r": {
+     "x": 120,
+     "y": 1813,
+     "w": 11,
+     "h": 14
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/ResortIcon.00b02371.svg",
+    "alt": "Venue",
+    "nat": "14x14",
+    "r": {
+     "x": 221,
+     "y": 1810,
+     "w": 14,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/450X/uploads/member/4454393/1784618996_1748255201_WhatsApp_Image_2025_05_09_at_11.46.03_AM__1_.jpeg",
+    "alt": "vendor-pic",
+    "nat": "450x338",
+    "r": {
+     "x": 120,
+     "y": 1950,
+     "w": 380,
+     "h": 214
+    },
+    "fit": "cover",
+    "radius": "10px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/26X/uploads/icons/handpicked-web.png",
+    "alt": "Paid Vendor",
+    "nat": "26x26",
+    "r": {
+     "x": 120,
+     "y": 1950,
+     "w": 26,
+     "h": 26
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/NewInfoIconCropped.5709ead4.png",
+    "alt": "",
+    "nat": "61x59",
+    "r": {
+     "x": 470,
+     "y": 2130,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/location.417064ed.svg",
+    "alt": "Location",
+    "nat": "11x14",
+    "r": {
+     "x": 120,
+     "y": 2208,
+     "w": 11,
+     "h": 14
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/ResortIcon.00b02371.svg",
+    "alt": "Venue",
+    "nat": "14x14",
+    "r": {
+     "x": 207,
+     "y": 2205,
+     "w": 14,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/450X/uploads/member/25700684/1752122999_3d105336_9027_428b_bb7a_1c69127cdd86.jpg?crop=281,149,1062,597",
+    "alt": "vendor-pic",
+    "nat": "450x253",
+    "r": {
+     "x": 120,
+     "y": 2345,
+     "w": 380,
+     "h": 214
+    },
+    "fit": "cover",
+    "radius": "10px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/26X/uploads/icons/handpicked-web.png",
+    "alt": "Paid Vendor",
+    "nat": "26x26",
+    "r": {
+     "x": 120,
+     "y": 2345,
+     "w": 26,
+     "h": 26
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/NewInfoIconCropped.5709ead4.png",
+    "alt": "",
+    "nat": "61x59",
+    "r": {
+     "x": 470,
+     "y": 2525,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/location.417064ed.svg",
+    "alt": "Location",
+    "nat": "11x14",
+    "r": {
+     "x": 120,
+     "y": 2603,
+     "w": 11,
+     "h": 14
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/ResortIcon.00b02371.svg",
+    "alt": "Venue",
+    "nat": "14x14",
+    "r": {
+     "x": 207,
+     "y": 2600,
+     "w": 14,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/450X/uploads/member/26557265/1788417138_Screenshot_262.png",
+    "alt": "vendor-pic",
+    "nat": "450x303",
+    "r": {
+     "x": 120,
+     "y": 2740,
+     "w": 380,
+     "h": 214
+    },
+    "fit": "cover",
+    "radius": "10px"
+   },
+   {
+    "src": "https://image.wedmegood.com/resized/26X/uploads/icons/handpicked-web.png",
+    "alt": "Paid Vendor",
+    "nat": "26x26",
+    "r": {
+     "x": 120,
+     "y": 2740,
+     "w": 26,
+     "h": 26
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.wedmegood.com/react-frontend-v4/static/media/NewInfoIconCropped.5709ead4.png",
+    "alt": "",
+    "nat": "61x59",
+    "r": {
+     "x": 470,
+     "y": 2920,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 120,
+       "y": 569,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 120,
+       "y": 370,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 110,
+       "y": 360,
+       "w": 400,
+       "h": 380
+      },
+      "text": "Madhavgarh Palace 5.0 (19 reviews) Gurgaon, Gurgaon Heritage Palace Hotel Veg ₹ 3,000 per plate Non veg ₹ 3,250 per plate 100-2500 pax 75 Rooms +4 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 110,
+       "y": 360,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Madhavgarh Palace 5.0 (19 reviews) Gurgaon, Gurgaon Heritage Palace Hotel Veg ₹ 3,000 per plate Non veg ₹ 3,250 per plate 100-2500 pax 75 Rooms +4 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 110,
+       "y": 360,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Madhavgarh Palace 5.0 (19 reviews) Gurgaon, Gurgaon Heritage Palace Hotel Veg ₹ 3,000 per plate Non veg ₹ 3,250 per plate 100-2500 pax 75 Rooms +4 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 120,
+       "y": 964,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 120,
+       "y": 765,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 110,
+       "y": 755,
+       "w": 400,
+       "h": 380
+      },
+      "text": "Cinderella Farms by Bel-laMonde 4.9 (21 reviews) South Delhi, Delhi NCR Large Lawn & Banquet Veg ₹ 5,000 per plate Non veg ₹ 5,500 per plate 500-2000 pax 4 Rooms +4 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 110,
+       "y": 755,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Cinderella Farms by Bel-laMonde 4.9 (21 reviews) South Delhi, Delhi NCR Large Lawn & Banquet Veg ₹ 5,000 per plate Non veg ₹ 5,500 per plate 500-2000 pax 4 Rooms +4 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 110,
+       "y": 755,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Cinderella Farms by Bel-laMonde 4.9 (21 reviews) South Delhi, Delhi NCR Large Lawn & Banquet Veg ₹ 5,000 per plate Non veg ₹ 5,500 per plate 500-2000 pax 4 Rooms +4 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 120,
+       "y": 1359,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 120,
+       "y": 1160,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 110,
+       "y": 1150,
+       "w": 400,
+       "h": 380
+      },
+      "text": "Crowne Plaza New Delhi Okhla, an IHG Hotel 5.0 (11 reviews) Okhla, Delhi NCR 5 Star Hotel Veg ₹ 3,399 per plate Non veg ₹ 3,599 per plate 40-600 pax 208 Rooms +3 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 110,
+       "y": 1150,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Crowne Plaza New Delhi Okhla, an IHG Hotel 5.0 (11 reviews) Okhla, Delhi NCR 5 Star Hotel Veg ₹ 3,399 per plate Non veg ₹ 3,599 per plate 40-600 pax 208 Rooms +3 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 110,
+       "y": 1150,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Crowne Plaza New Delhi Okhla, an IHG Hotel 5.0 (11 reviews) Okhla, Delhi NCR 5 Star Hotel Veg ₹ 3,399 per plate Non veg ₹ 3,599 per plate 40-600 pax 208 Rooms +3 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 120,
+       "y": 1754,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 120,
+       "y": 1555,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 110,
+       "y": 1545,
+       "w": 400,
+       "h": 380
+      },
+      "text": "Tivoli Bijwasan 4.2 (38 reviews) Delhi NCR Venue with Glasshouse Veg ₹ 3,750 per plate Non veg ₹ 4,000 per plate 150-1400 pax 50 Rooms +6 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 110,
+       "y": 1545,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Tivoli Bijwasan 4.2 (38 reviews) Delhi NCR Venue with Glasshouse Veg ₹ 3,750 per plate Non veg ₹ 4,000 per plate 150-1400 pax 50 Rooms +6 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 110,
+       "y": 1545,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Tivoli Bijwasan 4.2 (38 reviews) Delhi NCR Venue with Glasshouse Veg ₹ 3,750 per plate Non veg ₹ 4,000 per plate 150-1400 pax 50 Rooms +6 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 120,
+       "y": 2149,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 120,
+       "y": 1950,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 110,
+       "y": 1940,
+       "w": 400,
+       "h": 380
+      },
+      "text": "Antilia by ZION - Sonipat 4.5 (11 reviews) Sonipat Hotel with Banquet & Lawn Veg ₹ 2,000 per plate 500-750 pax 52 Rooms +4 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 110,
+       "y": 1940,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Antilia by ZION - Sonipat 4.5 (11 reviews) Sonipat Hotel with Banquet & Lawn Veg ₹ 2,000 per plate 500-750 pax 52 Rooms +4 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 110,
+       "y": 1940,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Antilia by ZION - Sonipat 4.5 (11 reviews) Sonipat Hotel with Banquet & Lawn Veg ₹ 2,000 per plate 500-750 pax 52 Rooms +4 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 120,
+       "y": 2544,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 120,
+       "y": 2345,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 110,
+       "y": 2335,
+       "w": 400,
+       "h": 380
+      },
+      "text": "The Mirage by Cozette 4.9 (110 reviews) Sonipat Hotel with Banquet & Lawn Veg ₹ 1,000 per plate Non veg ₹ 1,300 per plate 50-500 pax 40 Rooms +7 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 110,
+       "y": 2335,
+       "w": 400,
+       "h": 385
+      },
+      "text": "The Mirage by Cozette 4.9 (110 reviews) Sonipat Hotel with Banquet & Lawn Veg ₹ 1,000 per plate Non veg ₹ 1,300 per plate 50-500 pax 40 Rooms +7 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 110,
+       "y": 2335,
+       "w": 400,
+       "h": 385
+      },
+      "text": "The Mirage by Cozette 4.9 (110 reviews) Sonipat Hotel with Banquet & Lawn Veg ₹ 1,000 per plate Non veg ₹ 1,300 per plate 50-500 pax 40 Rooms +7 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 120,
+       "y": 2939,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 120,
+       "y": 2740,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 110,
+       "y": 2730,
+       "w": 400,
+       "h": 380
+      },
+      "text": "Ramada by Wyndham Sonipat Murthal 5.0 (7 reviews) Sonipat 5 Star Hotel Veg ₹ 3,500 per plate Non veg ₹ 4,000 per plate 150-700 pax 112 Rooms +3 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 110,
+       "y": 2730,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Ramada by Wyndham Sonipat Murthal 5.0 (7 reviews) Sonipat 5 Star Hotel Veg ₹ 3,500 per plate Non veg ₹ 4,000 per plate 150-700 pax 112 Rooms +3 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 110,
+       "y": 2730,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Ramada by Wyndham Sonipat Murthal 5.0 (7 reviews) Sonipat 5 Star Hotel Veg ₹ 3,500 per plate Non veg ₹ 4,000 per plate 150-700 pax 112 Rooms +3 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 530,
+       "y": 569,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 530,
+       "y": 370,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 520,
+       "y": 360,
+       "w": 400,
+       "h": 380
+      },
+      "text": "Fairley's Hotels & Resorts 4.3 (43 reviews) Chattarpur, Delhi NCR Resort w/ Lawn & Banquet Veg ₹ 2,200 per plate Non veg ₹ 2,400 per plate 40-1100 pax 37 Rooms +4 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 520,
+       "y": 360,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Fairley's Hotels & Resorts 4.3 (43 reviews) Chattarpur, Delhi NCR Resort w/ Lawn & Banquet Veg ₹ 2,200 per plate Non veg ₹ 2,400 per plate 40-1100 pax 37 Rooms +4 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 520,
+       "y": 360,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Fairley's Hotels & Resorts 4.3 (43 reviews) Chattarpur, Delhi NCR Resort w/ Lawn & Banquet Veg ₹ 2,200 per plate Non veg ₹ 2,400 per plate 40-1100 pax 37 Rooms +4 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 530,
+       "y": 964,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 530,
+       "y": 765,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 520,
+       "y": 755,
+       "w": 400,
+       "h": 380
+      },
+      "text": "Omnia Convention by Tivoli 4.8 (37 reviews) Gurgaon Convention With Large Banquet & Lawn Veg ₹ 4,500 per plate Non veg ₹ 5,000 per plate 100-600 pax 45 Rooms +6 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 520,
+       "y": 755,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Omnia Convention by Tivoli 4.8 (37 reviews) Gurgaon Convention With Large Banquet & Lawn Veg ₹ 4,500 per plate Non veg ₹ 5,000 per plate 100-600 pax 45 Rooms +6 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 520,
+       "y": 755,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Omnia Convention by Tivoli 4.8 (37 reviews) Gurgaon Convention With Large Banquet & Lawn Veg ₹ 4,500 per plate Non veg ₹ 5,000 per plate 100-600 pax 45 Rooms +6 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 530,
+       "y": 1359,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 530,
+       "y": 1160,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 520,
+       "y": 1150,
+       "w": 400,
+       "h": 380
+      },
+      "text": "Tivoli Garden Resort 4.2 (86 reviews) Gt Karnal Road, Delhi NCR Hotel with Banquet & Lawn Veg ₹ 2,750 per plate Non veg ₹ 3,000 per plate 60-1500 pax 130 Rooms +6 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 520,
+       "y": 1150,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Tivoli Garden Resort 4.2 (86 reviews) Gt Karnal Road, Delhi NCR Hotel with Banquet & Lawn Veg ₹ 2,750 per plate Non veg ₹ 3,000 per plate 60-1500 pax 130 Rooms +6 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 520,
+       "y": 1150,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Tivoli Garden Resort 4.2 (86 reviews) Gt Karnal Road, Delhi NCR Hotel with Banquet & Lawn Veg ₹ 2,750 per plate Non veg ₹ 3,000 per plate 60-1500 pax 130 Rooms +6 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 530,
+       "y": 1754,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 530,
+       "y": 1555,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 520,
+       "y": 1545,
+       "w": 400,
+       "h": 380
+      },
+      "text": "Four Points by Sheraton New Delhi, Airport Highway 4.7 (28 reviews) NH8, Delhi NCR 4 Star Hotel Near Airport Veg ₹ 4,000 per plate Non veg ₹ 4,100 per plate 60-2500 pax 70 Rooms +4 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 520,
+       "y": 1545,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Four Points by Sheraton New Delhi, Airport Highway 4.7 (28 reviews) NH8, Delhi NCR 4 Star Hotel Near Airport Veg ₹ 4,000 per plate Non veg ₹ 4,100 per plate 60-2500 pax 70 Rooms +4 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 520,
+       "y": 1545,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Four Points by Sheraton New Delhi, Airport Highway 4.7 (28 reviews) NH8, Delhi NCR 4 Star Hotel Near Airport Veg ₹ 4,000 per plate Non veg ₹ 4,100 per plate 60-2500 pax 70 Rooms +4 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 530,
+       "y": 2149,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 530,
+       "y": 1950,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 520,
+       "y": 1940,
+       "w": 400,
+       "h": 380
+      },
+      "text": "Sunday Hotel & Residences Gurugram 5.0 (13 reviews) Gurgaon, Gurgaon 5 Star Hotel Veg ₹ 1,800 per plate Non veg ₹ 2,000 per plate 300-350 pax 216 Rooms +3 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 520,
+       "y": 1940,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Sunday Hotel & Residences Gurugram 5.0 (13 reviews) Gurgaon, Gurgaon 5 Star Hotel Veg ₹ 1,800 per plate Non veg ₹ 2,000 per plate 300-350 pax 216 Rooms +3 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 520,
+       "y": 1940,
+       "w": 400,
+       "h": 385
+      },
+      "text": "Sunday Hotel & Residences Gurugram 5.0 (13 reviews) Gurgaon, Gurgaon 5 Star Hotel Veg ₹ 1,800 per plate Non veg ₹ 2,000 per plate 300-350 pax 216 Rooms +3 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 530,
+       "y": 2544,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 530,
+       "y": 2345,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 520,
+       "y": 2335,
+       "w": 400,
+       "h": 380
+      },
+      "text": "The Royal Ark 5.0 (6 reviews) Kasauli Hotel with Banquet & Lawn Veg ₹ 1,500 per plate Non veg ₹ 2,500 per plate 50-1200 pax 77 Rooms +4 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 520,
+       "y": 2335,
+       "w": 400,
+       "h": 385
+      },
+      "text": "The Royal Ark 5.0 (6 reviews) Kasauli Hotel with Banquet & Lawn Veg ₹ 1,500 per plate Non veg ₹ 2,500 per plate 50-1200 pax 77 Rooms +4 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 520,
+       "y": 2335,
+       "w": 400,
+       "h": 385
+      },
+      "text": "The Royal Ark 5.0 (6 reviews) Kasauli Hotel with Banquet & Lawn Veg ₹ 1,500 per plate Non veg ₹ 2,500 per plate 50-1200 pax 77 Rooms +4 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "vendor-pic",
+     "ratio": 1.776,
+     "r": {
+      "w": 380,
+      "h": 214
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 530,
+       "y": 2939,
+       "w": 380,
+       "h": 19
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-picture margin-r-10 margin-l-10 margin-t-10",
+      "r": {
+       "x": 530,
+       "y": 2740,
+       "w": 380,
+       "h": 210
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(215, 215, 215)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "vendor-card extra-radius",
+      "r": {
+       "x": 520,
+       "y": 2730,
+       "w": 400,
+       "h": 380
+      },
+      "text": "The Golden Stories by Primerose 4.9 (64 reviews) Bandhwari, Gurgaon Banquet Hall & Lawn Veg ₹ 1,800 per plate Non veg ₹ 2,000 per plate 150-500 pax 35 Rooms +8 more",
+      "style": {
+       "borderRadius": "5px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "PrimaryVendorCard sc-jTzLTM wFnqD",
+      "r": {
+       "x": 520,
+       "y": 2730,
+       "w": 400,
+       "h": 385
+      },
+      "text": "The Golden Stories by Primerose 4.9 (64 reviews) Bandhwari, Gurgaon Banquet Hall & Lawn Veg ₹ 1,800 per plate Non veg ₹ 2,000 per plate 150-500 pax 35 Rooms +8 more",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 5px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 520,
+       "y": 2730,
+       "w": 400,
+       "h": 385
+      },
+      "text": "The Golden Stories by Primerose 4.9 (64 reviews) Bandhwari, Gurgaon Banquet Hall & Lawn Veg ₹ 1,800 per plate Non veg ₹ 2,000 per plate 150-500 pax 35 Rooms +8 more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(74, 74, 74)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "Write A Review",
+   "Venues",
+   "Vendors",
+   "Photos",
+   "Real Weddings",
+   "Blog",
+   "E-Invites",
+   "Genie",
+   "Home",
+   "Vendors",
+   "Wedding Venues",
+   "Wedding Venues Delhi NCR",
+   "Madhavgarh Palace",
+   "Cinderella Farms by Bel-laMonde",
+   "Crowne Plaza New Delhi Okhla, an IHG Hotel",
+   "Tivoli Bijwasan",
+   "Antilia by ZION - Sonipat",
+   "The Mirage by Cozette",
+   "Ramada by Wyndham Sonipat Murthal",
+   "Fairley's Hotels & Resorts",
+   "Omnia Convention by Tivoli",
+   "Tivoli Garden Resort",
+   "Sunday Hotel & Residences Gurugram",
+   "The Royal Ark",
+   "The Golden Stories by Primerose",
+   "Bellanta Hotel",
+   "Aapno Ghar Resort Gurgaon",
+   "The Medallion by Kawatra",
+   "Lutyens' Hotels",
+   "Noor Mahal -Autograph Collection Hotels",
+   "Download the WMG App available on Android",
+   "iOS",
+   "banquet halls in South Delhi",
+   "banquet halls in Chattarpur",
+   "Banquets at GT Karnal Road",
+   "banquet halls in Noida",
+   "banquets in Ghaziabad",
+   "wedding decorator in Delhi NCR",
+   "wedding caterer in Delhi",
+   "find DJ’s for weddings in Delhi NCR",
+   "wedding hotels in Delhi NCR",
+   "wedding hotels in Delhi NCR",
+   "Udman by Ferns n Petals",
+   "Holiday Inn Aerocity",
+   "Calista Resorts",
+   "The Leela Ambience Convention Hotel",
+   "Radisson Blu Dwarka",
+   "find the best wedding venues in Delhi",
+   "The Muse Sarovar Portico",
+   "Crystal Banquet at Emblem Hotel Gurgaon",
+   "Clarks Inn Suites Kapashera",
+   "The Royal Pepper Banquet",
+   "Fortune Park Orange",
+   "Crowne Plaza Mayur Vihar",
+   "Bellamonde",
+   "Seven Seas Hotel",
+   "Wedding Villa",
+   "The Palms Town and Country Club",
+   "Hyatt Regency Gurgaon",
+   "Sheraton Hotel",
+   "The Leela Ambience, Gurgaon",
+   "The Oberoi Delhi",
+   "Pullman and Novotel- New Delhi- Aerocity",
+   "wedding venues in Delhi",
+   "Wedding Hotels in Delhi",
+   "Marriage Lawns & Farmhouses",
+   "Wedding Resorts",
+   "iOS",
+   "Best Banquet halls in Delhi NCR",
+   "Best Marriage Garden / Lawns in Delhi NCR",
+   "Best 4 Star & Above Hotels in Delhi NCR",
+   "Best Wedding Resorts in Delhi NCR",
+   "Best Kalyana Mandapams in Delhi NCR",
+   "Best Small Function / Party Halls in Delhi NCR",
+   "Best Forts / Palaces For Wedding in Delhi NCR",
+   "Banquet Halls in Gurgaon (861)",
+   "Banquet Halls in South Delhi (662)",
+   "Banquet Halls in Noida (517)",
+   "Banquet Halls in Ghaziabad (456)",
+   "Banquet Halls in West Delhi (447)",
+   "Banquet Halls in Faridabad (385)",
+   "Banquet Halls in East Delhi (376)",
+   "Banquet Halls in New Delhi (254)",
+   "Banquet Halls in NH8 (248)",
+   "Banquet Halls in North Delhi (241)",
+   "Banquets in Delhi NCR under 1500",
+   "Premium Banquets in Delhi NCR under 2000",
+   "Luxury Banquets in Delhi NCR under 3000",
+   "The Vintage - Aarone Farms",
+   "Le Seasons Park",
+   "Le Seasons Park",
+   "Le Seasons Park",
+   "Wedding Photographers in Delhi NCR",
+   "Wedding Jewellery in Delhi NCR",
+   "Bridal Makeup Artists in Delhi NCR",
+   "Bridal Wear in Delhi NCR",
+   "Groom Wear in Delhi NCR",
+   "Wedding Decorators in Delhi NCR",
+   "Wedding Catering in Delhi NCR",
+   "Wedding Cards in Delhi NCR",
+   "Wedding Cakes in Delhi NCR",
+   "Wedding Venues in Delhi NCR",
+   "Bridal Mehendi Artists in Delhi NCR",
+   "Trousseau Packers in Delhi NCR",
+   "Sangeet Choreographers in Delhi NCR",
+   "Wedding Favors in Delhi NCR",
+   "Wedding Planners in Delhi NCR",
+   "Wedding Accessories in Delhi NCR",
+   "DJ in Delhi NCR",
+   "Family Makeup in Delhi NCR",
+   "Wedding Pandits / Priests in Delhi NCR",
+   "Bartenders in Delhi NCR",
+   "Wedding Entertainment in Delhi NCR",
+   "Pre Wedding Photographers in Delhi NCR",
+   "Pre Wedding Shoot Locations in Delhi NCR",
+   "Beauty and Wellness in Delhi NCR",
+   "Virtual Planning Service in Delhi NCR",
+   "Wedding Songs",
+   "Best Bridal Entry Songs",
+   "Bridal Blouse Designs",
+   "2023 Marriage Dates",
+   "Best Bridal Hairstyles",
+   "Best Groom Entry Songs",
+   "Best Mehendi Designs",
+   "Latest Sabyasachi Lehengas",
+   "Wittiest Wedding Hashtags",
+   "Chandani Chowk Lehangas",
+   "vendors@wedmegood.com",
+   "info@wedmegood.com",
+   "Submit",
+   "Facebook",
+   "Twitter",
+   "Pinterest",
+   "Instagram",
+   "Youtube",
+   "Search By Vendor",
+   "Search By City",
+   "Download Our App",
+   "Top Rated Vendors",
+   "Destination Wedding",
+   "Wedding Blog",
+   "Wedding Inspiration Gallery",
+   "Real Wedding",
+   "Submit Wedding",
+   "Bridal Wear",
+   "Wedding Jewellery",
+   "Bridal Makeup & Hair",
+   "Wedding Decor",
+   "Wedding Photography",
+   "Groom Wear",
+   "Invitations & Favors",
+   "Wedding Accessories",
+   "Mehendi Designs",
+   "About WedMeGood",
+   "Careers",
+   "Contact Us",
+   "Site Map",
+   "Terms & Conditions",
+   "Privacy Policy",
+   "Cancellation Policy",
+   "Wedding Card Designs",
+   "Save the Date Templates",
+   "Invitation Video Templates",
+   "Terms & Conditions",
+   "Privacy Policy"
+  ],
+  "bodyText": "Write A Review\nDownload App\nIndia's Favourite Wedding Planning Platform\nDelhi NCR\nVenues\nVendors\nPhotos\nReal Weddings\nBlog\nE-Invites\nGenie\nLog In\n\nLocality \n\nNo. of Guests \n\nRoom Count \n\nPrice per plate (Rs) \n\nRental Cost \n\nVenue Type \n\nSpace \n\nRating \n\nHomeVendorsWedding VenuesWedding Venues Delhi NCR\nDestination Wedding Pricing\nNeed Help? WMG Genie can help out!\nBanquet Halls in Delhi NCR\n\nShowing 2361 results as per your search criteria\n\nList\n\nGrid\n\nBanquet Halls\n\nClear all\n\nMadhavgarh Palace\n5.0\n(19 reviews)\n\nGurgaon, Gurgaon\n\nHeritage Palace Hotel\n\nVeg\n\n₹\n3,000\n\nper plate\n\nNon veg\n\n₹\n3,250\n\nper plate\n\n100-2500 pax\n\n75 Rooms\n\n+4 more\n\nCinderella Farms by Bel-laMonde\n4.9\n(21 reviews)\n\nSouth Delhi, Delhi NCR\n\nLarge Lawn & Banquet\n\nVeg\n\n₹\n5,000\n\nper plate\n\nNon veg\n\n₹\n5,500\n\nper plate\n\n500-2000 pax\n\n4 Rooms\n\n+4 more\n\nCrowne Plaza New Delhi Okhla, an IHG Hotel\n5.0\n(11 reviews)\n\nOkhla, Delhi NCR\n\n5 Star Hotel\n\nVeg\n\n₹\n3,399\n\nper plate\n\nNon veg\n\n₹\n3,599\n\nper plate\n\n40-600 pax\n\n208 Rooms\n\n+3 more\n\nTivoli Bijwasan\n4.2\n(38 reviews)\n\nDelhi NCR\n\nVenue with Glasshouse\n\nVeg\n\n₹\n3,750\n\nper plate\n\nNon veg\n\n₹\n4,000\n\nper plate\n\n150-1400 pax\n\n50 Rooms\n\n+6 more\n\nAntilia by ZION - Sonipat\n4.5\n(11 reviews)\n\nSonipat\n\nHotel with Banquet & Lawn\n\nVeg\n\n₹\n2,000\n\nper plate\n\n500-750 pax\n\n52 Rooms\n\n+4 more\n\nThe Mirage by Cozette\n4.9\n(110 reviews)\n\nSonipat\n\nHotel with Banquet & Lawn\n\nVeg\n\n₹\n1,000\n\nper plate\n\nNon veg\n\n₹\n1,300\n\nper plate\n\n50-500 pax\n\n40 Rooms\n\n+7 more\n\nRamada by Wyndham Sonipat Murthal\n5.0\n(7 reviews)\n\nSonipat\n\n5 Star Hotel\n\nVeg\n\n₹\n3,500\n\nper plate\n\nNon veg\n\n₹\n4,000\n\nper plate\n\n150-700 pax\n\n112 Rooms\n\n+3 more\n\nFairley's Hotels & Resorts\n4.3\n(43 reviews)\n\nChattarpur, Delhi NCR\n\nResort w/ Lawn & Banquet\n\nVeg\n\n₹\n2,200\n\nper plate\n\nNon veg\n\n₹\n2,400\n\nper plate\n\n40-1100 pax\n\n37 Rooms\n\n+4 more\n\nOmnia Convention by Tivoli\n4.8\n(37 reviews)\n\nGurgaon\n\nConvention With Large Banquet & Lawn\n\nVeg\n\n₹\n4,500\n\nper plate\n\nNon veg\n\n₹\n5,000\n\nper plate\n\n100-600 pax\n\n45 Rooms\n\n+6 more\n\nTivoli Garden Resort\n4.2\n(86 reviews)\n\nGt Karnal Road, Delhi NCR\n\nHotel with Banquet & Lawn\n\nVeg\n\n₹\n2,750\n\nper plate\n\nNon veg\n\n₹\n3,000\n\nper plate\n\n60-1500 pax\n\n130 Rooms\n\n+6 more\n\nFour Points by Sheraton New Delhi, Airport Highway\n4.7\n(28 reviews)\n\nNH8, Delhi NCR\n\n4 Star Hotel Near Airport\n\nVeg\n\n₹\n4,000\n\nper plate\n\nNon veg\n\n₹\n4,100\n\nper plate\n\n60-2500 pax\n\n70 Rooms\n\n+4 more\n\nSunday Hotel & Residences Gurugram\n5.0\n(13 reviews)\n\nGurgaon, Gurgaon\n\n5 Star Hotel\n\nVeg\n\n₹\n1,800\n\nper plate\n\nNon veg\n\n₹\n2,000\n\nper plate\n\n300-350 pax\n\n216 Rooms\n\n+3 more\n\nThe Royal Ark\n5.0\n(6 reviews)\n\nKasauli\n\nHotel with Banquet & Lawn\n\nVeg\n\n₹\n1,500\n\nper plate\n\nNon veg\n\n₹\n2,500\n\nper plate\n\n50-1200 pax\n\n77 Rooms\n\n+4 more\n\nThe Golden Stories by Primerose\n4.9\n(64 reviews)\n\nBandhwari, Gurgaon\n\nBanquet Hall & Lawn\n\nVeg\n\n₹\n1,800\n\nper plate\n\nNon veg\n\n₹\n2,000\n\nper plate\n\n150-500 pax\n\n35 Rooms\n\n+8 more\n\nBellanta Hotel\n5.0\n(12 reviews)\n\nDelhi NCR\n\nHotel\n\nVeg\n\n₹\n2,500\n\nper plate\n\nNon veg\n\n₹\n5,000\n\nper plate\n\n50-800 pax\n\n44 Rooms\n\n+4 more\n\nAapno Ghar Resort Gurgaon\n4.7\n(30 reviews)\n\nGurgaon, Manesar\n\nWedding Resort\n\nVeg\n\n₹\n2,400\n\nper plate\n\n150-1700 pax\n\n81 Rooms\n\n+4 more\n\nThe Medallion by Kawatra\n5.0\n(2 reviews)\n\nDelhi NCR\n\nHotel\n\nRental cost\n\n₹\n23,00,000\n\nper function\n\n400-1500 pax\n\nIndoorOutdoor\n\n+3 more\n\nLutyens' Hotels\n4.3\n(21 reviews)\n\nMG Road, Delhi NCR\n\nFarmhouse\n\nVeg\n\n₹\n3,300\n\nper plate\n\nNon veg\n\n₹\n3,400\n\nper plate\n\n75-1000 pax\n\n8 Rooms\n\n+4 more\n\nNoor Mahal -Autograph Collection Hotels\n4.8\n(55 reviews)\n\nKarnal\n\n5 Star Heritage Hotel\n\nVeg\n\n₹\n4,500\n\nper plate\n\nNon veg\n\n₹\n4,800\n\nper plate\n\n25-2000 pax\n\n175 Rooms\n\n+6 more\n\nFortune Park Orange, Sidhrawali, Gurugram - ITC's Hotel Group\n5.0\n(60 reviews)\n\nManesar, Manesar\n\n4 Star Hotel with Glasshouse\n\nVeg\n\n₹\n2,000\n\nper plate\n\nNon veg\n\n₹\n2,400\n\nper plate\n\n50-2000 pax\n\n140 Rooms\n\n+5 more\n\nHow To Find The Best Banquet Halls in Delhi NCR near me?\n\nWhen it comes to booking banquet halls in Delhi NCR, how soon is too soon? Well, if you ask us, the sooner the better. Since picking wedding venues has a significant impact on the choice of other vendors (caterers, DJs and decorators), finalizing one 4-6 months before the big day is a safe bet.\n\nWedMeGood is a wedding planning platform that helps a user to find various vendors for their wedding, right from wedding venues to wedding photographers, from wedding decorators to wedding caterers, you can find them all at one place. WedMeGood is a trusted wedding planning platform listing more than 35000 verified wedding vendors. You can find more than 550 banquet halls in Delhi with a capacity of 500-1500 pax ranging from INR 500 to 1500 price per plate. From veg to non veg, venues with inhouse bar, dj & decor to banquets allowing outside decor & caterers, at wedmegood you can find a list of wedding halls with prices of your choice in and around Delhi NCR.\n\nFinding banquet halls has never been this easy. All you need to do is visit the WMG website or Download the WMG App available on Android as well as iOS. Apply various filters including cost, ratings, locality, etc and find the banquet hall in Delhi as per your requirements and the one that fulfills all your needs. You can check their menu, their prices, ratings and reviews and shortlist your favorite venues and contact them directly to get the best quote or book a site visit.\n\nWhich localities near me in Delhi have the best banquets?\n\nLocation of the venue holds utmost importance when we need to book them for hosting the wedding ceremony. It is important that the banquet hall is centrally located and easily accessible so that your guests can reach the wedding venue without any hassles.\n\nMostly searches are for: banquet halls in South Delhi, banquet halls in Chattarpur, Banquets at GT Karnal Road, banquet halls in Noida or banquets in Ghaziabad. To book a wedding hall in any locality in Delhi, you just have to select the locality from the filter and contact the venue directly to book a site visit or check for availability.\n\nFrequently Asked Questions\nDo Banquet hall prices include decoration cost?\n\nMost wedding halls in Delhi provide inhouse decor & their pricing includes decoration cost as well. Make sure that you check with your venue what all is included in the package and what are the overhead charges.\n\nCan we customize decorations in banquets in Delhi NCR? Can we hire our own decorator?\n\nMany banquet halls provide basic decor when a booking is made. In most cases, the venue has their own inhouse panel of wedding decorator in Delhi NCR that you can choose from and customise your decor. Some will allow you to hire your own decorator. You can check on their decor policy.\n\nWhat is the catering policy in Delhi NCR banquets? Can I hire our own caterers?\n\nMany Delhi banquets have their in-house caterers who serve delicious food at various events hosted at the venue and you can ask for food tasting. Some however can allow you to bring your own wedding caterer in Delhi from outside.\n\nDoes every banquet provide inhouse DJ?\n\nNot all banquet halls in Delhi NCR provide an in-house DJ for the events. Check with your wedding venue if they provide this facility, otherwise you can easily find DJ’s for weddings in Delhi NCR on WMG.\n\nWhat capacity should I look for in banquets in Delhi NCR?\n\nBefore you start looking for a Delhi banquet hall, you will first have to finalise the guestlist for the wedding ceremony and then find and book a venue allowing that capacity accordingly.\n\nHow do Banquet halls in Delhi NCR charge?\n\nMost marriage halls in Delhi charge on a per plate basis wherein they charge depending upon the number of plates used by the guests. The cost usually includes food, decor & other facilities. Some venues would charge on a Rental basis wherein the banquet halls charge only for the space that they provide and all other services are provided by a third party.\n\nCan we get alcohol from outside?\n\nDifferent venues have different policies, some marriage halls in Delhi NCR do have licence & offer inhouse bar or some will allow their clients to bring in their own alcohol whereas others have strict no alcohol policy.\n\nAre there rooms available in Banquets?\n\nMany banquet halls provide complimentary rooms for the couple and their family to get ready and stay in till the wedding ceremony. Other than this, some wedding hotels in Delhi NCR also have rooms available so that all your outstation guests can stay at the same place.\n\nWhat are the cancellation policies?\n\nAll banquet halls have different cancellation policies - some marriage halls in Delhi NCR charge a minimal cancellation fee. Check with the venue for their cancellation policy before booking.\n\nWhat time do banquet halls close?\n\nBanquet halls in & around Delhi NCR usually are open till late in the night, they however have timings for DJ & catering. Check with your vendor regarding the timing of the venue.\n\nAre there any hotels that have banquet halls?\n\nMost wedding hotels in Delhi NCR have banquet halls within them. All you need to do is apply ",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Banquet Halls in Delhi NCR",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "600",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 74, 74)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 5px 0px 0px"
+     },
+     "r": {
+      "x": 120,
+      "y": 214,
+      "w": 313,
+      "h": 26
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "How To Find The Best Banquet Halls in Delhi NCR near me?",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 74, 74)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 10px"
+     },
+     "r": {
+      "x": 120,
+      "y": 3345,
+      "w": 1200,
+      "h": 24
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Which localities near me in Delhi have the best banquets?",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 74, 74)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 10px"
+     },
+     "r": {
+      "x": 120,
+      "y": 3655,
+      "w": 1200,
+      "h": 24
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Frequently Asked Questions",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 74, 74)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 20px"
+     },
+     "r": {
+      "x": 120,
+      "y": 3825,
+      "w": 1200,
+      "h": 24
+     }
+    }
+   ],
+   "card-meta": [
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(144, 144, 144)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(144, 144, 144)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 5px 0px 0px"
+     },
+     "r": {
+      "x": 120,
+      "y": 621,
+      "w": 11,
+      "h": 26
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "Gurgaon, Gurgaon",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(144, 144, 144)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(144, 144, 144)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 10px 0px 0px"
+     },
+     "r": {
+      "x": 136,
+      "y": 621,
+      "w": 109,
+      "h": 26
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "Heritage Palace Hotel",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(144, 144, 144)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(144, 144, 144)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 0px 5px"
+     },
+     "r": {
+      "x": 284,
+      "y": 625,
+      "w": 206,
+      "h": 19
+     }
+    }
+   ],
+   "filter-label": [
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "textTransform": "none",
+      "borderRadius": "30px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 74, 74)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "2px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1262,
+      "y": 160,
+      "w": 58,
+      "h": 30
+     }
+    }
+   ],
+   "nav-link": [
+    {
+     "sel": "header nav a, header a, header button",
+     "text": "Write A Review",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px 0px 0px 35px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1094,
+      "y": 0,
+      "w": 155,
+      "h": 40
+     }
+    },
+    {
+     "sel": "header nav a, header a, header button",
+     "text": "",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 74, 74)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "10px 0px"
+     },
+     "r": {
+      "x": 40,
+      "y": 50,
+      "w": 194,
+      "h": 30
+     }
+    },
+    {
+     "sel": "header nav a, header a, header button",
+     "text": "Venues",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 274,
+      "y": 52,
+      "w": 55,
+      "h": 26
+     }
+    }
+   ],
+   "price": [
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "Veg ₹ 3,000 per plate Non veg ₹ 3,250 per plate",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 74, 74)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "2px 10px 12px"
+     },
+     "r": {
+      "x": 120,
+      "y": 649,
+      "w": 380,
+      "h": 45
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "Veg ₹ 5,000 per plate Non veg ₹ 5,500 per plate",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 74, 74)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "2px 10px 12px"
+     },
+     "r": {
+      "x": 120,
+      "y": 1044,
+      "w": 380,
+      "h": 45
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "Veg ₹ 3,399 per plate Non veg ₹ 3,599 per plate",
+     "style": {
+      "fontFamily": "WedmegoodFont, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 74, 74)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "2px 10px 12px"
+     },
+     "r": {
+      "x": 120,
+      "y": 1439,
+      "w": 380,
+      "h": 45
+     }
+    }
+   ]
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(251, 251, 251)",
+    "color": "rgb(74, 74, 74)",
+    "fontFamily": "WedmegoodFont, sans-serif",
+    "fontSize": "14px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

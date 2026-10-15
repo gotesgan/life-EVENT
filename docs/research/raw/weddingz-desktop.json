@@ -1,0 +1,3386 @@
+{
+ "slug": "weddingz",
+ "mode": "desktop",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "Mumbai Banquet Halls Vendors",
+   "r": {
+    "x": 185,
+    "y": 941,
+    "w": 275,
+    "h": 323
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(112, 111, 109)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 275,
+    "h": 323
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(112, 111, 109)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://weddingz.in/",
+  "title": "Banquet Halls, Wedding Planning, Wedding Services in India | Weddingz India",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 15068,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Plan Your Wedding With India’s Largest Wedding Co.",
+    "x": 502,
+    "y": 274,
+    "w": 437,
+    "h": 90
+   },
+   {
+    "tag": "H2",
+    "text": "Browse Wedding Venues and Vendors",
+    "x": 185,
+    "y": 867,
+    "w": 1070,
+    "h": 29
+   },
+   {
+    "tag": "H3",
+    "text": "Mumbai",
+    "x": 195,
+    "y": 1154,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 218,
+    "y": 1194,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 344,
+    "y": 1194,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Kolkata",
+    "x": 470,
+    "y": 1154,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 493,
+    "y": 1194,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 619,
+    "y": 1194,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Lucknow",
+    "x": 745,
+    "y": 1154,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 768,
+    "y": 1194,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 894,
+    "y": 1194,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Patna",
+    "x": 1020,
+    "y": 1154,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 1043,
+    "y": 1194,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 1169,
+    "y": 1194,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Delhi",
+    "x": 195,
+    "y": 1477,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 218,
+    "y": 1517,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 344,
+    "y": 1517,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Pune",
+    "x": 470,
+    "y": 1477,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 493,
+    "y": 1517,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 619,
+    "y": 1517,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Jaipur",
+    "x": 745,
+    "y": 1477,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 768,
+    "y": 1517,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 894,
+    "y": 1517,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Nagpur",
+    "x": 1020,
+    "y": 1477,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 1043,
+    "y": 1517,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 1169,
+    "y": 1517,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Ghaziabad",
+    "x": 195,
+    "y": 1800,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 218,
+    "y": 1840,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 344,
+    "y": 1840,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Nashik",
+    "x": 470,
+    "y": 1800,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 493,
+    "y": 1840,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 619,
+    "y": 1840,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Noida",
+    "x": 745,
+    "y": 1800,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 768,
+    "y": 1840,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 894,
+    "y": 1840,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Gurugram",
+    "x": 1020,
+    "y": 1800,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 1043,
+    "y": 1840,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 1169,
+    "y": 1840,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Faridabad",
+    "x": 195,
+    "y": 2166,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 218,
+    "y": 2206,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 344,
+    "y": 2206,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Bhubaneswar",
+    "x": 470,
+    "y": 2166,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 493,
+    "y": 2206,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 619,
+    "y": 2206,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Puri",
+    "x": 745,
+    "y": 2166,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 768,
+    "y": 2206,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 894,
+    "y": 2206,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Hyderabad",
+    "x": 1020,
+    "y": 2166,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 1043,
+    "y": 2206,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 1169,
+    "y": 2206,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Chandigarh",
+    "x": 195,
+    "y": 2531,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 218,
+    "y": 2571,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 344,
+    "y": 2571,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Indore",
+    "x": 470,
+    "y": 2531,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 493,
+    "y": 2571,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 619,
+    "y": 2571,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Ahmedabad",
+    "x": 745,
+    "y": 2531,
+    "w": 255,
+    "h": 30
+   },
+   {
+    "tag": "H4",
+    "text": "Banquet Halls",
+    "x": 768,
+    "y": 2571,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "tag": "H4",
+    "text": "Vendors",
+    "x": 894,
+    "y": 2571,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Bhopal",
+    "x": 1020,
+    "y": 2531,
+    "w": 255,
+    "h": 30
+   }
+  ],
+  "header": {
+   "tag": "HEADER",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 93
+   },
+   "style": {
+    "position": "relative",
+    "top": "0px",
+    "height": "93.1562px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderBottom": "0px none rgb(112, 111, 109)",
+    "boxShadow": "none",
+    "zIndex": "3"
+   },
+   "text": "Mumbai Kolkata Lucknow Patna Delhi NCR Pune Jaipur Nagpur Ghaziabad Nashik Noida Gurugram Faridabad Bhubaneswar Puri Hyderabad Chandigarh Indore Ahmedabad Bhopal Ranchi Varanasi Baroda Bangalore Guwahati Raipur Surat Amritsar Chennai Dehradun Jim-Corbett Kanpur Meerut Prayagraj Bareilly Mysore Srinagar Dhanbad Agra Ajmer Alibag Aligarh Alleppey Alwar Asansol Aurangabad Bharatpur Bidar Bikaner Chittorgarh Coimbatore Cuttack Daman-And-Diu Dharamshala Digha Durgapur Gandhinagar Gangtok Goa Gonda Gwalior Haridwar Howrah Igatpuri Jabalpur Jaisalmer Jalandhar Jammu Jamshedpur Jhansi Jodhpur Karjat Karnal Khajuraho Kochi Kota Kumbhalgarh Lavasa Lonavala Ludhiana Mahabaleshwar Mandawa Matheran Mathura Moradabad Mussoorie Nainital Neemrana Panipat Patiala Pushkar Rajkot Ranakpur Ranthambore Ratnagiri Rishikesh Rohtak Sasan-Gir Seoni Shimla Shirdi Siliguri Silvassa Sonipat Tirupati Trivandrum Udai",
+   "links": [
+    {
+     "t": "List Your Business",
+     "tag": "A",
+     "href": "https://weddingz.in/partner-with-us/",
+     "r": {
+      "x": 1246,
+      "y": 10,
+      "w": 120,
+      "h": 28
+     }
+    },
+    {
+     "t": "Venues",
+     "tag": "A",
+     "href": "https://weddingz.in/banquet-halls/mumbai/all/",
+     "r": {
+      "x": 51,
+      "y": 57,
+      "w": 79,
+      "h": 34
+     }
+    },
+    {
+     "t": "Vendors",
+     "tag": "A",
+     "href": "https://weddingz.in/mumbai/vendors/",
+     "r": {
+      "x": 133,
+      "y": 57,
+      "w": 86,
+      "h": 34
+     }
+    },
+    {
+     "t": "Blog",
+     "tag": "A",
+     "href": "https://weddingz.in/blog/",
+     "r": {
+      "x": 221,
+      "y": 57,
+      "w": 61,
+      "h": 34
+     }
+    },
+    {
+     "t": "Real Weddings",
+     "tag": "A",
+     "href": "https://weddingz.in/real-weddings/",
+     "r": {
+      "x": 284,
+      "y": 57,
+      "w": 128,
+      "h": 34
+     }
+    },
+    {
+     "t": "Photos",
+     "tag": "A",
+     "href": "https://weddingz.in/indian-wedding-ideas/",
+     "r": {
+      "x": 414,
+      "y": 57,
+      "w": 77,
+      "h": 34
+     }
+    },
+    {
+     "t": "Testimonials",
+     "tag": "A",
+     "href": "https://weddingz.in/testimonials/",
+     "r": {
+      "x": 494,
+      "y": 57,
+      "w": 97,
+      "h": 34
+     }
+    },
+    {
+     "t": "Why Weddingz",
+     "tag": "A",
+     "href": "https://weddingz.in/why-weddingz/",
+     "r": {
+      "x": 593,
+      "y": 57,
+      "w": 130,
+      "h": 34
+     }
+    }
+   ]
+  },
+  "navAll": [],
+  "searchInputs": [],
+  "filterContainers": [],
+  "images": [
+   {
+    "src": "https://d3n56ro59bjwa6.cloudfront.net/img/weddingz-transperent.png",
+    "alt": "Banquet Halls, Wedding Planning, Wedding Services in Mumbai | Weddingz Mumbai",
+    "nat": "177x37",
+    "r": {
+     "x": 15,
+     "y": 11,
+     "w": 140,
+     "h": 29
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://weddingz.in/img/india-dest-venues/Mumbai.jpg",
+    "alt": "",
+    "nat": "300x250",
+    "r": {
+     "x": 195,
+     "y": 941,
+     "w": 255,
+     "h": 213
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://weddingz.in/img/india-dest-venues/Kolkata.jpg",
+    "alt": "",
+    "nat": "300x250",
+    "r": {
+     "x": 470,
+     "y": 941,
+     "w": 255,
+     "h": 213
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://weddingz.in/img/india-dest-venues/Lucknow.jpg",
+    "alt": "",
+    "nat": "300x250",
+    "r": {
+     "x": 745,
+     "y": 941,
+     "w": 255,
+     "h": 213
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://weddingz.in/img/india-dest-venues/Patna.jpg",
+    "alt": "",
+    "nat": "300x250",
+    "r": {
+     "x": 1020,
+     "y": 941,
+     "w": 255,
+     "h": 213
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://weddingz.in/img/india-dest-venues/Delhi.jpg",
+    "alt": "",
+    "nat": "300x250",
+    "r": {
+     "x": 195,
+     "y": 1264,
+     "w": 255,
+     "h": 213
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://weddingz.in/img/india-dest-venues/Pune.jpg",
+    "alt": "",
+    "nat": "300x250",
+    "r": {
+     "x": 470,
+     "y": 1264,
+     "w": 255,
+     "h": 213
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://weddingz.in/img/india-dest-venues/Jaipur.jpg",
+    "alt": "",
+    "nat": "300x250",
+    "r": {
+     "x": 745,
+     "y": 1264,
+     "w": 255,
+     "h": 213
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://weddingz.in/img/india-dest-venues/Nagpur.jpg",
+    "alt": "",
+    "nat": "300x250",
+    "r": {
+     "x": 1020,
+     "y": 1264,
+     "w": 255,
+     "h": 213
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://weddingz.in/img/india-dest-venues/Ghaziabad.jpg",
+    "alt": "",
+    "nat": "300x250",
+    "r": {
+     "x": 195,
+     "y": 1587,
+     "w": 255,
+     "h": 213
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://weddingz.in/img/india-dest-venues/Nashik.jpg",
+    "alt": "",
+    "nat": "300x250",
+    "r": {
+     "x": 470,
+     "y": 1587,
+     "w": 255,
+     "h": 213
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://weddingz.in/img/india-dest-venues/Noida.jpg",
+    "alt": "",
+    "nat": "300x250",
+    "r": {
+     "x": 745,
+     "y": 1587,
+     "w": 255,
+     "h": 213
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://weddingz.in/img/india-dest-venues/Gurugram.jpg",
+    "alt": "",
+    "nat": "300x250",
+    "r": {
+     "x": 1020,
+     "y": 1587,
+     "w": 255,
+     "h": 213
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 195,
+     "y": 1911,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 470,
+     "y": 1911,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 745,
+     "y": 1911,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 1020,
+     "y": 1911,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 195,
+     "y": 2276,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 470,
+     "y": 2276,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 745,
+     "y": 2276,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 1020,
+     "y": 2276,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 195,
+     "y": 2642,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 470,
+     "y": 2642,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 745,
+     "y": 2642,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 1020,
+     "y": 2642,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 195,
+     "y": 3008,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 470,
+     "y": 3008,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 745,
+     "y": 3008,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 1020,
+     "y": 3008,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 195,
+     "y": 3373,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 470,
+     "y": 3373,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 745,
+     "y": 3373,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 1020,
+     "y": 3373,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 195,
+     "y": 3739,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 470,
+     "y": 3739,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 745,
+     "y": 3739,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 1020,
+     "y": 3739,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 195,
+     "y": 4105,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 470,
+     "y": 4105,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 745,
+     "y": 4105,
+     "w": 255,
+     "h": 255
+    },
+    "fit": "fill",
+    "radius": "4px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.2,
+     "r": {
+      "w": 255,
+      "h": 213
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 195,
+       "y": 941,
+       "w": 255,
+       "h": 213
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 275,
+       "h": 323
+      },
+      "text": "Mumbai Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.2,
+     "r": {
+      "w": 255,
+      "h": 213
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 470,
+       "y": 941,
+       "w": 255,
+       "h": 213
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 460,
+       "y": 941,
+       "w": 275,
+       "h": 323
+      },
+      "text": "Kolkata Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.2,
+     "r": {
+      "w": 255,
+      "h": 213
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 745,
+       "y": 941,
+       "w": 255,
+       "h": 213
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 735,
+       "y": 941,
+       "w": 275,
+       "h": 323
+      },
+      "text": "Lucknow Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.2,
+     "r": {
+      "w": 255,
+      "h": 213
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1020,
+       "y": 941,
+       "w": 255,
+       "h": 213
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 1010,
+       "y": 941,
+       "w": 275,
+       "h": 323
+      },
+      "text": "Patna Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.2,
+     "r": {
+      "w": 255,
+      "h": 213
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 195,
+       "y": 1264,
+       "w": 255,
+       "h": 213
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 185,
+       "y": 1264,
+       "w": 275,
+       "h": 323
+      },
+      "text": "Delhi Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.2,
+     "r": {
+      "w": 255,
+      "h": 213
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 470,
+       "y": 1264,
+       "w": 255,
+       "h": 213
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 460,
+       "y": 1264,
+       "w": 275,
+       "h": 323
+      },
+      "text": "Pune Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.2,
+     "r": {
+      "w": 255,
+      "h": 213
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 745,
+       "y": 1264,
+       "w": 255,
+       "h": 213
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 735,
+       "y": 1264,
+       "w": 275,
+       "h": 323
+      },
+      "text": "Jaipur Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.2,
+     "r": {
+      "w": 255,
+      "h": 213
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1020,
+       "y": 1264,
+       "w": 255,
+       "h": 213
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 1010,
+       "y": 1264,
+       "w": 275,
+       "h": 323
+      },
+      "text": "Nagpur Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.2,
+     "r": {
+      "w": 255,
+      "h": 213
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 195,
+       "y": 1587,
+       "w": 255,
+       "h": 213
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 185,
+       "y": 1587,
+       "w": 275,
+       "h": 323
+      },
+      "text": "Ghaziabad Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.2,
+     "r": {
+      "w": 255,
+      "h": 213
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 470,
+       "y": 1587,
+       "w": 255,
+       "h": 213
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 460,
+       "y": 1587,
+       "w": 275,
+       "h": 323
+      },
+      "text": "Nashik Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.2,
+     "r": {
+      "w": 255,
+      "h": 213
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 745,
+       "y": 1587,
+       "w": 255,
+       "h": 213
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 735,
+       "y": 1587,
+       "w": 275,
+       "h": 323
+      },
+      "text": "Noida Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.2,
+     "r": {
+      "w": 255,
+      "h": 213
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1020,
+       "y": 1587,
+       "w": 255,
+       "h": 213
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 1010,
+       "y": 1587,
+       "w": 275,
+       "h": 323
+      },
+      "text": "Gurugram Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1,
+     "r": {
+      "w": 255,
+      "h": 255
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 195,
+       "y": 1911,
+       "w": 255,
+       "h": 255
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 185,
+       "y": 1911,
+       "w": 275,
+       "h": 366
+      },
+      "text": "Faridabad Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1,
+     "r": {
+      "w": 255,
+      "h": 255
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 470,
+       "y": 1911,
+       "w": 255,
+       "h": 255
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 53, 59)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-lg-3 col-md-3 col-sm-4 col-xs-6",
+      "r": {
+       "x": 460,
+       "y": 1911,
+       "w": 275,
+       "h": 366
+      },
+      "text": "Bhubaneswar Banquet Halls Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 10px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "row auto-clear text-center india-ven",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 109
+     },
+     {
+      "tag": "DIV",
+      "cls": "mTop-20",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 185,
+       "y": 941,
+       "w": 1100,
+       "h": 10111
+      },
+      "text": "Mumbai Banquet Halls Vendors Kolkata Banquet Halls Vendors Lucknow Banquet Halls Vendors Patna Banquet Halls Vendors Delhi Banquet Halls Vendors Pune Banquet Halls Vendors Jaipur Banquet Halls Vendors Nagpur Banquet Halls Vendors Ghaziabad Banquet Halls Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(112, 111, 109)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "List Your Business",
+   "Venues",
+   "Vendors",
+   "Blog",
+   "Real Weddings",
+   "Photos",
+   "Testimonials",
+   "Why Weddingz",
+   "Plan your Destination Wedding. Click here.",
+   "Select City",
+   "Mumbai",
+   "Banquet Halls",
+   "Vendors",
+   "Kolkata",
+   "Banquet Halls",
+   "Vendors",
+   "Lucknow",
+   "Banquet Halls",
+   "Vendors",
+   "Patna",
+   "Banquet Halls",
+   "Vendors",
+   "Delhi",
+   "Banquet Halls",
+   "Vendors",
+   "Pune",
+   "Banquet Halls",
+   "Vendors",
+   "Jaipur",
+   "Banquet Halls",
+   "Vendors",
+   "Nagpur",
+   "Banquet Halls",
+   "Vendors",
+   "Ghaziabad",
+   "Banquet Halls",
+   "Vendors",
+   "Nashik",
+   "Banquet Halls",
+   "Vendors",
+   "Noida",
+   "Banquet Halls",
+   "Vendors",
+   "Gurugram",
+   "Banquet Halls",
+   "Vendors",
+   "Faridabad",
+   "Banquet Halls",
+   "Vendors",
+   "Bhubaneswar",
+   "Banquet Halls",
+   "Vendors",
+   "Puri",
+   "Banquet Halls",
+   "Vendors",
+   "Hyderabad",
+   "Banquet Halls",
+   "Vendors",
+   "Chandigarh",
+   "Banquet Halls",
+   "Vendors",
+   "Indore",
+   "Banquet Halls",
+   "Vendors",
+   "Ahmedabad",
+   "Banquet Halls",
+   "Vendors",
+   "Bhopal",
+   "Banquet Halls",
+   "Vendors",
+   "Ranchi",
+   "Banquet Halls",
+   "Vendors",
+   "Varanasi",
+   "Banquet Halls",
+   "Vendors",
+   "Baroda",
+   "Banquet Halls",
+   "Vendors",
+   "Bangalore",
+   "Banquet Halls",
+   "Vendors",
+   "Guwahati",
+   "Banquet Halls",
+   "Vendors",
+   "Raipur",
+   "Banquet Halls",
+   "Vendors",
+   "Surat",
+   "Banquet Halls",
+   "Vendors",
+   "Amritsar",
+   "Banquet Halls",
+   "Vendors",
+   "Chennai",
+   "Banquet Halls",
+   "Vendors",
+   "Dehradun",
+   "Banquet Halls",
+   "Vendors",
+   "Jim-Corbett",
+   "Banquet Halls",
+   "Vendors",
+   "Kanpur",
+   "Banquet Halls",
+   "Vendors",
+   "Meerut",
+   "Banquet Halls",
+   "Vendors",
+   "Prayagraj",
+   "Banquet Halls",
+   "Vendors",
+   "Bareilly",
+   "Banquet Halls",
+   "Vendors",
+   "Mysore",
+   "Banquet Halls",
+   "Vendors",
+   "Srinagar",
+   "Banquet Halls",
+   "Vendors",
+   "Dhanbad",
+   "Banquet Halls",
+   "Vendors",
+   "Agra",
+   "Banquet Halls",
+   "Vendors",
+   "Ajmer",
+   "Banquet Halls",
+   "Vendors",
+   "Alibag",
+   "Banquet Halls",
+   "Vendors",
+   "Aligarh",
+   "Banquet Halls",
+   "Vendors",
+   "Alleppey",
+   "Banquet Halls",
+   "Vendors",
+   "Alwar",
+   "Banquet Halls",
+   "Vendors",
+   "Asansol",
+   "Banquet Halls",
+   "Vendors",
+   "Aurangabad",
+   "Banquet Halls",
+   "Vendors",
+   "Bharatpur",
+   "Banquet Halls",
+   "Vendors",
+   "Bidar",
+   "Banquet Halls",
+   "Vendors",
+   "Bikaner",
+   "Banquet Halls",
+   "Vendors",
+   "Chittorgarh",
+   "Banquet Halls",
+   "Vendors",
+   "Coimbatore",
+   "Banquet Halls",
+   "Vendors",
+   "Cuttack",
+   "Banquet Halls",
+   "Vendors",
+   "Daman-And-Diu",
+   "Banquet Halls",
+   "Vendors",
+   "Dharamshala",
+   "Banquet Halls",
+   "Vendors",
+   "Digha",
+   "Banquet Halls",
+   "Vendors",
+   "Durgapur",
+   "Banquet Halls",
+   "Vendors",
+   "Gandhinagar",
+   "Banquet Halls",
+   "Vendors",
+   "Gangtok",
+   "Banquet Halls",
+   "Vendors",
+   "Goa",
+   "Banquet Halls",
+   "Vendors",
+   "Gonda",
+   "Banquet Halls",
+   "Vendors",
+   "Gwalior",
+   "Banquet Halls",
+   "Vendors",
+   "Haridwar",
+   "Banquet Halls",
+   "Vendors",
+   "Howrah",
+   "Banquet Halls",
+   "Vendors",
+   "Igatpuri"
+  ],
+  "bodyText": "Mumbai\nKolkata\nLucknow\nPatna\nDelhi NCR\nPune\nJaipur\nNagpur\nGhaziabad\nNashik\nNoida\nGurugram\nFaridabad\nBhubaneswar\nPuri\nHyderabad\nChandigarh\nIndore\nAhmedabad\nBhopal\nRanchi\nVaranasi\nBaroda\nBangalore\nGuwahati\nRaipur\nSurat\nAmritsar\nChennai\nDehradun\nJim-Corbett\nKanpur\nMeerut\nPrayagraj\nBareilly\nMysore\nSrinagar\nDhanbad\nAgra\nAjmer\nAlibag\nAligarh\nAlleppey\nAlwar\nAsansol\nAurangabad\nBharatpur\nBidar\nBikaner\nChittorgarh\nCoimbatore\nCuttack\nDaman-And-Diu\nDharamshala\nDigha\nDurgapur\nGandhinagar\nGangtok\nGoa\nGonda\nGwalior\nHaridwar\nHowrah\nIgatpuri\nJabalpur\nJaisalmer\nJalandhar\nJammu\nJamshedpur\nJhansi\nJodhpur\nKarjat\nKarnal\nKhajuraho\nKochi\nKota\nKumbhalgarh\nLavasa\nLonavala\nLudhiana\nMahabaleshwar\nMandawa\nMatheran\nMathura\nMoradabad\nMussoorie\nNainital\nNeemrana\nPanipat\nPatiala\nPushkar\nRajkot\nRanakpur\nRanthambore\nRatnagiri\nRishikesh\nRohtak\nSasan-Gir\nSeoni\nShimla\nShirdi\nSiliguri\nSilvassa\nSonipat\nTirupati\nTrivandrum\nUdaipur\nUjjain\nVisakhapatnam\n------------------\nDestination Wedding\nList Your Business\n \n \nVenues \n \nVendors \n \nBlog \n \nReal Weddings \n \nPhotos \n \nTestimonials\n \nWhy Weddingz \nCall\nPlan your Destination Wedding. Click here.\nPlan Your Wedding With\nIndia’s Largest Wedding Co.\nSelect City\nHassle Free Planning & Booking at Our Guaranteed Best Prices.\n10,000+ Events Organized till Date\nPresent in 25+ Cities\nOver 20,000+ Wedding Venues & Vendors\nBrowse Wedding Venues and Vendors\nMumbai\nBanquet Halls\nVendors\nKolkata\nBanquet Halls\nVendors\nLucknow\nBanquet Halls\nVendors\nPatna\nBanquet Halls\nVendors\nDelhi\nBanquet Halls\nVendors\nPune\nBanquet Halls\nVendors\nJaipur\nBanquet Halls\nVendors\nNagpur\nBanquet Halls\nVendors\nGhaziabad\nBanquet Halls\nVendors\nNashik\nBanquet Halls\nVendors\nNoida\nBanquet Halls\nVendors\nGurugram\nBanquet Halls\nVendors\nFaridabad\nBanquet Halls\nVendors\nBhubaneswar\nBanquet Halls\nVendors\nPuri\nBanquet Halls\nVendors\nHyderabad\nBanquet Halls\nVendors\nChandigarh\nBanquet Halls\nVendors\nIndore\nBanquet Halls\nVendors\nAhmedabad\nBanquet Halls\nVendors\nBhopal\nBanquet Halls\nVendors\nRanchi\nBanquet Halls\nVendors\nVaranasi\nBanquet Halls\nVendors\nBaroda\nBanquet Halls\nVendors\nBangalore\nBanquet Halls\nVendors\nGuwahati\nBanquet Halls\nVendors\nRaipur\nBanquet Halls\nVendors\nSurat\nBanquet Halls\nVendors\nAmritsar\nBanquet Halls\nVendors\nChennai\nBanquet Halls\nVendors\nDehradun\nBanquet Halls\nVendors\nJim-Corbett\nBanquet Halls\nVendors\nKanpur\nBanquet Halls\nVendors\nMeerut\nBanquet Halls\nVendors\nPrayagraj\nBanquet Halls\nVendors\nBareilly\nBanquet Halls\nVendors\nMysore\nBanquet Halls\nVendors\nSrinagar\nBanquet Halls\nVendors\nDhanbad\nBanquet Halls\nVendors\nAgra\nBanquet Halls\nVendors\nAjmer\nBanquet Halls\nVendors\nAlibag\nBanquet Halls\nVendors\nAligarh\nBanquet Halls\nVendors\nAlleppey\nBanquet Halls\nVendors\nAlwar\nBanquet Halls\nVendors\nAsansol\nBanquet Halls\nVendors\nAurangabad\nBanquet Halls\nVendors\nBharatpur\nBanquet Halls\nVendors\nBidar\nBanquet Halls\nVendors\nBikaner\nBanquet Halls\nVendors\nChittorgarh\nBanquet Halls\nVendors\nCoimbatore\nBanquet Halls\nVendors\nCuttack\nBanquet Halls\nVendors\nDaman-And-Diu\nBanquet Halls\nVendors\nDharamshala\nBanquet Halls\nVendors\nDigha\nBanquet Halls\nVendors\nDurgapur\nBanquet Halls\nVendors\nGandhinagar\nBanquet Halls\nVendors\nGangtok\nBanquet Halls\nVendors\nGoa\nBanquet Halls\nVendors\nGonda\nBanquet Halls\nVendors\nGwalior\nBanquet Halls\nVendors\nHaridwar\nBanquet Halls\nVendors\nHowrah\nBanquet Halls\nVendors\nIgatpuri\nBanquet Halls\nVendors\nJabalpur\nBanquet Halls\nVendors\nJaisalmer\nBanquet Halls\nVendors\nJalandhar\nBanquet Halls\nVendors\nJammu\nBanquet Halls\nVendors\nJamshedpur\nBanquet Halls\nVendors\nJhansi\nBanquet Halls\nVendors\nJodhpur\nBanquet Halls\nVendors\nKarjat\nBanquet Halls\nVendors\nKarnal\nBanquet Halls\nVendors\nKhajuraho\nBanquet Halls\nVendors\nKochi\nBanquet Halls\nVendors\nKota\nBanquet Halls\nVendors\nKumbhalgarh\nBanquet Halls\nVendors\nLavasa\nBanquet Halls\nVendors\nLonavala\nBanquet Halls\nVendors\nLudhiana\nBanquet Halls\nVendors\nMahabaleshwar\nBanquet Halls\nVendors\nMandawa\nBanquet Halls\nVendors\nMatheran\nBanquet Halls\nVendors\nMathura\nBanquet Halls\nVendors\nMoradabad\nBanquet Halls\nVendors\nMussoorie\nBanquet Halls\nVendors\nNainital\nBanquet Halls\nVendors\nNeemrana\nBanquet Halls\nVendors\nPanipat\nBanquet Halls\nVendors\nPatiala\nBanquet Halls\nVendors\nPushkar\nBanquet Halls\nVendors\nRajkot\nBanquet Halls\nVendors\nRanakpur\nBanquet Halls\nVendors\nRanthambore\nBanquet Halls\nVendors\nRatnagiri\nBanquet Halls\nVendors\nRishikesh\nBanquet Halls\nVendors\nRohtak\nBanquet Halls\nVendors\nSasan-Gir\nBanquet Halls\nVendors\nSeoni\nBanquet Halls\nVendors\nShimla\nBanquet Halls\nVendors\nShirdi\nBanquet Halls\nVendors\nSiliguri\nBanquet Halls\nVendors\nSilvassa\nBanquet Halls\nVendors\nSonipat\nBanquet Halls\nVendors\nTirupati\nBanquet Halls\nVendors\nTrivandrum\nBanquet Halls\nVendors\nUdaipur\nBanquet Halls\nVendors\nUjjain\nBanquet Halls\nVendors\nVisakhapatnam\nBanquet Halls\nVendors\nLatest Blogs On Weddings\nSee all\nReal Weddings\nSee all\nHow it Works\nDiscover & Shortlist Venues\nGuided Visits\nBook Venue\nBook Vendors\nInput your requirements & see our recommendations & prices.\nVisit venues on your own or with our venue expert.\nGet final quotes (upto 30% off) and book your venue.\nMeet our trusted vendors and book them at your ease.\nWedding Photos\nBridal Lehengas\nMehendi\nMake Up\nDestination Weddings\nPhotography\nDecor\nBridal Jewellery\nBridal Lehengas\nMehendi\nMake Up\nDestination Weddings\nPhotography\nDecor\nBridal Jewellery\nBridal Lehengas\nYour Wedding Website\n\nManage your guests and keep them updated real time. Don’t miss out on a single moment captured by everyone & cherish them forever! Create a buzz of your wedding much before the wedding day. Let the guests get to know each other even before they come to the wedding.\n\n     \n@Weddingz.in\nOn Instagram\nFollowers\nFollow\n@Weddingz.in\nOn Facebook\nLike\n@WeddingzIndia\nOn Pinterest\nPins\nFollow\n@Weddingz\nOn Snapchat\nScan Code To Follow\n\t24HRS HELPLINE, EVERY DAY\n%\tDISCOUNTS UPTO 30%\nPlan A Wedding In India\n CALL US: 80-48-05-05-05\n24-hour helpline\nOR\nHAVE US CALL YOU FOR UPTO 30% DISCOUNT\nIndia's Largest Wedding Company.\nFind, Compare And Book Wedding Venues And Services.\nBest Prices Guaranteed.\nFind Inspiration, Ideas And Insights For Your Wedding.\nMumbai\nVENUES\nParty Halls in Mumbai\nMarriage Halls in Mumbai\nBanquet Halls in Mumbai\nBirthday Party Halls in Mumbai\nVeg Banquet Halls in Mumbai\nAll Venues in Mumbai\nVENDORS\nPhotographers\nMakeup Artists\nMehendi Artists\nAll Vendors\nDelhi NCR\nVENUES\nParty Halls in Delhi\nMarriage Halls in Delhi\nBanquet Halls in Delhi\nCocktail Venues in Delhi\nBirthday Party Halls in Delhi\nAll Venues in Delhi\nVENDORS\nPhotographers\nMakeup Artists\nMehendi Artists\nAll Vendors\nPatna\nVENUES\nBanquet Halls in Patna\nParty Halls in Patna\nMarriage Halls in Patna\nWedding Lawns in Patna\nBirthday Party Halls in Patna\nAll Venues in Patna\nVENDORS\nPhotographers\nMakeup Artists\nMehendi Artists\nAll Vendors\nJaipur\nVENUES\nBanquet Halls in Jaipur\nParty Halls in Jaipur\nMarriage Halls in Jaipur\nWedding Lawns in Jaipur\nBirthday Party Halls in Jaipur\nAll Venues in Jaipur\nVENDORS\nPhotographers\nMakeup Artists\nMehendi Artists\nAll Vendors\nPune\nVENUES\nParty Halls in Pune\nMarriage Halls in Pune\nBanquet Halls in Pune\nWedding Lawns in Pune\nBirthday Party Halls in Pune\nAll Venues in Pune\nVENDORS\nPhotographers\nMakeup Artists\nMehendi Artists\nAll Vendors\nLucknow\nVENUES\nParty Halls in Lucknow\nMarriage Halls in Lucknow\nBanquet Halls in Lucknow\nWedding Lawns in Lucknow\nBirthday Party Halls in Lucknow\nAll Venues in Lucknow\nVENDORS\nPhotographers\nMakeup Artists\nMehendi Artists\nAll Vendors\nKolkata\nVENUES\nBanquet Halls in Kolkata\nMarriage Halls in Kolkata\nParty Halls in Kolkata\nBirthday Party Halls in Kolkata\nCocktail Venues in Kolkata\nAll Venues in Kolkata\nVENDORS\nPhotographers\nMakeup Artists\nMehendi Artists\nAll Vendors\nBhubaneswar\nVENUES\nParty Halls in Bhubaneswar\nMarriage Halls in Bhubaneswar\nBanquet Halls in Bhubaneswar\nWedding Lawns in Bhubaneswar\nBirthday Party Halls in Bhubaneswar\nAll Venues in Bhubaneswar\nVENDORS\nPhotographers\nMakeup Artists\nMehendi Artists\nAll Vendors\nGurugram\nVENUES\nParty Halls in Gurugram\nBanquet Halls in Gurugram\nMarriage Halls in Gurugram\nCocktail Venues in Gurugram\nBirthday Party Halls in Gurugram\nAll Venues in Gurugram\nVENDORS\nPhotographers\nMakeup Artists\nMehendi Artists\nAll Vendors\nNashik\nVENUES\nParty Halls in Nashik\nMarriage Halls in Nashik\nWedding Lawns in Nashik\nOutdoor Venues in Nashik\nBirthday Party Halls in Nashik\nAll Venues in Nashik\nVENDORS\nPhotographers\nMakeup Artists\nMehendi Artists\nAll Vendors\nNagpur\nVENUES\nParty Halls in Nagpur\nMarriage Halls in Nagpur\nWedding Lawns in Nagpur\nOutdoor Venues in Nagpur\nBirthday Party Halls in Nagpur\nAll Venues in Nagpur\nVENDORS\nPhotographers\nMakeup Artists\nMehendi Artists\nAll Vendors\nGhaziabad\nVENUES\nMarriage Halls in Ghaziabad\nParty Halls in Ghaziabad\nBanquet Halls in Ghaziabad\nWedding Lawns in Ghaziabad\nBirthday Party Halls in Ghaziabad\nAll Venues in Ghaziabad\nVENDORS\nPhotographers\nMakeup Artists\nMehendi Artists\nAll Vendors\nGET INSPIRED\nPhotos\n \nReal Weddings\n \nBlog\nCall our 24-hour helpline\n 80-48-05-05-05\n \n info.weddingz@oyorooms.com\nCOMPANY\nPartner Login\n \nFAQ\n \nTerms & Conditions\n \nPrivacy Policy\n \nNewsroom\n \nT",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Plan Your Wedding With India’s Largest Wedding Co.",
+     "style": {
+      "fontFamily": "Lato, \"Open Sans\", sans-serif",
+      "fontSize": "36px",
+      "fontWeight": "500",
+      "lineHeight": "45px",
+      "letterSpacing": "0.1px",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "capitalize",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 30px"
+     },
+     "r": {
+      "x": 502,
+      "y": 274,
+      "w": 437,
+      "h": 90
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Browse Wedding Venues and Vendors",
+     "style": {
+      "fontFamily": "Lato, \"Open Sans\", sans-serif",
+      "fontSize": "23px",
+      "fontWeight": "600",
+      "lineHeight": "28.75px",
+      "letterSpacing": "0.1px",
+      "color": "rgb(72, 72, 72)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(72, 72, 72)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 15px"
+     },
+     "r": {
+      "x": 185,
+      "y": 867,
+      "w": 1070,
+      "h": 29
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Mumbai",
+     "style": {
+      "fontFamily": "Lato, \"Open Sans\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "lineHeight": "30.06px",
+      "letterSpacing": "0.1px",
+      "color": "rgb(112, 111, 109)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(112, 111, 109)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 195,
+      "y": 1154,
+      "w": 255,
+      "h": 30
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Kolkata",
+     "style": {
+      "fontFamily": "Lato, \"Open Sans\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "lineHeight": "30.06px",
+      "letterSpacing": "0.1px",
+      "color": "rgb(112, 111, 109)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(112, 111, 109)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 470,
+      "y": 1154,
+      "w": 255,
+      "h": 30
+     }
+    }
+   ],
+   "card-meta": [],
+   "filter-label": [],
+   "nav-link": [
+    {
+     "sel": "header nav a, header a, header button",
+     "text": "",
+     "style": {
+      "fontFamily": "Lato, \"Open Sans\", sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "0.1px",
+      "color": "rgb(255, 53, 59)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 53, 59)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 15,
+      "y": 6,
+      "w": 140,
+      "h": 34
+     }
+    },
+    {
+     "sel": "header nav a, header a, header button",
+     "text": "List Your Business",
+     "style": {
+      "fontFamily": "Lato, \"Open Sans\", sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "18px",
+      "letterSpacing": "0.1px",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "capitalize",
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "0.15s ease-in-out",
+      "padding": "4px 10px",
+      "margin": "4px 0px 0px"
+     },
+     "r": {
+      "x": 1246,
+      "y": 10,
+      "w": 120,
+      "h": 28
+     }
+    },
+    {
+     "sel": "header nav a, header a, header button",
+     "text": "",
+     "style": {
+      "fontFamily": "Lato, \"Open Sans\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "lineHeight": "18px",
+      "letterSpacing": "0.1px",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "capitalize",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "8px 12px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1369,
+      "y": 6,
+      "w": 56,
+      "h": 43
+     }
+    }
+   ],
+   "price": [
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "Hassle Free Planning & Booking at Our Guaranteed Best Prices.",
+     "style": {
+      "fontFamily": "Lato, \"Open Sans\", sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "500",
+      "lineHeight": "24.2px",
+      "letterSpacing": "0.1px",
+      "color": "rgb(55, 55, 55)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(55, 55, 55)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "25px 0px 0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 0,
+      "y": 720,
+      "w": 1440,
+      "h": 49
+     }
+    }
+   ]
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(112, 111, 109)",
+    "fontFamily": "Lato, \"Open Sans\", sans-serif",
+    "fontSize": "12px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

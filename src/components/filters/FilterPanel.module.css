@@ -1,0 +1,93 @@
+/*
+ * The filter rail — guide §1.8.
+ *
+ * It is a control panel, not a form: one raised surface, hairline-separated
+ * groups, compact option rows, and counts wherever a real one exists. The
+ * chrome earns its keep by grouping ~40 controls into a single scannable object;
+ * the inputs themselves stay the design system's own.
+ */
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: rem(16px);
+  padding: var(--app-card-padding);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card-dense);
+  background-color: var(--app-surface-raised);
+}
+
+/* One hairline between every group, whatever kind of group it is — a field, a
+   fieldset or the category-attribute block. Declared once here so no group has
+   to know what comes before it. */
+.panel > * + * {
+  padding-top: rem(16px);
+  border-top: 1px solid var(--app-border);
+}
+
+/* Inside the mobile drawer the drawer itself is the surface. */
+.flush {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.field {
+  min-width: 0;
+}
+
+/* A facet count inside a dropdown option: muted, tabular, right-aligned, so the
+   column of counts scans as a column. */
+.optionLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(8px);
+  width: 100%;
+}
+
+.count {
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+  font-variant-numeric: tabular-nums;
+}
+
+.attributeSection {
+  display: flex;
+  flex-direction: column;
+  gap: rem(16px);
+}
+
+.sectionTitle {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: var(--text-label-leading);
+}
+
+.amenityGroup + .amenityGroup {
+  margin-top: rem(12px);
+}
+
+.amenityLegend {
+  margin: 0 0 rem(4px);
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: 650;
+  line-height: var(--text-caption-leading);
+}
+
+.switchRow {
+  display: flex;
+  flex-direction: column;
+  gap: rem(8px);
+}
+
+.switchRow > * {
+  display: flex;
+  align-items: center;
+  min-height: rem(32px);
+}

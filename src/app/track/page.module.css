@@ -1,0 +1,15 @@
+/*
+ * Guest tracking page.
+ *
+ * The container caps the measure at 68 characters, so the lookup form and the
+ * enquiry it finds are the same column — the answer is about the thing that was
+ * looked up, not a new page.
+ */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: rem(20px);
+  min-width: 0;
+  padding-top: rem(24px);
+}

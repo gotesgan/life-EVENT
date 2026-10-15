@@ -1,0 +1,2641 @@
+{
+ "slug": "zola",
+ "mode": "desktop",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "Registry The gifts you want, the way you want them.",
+   "r": {
+    "x": 447,
+    "y": 883,
+    "w": 273,
+    "h": 417
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 342,
+    "h": 417
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://www.zola.com/",
+  "title": "Zola: Free Wedding Websites, Registry & Planning Tools",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 8088,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Wedding planning starts here",
+    "x": 288,
+    "y": 295,
+    "w": 863,
+    "h": 64
+   },
+   {
+    "tag": "H2",
+    "text": "From venues and save the dates to a free wedding website, a registry and even your cake — Zola is here for all the days along the way",
+    "x": 460,
+    "y": 375,
+    "w": 520,
+    "h": 96
+   },
+   {
+    "tag": "H2",
+    "text": "Everything you need to plan the wedding you want",
+    "x": 204,
+    "y": 1189,
+    "w": 212,
+    "h": 120
+   },
+   {
+    "tag": "H2",
+    "text": "Share it all on a free wedding website",
+    "x": 560,
+    "y": 1883,
+    "w": 464,
+    "h": 194
+   },
+   {
+    "tag": "H2",
+    "text": "Get more from your guest list",
+    "x": 560,
+    "y": 2636,
+    "w": 464,
+    "h": 193
+   },
+   {
+    "tag": "H2",
+    "text": "Discover the best venues and vendors",
+    "x": 560,
+    "y": 3406,
+    "w": 464,
+    "h": 194
+   },
+   {
+    "tag": "H2",
+    "text": "Look good on paper with invites and more",
+    "x": 560,
+    "y": 4147,
+    "w": 464,
+    "h": 258
+   },
+   {
+    "tag": "H2",
+    "text": "Build your registry",
+    "x": 560,
+    "y": 4978,
+    "w": 464,
+    "h": 129
+   },
+   {
+    "tag": "H2",
+    "text": "The Zola difference is in the details",
+    "x": 40,
+    "y": 5632,
+    "w": 399,
+    "h": 80
+   },
+   {
+    "tag": "H3",
+    "text": "Group gifting",
+    "x": 40,
+    "y": 5834,
+    "w": 399,
+    "h": 22
+   },
+   {
+    "tag": "H3",
+    "text": "Virtual exchanges",
+    "x": 40,
+    "y": 6013,
+    "w": 399,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "Smart seating charts",
+    "x": 40,
+    "y": 6103,
+    "w": 399,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "20% off post-wedding",
+    "x": 40,
+    "y": 6192,
+    "w": 399,
+    "h": 21
+   },
+   {
+    "tag": "H3",
+    "text": "A powerful guest list",
+    "x": 40,
+    "y": 6282,
+    "w": 399,
+    "h": 21
+   },
+   {
+    "tag": "H2",
+    "text": "Meet Team-Z, your expert advisors",
+    "x": 929,
+    "y": 6442,
+    "w": 447,
+    "h": 80
+   },
+   {
+    "tag": "H2",
+    "text": "Explore wedding vendors by category",
+    "x": 40,
+    "y": 7181,
+    "w": 1360,
+    "h": 40
+   },
+   {
+    "tag": "H3",
+    "text": "Wedding Venues by State",
+    "x": 170,
+    "y": 7544,
+    "w": 182,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "Wedding Venues in Top Cities",
+    "x": 428,
+    "y": 7544,
+    "w": 211,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "Wedding Vendors in Top Cities",
+    "x": 715,
+    "y": 7544,
+    "w": 218,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "Shop invites and paper",
+    "x": 1045,
+    "y": 7544,
+    "w": 162,
+    "h": 20
+   }
+  ],
+  "header": {
+   "tag": "HEADER",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 132
+   },
+   "style": {
+    "position": "relative",
+    "top": "0px",
+    "height": "132px",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderBottom": "0px none rgb(14, 14, 14)",
+    "boxShadow": "none",
+    "zIndex": "auto"
+   },
+   "text": "Already have an account? Log in Get started Sale 40% off* invites & paper through 10/19 with code SPOOKY40 Terms Explore designs",
+   "links": [
+    {
+     "t": "Already have an account? Log in",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 1071,
+      "y": 30,
+      "w": 203,
+      "h": 16
+     }
+    },
+    {
+     "t": "Get started",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 1293,
+      "y": 16,
+      "w": 107,
+      "h": 44
+     }
+    },
+    {
+     "t": "Sale 40% off* invites & paper through 10/19 with code SPOOKY",
+     "tag": "A",
+     "href": "https://www.zola.com/wedding-planning/paper?utm_medium=website&utm_source=top_nav&utm_campaign=2026_October_Paper_Promo",
+     "r": {
+      "x": 40,
+      "y": 94,
+      "w": 1360,
+      "h": 20
+     }
+    },
+    {
+     "t": "Terms",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 861,
+      "y": 97,
+      "w": 32,
+      "h": 14
+     }
+    }
+   ]
+  },
+  "navAll": [
+   "Our story",
+   "Become a Zola vendor",
+   "Reviews",
+   "Zola Baby",
+   "Careers",
+   "Press",
+   "Expert advice",
+   "FAQs",
+   "Track order",
+   "Start a return",
+   "Return policy",
+   "Contact us",
+   "Team Z advisors",
+   "Log in",
+   "Find a couple",
+   "Find a baby registry",
+   "Get started",
+   "Privacy",
+   "Terms",
+   "Your privacy choices",
+   "Web accessibility"
+  ],
+  "searchInputs": [],
+  "filterContainers": [],
+  "images": [
+   {
+    "src": "https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/registry.35968e89.webp?auto=format&fit=max&w=768",
+    "alt": "",
+    "nat": "622x902",
+    "r": {
+     "x": 477,
+     "y": 1019,
+     "w": 212,
+     "h": 240
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vpassets/_next/static/media/registry.d7ffb9d3.png",
+    "alt": "",
+    "nat": "332x440",
+    "r": {
+     "x": 531,
+     "y": 1047,
+     "w": 106,
+     "h": 185
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_grid_bg.b64330b0.webp?auto=format&fit=max&w=768",
+    "alt": "",
+    "nat": "509x369",
+    "r": {
+     "x": 751,
+     "y": 1019,
+     "w": 212,
+     "h": 240
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vpassets/_next/static/media/website.d0a2d62f.webp",
+    "alt": "",
+    "nat": "420x312",
+    "r": {
+     "x": 753,
+     "y": 1037,
+     "w": 208,
+     "h": 204
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.b50f3f01.webp?auto=format&fit=max&w=768",
+    "alt": "",
+    "nat": "719x599",
+    "r": {
+     "x": 1024,
+     "y": 1019,
+     "w": 212,
+     "h": 240
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vpassets/_next/static/media/vendor.287b73d7.png",
+    "alt": "",
+    "nat": "672x521",
+    "r": {
+     "x": 1024,
+     "y": 1043,
+     "w": 212,
+     "h": 216
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.39950d54.webp?auto=format&fit=max&w=768",
+    "alt": "",
+    "nat": "703x635",
+    "r": {
+     "x": 477,
+     "y": 1436,
+     "w": 212,
+     "h": 240
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vpassets/_next/static/media/paper_desktop.883b83ce.png",
+    "alt": "",
+    "nat": "620x480",
+    "r": {
+     "x": 509,
+     "y": 1515,
+     "w": 149,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guest_list.a0d6be98.webp?auto=format&fit=max&w=768",
+    "alt": "",
+    "nat": "509x370",
+    "r": {
+     "x": 751,
+     "y": 1436,
+     "w": 212,
+     "h": 240
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vpassets/_next/static/media/guest_list.fc90d069.png",
+    "alt": "",
+    "nat": "280x101",
+    "r": {
+     "x": 801,
+     "y": 1618,
+     "w": 111,
+     "h": 53
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/budget_grid_bg.5ed4b161.webp?auto=format&fit=max&w=768",
+    "alt": "",
+    "nat": "509x370",
+    "r": {
+     "x": 1024,
+     "y": 1436,
+     "w": 212,
+     "h": 240
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vpassets/_next/static/media/budget.d0286e17.webp",
+    "alt": "",
+    "nat": "333x95",
+    "r": {
+     "x": 1079,
+     "y": 1611,
+     "w": 114,
+     "h": 43
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9.webp?auto=format&fit=max&w=1600",
+    "alt": "",
+    "nat": "777x1128",
+    "r": {
+     "x": 40,
+     "y": 1770,
+     "w": 480,
+     "h": 875
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vpassets/_next/static/media/website_ui.0cae5eb8.webp",
+    "alt": "",
+    "nat": "593x582",
+    "r": {
+     "x": 133,
+     "y": 1937,
+     "w": 295,
+     "h": 290
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 40,
+     "y": 2540,
+     "w": 480,
+     "h": 875
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 40,
+     "y": 3310,
+     "w": 480,
+     "h": 875
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 40,
+     "y": 4033,
+     "w": 480,
+     "h": 875
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 40,
+     "y": 4850,
+     "w": 480,
+     "h": 875
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "alt": "Honeymoon fund... Contribute: $75.00. Still needs: $340.70.",
+    "nat": "1x1",
+    "r": {
+     "x": 539,
+     "y": 5619,
+     "w": 842,
+     "h": 707
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "alt": "",
+    "nat": "1x1",
+    "r": {
+     "x": 20,
+     "y": 6398,
+     "w": 824,
+     "h": 730
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "alt": "Team-z: Hi, Kai and Jay! How may I help you today? Kai: When should we send our save the d",
+    "nat": "1x1",
+    "r": {
+     "x": 267,
+     "y": 6741,
+     "w": 412,
+     "h": 365
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vpassets/_next/static/media/privacy-options.07d853f5.svg",
+    "alt": "",
+    "nat": "300x140",
+    "r": {
+     "x": 302,
+     "y": 8040,
+     "w": 28,
+     "h": 13
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vpassets/_next/static/media/allyant-badge.3bdfd44a.svg",
+    "alt": "Reviewed by Allyant for accessibility stamp",
+    "nat": "0x0",
+    "r": {
+     "x": 486,
+     "y": 8022,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.885,
+     "r": {
+      "w": 212,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 477,
+       "y": 1019,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/registry.35968e89.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/me",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-mvia3 e1t9pc5m10",
+      "r": {
+       "x": 477,
+       "y": 1019,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/registry.35968e89.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/me",
+      "style": {
+       "borderRadius": "24px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-7psedx e1t9pc5m9",
+      "r": {
+       "x": 477,
+       "y": 1019,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/registry.35968e89.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/me",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "scale 0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-vn0rdd e1t9pc5m11",
+      "r": {
+       "x": 447,
+       "y": 883,
+       "w": 273,
+       "h": 417
+      },
+      "text": "Registry The gifts you want, the way you want them.",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "24px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1227yd7 e1t9pc5m5",
+      "r": {
+       "x": 447,
+       "y": 882,
+       "w": 819,
+       "h": 835
+      },
+      "text": "Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultra-customizable designs. Guest list We’ll ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 6
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.882,
+     "r": {
+      "w": 212,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 751,
+       "y": 1019,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_grid_bg.b64330b0.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/st",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-mvia3 e1t9pc5m10",
+      "r": {
+       "x": 751,
+       "y": 1019,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_grid_bg.b64330b0.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/st",
+      "style": {
+       "borderRadius": "24px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-7psedx e1t9pc5m9",
+      "r": {
+       "x": 751,
+       "y": 1019,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_grid_bg.b64330b0.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/st",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "scale 0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-vn0rdd e1t9pc5m11",
+      "r": {
+       "x": 720,
+       "y": 883,
+       "w": 273,
+       "h": 417
+      },
+      "text": "Free wedding websites A free, easy way to keep guests in-the-know.",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "24px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1227yd7 e1t9pc5m5",
+      "r": {
+       "x": 447,
+       "y": 882,
+       "w": 819,
+       "h": 835
+      },
+      "text": "Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultra-customizable designs. Guest list We’ll ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 6
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.021,
+     "r": {
+      "w": 208,
+      "h": 204
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "css-7psedx e1t9pc5m9",
+      "r": {
+       "x": 751,
+       "y": 1019,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_grid_bg.b64330b0.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/st",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "scale 0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-vn0rdd e1t9pc5m11",
+      "r": {
+       "x": 720,
+       "y": 883,
+       "w": 273,
+       "h": 417
+      },
+      "text": "Free wedding websites A free, easy way to keep guests in-the-know.",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "24px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1227yd7 e1t9pc5m5",
+      "r": {
+       "x": 447,
+       "y": 882,
+       "w": 819,
+       "h": 835
+      },
+      "text": "Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultra-customizable designs. Guest list We’ll ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 6
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-8k7p1l e1t9pc5m0",
+      "r": {
+       "x": 174,
+       "y": 882,
+       "w": 1092,
+       "h": 835
+      },
+      "text": "Everything you need to plan the wedding you want For all the days along the way Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. I",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 174,
+       "y": 882,
+       "w": 1092,
+       "h": 835
+      },
+      "text": "Everything you need to plan the wedding you want For all the days along the way Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. I",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.882,
+     "r": {
+      "w": 212,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 1024,
+       "y": 1019,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.b50f3f01.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/medi",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-mvia3 e1t9pc5m10",
+      "r": {
+       "x": 1024,
+       "y": 1019,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.b50f3f01.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/medi",
+      "style": {
+       "borderRadius": "24px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-7psedx e1t9pc5m9",
+      "r": {
+       "x": 1024,
+       "y": 1019,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.b50f3f01.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/medi",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "scale 0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-vn0rdd e1t9pc5m11",
+      "r": {
+       "x": 993,
+       "y": 883,
+       "w": 273,
+       "h": 417
+      },
+      "text": "Venues and vendors Find the people to bring it all to life.",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "24px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1227yd7 e1t9pc5m5",
+      "r": {
+       "x": 447,
+       "y": 882,
+       "w": 819,
+       "h": 835
+      },
+      "text": "Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultra-customizable designs. Guest list We’ll ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 6
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.979,
+     "r": {
+      "w": 212,
+      "h": 216
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "css-7psedx e1t9pc5m9",
+      "r": {
+       "x": 1024,
+       "y": 1019,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.b50f3f01.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/medi",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "scale 0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-vn0rdd e1t9pc5m11",
+      "r": {
+       "x": 993,
+       "y": 883,
+       "w": 273,
+       "h": 417
+      },
+      "text": "Venues and vendors Find the people to bring it all to life.",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "24px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1227yd7 e1t9pc5m5",
+      "r": {
+       "x": 447,
+       "y": 882,
+       "w": 819,
+       "h": 835
+      },
+      "text": "Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultra-customizable designs. Guest list We’ll ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 6
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-8k7p1l e1t9pc5m0",
+      "r": {
+       "x": 174,
+       "y": 882,
+       "w": 1092,
+       "h": 835
+      },
+      "text": "Everything you need to plan the wedding you want For all the days along the way Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. I",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 174,
+       "y": 882,
+       "w": 1092,
+       "h": 835
+      },
+      "text": "Everything you need to plan the wedding you want For all the days along the way Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. I",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.885,
+     "r": {
+      "w": 212,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 477,
+       "y": 1436,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.39950d54.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-mvia3 e1t9pc5m10",
+      "r": {
+       "x": 477,
+       "y": 1436,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.39950d54.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media",
+      "style": {
+       "borderRadius": "24px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-7psedx e1t9pc5m9",
+      "r": {
+       "x": 477,
+       "y": 1436,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.39950d54.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "scale 0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-vn0rdd e1t9pc5m11",
+      "r": {
+       "x": 447,
+       "y": 1300,
+       "w": 273,
+       "h": 417
+      },
+      "text": "Invites and paper Set the vibe with ultra-customizable designs.",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "24px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1227yd7 e1t9pc5m5",
+      "r": {
+       "x": 447,
+       "y": 882,
+       "w": 819,
+       "h": 835
+      },
+      "text": "Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultra-customizable designs. Guest list We’ll ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 6
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.98,
+     "r": {
+      "w": 149,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "css-7psedx e1t9pc5m9",
+      "r": {
+       "x": 477,
+       "y": 1436,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.39950d54.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "scale 0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-vn0rdd e1t9pc5m11",
+      "r": {
+       "x": 447,
+       "y": 1300,
+       "w": 273,
+       "h": 417
+      },
+      "text": "Invites and paper Set the vibe with ultra-customizable designs.",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "24px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1227yd7 e1t9pc5m5",
+      "r": {
+       "x": 447,
+       "y": 882,
+       "w": 819,
+       "h": 835
+      },
+      "text": "Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultra-customizable designs. Guest list We’ll ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 6
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-8k7p1l e1t9pc5m0",
+      "r": {
+       "x": 174,
+       "y": 882,
+       "w": 1092,
+       "h": 835
+      },
+      "text": "Everything you need to plan the wedding you want For all the days along the way Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. I",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 174,
+       "y": 882,
+       "w": 1092,
+       "h": 835
+      },
+      "text": "Everything you need to plan the wedding you want For all the days along the way Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. I",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.882,
+     "r": {
+      "w": 212,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 751,
+       "y": 1436,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guest_list.a0d6be98.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-mvia3 e1t9pc5m10",
+      "r": {
+       "x": 751,
+       "y": 1436,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guest_list.a0d6be98.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/",
+      "style": {
+       "borderRadius": "24px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-7psedx e1t9pc5m9",
+      "r": {
+       "x": 751,
+       "y": 1436,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guest_list.a0d6be98.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "scale 0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-vn0rdd e1t9pc5m11",
+      "r": {
+       "x": 720,
+       "y": 1300,
+       "w": 273,
+       "h": 417
+      },
+      "text": "Guest list We’ll help you get addresses and track RSVPs.",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "24px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1227yd7 e1t9pc5m5",
+      "r": {
+       "x": 447,
+       "y": 882,
+       "w": 819,
+       "h": 835
+      },
+      "text": "Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultra-customizable designs. Guest list We’ll ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 6
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.882,
+     "r": {
+      "w": 212,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 1024,
+       "y": 1436,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/budget_grid_bg.5ed4b161.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/sta",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-mvia3 e1t9pc5m10",
+      "r": {
+       "x": 1024,
+       "y": 1436,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/budget_grid_bg.5ed4b161.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/sta",
+      "style": {
+       "borderRadius": "24px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-7psedx e1t9pc5m9",
+      "r": {
+       "x": 1024,
+       "y": 1436,
+       "w": 212,
+       "h": 240
+      },
+      "text": "<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/budget_grid_bg.5ed4b161.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/sta",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "scale 0.3s",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-vn0rdd e1t9pc5m11",
+      "r": {
+       "x": 993,
+       "y": 1300,
+       "w": 273,
+       "h": 417
+      },
+      "text": "Budget tool Stay on top of every dollar.",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "24px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1227yd7 e1t9pc5m5",
+      "r": {
+       "x": 447,
+       "y": 882,
+       "w": 819,
+       "h": 835
+      },
+      "text": "Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultra-customizable designs. Guest list We’ll ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 6
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.549,
+     "r": {
+      "w": 480,
+      "h": 875
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 40,
+       "y": 1770,
+       "w": 480,
+       "h": 875
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(215, 245, 217)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1qjfdt3",
+      "r": {
+       "x": 40,
+       "y": 1770,
+       "w": 480,
+       "h": 875
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(215, 245, 217)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-aip69 etm5ybs7",
+      "r": {
+       "x": 40,
+       "y": 1770,
+       "w": 480,
+       "h": 625
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9",
+      "style": {
+       "borderRadius": "24px",
+       "border": "0px none rgb(215, 245, 217)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-zd8p4p etm5ybs2",
+      "r": {
+       "x": 0,
+       "y": 1717,
+       "w": 1200,
+       "h": 770
+      },
+      "text": "Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(215, 245, 217)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px 0px 80px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 0,
+       "y": 1717,
+       "w": 1200,
+       "h": 3850
+      },
+      "text": "Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs Get more from your guest list Decide who to celebrate with and we'll do the rest—from collecting contact info to managing RSVPs. Get s",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(0, 87, 89)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.019,
+     "r": {
+      "w": 295,
+      "h": 290
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "css-1ks7cfb etm5ybs11",
+      "r": {
+       "x": 40,
+       "y": 1770,
+       "w": 480,
+       "h": 625
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(215, 245, 217)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "16px normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-aip69 etm5ybs7",
+      "r": {
+       "x": 40,
+       "y": 1770,
+       "w": 480,
+       "h": 625
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9",
+      "style": {
+       "borderRadius": "24px",
+       "border": "0px none rgb(215, 245, 217)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-zd8p4p etm5ybs2",
+      "r": {
+       "x": 0,
+       "y": 1717,
+       "w": 1200,
+       "h": 770
+      },
+      "text": "Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(215, 245, 217)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px 0px 80px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 0,
+       "y": 1717,
+       "w": 1200,
+       "h": 3850
+      },
+      "text": "Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs Get more from your guest list Decide who to celebrate with and we'll do the rest—from collecting contact info to managing RSVPs. Get s",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(0, 87, 89)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-wjkc0v etm5ybs1",
+      "r": {
+       "x": 0,
+       "y": 1717,
+       "w": 1200,
+       "h": 3850
+      },
+      "text": "Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs Get more from your guest list Decide who to celebrate with and we'll do the rest—from collecting contact info to managing RSVPs. Get s",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.549,
+     "r": {
+      "w": 480,
+      "h": 875
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 40,
+       "y": 2540,
+       "w": 480,
+       "h": 875
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guestlist_bg.7fd9c9bc.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guestlist_bg.7fd9",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(249, 249, 249)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1qjfdt3",
+      "r": {
+       "x": 40,
+       "y": 2540,
+       "w": 480,
+       "h": 875
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guestlist_bg.7fd9c9bc.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guestlist_bg.7fd9",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(249, 249, 249)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-aip69 etm5ybs7",
+      "r": {
+       "x": 40,
+       "y": 2540,
+       "w": 480,
+       "h": 625
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guestlist_bg.7fd9c9bc.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guestlist_bg.7fd9",
+      "style": {
+       "borderRadius": "24px",
+       "border": "0px none rgb(249, 249, 249)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-zd8p4p etm5ybs2",
+      "r": {
+       "x": 0,
+       "y": 2487,
+       "w": 1200,
+       "h": 770
+      },
+      "text": "Get more from your guest list Decide who to celebrate with and we'll do the rest—from collecting contact info to managing RSVPs. Get started Learn more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(249, 249, 249)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px 0px 80px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 0,
+       "y": 1717,
+       "w": 1200,
+       "h": 3850
+      },
+      "text": "Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs Get more from your guest list Decide who to celebrate with and we'll do the rest—from collecting contact info to managing RSVPs. Get s",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(0, 87, 89)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.549,
+     "r": {
+      "w": 480,
+      "h": 875
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 40,
+       "y": 3310,
+       "w": 480,
+       "h": 875
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.9e7b39c1.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.9e7b39c1.webp?au",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(217, 202, 252)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1qjfdt3",
+      "r": {
+       "x": 40,
+       "y": 3310,
+       "w": 480,
+       "h": 875
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.9e7b39c1.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.9e7b39c1.webp?au",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(217, 202, 252)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-aip69 etm5ybs7",
+      "r": {
+       "x": 40,
+       "y": 3310,
+       "w": 480,
+       "h": 625
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.9e7b39c1.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.9e7b39c1.webp?au",
+      "style": {
+       "borderRadius": "24px",
+       "border": "0px none rgb(217, 202, 252)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-zd8p4p etm5ybs2",
+      "r": {
+       "x": 0,
+       "y": 3257,
+       "w": 1200,
+       "h": 770
+      },
+      "text": "Discover the best venues and vendors We'll play matchmaker. Get personalized recs for your style and budget. Reach out on Zola and book when you're ready. Search vendors near you",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(217, 202, 252)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px 0px 80px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 0,
+       "y": 1717,
+       "w": 1200,
+       "h": 3850
+      },
+      "text": "Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs Get more from your guest list Decide who to celebrate with and we'll do the rest—from collecting contact info to managing RSVPs. Get s",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(0, 87, 89)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.549,
+     "r": {
+      "w": 480,
+      "h": 875
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 40,
+       "y": 4033,
+       "w": 480,
+       "h": 875
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.adfc940d.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.adfc940d.webp?auto",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(249, 249, 249)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-1qjfdt3",
+      "r": {
+       "x": 40,
+       "y": 4033,
+       "w": 480,
+       "h": 875
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.adfc940d.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.adfc940d.webp?auto",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(249, 249, 249)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-aip69 etm5ybs7",
+      "r": {
+       "x": 40,
+       "y": 4083,
+       "w": 480,
+       "h": 625
+      },
+      "text": "<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.adfc940d.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.adfc940d.webp?auto",
+      "style": {
+       "borderRadius": "24px",
+       "border": "0px none rgb(249, 249, 249)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "css-zd8p4p etm5ybs2",
+      "r": {
+       "x": 0,
+       "y": 4027,
+       "w": 1200,
+       "h": 770
+      },
+      "text": "Look good on paper with invites and more The easiest way to get from \"save the date\" to \"thanks so much.\" Designed by our artists, customized by you. Explore designs Learn more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(249, 249, 249)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "40px 0px 80px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "grid",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 0,
+       "y": 1717,
+       "w": 1200,
+       "h": 3850
+      },
+      "text": "Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs Get more from your guest list Decide who to celebrate with and we'll do the rest—from collecting contact info to managing RSVPs. Get s",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(0, 87, 89)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "Skip to main content",
+   "Web Accessibility",
+   "Already have an account? Log in",
+   "Get started",
+   "Terms",
+   "Let's do this!",
+   "Find a couple",
+   "Registry",
+   "Free wedding websites",
+   "Venues and vendors",
+   "Invites and paper",
+   "Guest list",
+   "Budget tool",
+   "Learn more",
+   "Explore designs",
+   "Get started",
+   "Learn more",
+   "Search vendors near you",
+   "Explore designs",
+   "Learn more",
+   "Get started",
+   "Learn more",
+   "Free wedding websites",
+   "Guest list",
+   "Venue and vendors",
+   "Invites and paper",
+   "Registry",
+   "Chat with us",
+   "Group gifting",
+   "Virtual exchanges",
+   "Smart seating charts",
+   "20% off post-wedding",
+   "A powerful guest list",
+   "Get answers",
+   "Venues",
+   "Photographers",
+   "Beauty",
+   "Bands and DJs",
+   "Florists",
+   "Caterers",
+   "Planners",
+   "Cakes and desserts",
+   "Videographers",
+   "Bar and beverage",
+   "Officiants",
+   "Event extras",
+   "Wedding Venues by State",
+   "Wedding Venues in Top Cities",
+   "Wedding Vendors in Top Cities",
+   "Shop invites and paper",
+   "Our story",
+   "Become a Zola vendor",
+   "Reviews",
+   "Zola Baby",
+   "Careers",
+   "Press",
+   "Expert advice",
+   "FAQs",
+   "Track order",
+   "Start a return",
+   "Return policy",
+   "Contact us",
+   "Team Z advisors",
+   "Log in",
+   "Find a couple",
+   "Find a baby registry",
+   "Get started",
+   "Privacy",
+   "Terms",
+   "Your privacy choices",
+   "Web accessibility"
+  ],
+  "bodyText": "Skip to main content\nWeb Accessibility\nAlready have an account? Log in\nGet started\nSale\n\n40% off* invites & paper through 10/19 with code SPOOKY40\n\nTerms\n\nExplore designs\n\nWedding planning starts here\nFrom venues and save the dates to a free wedding website, a registry and even your cake — Zola is here for all the days along the way\nLet's do this!\nFind a couple\nEverything you need to plan the wedding you want\nFor all the days along the way\nRegistry\nThe gifts you want, the way you want them.\nFree wedding websites\nA free, easy way to keep guests in-the-know.\nVenues and vendors\nFind the people to bring it all to life.\nInvites and paper\nSet the vibe with ultra-customizable designs.\nGuest list\nWe’ll help you get addresses and track RSVPs.\nBudget tool\nStay on top of every dollar.\nShare it all on a\nfree wedding website\nThe easiest, most beautiful way to keep guests in-the-know.\nLearn more\nExplore designs\nGet more from your\nguest list\nDecide who to celebrate with and we'll do the rest—from collecting contact info to managing RSVPs.\nGet started\nLearn more\nDiscover the best\nvenues and vendors\nWe'll play matchmaker. Get personalized recs for your style and budget. Reach out on Zola and book when you're ready.\nSearch vendors near you\nLook good on paper with\ninvites and more\nThe easiest way to get from \"save the date\" to \"thanks so much.\" Designed by our artists, customized by you.\nExplore designs\nLearn more\nBuild your\nregistry\nRegister for everything from zero-fee cash funds to experiences and gifts—all from just one open tab.\nGet started\nLearn more\nFree wedding websites\nGuest list\nVenue and vendors\nInvites and paper\nRegistry\n\nNeed a hand?\n\nChat with us\nThe Zola difference is in the details\nGroup gifting\n\nA great way to register for those big ticket items. With multiple guests contributing toward the total, you’ll have that couch in no time!\n\nVirtual exchanges\nSmart seating charts\n20% off post-wedding\nA powerful guest list\nMeet Team-Z, your expert advisors\nThey're here to help, always just a chat or email away.\nGet answers\nExplore wedding vendors by category\n\nVenues\n\nPhotographers\n\nBeauty\n\nBands and DJs\n\nFlorists\n\nCaterers\n\nPlanners\n\nCakes and desserts\n\nVideographers\n\nBar and beverage\n\nOfficiants\n\nEvent extras\n\nWedding Venues by State\nWedding Venues in Top Cities\nWedding Vendors in Top Cities\nShop invites and paper\nAbout\nOur story\nBecome a Zola vendor\nReviews\nZola Baby\nCareers\nPress\nAdvice and support\nExpert advice\nFAQs\nTrack order\nStart a return\nReturn policy\nContact us\nTeam Z advisors\nFor all the days along the way\nLog in\nFind a couple\nFind a baby registry\nGet started\nPrivacy\nTerms\nYour privacy choices\nWeb accessibility\n\n© 2026 Zola, Inc. All rights reserved.",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Wedding planning starts here",
+     "style": {
+      "fontFamily": "new-spirit, helvetica-bold, serif",
+      "fontSize": "64px",
+      "fontWeight": "500",
+      "lineHeight": "64px",
+      "letterSpacing": "-2.56px",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 288,
+      "y": 295,
+      "w": 863,
+      "h": 64
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, [class*='vendor'] h3, h2, h3",
+     "text": "From venues and save the dates to a free wedding website, a registry a",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.72px",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 460,
+      "y": 375,
+      "w": 520,
+      "h": 96
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, [class*='vendor'] h3, h2, h3",
+     "text": "Everything you need to plan the wedding you want",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "lineHeight": "40px",
+      "letterSpacing": "-1.28px",
+      "color": "rgb(14, 14, 14)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(14, 14, 14)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 204,
+      "y": 1189,
+      "w": 212,
+      "h": 120
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, [class*='vendor'] h3, h2, h3",
+     "text": "Share it all on a free wedding website",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "64px",
+      "fontWeight": "400",
+      "lineHeight": "64px",
+      "letterSpacing": "-2.56px",
+      "color": "rgb(215, 245, 217)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(215, 245, 217)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 560,
+      "y": 1883,
+      "w": 464,
+      "h": 194
+     }
+    }
+   ],
+   "card-meta": [],
+   "filter-label": [],
+   "nav-link": [
+    {
+     "sel": "header nav a, header a",
+     "text": "",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "22.8571px",
+      "letterSpacing": "normal",
+      "color": "rgb(14, 14, 14)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(14, 14, 14)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 40,
+      "y": 26,
+      "w": 157,
+      "h": 24
+     }
+    },
+    {
+     "sel": "header nav a, header a",
+     "text": "Sale 40% off* invites & paper through 10/19 with code SPOOKY40 Terms E",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "22.8571px",
+      "letterSpacing": "normal",
+      "color": "rgb(14, 14, 14)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(14, 14, 14)",
+      "boxShadow": "none",
+      "transition": "opacity 0.5s ease-in",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 40,
+      "y": 94,
+      "w": 1360,
+      "h": 20
+     }
+    }
+   ],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(14, 14, 14)",
+    "fontFamily": "circular, helvetica, sans-serif",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

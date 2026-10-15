@@ -1,0 +1,1194 @@
+{
+ "slug": "venuelook",
+ "mode": "listing",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "",
+   "r": {
+    "x": 720,
+    "y": 1858,
+    "w": 732,
+    "h": 340
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(33, 37, 41)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 732,
+    "h": 340
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(33, 37, 41)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://www.venuelook.com/register-interest",
+  "title": "List with Venuelook - Bring Additional Online Bookings for your venue spaces",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 5138,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Make More, Worry Less",
+    "x": 128,
+    "y": 51,
+    "w": 335,
+    "h": 36
+   },
+   {
+    "tag": "H3",
+    "text": "Why List With Us?",
+    "x": 597,
+    "y": 724,
+    "w": 246,
+    "h": 34
+   },
+   {
+    "tag": "H3",
+    "text": "For other Partnerships",
+    "x": 80,
+    "y": 2619,
+    "w": 1280,
+    "h": 34
+   },
+   {
+    "tag": "H3",
+    "text": "Frequently Asked Questions",
+    "x": 86,
+    "y": 3854,
+    "w": 1268,
+    "h": 29
+   },
+   {
+    "tag": "H4",
+    "text": "Get Thousands of verified business",
+    "x": 237,
+    "y": 4192,
+    "w": 830,
+    "h": 29
+   },
+   {
+    "tag": "H4",
+    "text": "opportunities from all over india",
+    "x": 237,
+    "y": 4228,
+    "w": 830,
+    "h": 29
+   }
+  ],
+  "header": null,
+  "navAll": [],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "email",
+    "ph": "Your Email Id",
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 84,
+     "y": 2695,
+     "w": 250,
+     "h": 35
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "email",
+    "ph": "Your E-mail",
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 732,
+     "y": 4880,
+     "w": 192,
+     "h": 35
+    }
+   }
+  ],
+  "filterContainers": [],
+  "images": [
+   {
+    "src": "https://www.venuelook.com/images/VenueLogo.svg",
+    "alt": "VenueLook Logo",
+    "nat": "267x51",
+    "r": {
+     "x": 35,
+     "y": 0,
+     "w": 170,
+     "h": 51
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.venuelook.com/images/redcheck.png",
+    "alt": "redcheck",
+    "nat": "12x10",
+    "r": {
+     "x": 136,
+     "y": 205,
+     "w": 13,
+     "h": 13
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.venuelook.com/images/redcheck.png",
+    "alt": "redcheck",
+    "nat": "12x10",
+    "r": {
+     "x": 136,
+     "y": 230,
+     "w": 13,
+     "h": 13
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.venuelook.com/images/redcheck.png",
+    "alt": "redcheck",
+    "nat": "12x10",
+    "r": {
+     "x": 136,
+     "y": 255,
+     "w": 13,
+     "h": 13
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.venuelook.com/images/redcheck.png",
+    "alt": "redcheck",
+    "nat": "12x10",
+    "r": {
+     "x": 136,
+     "y": 280,
+     "w": 13,
+     "h": 13
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/work-1.png",
+    "alt": "redcheck",
+    "nat": "89x118",
+    "r": {
+     "x": 303,
+     "y": 868,
+     "w": 70,
+     "h": 70
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/work-2.png",
+    "alt": "redcheck",
+    "nat": "83x118",
+    "r": {
+     "x": 685,
+     "y": 868,
+     "w": 70,
+     "h": 70
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/work-3.png",
+    "alt": "redcheck",
+    "nat": "80x118",
+    "r": {
+     "x": 1067,
+     "y": 868,
+     "w": 70,
+     "h": 70
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/work-4.png",
+    "alt": "redcheck",
+    "nat": "118x118",
+    "r": {
+     "x": 303,
+     "y": 1200,
+     "w": 70,
+     "h": 70
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/work-5.png",
+    "alt": "redcheck",
+    "nat": "118x118",
+    "r": {
+     "x": 685,
+     "y": 1200,
+     "w": 70,
+     "h": 70
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/work-6.png",
+    "alt": "redcheck",
+    "nat": "122x118",
+    "r": {
+     "x": 1067,
+     "y": 1200,
+     "w": 70,
+     "h": 70
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/work-7.png",
+    "alt": "redcheck",
+    "nat": "118x118",
+    "r": {
+     "x": 685,
+     "y": 1532,
+     "w": 70,
+     "h": 70
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/venue.png",
+    "alt": "redcheck",
+    "nat": "446x298",
+    "r": {
+     "x": 736,
+     "y": 1858,
+     "w": 708,
+     "h": 340
+    },
+    "fit": "fill",
+    "radius": "0px 0px 0px 200px"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/planner.png",
+    "alt": "redcheck",
+    "nat": "446x296",
+    "r": {
+     "x": 0,
+     "y": 2206,
+     "w": 708,
+     "h": 340
+    },
+    "fit": "fill",
+    "radius": "0px 0px 200px"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": -2337,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": -1905,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": -1473,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": -1041,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": -609,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": -177,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": 255,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": 687,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": 1119,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": 1551,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": 1983,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": 2415,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": 2847,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": 3279,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": 3711,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": 4143,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": 4575,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://admin.venuelook.com//images/noimag-user-100x100.png",
+    "alt": "logo",
+    "nat": "100x100",
+    "r": {
+     "x": 5007,
+     "y": 2967,
+     "w": 70,
+     "h": 60
+    },
+    "fit": "fill",
+    "radius": "50%"
+   },
+   {
+    "src": "https://www.venuelook.com/images/lookingvenue.svg",
+    "alt": "logo",
+    "nat": "116x89",
+    "r": {
+     "x": 53,
+     "y": 4178,
+     "w": 100,
+     "h": 100
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.venuelook.com/images/Whatsaap.svg",
+    "alt": "star",
+    "nat": "150x150",
+    "r": {
+     "x": 1370,
+     "y": 630,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.venuelook.com/images/logo.svg",
+    "alt": "logo",
+    "nat": "0x0",
+    "r": {
+     "x": 732,
+     "y": 4627,
+     "w": 35,
+     "h": 35
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.venuelook.com/images/playstore.jpg",
+    "alt": "googleplay",
+    "nat": "0x0",
+    "r": {
+     "x": 732,
+     "y": 4766,
+     "w": 45,
+     "h": 42
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.venuelook.com/images/appstorelogo.png",
+    "alt": "googleplay",
+    "nat": "0x0",
+    "r": {
+     "x": 779,
+     "y": 4766,
+     "w": 45,
+     "h": 42
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.venuelook.com/images/facebook.png",
+    "alt": "logo",
+    "nat": "0x0",
+    "r": {
+     "x": 852,
+     "y": 4931,
+     "w": 29,
+     "h": 29
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.venuelook.com/images/instagram.png",
+    "alt": "logo",
+    "nat": "0x0",
+    "r": {
+     "x": 887,
+     "y": 4931,
+     "w": 29,
+     "h": 29
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.venuelook.com/images/twitter_latest.png",
+    "alt": "logo",
+    "nat": "0x0",
+    "r": {
+     "x": 922,
+     "y": 4931,
+     "w": 29,
+     "h": 29
+    },
+    "fit": "fill",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "redcheck",
+     "ratio": 2.082,
+     "r": {
+      "w": 708,
+      "h": 340
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListBusiness_listvenuevendorcol__KFBv9  col-md-6 col-sm-12",
+      "r": {
+       "x": 720,
+       "y": 1858,
+       "w": 732,
+       "h": 340
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ListBusiness_listvenuevendorrow__1uKQq ListBusiness_listvenuevendorrow2__Dtx0W  row",
+      "r": {
+       "x": -12,
+       "y": 1858,
+       "w": 1464,
+       "h": 340
+      },
+      "text": "Ready to list your venue? Get thousands of verified leads from all over India and abroad everyday, grow your business and expand your brand to new customers. List a Venue",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(248, 237, 237)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "ListBusiness_listvenuevendor__JxnYE my-2",
+      "r": {
+       "x": 0,
+       "y": 1858,
+       "w": 1440,
+       "h": 340
+      },
+      "text": "Ready to list your venue? Get thousands of verified leads from all over India and abroad everyday, grow your business and expand your brand to new customers. List a Venue",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "p-0  col-md-12",
+      "r": {
+       "x": 0,
+       "y": 51,
+       "w": 1440,
+       "h": 4285
+      },
+      "text": "Make More, Worry Less Get Thousands of verified business opportunities from all over India and abroad. Expand your brand digitally to acquire new customers everyday. Create Business Profile It's easy to create a business listing 24/7 support by phone and email",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "DIV",
+      "cls": "row",
+      "r": {
+       "x": 0,
+       "y": 51,
+       "w": 1440,
+       "h": 4531
+      },
+      "text": "Make More, Worry Less Get Thousands of verified business opportunities from all over India and abroad. Expand your brand digitally to acquire new customers everyday. Create Business Profile It's easy to create a business listing 24/7 support by phone and email",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "redcheck",
+     "ratio": 2.082,
+     "r": {
+      "w": 708,
+      "h": 340
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListBusiness_listvenuevendorcol__KFBv9  col-md-6 col-sm-12",
+      "r": {
+       "x": -12,
+       "y": 2206,
+       "w": 732,
+       "h": 340
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ListBusiness_listvenuevendorrow__1uKQq row",
+      "r": {
+       "x": -12,
+       "y": 2206,
+       "w": 1464,
+       "h": 340
+      },
+      "text": "Are you a vendor? Get thousands of verified leads from all over India and abroad everyday, grow your business and expand your brand to new customers.. List as a Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(248, 237, 237)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "ListBusiness_listvenuevendor__JxnYE my-2",
+      "r": {
+       "x": 0,
+       "y": 2206,
+       "w": 1440,
+       "h": 340
+      },
+      "text": "Are you a vendor? Get thousands of verified leads from all over India and abroad everyday, grow your business and expand your brand to new customers.. List as a Vendor",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "p-0  col-md-12",
+      "r": {
+       "x": 0,
+       "y": 51,
+       "w": 1440,
+       "h": 4285
+      },
+      "text": "Make More, Worry Less Get Thousands of verified business opportunities from all over India and abroad. Expand your brand digitally to acquire new customers everyday. Create Business Profile It's easy to create a business listing 24/7 support by phone and email",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "DIV",
+      "cls": "row",
+      "r": {
+       "x": 0,
+       "y": 51,
+       "w": 1440,
+       "h": 4531
+      },
+      "text": "Make More, Worry Less Get Thousands of verified business opportunities from all over India and abroad. Expand your brand digitally to acquire new customers everyday. Create Business Profile It's easy to create a business listing 24/7 support by phone and email",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "VENUES",
+   "VENDORS",
+   "E-INVITATIONS",
+   "BLOG",
+   "EVENT PLANNING",
+   "LIST YOUR BUSINESS",
+   "LIST YOUR BUSINESS",
+   "GET FREE QUOTES",
+   "Get Started",
+   "Get Started",
+   "List a Venue",
+   "List as a Vendor",
+   "Submit",
+   "What is VenueLook?",
+   "How do I get started with VenueLook?",
+   "sales@venuelook.com",
+   "How does the approval process work?",
+   "What are the charges for my online profile?",
+   "How is it FREE? Is there a catch or bluff?",
+   "Why is VenueLook better than other options?",
+   "Get Started",
+   "Delhi",
+   "Noida",
+   "Gurgaon",
+   "Mumbai",
+   "Bangalore",
+   "Ghaziabad",
+   "Greater Noida",
+   "Pune",
+   "Wedding venues in Delhi",
+   "Wedding Hotels in Delhi",
+   "Wedding Banquet halls in Delhi",
+   "Wedding Resorts in Delhi",
+   "Bachelor Party venues in Delhi",
+   "Kitty Party venues in Delhi",
+   "Pool Party venues in Delhi",
+   "Restaurants in Delhi",
+   "First Birthday Party venues in Delhi",
+   "Brand Promotion venues in Delhi",
+   "Family Function in Delhi",
+   "Bars and Pubs in Delhi",
+   "Sangeet Ceremony venues in Delhi",
+   "Ring Ceremony venues in Delhi",
+   "Children Party in Delhi",
+   "Party Halls in Delhi",
+   "All Event Vendors",
+   "Catering Services",
+   "Wedding Planning",
+   "Event Planning",
+   "Birthday Planning",
+   "Party Supplies",
+   "Real Events",
+   "Photos",
+   "Articles",
+   "Company Overview",
+   "Book Online",
+   "Why List With VenueLook",
+   "Terms & Conditions",
+   "Privacy Policy",
+   "Contact Us",
+   "Share Your Feedback",
+   "+91-8470804805",
+   "More about Venuelook",
+   "Subscribe",
+   "Home",
+   "About us",
+   "Contact Us",
+   "Find A Venue |",
+   "Vendor",
+   "List A Venue |",
+   "Vendor",
+   "Refer & Earn"
+  ],
+  "bodyText": "VENUES\nVENDORS\nE-INVITATIONS\nBLOG\nEVENT PLANNING\nLIST YOUR BUSINESS\n  \nGET FREE QUOTES\n   \nMake More, Worry Less\nGet Thousands of verified business opportunities from all over India and abroad. Expand your brand digitally to acquire new customers everyday.\nCreate Business Profile\n\nIt's easy to create a business listing\n\n24/7 support by phone and email\n\nSet your own event booking and cancellation terms\n\nManage your booking calendar\n\nCreate a partner account to get started now -\n\nGet Started\nHome / Why List With Us\n\n35,000+\n\nVenues\n\n15,000+\n\nVendors\n\n6.5 Lac+\n\nHappy Users\n\n90+\n\nCities\nWhy List With Us?\nAlluring Venue Profiles\n\nIncrease the visibility of each of your bookable spaces for various kinds of events\n\nGrow Business\n\nGet more cost-effective business opportunities digitally\n\nNew Customers\n\nAcquire New Customers who are looking for your kind of Venue\n\nEngage Customers\n\nEngage prospective customers in effectively for more Bookings\n\nQualified Leads\n\nGet Highly Qualified Leads perfectly matched for your Venue spaces\n\nMarketing & Branding\n\nBe where your customers are searching for you for best ROI.\n\nCommunicate\n\nListen & give best-suited proposals. Get genuine reviews from your customers.\n\nGet Started\nReady to list your venue?\n\nGet thousands of verified leads from all over India and abroad everyday, grow your business and expand your brand to new customers.\n\nList a Venue\nAre you a vendor?\n\nGet thousands of verified leads from all over India and abroad everyday, grow your business and expand your brand to new customers..\n\nList as a Vendor\nFor other Partnerships\nleave your email address for further communication\nSubmit\nCheck out what venues are saying...\nMr.Bhandari | Lemon Tree\n\nOur association with Venuelook.com has been extremely beneficial and rewarding to us. Venuelook has helped us promote our Venues and Events. The service offered is highly customised and engaging....\n\nMr.Jagat | Golden Tulip\n\nVenuelook.com has helped us the business we intend to achieve. We have multiple partners with us ranging from free lance event planners to event management companies. We get leads from all our...\n\nMr.Sunil | Ira By Orchid Hotels\n\nBanqueting and Catering Industry has become extremely competitive. Customer has multiple options to choose from and he takes his own sweet little time to make the decision. The scenario is very...\n\nMr. Ankur Bansal | Saffron Banquet By City Stay\n\nBought new tablet especially to work on VenueLook business. Story of believing, working with passion and growing from 1 to 100.\n\nMr. Sajith | Donut Factory\n\nVenueLook is one of the best and my favorite online platform for party bookings. It is a perfect marketing platform for standalone restaurants, hotels, banquets, etc. I have used them mainly for...\n\nMr. Ravi Ojha | Aloft Bengaluru Whitefield\n\nOverall, very happy with the service from VenueLook Team. Since onboarding, the team has been very helpful. We are associated with Venuleuk team since last 1 year and have earned revenue and received...\n\nMr.Bhandari | Lemon Tree\n\nOur association with Venuelook.com has been extremely beneficial and rewarding to us. Venuelook has helped us promote our Venues and Events. The service offered is highly customised and engaging....\n\nMr.Jagat | Golden Tulip\n\nVenuelook.com has helped us the business we intend to achieve. We have multiple partners with us ranging from free lance event planners to event management companies. We get leads from all our...\n\nMr.Sunil | Ira By Orchid Hotels\n\nBanqueting and Catering Industry has become extremely competitive. Customer has multiple options to choose from and he takes his own sweet little time to make the decision. The scenario is very...\n\nMr. Ankur Bansal | Saffron Banquet By City Stay\n\nBought new tablet especially to work on VenueLook business. Story of believing, working with passion and growing from 1 to 100.\n\nMr. Sajith | Donut Factory\n\nVenueLook is one of the best and my favorite online platform for party bookings. It is a perfect marketing platform for standalone restaurants, hotels, banquets, etc. I have used them mainly for...\n\nMr. Ravi Ojha | Aloft Bengaluru Whitefield\n\nOverall, very happy with the service from VenueLook Team. Since onboarding, the team has been very helpful. We are associated with Venuleuk team since last 1 year and have earned revenue and received...\n\nMr.Bhandari | Lemon Tree\n\nOur association with Venuelook.com has been extremely beneficial and rewarding to us. Venuelook has helped us promote our Venues and Events. The service offered is highly customised and engaging....\n\nMr.Jagat | Golden Tulip\n\nVenuelook.com has helped us the business we intend to achieve. We have multiple partners with us ranging from free lance event planners to event management companies. We get leads from all our...\n\nMr.Sunil | Ira By Orchid Hotels\n\nBanqueting and Catering Industry has become extremely competitive. Customer has multiple options to choose from and he takes his own sweet little time to make the decision. The scenario is very...\n\nMr. Ankur Bansal | Saffron Banquet By City Stay\n\nBought new tablet especially to work on VenueLook business. Story of believing, working with passion and growing from 1 to 100.\n\nMr. Sajith | Donut Factory\n\nVenueLook is one of the best and my favorite online platform for party bookings. It is a perfect marketing platform for standalone restaurants, hotels, banquets, etc. I have used them mainly for...\n\nMr. Ravi Ojha | Aloft Bengaluru Whitefield\n\nOverall, very happy with the service from VenueLook Team. Since onboarding, the team has been very helpful. We are associated with Venuleuk team since last 1 year and have earned revenue and received...\n\nVenues Talking About VenueLook\nFrequently Asked Questions\nWhat is VenueLook?\n\nVenueLook is an online-to-offline marketplace for event venue and vendor discovery and booking. As with any great team, VenueLook is a good mix of sharp, intelligent, focused, hard-working team. We're young, we're enthusiastic and yes, we love hunting down the coolest venues around.\n\nHow do I get started with VenueLook?\n\nYou can get started by registering your event venue/vendor business. Registration is completely Free and takes just 5-10 minutes. In order to register, click on the GET STARTED button on this page.\nYou can choose a premium package or list for free. In premium profiling, you will be assigned a Relationship Manager who you can chat with/talk to in case of any concern. If everything is okay, your profile would be approved within 24 hours & you would start getting customer enquiries on your mobile phone, email and on your web dashboard.\nIn case you need further information, reach out to us at sales@venuelook.com\n\nHow does the approval process work?\n\nClients come to VenueLook to choose venues and vendors whom they can trust with special occasions of their life. To ensure that, after you fill up your business details with us, we check the veracity of the information provided by you. In case of discrepancy or non availability of information, we would ask you to provide more information. After that, your profile will be made live on the platform.\n\nWhat are the charges for my online profile?\n\nBasic Listing of your business on VenueLook is Absolutely Free. For Premium listings, there are subscription packages you can choose from.\n\nHow is it FREE? Is there a catch or bluff?\n\nLet us assure you, there is no catch. Our aim is to create an ecosystem for Event planning which is trusted by all Stakeholders - Event Hosts and Service providers.\n\nIn which all categories can I create my VenueLook profile?\n\nYou can create profile in one or more of the following categories for wedding and non-wedding events:\n- Venue\n- Caterer\n- Photographer/Videographer\n- Makeup Artist\n- Decorator/Florist\n- Mehndi Artist\n- Wedding Invitation\n- Choreographer\n- DJ\n- Jeweller\n- Wedding Planner\n\nWe'll be adding more categories soon! :)\n\nI don’t have a website. Can I create my VenueLook profile?\n\nYes, you can do it. You don’t necessarily need a website. Your Facebook/Instagram page should be enough in establishing credibility with potential customers.\n\nI already have enough business. Why should I go online on VenueLook?\n\n70% of the clients in major cities go online to decide about at least one of their event services. Building a strong brand online, starting with VenueLook would ensure you don't miss out on your digital presence and attracting customers who are searching online.\n\nCan I get business from outside India on VenueLook?\n\n15-20% of our clients are from outside India. NRI’s who are planning their wedding in India can contact you directly via your profile on VenueLook.\n\nWhy is VenueLook better than other options?\n\nVenuelook gives you control & freedom to build & maintain your brand online. With all customer details that we provide & ever-evolving features, we ensure that only the best-matched, interested clients contact you. Our best-in-industry Tech ensures that you get high visibility in Google search re",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Make More, Worry Less",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "30px",
+      "fontWeight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "color": "rgb(236, 35, 30)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(236, 35, 30)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 8px"
+     },
+     "r": {
+      "x": 128,
+      "y": 51,
+      "w": 335,
+      "h": 36
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Why List With Us?",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "28px",
+      "fontWeight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(33, 37, 41)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 37, 41)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "16px 0px"
+     },
+     "r": {
+      "x": 597,
+      "y": 724,
+      "w": 246,
+      "h": 34
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "For other Partnerships",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "28px",
+      "fontWeight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 8px"
+     },
+     "r": {
+      "x": 80,
+      "y": 2619,
+      "w": 1280,
+      "h": 34
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Frequently Asked Questions",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "lineHeight": "28.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(33, 37, 41)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 37, 41)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px 12px",
+      "margin": "24px 0px"
+     },
+     "r": {
+      "x": 86,
+      "y": 3854,
+      "w": 1268,
+      "h": 29
+     }
+    }
+   ],
+   "card-meta": [
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "35,000+",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "23px",
+      "fontWeight": "900",
+      "lineHeight": "34.5px",
+      "letterSpacing": "normal",
+      "color": "rgb(33, 37, 41)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 37, 41)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 300,
+      "y": 523,
+      "w": 84,
+      "h": 35
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "15,000+",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "23px",
+      "fontWeight": "900",
+      "lineHeight": "34.5px",
+      "letterSpacing": "normal",
+      "color": "rgb(33, 37, 41)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 37, 41)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 552,
+      "y": 523,
+      "w": 84,
+      "h": 35
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "6.5 Lac+",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "23px",
+      "fontWeight": "900",
+      "lineHeight": "34.5px",
+      "letterSpacing": "normal",
+      "color": "rgb(33, 37, 41)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 37, 41)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 800,
+      "y": 523,
+      "w": 91,
+      "h": 35
+     }
+    }
+   ],
+   "filter-label": [],
+   "nav-link": [],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(33, 37, 41)",
+    "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

@@ -1,0 +1,42 @@
+/*
+ * Responsive listing grid — guide §1.5.
+ *
+ * `auto-fill` with a 280px floor gives 1 column below `xs`, 2 at `sm` and 3–4
+ * from `lg`, which is the density the browse task needs. The 20px gutter is
+ * deliberate: 16px makes four tiles read as one mass and 24px wastes a whole
+ * tile column at 1280px.
+ *
+ * The grid gap is written as a literal 20px rather than `--app-grid-gap`
+ * because the dense context re-values that token down to 16px, and the listing
+ * grid's gutter is specified at 20px in the guide.
+ */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: rem(12px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @mixin larger-than $mantine-breakpoint-xs {
+    grid-template-columns: repeat(auto-fill, minmax(min(rem(280px), 100%), 1fr));
+    gap: rem(20px);
+  }
+
+  @mixin larger-than $mantine-breakpoint-md {
+    gap: rem(20px);
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: rem(12px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @mixin larger-than $mantine-breakpoint-md {
+    gap: rem(16px);
+  }
+}

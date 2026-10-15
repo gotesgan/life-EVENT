@@ -1,0 +1,379 @@
+URL_REQUESTED https://web.archive.org/web/20251005215616/https://www.peerspace.com/
+STATUS 200
+FINAL_URL https://web.archive.org/web/20251005215616/https://www.peerspace.com/
+TITLE Peerspace | Unique venues for events, meetings, photo &amp; film shoots
+SCREENSHOT docs/research/shots/peerspace_wb_home-desktop.png
+RAW docs/research/raw/peerspace_wb_home-desktop.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(18, 18, 18)","fontFamily":"__ABCSocialRegular_d682e4, __ABCSocialRegular_Fallback_d682e4, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 645x192 "Find a space. Fulfill your vision."
+  H2 640x128 "A space for every moment"
+  H3 640x24 "Book a unique space for your activity"
+  H1 1440x160 "Made in"
+  H1 1440x160 "Peerspace"
+  H1 528x128 "Your something starts somewhere"
+  H2 1200x160 "Why"
+  H2 1088x160 "Peerspace"
+  H3 478x96 "New and never-ending possibilities"
+  H1 524x288 "Where extraordinary begins"
+  H2 1312x64 "If walls could talk"
+  H3 288x78 "Earn Extra Cash as a Peerspace Ambassador"
+  H3 288x78 "The new Peerspace: Where extraordinary begins"
+  H3 288x78 "Shea Couleé x Peerspace: Go behind the scenes"
+  H3 288x78 "Caelynn Miller-Keyes’ engagement party"
+  H3 288x78 "Big Boi &amp; Sleepy Brown launch Big Sleepover album with Peerspace"
+  H3 288x78 "Host Spotlight: Sally F."
+  H3 288x78 "Here’s everything you need on your pre-production checklist"
+  H3 288x78 "How and where to rent an office for a day"
+  H3 288x78 "9 team offsite ideas to engage employees"
+  H3 288x78 "10 fabulous murder mystery party ideas"
+  H3 288x78 "How to rent your home for movies"
+  H3 288x78 "12 simple photoshoot ideas"
+  H2 670x128 "New places, new possibilities in the US"
+  H2 528x128 "Earn income as a Peerspace host"
+  H2 528x104 "Put your space to work. Earn extra income by opening your doors to personal and professional gatherings in your area."
+--- HEADER {"position":"sticky","top":"0px","height":"72px","backgroundColor":"rgba(0, 0, 0, 0)","borderBottom":"0px solid rgb(18, 18, 18)","boxShadow":"none","zIndex":"1020"} 1440x72
+--- HEADER_TEXT Browse Spaces List Your Space (current) Log In Sign Up
+--- HEADER_LINKS List Your Space (current) | Log In | Sign Up
+--- NAV_ALL List Your Space (current) | Log In | Sign Up | About | Press | Careers | Activities | Locations | Resources | Ambassador Program | List your space | Community | Deutschland | United Kingdom | United States | Canada | Australia | España | France | Help Center | Trust and Safety | Terms | Privacy | California Privacy | App Store | Google Play Store
+--- SEARCH_INPUTS
+--- FILTER_CONTAINERS
+--- CARDS
+  [0] imgRatio=1.629 896x550 alt="Peerspace Open Door Awards 2025"
+     d0 DIV "" 864x0 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "col-xs-6 col-md-7 col-lg-8" 896x550 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "DesktopAwardsSection_awards_section_wrap__4Baes ps-row h-100" 1344x600 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"30px 0px 20px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Announcing the 2025 Discover the best in space rentals"
+     d3 SECTION "DesktopAwardsSection_oda_2024__UetXd oda_2024  position-relative ps-container-md-margin" 1440x600 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgb(52, 26, 74)","padding":"0px 48px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Announcing the 2025 Discover the best in space rentals"
+     d4 DIV "position-relative" 1440x8211 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Announcing the 2025 Discover the best in space rentals A space for every moment Book a unique space for your activity Photo shoot Meeting Birthday party Video shoot Baby shower Workshop Wedding reception Live music Part
+  [1] imgRatio=0.947 568x600 alt="Birthday Party"
+     d0 DIV "LabeledImage_img_wrap__XPtf4 position-relative" 568x600 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "LabeledImage_labeled_img_wrap__7bACS d-flex" 592x600 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Birthday Party HOUSTON TX, US"
+     d2 DIV "position-absolute" 592x600 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Birthday Party HOUSTON TX, US"
+     d3 DIV "" 592x0 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Birthday Party HOUSTON TX, US"
+     d4 DIV "DesktopActivitiesSection_img_content_wrap__9aoDn position-relative" 592x600 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Birthday Party HOUSTON TX, US"
+  [2] imgRatio=0.667 320x480 alt=""
+     d0 DIV "AnimatedMockSlider_img_wrap_inner__p57MI position-relative" 320x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "" 0x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "AnimatedMockSlider_mock_slider_slide__KL7fi position-relative" 0x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "AnimatedMockSlider_mock_slider_track__poELk position-relative" 520x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d4 DIV "AnimatedMockSlider_mock_slider_wrap__6_fyb d-flex align-items-center justify-content-cent 1440x0 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+  [3] imgRatio=0.667 320x480 alt=""
+     d0 DIV "AnimatedMockSlider_img_wrap_inner__p57MI position-relative" 320x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "" 0x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "AnimatedMockSlider_mock_slider_slide__KL7fi position-relative" 0x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "AnimatedMockSlider_mock_slider_track__poELk position-relative" 520x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d4 DIV "AnimatedMockSlider_mock_slider_wrap__6_fyb d-flex align-items-center justify-content-cent 1440x0 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+  [4] imgRatio=0.667 320x480 alt=""
+     d0 DIV "AnimatedMockSlider_img_wrap_inner__p57MI position-relative" 320x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "" 320x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "AnimatedMockSlider_mock_slider_slide__KL7fi position-relative" 320x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "AnimatedMockSlider_mock_slider_track__poELk position-relative" 520x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d4 DIV "AnimatedMockSlider_mock_slider_wrap__6_fyb d-flex align-items-center justify-content-cent 1440x0 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+  [5] imgRatio=0.667 320x480 alt=""
+     d0 DIV "AnimatedMockSlider_img_wrap_inner__p57MI position-relative" 320x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "" 0x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "AnimatedMockSlider_mock_slider_slide__KL7fi position-relative" 0x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "AnimatedMockSlider_mock_slider_track__poELk position-relative" 520x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d4 DIV "AnimatedMockSlider_mock_slider_wrap__6_fyb d-flex align-items-center justify-content-cent 1440x0 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+  [6] imgRatio=0.667 320x480 alt=""
+     d0 DIV "AnimatedMockSlider_img_wrap_inner__p57MI position-relative" 320x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "" 0x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "AnimatedMockSlider_mock_slider_slide__KL7fi position-relative" 0x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "AnimatedMockSlider_mock_slider_track__poELk position-relative" 520x480 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d4 DIV "AnimatedMockSlider_mock_slider_wrap__6_fyb d-flex align-items-center justify-content-cent 1440x0 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+  [7] imgRatio=0.854 584x684 alt="Bright and spacious apartment "
+     d0 DIV "LabeledImage_img_wrap__XPtf4 position-relative" 584x684 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "LabeledImage_labeled_img_wrap__7bACS d-flex" 608x684 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Bright and spacious apartment PARIS, FR"
+     d2 DIV "position-absolute" 608x684 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Bright and spacious apartment PARIS, FR"
+     d3 DIV "" 608x0 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Bright and spacious apartment PARIS, FR"
+     d4 DIV "DesktopCitiesSection_img_content_wrap__bCDUB position-relative w-100" 608x684 {"borderRadius":"0px","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Bright and spacious apartment PARIS, FR"
+  [8] imgRatio=1.333 640x480 alt="New and never-ending possibilities"
+     d0 DIV "LabeledImage_img_wrap__XPtf4 position-relative" 640x480 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "LabeledImage_labeled_img_wrap__7bACS d-flex" 640x480 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "position-absolute" 640x480 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "" 640x0 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "w-100 DesktopWhyPeerspaceSection_carousel_inner_body__194k4" 640x480 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [9] imgRatio=1.167 400x343 alt="Earn Extra Cash as a Peerspace Ambassador"
+     d0 DIV "DesktopBlogSection_carousel_image__Px9uI" 400x240 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "DesktopBlogSection_carousel_slide__iIlAF" 400x340 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="ANNOUNCEMENTS Earn Extra Cash as a Peerspace Ambassador"
+     d2 A "cursor-pointer" 444x340 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="ANNOUNCEMENTS Earn Extra Cash as a Peerspace Ambassador"
+     d3 DIV "" 444x340 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="ANNOUNCEMENTS Earn Extra Cash as a Peerspace Ambassador"
+     d4 DIV "slick-slide slick-active slick-current" 444x340 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="ANNOUNCEMENTS Earn Extra Cash as a Peerspace Ambassador"
+  [10] imgRatio=1.167 400x343 alt="The new Peerspace: Where extraordinary begins"
+     d0 DIV "DesktopBlogSection_carousel_image__Px9uI" 400x240 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "DesktopBlogSection_carousel_slide__iIlAF" 400x340 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="ANNOUNCEMENTS The new Peerspace: Where extraordinary begins"
+     d2 A "cursor-pointer" 444x340 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="ANNOUNCEMENTS The new Peerspace: Where extraordinary begins"
+     d3 DIV "" 444x340 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="ANNOUNCEMENTS The new Peerspace: Where extraordinary begins"
+     d4 DIV "slick-slide slick-active" 444x340 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="ANNOUNCEMENTS The new Peerspace: Where extraordinary begins"
+  [11] imgRatio=1.167 400x343 alt="Shea Couleé x Peerspace: Go behind the scenes"
+     d0 DIV "DesktopBlogSection_carousel_image__Px9uI" 400x240 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "DesktopBlogSection_carousel_slide__iIlAF" 400x340 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PARTNERSHIPS Shea Couleé x Peerspace: Go behind the scenes"
+     d2 A "cursor-pointer" 444x340 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="PARTNERSHIPS Shea Couleé x Peerspace: Go behind the scenes"
+     d3 DIV "" 444x340 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PARTNERSHIPS Shea Couleé x Peerspace: Go behind the scenes"
+     d4 DIV "slick-slide slick-active" 444x340 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PARTNERSHIPS Shea Couleé x Peerspace: Go behind the scenes"
+  [12] imgRatio=1.167 400x343 alt="Caelynn Miller-Keyes’ engagement party"
+     d0 DIV "DesktopBlogSection_carousel_image__Px9uI" 400x240 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "DesktopBlogSection_carousel_slide__iIlAF" 400x340 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PARTNERSHIPS Caelynn Miller-Keyes’ engagement party"
+     d2 A "cursor-pointer" 444x340 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="PARTNERSHIPS Caelynn Miller-Keyes’ engagement party"
+     d3 DIV "" 444x340 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PARTNERSHIPS Caelynn Miller-Keyes’ engagement party"
+     d4 DIV "slick-slide slick-active" 444x340 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PARTNERSHIPS Caelynn Miller-Keyes’ engagement party"
+  [13] imgRatio=1.167 400x343 alt="10 fabulous murder mystery party ideas"
+     d0 DIV "DesktopBlogSection_carousel_image__Px9uI" 400x240 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "DesktopBlogSection_carousel_slide__iIlAF" 400x340 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="EVENTS 10 fabulous murder mystery party ideas"
+     d2 A "cursor-pointer" 444x340 {"borderRadius":"0px","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="EVENTS 10 fabulous murder mystery party ideas"
+     d3 DIV "" 444x340 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="EVENTS 10 fabulous murder mystery party ideas"
+     d4 DIV "slick-slide" 444x340 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="EVENTS 10 fabulous murder mystery party ideas"
+--- IMAGES
+  20x20 nat=20x20 fit=fill radius=0px alt=""
+  1440x700 nat=1440x800 fit=cover radius=2px alt="Couples photo shoot in bright photo studio location with white backdrop"
+  1440x700 nat=1440x800 fit=cover radius=2px alt="Meeting in a bohemian loft space"
+  896x550 nat=1440x999 fit=contain radius=0px alt="Peerspace Open Door Awards 2025"
+  568x600 nat=1440x1459 fit=cover radius=2px alt="Birthday Party"
+  320x480 nat=320x480 fit=cover radius=2px alt=""
+  320x480 nat=320x480 fit=cover radius=2px alt=""
+  320x480 nat=320x480 fit=cover radius=2px alt=""
+  320x480 nat=320x480 fit=cover radius=2px alt=""
+  320x480 nat=320x480 fit=cover radius=2px alt=""
+  584x684 nat=0x0 fit=cover radius=2px alt="Bright and spacious apartment "
+  640x480 nat=0x0 fit=cover radius=2px alt="New and never-ending possibilities"
+  1440x900 nat=0x0 fit=cover radius=0px alt="Where extraordinary begins"
+  400x343 nat=0x0 fit=contain radius=0px alt="Earn Extra Cash as a Peerspace Ambassador"
+  400x343 nat=0x0 fit=contain radius=0px alt="The new Peerspace: Where extraordinary begins"
+  400x343 nat=0x0 fit=contain radius=0px alt="Shea Couleé x Peerspace: Go behind the scenes"
+  400x343 nat=0x0 fit=contain radius=0px alt="Caelynn Miller-Keyes’ engagement party"
+  400x343 nat=0x0 fit=contain radius=0px alt="10 fabulous murder mystery party ideas"
+--- TYPE_ROLES
+  h1 "Find a space. Fulfill your vision." {"fontFamily":"__ABCSocialBold_2b51a8, __ABCSocialBold_Fallback_2b51a8, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"88px","fontWeight":"400","lineHeight":"96px","letterSpacing":"-1.76px","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 32px"}
+  h1 "Made in" {"fontFamily":"__ABCSocialBold_2b51a8, __ABCSocialBold_Fallback_2b51a8, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"160px","fontWeight":"400","lineHeight":"160px","letterSpacing":"-4.8px","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  h1 "Peerspace" {"fontFamily":"__ABCSocialBold_2b51a8, __ABCSocialBold_Fallback_2b51a8, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"160px","fontWeight":"400","lineHeight":"160px","letterSpacing":"-4.8px","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "A space for every moment" {"fontFamily":"__ABCSocialMedium_4ea368, __ABCSocialMedium_Fallback_4ea368, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"56px","fontWeight":"400","lineHeight":"64px","letterSpacing":"-1.12px","color":"rgb(18, 18, 18)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 16px"}
+  card-title "Book a unique space for your activity" {"fontFamily":"__ABCSocialMedium_4ea368, __ABCSocialMedium_Fallback_4ea368, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"18px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(18, 18, 18)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 16px"}
+  card-title "Why" {"fontFamily":"__ABCSocialBold_2b51a8, __ABCSocialBold_Fallback_2b51a8, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"160px","fontWeight":"400","lineHeight":"160px","letterSpacing":"-4.8px","color":"rgb(18, 18, 18)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  filter-label "What are you planning?" {"fontFamily":"__ABCSocialMedium_4ea368, __ABCSocialMedium_Fallback_4ea368, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"12px","fontWeight":"400","lineHeight":"16px","letterSpacing":"normal","color":"rgb(106, 110, 122)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  filter-label "Where?" {"fontFamily":"__ABCSocialMedium_4ea368, __ABCSocialMedium_Fallback_4ea368, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"12px","fontWeight":"400","lineHeight":"16px","letterSpacing":"normal","color":"rgb(106, 110, 122)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  filter-label "When?" {"fontFamily":"__ABCSocialMedium_4ea368, __ABCSocialMedium_Fallback_4ea368, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"12px","fontWeight":"400","lineHeight":"16px","letterSpacing":"normal","color":"rgb(106, 110, 122)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(106, 110, 122)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+--- HOVER {"before":{"text":"","r":{"x":48,"y":1069,"w":896,"h":550},"style":{"transform":"none","boxShadow":"none","border":"0px solid rgb(18, 18, 18)","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","cursor":"auto","translate":"none","scale":"none"}},"after":{"r":{"w":896,"h":550},"style":{"transform":"none","boxShadow":"none","border":"0px solid rgb(18, 18, 18)","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+Browse Spaces
+List Your Space
+(current)
+Log In
+Sign Up
+
+Meeting — Splendid loft
+PARIS, FR
+
+What are you planning?
+Enter your activity
+Where?
+San Francisco, CA, US
+When?
+Anytime
+Search
+Find a space.
+Fulfill your vision.
+Announcing the 2025
+
+Discover the best in space rentals
+
+A space for
+every moment
+Book a unique space for your activity
+Photo shoot
+Meeting
+Birthday party
+Video shoot
+Baby shower
+Workshop
+Wedding reception
+Live music
+
+Party
+Music video
+Bridal shower
+Event
+Engagement party
+Corporate event
+Graduation party
+Pop-up
+Gala
+
+Film shoot
+Browse all activities
+Birthday Party
+HOUSTON TX, US
+Made in
+Peerspace
+
+Made in
+Peerspace
+
+Discover the possibilities
+Your something
+starts somewhere
+London
+UK
+Vancouver
+CA
+Paris
+FR
+Sydney
+AU
+New York
+US
+Los Angeles
+US
+Berlin
+DE
+Barcelona
+ES
+View all cities
+Bright and spacious apartment
+PARIS, FR
+Why
+Peerspace
+New and never-ending possibilities
+
+Find everything from professionally equipped studios to unconventional rooms and residences.
+
+01 / 03
+
+Where
+extraordinary
+begins
+Find your space
+
+PEERSPACE BLOG
+
+If walls could talk
+View all articles
+
+ANNOUNCEMENTS
+
+Earn Extra Cash as a Peerspace Ambassador
+
+ANNOUNCEMENTS
+
+The new Peerspace: Where extraordinary begins
+
+PARTNERSHIPS
+
+Shea Couleé x Peerspace: Go behind the scenes
+
+PARTNERSHIPS
+
+Caelynn Miller-Keyes’ engagement party
+
+PARTNERSHIPS
+
+Big Boi &amp; Sleepy Brown launch Big Sleepover album with Peerspace
+
+HOSTS
+
+Host Spotlight: Sally F.
+
+PRODUCTION
+
+Here’s everything you need on your pre-production checklist
+
+MEETINGS
+
+How and where to rent an office for a day
+
+MEETINGS
+
+9 team offsite ideas to engage employees
+
+EVENTS
+
+10 fabulous murder mystery party ideas
+
+HOSTING
+
+How to rent your home for movies
+
+PRODUCTIONS
+
+12 simple photoshoot ideas
+New places, new possibilities in the US
+Photo Studios
+Events
+Parties
+Conference Rooms
+Dance Studios
+Corporate Events
+Rooftops
+Recording Studios
+Film Studios
+Dallas photo studios
+TEXAS, US
+Chicago photo studios
+ILLINOIS, US
+Atlanta photo studios
+GEORGIA, US
+San Francisco photo studios
+CALIFORNIA, US
+Boston photo studios
+MASSACHUSETTS, US
+Brooklyn photo studios
+NEW YORK, US
+Los Angeles photo studios
+CALIFORNIA, US
+Nashville photo studios
+TENNESSEE, US
+Houston photo studios
+TEXAS, US
+Find photo studios near me
+Earn income as a
+Peerspace host
+Put your space to work.
+
+Earn extra income by opening your doors to personal and professional gatherings in your area.
+List your space
+
+Company
+
+About
+Press
+Careers
+
+Explore
+
+Activities
+Locations
+Resources
+Ambassador Program
+
+Host
+
+List your space
+Community
+
+Countries
+
+Deutschland
+United Kingdom
+United States
+Canada
+Australia
+España
+France
+
+Support
+
+Help Center
+Trust and Safety
+Terms
+Privacy
+California Privacy
+
+Download
+
+App Store
+Google Play Store
+
+© Peerspace
+
+English (US)
+•
+Your privacy choices

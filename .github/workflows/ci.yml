@@ -1,0 +1,109 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: Format, lint, typecheck, unit and component tests
+    runs-on: ubuntu-latest
+    env:
+      # The Prisma CLI reads `datasource.url` from prisma.config.ts, which falls
+      # back to DATABASE_URL. `prisma generate` does not connect, so a local
+      # placeholder keeps the config resolvable without a database.
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/liveenvt
+      DIRECT_URL: postgresql://postgres:postgres@localhost:5432/liveenvt
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up pnpm (pinned to package.json packageManager)
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.0.0
+
+      - name: Set up Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate the Prisma client
+        run: pnpm db:generate
+
+      - name: Check formatting
+        run: pnpm format:check
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Type check
+        run: pnpm typecheck
+
+      - name: Unit and component tests
+        run: pnpm exec vitest run --project unit --project component
+
+  integration:
+    name: Integration and API tests (PostgreSQL 16)
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: liveenvt_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d liveenvt_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 20
+    env:
+      # `TEST_DATABASE_URL` is the database the suite migrates, seeds and
+      # truncates. It must differ from DATABASE_URL or the harness refuses to
+      # run; DATABASE_URL is never connected to by this job.
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/liveenvt
+      DIRECT_URL: postgresql://postgres:postgres@localhost:5432/liveenvt_test
+      TEST_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/liveenvt_test
+      # CI-only placeholder. `getServerEnv()` requires a value of at least 16
+      # characters; no real credential is used or needed by the test suite.
+      BETTER_AUTH_SECRET: ci-test-secret-not-used-in-production
+      NODE_ENV: test
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up pnpm (pinned to package.json packageManager)
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.0.0
+
+      - name: Set up Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate the Prisma client
+        run: pnpm db:generate
+
+      - name: Apply migrations to the test database
+        run: pnpm db:deploy
+
+      - name: Integration and API tests
+        run: pnpm test:integration

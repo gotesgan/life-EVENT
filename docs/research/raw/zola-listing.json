@@ -1,0 +1,3131 @@
+{
+ "slug": "zola",
+ "mode": "listing",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "",
+   "r": {
+    "x": 380,
+    "y": 422,
+    "w": 332,
+    "h": 222
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(14, 14, 14)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "pointer",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 332,
+    "h": 222
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(74, 74, 74)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://www.zola.com/wedding-vendors/search/wedding-venues",
+  "title": "The Best 10 Wedding Venues - Zola",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 11885,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "The Best Wedding Venues",
+    "x": 40,
+    "y": 244,
+    "w": 486,
+    "h": 32
+   },
+   {
+    "tag": "H2",
+    "text": "Get Expert Vendor Advice",
+    "x": 40,
+    "y": 10404,
+    "w": 338,
+    "h": 40
+   },
+   {
+    "tag": "H2",
+    "text": "About wedding venues",
+    "x": 40,
+    "y": 10911,
+    "w": 1360,
+    "h": 32
+   },
+   {
+    "tag": "H3",
+    "text": "How much do wedding & reception venues cost?",
+    "x": 40,
+    "y": 10983,
+    "w": 1360,
+    "h": 24
+   },
+   {
+    "tag": "H3",
+    "text": "What questions should we ask wedding venues?",
+    "x": 40,
+    "y": 11183,
+    "w": 1360,
+    "h": 24
+   }
+  ],
+  "header": {
+   "tag": "HEADER",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 189
+   },
+   "style": {
+    "position": "relative",
+    "top": "0px",
+    "height": "189px",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderBottom": "1px solid rgb(183, 183, 183)",
+    "boxShadow": "none",
+    "zIndex": "auto"
+   },
+   "text": "Sale 40% off* invites & paper through 10/19 with code SPOOKY40 Terms Explore designs Zola Baby (opens in a new tab) Zola Home (opens in a new tab) Zola for vendors (opens in a new tab) Plan your wedding Expert advice Find a couple Log in Get started Wedding venues Vendors Destination weddings Become a vendor",
+   "links": [
+    {
+     "t": "Sale 40% off* invites & paper through 10/19 with code SPOOKY",
+     "tag": "A",
+     "href": "https://www.zola.com/wedding-planning/paper?utm_medium=website&utm_source=top_nav&utm_campaign=2026_October_Paper_Promo",
+     "r": {
+      "x": 40,
+      "y": 18,
+      "w": 597,
+      "h": 20
+     }
+    },
+    {
+     "t": "Terms",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 480,
+      "y": 21,
+      "w": 32,
+      "h": 14
+     }
+    },
+    {
+     "t": "Zola Baby (opens in a new tab)",
+     "tag": "A",
+     "href": "https://baby.zola.com",
+     "r": {
+      "x": 1171,
+      "y": 20,
+      "w": 53,
+      "h": 14
+     }
+    },
+    {
+     "t": "Zola Home (opens in a new tab)",
+     "tag": "A",
+     "href": "https://homestore.zola.com",
+     "r": {
+      "x": 1240,
+      "y": 20,
+      "w": 58,
+      "h": 14
+     }
+    },
+    {
+     "t": "Zola for vendors (opens in a new tab)",
+     "tag": "A",
+     "href": "/for-vendors",
+     "r": {
+      "x": 1314,
+      "y": 20,
+      "w": 86,
+      "h": 14
+     }
+    },
+    {
+     "t": "Plan your wedding",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 40,
+      "y": 84,
+      "w": 138,
+      "h": 20
+     }
+    },
+    {
+     "t": "Expert advice",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 210,
+      "y": 84,
+      "w": 108,
+      "h": 20
+     }
+    },
+    {
+     "t": "Find a couple",
+     "tag": "A",
+     "href": "/search/wedding-registry",
+     "r": {
+      "x": 351,
+      "y": 86,
+      "w": 86,
+      "h": 16
+     }
+    },
+    {
+     "t": "Search",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 1116,
+      "y": 72,
+      "w": 44,
+      "h": 44
+     }
+    },
+    {
+     "t": "Shopping cart",
+     "tag": "A",
+     "href": "/cart",
+     "r": {
+      "x": 1160,
+      "y": 72,
+      "w": 44,
+      "h": 44
+     }
+    },
+    {
+     "t": "Log in",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 1212,
+      "y": 72,
+      "w": 73,
+      "h": 44
+     }
+    },
+    {
+     "t": "Get started",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 1293,
+      "y": 72,
+      "w": 107,
+      "h": 44
+     }
+    },
+    {
+     "t": "Wedding venues",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 452,
+      "y": 149,
+      "w": 120,
+      "h": 23
+     }
+    },
+    {
+     "t": "Vendors",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 604,
+      "y": 149,
+      "w": 64,
+      "h": 23
+     }
+    },
+    {
+     "t": "Destination weddings",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 700,
+      "y": 149,
+      "w": 147,
+      "h": 23
+     }
+    },
+    {
+     "t": "Become a vendor",
+     "tag": "A",
+     "href": "https://www.zola.com/for-vendors/",
+     "r": {
+      "x": 879,
+      "y": 150,
+      "w": 108,
+      "h": 20
+     }
+    }
+   ]
+  },
+  "navAll": [
+   "Plan your wedding",
+   "Expert advice",
+   "Find a couple",
+   "Wedding Vendors",
+   "Wedding and reception venues",
+   "Our story",
+   "Become a Zola vendor",
+   "Reviews",
+   "Zola Baby",
+   "Careers",
+   "Press",
+   "Expert advice",
+   "FAQs",
+   "Track order",
+   "Start a return",
+   "Return policy",
+   "Contact us",
+   "Team Z advisors",
+   "Log in",
+   "Find a couple",
+   "Find a baby registry",
+   "Get started",
+   "Privacy",
+   "Terms",
+   "Your privacy choices",
+   "Web accessibility"
+  ],
+  "searchInputs": [
+   {
+    "tag": "DIV",
+    "type": null,
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 1021,
+     "y": 244,
+     "w": 291,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Location",
+    "aria": "Search by location",
+    "name": null,
+    "r": {
+     "x": 1053,
+     "y": 257,
+     "w": 222,
+     "h": 18
+    }
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 721,
+     "y": 244,
+     "w": 291,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Vendor type",
+    "aria": "Search by vendor type",
+    "name": null,
+    "r": {
+     "x": 767,
+     "y": 257,
+     "w": 209,
+     "h": 18
+    }
+   }
+  ],
+  "filterContainers": [
+   {
+    "tag": "DIV",
+    "cls": "desktopFilters__YmY3Nzgx",
+    "r": {
+     "x": 40,
+     "y": 333,
+     "w": 300,
+     "h": 10030
+    },
+    "text": "Price Availability Capacity Indoor/outdoor Venue type Included Award winners Amenities Event types",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Price"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Availability"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Capacity"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Indoor/outdoor"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Venue type"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Included"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Award winners"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Amenities"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Event types"
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "src": "https://images.zola.com/21bf108c-3cf1-4703-92cc-59976cdd2a2f?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 380,
+     "y": 422,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/d9b2c100-c2e0-44c8-9c51-003d0894f630?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 712,
+     "y": 422,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/cb0eb73c-c471-4a98-8cd2-7729dba99071?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 1044,
+     "y": 422,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/96e2c367-c622-44a2-bdca-30f5198bb185?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 1376,
+     "y": 422,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/b0f51f18-1b57-47cb-8161-30359fe65870?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 1708,
+     "y": 422,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vmassets/_next/static/media/best_of_zola.bb22ffb7.png",
+    "alt": "Awarded Best of Zola",
+    "nat": "320x320",
+    "r": {
+     "x": 1344,
+     "y": 516,
+     "w": 56,
+     "h": 56
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/79614bb7-7a71-4a15-8c9c-80d2558225a8?w=160&h=120&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x1080",
+    "r": {
+     "x": 1304,
+     "y": 632,
+     "w": 80,
+     "h": 60
+    },
+    "fit": "cover",
+    "radius": "8px"
+   },
+   {
+    "src": "https://images.zola.com/81f101ca-8387-4d6e-9973-2327fb2caa9b?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 380,
+     "y": 749,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/9952f0eb-8cc5-4b49-a65a-7bd77fe52259?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 712,
+     "y": 749,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/1015e0e2-2f58-4024-80bd-6f709e431eee?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 1044,
+     "y": 749,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/9d7aa936-62d7-4e7b-8bc0-abe168465324?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 1376,
+     "y": 749,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/7327f4ee-ce64-4bb5-b9bf-0dca4ca831bf?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 1708,
+     "y": 749,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vmassets/_next/static/media/best_of_zola.bb22ffb7.png",
+    "alt": "Awarded Best of Zola",
+    "nat": "320x320",
+    "r": {
+     "x": 1344,
+     "y": 843,
+     "w": 56,
+     "h": 56
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/99f15ad1-52e8-4c89-9993-1f1ee9a8faf3?w=160&h=120&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x1080",
+    "r": {
+     "x": 1304,
+     "y": 959,
+     "w": 80,
+     "h": 60
+    },
+    "fit": "cover",
+    "radius": "8px"
+   },
+   {
+    "src": "https://images.zola.com/ee13af52-6440-4ee2-b0bd-7cb855c3b7b7?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 380,
+     "y": 1076,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/9abffad4-bda7-412e-bdea-8d9c6f1266a7?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 712,
+     "y": 1076,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/07d6d2af-7d59-4f31-a461-60ba9b520ad6?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 1044,
+     "y": 1076,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vmassets/_next/static/media/best_of_zola.bb22ffb7.png",
+    "alt": "Awarded Best of Zola",
+    "nat": "320x320",
+    "r": {
+     "x": 1344,
+     "y": 1170,
+     "w": 56,
+     "h": 56
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/0057094c-9460-44ca-9388-3f0461cc8c13?w=160&h=120&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x1080",
+    "r": {
+     "x": 1304,
+     "y": 1286,
+     "w": 80,
+     "h": 60
+    },
+    "fit": "cover",
+    "radius": "8px"
+   },
+   {
+    "src": "https://images.zola.com/726eb43d-9ebb-4ab3-9c19-0c80f510636e?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 380,
+     "y": 1403,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/c4903fd1-0a62-4adc-85e2-bd10d2911f74?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 712,
+     "y": 1403,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/3a2cf879-d149-4c91-9a3c-5308b6ae6d89?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 1044,
+     "y": 1403,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vmassets/_next/static/media/best_of_zola.bb22ffb7.png",
+    "alt": "Awarded Best of Zola",
+    "nat": "320x320",
+    "r": {
+     "x": 1344,
+     "y": 1497,
+     "w": 56,
+     "h": 56
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/8473dd09-5618-423d-a17e-157763b30ee0?w=160&h=120&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x1080",
+    "r": {
+     "x": 1304,
+     "y": 1613,
+     "w": 80,
+     "h": 60
+    },
+    "fit": "cover",
+    "radius": "8px"
+   },
+   {
+    "src": "https://images.zola.com/95db7a61-f86a-408a-ba0e-7e853c2f0448?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 380,
+     "y": 1730,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/7e308ecf-8b11-40ce-9993-9f3a83883b8c?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 712,
+     "y": 1730,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/639c5a59-8aff-4072-9548-e0d91596697e?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 1044,
+     "y": 1730,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vmassets/_next/static/media/best_of_zola.bb22ffb7.png",
+    "alt": "Awarded Best of Zola",
+    "nat": "320x320",
+    "r": {
+     "x": 1344,
+     "y": 1824,
+     "w": 56,
+     "h": 56
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/efa53da0-541a-4fe3-b35e-9fcf42d83275?w=160&h=120&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x1080",
+    "r": {
+     "x": 1304,
+     "y": 1940,
+     "w": 80,
+     "h": 60
+    },
+    "fit": "cover",
+    "radius": "8px"
+   },
+   {
+    "src": "https://images.zola.com/20d63d63-3628-4fe0-ac94-e86d8502bac6?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 380,
+     "y": 2057,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/b2b3f3b0-49d4-46dc-8022-6ab402412f38?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 712,
+     "y": 2057,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/05fb167c-e9af-471a-a577-628184ac6c6f?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 1044,
+     "y": 2057,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vmassets/_next/static/media/best_of_zola.bb22ffb7.png",
+    "alt": "Awarded Best of Zola",
+    "nat": "320x320",
+    "r": {
+     "x": 1344,
+     "y": 2151,
+     "w": 56,
+     "h": 56
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/530d27c4-ed2c-4452-9e7e-c3cab3338736?w=160&h=120&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x1080",
+    "r": {
+     "x": 1304,
+     "y": 2267,
+     "w": 80,
+     "h": 60
+    },
+    "fit": "cover",
+    "radius": "8px"
+   },
+   {
+    "src": "https://images.zola.com/87125fd4-3cac-49fe-adfc-617e341ece90?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 380,
+     "y": 2384,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/f2773bd3-d85d-4dc7-b6ce-5e7e4f06e8b5?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 712,
+     "y": 2384,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/8b18432f-38e8-4195-9cee-7b62968d16a6?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 1044,
+     "y": 2384,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1tntvpcrzvon2.cloudfront.net/vmassets/_next/static/media/best_of_zola.bb22ffb7.png",
+    "alt": "Awarded Best of Zola",
+    "nat": "320x320",
+    "r": {
+     "x": 1344,
+     "y": 2478,
+     "w": 56,
+     "h": 56
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://images.zola.com/2dbb17f0-bb11-432b-8a9f-52755c0ad5e9?w=160&h=120&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x1080",
+    "r": {
+     "x": 1304,
+     "y": 2594,
+     "w": 80,
+     "h": 60
+    },
+    "fit": "cover",
+    "radius": "8px"
+   },
+   {
+    "src": "https://images.zola.com/31528bcb-05b0-44f1-b0b3-fc3845a92322?w=600&h=402&fit=crop&q=60&fm=webp",
+    "alt": "",
+    "nat": "1440x960",
+    "r": {
+     "x": 380,
+     "y": 2711,
+     "w": 332,
+     "h": 221
+    },
+    "fit": "cover",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 712,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 1044,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 1376,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 1708,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 422,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 712,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 1044,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 1376,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 1708,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 749,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 712,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 1044,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 1076,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 332,
+      "h": 221
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5",
+      "r": {
+       "x": 380,
+       "y": 1403,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(243, 243, 243)",
+       "padding": "0px 0px 222.438px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaContainer__MDRlMjRl",
+      "r": {
+       "x": 380,
+       "y": 1403,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "emblaViewport__OWI5ZTg2",
+      "r": {
+       "x": 380,
+       "y": 1403,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "carouselContainer__MzY5ODhk",
+      "r": {
+       "x": 380,
+       "y": 1403,
+       "w": 332,
+       "h": 222
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "cardBody__MzBiNDc2 vendor-card-photo",
+      "r": {
+       "x": 380,
+       "y": 1403,
+       "w": 332,
+       "h": 222
+      },
+      "text": "Quick responder",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(14, 14, 14)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 222.438px",
+       "transition": "0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "Web Accessibility",
+   "Terms",
+   "Zola Baby (opens in a new tab)",
+   "Zola Home (opens in a new tab)",
+   "Zola for vendors (opens in a new tab)",
+   "Plan your wedding",
+   "Expert advice",
+   "Find a couple",
+   "Search",
+   "Shopping cart",
+   "Log in",
+   "Get started",
+   "Wedding venues",
+   "Vendors",
+   "Destination weddings",
+   "Become a vendor",
+   "Wedding Vendors",
+   "Wedding and reception venues",
+   "Search",
+   "Price",
+   "Availability",
+   "Capacity",
+   "Indoor/outdoor",
+   "Venue type",
+   "Included",
+   "Award winners",
+   "Amenities",
+   "Event types",
+   "Sort: Distance",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read More",
+   "How Much To Tip Wedding Vendors",
+   "How to Book Hotel Rooms for Your Wedding Guests",
+   "How to Write a Wedding RFP",
+   "How to Choose a Wedding Caterer + 4 Tips",
+   "How to Choose Your Wedding DJ",
+   "How to Choose Between a Wedding Band or DJ",
+   "factors influencing cost",
+   "always ask",
+   "Our story",
+   "Become a Zola vendor",
+   "Reviews",
+   "Zola Baby",
+   "Careers",
+   "Press",
+   "Expert advice",
+   "FAQs",
+   "Track order",
+   "Start a return",
+   "Return policy",
+   "Contact us",
+   "Team Z advisors",
+   "Log in",
+   "Find a couple",
+   "Find a baby registry",
+   "Get started",
+   "Privacy",
+   "Terms",
+   "Your privacy choices",
+   "Web accessibility"
+  ],
+  "bodyText": "Web Accessibility\nSale\n\n40% off* invites & paper through 10/19 with code SPOOKY40\n\nTerms\n\nExplore designs\n\nZola Baby\n(opens in a new tab)\n\nZola Home\n(opens in a new tab)\n\nZola for vendors\n(opens in a new tab)\n\nPlan your wedding\nExpert advice\nFind a couple\nLog in\nGet started\nWedding venues\nVendors\nDestination weddings\nBecome a vendor\nWedding Vendors/\nWedding and reception venues\nThe Best Wedding Venues\n\nHow do we sort results, including Sponsored Ads and personalized results?\n\nSearch\nPrice\nAvailability\nCapacity\nIndoor/outdoor\nVenue type\nIncluded\nAward winners\nAmenities\nEvent types\n\n1000+ Wedding Venues\n\nSort: Distance\nQuick responder\nWillowdale Estate \nRating: 5.0 (183 reviews)\n\n5.0\n\n·\nRatings include Zola and Google reviews\nTopsfield, MA\nUp to 240 guests\nAll-inclusive\nIndoor & outdoor\n\nWillowdale Estate is a private mansion, just 30-miles north of Boston, Massachusetts. Located within a 720-acre state forest, and along the pristine Ipswich River. Our private estate is the perfect setting for a New England wedding ceremony and reception. Our coordination team and catering staff will execute your plan with grace, leaving you free to enjoy the party and mix with your guests. At Willowdale Estate, we host two wedding seasons. Our Tent Season from May-October is perfect for parties between 125-240 guests, and our Mansion Season from November-April is better suited for smaller parties between 80-125 guests inside our Estate. As you search for a venue, we would love to hear from you! We can send open dates, host a tour of our space, or create a quote for you. We celebrate the differences that make each client event unique, and warmly welcome people of every race, religion, and gender identity. Thank you for viewing our venue!\n\nWhy you'll love this venue\n\nMultiple event spaces\nAccommodates more than 200 guests\nHas a dance floor for celebration\n\nVenue considerations\n\nVenue feels large for events with small guest lists\nNo on-premises lodging options\nLighting and sound are not included\n“Paige and I cannot give a higher recommendation for Allison and the entire team at Willowdale Estate. Our wedding day was absolutely spectacular, and Ally made sure every detail was exactly how we envisioned it. We truly can’t overstate how much she contributed to making our day so special—she is an absolute professional in every sense. From start to finish, we didn’t have to worry about a single thing. If you’re considering Willowdale for your wedding, do yourself a favor and check them out.”\nRead more\nBradley & P., 10 months ago\nQuick responder\nBakers Ranch - Florida's Premier Top Rated All Inclusive Wedding Venue \nRating: 4.9 (178 reviews)\n\n4.9\n\n·\nRatings include Zola and Google reviews\nParrish, FL\nUp to 200 guests\nAll-inclusive\nIndoor & outdoor\nStarts at $18,500\n\nWith our Simply Incredible All Inclusive Wedding Experience, you will be treated to your customized and worry-free wedding. Your wedding party and family will be stress free and will enjoy this once in a lifetime moment with you! Start your wedding planning in style by touring our beautiful wedding venue in stunning 3D or schedule a tour with us in person. Our \"Simply Incredible\" All Inclusive Package for up to 50 guests starts at $17,500. This price Includes Reception space, Ceremony site (four different options), Bridal suite, Grooms Cave, taxes and gratuities, full planning and event coordination, design session, tables and chairs, linens, catering, cake, fresh flowers, DJ, uplighting, chandeliers, twinkle lights, ceremony site decor, reception decor, bar with a variety of mixers + bartender, parking attendant + private security, setting up and breaking down and much more!\n\nWhy you'll love this venue\n\nAll-inclusive venue packages\nBridal suite on site\nProvides a dedicated team on-site\n\nVenue considerations\n\nBest for events with big guest lists\nNot for you if you don't want a rustic vibe\n“I knew with my busy work schedule it would be difficult to plan a wedding all by myself and that wedding planners are expensive. Baker's Ranch provides an all inclusive experience from start to finish with their lovely staff and made it so easy. The venue itself if beautiful and has a lot of variety and photo backdrop magic. They were very communicative and professional throughout the whole process. You can have design sessions and they can bring whatever vision you have for your special day to life. I'm so glad I got married here.”\nRead more\nJackie Y., 2 years ago\nQuick responder\nThe Villa at Ridder Country Club \nRating: 5.0 (167 reviews)\n\n5.0\n\n·\nRatings include Zola and Google reviews\nEast Bridgewater, MA\nUp to 280 guests\nAll-inclusive\nOutdoor & indoor\nOffer\n\nWhether you’re looking for sophisticated, indoor elegance or upscale, outdoor chic, The Villa is host to three unique and distinctive spaces perfect for your special day. With separate ceremony options, you can exchange vows under the charming outdoor pergola or transform a ballroom into a sacred ceremony space. No matter the season, The Grand Ballroom, Madera Ballroom, and the Tent offer diverse and captivating options for every taste and style. SAPHIRE EVENT GROUP VENUES: Avenir | The Lakehouse | Saphire Estate | The Villa | Rosemont\n\nWhy you'll love this venue\n\nHas a sophisticated vibe\nHas a dance floor to dance the night away\nProvides setup and cleanup\n\nVenue considerations\n\nNot for you if you are looking for something nontraditional\nLarge venue, not ideal for small guest lists\nNo on-site guest accommodations\n“The Villa at Ridder Country Club was the perfect venue for our wedding. From the moment we started planning, the staff was incredibly communicative and responsive, answering our questions quickly, even in emergencies. On the day of, the venue was beautiful, up-to-date, and spotlessly clean. The staff were wonderful and attentive, with Becky in particular seeming to know what we needed before we did. We heard great things about the venue beforehand, and the overall experience truly exceeded our expectations. We will be raving about The Villa at Ridder Country Club and its amazing team for years to come.”\nRead more\nVictoria L., a year ago\nQuick responder\nA Simple Affair \nRating: 4.9 (139 reviews)\n\n4.9\n\n·\nRatings include Zola and Google reviews\nLas Vegas, NV\nUp to 200 guests\nSelect services\nIndoor\nStarts at $1,000\n\nA Simple Affair is a full-service event venue located in Las Vegas, Nevada. This venue offers a relaxing and breathtaking atmosphere for your wedding ceremony and reception. With its reclaimed wood-paneling and wooden furniture, you'll experience a rustic-chic environment like no other. A Simple Affair has got you covered with something for everyone and offers a wide range of services.\n\nWhy you'll love this venue\n\nPets can join the celebration\nRustic charm with elegance\nProvides event staff\n\nVenue considerations\n\nNot for you if you're looking for a sleek and contemporary space\nNot wheelchair accessible\nDance floor not included\n“Had a great time attending two different friends’ wedding at a simple affair - the space was beautiful and the perfect size for the amount of guests. I know the bride and groom at both loved being able to bring in their own vendors, which was nice that the venue allowed for something different compared to typical wedding venues. Jess Hoge was a really great planner for one of the weddings, it couldn’t have gone so smoothly without her!”\nRead more\nAngela R., 2 years ago\nQuick responder\nMountain Crust Event Venue \nRating: 5.0 (136 reviews)\n\n5.0\n\n·\nRatings include Zola and Google reviews\nDenver, CO\nUp to 175 guests\nAll-inclusive\nIndoor & outdoor\nStarts at $7,000\n\nWelcome to Mountain Crust Event Venue! Owned and operated by Colorado's hottest catering company (Mountain Crust), this venue offers a rooftop bar, unobstructed mountain views, and an incredible backyard for any and all types of private events. Whether you're looking for a space for your wedding ceremony and reception, your welcome dinner, or post elopement party, we've got you covered! Not only are we located just 15 minutes from Downtown Denver, we're the most affordable one-stop-shop event space in the Denver area. We offer entire venue rental, full bar packages, an extensive catering menu, tables and chairs, staffing, day-of coordination, and event setup & teardown for a price you wouldn't believe! Inquire today for more info on our availability and pricing for your big day.\n\nWhy you'll love this venue\n\nDressing room available\nWheelchair accessible\nFlexible event spaces\n\nVenue considerations\n\nNo on-premises lodging options\n“Mountain Crust puts on a perfect wedding (& a purr-fect pizza--yes they made a cat-shaped pizza for our \"first pizza\")!!! From the moment you start touring their venue, it's obvious how much they care & think about every single detail! From things like tackling our unique menu requests like chicken/cauliflower tikka pizza, to their commitment to hosting low-impact weddings with minimal waste, and even things like queuing up a few s",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "The Best Wedding Venues",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.72px",
+      "color": "rgb(14, 14, 14)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(14, 14, 14)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 40,
+      "y": 244,
+      "w": 486,
+      "h": 32
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, [class*='vendor'] h3, h2, h3",
+     "text": "Get Expert Vendor Advice",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "lineHeight": "40px",
+      "letterSpacing": "-1.28px",
+      "color": "rgb(14, 14, 14)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(14, 14, 14)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 40,
+      "y": 10404,
+      "w": 338,
+      "h": 40
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, [class*='vendor'] h3, h2, h3",
+     "text": "About wedding venues",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.72px",
+      "color": "rgb(14, 14, 14)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(14, 14, 14)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 40,
+      "y": 10911,
+      "w": 1360,
+      "h": 32
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, [class*='vendor'] h3, h2, h3",
+     "text": "How much do wedding & reception venues cost?",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(14, 14, 14)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(14, 14, 14)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+     },
+     "r": {
+      "x": 40,
+      "y": 10983,
+      "w": 1360,
+      "h": 24
+     }
+    }
+   ],
+   "card-meta": [
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p",
+     "text": "5.0",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "color": "rgb(14, 14, 14)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(14, 14, 14)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 810,
+      "y": 458,
+      "w": 19,
+      "h": 22
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p",
+     "text": "Willowdale Estate is a private mansion, just 30-miles north of Boston,",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 74, 74)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 736,
+      "y": 516,
+      "w": 584,
+      "h": 220
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p",
+     "text": "Why you'll love this venue",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 74, 74)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 736,
+      "y": 760,
+      "w": 584,
+      "h": 22
+     }
+    }
+   ],
+   "filter-label": [],
+   "nav-link": [
+    {
+     "sel": "header nav a, header a",
+     "text": "Sale 40% off* invites & paper through 10/19 with code SPOOKY40 Terms E",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "lineHeight": "22.8571px",
+      "letterSpacing": "normal",
+      "color": "rgb(14, 14, 14)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(14, 14, 14)",
+      "boxShadow": "none",
+      "transition": "opacity 0.5s ease-in",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 40,
+      "y": 18,
+      "w": 597,
+      "h": 20
+     }
+    },
+    {
+     "sel": "header nav a, header a",
+     "text": "Zola Baby (opens in a new tab)",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1171,
+      "y": 20,
+      "w": 53,
+      "h": 14
+     }
+    },
+    {
+     "sel": "header nav a, header a",
+     "text": "Zola Home (opens in a new tab)",
+     "style": {
+      "fontFamily": "circular, helvetica, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1240,
+      "y": 20,
+      "w": 58,
+      "h": 14
+     }
+    }
+   ],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(14, 14, 14)",
+    "fontFamily": "circular, helvetica, sans-serif",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

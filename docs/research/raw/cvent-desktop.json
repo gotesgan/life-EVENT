@@ -1,0 +1,2742 @@
+{
+ "slug": "cvent",
+ "mode": "desktop",
+ "status": 200,
+ "err": null,
+ "hover": null,
+ "data": {
+  "url": "https://www.cvent.com/",
+  "title": "Cvent | Event Platform for In-person, Virtual, and Hybrid Events & Webinars",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 9179,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "EXPECT MORE FROM YOUR EVENTS™",
+    "x": 0,
+    "y": 454,
+    "w": 1,
+    "h": 1
+   },
+   {
+    "tag": "H2",
+    "text": "ANY EVENT. ANY FORMAT. ANY SIZE.",
+    "x": 40,
+    "y": 1842,
+    "w": 1000,
+    "h": 53
+   },
+   {
+    "tag": "H2",
+    "text": "BUILT FOR THE PEOPLE WHO MAKE EVENTS WORK",
+    "x": 40,
+    "y": 2730,
+    "w": 1000,
+    "h": 106
+   },
+   {
+    "tag": "H4",
+    "text": "One platform to source smarter, execute flawlessly, and walk into every debrief with the data to prove it worked.",
+    "x": 57,
+    "y": 3268,
+    "w": 403,
+    "h": 81
+   },
+   {
+    "tag": "H4",
+    "text": "Run every event format on one platform, capture intent data, and connect every dollar to impact you can prove.",
+    "x": 518,
+    "y": 3268,
+    "w": 403,
+    "h": 81
+   },
+   {
+    "tag": "H4",
+    "text": "The world's largest marketplace of qualified buyers, with AI to help you respond faster and win more.",
+    "x": 980,
+    "y": 3268,
+    "w": 403,
+    "h": 81
+   },
+   {
+    "tag": "H2",
+    "text": "DON'T TAKE OUR WORD FOR IT",
+    "x": 40,
+    "y": 3657,
+    "w": 947,
+    "h": 53
+   },
+   {
+    "tag": "H2",
+    "text": "DISCOVER THE CVENT DIFFERENCE",
+    "x": 270,
+    "y": 4454,
+    "w": 899,
+    "h": 53
+   },
+   {
+    "tag": "H3",
+    "text": "PURPOSE-BUILT FOR PERFORMANCE. PROVEN AT ANY SCALE.",
+    "x": 616,
+    "y": 4700,
+    "w": 700,
+    "h": 101
+   },
+   {
+    "tag": "H3",
+    "text": "YOUR NEXT EVENT DESERVES MORE",
+    "x": 88,
+    "y": 5243,
+    "w": 768,
+    "h": 101
+   },
+   {
+    "tag": "H3",
+    "text": "THE PRESENCE PREMIUM™",
+    "x": 624,
+    "y": 5729,
+    "w": 700,
+    "h": 50
+   },
+   {
+    "tag": "H3",
+    "text": "THE DATA IS IN. EVENTS DRIVE GROWTH.",
+    "x": 40,
+    "y": 6195,
+    "w": 700,
+    "h": 101
+   },
+   {
+    "tag": "H2",
+    "text": "WHAT'S NEW AT CVENT",
+    "x": 40,
+    "y": 6715,
+    "w": 589,
+    "h": 53
+   },
+   {
+    "tag": "H4",
+    "text": "Show the world what events can do. We reimagined Cvent. Here's why it matters.",
+    "x": 57,
+    "y": 6884,
+    "w": 288,
+    "h": 81
+   },
+   {
+    "tag": "H4",
+    "text": "The 2026 Event-Led Growth Report",
+    "x": 403,
+    "y": 6884,
+    "w": 288,
+    "h": 54
+   },
+   {
+    "tag": "H4",
+    "text": "See where planners are booking next",
+    "x": 749,
+    "y": 6884,
+    "w": 288,
+    "h": 54
+   },
+   {
+    "tag": "H3",
+    "text": "YOUR NEXT GREAT EVENT STARTS HERE",
+    "x": 40,
+    "y": 7262,
+    "w": 635,
+    "h": 106
+   },
+   {
+    "tag": "H4",
+    "text": "Sales",
+    "x": 40,
+    "y": 8260,
+    "w": 123,
+    "h": 22
+   },
+   {
+    "tag": "H4",
+    "text": "About",
+    "x": 268,
+    "y": 8260,
+    "w": 129,
+    "h": 22
+   },
+   {
+    "tag": "H4",
+    "text": "Popular products",
+    "x": 501,
+    "y": 8260,
+    "w": 148,
+    "h": 22
+   },
+   {
+    "tag": "H4",
+    "text": "Free resources",
+    "x": 754,
+    "y": 8260,
+    "w": 137,
+    "h": 22
+   },
+   {
+    "tag": "H4",
+    "text": "Support",
+    "x": 996,
+    "y": 8260,
+    "w": 125,
+    "h": 22
+   },
+   {
+    "tag": "H4",
+    "text": "For suppliers & venues",
+    "x": 1226,
+    "y": 8260,
+    "w": 174,
+    "h": 22
+   }
+  ],
+  "header": {
+   "tag": "HEADER",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 97
+   },
+   "style": {
+    "position": "relative",
+    "top": "0px",
+    "height": "97.3281px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderBottom": "0px none rgb(23, 32, 28)",
+    "boxShadow": "none",
+    "zIndex": "auto"
+   },
+   "text": "Main navigation (MICE) Event solutions Hospitality solutions Your role Resources About Cvent Utility navigation REQUEST DEMO FIND EVENT VENUES LOG IN",
+   "links": [
+    {
+     "t": "Event solutions",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 319,
+      "y": 54,
+      "w": 134,
+      "h": 22
+     }
+    },
+    {
+     "t": "Hospitality solutions",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 469,
+      "y": 54,
+      "w": 173,
+      "h": 22
+     }
+    },
+    {
+     "t": "Your role",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 657,
+      "y": 54,
+      "w": 84,
+      "h": 22
+     }
+    },
+    {
+     "t": "Resources",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 757,
+      "y": 54,
+      "w": 98,
+      "h": 22
+     }
+    },
+    {
+     "t": "About Cvent",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 871,
+      "y": 54,
+      "w": 112,
+      "h": 22
+     }
+    },
+    {
+     "t": "REQUEST DEMO",
+     "tag": "A",
+     "href": "/en/request-demo",
+     "r": {
+      "x": 1007,
+      "y": 39,
+      "w": 143,
+      "h": 33
+     }
+    },
+    {
+     "t": "FIND EVENT VENUES",
+     "tag": "A",
+     "href": "https://www.cvent.com/venues",
+     "r": {
+      "x": 1166,
+      "y": 40,
+      "w": 132,
+      "h": 32
+     }
+    },
+    {
+     "t": "LOG IN",
+     "tag": "A",
+     "href": "https://app.cvent.com/",
+     "r": {
+      "x": 1313,
+      "y": 40,
+      "w": 47,
+      "h": 32
+     }
+    }
+   ]
+  },
+  "navAll": [
+   "Event solutions",
+   "Hospitality solutions",
+   "Your role",
+   "Resources",
+   "About Cvent",
+   "REQUEST DEMO",
+   "FIND EVENT VENUES",
+   "LOG IN",
+   "Request a demo",
+   "Pricing",
+   "Contact sales",
+   "971.4568.4914",
+   "Awards",
+   "Careers",
+   "Investor relations",
+   "Newsroom",
+   "Partners",
+   "Event registration",
+   "Mobile apps",
+   "Attendee Hub",
+   "Check-in & badging",
+   "Webinar platform",
+   "Venue Sourcing",
+   "All products",
+   "Blog",
+   "Case studies",
+   "Events",
+   "Watch webinars",
+   "Find event venues",
+   "Best event venues",
+   "Contact support",
+   "Community",
+   "Developer Hub",
+   "Knowledge base",
+   "Security",
+   "Training",
+   "Log in to Cvent",
+   "Convert",
+   "Manage",
+   "Improve",
+   "Corporate Travel"
+  ],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": "FirstName",
+    "r": {
+     "x": 790,
+     "y": 7350,
+     "w": 281,
+     "h": 46
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": "LastName",
+    "r": {
+     "x": 1095,
+     "y": 7350,
+     "w": 281,
+     "h": 46
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": "Email",
+    "r": {
+     "x": 790,
+     "y": 7437,
+     "w": 585,
+     "h": 46
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": "Phone",
+    "r": {
+     "x": 790,
+     "y": 7523,
+     "w": 585,
+     "h": 46
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": "Company",
+    "r": {
+     "x": 790,
+     "y": 7610,
+     "w": 585,
+     "h": 46
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 790,
+     "y": 7848,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "submit",
+    "ph": null,
+    "aria": null,
+    "name": "Submit",
+    "r": {
+     "x": 790,
+     "y": 7982,
+     "w": 195,
+     "h": 52
+    }
+   }
+  ],
+  "filterContainers": [
+   {
+    "tag": "HTML",
+    "cls": "supports no-touchevents cssanimations backgroundcliptext cssfilters csstransforms csstransforms3d csstransitions cors js",
+    "r": {
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 9179
+    },
+    "text": "___ Skip to main content Main navigation (MICE) Event solutions Hospitality solutions Your role Resources About Cvent Utility navigation REQUEST DEMO FIND EVENT VENUES LOG IN EXPECT MORE FROM YOUR EVENTS™ EXPECT MORE WOW MOMENTS FROM YOUR EVENTS™ Purpose-built and AI-powered - with the data insights, ecosystem, and expertise to deliver real event outcomes. EXPLORE THE PLATFORM REQUEST A DEMO 8M+ Events managed on Cvent 34K+ Customers globally 89% of the Fortune 100 use Cvent $1B+ Investment in product innovation July 2026 - July 2029 ANY EVENT. ANY FORMAT. ANY SIZE. CventIQ™ puts AI to work across your entire event program, from first venue search to final ROI report. Less stitching. Less guesswork. More events that perform with the data to prove it. BUILT FOR THE PEOPLE WHO MAKE EVENTS WORK Whether you're building a world-class event program, proving events drive pipeline, or winning more group business, the Cvent platform was purpose-built for your outcomes. EVENT PROFESSIONALS One platform to source smarter, execute flawlessly, and walk into every debrief with the data to prove it worked. 20% year-over-year attendance growth Alkami RUN FLAWLESS EVENTS MARKETING PROFESSIONALS Run",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Event solutions"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Hospitality solutions"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Your role"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Resources"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "About Cvent"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "Search Cvent.com",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "Pause video and animated text",
+      "label": ""
+     },
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "SELECT",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Select one Administration Business Owner Customer Support Ed"
+     },
+     {
+      "tag": "SELECT",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Select Country Australia Canada Germany USA United Kingdom -"
+     },
+     {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "INPUT",
+      "type": "submit",
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "COOKIES SETTINGS"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "English"
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "src": "https://www.cvent.com/themes/custom/themekit/images/svg/cvent-logo-tm.svg",
+    "alt": "cvent logo",
+    "nat": "474x90",
+    "r": {
+     "x": 40,
+     "y": 24,
+     "w": 255,
+     "h": 48
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/themes/custom/themekit/images/svg/pause_circle_outline_light.svg",
+    "alt": "",
+    "nat": "17x17",
+    "r": {
+     "x": 1371,
+     "y": 743,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/sites/default/files/styles/logo/public/2026-06/Frame%203577_0.webp?itok=ArqFybv5",
+    "alt": "6 Sense",
+    "nat": "440x179",
+    "r": {
+     "x": 126,
+     "y": 852,
+     "w": 220,
+     "h": 90
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/sites/default/files/styles/logo/public/2026-06/Frame%203582_0.webp?itok=Q-rEwqiw",
+    "alt": "Cognizant",
+    "nat": "440x179",
+    "r": {
+     "x": 368,
+     "y": 852,
+     "w": 220,
+     "h": 90
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/sites/default/files/styles/logo/public/2026-07/Purdue%20University_logo_light.webp?itok=UdIEDLIL",
+    "alt": "Purdue University logo",
+    "nat": "600x247",
+    "r": {
+     "x": 610,
+     "y": 852,
+     "w": 220,
+     "h": 90
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/sites/default/files/styles/logo/public/2026-07/Rosewood_logo_light_0.webp?itok=I46aVkVJ",
+    "alt": "Rosewood hotel logo",
+    "nat": "600x247",
+    "r": {
+     "x": 852,
+     "y": 852,
+     "w": 220,
+     "h": 90
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/sites/default/files/styles/logo/public/2026-06/Frame%203586%20%281%29.webp?itok=uO0QF0wG",
+    "alt": "AMD",
+    "nat": "440x179",
+    "r": {
+     "x": 1094,
+     "y": 852,
+     "w": 220,
+     "h": 90
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/sites/default/files/styles/logo/public/2026-07/AMA-AmericanMarketingAssociation_Logo_White.webp?itok=sLNIHB9t",
+    "alt": "American Marketing Association logo",
+    "nat": "600x247",
+    "r": {
+     "x": 126,
+     "y": 964,
+     "w": 220,
+     "h": 90
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/sites/default/files/styles/logo/public/2026-06/Frame%203585_0.webp?itok=7hLw3cMg",
+    "alt": "Capital Group",
+    "nat": "440x179",
+    "r": {
+     "x": 368,
+     "y": 964,
+     "w": 220,
+     "h": 90
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/sites/default/files/styles/logo/public/2026-07/NatGeo_logo_light_0.webp?itok=ChWmESj7",
+    "alt": "National Geographic Society Logo",
+    "nat": "600x247",
+    "r": {
+     "x": 610,
+     "y": 964,
+     "w": 220,
+     "h": 90
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/sites/default/files/styles/logo/public/2026-07/Optimizely_Logo_Light_0.webp?itok=XTmOP67-",
+    "alt": "Optimizely logo",
+    "nat": "600x247",
+    "r": {
+     "x": 852,
+     "y": 964,
+     "w": 220,
+     "h": 90
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/sites/default/files/styles/logo/public/2026-07/Reuters_logo_light_0.webp?itok=fngHsggY",
+    "alt": "Reuters logo",
+    "nat": "600x247",
+    "r": {
+     "x": 1094,
+     "y": 964,
+     "w": 220,
+     "h": 90
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/sites/default/files/styles/logo/public/2026-07/Uber%20for%20business_logo_light.webp?itok=m-9jV8pv",
+    "alt": "Uber for business logo",
+    "nat": "600x247",
+    "r": {
+     "x": 610,
+     "y": 1076,
+     "w": 220,
+     "h": 90
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.cvent.com/themes/custom/themekit/images/svg/cvent-logo-green-tm.svg",
+    "alt": "Cvent Logo",
+    "nat": "0x0",
+    "r": {
+     "x": 40,
+     "y": 8690,
+     "w": 1118,
+     "h": 212
+    },
+    "fit": "fill",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "6 Sense",
+     "ratio": 2.444,
+     "r": {
+      "w": 220,
+      "h": 90
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 126,
+       "y": 882,
+       "w": 220,
+       "h": 28
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 7
+     },
+     {
+      "tag": "DIV",
+      "cls": "field field--name-field-image field--type-image field--label-hidden field__item",
+      "r": {
+       "x": 126,
+       "y": 852,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "media--logo media--view-mode--default",
+      "r": {
+       "x": 126,
+       "y": 852,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "summary-output",
+      "r": {
+       "x": 40,
+       "y": 852,
+       "w": 1360,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "22px"
+      },
+      "childCount": 11
+     },
+     {
+      "tag": "DIV",
+      "cls": "logo-bar",
+      "r": {
+       "x": 0,
+       "y": 852,
+       "w": 1440,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Cognizant",
+     "ratio": 2.444,
+     "r": {
+      "w": 220,
+      "h": 90
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 368,
+       "y": 882,
+       "w": 220,
+       "h": 28
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 7
+     },
+     {
+      "tag": "DIV",
+      "cls": "field field--name-field-image field--type-image field--label-hidden field__item",
+      "r": {
+       "x": 368,
+       "y": 852,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "media--logo media--view-mode--default",
+      "r": {
+       "x": 368,
+       "y": 852,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "summary-output",
+      "r": {
+       "x": 40,
+       "y": 852,
+       "w": 1360,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "22px"
+      },
+      "childCount": 11
+     },
+     {
+      "tag": "DIV",
+      "cls": "logo-bar",
+      "r": {
+       "x": 0,
+       "y": 852,
+       "w": 1440,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Purdue University logo",
+     "ratio": 2.444,
+     "r": {
+      "w": 220,
+      "h": 90
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 610,
+       "y": 882,
+       "w": 220,
+       "h": 28
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 7
+     },
+     {
+      "tag": "DIV",
+      "cls": "field field--name-field-image field--type-image field--label-hidden field__item",
+      "r": {
+       "x": 610,
+       "y": 852,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "media--logo media--view-mode--default",
+      "r": {
+       "x": 610,
+       "y": 852,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "summary-output",
+      "r": {
+       "x": 40,
+       "y": 852,
+       "w": 1360,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "22px"
+      },
+      "childCount": 11
+     },
+     {
+      "tag": "DIV",
+      "cls": "logo-bar",
+      "r": {
+       "x": 0,
+       "y": 852,
+       "w": 1440,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Rosewood hotel logo",
+     "ratio": 2.444,
+     "r": {
+      "w": 220,
+      "h": 90
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 852,
+       "y": 882,
+       "w": 220,
+       "h": 28
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 7
+     },
+     {
+      "tag": "DIV",
+      "cls": "field field--name-field-image field--type-image field--label-hidden field__item",
+      "r": {
+       "x": 852,
+       "y": 852,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "media--logo media--view-mode--default",
+      "r": {
+       "x": 852,
+       "y": 852,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "summary-output",
+      "r": {
+       "x": 40,
+       "y": 852,
+       "w": 1360,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "22px"
+      },
+      "childCount": 11
+     },
+     {
+      "tag": "DIV",
+      "cls": "logo-bar",
+      "r": {
+       "x": 0,
+       "y": 852,
+       "w": 1440,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "AMD",
+     "ratio": 2.444,
+     "r": {
+      "w": 220,
+      "h": 90
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 1094,
+       "y": 882,
+       "w": 220,
+       "h": 28
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 7
+     },
+     {
+      "tag": "DIV",
+      "cls": "field field--name-field-image field--type-image field--label-hidden field__item",
+      "r": {
+       "x": 1094,
+       "y": 852,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "media--logo media--view-mode--default",
+      "r": {
+       "x": 1094,
+       "y": 852,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "summary-output",
+      "r": {
+       "x": 40,
+       "y": 852,
+       "w": 1360,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "22px"
+      },
+      "childCount": 11
+     },
+     {
+      "tag": "DIV",
+      "cls": "logo-bar",
+      "r": {
+       "x": 0,
+       "y": 852,
+       "w": 1440,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "American Marketing Association logo",
+     "ratio": 2.444,
+     "r": {
+      "w": 220,
+      "h": 90
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 126,
+       "y": 994,
+       "w": 220,
+       "h": 28
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 7
+     },
+     {
+      "tag": "DIV",
+      "cls": "field field--name-field-image field--type-image field--label-hidden field__item",
+      "r": {
+       "x": 126,
+       "y": 964,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "media--logo media--view-mode--default",
+      "r": {
+       "x": 126,
+       "y": 964,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "summary-output",
+      "r": {
+       "x": 40,
+       "y": 852,
+       "w": 1360,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "22px"
+      },
+      "childCount": 11
+     },
+     {
+      "tag": "DIV",
+      "cls": "logo-bar",
+      "r": {
+       "x": 0,
+       "y": 852,
+       "w": 1440,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Capital Group",
+     "ratio": 2.444,
+     "r": {
+      "w": 220,
+      "h": 90
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 368,
+       "y": 994,
+       "w": 220,
+       "h": 28
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 7
+     },
+     {
+      "tag": "DIV",
+      "cls": "field field--name-field-image field--type-image field--label-hidden field__item",
+      "r": {
+       "x": 368,
+       "y": 964,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "media--logo media--view-mode--default",
+      "r": {
+       "x": 368,
+       "y": 964,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "summary-output",
+      "r": {
+       "x": 40,
+       "y": 852,
+       "w": 1360,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "22px"
+      },
+      "childCount": 11
+     },
+     {
+      "tag": "DIV",
+      "cls": "logo-bar",
+      "r": {
+       "x": 0,
+       "y": 852,
+       "w": 1440,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "National Geographic Society Logo",
+     "ratio": 2.444,
+     "r": {
+      "w": 220,
+      "h": 90
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 610,
+       "y": 994,
+       "w": 220,
+       "h": 28
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 7
+     },
+     {
+      "tag": "DIV",
+      "cls": "field field--name-field-image field--type-image field--label-hidden field__item",
+      "r": {
+       "x": 610,
+       "y": 964,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "media--logo media--view-mode--default",
+      "r": {
+       "x": 610,
+       "y": 964,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "summary-output",
+      "r": {
+       "x": 40,
+       "y": 852,
+       "w": 1360,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "22px"
+      },
+      "childCount": 11
+     },
+     {
+      "tag": "DIV",
+      "cls": "logo-bar",
+      "r": {
+       "x": 0,
+       "y": 852,
+       "w": 1440,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Optimizely logo",
+     "ratio": 2.444,
+     "r": {
+      "w": 220,
+      "h": 90
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 852,
+       "y": 994,
+       "w": 220,
+       "h": 28
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 7
+     },
+     {
+      "tag": "DIV",
+      "cls": "field field--name-field-image field--type-image field--label-hidden field__item",
+      "r": {
+       "x": 852,
+       "y": 964,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "media--logo media--view-mode--default",
+      "r": {
+       "x": 852,
+       "y": 964,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "summary-output",
+      "r": {
+       "x": 40,
+       "y": 852,
+       "w": 1360,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "22px"
+      },
+      "childCount": 11
+     },
+     {
+      "tag": "DIV",
+      "cls": "logo-bar",
+      "r": {
+       "x": 0,
+       "y": 852,
+       "w": 1440,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Reuters logo",
+     "ratio": 2.444,
+     "r": {
+      "w": 220,
+      "h": 90
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 1094,
+       "y": 994,
+       "w": 220,
+       "h": 28
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 7
+     },
+     {
+      "tag": "DIV",
+      "cls": "field field--name-field-image field--type-image field--label-hidden field__item",
+      "r": {
+       "x": 1094,
+       "y": 964,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "media--logo media--view-mode--default",
+      "r": {
+       "x": 1094,
+       "y": 964,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "summary-output",
+      "r": {
+       "x": 40,
+       "y": 852,
+       "w": 1360,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "22px"
+      },
+      "childCount": 11
+     },
+     {
+      "tag": "DIV",
+      "cls": "logo-bar",
+      "r": {
+       "x": 0,
+       "y": 852,
+       "w": 1440,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Uber for business logo",
+     "ratio": 2.444,
+     "r": {
+      "w": 220,
+      "h": 90
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 610,
+       "y": 1106,
+       "w": 220,
+       "h": 28
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 7
+     },
+     {
+      "tag": "DIV",
+      "cls": "field field--name-field-image field--type-image field--label-hidden field__item",
+      "r": {
+       "x": 610,
+       "y": 1076,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "media--logo media--view-mode--default",
+      "r": {
+       "x": 610,
+       "y": 1076,
+       "w": 220,
+       "h": 90
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "summary-output",
+      "r": {
+       "x": 40,
+       "y": 852,
+       "w": 1360,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "22px"
+      },
+      "childCount": 11
+     },
+     {
+      "tag": "DIV",
+      "cls": "logo-bar",
+      "r": {
+       "x": 0,
+       "y": 852,
+       "w": 1440,
+       "h": 314
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Cvent Logo",
+     "ratio": 5.267,
+     "r": {
+      "w": 1118,
+      "h": 212
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "footer-logo-container",
+      "r": {
+       "x": 40,
+       "y": 8690,
+       "w": 1118,
+       "h": 212
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(142, 167, 159)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "footer-top",
+      "r": {
+       "x": 40,
+       "y": 8540,
+       "w": 1360,
+       "h": 403
+      },
+      "text": "Social menu",
+      "style": {
+       "borderRadius": "0px",
+       "border": "",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "40px"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "container--standard",
+      "r": {
+       "x": 0,
+       "y": 8257,
+       "w": 1440,
+       "h": 686
+      },
+      "text": "Footer (Middle East) Sales Request a demo Pricing Contact sales 971.4568.4914 About Awards Careers Investor relations Newsroom Partners Popular products Event registration Mobile apps Attendee Hub Check-in & badging Webinar platform Venue Sourcing All products",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(142, 167, 159)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 40px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "FOOTER",
+      "cls": "theme-dark",
+      "r": {
+       "x": 0,
+       "y": 8167,
+       "w": 1440,
+       "h": 1012
+      },
+      "text": "Footer (Middle East) Sales Request a demo Pricing Contact sales 971.4568.4914 About Awards Careers Investor relations Newsroom Partners Popular products Event registration Mobile apps Attendee Hub Check-in & badging Webinar platform Venue Sourcing All products",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(142, 167, 159)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(23, 32, 28)",
+       "padding": "90px 0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "layout-container",
+      "r": {
+       "x": 0,
+       "y": 812,
+       "w": 1440,
+       "h": 8367
+      },
+      "text": "8M+ Events managed on Cvent 34K+ Customers globally 89% of the Fortune 100 use Cvent $1B+ Investment in product innovation July 2026 - July 2029 ANY EVENT. ANY FORMAT. ANY SIZE. CventIQ™ puts AI to work across your entire event program, from first venue search",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(23, 32, 28)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "___",
+   "Event solutions",
+   "Hospitality solutions",
+   "Your role",
+   "Resources",
+   "About Cvent",
+   "REQUEST DEMO",
+   "FIND EVENT VENUES",
+   "LOG IN",
+   "EXPLORE THE PLATFORM",
+   "REQUEST A DEMO",
+   "Alkami",
+   "RUN FLAWLESS EVENTS",
+   "6sense",
+   "PROVE EVENT ROI",
+   "WIN MORE GROUP BUSINESS",
+   "AWARDS & RECOGNITION",
+   "TRUSTED, AI-POWERED PLATFORM",
+   "DATA ADVANTAGE",
+   "UNRIVALED ECOSYSTEM",
+   "DEEP EXPERTISE",
+   "SEE WHAT SETS CVENT APART",
+   "REQUEST A DEMO",
+   "READ THE ARTICLE",
+   "READ THE REPORT SUMMARY",
+   "READ THE STORY",
+   "READ NOW",
+   "BROWSE TOP LISTS",
+   "2026 EVENT TRENDS",
+   "AI TOOLS FOR EVENTS",
+   "WHY EVENTS DRIVE REVENUE",
+   "HOW EVENTS BUILD TRUST",
+   "TRY CVENT EVENT REGISTRATION FOR FREE",
+   "unsubscribe",
+   "Privacy Policy",
+   "Contact Us",
+   "Request a demo",
+   "Pricing",
+   "Contact sales",
+   "971.4568.4914",
+   "Awards",
+   "Careers",
+   "Investor relations",
+   "Newsroom",
+   "Partners",
+   "Event registration",
+   "Mobile apps",
+   "Attendee Hub",
+   "Check-in & badging",
+   "Webinar platform",
+   "Venue Sourcing",
+   "All products",
+   "Blog",
+   "Case studies",
+   "Events",
+   "Watch webinars",
+   "Find event venues",
+   "Best event venues",
+   "Contact support",
+   "Community",
+   "Developer Hub",
+   "Knowledge base",
+   "Security",
+   "Training",
+   "Log in to Cvent",
+   "Convert",
+   "Manage",
+   "Improve",
+   "Corporate Travel",
+   "LEGAL",
+   "PRIVACY POLICY",
+   "ACCESSIBILITY",
+   "PRODUCT TERMS OF USE",
+   "WEBSITE TERMS OF USE",
+   "YOUR PRIVACY CHOICES",
+   "COOKIES SETTINGS",
+   "Privacy Policy",
+   "Terms of Service",
+   "English"
+  ],
+  "bodyText": "___\nSkip to main content\nMain navigation (MICE)\nEvent solutions\nHospitality solutions\nYour role\nResources\nAbout Cvent\nUtility navigation\nREQUEST DEMO\nFIND EVENT VENUES\nLOG IN\nEXPECT MORE FROM YOUR EVENTS™\nEXPECT MORE\nWOW MOMENTS\nFROM YOUR EVENTS™\n\nPurpose-built and AI-powered - with the data insights, ecosystem, and expertise to deliver real event outcomes.\n\nEXPLORE THE PLATFORM\nREQUEST A DEMO\n8M+\n\nEvents managed on Cvent\n\n34K+\n\nCustomers globally\n\n89%\n\nof the Fortune 100 use Cvent\n\n$1B+\n\nInvestment in product innovation July 2026 - July 2029\n\nANY EVENT. ANY FORMAT. ANY SIZE.\n\nCventIQ™ puts AI to work across your entire event program, from first venue search to final ROI report. Less stitching. Less guesswork. More events that perform with the data to prove it.\n\nBUILT FOR THE PEOPLE WHO MAKE EVENTS WORK\n\nWhether you're building a world-class event program, proving events drive pipeline, or winning more group business, the Cvent platform was purpose-built for your outcomes.\n\nEVENT PROFESSIONALS\nOne platform to source smarter, execute flawlessly, and walk into every debrief with the data to prove it worked.\n\n20% year-over-year attendance growth\nAlkami\n\nRUN FLAWLESS EVENTS\nMARKETING PROFESSIONALS\nRun every event format on one platform, capture intent data, and connect every dollar to impact you can prove.\n\n51% more pipeline from a flagship event\n6sense\n\nPROVE EVENT ROI\nHOSPITALITY PROFESSIONALS\nThe world's largest marketplace of qualified buyers, with AI to help you respond faster and win more.\n\n300K+ unique RFPs sourced via Cvent annually\n\nWIN MORE GROUP BUSINESS\nDON'T TAKE OUR WORD FOR IT\n\n400+ recognitions and awards from the analysts, the industry, and the customers who use our platform every day.\n\nAWARDS & RECOGNITION\nDISCOVER THE CVENT DIFFERENCE\nTRUSTED, AI-POWERED PLATFORM\nDATA ADVANTAGE\nUNRIVALED ECOSYSTEM\nDEEP EXPERTISE\nPURPOSE-BUILT FOR PERFORMANCE. PROVEN AT ANY SCALE.\n\nDecades of R&D. Hundreds of thousands of AI-assisted work units annually. A platform agile enough to run any event type, at any scale, without breaking down at the worst possible moment. Every event your team runs makes the next one sharper.\n\nSEE WHAT SETS CVENT APART\n\nYOUR NEXT EVENT \nDESERVES MORE\n\nSee what it looks like when your entire event program runs on one trusted, AI-powered platform built for the outcomes that matter to your business.\n\nREQUEST A DEMO\n\nOUR EVENT PHILOSOPHY\n\nTHE PRESENCE PREMIUM™\n\nAI is scaling content, automating outreach, and flooding every digital channel with noise. What it can't do is put someone in a room. That scarcity is the opportunity. Read our take on why in-person presence is becoming the highest-trust signal in modern marketing, and what it means for the future of your event strategy.\n\nREAD THE ARTICLE\n\nEVENT & HOSPITALITY RESEARCH\n\nTHE DATA IS IN. \nEVENTS DRIVE GROWTH.\n\nCommissioned by Cvent, this Forrester study sets out to quantify what event professionals and marketers have always known to be true: events are a revenue engine. Get a first look at the findings and see the research behind The Cvent Center for Event Insights, launching this summer.\n\nREAD THE REPORT SUMMARY\nWHAT'S NEW AT CVENT\nBLOG\nShow the world what events can do. We reimagined Cvent. Here's why it matters.\nREAD THE STORY\nNEW RESEARCH\nThe 2026 Event-Led Growth Report\nREAD NOW\nCVENT TOP LISTS\nSee where planners are booking next\nBROWSE TOP LISTS\n\n2026 EVENT TRENDS\n\nAI TOOLS FOR EVENTS\n\nWHY EVENTS DRIVE REVENUE\n\nHOW EVENTS BUILD TRUST\n\nYOUR NEXT GREAT EVENT STARTS HERE\n\nThe Cvent platform has everything you need to plan, execute, and prove the impact of every event you run.\n\nTRY CVENT EVENT REGISTRATION FOR FREE\n\n\n\nFIRST NAME *\nLAST NAME *\nWORK EMAIL *\nPHONE (NO SPACES) *\nORGANIZATION *\nJOB FUNCTION *\nSelect one\nAdministration\nBusiness Owner\nCustomer Support\nEducation\nEvent Planning\nExecutive\nFinancial Services\nHospitality\nHuman Resources\nLegal\nMarketing\nOperations\nSales\nTechnology\nStudent\nOther\nCOUNTRY *\nSelect Country\nAustralia\nCanada\nGermany\nUSA\nUnited Kingdom\n--------------------------------------------------\nAfghanistan\nAland Islands\nAlbania\nAlgeria\nAmerican Samoa\nAndorra\nAngola\nAnguilla\nAntarctica\nAntigua and Barbuda\nArgentina\nArmenia\nAruba\nAustria\nAzerbaijan\nBahamas\nBahrain\nBangladesh\nBarbados\nBelarus\nBelgium\nBelize\nBenin\nBermuda\nBhutan\nBolivia\nBonaire, Saint Eustatius and Saba\nBosnia and Herzegovina\nBotswana\nBouvet Island\nBrazil\nBritish Indian Ocean Terr.\nBritish Virgin Islands\nBrunei Darussalam\nBulgaria\nBurkina Faso\nBurundi\nCambodia\nCameroon\nCape Verde\nCayman Islands\nCentral African Republic\nChad\nChile\nChristmas Island\nCocos (Keeling) Islands\nColombia\nComoros\nCongo (Democratic Republic)\nCongo (Republic)\nCook Islands\nCosta Rica\nCote d'Ivoire\nCroatia\nCuraçao\nCyprus\nCzech Republic\nDenmark\nDjibouti\nDominica\nDominican Republic\nEcuador\nEgypt\nEl Salvador\nEngland\nEquatorial Guinea\nEritrea\nEstonia\nEthiopia\nFalkland Islands (Malvinas)\nFaroe Islands\nFiji\nFinland\nFrance\nFrench Guiana\nFrench Polynesia\nFrench Southern Territories\nGabon\nGambia\nGeorgia\nGhana\nGibraltar\nGreece\nGreenland\nGrenada\nGuadeloupe\nGuam\nGuatemala\nGuernsey\nGuinea\nGuinea-Bissau\nGuyana\nHaiti\nHeard & McDonald Islands\nHonduras\nHong Kong\nHungary\nIceland\nIndia\nIndonesia\nIraq\nIreland\nIsrael\nItaly\nJamaica\nJapan\nJersey\nJordan\nKazakhstan\nKenya\nKiribati\nKosovo\nKuwait\nKyrgyzstan\nLaos\nLatvia\nLebanon\nLesotho\nLiberia\nLiechtenstein\nLithuania\nLuxembourg\nMacao\nMacedonia\nMadagascar\nMalawi\nMalaysia\nMaldives\nMali\nMalta\nMarshall Islands\nMartinique\nMauritania\nMauritius\nMayotte\nMexico\nMicronesia\nMoldova\nMonaco\nMongolia\nMontenegro\nMontserrat\nMorocco\nMozambique\nMyanmar\nNamibia\nNauru\nNepal\nNetherlands\nNetherlands Antilles\nNew Caledonia\nNew Zealand\nNicaragua\nNiger\nNigeria\nNiue\nNorfolk Island\nNorthern Ireland\nNorway\nOman\nPakistan\nPalau\nPalestinian Territory\nPanama\nPapua New Guinea\nParaguay\nPeru\nPhilippines\nPitcairn\nPoland\nPortugal\nPuerto Rico\nQatar\nReunion\nRomania\nRussian Federation\nRwanda\nSaint Barthélemy\nSaint Helena\nSaint Kitts And Nevis\nSaint Lucia\nSaint Martin\nSaint Pierre and Miquelon\nSaint Vincent\nSamoa\nSan Marino\nSao Tome and Principe\nSaudi Arabia\nScotland\nSenegal\nSerbia\nSeychelles\nSierra Leone\nSingapore\nSint Maarten(Dutch part)\nSlovakia\nSlovenia\nSolomon Islands\nSomalia\nSouth Africa\nSouth Korea\nSouth Sudan\nSpain\nSri Lanka\nSuriname\nSvalbard And Jan Mayen\nSwaziland\nSweden\nSwitzerland\nTaiwan\nTajikistan\nTanzania\nThailand\nTimor-Leste\nTogo\nTokelau\nTonga\nTrinidad and Tobago\nTunisia\nTurkey\nTurkmenistan\nTurks and Caicos Islands\nTuvalu\nU.S. Virgin Islands\nUganda\nUnited Arab Emirates\nUruguay\nUzbekistan\nVanuatu\nVatican City State (Holy See)\nVenezuela\nVietnam\nWales\nWallis and Futuna\nWestern Sahara\nYemen\nZambia\nZimbabwe\nI agree to receive emails from Cvent, Inc. about relevant content, products, and services. I understand I can manage my communication preferences or unsubscribe at any time.\n\nPlease refer to our Privacy Policy or Contact Us for more details.\n\n*Magic Quadrant for Event Marketing and Management Platforms, 2026, 2025, 2024.\n\nFooter (Middle East)\nSales\nRequest a demo\nPricing\nContact sales\n971.4568.4914\nAbout\nAwards\nCareers\nInvestor relations\nNewsroom\nPartners\nPopular products\nEvent registration\nMobile apps\nAttendee Hub\nCheck-in & badging\nWebinar platform\nVenue Sourcing\nAll products\nFree resources\nBlog\nCase studies\nEvents\nWatch webinars\nFind event venues\nBest event venues\nSupport\nContact support\nCommunity\nDeveloper Hub\nKnowledge base\nSecurity\nTraining\nLog in to Cvent\nFor suppliers & venues\nConvert\nManage\nImprove\nCorporate Travel\nSocial menu\n\n© Copyright 2026 Cvent Inc. All rights reserved.   \n\nLEGAL  |  PRIVACY POLICY  |  ACCESSIBILITY   |  PRODUCT TERMS OF USE |  WEBSITE TERMS OF USE   \n\n YOUR PRIVACY CHOICES | COOKIES SETTINGS\n\nThis site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply\n\nEnglish",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "EXPECT MORE FROM YOUR EVENTS™",
+     "style": {
+      "fontFamily": "\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+      "fontSize": "64px",
+      "fontWeight": "400",
+      "lineHeight": "70.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "uppercase",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 0,
+      "y": 454,
+      "w": 1,
+      "h": 1
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, h2, h3",
+     "text": "ANY EVENT. ANY FORMAT. ANY SIZE.",
+     "style": {
+      "fontFamily": "\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "lineHeight": "52.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "uppercase",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 40,
+      "y": 1842,
+      "w": 1000,
+      "h": 53
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, h2, h3",
+     "text": "BUILT FOR THE PEOPLE WHO MAKE EVENTS WORK",
+     "style": {
+      "fontFamily": "\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "lineHeight": "52.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(23, 32, 28)",
+      "textTransform": "uppercase",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(23, 32, 28)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 40,
+      "y": 2730,
+      "w": 1000,
+      "h": 106
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, h2, h3",
+     "text": "DON'T TAKE OUR WORD FOR IT",
+     "style": {
+      "fontFamily": "\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "lineHeight": "52.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "uppercase",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 40,
+      "y": 3657,
+      "w": 947,
+      "h": 53
+     }
+    }
+   ],
+   "card-meta": [
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p",
+     "text": "20% year-over-year attendance growth Alkami",
+     "style": {
+      "fontFamily": "\"Suisse Intl\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "19.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(23, 32, 28)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(23, 32, 28)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 57,
+      "y": 3357,
+      "w": 403,
+      "h": 39
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p",
+     "text": "51% more pipeline from a flagship event 6sense",
+     "style": {
+      "fontFamily": "\"Suisse Intl\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "19.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(23, 32, 28)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(23, 32, 28)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 518,
+      "y": 3357,
+      "w": 403,
+      "h": 39
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p",
+     "text": "300K+ unique RFPs sourced via Cvent annually",
+     "style": {
+      "fontFamily": "\"Suisse Intl\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "19.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(23, 32, 28)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(23, 32, 28)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 980,
+      "y": 3357,
+      "w": 403,
+      "h": 20
+     }
+    }
+   ],
+   "filter-label": [
+    {
+     "sel": "label, [class*='filter'] label",
+     "text": "FIRST NAME *",
+     "style": {
+      "fontFamily": "\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "uppercase",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 8px"
+     },
+     "r": {
+      "x": 790,
+      "y": 7326,
+      "w": 281,
+      "h": 17
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label",
+     "text": "LAST NAME *",
+     "style": {
+      "fontFamily": "\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "uppercase",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 8px"
+     },
+     "r": {
+      "x": 1095,
+      "y": 7326,
+      "w": 281,
+      "h": 17
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label",
+     "text": "WORK EMAIL *",
+     "style": {
+      "fontFamily": "\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "uppercase",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 8px"
+     },
+     "r": {
+      "x": 790,
+      "y": 7412,
+      "w": 585,
+      "h": 17
+     }
+    }
+   ],
+   "nav-link": [
+    {
+     "sel": "header nav a, header a",
+     "text": "",
+     "style": {
+      "fontFamily": "\"Suisse Intl\", \"Helvetica Neue\", Helvetica, Arial, sans-serif, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(23, 32, 28)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(23, 32, 28)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 40,
+      "y": 24,
+      "w": 255,
+      "h": 48
+     }
+    },
+    {
+     "sel": "header nav a, header a",
+     "text": "REQUEST DEMO",
+     "style": {
+      "fontFamily": "\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "15.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(23, 32, 28)",
+      "textTransform": "uppercase",
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(1, 239, 108)",
+      "border": "1px solid rgb(1, 239, 108)",
+      "boxShadow": "none",
+      "transition": "color 0.2s, background-color 0.2s, border-color 0.2s",
+      "padding": "8px 16px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1007,
+      "y": 39,
+      "w": 143,
+      "h": 33
+     }
+    },
+    {
+     "sel": "header nav a, header a",
+     "text": "FIND EVENT VENUES",
+     "style": {
+      "fontFamily": "\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(23, 32, 28)",
+      "textTransform": "uppercase",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(23, 32, 28)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "8px 0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1166,
+      "y": 40,
+      "w": 132,
+      "h": 32
+     }
+    }
+   ],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(23, 32, 28)",
+    "fontFamily": "\"Suisse Intl\", \"Helvetica Neue\", Helvetica, Arial, sans-serif, sans-serif",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

@@ -1,0 +1,39 @@
+.nav {
+  position: sticky;
+  top: var(--app-header-height);
+  z-index: 50;
+  margin-bottom: rem(20px);
+  padding-block: rem(10px);
+  border-bottom: 1px solid var(--app-border);
+  background-color: var(--app-surface);
+  overflow-x: auto;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: rem(6px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  min-height: rem(36px);
+  padding: 0 rem(12px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-pill);
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+
+  @mixin hover {
+    border-color: var(--app-border-strong);
+    color: var(--app-text);
+    background-color: var(--app-surface-muted);
+  }
+}

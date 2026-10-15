@@ -1,0 +1,271 @@
+/*
+ * The listing card — guide §1.5.
+ *
+ * Every vertical measurement here is load-bearing. The title and both meta rows
+ * reserve their boxes so the anchor row lands on the same baseline on every tile
+ * in a column; the anchor row reserves 26px so a price, a capacity and a
+ * capacity-less listing still line up. If a row is allowed to collapse the grid
+ * stops reading as a table, which is the only reason the card exists.
+ *
+ * Elevation is E0: a 1px hairline on a raised surface, never a shadow at rest.
+ * Hover may raise it to E1, and never scales or translates the card.
+ */
+.card {
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-raised);
+  /* E0 — no shadow at rest. A resting grid card never floats. */
+  box-shadow: none;
+  transition:
+    border-color var(--app-duration-fast) var(--app-ease-out),
+    box-shadow var(--app-duration-fast) var(--app-ease-out);
+
+  @mixin hover {
+    border-color: var(--app-border-strong);
+    /* E1 is the maximum on a card in a grid. */
+    box-shadow: var(--app-shadow-raised);
+  }
+
+  /* Keyboard focus on any control in the card outlines the whole tile, so the
+     focus target is never ambiguous even though the card is several controls. */
+  &:focus-within {
+    border-color: var(--app-border-strong);
+  }
+}
+
+.mediaWrap {
+  position: relative;
+  /* On a dark canvas an image edge dissolves without a hairline — guide §3.5. */
+  border-bottom: 1px solid var(--app-border);
+  background-color: var(--app-surface-muted);
+}
+
+/* Overlay chips sit on a photograph, so they take an opaque surface rather than
+   `--app-overlay`: the overlay token is dark in *both* schemes, and there is no
+   ink token that stays light in both, so translucent + token text is unreadable
+   in one of them. */
+.ribbon {
+  position: absolute;
+  inset-block-start: rem(12px);
+  inset-inline-start: rem(12px);
+  display: inline-flex;
+  align-items: center;
+  height: rem(22px);
+  padding: 0 rem(8px);
+  border-radius: var(--app-radius-pill);
+  background-color: var(--app-accent-soft);
+  color: var(--app-accent-soft-text);
+  font-size: var(--text-caption-size);
+  font-weight: 650;
+  line-height: 1;
+}
+
+.photoCount {
+  position: absolute;
+  inset-block-end: rem(10px);
+  inset-inline-end: rem(10px);
+  display: inline-flex;
+  align-items: center;
+  height: rem(22px);
+  padding: 0 rem(8px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-pill);
+  background-color: var(--app-surface-raised);
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: 1;
+}
+
+/* The shortlist toggle: 32×32, top-right of the media well, above the card's
+   stretched link so it stays its own target. */
+.shortlistSlot {
+  position: absolute;
+  inset-block-start: rem(8px);
+  inset-inline-end: rem(8px);
+  z-index: 2;
+  display: flex;
+}
+
+.body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: var(--app-card-padding);
+}
+
+/* Two lines reserved, so a one-line name and a two-line name produce the same
+   card height and the anchors below cannot jitter. */
+.title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin: 0 0 rem(8px);
+  min-height: calc(2 * var(--text-card-title-leading) * var(--text-card-title-size));
+  /* `text-wrap: balance` is for unclamped display type; on a clamped title it
+     leaves a short second line that wastes the reserved box — guide §4.5. */
+  text-wrap: normal;
+  font-size: var(--text-card-title-size);
+  font-weight: var(--text-card-title-weight);
+  line-height: var(--text-card-title-leading);
+  letter-spacing: var(--text-card-title-tracking);
+}
+
+.titleLink {
+  color: var(--app-text);
+  text-decoration: none;
+
+  /* The stretched link: one link per card, covering the whole tile including
+     the media, while the heading stays the accessible name. */
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+
+  @mixin hover {
+    color: var(--app-brand);
+    text-decoration: underline;
+  }
+}
+
+/* One line, reserved even when empty. The text truncates; the badge does not. */
+.metaRow {
+  display: flex;
+  align-items: center;
+  gap: rem(6px);
+  min-height: rem(18px);
+  margin: 0 0 rem(4px);
+  color: var(--app-text-muted);
+  font-size: var(--text-label-size);
+  font-weight: 550;
+  line-height: var(--text-label-leading);
+
+  /* The gap between the meta block and the anchor row — guide §1.5. */
+  & + & {
+    margin-bottom: rem(16px);
+  }
+}
+
+.metaText {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badgeSlot {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.highlights {
+  display: flex;
+  min-width: 0;
+  gap: rem(6px);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+}
+
+.highlight {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  & + &::before {
+    content: '·';
+    margin-inline-end: rem(6px);
+    color: var(--app-text-subtle);
+  }
+}
+
+/* The scan anchor. Same slot, same box, every tile — guide §2.2. */
+.anchorRow {
+  display: flex;
+  align-items: baseline;
+  min-height: rem(26px);
+  margin: 0 0 rem(12px);
+}
+
+.anchorValue {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  color: var(--app-text);
+  font-size: var(--text-anchor-size);
+  font-weight: var(--text-anchor-weight);
+  line-height: var(--text-anchor-leading);
+  letter-spacing: var(--text-anchor-tracking);
+  font-variant-numeric: tabular-nums;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* `margin-top: auto` pins the action to the bottom of a stretched card row, so
+   the enquiry buttons align even when one card has a longer anchor. */
+.divider {
+  margin: auto 0 rem(12px);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: rem(6px);
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: rem(40px);
+  padding: 0 rem(14px);
+  border: 1px solid transparent;
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-brand);
+  color: var(--app-brand-contrast);
+  font-size: var(--text-button-size);
+  font-weight: var(--text-button-weight);
+  line-height: var(--text-button-leading);
+  text-decoration: none;
+  transition:
+    background-color var(--app-duration-micro) var(--app-ease-out),
+    color var(--app-duration-micro) var(--app-ease-out);
+
+  @mixin hover {
+    /* Colour is scheme-scoped, so hover keeps the same token family. */
+    background-color: var(--app-brand-soft-hover);
+    color: var(--app-brand-soft-text);
+  }
+
+  &:active {
+    background-color: var(--app-brand-soft);
+  }
+}
+
+.actionIcon {
+  flex: 0 0 auto;
+}
+
+/* Reduced motion keeps the state change (colour *is* the affordance) and drops
+   the position-carrying one (the lift). */
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+
+  .card:hover {
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,76 @@
+.filters {
+  margin-bottom: rem(20px);
+}
+
+.chipList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: rem(8px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: rem(32px);
+  padding: 0 rem(12px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-pill);
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: 650;
+  text-decoration: none;
+
+  @mixin hover {
+    border-color: var(--app-border-strong);
+    color: var(--app-text);
+  }
+}
+
+/* The active chip differs by border and fill, not by colour alone. */
+.chipActive {
+  border-color: var(--app-brand);
+  background-color: var(--app-brand-soft);
+  color: var(--app-brand-soft-text);
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(12px);
+  margin-top: rem(24px);
+}
+
+.pageLink {
+  display: inline-flex;
+  align-items: center;
+  min-height: rem(36px);
+  padding: 0 rem(16px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-control);
+  color: var(--app-text);
+  font-size: var(--text-secondary-size);
+  font-weight: 650;
+  text-decoration: none;
+
+  @mixin hover {
+    border-color: var(--app-border-strong);
+    background-color: var(--app-surface-muted);
+  }
+}
+
+.pageLinkDisabled {
+  color: var(--app-text-subtle);
+  cursor: not-allowed;
+}
+
+.pageStatus {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  font-variant-numeric: tabular-nums;
+}

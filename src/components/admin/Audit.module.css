@@ -1,0 +1,103 @@
+/*
+ * Audit log table.
+ *
+ * The log is the densest read in the product: eleven columns of record data that
+ * an investigator scans for one entry. It therefore uses the same table
+ * treatment as the other three admin tables (`AdminTableRegion` supplies the
+ * dense context, the hairline row rules, the zebra fill and the sticky header),
+ * and adds only what is specific to it: a detail row and monospace record ids.
+ */
+
+.root {
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  overflow: hidden;
+  background: var(--app-surface-raised);
+}
+
+.scroller {
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  font-size: var(--text-dense-size);
+  font-weight: var(--text-dense-weight);
+  line-height: var(--text-dense-leading);
+}
+
+.th {
+  font-size: var(--text-caption-size);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--app-text-muted);
+  background: var(--app-surface-muted);
+  white-space: nowrap;
+}
+
+.td {
+  vertical-align: top;
+}
+
+/* A free-text cell in a fixed-width column: one line, then ellipsis, with the
+   full value on the `title`. `table-layout: fixed` is what gives the ellipsis
+   an actual box to overflow. */
+.truncate {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* The expanded metadata row is a recessed well inside the table, so a reader
+   never confuses it with a record row. */
+.detailCell {
+  background: var(--app-surface-sunken);
+  border-top: 1px solid var(--app-border);
+}
+
+.detailLabel {
+  font-size: var(--text-label-size);
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  color: var(--app-text-muted);
+}
+
+.code {
+  font-size: var(--text-caption-size);
+  max-height: rem(260px);
+  overflow: auto;
+}
+
+/* A technical badge inside the expanded row. It is a label, not a status, so it
+   stays neutral and out of the semantic tones. */
+.metaBadge {
+  font-size: var(--text-caption-size);
+  font-weight: 550;
+  font-variant-numeric: tabular-nums;
+  color: var(--app-text-muted);
+  border-color: var(--app-border);
+}
+
+.id {
+  font-family: var(--mantine-font-family-monospace);
+  overflow-wrap: anywhere;
+}
+
+.emptyWrap {
+  margin-top: var(--mantine-spacing-md);
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

@@ -1,0 +1,96 @@
+/*
+ * Pagination.
+ *
+ * Controls are 32px square (24px minimum clears WCAG 2.2 SC 2.5.8 even at the
+ * `sm` step, which is 28px here), radius is the control step and never a pill —
+ * a page number is a control, not a badge. The active page is a brand fill with
+ * `aria-current="page"` on the element, so the state is not carried by colour
+ * alone.
+ */
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: rem(4px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.control {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: rem(36px);
+  height: rem(36px);
+  padding-inline: rem(8px);
+  border: 1px solid transparent;
+  border-radius: var(--app-radius-control);
+  background-color: transparent;
+  color: var(--app-text);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    background-color var(--app-duration-micro) var(--app-ease-in-out),
+    border-color var(--app-duration-micro) var(--app-ease-in-out),
+    color var(--app-duration-micro) var(--app-ease-in-out);
+}
+
+.control:hover:not(:disabled) {
+  border-color: var(--app-border);
+  background-color: var(--app-surface-hover);
+}
+
+.control:active:not(:disabled) {
+  background-color: var(--app-surface-muted);
+}
+
+.control[aria-current='page'] {
+  border-color: var(--app-brand);
+  background-color: var(--app-brand);
+  color: var(--app-brand-contrast);
+}
+
+.control:disabled {
+  color: var(--app-text-subtle);
+  cursor: not-allowed;
+}
+
+.control:focus-visible {
+  outline: 2px solid var(--app-focus-ring);
+  outline-offset: 2px;
+}
+
+.dots {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: rem(24px);
+  height: rem(36px);
+  color: var(--app-text-subtle);
+  font-size: var(--text-label-size);
+}
+
+.sm .control {
+  min-width: rem(30px);
+  height: rem(30px);
+}
+
+.sm .dots {
+  height: rem(30px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .control {
+    transition: none;
+  }
+}

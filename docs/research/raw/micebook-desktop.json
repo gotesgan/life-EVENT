@@ -1,0 +1,1099 @@
+{
+ "slug": "micebook",
+ "mode": "desktop",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "Sponsored Content Monaco: one destination, endless possibilities",
+   "r": {
+    "x": 135,
+    "y": 1548,
+    "w": 780,
+    "h": 509
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(119, 119, 119)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 780,
+    "h": 509
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(119, 119, 119)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://micebook.com/",
+  "title": "The eventprof community home - micebook.",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 16526,
+  "headings": [
+   {
+    "tag": "H2",
+    "text": "Monaco: one destination, endless possibilities",
+    "x": 135,
+    "y": 1956,
+    "w": 529,
+    "h": 86
+   },
+   {
+    "tag": "H2",
+    "text": "The Shortcut to a More Sustainable Meeting in Washington, DC",
+    "x": 1072,
+    "y": 1548,
+    "w": 208,
+    "h": 65
+   },
+   {
+    "tag": "H2",
+    "text": "Discover Sotogrande: Where sport, nature and Mediterranean living meet",
+    "x": 1072,
+    "y": 1651,
+    "w": 208,
+    "h": 65
+   },
+   {
+    "tag": "H2",
+    "text": "Venue Showcase: PortAventura Business & Events: Where business meets experience",
+    "x": 1072,
+    "y": 1753,
+    "w": 208,
+    "h": 65
+   },
+   {
+    "tag": "H2",
+    "text": "Inside Convene Hospitality’s Next Chapter: New Flagship Venues in London and New York",
+    "x": 1072,
+    "y": 1856,
+    "w": 208,
+    "h": 80
+   },
+   {
+    "tag": "H2",
+    "text": "Costa del Sol: a MICE destination that has it all",
+    "x": 1072,
+    "y": 1974,
+    "w": 208,
+    "h": 65
+   },
+   {
+    "tag": "H2",
+    "text": "Moving together: X: by micebook 2026 highlights",
+    "x": 135,
+    "y": 12498,
+    "w": 556,
+    "h": 86
+   },
+   {
+    "tag": "H2",
+    "text": "Yellow Fish owners launch The Curiosity Collective and new experiential agency",
+    "x": 1072,
+    "y": 12090,
+    "w": 208,
+    "h": 65
+   },
+   {
+    "tag": "H2",
+    "text": "Case Study: How Principal brought 50 years of Day Lewis to life",
+    "x": 1072,
+    "y": 12192,
+    "w": 208,
+    "h": 65
+   },
+   {
+    "tag": "H2",
+    "text": "Only 5% of event profs truly understand their clients’ hidden barriers, PCMA research finds",
+    "x": 1068,
+    "y": 12295,
+    "w": 212,
+    "h": 62
+   },
+   {
+    "tag": "H2",
+    "text": "James Wallman announced as keynote speaker for micebook LUXE 2026",
+    "x": 1072,
+    "y": 12395,
+    "w": 208,
+    "h": 65
+   },
+   {
+    "tag": "H2",
+    "text": "What a Difference a Day Makes: 24 hours at Fairmont Cheshire The Mere",
+    "x": 1072,
+    "y": 12498,
+    "w": 208,
+    "h": 65
+   },
+   {
+    "tag": "H4",
+    "text": "Nineteen Unfiltered",
+    "x": 135,
+    "y": 12901,
+    "w": 1170,
+    "h": 26
+   },
+   {
+    "tag": "H3",
+    "text": "Join Our Community",
+    "x": 135,
+    "y": 15718,
+    "w": 1170,
+    "h": 33
+   },
+   {
+    "tag": "H2",
+    "text": "Our events",
+    "x": 440,
+    "y": 16200,
+    "w": 255,
+    "h": 40
+   },
+   {
+    "tag": "H2",
+    "text": "Inspiration",
+    "x": 745,
+    "y": 16200,
+    "w": 255,
+    "h": 40
+   },
+   {
+    "tag": "H2",
+    "text": "About us",
+    "x": 1050,
+    "y": 16200,
+    "w": 255,
+    "h": 40
+   }
+  ],
+  "header": {
+   "tag": "HEADER",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 60
+   },
+   "style": {
+    "position": "relative",
+    "top": "0px",
+    "height": "60px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderBottom": "0px none rgb(119, 119, 119)",
+    "boxShadow": "none",
+    "zIndex": "999"
+   },
+   "text": "| Instagram LinkedIn Flickr community events articles destinations media kit",
+   "links": [
+    {
+     "t": "user",
+     "tag": "A",
+     "href": "/my-account",
+     "r": {
+      "x": 1261,
+      "y": 18,
+      "w": 14,
+      "h": 22
+     }
+    },
+    {
+     "t": "cart",
+     "tag": "A",
+     "href": "/basket",
+     "r": {
+      "x": 1291,
+      "y": 18,
+      "w": 14,
+      "h": 22
+     }
+    },
+    {
+     "t": "Instagram",
+     "tag": "A",
+     "href": "https://www.instagram.com/micebook/",
+     "r": {
+      "x": 1129,
+      "y": 0,
+      "w": 36,
+      "h": 60
+     }
+    },
+    {
+     "t": "LinkedIn",
+     "tag": "A",
+     "href": "https://www.linkedin.com/company/micebook?trk=top_nav_home",
+     "r": {
+      "x": 1165,
+      "y": 0,
+      "w": 36,
+      "h": 60
+     }
+    },
+    {
+     "t": "Flickr",
+     "tag": "A",
+     "href": "https://www.flickr.com/photos/203639041@N04/",
+     "r": {
+      "x": 1200,
+      "y": 0,
+      "w": 36,
+      "h": 60
+     }
+    },
+    {
+     "t": "community",
+     "tag": "A",
+     "href": "https://micebook.com/buyer/",
+     "r": {
+      "x": 627,
+      "y": 0,
+      "w": 105,
+      "h": 60
+     }
+    },
+    {
+     "t": "events",
+     "tag": "A",
+     "href": "https://micebook.com/events/",
+     "r": {
+      "x": 732,
+      "y": 0,
+      "w": 72,
+      "h": 60
+     }
+    },
+    {
+     "t": "articles",
+     "tag": "A",
+     "href": "https://micebook.com/news/",
+     "r": {
+      "x": 804,
+      "y": 0,
+      "w": 77,
+      "h": 60
+     }
+    },
+    {
+     "t": "destinations",
+     "tag": "A",
+     "href": null,
+     "r": {
+      "x": 880,
+      "y": 0,
+      "w": 112,
+      "h": 60
+     }
+    },
+    {
+     "t": "media kit",
+     "tag": "A",
+     "href": "https://micebook.com/supplier/",
+     "r": {
+      "x": 993,
+      "y": 0,
+      "w": 91,
+      "h": 60
+     }
+    }
+   ]
+  },
+  "navAll": [
+   "community",
+   "events",
+   "articles",
+   "destinations",
+   "media kit"
+  ],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Name*",
+    "aria": null,
+    "name": "your-firstname",
+    "r": {
+     "x": 155,
+     "y": 15820,
+     "w": 363,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Company",
+    "aria": null,
+    "name": "your-company",
+    "r": {
+     "x": 538,
+     "y": 15820,
+     "w": 363,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Email*",
+    "aria": null,
+    "name": "your-email",
+    "r": {
+     "x": 922,
+     "y": 15820,
+     "w": 363,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "ph": null,
+    "aria": null,
+    "name": "your-consent",
+    "r": {
+     "x": 159,
+     "y": 16004,
+     "w": 13,
+     "h": 13
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "submit",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 155,
+     "y": 16063,
+     "w": 112,
+     "h": 47
+    }
+   }
+  ],
+  "filterContainers": [],
+  "images": [
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/05/25071857/micebook_logo_new.png",
+    "alt": "micebook.",
+    "nat": "1250x197",
+    "r": {
+     "x": 135,
+     "y": 18,
+     "w": 152,
+     "h": 24
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/10/08094142/DL-Article-Photos-Size-1920-x-1280-px-6-768x512.jpg",
+    "alt": "",
+    "nat": "755x503",
+    "r": {
+     "x": 135,
+     "y": 1548,
+     "w": 755,
+     "h": 503
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/10/02134238/DL-Article-Photos-Size-1920-x-1280-px-2-300x200.jpg",
+    "alt": "",
+    "nat": "112x74",
+    "r": {
+     "x": 940,
+     "y": 1548,
+     "w": 112,
+     "h": 75
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/09/22095159/Copy-of-DL-Article-Photos-Size-1920-x-1280-px-4-300x200.jpg",
+    "alt": "",
+    "nat": "112x74",
+    "r": {
+     "x": 940,
+     "y": 1651,
+     "w": 112,
+     "h": 75
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/05/22112608/Copy-of-DL-Article-Photos-Size-1920-x-1280-px-2-300x200.png",
+    "alt": "",
+    "nat": "112x74",
+    "r": {
+     "x": 940,
+     "y": 1753,
+     "w": 112,
+     "h": 75
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/09/14193602/Copy-of-DL-Article-Photos-Size-1920-x-1280-px-1-3-300x200.jpg",
+    "alt": "",
+    "nat": "112x74",
+    "r": {
+     "x": 940,
+     "y": 1856,
+     "w": 112,
+     "h": 90
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/08/28121305/DL-Article-Photos-Size-1920-x-1280-px-10-300x200.jpg",
+    "alt": "",
+    "nat": "112x74",
+    "r": {
+     "x": 940,
+     "y": 1974,
+     "w": 112,
+     "h": 75
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/10/05162959/55568662889_02ca0910f0_h.jpg",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 135,
+     "y": 12090,
+     "w": 755,
+     "h": 503
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/10/05102232/Copy-of-DL-Article-Photos-Size-1920-x-1280-px-4-300x200.jpg",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 940,
+     "y": 12090,
+     "w": 112,
+     "h": 75
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/09/28170233/DayLewisAwards2025-195-300x200.jpg",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 940,
+     "y": 12192,
+     "w": 112,
+     "h": 75
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/09/29173503/IMG_2384-300x200.jpeg",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 940,
+     "y": 12295,
+     "w": 108,
+     "h": 72
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/09/28153654/James_Wallman-300x200.png",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 940,
+     "y": 12395,
+     "w": 112,
+     "h": 75
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/09/28165717/15.09.26AccorRendezvous-0001-300x200.jpg",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 940,
+     "y": 12498,
+     "w": 112,
+     "h": 75
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/03/28130155/micebook_logo.webp",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 135,
+     "y": 16200,
+     "w": 168,
+     "h": 40
+    },
+    "fit": "fill",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 755,
+      "h": 503
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 135,
+       "y": 2034,
+       "w": 755,
+       "h": 22
+      },
+      "text": "Sponsored Content",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(241, 177, 68)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "img-cont-left rel",
+      "r": {
+       "x": 135,
+       "y": 1548,
+       "w": 755,
+       "h": 509
+      },
+      "text": "Sponsored Content",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(119, 119, 119)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "inner-left",
+      "r": {
+       "x": 135,
+       "y": 1548,
+       "w": 755,
+       "h": 509
+      },
+      "text": "Sponsored Content Monaco: one destination, endless possibilities",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(119, 119, 119)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "wpb_column grve-column grve-column-2-3 left-cont",
+      "r": {
+       "x": 135,
+       "y": 1548,
+       "w": 780,
+       "h": 509
+      },
+      "text": "Sponsored Content Monaco: one destination, endless possibilities",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(119, 119, 119)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 25px 0px 0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "grve-container",
+      "r": {
+       "x": 135,
+       "y": 1548,
+       "w": 1170,
+       "h": 509
+      },
+      "text": "Sponsored Content Monaco: one destination, endless possibilities The Shortcut to a More Sustainable Meeting in Washington, DC Discover Sotogrande: Where sport, nature and Mediterranean living meet Venue Showcase: PortAventura Business & Events: Where business ",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(119, 119, 119)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 755,
+      "h": 503
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 135,
+       "y": 12576,
+       "w": 755,
+       "h": 22
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(241, 177, 68)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "img-cont-left",
+      "r": {
+       "x": 135,
+       "y": 12090,
+       "w": 755,
+       "h": 509
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(119, 119, 119)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "inner-left",
+      "r": {
+       "x": 135,
+       "y": 12090,
+       "w": 755,
+       "h": 509
+      },
+      "text": "Moving together: X: by micebook 2026 highlights",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(119, 119, 119)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "wpb_column grve-column grve-column-2-3 left-cont",
+      "r": {
+       "x": 135,
+       "y": 12090,
+       "w": 780,
+       "h": 509
+      },
+      "text": "Moving together: X: by micebook 2026 highlights",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(119, 119, 119)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 25px 0px 0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "grve-container",
+      "r": {
+       "x": 135,
+       "y": 12090,
+       "w": 1170,
+       "h": 509
+      },
+      "text": "Moving together: X: by micebook 2026 highlights Yellow Fish owners launch The Curiosity Collective and new experiential agency Case Study: How Principal brought 50 years of Day Lewis to life Only 5% of event profs truly understand their clients’ hidden barrier",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(119, 119, 119)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "user",
+   "cart",
+   "Instagram",
+   "LinkedIn",
+   "Flickr",
+   "community",
+   "events",
+   "articles",
+   "destinations",
+   "media kit",
+   "View",
+   "Sponsored Content",
+   "Monaco: one destination, endless possibilities",
+   "Costa del Sol: a MICE destination that has it all",
+   "Moving together: X: by micebook 2026 highlights",
+   "FIND OUT MORE",
+   "Our events",
+   "Event Sponsorship",
+   "Articles",
+   "Destinations",
+   "About micebook",
+   "Advertising",
+   "Get in touch with the Team",
+   "Sustainability",
+   "T&C",
+   "PRIVACY"
+  ],
+  "bodyText": "|\nInstagram\nLinkedIn\nFlickr\ncommunity\nevents\narticles\ndestinations\nmedia kit\n01\n02\n03\n04\n05\n06\n07\ndas kollektiv\nView\nmicebook C Suite Summit - Das Kollektiv\nDas Achental, Grassau, Germany\n26-27 November 2026\n08\n09\n\nSponsored Content\n\nMonaco: one destination, endless possibilities\nThe Shortcut to a More Sustainable Meeting in Washington, DC\nDiscover Sotogrande: Where sport, nature and Mediterranean living meet\nVenue Showcase: PortAventura Business & Events: Where business meets experience\nInside Convene Hospitality’s Next Chapter: New Flagship Venues in London and New York\nCosta del Sol: a MICE destination that has it all\nMoving together: X: by micebook 2026 highlights\nYellow Fish owners launch The Curiosity Collective and new experiential agency\nCase Study: How Principal brought 50 years of Day Lewis to life\nOnly 5% of event profs truly understand their clients’ hidden barriers, PCMA research finds\nJames Wallman announced as keynote speaker for micebook LUXE 2026\nWhat a Difference a Day Makes: 24 hours at Fairmont Cheshire The Mere\nNineteen Unfiltered\n\nnineteen unfiltered: a candid podcast series that brings together some of the industry’s most influential leaders for honest conversations, from navigating business growth to shaping the future of the industry.\n\nFIND OUT MORE\nJoin Our Community\n\nJoin our community and receive the latest trending industry news in our weekly Departure Lounge and exclusive invites to events\n\nPick your playground...*\n—Please choose an option—\nBuyer(Agency)\nBuyer(CEO/Agency Leader)\nBuyer(Corporate)\nSupplier\nOther\n\nI agree to be added to the micebook mailing list.\n\nOur events\n\nOur events\nEvent Sponsorship\n\nInspiration\n\nArticles\nDestinations\n\nAbout us\n\nAbout micebook\nAdvertising\nGet in touch with the Team\nSustainability\n\nCOPYRIGHT MICEBOOK. 2019 | ALL RIGHTS RESERVED | T&C | PRIVACY\nBESbswyBESbswyBESbswy",
+  "typeRoles": {
+   "h1": [],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, h2, h3",
+     "text": "Monaco: one destination, endless possibilities",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "30px",
+      "margin": "0px 0px 15.224px"
+     },
+     "r": {
+      "x": 135,
+      "y": 1956,
+      "w": 529,
+      "h": 86
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, h2, h3",
+     "text": "The Shortcut to a More Sustainable Meeting in Washington, DC",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 9.688px"
+     },
+     "r": {
+      "x": 1072,
+      "y": 1548,
+      "w": 208,
+      "h": 65
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, h2, h3",
+     "text": "Discover Sotogrande: Where sport, nature and Mediterranean living meet",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 9.688px"
+     },
+     "r": {
+      "x": 1072,
+      "y": 1651,
+      "w": 208,
+      "h": 65
+     }
+    }
+   ],
+   "card-meta": [],
+   "filter-label": [
+    {
+     "sel": "label, [class*='filter'] label",
+     "text": "Pick your playground...*",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px 0px 10px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 155,
+      "y": 15894,
+      "w": 1130,
+      "h": 34
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label",
+     "text": "I agree to be added to the micebook mailing list.",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px 0px 10px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 155,
+      "y": 15999,
+      "w": 382,
+      "h": 34
+     }
+    }
+   ],
+   "nav-link": [
+    {
+     "sel": "header nav a, header a",
+     "text": "",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(241, 177, 68)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(241, 177, 68)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 135,
+      "y": 30,
+      "w": 152,
+      "h": 24
+     }
+    },
+    {
+     "sel": "header nav a, header a",
+     "text": "user",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1261,
+      "y": 18,
+      "w": 14,
+      "h": 22
+     }
+    },
+    {
+     "sel": "header nav a, header a",
+     "text": "cart",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1291,
+      "y": 18,
+      "w": 14,
+      "h": 22
+     }
+    }
+   ],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(119, 119, 119)",
+    "fontFamily": "\"Open Sans\"",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

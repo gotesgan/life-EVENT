@@ -1,0 +1,55 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  gap: rem(10px);
+  color: var(--app-text);
+  text-decoration: none;
+}
+
+.mark {
+  flex-shrink: 0;
+  display: block;
+  border-radius: rem(9px);
+}
+
+.wordmark {
+  font-weight: 760;
+  letter-spacing: -0.025em;
+  white-space: nowrap;
+}
+
+/* The brass full stop: the only decorative mark in the identity, and it is a
+   typographic character rather than an effect. */
+.stop {
+  color: var(--app-accent);
+}
+
+.sm .mark {
+  width: rem(24px);
+  height: rem(24px);
+}
+
+.sm .wordmark {
+  font-size: var(--text-secondary-size);
+  line-height: 1;
+}
+
+.md .mark {
+  width: rem(28px);
+  height: rem(28px);
+}
+
+.md .wordmark {
+  font-size: var(--text-card-title-size);
+  line-height: 1;
+}
+
+.lg .mark {
+  width: rem(36px);
+  height: rem(36px);
+}
+
+.lg .wordmark {
+  font-size: 1.5rem;
+  line-height: 1;
+}

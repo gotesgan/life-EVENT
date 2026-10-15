@@ -1,0 +1,777 @@
+URL_REQUESTED https://www.venuelook.com/delhi/banquet-halls
+STATUS 200
+FINAL_URL https://www.venuelook.com/delhi/banquet-halls
+TITLE Top 30 Best Banquet Halls in Delhi for Weddings, Parties & Events | 16 October 2026
+STAGE pre-screenshot 19906 ms
+SCREENSHOT docs/research/shots/venuelook-listing-mobile.png
+STAGE pre-extract 20301 ms
+STAGE pre-hover 20346 ms
+RAW docs/research/raw/venuelook-mlisting.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(33, 37, 41)","fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 39x202 "List of Best Banquet Halls in Delhi"
+  H2 16x230 "Best 1788 Out of 3438 Banquet Halls & Party Places in Delhi"
+  H3 8x111 "Popular Venues in delhi"
+  H3 75x24 "China Fort"
+  H3 88x24 "Hotel Amara"
+  H3 85x24 "38 Barracks"
+  H3 112x58 "Banquet And Party Hall Bite Bikaner"
+  H3 112x38 "Royal Party Place"
+  H3 100x210 "List of Banquet Halls in Delhi with Starting Prices"
+  H3 64x128 "GET UPTO 10 % DISCOUNT"
+  H4 47x78 "Frequently Asked Questions"
+  H3 639x29 "Get Upto 30% Discount on venues and vendors"
+--- HEADER {"position":"static","top":"auto","height":"105px","backgroundColor":"rgba(0, 0, 0, 0)","borderBottom":"0px none rgb(33, 37, 41)","boxShadow":"none","zIndex":"auto"} 64x105
+--- HEADER_TEXT Home Delhi Banquet Halls in Delhi
+--- HEADER_LINKS Home | Delhi
+--- NAV_ALL Home | Delhi
+--- SEARCH_INPUTS
+  {"tag":"INPUT","type":"text","ph":"Delhi","aria":null,"name":null,"r":{"x":21,"y":530,"w":47,"h":52}}
+  {"tag":"INPUT","type":"text","ph":"Search by Venue Name","aria":null,"name":null,"r":{"x":39,"y":530,"w":47,"h":52}}
+  {"tag":"INPUT","type":"text","ph":"Your Name","aria":"Enter your full name","name":null,"r":{"x":28,"y":19352,"w":26,"h":35}}
+  {"tag":"INPUT","type":"email","ph":"Email","aria":"Enter your email address","name":null,"r":{"x":28,"y":19403,"w":26,"h":35}}
+  {"tag":"INPUT","type":null,"ph":"Your Number","aria":"Enter your phone number","name":null,"r":{"x":28,"y":19454,"w":26,"h":35}}
+  {"tag":"INPUT","type":"text","ph":"Select Event Date","aria":null,"name":null,"r":{"x":28,"y":19556,"w":18,"h":33}}
+  {"tag":"INPUT","type":"email","ph":"Your E-mail","aria":null,"name":null,"r":{"x":-19,"y":25984,"w":36,"h":35}}
+  {"tag":"INPUT","type":"text","ph":"Type to search","aria":null,"name":null,"r":{"x":58,"y":692,"w":577,"h":42}}
+--- FILTER_CONTAINERS
+  [0] DIV "search_searchFilterMenu__G1Ymu" {"x":0,"y":51,"w":709,"h":50} CTRLS=[{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"More Filters"}]
+  [1] DIV "search_filterBtn__4MeS9" {"x":568,"y":51,"w":141,"h":50} CTRLS=[{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"More Filters"}]
+--- CARDS
+  [0] imgRatio=1.925 770x400 alt="Banner Background"
+     d0 DIV "s" 770x400 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "p-0 m-0 d-flex justify-content-end col-md-5" 63x400 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "search_searchBannerRow__S8odH row" 71x933 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 0px 7.8px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="List of Best Banquet Halls in Delhi Wedding Wedding Reception Wedding Anniversary Birthday Party Corporate Event Home Delhi Banquet Halls in Delhi"
+     d3 DIV "search_searchNannerContainerFluid__vpUrm container-fluid" 71x400 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"rgba(0, 0, 0, 0.24) 0px 3px 8px 0px","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 12px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="List of Best Banquet Halls in Delhi Wedding Wedding Reception Wedding Anniversary Birthday Party Corporate Event Home Delhi Banquet Halls in Delhi"
+     d4 MAIN "overFlow" 71x25781 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden auto","display":"block","gap":"normal"} TEXT="Location Occasion Space Type Region Food Type More Filters List of Best Banquet Halls in Delhi Wedding Wedding Reception Wedding Anniversary Birthday Party Corporate Event Home Delhi Banquet Halls in Delhi Best 1788 Out
+  [1] imgRatio=1.2 180x150 alt="logo"
+     d0 DIV "" 180x310 {"borderRadius":"8px","border":"0px none rgb(33, 37, 41)","boxShadow":"rgba(0, 0, 0, 0.1) 0px 4px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"10px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="China Fort 4.2 Delhi Rs. 750 per plate Rs. 850 per plate"
+     d1 DIV "" 24x330 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="China Fort 4.2 Delhi Rs. 750 per plate Rs. 850 per plate Hotel Amara 3.6 Delhi Rs. 1000 per plate Rs. 1200 per plate 38 Barracks 4.5 Delhi Rs. 1395 per plate Rs. 1395 per plate Banquet And Party Hall Bite Bikaner 4.9 De
+     d2 DIV "" 24x457 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgb(237, 237, 237)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Popular Venues in delhi China Fort 4.2 Delhi Rs. 750 per plate Rs. 850 per plate Hotel Amara 3.6 Delhi Rs. 1000 per plate Rs. 1200 per plate 38 Barracks 4.5 Delhi Rs. 1395 per plate Rs. 1395 per plate Banquet And Party 
+     d3 DIV "search_rightSections__vKDr3 col-md-12" 24x18925 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Banquet Halls Grid List 50-200 6078 Gola Sizzlers Preet Vihar More... 4.6 ( 2 reviews) The Ballro... Rs. 1500 per plate Rs. 1500 per plate Preet Viha... 15-400 1564 Hotel Jageer Palace More... 4.8 ( 2 reviews) Grand Bal
+     d4 DIV "search_sectionsContainer__NZinB row" 47x18925 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 11.7px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Banquet Halls Grid List 50-200 6078 Gola Sizzlers Preet Vihar More... 4.6 ( 2 reviews) The Ballro... Rs. 1500 per plate Rs. 1500 per plate Preet Viha... 15-400 1564 Hotel Jageer Palace More... 4.8 ( 2 reviews) Grand Bal
+  [2] imgRatio=1.2 180x150 alt="logo"
+     d0 DIV "" 180x310 {"borderRadius":"8px","border":"0px none rgb(33, 37, 41)","boxShadow":"rgba(0, 0, 0, 0.1) 0px 4px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"10px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Hotel Amara 3.6 Delhi Rs. 1000 per plate Rs. 1200 per plate"
+     d1 DIV "" 24x330 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="China Fort 4.2 Delhi Rs. 750 per plate Rs. 850 per plate Hotel Amara 3.6 Delhi Rs. 1000 per plate Rs. 1200 per plate 38 Barracks 4.5 Delhi Rs. 1395 per plate Rs. 1395 per plate Banquet And Party Hall Bite Bikaner 4.9 De
+     d2 DIV "" 24x457 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgb(237, 237, 237)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Popular Venues in delhi China Fort 4.2 Delhi Rs. 750 per plate Rs. 850 per plate Hotel Amara 3.6 Delhi Rs. 1000 per plate Rs. 1200 per plate 38 Barracks 4.5 Delhi Rs. 1395 per plate Rs. 1395 per plate Banquet And Party 
+     d3 DIV "search_rightSections__vKDr3 col-md-12" 24x18925 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Banquet Halls Grid List 50-200 6078 Gola Sizzlers Preet Vihar More... 4.6 ( 2 reviews) The Ballro... Rs. 1500 per plate Rs. 1500 per plate Preet Viha... 15-400 1564 Hotel Jageer Palace More... 4.8 ( 2 reviews) Grand Bal
+     d4 DIV "search_sectionsContainer__NZinB row" 47x18925 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 11.7px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Banquet Halls Grid List 50-200 6078 Gola Sizzlers Preet Vihar More... 4.6 ( 2 reviews) The Ballro... Rs. 1500 per plate Rs. 1500 per plate Preet Viha... 15-400 1564 Hotel Jageer Palace More... 4.8 ( 2 reviews) Grand Bal
+  [3] imgRatio=1.2 180x150 alt="logo"
+     d0 DIV "" 180x310 {"borderRadius":"8px","border":"0px none rgb(33, 37, 41)","boxShadow":"rgba(0, 0, 0, 0.1) 0px 4px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"10px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="38 Barracks 4.5 Delhi Rs. 1395 per plate Rs. 1395 per plate"
+     d1 DIV "" 24x330 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="China Fort 4.2 Delhi Rs. 750 per plate Rs. 850 per plate Hotel Amara 3.6 Delhi Rs. 1000 per plate Rs. 1200 per plate 38 Barracks 4.5 Delhi Rs. 1395 per plate Rs. 1395 per plate Banquet And Party Hall Bite Bikaner 4.9 De
+     d2 DIV "" 24x457 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgb(237, 237, 237)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Popular Venues in delhi China Fort 4.2 Delhi Rs. 750 per plate Rs. 850 per plate Hotel Amara 3.6 Delhi Rs. 1000 per plate Rs. 1200 per plate 38 Barracks 4.5 Delhi Rs. 1395 per plate Rs. 1395 per plate Banquet And Party 
+     d3 DIV "search_rightSections__vKDr3 col-md-12" 24x18925 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Banquet Halls Grid List 50-200 6078 Gola Sizzlers Preet Vihar More... 4.6 ( 2 reviews) The Ballro... Rs. 1500 per plate Rs. 1500 per plate Preet Viha... 15-400 1564 Hotel Jageer Palace More... 4.8 ( 2 reviews) Grand Bal
+     d4 DIV "search_sectionsContainer__NZinB row" 47x18925 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 11.7px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Banquet Halls Grid List 50-200 6078 Gola Sizzlers Preet Vihar More... 4.6 ( 2 reviews) The Ballro... Rs. 1500 per plate Rs. 1500 per plate Preet Viha... 15-400 1564 Hotel Jageer Palace More... 4.8 ( 2 reviews) Grand Bal
+  [4] imgRatio=1.2 180x150 alt="logo"
+     d0 DIV "" 180x310 {"borderRadius":"8px","border":"0px none rgb(33, 37, 41)","boxShadow":"rgba(0, 0, 0, 0.1) 0px 4px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"10px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Banquet And Party Hall Bite Bikaner 4.9 Delhi Rs. 800 per plate"
+     d1 DIV "" 24x330 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="China Fort 4.2 Delhi Rs. 750 per plate Rs. 850 per plate Hotel Amara 3.6 Delhi Rs. 1000 per plate Rs. 1200 per plate 38 Barracks 4.5 Delhi Rs. 1395 per plate Rs. 1395 per plate Banquet And Party Hall Bite Bikaner 4.9 De
+     d2 DIV "" 24x457 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgb(237, 237, 237)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Popular Venues in delhi China Fort 4.2 Delhi Rs. 750 per plate Rs. 850 per plate Hotel Amara 3.6 Delhi Rs. 1000 per plate Rs. 1200 per plate 38 Barracks 4.5 Delhi Rs. 1395 per plate Rs. 1395 per plate Banquet And Party 
+     d3 DIV "search_rightSections__vKDr3 col-md-12" 24x18925 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Banquet Halls Grid List 50-200 6078 Gola Sizzlers Preet Vihar More... 4.6 ( 2 reviews) The Ballro... Rs. 1500 per plate Rs. 1500 per plate Preet Viha... 15-400 1564 Hotel Jageer Palace More... 4.8 ( 2 reviews) Grand Bal
+     d4 DIV "search_sectionsContainer__NZinB row" 47x18925 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 11.7px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Banquet Halls Grid List 50-200 6078 Gola Sizzlers Preet Vihar More... 4.6 ( 2 reviews) The Ballro... Rs. 1500 per plate Rs. 1500 per plate Preet Viha... 15-400 1564 Hotel Jageer Palace More... 4.8 ( 2 reviews) Grand Bal
+  [5] imgRatio=1.2 180x150 alt="logo"
+     d0 DIV "" 180x310 {"borderRadius":"8px","border":"0px none rgb(33, 37, 41)","boxShadow":"rgba(0, 0, 0, 0.1) 0px 4px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"10px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Royal Party Place 4.9 Delhi Rs. 795 per plate Rs. 1095 per plate"
+     d1 DIV "" 24x330 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="China Fort 4.2 Delhi Rs. 750 per plate Rs. 850 per plate Hotel Amara 3.6 Delhi Rs. 1000 per plate Rs. 1200 per plate 38 Barracks 4.5 Delhi Rs. 1395 per plate Rs. 1395 per plate Banquet And Party Hall Bite Bikaner 4.9 De
+     d2 DIV "" 24x457 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgb(237, 237, 237)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Popular Venues in delhi China Fort 4.2 Delhi Rs. 750 per plate Rs. 850 per plate Hotel Amara 3.6 Delhi Rs. 1000 per plate Rs. 1200 per plate 38 Barracks 4.5 Delhi Rs. 1395 per plate Rs. 1395 per plate Banquet And Party 
+     d3 DIV "search_rightSections__vKDr3 col-md-12" 24x18925 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Banquet Halls Grid List 50-200 6078 Gola Sizzlers Preet Vihar More... 4.6 ( 2 reviews) The Ballro... Rs. 1500 per plate Rs. 1500 per plate Preet Viha... 15-400 1564 Hotel Jageer Palace More... 4.8 ( 2 reviews) Grand Bal
+     d4 DIV "search_sectionsContainer__NZinB row" 47x18925 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 11.7px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Banquet Halls Grid List 50-200 6078 Gola Sizzlers Preet Vihar More... 4.6 ( 2 reviews) The Ballro... Rs. 1500 per plate Rs. 1500 per plate Preet Viha... 15-400 1564 Hotel Jageer Palace More... 4.8 ( 2 reviews) Grand Bal
+--- IMAGES
+  6x1 nat=155x23 fit=fill radius=0px alt="venuelogo"
+  33x33 nat=207x231 fit=fill radius=0px alt="location icon"
+  20x20 nat=20x20 fit=fill radius=0px alt="filterlogo"
+  20x20 nat=24x24 fit=fill radius=0px alt="search"
+  770x400 nat=796x300 fit=fill radius=0px alt="Banner Background"
+  12x12 nat=13x13 fit=fill radius=0px alt="logo"
+  12x12 nat=14x14 fit=fill radius=0px alt="logo"
+  12x12 nat=20x14 fit=fill radius=0px alt="logo"
+  25x25 nat=29x29 fit=cover radius=0px alt="pic"
+  18x18 nat=15x15 fit=fill radius=0px alt="icon"
+  18x18 nat=14x14 fit=fill radius=0px alt="pic"
+  25x25 nat=29x29 fit=cover radius=0px alt="pic"
+  18x18 nat=15x15 fit=fill radius=0px alt="icon"
+  18x18 nat=14x14 fit=fill radius=0px alt="pic"
+  25x25 nat=29x29 fit=cover radius=0px alt="pic"
+  18x18 nat=15x15 fit=fill radius=0px alt="icon"
+  18x18 nat=14x14 fit=fill radius=0px alt="pic"
+  25x25 nat=29x29 fit=cover radius=0px alt="pic"
+--- TYPE_ROLES
+  h1 "List of Best Banquet Halls in Delhi" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"24px","fontWeight":"700","lineHeight":"28.8px","letterSpacing":"normal","color":"rgb(28, 28, 28)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(28, 28, 28)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 8px"}
+  card-title "Best 1788 Out of 3438 Banquet Halls & Party Places in Delhi" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px","fontWeight":"500","lineHeight":"19.2px","letterSpacing":"normal","color":"rgb(33, 37, 41)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(33, 37, 41)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 8px"}
+  card-title "Popular Venues in delhi" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"23.14px","fontWeight":"500","lineHeight":"27.768px","letterSpacing":"normal","color":"rgb(33, 37, 41)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(33, 37, 41)","boxShadow":"none","transition":"all","padding":"0px","margin":"8px"}
+  card-title "China Fort" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px","fontWeight":"500","lineHeight":"19.2px","letterSpacing":"normal","color":"rgb(51, 51, 51)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(51, 51, 51)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "Preet Viha..." {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"21px","letterSpacing":"normal","color":"rgb(0, 0, 0)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(0, 0, 0)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "Mayapuri, Delhi" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"21px","letterSpacing":"normal","color":"rgb(0, 0, 0)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(0, 0, 0)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "East Of Ka..." {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"21px","letterSpacing":"normal","color":"rgb(0, 0, 0)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(0, 0, 0)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+--- HOVER {"before":{"text":"","r":{"x":-699,"y":584,"w":770,"h":400},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(33, 37, 41)","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","cursor":"auto","translate":"none","scale":"none"}},"after":{"r":{"w":770,"h":400},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(33, 37, 41)","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+  
+Location
+Occasion
+Space Type
+Region
+Food Type
+More Filters
+List of Best Banquet Halls in Delhi
+Wedding
+Wedding Reception
+Wedding Anniversary
+Birthday Party
+Corporate Event
+Home
+Delhi
+Banquet Halls in Delhi
+Best 1788 Out of 3438 Banquet Halls & Party Places in Delhi
+
+Banquet Halls in Delhi:-
+Banquet Halls in Delhi are the first choice for couples who want to organize weddings, receptions, birthday parties, corporate parties or social gatherings in the capital city. Renowned for their large halls, upscale interiors and advanced facilities. These halls are suitable for small intimate functions as well as big events. Delhi is well covered by metro and roadways, so the guests can readily access the banquet halls from the latest places like Chattarpur, Dwarka, Karol Bagh, Rohini and Connaught Place. Central air-conditioning, adjustable decor facilities, free parking area and in-house catering facilities with multi-cuisine food options to suit the different tastes are generally available at most of the Delhi banquet halls. Whether you are looking for a costly hall with top-of-the-range interiors or something affordable without cutting corners, Delhi has plenty of choices for every budget. Some banquet halls also provide additional services such as planning the event, audio-visual equipment, and professional employees to make your event a success. From extravagant wedding receptions to business events, banquet halls in Delhi provide the ideal combination of convenience, comfort and elegance making them a highly recommended option for organizing memorable events.
+Read more...
+
+Banquet Halls
+Grid
+List
+50-200
+6078
+
+Gola Sizzlers Preet Vihar
+
+More...
+
+4.6 ( 2 reviews)
+The Ballro...
+Rs. 1500  
+per plate
+Rs. 1500  
+per plate
+
+Preet Viha...
+
+15-400
+1564
+
+Hotel Jageer Palace
+
+More...
+
+4.8 ( 2 reviews)
+Grand Ball...
+Rs. 1250  
+per plate
+Rs. 1350  
+per plate
+
+Mayapuri, Delhi
+
+Rs. 250000 full day
+50-150
+7123
+
+JPM Hotel
+
+More...
+
+4.6 ( 2 reviews)
+JPM Dreams...
+Rs. 1075  
+per plate
+Rs. 1275  
+per plate
+
+East Of Ka...
+
+Rs. 25000 half day
+Rs. 45000 full day
+15-120
+4033
+
+Hotel Le Cadre
+
+More...
+
+4.8 ( 2 reviews)
+Hotel Le C...
+Rs. 999  
+per plate
+Rs. 1199  
+per plate
+
+East Of Ka...
+
+300-1000
+1160
+
+The Ocean Pearl
+
+More...
+
+4.8 ( 2 reviews)
+Pacific 1...
+Rs. 1800  
+per plate
+Rs. 2000  
+per plate
+
+Chattarpur...
+
+Rs. 50000 full day
+35-100
+4276
+
+Banquet And Party Hall Bi...
+
+More...
+
+4.9 ( 1 reviews)
+Banquet Ha...
+Rs. 800  
+per plate
+
+Janak Puri...
+
+70-100
+2718
+
+Mona Grand
+
+More...
+
+4.6 ( 2 reviews)
+Mona Regen...
+Rs. 999  
+per plate
+
+Nirman Vih...
+
+25-50
+7407
+
+Hotel Jageer Palace
+
+More...
+
+5 ( 2 reviews)
+Banquet 1...
+Rs. 1250  
+per plate
+Rs. 1350  
+per plate
+
+Mayapuri, Delhi
+
+Rs. 250000 full day
+10-100
+8504
+
+Hotel Amara
+
+More...
+
+4.4 ( 1 reviews)
+Hotel Amar...
+Rs. 1000  
+per plate
+Rs. 1200  
+per plate
+
+Greater Ka...
+
+Rs. 12000 half day
+Rs. 15000 full day
+50-200
+5106
+
+The Saga Hotel
+
+More...
+
+4.1 ( 2 reviews)
+Banquet...
+Rs. 1000  
+per plate
+Rs. 1200  
+per plate
+
+Green Park...
+
+Rs. 50000 full day
+100-150
+2192
+
+Mona Grand
+
+More...
+
+4.6 ( 2 reviews)
+Mona Inter...
+Rs. 999  
+per plate
+
+Nirman Vih...
+
+500-850
+2872
+
+The Ocean Pearl
+
+More...
+
+4.8 ( 2 reviews)
+Majestic A...
+Rs. 1800  
+per plate
+Rs. 2000  
+per plate
+
+Chattarpur...
+
+Rs. 50000 full day
+15-50
+597
+
+Blest Park Banquet Hall
+
+More...
+
+4.8 ( 2 reviews)
+Hall 2...
+Rs. 850  
+per plate
+Rs. 950  
+per plate
+
+Dwarka, Delhi
+
+150-300
+6731
+
+The Ocean Pearl
+
+More...
+
+4.8 ( 2 reviews)
+Majestic...
+Rs. 1800  
+per plate
+Rs. 2000  
+per plate
+
+Chattarpur...
+
+Rs. 50000 full day
+30-80
+2059
+
+JPM Hotel
+
+More...
+
+4.3 ( 1 reviews)
+JPM Roofto...
+Rs. 1075  
+per plate
+Rs. 1275  
+per plate
+
+East Of Ka...
+
+Rs. 25000 half day
+Rs. 45000 full day
+10-150
+261
+
+Hotel Jageer Palace
+
+More...
+
+5 ( 2 reviews)
+ilios Roof...
+Rs. 1250  
+per plate
+Rs. 1350  
+per plate
+
+Mayapuri, Delhi
+
+Rs. 250000 full day
+50-80
+240
+
+The Grand Orion
+
+More...
+
+4.8 ( 2 reviews)
+Gk Banquet...
+Rs. 1000  
+per plate
+Rs. 1300  
+per plate
+
+Greater Ka...
+
+Rs. 30000 half day
+Rs. 55000 full day
+25-60
+2685
+
+The Saga Hotel
+
+More...
+
+4.8 ( 1 reviews)
+Party Hall...
+Rs. 1000  
+per plate
+Rs. 1200  
+per plate
+
+Green Park...
+
+Rs. 50000 full day
+175-400
+870
+
+The Ocean Pearl
+
+More...
+
+4.8 ( 2 reviews)
+Pacific 2...
+Rs. 1800  
+per plate
+Rs. 2000  
+per plate
+
+Chattarpur...
+
+Rs. 50000 full day
+40-100
+3787
+
+The Ocean Pearl
+
+More...
+
+4.8 ( 2 reviews)
+Columbus...
+Rs. 1800  
+per plate
+Rs. 2000  
+per plate
+
+Chattarpur...
+
+Rs. 50000 full day
+15-80
+4531
+
+Royal Party Place
+
+More...
+
+4.9 ( 2 reviews)
+Royal Part...
+Rs. 795  
+per plate
+Rs. 1095  
+per plate
+
+Lajpat Nag...
+
+Rs. 7000 half day
+Rs. 12000 full day
+200-300
+5913
+
+The Ocean Pearl
+
+More...
+
+4.8 ( 2 reviews)
+Atrium...
+Rs. 1800  
+per plate
+Rs. 2000  
+per plate
+
+Chattarpur...
+
+Rs. 50000 full day
+100-180
+342
+
+The Grand Orion
+
+More...
+
+4.8 ( 2 reviews)
+Grand Banq...
+Rs. 1000  
+per plate
+Rs. 1300  
+per plate
+
+Greater Ka...
+
+Rs. 30000 half day
+Rs. 55000 full day
+50-150
+749
+
+The Ocean Pearl
+
+More...
+
+4.8 ( 2 reviews)
+Pacific 3...
+Rs. 1800  
+per plate
+Rs. 2000  
+per plate
+
+Chattarpur...
+
+Rs. 50000 full day
+200-550
+7290
+
+The Ocean Pearl
+
+More...
+
+4.8 ( 2 reviews)
+Regal...
+Rs. 1800  
+per plate
+Rs. 2000  
+per plate
+
+Chattarpur...
+
+Rs. 50000 full day
+70-300
+3138
+
+Mona Grand
+
+More...
+
+4.6 ( 2 reviews)
+Mona Grand...
+Rs. 999  
+per plate
+
+Nirman Vih...
+
+50-200
+899
+
+Blest Park Banquet Hall
+
+More...
+
+4.8 ( 2 reviews)
+Hall 3...
+Rs. 850  
+per plate
+Rs. 950  
+per plate
+
+Dwarka, Delhi
+
+50-100
+187
+
+The Grand Orion
+
+More...
+
+4.8 ( 2 reviews)
+Plaza Banq...
+Rs. 1000  
+per plate
+Rs. 1300  
+per plate
+
+Greater Ka...
+
+Rs. 30000 half day
+Rs. 55000 full day
+30-150
+1679
+
+Blest Park Banquet Hall
+
+More...
+
+4.8 ( 2 reviews)
+Hall 1...
+Rs. 850  
+per plate
+Rs. 950  
+per plate
+
+Dwarka, Delhi
+
+30-50
+121
+
+Banquet And Party Hall Bi...
+
+More...
+
+4.8 ( 2 reviews)
+Party Hall...
+Rs. 800  
+per plate
+
+Janak Puri...
+
+Prev
+1
+2
+…
+More
+60
+Next
+Popular Venues in delhi
+China Fort
+
+4.2
+
+Delhi
+Rs. 750 per plate
+Rs. 850 per plate
+Hotel Amara
+
+3.6
+
+Delhi
+Rs. 1000 per plate
+Rs. 1200 per plate
+38 Barracks
+
+4.5
+
+Delhi
+Rs. 1395 per plate
+Rs. 1395 per plate
+Banquet And Party Hall Bite Bikaner
+
+4.9
+
+Delhi
+Rs. 800 per plate
+Royal Party Place
+
+4.9
+
+Delhi
+Rs. 795 per plate
+Rs. 1095 per plate
+List of Banquet Halls in Delhi with Starting Prices
+Venue Name	Capacity	Starting Price
+The Ballroom of Gola Sizzlers Preet Vihar	50 - 200 Guests	Rs. 1500 per plate
+Grand Ballroom of Hotel Jageer Palace	15 - 400 Guests	Rs. 1250 per plate
+JPM Dreams of JPM Hotel	50 - 150 Guests	Rs. 1075 per plate
+Hotel Le Cadre	15 - 120 Guests	Rs. 999 per plate
+Pacific 1 of The Ocean Pearl	300 - 1000 Guests	Rs. 1800 per plate
+Banquet Hall of Banquet And Party Hall Bite Bikaner	35 - 100 Guests	Rs. 800 per plate
+Mona Regency Banquets of Mona Grand	70 - 100 Guests	Rs. 999 per plate
+Banquet 1 of Hotel Jageer Palace	25 - 50 Guests	Rs. 1250 per plate
+Hotel Amara	10 - 100 Guests	Rs. 1000 per plate
+Banquet of The Saga Hotel	50 - 200 Guests	Rs. 1000 per plate
+Mona International Banquet of Mona Grand	100 - 150 Guests	Rs. 999 per plate
+Majestic And Regal Combined of The Ocean Pearl	500 - 850 Guests	Rs. 1800 per plate
+Hall 2 of Blest Park Banquet Hall	15 - 50 Guests	Rs. 850 per plate
+Majestic of The Ocean Pearl	150 - 300 Guests	Rs. 1800 per plate
+JPM Rooftop of JPM Hotel	30 - 80 Guests	Rs. 1075 per plate
+ilios Rooftop Cafe Bar of Hotel Jageer Palace	10 - 150 Guests	Rs. 1250 per plate
+Gk Banquet of The Grand Orion	50 - 80 Guests	Rs. 1000 per plate
+Party Hall of The Saga Hotel	25 - 60 Guests	Rs. 1000 per plate
+Pacific 2 of The Ocean Pearl	175 - 400 Guests	Rs. 1800 per plate
+Columbus of The Ocean Pearl	40 - 100 Guests	Rs. 1800 per plate
+Royal Party Place	15 - 80 Guests	Rs. 795 per plate
+Atrium of The Ocean Pearl	200 - 300 Guests	Rs. 1800 per plate
+Grand Banquet of The Grand Orion	100 - 180 Guests	Rs. 1000 per plate
+Pacific 3 of The Ocean Pearl	50 - 150 Guests	Rs. 1800 per plate
+Regal of The Ocean Pearl	200 - 550 Guests	Rs. 1800 per plate
+Mona Grand Banquets of Mona Grand	70 - 300 Guests	Rs. 999 per plate
+Hall 3 of Blest Park Banquet Hall	50 - 200 Guests	Rs. 850 per plate
+Plaza Banquet of The Grand Orion	50 - 100 Guests	Rs. 1000 per plate
+Hall 1 of Blest Park Banquet Hall	30 - 150 Guests	Rs. 850 per plate
+Party Hall of Banquet And Party Hall Bite Bikaner	30 - 50 Guests	Rs. 800 per plate
+GET UPTO 10 % DISCOUNT
+Share your details & get best suited venues for your event
+Select City
+Delhi
+Faridabad
+Ghaziabad
+Gurgaon
+Noida
+Jaipur
+Mumbai
+Pune
+Chandigarh
+Ahmedabad
+Chennai
+Hyderabad
+Kolkata
+Udaipur
+Bangalore
+Nagpur
+Goa
+Agra
+Bikaner
+Jaisalmer
+Jodhpur
+Shimla
+Indore
+Lucknow
+Surat
+Vadodara
+Ajmer
+Pushkar
+Nashik
+Bhubaneswar
+Kochi
+Mathura
+Lonavala
+Thane
+Chail
+Alwar
+Ranthambore
+Vellore
+Dehradun
+Bhopal
+Varanasi
+Patna
+Kanpur
+Visakhapatnam
+Ludhiana
+Amritsar
+Meerut
+Ranchi
+Karnal
+Mysore
+Sonipat
+Haridwar
+Nainital
+Aligarh
+Bareilly
+Asansol
+Allahabad
+Mussoorie
+Shirdi
+Rishikesh
+Mount Abu
+Greater Noida
+Bulandshahr
+Singapore
+Rudraprayag
+Ooty
+Moradabad
+Gwalior
+Vijayawada
+Howrah
+Rajkot
+De
+STAGE pre-write 26061 ms STAGE done 26143 ms

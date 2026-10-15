@@ -1,0 +1,123 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: rem(12px);
+  padding-block: rem(24px) rem(20px);
+  border-bottom: 1px solid var(--app-border);
+}
+
+/* Breadcrumbs ------------------------------------------------------------- */
+.breadcrumbs {
+  min-width: 0;
+}
+
+.crumbList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: rem(2px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--app-text-subtle);
+}
+
+.crumb {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+}
+
+/* A separator drawn in CSS, so the accessible name of the trail is just the
+   labels. */
+.crumb:not(:last-child)::after {
+  content: '/';
+  margin-inline: rem(8px);
+  color: var(--app-border-strong);
+}
+
+.crumbLink {
+  color: var(--app-text-muted);
+  text-decoration: none;
+  border-radius: var(--app-radius-control);
+}
+
+.crumbLink:hover {
+  color: var(--app-brand);
+  text-decoration: underline;
+}
+
+.crumbCurrent {
+  color: var(--app-text-muted);
+}
+
+/* Title row --------------------------------------------------------------- */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: rem(16px) rem(24px);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: rem(6px);
+  min-width: 0;
+  max-width: 62ch;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: var(--text-label-leading);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--app-accent);
+}
+
+.title {
+  margin: 0;
+  font-size: var(--text-h1-size);
+  font-weight: var(--text-h1-weight);
+  line-height: var(--text-h1-leading);
+  letter-spacing: var(--text-h1-tracking);
+  color: var(--app-text);
+}
+
+.description {
+  margin: 0;
+  max-width: 58ch;
+  font-size: var(--text-secondary-size);
+  font-weight: var(--text-secondary-weight);
+  line-height: var(--text-secondary-leading);
+  color: var(--app-text-muted);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: rem(8px);
+}
+
+@mixin smaller-than $mantine-breakpoint-sm {
+  .root {
+    padding-block: rem(18px) rem(16px);
+  }
+
+  .row {
+    align-items: flex-start;
+  }
+
+  .actions {
+    width: 100%;
+  }
+}

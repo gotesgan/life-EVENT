@@ -1,0 +1,139 @@
+/*
+ * Shared admin surface rhythm.
+ *
+ * The admin panel is the densest surface in the product, so its *page* rhythm —
+ * not just its table rhythm — is tighter than the editorial default: 20px
+ * between a filter strip and its table, 28px between page sections. Every value
+ * resolves through the app tokens; the module names no colour and no raw type
+ * size.
+ */
+
+/* A dense page context. Applied to each admin page wrapper so the whole
+   subtree reaches for the browse/admin rhythm tokens (`--app-card-padding`
+   12px, `--app-section-gap` 32px, dense card radius, E0 borders). */
+.page {
+  display: block;
+  color: var(--app-text);
+}
+
+/* A page section: heading block, then content. The gap above a heading is
+   larger than the gap below it, which is what makes a dense page group. */
+.section {
+  margin-top: var(--mantine-spacing-xl);
+}
+
+.section:first-child {
+  margin-top: 0;
+}
+
+.sectionHead {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-md);
+  flex-wrap: wrap;
+  margin-bottom: var(--mantine-spacing-sm);
+}
+
+/* Filter strip → table. Deliberately smaller than a section gap: the two are
+   one instrument, not two sections. */
+.toolbar {
+  margin-top: var(--mantine-spacing-lg);
+}
+
+.tableBlock {
+  margin-top: var(--mantine-spacing-sm);
+}
+
+/* Row separation ------------------------------------------------------------
+   The four admin tables use **one** separation method: a 1px hairline on every
+   row (supplied by the shared `DataTable` via `withRowBorders`) plus a zebra
+   fill on the even rows. Rules alone lose the row under a wide table; zebra
+   alone loses the row boundary on the last row. Together the eye can follow a
+   record across eleven columns.
+
+   The `:global(tbody tr)` is necessary and deliberate: `DataTable` is a shared
+   primitive owned by another part of the styling pass, so the admin surface
+   cannot add a per-row className without reaching into it. The selector is
+   scoped by `.tableRegion` (a real CSS-Module class) so it can only ever match
+   inside an admin table region. */
+.tableRegion :global(tbody tr:nth-child(even)) {
+  background-color: var(--app-surface-muted);
+}
+
+.tableRegion :global(tbody tr) {
+  transition: background-color var(--app-duration-micro) var(--app-ease-out);
+}
+
+.tableRegion :global(tbody tr:hover) {
+  background-color: var(--app-surface-hover);
+}
+
+/* The header stays put while an administrator scrolls a long page of rows: the
+   column order is the only thing that makes column eleven readable. */
+.tableRegion :global(thead th) {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* The row that carries an empty/loading state is neither zebra nor hoverable,
+   and it must not be sticky. */
+.tableRegion :global(tbody tr:only-child:hover) {
+  background-color: transparent;
+}
+
+/* Cell helpers -------------------------------------------------------------
+   Every one of these is a presentation-only wrapper so a cell can truncate
+   without the column width changing between pages. The `title` attribute is set
+   by the caller; these rules only stop the text from reflowing. */
+
+.cellStack {
+  display: flex;
+  flex-direction: column;
+  gap: rem(2px);
+  min-width: 0;
+}
+
+/* A 56px table thumbnail. Fixed width so ten rows cannot disagree about where
+   the title column starts, and a real border because on a dark canvas an image
+   edge dissolves into the surface (§3.5.4). */
+.thumb {
+  width: rem(56px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-1);
+  overflow: hidden;
+  background: var(--app-surface-muted);
+}
+
+/* A value that must never wrap a table row to two lines. Pair with `title`. */
+.truncate {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* The one number in a row the administrator sorts by eye. */
+.numeric {
+  font-variant-numeric: tabular-nums;
+  font-weight: 550;
+}
+
+/* Numerics that sit in a real column: aligned by their own flex container, so
+   the digits have to be the same width. */
+.tabularValue {
+  display: block;
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* A timestamp: present, tabular, and quieter than the record it describes. */
+.timestamp {
+  display: block;
+  font-variant-numeric: tabular-nums;
+  color: var(--app-text-muted);
+  white-space: nowrap;
+}

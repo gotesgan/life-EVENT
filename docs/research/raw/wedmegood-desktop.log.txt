@@ -1,0 +1,597 @@
+URL_REQUESTED https://www.wedmegood.com/
+STATUS 200
+FINAL_URL https://www.wedmegood.com/
+TITLE Weddings, Indian Wedding Planning Online - WedMeGood
+STAGE pre-screenshot 9906 ms
+SCREENSHOT docs/research/shots/wedmegood-desktop.png
+STAGE pre-extract 10745 ms
+STAGE pre-hover 10794 ms
+RAW docs/research/raw/wedmegood-desktop.json
+--- SURFACES {"body":{"backgroundColor":"rgb(251, 251, 251)","color":"rgb(74, 74, 74)","fontFamily":"WedmegoodFont, sans-serif","fontSize":"14px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 462x26 "Your Wedding, Your Way"
+  H2 668x26 "Find the best wedding vendors with thousands of trusted reviews"
+--- HEADER {"position":"static","top":"auto","height":"90px","backgroundColor":"rgba(0, 0, 0, 0)","borderBottom":"0px none rgb(74, 74, 74)","boxShadow":"none","zIndex":"9"} 1440x90
+--- HEADER_TEXT Write A Review Download App India's Favourite Wedding Planning Platform All Cities Venues Vendors Photos Real Weddings Blog E-Invites Genie Log In
+--- HEADER_LINKS Write A Review | Venues | Vendors | Photos | Real Weddings | Blog | E-Invites | Genie
+--- NAV_ALL 
+--- SEARCH_INPUTS
+  {"tag":"INPUT","type":null,"ph":null,"aria":null,"name":null,"r":{"x":330,"y":443,"w":5,"h":50}}
+  {"tag":"INPUT","type":null,"ph":null,"aria":null,"name":null,"r":{"x":670,"y":443,"w":5,"h":50}}
+  {"tag":"INPUT","type":"tel","ph":"Enter your mobile number","aria":null,"name":"mobile_number","r":{"x":258,"y":3127,"w":322,"h":29}}
+  {"tag":"INPUT","type":"email","ph":"Email*","aria":null,"name":"EMAIL","r":{"x":120,"y":5957,"w":300,"h":40}}
+--- FILTER_CONTAINERS
+  [0] DIV "HomeFilter" {"x":0,"y":371,"w":1440,"h":219} CTRLS=[{"tag":"INPUT","type":null,"role":"combobox","aria":"","label":""},{"tag":"INPUT","type":null,"role":"combobox","aria":"","label":""}]
+  [1] DIV "cat-city-filter margin-t-10" {"x":320,"y":443,"w":800,"h":50} CTRLS=[{"tag":"INPUT","type":null,"role":"combobox","aria":"","label":""},{"tag":"INPUT","type":null,"role":"combobox","aria":"","label":""}]
+  [2] DIV "Select select home-filter-A category-filter   Select--single is-clearable is-searchable" {"x":320,"y":443,"w":340,"h":50} CTRLS=[{"tag":"INPUT","type":null,"role":"combobox","aria":"","label":""}]
+  [3] DIV "Select select home-filter-B   Select--single is-clearable is-searchable" {"x":660,"y":443,"w":310,"h":50} CTRLS=[{"tag":"INPUT","type":null,"role":"combobox","aria":"","label":""}]
+  [4] DIV "filter-btn bg-primary center white pointer h6" {"x":970,"y":443,"w":150,"h":50} CTRLS=[]
+--- CARDS
+  [0] imgRatio=1.5 180x120 alt="venue-img"
+     d0 A "" 180x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "extra-radius h-100 sc-fHxwqH jBlnQH" 180x120 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "VenueSearchesCard frow margin-b-20 sc-fHxwqH cLtysx" 400x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="4 Star & Above Hotels Mumbai | Bangalore | Pune | More"
+     d3 DIV "padding-r-20 sc-fyjhYU hMbntW" 420x140 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 20px 0px 0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="4 Star & Above Hotels Mumbai | Bangalore | Pune | More"
+     d4 DIV "" 420x140 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="4 Star & Above Hotels Mumbai | Bangalore | Pune | More"
+  [1] imgRatio=1.5 180x120 alt="venue-img"
+     d0 A "" 180x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "extra-radius h-100 sc-fHxwqH jBlnQH" 180x120 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "VenueSearchesCard frow margin-b-20 sc-fHxwqH cLtysx" 400x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Banquet Halls Mumbai | Bangalore | Pune | More"
+     d3 DIV "padding-r-20 sc-fyjhYU hMbntW" 420x140 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 20px 0px 0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="Banquet Halls Mumbai | Bangalore | Pune | More"
+     d4 DIV "" 420x140 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Banquet Halls Mumbai | Bangalore | Pune | More"
+  [2] imgRatio=1.5 180x120 alt="venue-img"
+     d0 A "" 180x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "extra-radius h-100 sc-fHxwqH jBlnQH" 180x120 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "VenueSearchesCard frow margin-b-20 sc-fHxwqH cLtysx" 400x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Marriage Garden / Lawns Mumbai | Bangalore | Pune | More"
+     d3 DIV "padding-r-20 sc-fyjhYU hMbntW" 420x140 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 20px 0px 0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="Marriage Garden / Lawns Mumbai | Bangalore | Pune | More"
+     d4 DIV "" 420x140 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Marriage Garden / Lawns Mumbai | Bangalore | Pune | More"
+  [3] imgRatio=2.85 570x200 alt="Wedsta"
+     d0 DIV "extra-radius sc-fiamaJ jqRVhs" 570x200 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "InHouseServicesCard services-card margin-b-20 extra-radius bg-white padding-10 sc-fiamaJ  590x412 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"rgba(0, 0, 0, 0.05) 0px 1px 5px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"10px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="Wedsta WMG At Home, Family Makeup Services Know More"
+     d2 DIV "d-grid grid-auto-fit-columns grid-column-gap" 1200x864 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal 20px"} TEXT="Wedsta WMG At Home, Family Makeup Services Know More Genie Services Plan your dream wedding in your budget Know More Venue Booking Service Best Price Guaranteed Know More"
+     d3 DIV "InHouseServices max-width-container margin-t-100 margin-b-50" 1200x910 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="WMG Inhouse Services Wedsta WMG At Home, Family Makeup Services Know More Genie Services Plan your dream wedding in your budget Know More Venue Booking Service Best Price Guaranteed Know More"
+     d4 DIV "margin-b-100 HomePage bg-light-gray" 1440x5125 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgb(251, 251, 251)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Your Wedding, Your Way Find the best wedding vendors with thousands of trusted reviews Select vendor type Select city Get Started Popular Searches: Wedding Photographers in IndiaBridal Makeup Artists in IndiaWedding Car
+  [4] imgRatio=2.85 570x200 alt="Genie Services"
+     d0 DIV "extra-radius sc-fiamaJ jqRVhs" 570x200 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "InHouseServicesCard services-card margin-b-20 extra-radius bg-white padding-10 sc-fiamaJ  590x412 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"rgba(0, 0, 0, 0.05) 0px 1px 5px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"10px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="Genie Services Plan your dream wedding in your budget Know More"
+     d2 DIV "d-grid grid-auto-fit-columns grid-column-gap" 1200x864 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal 20px"} TEXT="Wedsta WMG At Home, Family Makeup Services Know More Genie Services Plan your dream wedding in your budget Know More Venue Booking Service Best Price Guaranteed Know More"
+     d3 DIV "InHouseServices max-width-container margin-t-100 margin-b-50" 1200x910 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="WMG Inhouse Services Wedsta WMG At Home, Family Makeup Services Know More Genie Services Plan your dream wedding in your budget Know More Venue Booking Service Best Price Guaranteed Know More"
+     d4 DIV "margin-b-100 HomePage bg-light-gray" 1440x5125 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgb(251, 251, 251)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Your Wedding, Your Way Find the best wedding vendors with thousands of trusted reviews Select vendor type Select city Get Started Popular Searches: Wedding Photographers in IndiaBridal Makeup Artists in IndiaWedding Car
+  [5] imgRatio=2.85 570x200 alt="Venue Booking Service"
+     d0 DIV "extra-radius sc-fiamaJ jqRVhs" 570x200 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "InHouseServicesCard services-card margin-b-20 extra-radius bg-white padding-10 sc-fiamaJ  590x412 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"rgba(0, 0, 0, 0.05) 0px 1px 5px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"10px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="Venue Booking Service Best Price Guaranteed Know More"
+     d2 DIV "d-grid grid-auto-fit-columns grid-column-gap" 1200x864 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal 20px"} TEXT="Wedsta WMG At Home, Family Makeup Services Know More Genie Services Plan your dream wedding in your budget Know More Venue Booking Service Best Price Guaranteed Know More"
+     d3 DIV "InHouseServices max-width-container margin-t-100 margin-b-50" 1200x910 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="WMG Inhouse Services Wedsta WMG At Home, Family Makeup Services Know More Genie Services Plan your dream wedding in your budget Know More Venue Booking Service Best Price Guaranteed Know More"
+     d4 DIV "margin-b-100 HomePage bg-light-gray" 1440x5125 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgb(251, 251, 251)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Your Wedding, Your Way Find the best wedding vendors with thousands of trusted reviews Select vendor type Select city Get Started Popular Searches: Wedding Photographers in IndiaBridal Makeup Artists in IndiaWedding Car
+  [6] imgRatio=0.923 240x260 alt="search-img"
+     d0 DIV "image extra-radius sc-jrIrqw hsXQUt" 240x260 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "PopularSearchesCard fcol margin-r-20 sc-jrIrqw dLbUzI" 240x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Bridal Wear"
+     d2 A "" 240x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Bridal Wear"
+     d3 DIV "padding-r-20 sc-iybRtq bGNzJf" 260x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 20px 0px 0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Bridal Wear"
+     d4 DIV "" 260x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="Bridal Wear"
+  [7] imgRatio=0.923 240x260 alt="search-img"
+     d0 DIV "image extra-radius sc-jrIrqw hsXQUt" 240x260 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "PopularSearchesCard fcol margin-r-20 sc-jrIrqw dLbUzI" 240x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Bridal Makeup Artists"
+     d2 A "" 240x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Bridal Makeup Artists"
+     d3 DIV "padding-r-20 sc-iybRtq bGNzJf" 260x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 20px 0px 0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Bridal Makeup Artists"
+     d4 DIV "" 260x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="Bridal Makeup Artists"
+  [8] imgRatio=0.923 240x260 alt="search-img"
+     d0 DIV "image extra-radius sc-jrIrqw hsXQUt" 240x260 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "PopularSearchesCard fcol margin-r-20 sc-jrIrqw dLbUzI" 240x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Photographers"
+     d2 A "" 240x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Photographers"
+     d3 DIV "padding-r-20 sc-iybRtq bGNzJf" 260x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 20px 0px 0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Photographers"
+     d4 DIV "" 260x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="Photographers"
+  [9] imgRatio=0.923 240x260 alt="search-img"
+     d0 DIV "image extra-radius sc-jrIrqw hsXQUt" 240x260 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "PopularSearchesCard fcol margin-r-20 sc-jrIrqw dLbUzI" 240x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Invitations"
+     d2 A "" 240x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Invitations"
+     d3 DIV "padding-r-20 sc-iybRtq bGNzJf" 260x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 20px 0px 0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Invitations"
+     d4 DIV "" 260x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="Invitations"
+  [10] imgRatio=0.923 240x260 alt="search-img"
+     d0 DIV "image extra-radius sc-jrIrqw hsXQUt" 240x260 {"borderRadius":"5px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "PopularSearchesCard fcol margin-r-20 sc-jrIrqw dLbUzI" 240x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Catering Services"
+     d2 A "" 240x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Catering Services"
+     d3 DIV "padding-r-20 sc-iybRtq bGNzJf" 260x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 20px 0px 0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Catering Services"
+     d4 DIV "" 260x306 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT="Catering Services"
+  [11] imgRatio=2.083 250x120 alt="categoryImg"
+     d0 DIV "sc-bnQDJF dGtKSu" 250x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "RainbowCategoryCard frow w-100 f-space-between" 590x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Venues Banquet Halls, Marriage Garden / Lawns, Wedding Resorts, Small Function / Party Halls, Destination Wedding Venues, Kalyana Mandapams, 4 Star & Above Hotels, 5 Star Luxury Hotels, Wedding Farmhouses"
+     d2 DIV "margin-b-10 pointer sc-dLHtUl cBjKCt" 590x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgb(216, 223, 252)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Venues Banquet Halls, Marriage Garden / Lawns, Wedding Resorts, Small Function / Party Halls, Destination Wedding Venues, Kalyana Mandapams, 4 Star & Above Hotels, 5 Star Luxury Hotels, Wedding Farmhouses"
+     d3 DIV "bg-light-gray" 590x130 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgb(251, 251, 251)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Venues Banquet Halls, Marriage Garden / Lawns, Wedding Resorts, Small Function / Party Halls, Destination Wedding Venues, Kalyana Mandapams, 4 Star & Above Hotels, 5 Star Luxury Hotels, Wedding Farmhouses"
+     d4 DIV "d-grid grid-auto-fit-columns grid-column-gap max-width-container f-wrap margin-b-50 sc-dL 1200x390 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal 20px"} TEXT="Venues Banquet Halls, Marriage Garden / Lawns, Wedding Resorts, Small Function / Party Halls, Destination Wedding Venues, Kalyana Mandapams, 4 Star & Above Hotels, 5 Star Luxury Hotels, Wedding Farmhouses Photographers 
+  [12] imgRatio=2.083 250x120 alt="categoryImg"
+     d0 DIV "sc-bnQDJF dGtKSu" 250x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "RainbowCategoryCard frow w-100 f-space-between" 590x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Photographers Photographers"
+     d2 DIV "margin-b-10 pointer sc-dLHtUl eFJBnp" 590x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgb(244, 213, 194)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Photographers Photographers"
+     d3 DIV "bg-light-gray" 590x130 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgb(251, 251, 251)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Photographers Photographers"
+     d4 DIV "d-grid grid-auto-fit-columns grid-column-gap max-width-container f-wrap margin-b-50 sc-dL 1200x390 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal 20px"} TEXT="Venues Banquet Halls, Marriage Garden / Lawns, Wedding Resorts, Small Function / Party Halls, Destination Wedding Venues, Kalyana Mandapams, 4 Star & Above Hotels, 5 Star Luxury Hotels, Wedding Farmhouses Photographers 
+  [13] imgRatio=2.083 250x120 alt="categoryImg"
+     d0 DIV "sc-bnQDJF dGtKSu" 250x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "RainbowCategoryCard frow w-100 f-space-between" 590x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Makeup Bridal Makeup Artists, Family Makeup"
+     d2 DIV "margin-b-10 pointer sc-dLHtUl dyHtNx" 590x120 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgb(223, 178, 173)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Makeup Bridal Makeup Artists, Family Makeup"
+     d3 DIV "bg-light-gray" 590x130 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgb(251, 251, 251)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Makeup Bridal Makeup Artists, Family Makeup"
+     d4 DIV "d-grid grid-auto-fit-columns grid-column-gap max-width-container f-wrap margin-b-50 sc-dL 1200x390 {"borderRadius":"0px","border":"0px none rgb(74, 74, 74)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal 20px"} TEXT="Venues Banquet Halls, Marriage Garden / Lawns, Wedding Resorts, Small Function / Party Halls, Destination Wedding Venues, Kalyana Mandapams, 4 Star & Above Hotels, 5 Star Luxury Hotels, Wedding Farmhouses Photographers 
+--- IMAGES
+  18x20 nat=20x22 fit=fill radius=0px alt="write-review"
+  12x20 nat=20x34 fit=fill radius=0px alt="download-app"
+  194x30 nat=194x30 fit=fill radius=0px alt="wmg logo"
+  14x14 nat=14x14 fit=fill radius=0px alt="search"
+  1440x500 nat=1600x1236 fit=cover radius=0px alt="HeaderImg"
+  180x120 nat=300x169 fit=cover radius=5px alt="venue-img"
+  180x120 nat=300x169 fit=cover radius=5px alt="venue-img"
+  180x120 nat=300x200 fit=cover radius=5px alt="venue-img"
+  570x200 nat=570x200 fit=cover radius=5px alt="Wedsta"
+  570x200 nat=570x200 fit=cover radius=5px alt="Genie Services"
+  570x200 nat=570x200 fit=cover radius=5px alt="Venue Booking Service"
+  240x260 nat=300x450 fit=cover radius=5px alt="search-img"
+  240x260 nat=300x450 fit=cover radius=5px alt="search-img"
+  240x260 nat=300x450 fit=cover radius=5px alt="search-img"
+  240x260 nat=300x450 fit=cover radius=5px alt="search-img"
+  240x260 nat=300x450 fit=cover radius=5px alt="search-img"
+  250x120 nat=250x120 fit=cover radius=0px alt="categoryImg"
+  250x120 nat=250x120 fit=cover radius=0px alt="categoryImg"
+--- TYPE_ROLES
+  h1 "Your Wedding, Your Way" {"fontFamily":"WedmegoodFont, sans-serif","fontSize":"40px","fontWeight":"600","lineHeight":"26px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "Find the best wedding vendors with thousands of trusted reviews" {"fontFamily":"WedmegoodFont, sans-serif","fontSize":"22px","fontWeight":"400","lineHeight":"26px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"10px 0px 0px"}
+  card-meta "This Stylist Bride Designed Her Own Dreamy Champagne-Gold Bridal Look!" {"fontFamily":"WedmegoodFont, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"18px","letterSpacing":"normal","color":"rgb(74, 74, 74)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(74, 74, 74)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "A Celestial Sangeet, A Peacock Mandap & A Baccarat Rouge After-Party? " {"fontFamily":"WedmegoodFont, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"18px","letterSpacing":"normal","color":"rgb(74, 74, 74)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(74, 74, 74)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "A Minimal, Meaningful Wedding In Kerala That Let The Setting Do The Ta" {"fontFamily":"WedmegoodFont, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"18px","letterSpacing":"normal","color":"rgb(74, 74, 74)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(74, 74, 74)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  nav-link "Write A Review" {"fontFamily":"WedmegoodFont, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"26px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px 0px 0px 35px","margin":"0px"}
+  nav-link "" {"fontFamily":"WedmegoodFont, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"26px","letterSpacing":"normal","color":"rgb(74, 74, 74)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(74, 74, 74)","boxShadow":"none","transition":"all","padding":"0px","margin":"10px 0px"}
+  nav-link "Venues" {"fontFamily":"WedmegoodFont, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"26px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+--- BODY_TEXT
+Write A Review
+Download App
+India's Favourite Wedding Planning Platform
+All Cities
+Venues
+Vendors
+Photos
+Real Weddings
+Blog
+E-Invites
+Genie
+Log In
+Your Wedding, Your Way
+Find the best wedding vendors with thousands of trusted reviews
+Select vendor type
+Select city
+Get Started
+Popular Searches:
+Wedding Photographers in IndiaBridal Makeup Artists in IndiaWedding Cards in IndiaWedding Venues in India
+Photo Credits : Shutterdown
+Popular Venue Searches
+4 Star & Above Hotels
+Mumbai |
+Bangalore |
+Pune |
+More
+Banquet Halls
+Mumbai |
+Bangalore |
+Pune |
+More
+Marriage Garden / Lawns
+Mumbai |
+Bangalore |
+Pune |
+More
+WMG Inhouse Services
+Wedsta
+WMG At Home, Family Makeup Services
+Know More
+Genie Services
+Plan your dream wedding in your budget
+Know More
+Venue Booking Service
+Best Price Guaranteed
+Know More
+Popular Searches
+Bridal Wear
+Bridal Makeup Artists
+Photographers
+Invitations
+Catering Services
+Wedding Categories
+View all Categories
+Venues 
+Banquet Halls, Marriage Garden / Lawns, Wedding Resorts, Small Function / Party Halls, Destination Wedding Venues, Kalyana Mandapams, 4 Star & Above Hotels, 5 Star Luxury Hotels, Wedding Farmhouses
+Photographers 
+Photographers
+Makeup 
+Bridal Makeup Artists, Family Makeup
+Planning & Decor 
+Wedding Planners, Decorators
+Virtual Planning 
+Virtual planning
+Mehndi 
+Mehendi Artists
+Download The WedMeGood Mobile App Today!
+Save Wedding Ideas
+Shortlist Vendors
+Get Free Wedding Checklist
+You will receive an SMS with a link to download the App
+International
+Afghanistan
+Åland Islands
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Ascension Island
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bonaire, Sint Eustatius and Saba
+Bosnia and Herzegovina
+Botswana
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burma
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo
+Congo, Democratic Republic of the
+Cook Islands
+Costa Rica
+Cote d'Ivoire
+Croatia
+Cuba
+Curaçao
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands
+Faroe Islands
+Federated States of Micronesia
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Holy See (Vatican City State)
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Namibia
+Nauru
+Nepal
+Netherlands
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Korea
+North Macedonia
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestine
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Puerto Rico
+Qatar
+Reunion
+Romania
+Russia
+Rwanda
+Saint Barthélemy
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin (French Part)
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Korea
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tristan da Cunha
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Venezuela
+Vietnam
+Virgin Islands, British
+Virgin Islands, U.S.
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Download the App
+Real Wedding Stories
+Nandini and Dhruv
+
+This Stylist Bride Designed Her Own Dreamy Champagne-Gold Bridal Look!
+
+02 March 2026
+Joanna and Ashiv
+
+A Celestial Sangeet, A Peacock Mandap & A Baccarat Rouge After-Party? YES!
+
+01 November 2025
+Sneha and Sree
+
+A Minimal, Meaningful Wedding In Kerala That Let The Setting Do The Talking!
+
+13 October 2026
+Latest Blogs
+This Stylist Bride Designed Her Own Dreamy Champagne-Gold Bridal Look!
+
+Some brides know exactly what they want to wear on their wedding day, and then there are brides who know how to bring that vision to life themselves! Real Bride Nandini, who is also a wedding stylis...
+
+14 Oct, 2026
+Say Konnichiwa to These Japanese-Inspired Wedding Ideas!
+
+Move over, the usual pastel palettes and Pinterest-perfect wedding themes. There's a new inspiration board couples are turning to, and it comes straight from Japan! With its distinctive aesthetics, c...
+
+14 Oct, 2026
+A Celestial Sangeet, A Peacock Mandap & A Baccarat Rouge After-Party? YES!
+
+A love story that began in school, found its way back after 12 years, and culminated in a wedding with four completely different worlds of its own? Joanna Conde and Aashiv Adnanis Bengaluru celeb...
+
+13 Oct, 2026
+Gallery to Look for
+Bridal Lehenga
+Outfits
+Blouse Designs
+Wedding Sarees
+Mehndi Designs
+Featured Vendors
+5.0
+Tavaro Resorts
+Wedding Venues,Vattinagulapally
+₹ 2200 onwards per plate
+5.0
+Fairmont Mumbai
+Wedding Venues,Andheri East
+₹ 7000 onwards per plate
+5.0
+Treat Resort Rajkot
+Wedding Venues
+₹ 1500 onwards per plate
+4.8
+Shree Swargha Heritage Wedding Venue
+Wedding Venues,North Bangalore
+₹ 4,40,000 per function
+
+WedMeGood - Your Personal Wedding Planner
+
+Plan your wedding with Us
+
+WedMeGood is an Indian Wedding Planning Website and app where you can find the best wedding vendors, with prices and reviews at the click of a button. Whether you are looking to hire wedding planners in India, or looking for the top photographers, or just some ideas and inspiration for your wedding. WedMeGood can help you solve your wedding planning woes through its unique features. With a checklist, detailed vendor list, inspiration gallery and blog - you won't need to spend hours planning a wedding anymore.
+
+Contact us to get best deals
+
+For Vendors
+
+vendors@wedmegood.com
+
+0124-6812346
+
+For Users
+
+info@wedmegood.com
+
+0124-6812345
+
+Registered Address
+
+12th Floor, Magnum Global Park, 91 Springboard Business Hub Pvt Ltd, Golf Course Extension Road, Sector-58, Gurgaon, Haryana, India, 122011
+
+Get Latest Blog Alerts
+
+Submit
+Register as a Vendor
+Follow us on:
+Facebook
+Twitter
+Pinterest
+Instagram
+Youtube
+Get The WedMeGood App
+
+Start Planning
+
+Search By Vendor
+Search By City
+Download Our App
+Top Rated Vendors
+Destination Wedding
+
+Wedding Ideas
+
+Wedding Blog
+Wedding Inspiration Gallery
+Real Wedding
+Submit Wedding
+
+Photo Gallery
+
+Bridal Wear
+Wedding Jewellery
+Bridal Makeup & Hair
+Wedding Decor
+Wedding Photography
+Groom Wear
+Invitations & Favors
+Wedding Accessories
+Mehendi Designs
+
+Home
+
+About WedMeGood
+Careers
+Contact Us
+Site Map
+Terms & Conditions
+Privacy Policy
+Cancellation Policy
+
+Wedding Invitation Maker
+
+Wedding Card Designs
+Save the Date Templates
+Invitation Video Templates
+© 2026
+Terms & Conditions | Privacy Policy
+STAGE pre-write 10803 ms STAGE done 10917 ms

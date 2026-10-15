@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800"
+     role="img" aria-label="Abstract placeholder illustration" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="grad-9ea1aa32" x1="0" y1="0" x2="0.98" y2="0.57">
+      <stop offset="0%" stop-color="#B385AE" />
+      <stop offset="100%" stop-color="#6E8B7B" />
+    </linearGradient>
+    <radialGradient id="grad-9ea1aa32-glow" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" stop-color="#E5C073" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#E5C073" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#grad-9ea1aa32)" />
+  <rect width="1200" height="800" fill="url(#grad-9ea1aa32-glow)" />
+  <g opacity="0.62">
+      <ellipse cx="774.6" cy="420.1" rx="34" ry="86" fill="#E5C073" opacity="0.5" transform="rotate(6.57 774.6 420.1)" />
+      <ellipse cx="766.7" cy="515.74" rx="34" ry="86" fill="#E5C073" opacity="0.5" transform="rotate(34.77 766.7 515.74)" />
+      <ellipse cx="686.96" cy="563.28" rx="34" ry="86" fill="#E5C073" opacity="0.5" transform="rotate(61.96 686.96 563.28)" />
+      <ellipse cx="570.13" cy="643.85" rx="34" ry="86" fill="#E5C073" opacity="0.5" transform="rotate(96.98 570.13 643.85)" />
+      <ellipse cx="456.18" cy="599.26" rx="34" ry="86" fill="#E5C073" opacity="0.5" transform="rotate(125.82 456.18 599.26)" />
+      <ellipse cx="406.34" cy="506.34" rx="34" ry="86" fill="#E5C073" opacity="0.5" transform="rotate(151.23 406.34 506.34)" />
+      <ellipse cx="382.17" cy="369.91" rx="34" ry="86" fill="#E5C073" opacity="0.5" transform="rotate(187.86 382.17 369.91)" />
+      <ellipse cx="416.77" cy="291.6" rx="34" ry="86" fill="#E5C073" opacity="0.5" transform="rotate(210.61 416.77 291.6)" />
+      <ellipse cx="504.25" cy="211.73" rx="34" ry="86" fill="#E5C073" opacity="0.5" transform="rotate(243.04 504.25 211.73)" />
+      <ellipse cx="617.09" cy="203.11" rx="34" ry="86" fill="#E5C073" opacity="0.5" transform="rotate(274.96 617.09 203.11)" />
+      <ellipse cx="725.06" cy="204.89" rx="34" ry="86" fill="#E5C073" opacity="0.5" transform="rotate(302.66 725.06 204.89)" />
+      <ellipse cx="780.22" cy="320.63" rx="34" ry="86" fill="#E5C073" opacity="0.5" transform="rotate(336.23 780.22 320.63)" />
+      <circle cx="600" cy="400" r="58" fill="#E5C073" opacity="0.75" />
+  </g>
+  <rect x="24" y="24" width="1152" height="752" rx="24" fill="none" stroke="#E5C073"
+        stroke-width="2" opacity="0.28" />
+</svg>

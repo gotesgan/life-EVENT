@@ -1,0 +1,20 @@
+node_modules
+.next
+out
+build
+coverage
+test-results
+playwright-report
+src/generated
+src/lib/storage/__generated__
+.local-storage
+public/media/seed
+*.tsbuildinfo
+pnpm-lock.yaml
+AGENTS.md
+
+# Captured research evidence (DOM dumps, probes) — machine output, not source.
+docs/research/raw/
+# Research capture harnesses (throwaway tooling).
+docs/research/tools/
+docs/research/shots/

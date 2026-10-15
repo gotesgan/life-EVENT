@@ -1,0 +1,159 @@
+/* ==========================================================================
+   Listing profile
+   --------------------------------------------------------------------------
+   One column on small screens with the contact rail pushed to the end of the
+   flow; two columns from `md` up, where the rail sticks beside the content
+   instead of covering it.
+   ========================================================================== */
+
+.breadcrumbs {
+  margin-bottom: rem(14px);
+}
+
+.crumbList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: rem(6px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--text-secondary-size);
+}
+
+.crumb {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.crumb + .crumb::before {
+  content: '/';
+  margin-inline-end: rem(6px);
+  color: var(--app-text-subtle);
+}
+
+.crumbLink {
+  color: var(--app-text-muted);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+
+  @mixin hover {
+    color: var(--app-brand);
+    text-decoration: underline;
+  }
+}
+
+.crumbCurrent {
+  color: var(--app-text);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.gallery {
+  margin-bottom: rem(24px);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: rem(32px);
+  align-items: start;
+
+  @mixin larger-than $mantine-breakpoint-md {
+    grid-template-columns: minmax(0, 1fr) rem(320px);
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: rem(24px);
+  min-width: 0;
+}
+
+.identityActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: rem(12px);
+}
+
+.eyebrowLink {
+  color: var(--app-brand);
+  text-decoration: none;
+
+  @mixin hover {
+    text-decoration: underline;
+  }
+}
+
+.locationLink {
+  display: inline-flex;
+  align-items: center;
+  gap: rem(4px);
+  color: var(--app-text-muted);
+  text-decoration: none;
+
+  @mixin hover {
+    color: var(--app-text);
+    text-decoration: underline;
+  }
+}
+
+.mobileCta {
+  display: inline-flex;
+
+  @mixin larger-than $mantine-breakpoint-md {
+    display: none;
+  }
+}
+
+.priceRow {
+  display: flex;
+  flex-direction: column;
+  gap: rem(4px);
+}
+
+.priceNote {
+  margin: 0;
+  max-width: 62ch;
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: rem(14px);
+  scroll-margin-top: calc(var(--app-header-height) + rem(72px));
+}
+
+.prose {
+  margin: 0;
+  max-width: 68ch;
+  color: var(--app-text);
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-leading);
+  white-space: pre-line;
+}
+
+.rail {
+  display: none;
+
+  @mixin larger-than $mantine-breakpoint-md {
+    display: block;
+  }
+}
+
+.railSticky {
+  position: sticky;
+  top: calc(var(--app-header-height) + rem(20px));
+  scroll-margin-top: calc(var(--app-header-height) + rem(20px));
+}
+
+.related {
+  margin-top: rem(44px);
+  padding-top: rem(28px);
+  border-top: 1px solid var(--app-border);
+}

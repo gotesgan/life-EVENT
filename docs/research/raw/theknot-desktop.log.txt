@@ -1,0 +1,183 @@
+URL_REQUESTED https://www.theknot.com/
+STATUS 200
+FINAL_URL https://www.theknot.com/
+TITLE The Knot® Wedding Planning Website: Tools, Inspiration & More
+SCREENSHOT docs/research/shots/theknot-desktop.png
+RAW docs/research/raw/theknot-desktop.json
+--- SURFACES {"body":{"backgroundColor":"rgba(0, 0, 0, 0)","color":"rgb(0, 0, 0)","fontFamily":"ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 730x120 "Your wedding team & everything in between"
+--- HEADER {"position":"static","top":"auto","height":"120px","backgroundColor":"rgba(0, 0, 0, 0)","borderBottom":"0px none rgb(0, 0, 0)","boxShadow":"none","zIndex":"auto"} 1440x120
+--- HEADER_TEXT 
+--- HEADER_LINKS 
+--- NAV_ALL WEDDING VENUES BY STATE | WEDDING VENUES IN POPULAR CITIES | WEDDING VENDORS BY TYPE | WEDDING PHOTOGRAPHERS IN POPULAR CITIES | WEDDING PLANNERS IN POPULAR CITIES | WEDDING VIDEOGRAPHERS IN POPULAR CITIES | WEDDING INVITATIONS AND PAPER | WEDDING INVITATIONS BY STYLE | WEDDING INVITATIONS BY COLOR
+--- SEARCH_INPUTS
+  {"tag":"INPUT","type":"search","ph":" ","aria":null,"name":"City, State","r":{"x":661,"y":1652,"w":321,"h":22}}
+--- FILTER_CONTAINERS
+--- CARDS
+  [0] imgRatio=0.8 307x384 alt="Wedding checklist showing tasks organized by month"
+     d0 PICTURE "" 0x0 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"contents","gap":"normal"} TEXT=""
+     d1 DIV "styles_imageWrapper__EPrus" 307x384 {"borderRadius":"16px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 A "styles_card__IGjAA" 307x478 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"16px"} TEXT="Checklist → Keep every detail organized by month."
+     d3 DIV "styles_cardsContainer___V32p" 1440x478 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 70px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Checklist → Keep every detail organized by month. Registry → Add no-fee cash funds and gifts from any store. Wedding website → One spot for RSVPs, gifts and wedding details. Invites & paper → Get 3 free paper samples an
+     d4 SECTION "styles_section__PVgnp" 1440x686 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"60px 0px","transition":"all","overflow":"visible","display":"flex","gap":"40px"} TEXT="Free wedding planning tools Checklist → Keep every detail organized by month. Registry → Add no-fee cash funds and gifts from any store. Wedding website → One spot for RSVPs, gifts and wedding details. Invites & paper →
+  [1] imgRatio=0.8 307x384 alt="Wedding registry with kitchen items and gifts"
+     d0 PICTURE "" 0x0 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"contents","gap":"normal"} TEXT=""
+     d1 DIV "styles_imageWrapper__EPrus" 307x384 {"borderRadius":"16px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 A "styles_card__IGjAA" 307x478 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"16px"} TEXT="Registry → Add no-fee cash funds and gifts from any store."
+     d3 DIV "styles_cardsContainer___V32p" 1440x478 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 70px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Checklist → Keep every detail organized by month. Registry → Add no-fee cash funds and gifts from any store. Wedding website → One spot for RSVPs, gifts and wedding details. Invites & paper → Get 3 free paper samples an
+     d4 SECTION "styles_section__PVgnp" 1440x686 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"60px 0px","transition":"all","overflow":"visible","display":"flex","gap":"40px"} TEXT="Free wedding planning tools Checklist → Keep every detail organized by month. Registry → Add no-fee cash funds and gifts from any store. Wedding website → One spot for RSVPs, gifts and wedding details. Invites & paper →
+  [2] imgRatio=0.8 307x384 alt="Custom wedding website with couple photo and countdown"
+     d0 PICTURE "" 0x0 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"contents","gap":"normal"} TEXT=""
+     d1 DIV "styles_imageWrapper__EPrus" 307x384 {"borderRadius":"16px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 A "styles_card__IGjAA" 307x478 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"16px"} TEXT="Wedding website → One spot for RSVPs, gifts and wedding details."
+     d3 DIV "styles_cardsContainer___V32p" 1440x478 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 70px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Checklist → Keep every detail organized by month. Registry → Add no-fee cash funds and gifts from any store. Wedding website → One spot for RSVPs, gifts and wedding details. Invites & paper → Get 3 free paper samples an
+     d4 SECTION "styles_section__PVgnp" 1440x686 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"60px 0px","transition":"all","overflow":"visible","display":"flex","gap":"40px"} TEXT="Free wedding planning tools Checklist → Keep every detail organized by month. Registry → Add no-fee cash funds and gifts from any store. Wedding website → One spot for RSVPs, gifts and wedding details. Invites & paper →
+  [3] imgRatio=0.8 307x384 alt="Wedding invitations and save the date cards"
+     d0 PICTURE "" 0x0 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"contents","gap":"normal"} TEXT=""
+     d1 DIV "styles_imageWrapper__EPrus" 307x384 {"borderRadius":"16px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 A "styles_card__IGjAA" 307x478 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"16px"} TEXT="Invites & paper → Get 3 free paper samples and shop stationery."
+     d3 DIV "styles_cardsContainer___V32p" 1440x478 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 70px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Checklist → Keep every detail organized by month. Registry → Add no-fee cash funds and gifts from any store. Wedding website → One spot for RSVPs, gifts and wedding details. Invites & paper → Get 3 free paper samples an
+     d4 SECTION "styles_section__PVgnp" 1440x686 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"60px 0px","transition":"all","overflow":"visible","display":"flex","gap":"40px"} TEXT="Free wedding planning tools Checklist → Keep every detail organized by month. Registry → Add no-fee cash funds and gifts from any store. Wedding website → One spot for RSVPs, gifts and wedding details. Invites & paper →
+  [4] imgRatio=1.651 307x186 alt="Wedding photographer capturing a bride"
+     d0 PICTURE "" 0x0 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"contents","gap":"normal"} TEXT=""
+     d1 DIV "styles_imageWrapper___ch_V" 307x186 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 A "styles_card__jHep9" 309x240 {"borderRadius":"16px","border":"1px solid rgb(228, 229, 233)","boxShadow":"rgba(0, 0, 0, 0.14) 0px 3px 12px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"transform 0.15s ease-out, box-shadow 0.15s ease-out","overflow":"hidden","dis TEXT="Photographers"
+     d3 DIV "styles_cardsContainer__ZCS_h" 967x496 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"16px"} TEXT="Photographers DJs Beauty Florists Wedding dresses Wedding rings"
+     d4 DIV "styles_innerWrapper__e0Rvk" 967x878 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"40px"} TEXT="Build your team Browse nearly 175,000 top-rated wedding vendors across 20 categories, backed by 4 million couple reviews. Category Reception Venues Location Search Photographers DJs Beauty Florists Wedding dresses Weddi
+  [5] imgRatio=1.651 307x186 alt="Wedding DJ performing at reception"
+     d0 PICTURE "" 0x0 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"contents","gap":"normal"} TEXT=""
+     d1 DIV "styles_imageWrapper___ch_V" 307x186 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 A "styles_card__jHep9" 309x240 {"borderRadius":"16px","border":"1px solid rgb(228, 229, 233)","boxShadow":"rgba(0, 0, 0, 0.14) 0px 3px 12px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"transform 0.15s ease-out, box-shadow 0.15s ease-out","overflow":"hidden","dis TEXT="DJs"
+     d3 DIV "styles_cardsContainer__ZCS_h" 967x496 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"16px"} TEXT="Photographers DJs Beauty Florists Wedding dresses Wedding rings"
+     d4 DIV "styles_innerWrapper__e0Rvk" 967x878 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"40px"} TEXT="Build your team Browse nearly 175,000 top-rated wedding vendors across 20 categories, backed by 4 million couple reviews. Category Reception Venues Location Search Photographers DJs Beauty Florists Wedding dresses Weddi
+  [6] imgRatio=1.651 307x186 alt="Bridal beauty and makeup"
+     d0 PICTURE "" 0x0 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"contents","gap":"normal"} TEXT=""
+     d1 DIV "styles_imageWrapper___ch_V" 307x186 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 A "styles_card__jHep9" 309x240 {"borderRadius":"16px","border":"1px solid rgb(228, 229, 233)","boxShadow":"rgba(0, 0, 0, 0.14) 0px 3px 12px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"transform 0.15s ease-out, box-shadow 0.15s ease-out","overflow":"hidden","dis TEXT="Beauty"
+     d3 DIV "styles_cardsContainer__ZCS_h" 967x496 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"16px"} TEXT="Photographers DJs Beauty Florists Wedding dresses Wedding rings"
+     d4 DIV "styles_innerWrapper__e0Rvk" 967x878 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"40px"} TEXT="Build your team Browse nearly 175,000 top-rated wedding vendors across 20 categories, backed by 4 million couple reviews. Category Reception Venues Location Search Photographers DJs Beauty Florists Wedding dresses Weddi
+  [7] imgRatio=1.651 307x186 alt="Wedding floral arrangements"
+     d0 PICTURE "" 0x0 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"contents","gap":"normal"} TEXT=""
+     d1 DIV "styles_imageWrapper___ch_V" 307x186 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 A "styles_card__jHep9" 309x240 {"borderRadius":"16px","border":"1px solid rgb(228, 229, 233)","boxShadow":"rgba(0, 0, 0, 0.14) 0px 3px 12px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"transform 0.15s ease-out, box-shadow 0.15s ease-out","overflow":"hidden","dis TEXT="Florists"
+     d3 DIV "styles_cardsContainer__ZCS_h" 967x496 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"16px"} TEXT="Photographers DJs Beauty Florists Wedding dresses Wedding rings"
+     d4 DIV "styles_innerWrapper__e0Rvk" 967x878 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"40px"} TEXT="Build your team Browse nearly 175,000 top-rated wedding vendors across 20 categories, backed by 4 million couple reviews. Category Reception Venues Location Search Photographers DJs Beauty Florists Wedding dresses Weddi
+  [8] imgRatio=1.651 307x186 alt="Bride trying on wedding dress"
+     d0 PICTURE "" 0x0 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"contents","gap":"normal"} TEXT=""
+     d1 DIV "styles_imageWrapper___ch_V" 307x186 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 A "styles_card__jHep9" 309x240 {"borderRadius":"16px","border":"1px solid rgb(228, 229, 233)","boxShadow":"rgba(0, 0, 0, 0.14) 0px 3px 12px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"transform 0.15s ease-out, box-shadow 0.15s ease-out","overflow":"hidden","dis TEXT="Wedding dresses"
+     d3 DIV "styles_cardsContainer__ZCS_h" 967x496 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"16px"} TEXT="Photographers DJs Beauty Florists Wedding dresses Wedding rings"
+     d4 DIV "styles_innerWrapper__e0Rvk" 967x878 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"40px"} TEXT="Build your team Browse nearly 175,000 top-rated wedding vendors across 20 categories, backed by 4 million couple reviews. Category Reception Venues Location Search Photographers DJs Beauty Florists Wedding dresses Weddi
+  [9] imgRatio=1.651 307x186 alt="Wedding rings and jewelry"
+     d0 PICTURE "" 0x0 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"contents","gap":"normal"} TEXT=""
+     d1 DIV "styles_imageWrapper___ch_V" 307x186 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 A "styles_card__jHep9" 309x240 {"borderRadius":"16px","border":"1px solid rgb(228, 229, 233)","boxShadow":"rgba(0, 0, 0, 0.14) 0px 3px 12px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"transform 0.15s ease-out, box-shadow 0.15s ease-out","overflow":"hidden","dis TEXT="Wedding rings"
+     d3 DIV "styles_cardsContainer__ZCS_h" 967x496 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"16px"} TEXT="Photographers DJs Beauty Florists Wedding dresses Wedding rings"
+     d4 DIV "styles_innerWrapper__e0Rvk" 967x878 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"40px"} TEXT="Build your team Browse nearly 175,000 top-rated wedding vendors across 20 categories, backed by 4 million couple reviews. Category Reception Venues Location Search Photographers DJs Beauty Florists Wedding dresses Weddi
+  [10] imgRatio=1.632 967x593 alt="A collage of wedding venues, from tented garden receptions to elegant indoor spa"
+     d0 PICTURE "" 0x0 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"contents","gap":"normal"} TEXT=""
+     d1 A "ods-c-link-v1 ods-c-link-$style-type-secondary TextBody_text-body__7CeXb resets_ds-reset_ 967x593 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-flex","gap":"8px"} TEXT=""
+     d2 DIV "styles_imageWrapper__MXB8_" 967x593 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "styles_innerWrapper__l7Ssq" 967x769 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"40px"} TEXT="Find your venue Explore venues"
+     d4 SECTION "styles_section__AFiZt" 1440x889 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"60px 32px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Find your venue Explore venues"
+  [11] imgRatio=1.085 360x332 alt="The Knot wedding planning app shown on a phone screen"
+     d0 DIV "styles_phoneFrame__IOH8J" 360x338 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 DIV "styles_appImageContainer__YIlcX" 428x330 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "styles_imageArea__ikZpV" 421x342 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "styles_container__c4dKz" 1440x319 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px 32px 0px","transition":"all","overflow":"hidden","display":"flex","gap":"24px"} TEXT="The wedding planning app with the most 5-star reviews Get the app"
+     d4 SECTION "styles_section__QkUVG" 1440x319 {"borderRadius":"0px","border":"0px none rgb(0, 0, 0)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="The wedding planning app with the most 5-star reviews Get the app"
+--- IMAGES
+  307x384 nat=900x1083 fit=cover radius=0px alt="Wedding checklist showing tasks organized by month"
+  307x384 nat=900x1083 fit=cover radius=0px alt="Wedding registry with kitchen items and gifts"
+  307x384 nat=900x1083 fit=cover radius=0px alt="Custom wedding website with couple photo and countdown"
+  307x384 nat=900x1083 fit=cover radius=0px alt="Wedding invitations and save the date cards"
+  307x186 nat=618x372 fit=cover radius=0px alt="Wedding photographer capturing a bride"
+  307x186 nat=618x372 fit=cover radius=0px alt="Wedding DJ performing at reception"
+  307x186 nat=618x372 fit=cover radius=0px alt="Bridal beauty and makeup"
+  307x186 nat=618x926 fit=cover radius=0px alt="Wedding floral arrangements"
+  307x186 nat=618x372 fit=cover radius=0px alt="Bride trying on wedding dress"
+  307x186 nat=618x372 fit=cover radius=0px alt="Wedding rings and jewelry"
+  967x593 nat=1834x1124 fit=fill radius=16px alt="A collage of wedding venues, from tented garden receptions to elegant indoor spaces"
+  1440x319 nat=4320x1155 fit=cover radius=0px alt=""
+  360x332 nat=801x738 fit=fill radius=0px alt="The Knot wedding planning app shown on a phone screen"
+  1x1 nat=1x1 fit=fill radius=0px alt=""
+--- TYPE_ROLES
+  h1 "Your wedding team & everything in between" {"fontFamily":"ods-font-primary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif","fontSize":"60px","fontWeight":"700","lineHeight":"60px","letterSpacing":"-1.2px","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "Browse nearly 175,000 top-rated wedding vendors across 20 categories, " {"fontFamily":"ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"22px","letterSpacing":"normal","color":"rgb(0, 0, 0)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(0, 0, 0)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  filter-label "Location" {"fontFamily":"ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"22px","letterSpacing":"normal","color":"rgb(0, 0, 0)","textTransform":"none","borderRadius":"8px","backgroundColor":"rgb(255, 255, 255)","border":"1px solid rgb(202, 204, 208)","boxShadow":"none","transition":"all","padding":"19px 15px 5px","margin":"0px"}
+--- HOVER {"before":{"text":"Checklist → Keep every detail organized by month.","r":{"x":70,"y":868,"w":307,"h":478},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(0, 0, 0)","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","cursor":"pointer","translate":"none","scale":"none"}},"after":{"r":{"w":307,"h":478},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(0, 0, 0)","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+Skip to Main Content
+Your wedding team & everything in between
+
+Join the free wedding planning platform that’s helped more than 30 million couples.
+
+Sign up
+Find a couple
+Free wedding planning tools
+Checklist
+→
+Keep every detail organized by month.
+Registry
+→
+Add no-fee cash funds and gifts from any store.
+Wedding website
+→
+One spot for RSVPs, gifts and wedding details.
+Invites & paper
+→
+Get 3 free paper samples and shop stationery.
+Build your team
+
+Browse nearly 175,000 top-rated wedding vendors across 20 categories, backed by 4 million couple reviews.
+
+Category
+Reception Venues
+Location
+Search
+Photographers
+DJs
+Beauty
+Florists
+Wedding dresses
+Wedding rings
+See all vendors
+Find your venue
+Explore venues
+Loved by couples
+It made finding vendors, keeping track of things to complete, communicating with guests, creating a website and tracking gifts super easy!
+Blairre
+NEW ORLEANS, LA
+APRIL 2026
+Having all the details in one place has made the planning feel surprisingly fun. Creating our online wedding invitations has made sharing updates with out of town guests so quick and easy.
+Mary
+MINNEAPOLIS, MN
+JANUARY 2026
+I found my venue and photographer through The Knot, and I can even create my free wedding website. Even my DJ is listed on The Knot!
+Kay
+REDWOOD CITY, CA
+SEPTEMBER 2024
+We were recommended to The Knot by our closest friends. The Knot has made our wedding process so easy and stress free!
+McKenna
+EDMOND, OK
+FEBRUARY 2026
+Free!!! Very helpful every step of the way and extremely user friendly.
+Hailey
+MADISON, WI
+DECEMBER 2023
+The wedding planning app with the most 5-star reviews
+Get the app
+The Knot is your free, all-in-one wedding planning platform.
+Sign up
+Find a couple
+Photo: Alex W Photography, KT Crabb Photography, Nate Shepard Photo, Patrick Quezada, Renee Hollingshead Photography
+WEDDING VENUES BY STATE
+WEDDING VENUES IN POPULAR CITIES
+WEDDING VENDORS BY TYPE
+WEDDING PHOTOGRAPHERS IN POPULAR CITIES
+WEDDING PLANNERS IN POPULAR CITIES
+WEDDING VIDEOGRAPHERS IN POPULAR CITIES
+WEDDING INVITATIONS AND PAPER
+WEDDING INVITATIONS BY STYLE
+WEDDING INVITATIONS BY COLOR

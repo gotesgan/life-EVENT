@@ -1,0 +1,35 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  gap: rem(6px);
+  color: var(--app-text-muted);
+  white-space: nowrap;
+}
+
+.icon {
+  flex-shrink: 0;
+  /* Icons are sized in rem through the same scale as text. */
+  width: 1em;
+  height: 1em;
+  color: var(--app-text-subtle);
+}
+
+.value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 550;
+}
+
+.sm {
+  font-size: var(--text-caption-size);
+  line-height: var(--text-caption-leading);
+}
+
+.md {
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.md .icon {
+  width: rem(15px);
+  height: rem(15px);
+}

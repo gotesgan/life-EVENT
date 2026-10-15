@@ -1,0 +1,118 @@
+/* Chips are the one place a pill radius is correct — they are tags, not panels
+   and not controls. */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: rem(6px);
+  /* 32px, not 28px: the remove control below is a 24px square target (WCAG 2.2
+     SC 2.5.8), and a 24px target inside a 28px chip would sit 1px from the
+     border once the 1px border is subtracted. The extra 4px buys the target
+     breathing room without making the pill read as a heavy button. */
+  height: rem(32px);
+  padding-inline-start: rem(10px);
+  padding-inline-end: rem(4px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-pill);
+  background-color: var(--app-surface-raised);
+  color: var(--app-text);
+  /* The motion tokens, not a literal: a chip is a `micro` state change, the same
+     beat as a button's fill. */
+  transition:
+    border-color var(--app-duration-micro) var(--app-ease-in-out),
+    background-color var(--app-duration-micro) var(--app-ease-in-out);
+
+  @mixin hover {
+    border-color: var(--app-border-strong);
+  }
+
+  /* The focus ring lands on the inner remove button; the chip restates it on the
+     container so an 8px glyph does not have to carry the whole affordance. */
+  &:focus-within {
+    border-color: var(--app-brand);
+  }
+}
+
+.disabled {
+  opacity: 0.6;
+}
+
+/* A disabled chip is not a control; nothing in it should look pressable. */
+.disabled .remove {
+  cursor: not-allowed;
+}
+
+.label {
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: rem(18px);
+  height: rem(18px);
+  padding-inline: rem(4px);
+  border-radius: var(--app-radius-pill);
+  background-color: var(--app-surface-muted);
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+/* WCAG 2.2 SC 2.5.8 (Target Size Minimum) wants 24×24 CSS px. The button itself
+   is the target — no invisible pseudo-element extension — so the measured box
+   is the box a pointer actually hits. The glyph stays 12px, so the chip does
+   not gain visual weight; only the transparent hover fill grows. */
+.remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(24px);
+  height: rem(24px);
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--app-text-subtle);
+  cursor: pointer;
+  transition:
+    background-color var(--app-duration-micro) var(--app-ease-in-out),
+    color var(--app-duration-micro) var(--app-ease-in-out);
+
+  @mixin hover {
+    background-color: var(--app-brand-soft);
+    color: var(--app-brand);
+  }
+
+  &:active:not(:disabled) {
+    background-color: var(--app-brand-soft-hover);
+  }
+
+  /* Inset so the ring is not clipped by the 32px chip that contains it. */
+  &:focus-visible {
+    outline: 2px solid var(--app-focus-ring);
+    outline-offset: -2px;
+  }
+
+  &:disabled {
+    color: var(--app-text-subtle);
+    cursor: not-allowed;
+  }
+}
+
+.icon {
+  width: rem(12px);
+  height: rem(12px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chip,
+  .remove {
+    transition: none;
+  }
+}

@@ -1,0 +1,308 @@
+/*
+ * Site header — two tiers on a magenta ground.
+ *
+ * The most-seen surface in the product, and the only place the brand colour is
+ * used at full bleed. Two bars, one hue at two depths: the utility strip uses the
+ * deeper shade (`--mantine-color-brand-8`) and the brand bar the primary
+ * (`--app-brand`), so the eye reads the brand bar as the nearer, more important
+ * surface without needing a border between them.
+ *
+ * Consequences of putting controls on a saturated ground, all handled here:
+ *
+ *  - **The focus ring must not be the brand colour.** `--app-focus-ring` is
+ *    magenta, which on a magenta bar is invisible; every focusable element in the
+ *    header overrides it to white. This is the one place in the product where the
+ *    ring is not the token, and it is deliberate rather than an oversight.
+ *  - **Mantine's filled button is unusable here.** A brand-filled button on a
+ *    brand-filled bar disappears, so the account action is re-pointed to a white
+ *    pill with brand text. The overrides are scoped to `.actions` so they cannot
+ *    leak into the rest of the app.
+ *  - **The brand mark is white-on-white inverted.** `BrandMark` paints a magenta
+ *    tile, so on the magenta bar it is given a white pill of its own.
+ *
+ * No shadow: a shadow under a bar that overlaps scrolling content reads as a
+ * rendering artefact, and dark-mode elevation is bought with surface lightness.
+ */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background-color: var(--app-brand);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Tier 1 — utility strip                                                      */
+/* -------------------------------------------------------------------------- */
+
+.utilityBar {
+  background-color: var(--mantine-color-brand-8);
+  color: #ffffff;
+}
+
+.utilityInner {
+  display: flex;
+  align-items: center;
+  gap: rem(16px);
+  min-height: var(--app-header-utility-height);
+}
+
+.tagline {
+  margin: 0;
+  /* The positioning line is the first thing dropped on a phone, where the strip
+     has to earn its height with links that do something. */
+  display: none;
+  font-size: var(--text-caption-size);
+  font-weight: 550;
+  letter-spacing: 0.005em;
+  color: color-mix(in srgb, #ffffff 88%, transparent);
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    display: block;
+  }
+}
+
+.utilityLinks {
+  display: flex;
+  align-items: center;
+  gap: rem(16px);
+  margin: 0;
+  margin-inline-start: auto;
+  padding: 0;
+  list-style: none;
+}
+
+.utilityLink {
+  display: inline-flex;
+  align-items: center;
+  /* ≥24px so the strip's small text is still a comfortable target. */
+  min-height: rem(24px);
+  color: #ffffff;
+  font-size: var(--text-caption-size);
+  font-weight: 600;
+  text-decoration: none;
+
+  @mixin hover {
+    text-decoration: underline;
+    text-underline-offset: rem(3px);
+  }
+}
+
+.utilityLink:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+  border-radius: rem(2px);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Tier 2 — brand bar                                                          */
+/* -------------------------------------------------------------------------- */
+
+.mainBar {
+  background-color: var(--app-brand);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: rem(8px);
+  min-height: var(--app-header-height);
+}
+
+/*
+ * A white pill behind the mark. `BrandMark` draws a magenta tile and dark
+ * wordmark, so on the magenta bar it would vanish; giving it its own light
+ * ground keeps the mark legible and makes it the brightest object in the bar.
+ */
+.brand {
+  display: inline-flex;
+  align-items: center;
+  min-height: rem(44px);
+  padding-inline: rem(8px);
+  border-radius: var(--app-radius-control);
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.brand:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.nav {
+  display: none;
+  flex: 1 1 auto;
+  min-width: 0;
+
+  @mixin larger-than $mantine-breakpoint-md {
+    display: block;
+  }
+}
+
+/* Reserves the nav's box while its active state streams in, so the header does
+   not reflow on hydration. Mirrors `.nav`/`.navList` geometry exactly. */
+.navFallback {
+  display: none;
+  flex: 1 1 auto;
+  height: var(--app-header-height);
+
+  @mixin larger-than $mantine-breakpoint-md {
+    display: block;
+  }
+}
+
+.navList {
+  display: flex;
+  align-items: stretch;
+  gap: rem(2px);
+  height: var(--app-header-height);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* Contains the strip so a long label set can never push the header wider than
+     the viewport. */
+  overflow: hidden;
+}
+
+.navLink {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 rem(10px);
+  color: #ffffff;
+  font-size: var(--text-secondary-size);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+
+  @mixin hover {
+    background-color: color-mix(in srgb, #ffffff 16%, transparent);
+  }
+}
+
+.navLink:focus-visible {
+  /* Inset: an offset ring on a full-height tab is clipped by the header. */
+  outline: 2px solid #ffffff;
+  outline-offset: -2px;
+}
+
+.navLink[data-active] {
+  font-weight: 700;
+}
+
+/*
+ * The active section gets two channels, because on a saturated ground the
+ * underline alone is too quiet once the label is already white: weight plus a
+ * full-opacity rule. Colour cannot be the signal here — every label is already
+ * the same colour.
+ */
+.navLink[data-active]::after {
+  content: '';
+  position: absolute;
+  inset-inline: rem(6px);
+  inset-block-end: 0;
+  height: rem(3px);
+  border-start-start-radius: rem(3px);
+  border-start-end-radius: rem(3px);
+  background-color: #ffffff;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: rem(6px);
+  margin-inline-start: auto;
+}
+
+/*
+ * Icon actions. `.iconAction` is applied both to the search link and to
+ * `ThemeToggle`, and the `:global` rules re-point Mantine's own controls so
+ * every button in the actions slot is a white glyph on a translucent disc.
+ */
+.iconAction {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(40px);
+  height: rem(40px);
+  border: 0;
+  border-radius: var(--app-radius-pill);
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+
+  @mixin hover {
+    background-color: color-mix(in srgb, #ffffff 18%, transparent);
+  }
+}
+
+.iconAction:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+/* The account action: a white pill with brand text, so it is the clear primary
+   affordance in the bar without competing with the bar's own colour. */
+.actions :global(.mantine-Button-root) {
+  border-color: transparent;
+  background-color: #ffffff;
+  color: var(--app-brand);
+}
+
+.actions :global(.mantine-Button-root):hover {
+  background-color: var(--app-brand-soft);
+  color: var(--app-brand);
+}
+
+.actions :global(.mantine-Button-root):focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+/* The bundled icon buttons (theme toggle, sign-out) sit on the same disc. */
+.actions :global(.mantine-ActionIcon-root) {
+  border: 0;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.actions :global(.mantine-ActionIcon-root):hover {
+  background-color: color-mix(in srgb, #ffffff 18%, transparent);
+  color: #ffffff;
+}
+
+.actions :global(.mantine-ActionIcon-root):focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.burgerSlot {
+  display: flex;
+
+  /* Mantine's burger draws in the theme's text colour, which is unreadable on the
+     bar; force it white through the same mechanism as the other controls. */
+  :global(.mantine-Burger-root) {
+    color: #ffffff;
+  }
+
+  :global(.mantine-Burger-burger) {
+    color: #ffffff;
+  }
+
+  @mixin larger-than $mantine-breakpoint-md {
+    display: none;
+  }
+}
+
+.burgerSlot :global(.mantine-Burger-root):focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+@mixin larger-than $mantine-breakpoint-md {
+  .inner {
+    gap: rem(12px);
+  }
+}

@@ -1,0 +1,118 @@
+/*
+ * Shared styling for the sign-in and sign-up surfaces.
+ *
+ * One card, one column, one submit action. The card is a real form container
+ * rather than a marketing panel, so it stays narrow and the inputs keep a
+ * comfortable measure at every width.
+ *
+ * The single piece of identity here is the accent hairline along the top edge —
+ * accent as a line, never a fill — which is what makes these two pages read as
+ * the same surface without putting the action colour on anything but the button.
+ */
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  padding-block: var(--app-section-gap);
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  max-width: rem(460px);
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: rem(3px);
+  background-color: var(--app-accent);
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  margin-bottom: rem(24px);
+}
+
+.title {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-h2-size);
+  font-weight: var(--text-h2-weight);
+  line-height: var(--text-h2-leading);
+  letter-spacing: var(--text-h2-tracking);
+  text-align: center;
+}
+
+.description {
+  margin: rem(10px) 0 rem(28px);
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: rem(16px);
+}
+
+.formError {
+  display: flex;
+  align-items: flex-start;
+  gap: rem(8px);
+  margin: 0;
+  padding: rem(12px) rem(14px);
+  border: 1px solid var(--app-danger);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-danger-soft);
+  color: var(--app-danger-soft-text);
+  font-size: var(--text-secondary-size);
+  font-weight: 600;
+  line-height: var(--text-secondary-leading);
+}
+
+.formErrorIcon {
+  flex: none;
+  margin-top: rem(1px);
+}
+
+/* The route between the two auth pages is a footer to the card, so it is
+   separated by a rule rather than by whitespace alone. */
+.switch {
+  margin: rem(24px) 0 0;
+  padding-top: rem(20px);
+  border-top: 1px solid var(--app-border);
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+  text-align: center;
+}
+
+.switchLink {
+  color: var(--app-brand);
+  font-weight: 650;
+
+  @mixin hover {
+    text-decoration: underline;
+  }
+}
+
+.note {
+  margin: rem(12px) 0 0;
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+  text-align: center;
+}
+
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: rem(16px);
+}

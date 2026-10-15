@@ -1,0 +1,3240 @@
+{
+ "slug": "tagvenue",
+ "mode": "mlisting",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "London Venue Hire Search and book 5,000+ event venues in London EVENT TYPE GUESTS Search Trusted by over 1M+ customers UK > London",
+   "r": {
+    "x": 0,
+    "y": 56,
+    "w": 390,
+    "h": 514
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(55, 57, 65)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 390,
+    "h": 514
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(55, 57, 65)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://www.tagvenue.com/city/london",
+  "title": "The 16 Best Event Venues for Hire in London | Tagvenue UK",
+  "viewport": {
+   "w": 390,
+   "h": 844
+  },
+  "docHeight": 15814,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "London Venue Hire",
+    "x": 48,
+    "y": 128,
+    "w": 293,
+    "h": 44
+   },
+   {
+    "tag": "H2",
+    "text": "Most popular event spaces in London",
+    "x": 16,
+    "y": 618,
+    "w": 358,
+    "h": 64
+   },
+   {
+    "tag": "H3",
+    "text": "The Wildwood Room",
+    "x": 28,
+    "y": 1543,
+    "w": 139,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "The Main Bar",
+    "x": 28,
+    "y": 2104,
+    "w": 89,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "Private Party Venue - Lounge",
+    "x": 28,
+    "y": 2637,
+    "w": 198,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "Upstairs Taproom Event Space",
+    "x": 28,
+    "y": 3198,
+    "w": 208,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "The Hide",
+    "x": 28,
+    "y": 3742,
+    "w": 61,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "The Gallery Bar",
+    "x": 28,
+    "y": 4287,
+    "w": 104,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "Basement Bar",
+    "x": 28,
+    "y": 4847,
+    "w": 94,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "Dulwich Suite",
+    "x": 28,
+    "y": 5381,
+    "w": 93,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "Mala Madre Events Space",
+    "x": 28,
+    "y": 5896,
+    "w": 174,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "The Terrace",
+    "x": 28,
+    "y": 6456,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "The Games Room",
+    "x": 28,
+    "y": 6990,
+    "w": 119,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "Louie's",
+    "x": 28,
+    "y": 7550,
+    "w": 48,
+    "h": 17
+   },
+   {
+    "tag": "H2",
+    "text": "Trusted by leading brands and 1M+ customers",
+    "x": 16,
+    "y": 7991,
+    "w": 358,
+    "h": 64
+   },
+   {
+    "tag": "H2",
+    "text": "Hire the best party venues London has to offer",
+    "x": 16,
+    "y": 8423,
+    "w": 358,
+    "h": 64
+   },
+   {
+    "tag": "H2",
+    "text": "Secure the perfect London venue for any occasion",
+    "x": 16,
+    "y": 9042,
+    "w": 358,
+    "h": 64
+   },
+   {
+    "tag": "H2",
+    "text": "Discover the perfect venue for dinner or drinks in London",
+    "x": 16,
+    "y": 9634,
+    "w": 358,
+    "h": 64
+   },
+   {
+    "tag": "H2",
+    "text": "Explore business event venues for hire in London",
+    "x": 16,
+    "y": 10253,
+    "w": 358,
+    "h": 64
+   },
+   {
+    "tag": "H2",
+    "text": "Book unique wedding venues in London for any budget",
+    "x": 16,
+    "y": 10871,
+    "w": 358,
+    "h": 64
+   },
+   {
+    "tag": "H2",
+    "text": "Find the best production spaces in London",
+    "x": 16,
+    "y": 11489,
+    "w": 358,
+    "h": 64
+   },
+   {
+    "tag": "H2",
+    "text": "Discover top event spaces across the UK",
+    "x": 16,
+    "y": 12082,
+    "w": 358,
+    "h": 64
+   },
+   {
+    "tag": "H2",
+    "text": "Planning an event in the near future but not sure where to start?",
+    "x": 16,
+    "y": 12616,
+    "w": 358,
+    "h": 96
+   },
+   {
+    "tag": "H2",
+    "text": "Our guide to London venue hire",
+    "x": 46,
+    "y": 13336,
+    "w": 298,
+    "h": 64
+   },
+   {
+    "tag": "H3",
+    "text": "How much does it cost to hire an event venue in London?",
+    "x": 56,
+    "y": 13465,
+    "w": 278,
+    "h": 84
+   },
+   {
+    "tag": "H3",
+    "text": "Which type of venue fits your event?",
+    "x": 56,
+    "y": 14399,
+    "w": 278,
+    "h": 56
+   },
+   {
+    "tag": "H3",
+    "text": "Venue Types and Price Ranges for Different Events in London:",
+    "x": 56,
+    "y": 16616,
+    "w": 278,
+    "h": 84
+   },
+   {
+    "tag": "H3",
+    "text": "Which London areas are best and cheapest for venue hire?",
+    "x": 56,
+    "y": 19853,
+    "w": 278,
+    "h": 84
+   },
+   {
+    "tag": "H3",
+    "text": "Our Coolest Venues in London:",
+    "x": 56,
+    "y": 21102,
+    "w": 278,
+    "h": 56
+   },
+   {
+    "tag": "H3",
+    "text": "Small event spaces vs Large event spaces: how price scales with group size",
+    "x": 56,
+    "y": 22693,
+    "w": 278,
+    "h": 84
+   },
+   {
+    "tag": "H2",
+    "text": "Want to dig even deeper? Have a look at these frequently asked questions:",
+    "x": 56,
+    "y": 23588,
+    "w": 278,
+    "h": 128
+   },
+   {
+    "tag": "H3",
+    "text": "I want to host an event in a really hip area of London. What are the most in-demand districts for event venue hire?",
+    "x": 56,
+    "y": 23736,
+    "w": 278,
+    "h": 140
+   },
+   {
+    "tag": "H3",
+    "text": "What types of event venues for hire are the most popular ones in London?",
+    "x": 56,
+    "y": 24053,
+    "w": 278,
+    "h": 84
+   },
+   {
+    "tag": "H3",
+    "text": "What do the venue rates in London usually include?",
+    "x": 56,
+    "y": 24608,
+    "w": 278,
+    "h": 56
+   },
+   {
+    "tag": "H3",
+    "text": "I’m a freelancer working from home. Where can I meet my clients in London? I’d prefer to hire a private meeting room.",
+    "x": 56,
+    "y": 24920,
+    "w": 278,
+    "h": 140
+   },
+   {
+    "tag": "H3",
+    "text": "What can you bring, and what should you check before you book?",
+    "x": 56,
+    "y": 25315,
+    "w": 278,
+    "h": 84
+   },
+   {
+    "tag": "H3",
+    "text": "Can you hire a venue in London for free?",
+    "x": 56,
+    "y": 26057,
+    "w": 278,
+    "h": 56
+   },
+   {
+    "tag": "H3",
+    "text": "Are there hidden fees?",
+    "x": 56,
+    "y": 26329,
+    "w": 278,
+    "h": 28
+   },
+   {
+    "tag": "H2",
+    "text": "Discover spaces for hire near you",
+    "x": 16,
+    "y": 13884,
+    "w": 358,
+    "h": 64
+   },
+   {
+    "tag": "H2",
+    "text": "Explore London’s brand-new venues",
+    "x": 16,
+    "y": 14529,
+    "w": 358,
+    "h": 64
+   }
+  ],
+  "header": {
+   "tag": "HEADER",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 56
+   },
+   "style": {
+    "position": "static",
+    "top": "auto",
+    "height": "56px",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderBottom": "1px solid rgb(222, 223, 227)",
+    "boxShadow": "none",
+    "zIndex": "5000"
+   },
+   "text": "Browse spaces United Kingdom London Manchester Birmingham Leeds Edinburgh Liverpool Glasgow Bristol Nottingham Brighton Newcastle Cardiff Popular cities worldwide Singapore SG Melbourne AU Sydney AU New York City, NY US Toronto, ON CA Brisbane AU Los Angeles, CA US Chicago, IL US Dublin IE All cities London Event types Party venues Meeting rooms Christmas party venues Birthday party venues Conference venues Corporate event venues Engagement party venues Summer party venues Live music venues Wedding reception venues Venue types Private bars Private dining rooms Photo studios Dance studios Unusual venues Outdoor venues Function rooms Halls Filming locations Restaurant venues Browse spacesUserLog inUser loginUser sign upVenueVenue loginList your spaceList your space with usBrowse spacesUnited KingdomLondonManchesterBirminghamLeedsEdinburghLiverpoolGlasgowBristolNottinghamBrightonNewcastleCa",
+   "links": [
+    {
+     "t": "Browse spacesUserLog inUser loginUser sign upVenueVenue logi",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 326,
+      "y": 0,
+      "w": 64,
+      "h": 55
+     }
+    }
+   ]
+  },
+  "navAll": [
+   "UK"
+  ],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "What are you planning?",
+    "aria": null,
+    "name": "room_tag_autocomplete",
+    "r": {
+     "x": 68,
+     "y": 331,
+     "w": 288,
+     "h": 33
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "number",
+    "ph": "Number of guests",
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 68,
+     "y": 417,
+     "w": 288,
+     "h": 33
+    }
+   }
+  ],
+  "filterContainers": [
+   {
+    "tag": "DIV",
+    "cls": "container js-mobile-filter-results-button",
+    "r": {
+     "x": 0,
+     "y": 1229,
+     "w": 390,
+     "h": 42
+    },
+    "text": "Filter results",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Filter results"
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "src": "https://www.tagvenue.com/images/location-pages/414x768/6@x1.5.jpg",
+    "alt": "London Venue Hire",
+    "nat": "621x1152",
+    "r": {
+     "x": 0,
+     "y": 56,
+     "w": 390,
+     "h": 413
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://maps.googleapis.com/maps/api/staticmap?language=en&key=AIzaSyD14V0k2LPdQWfohWAR6w0UhuU5ghjfO4A&size=400x200&markers=scale:2|icon:https://www.tagvenue.co",
+    "alt": "Map of London",
+    "nat": "800x400",
+    "r": {
+     "x": 16,
+     "y": 943,
+     "w": 358,
+     "h": 200
+    },
+    "fit": "cover",
+    "radius": "8px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": -342,
+     "y": 1292,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/resize/77/28/fit-900-600;3436-the-wildwood-room-room.jpg",
+    "alt": "The Wildwood Room at The Green Man in Fitzrovia, London",
+    "nat": "900x600",
+    "r": {
+     "x": 16,
+     "y": 1292,
+     "w": 359,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/resize/17/96/fit-900-600;3436-the-wildwood-room-room.jpg",
+    "alt": "",
+    "nat": "900x600",
+    "r": {
+     "x": 374,
+     "y": 1292,
+     "w": 359,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 732,
+     "y": 1292,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1090,
+     "y": 1292,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1448,
+     "y": 1292,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1806,
+     "y": 1292,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 2164,
+     "y": 1292,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 2522,
+     "y": 1292,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 2880,
+     "y": 1292,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 3238,
+     "y": 1292,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 3596,
+     "y": 1292,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/resize/77/28/fit-900-600;3436-the-wildwood-room-room.jpg",
+    "alt": "The Wildwood Room at The Green Man in Fitzrovia, London",
+    "nat": "900x600",
+    "r": {
+     "x": 3954,
+     "y": 1292,
+     "w": 359,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/supervenue.svg",
+    "alt": "Supervenue badge",
+    "nat": "183x244",
+    "r": {
+     "x": 268,
+     "y": 1583,
+     "w": 13,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": -342,
+     "y": 1852,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/resize/41/52/fit-900-600;61939-the-main-bar-room.jpeg",
+    "alt": "The Main Bar at Ester in Primrose Hill, London",
+    "nat": "900x600",
+    "r": {
+     "x": 16,
+     "y": 1852,
+     "w": 359,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/resize/08/12/fit-900-600;61939-the-main-bar-room.jpeg",
+    "alt": "",
+    "nat": "900x600",
+    "r": {
+     "x": 374,
+     "y": 1852,
+     "w": 359,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 732,
+     "y": 1852,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1090,
+     "y": 1852,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1448,
+     "y": 1852,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1806,
+     "y": 1852,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 2164,
+     "y": 1852,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 2522,
+     "y": 1852,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/city/london",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 2880,
+     "y": 1852,
+     "w": 358,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/resize/41/52/fit-900-600;61939-the-main-bar-room.jpeg",
+    "alt": "The Main Bar at Ester in Primrose Hill, London",
+    "nat": "900x600",
+    "r": {
+     "x": 3238,
+     "y": 1852,
+     "w": 359,
+     "h": 240
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/supervenue.svg",
+    "alt": "Supervenue badge",
+    "nat": "183x244",
+    "r": {
+     "x": 268,
+     "y": 2144,
+     "w": 13,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/supervenue.svg",
+    "alt": "Supervenue badge",
+    "nat": "183x244",
+    "r": {
+     "x": 268,
+     "y": 2677,
+     "w": 13,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/supervenue.svg",
+    "alt": "Supervenue badge",
+    "nat": "183x244",
+    "r": {
+     "x": 268,
+     "y": 3238,
+     "w": 13,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/supervenue.svg",
+    "alt": "Supervenue badge",
+    "nat": "183x244",
+    "r": {
+     "x": 268,
+     "y": 3782,
+     "w": 13,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/supervenue.svg",
+    "alt": "Supervenue badge",
+    "nat": "183x244",
+    "r": {
+     "x": 268,
+     "y": 4327,
+     "w": 13,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/supervenue.svg",
+    "alt": "Supervenue badge",
+    "nat": "183x244",
+    "r": {
+     "x": 268,
+     "y": 4888,
+     "w": 13,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/supervenue.svg",
+    "alt": "Supervenue badge",
+    "nat": "183x244",
+    "r": {
+     "x": 268,
+     "y": 5421,
+     "w": 13,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/supervenue.svg",
+    "alt": "Supervenue badge",
+    "nat": "183x244",
+    "r": {
+     "x": 268,
+     "y": 5936,
+     "w": 13,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/supervenue.svg",
+    "alt": "Supervenue badge",
+    "nat": "183x244",
+    "r": {
+     "x": 268,
+     "y": 6496,
+     "w": 13,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/supervenue.svg",
+    "alt": "Supervenue badge",
+    "nat": "183x244",
+    "r": {
+     "x": 268,
+     "y": 7030,
+     "w": 13,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/supervenue.svg",
+    "alt": "Supervenue badge",
+    "nat": "183x244",
+    "r": {
+     "x": 268,
+     "y": 7591,
+     "w": 13,
+     "h": 17
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/city-location-pages/brands/google.svg?v=3",
+    "alt": "google.svg",
+    "nat": "0x0",
+    "r": {
+     "x": 47,
+     "y": 8078,
+     "w": 117,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.tagvenue.com/build/images/city-location-pages/brands/disney.svg?v=3",
+    "alt": "disney.svg",
+    "nat": "0x0",
+    "r": {
+     "x": 236,
+     "y": 8078,
+     "w": 97,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "London Venue Hire",
+     "ratio": 0.944,
+     "r": {
+      "w": 390,
+      "h": 413
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 195,
+       "y": 86,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "c-hire-banner-img",
+      "r": {
+       "x": 195,
+       "y": 86,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "c-hire-banner",
+      "r": {
+       "x": 0,
+       "y": 56,
+       "w": 390,
+       "h": 514
+      },
+      "text": "London Venue Hire Search and book 5,000+ event venues in London EVENT TYPE GUESTS Search Trusted by over 1M+ customers",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "30px 17px 0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "c-hire-banner-wrap",
+      "r": {
+       "x": 0,
+       "y": 56,
+       "w": 390,
+       "h": 514
+      },
+      "text": "London Venue Hire Search and book 5,000+ event venues in London EVENT TYPE GUESTS Search Trusted by over 1M+ customers UK > London",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "c-hire-banner-breadcrumbs-wrap",
+      "r": {
+       "x": 0,
+       "y": 56,
+       "w": 390,
+       "h": 514
+      },
+      "text": "London Venue Hire Search and book 5,000+ event venues in London EVENT TYPE GUESTS Search Trusted by over 1M+ customers UK > London",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Map of London",
+     "ratio": 1.79,
+     "r": {
+      "w": 358,
+      "h": 200
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "js-more-venues-url",
+      "r": {
+       "x": 16,
+       "y": 943,
+       "w": 358,
+       "h": 200
+      },
+      "text": "10635 venues in London Show map",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "c-hire-map-canvas",
+      "r": {
+       "x": 16,
+       "y": 943,
+       "w": 358,
+       "h": 200
+      },
+      "text": "10635 venues in London Show map",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "c-hire-map c-hire-map--topBox",
+      "r": {
+       "x": 16,
+       "y": 943,
+       "w": 358,
+       "h": 200
+      },
+      "text": "10635 venues in London Show map",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "p-hire-top-box",
+      "r": {
+       "x": 16,
+       "y": 618,
+       "w": 358,
+       "h": 525
+      },
+      "text": "Most popular event spaces in London Hire London event venues for birthday and Christmas parties, corporate events and conferences, weddings and engagement parties, baby showers, private dinners and summer rooftop socials; from West End private dining rooms and",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "container",
+      "r": {
+       "x": 0,
+       "y": 570,
+       "w": 390,
+       "h": 643
+      },
+      "text": "Most popular event spaces in London Hire London event venues for birthday and Christmas parties, corporate events and conferences, weddings and engagement parties, baby showers, private dinners and summer rooftop socials; from West End private dining rooms and",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.494,
+     "r": {
+      "w": 358,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "lory-slide",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "lory-slides",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-frame",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px 3px 0px 0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slider lory-slider--relative c-room-card__image ",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(221, 221, 221)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slide-wrapper",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "The Wildwood Room at The Green Man in Fitzrovia, London",
+     "ratio": 1.5,
+     "r": {
+      "w": 359,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "lory-slide current active",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "lory-slides",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-frame",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px 3px 0px 0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slider lory-slider--relative c-room-card__image ",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(221, 221, 221)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slide-wrapper",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 359,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "lory-slide",
+      "r": {
+       "x": 374,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "lory-slides",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-frame",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px 3px 0px 0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slider lory-slider--relative c-room-card__image ",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(221, 221, 221)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slide-wrapper",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.494,
+     "r": {
+      "w": 358,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "lory-slide",
+      "r": {
+       "x": 732,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "lory-slides",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-frame",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px 3px 0px 0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slider lory-slider--relative c-room-card__image ",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(221, 221, 221)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slide-wrapper",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.494,
+     "r": {
+      "w": 358,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "lory-slide",
+      "r": {
+       "x": 1090,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "lory-slides",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-frame",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px 3px 0px 0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slider lory-slider--relative c-room-card__image ",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(221, 221, 221)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slide-wrapper",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.494,
+     "r": {
+      "w": 358,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "lory-slide",
+      "r": {
+       "x": 1448,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "lory-slides",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-frame",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px 3px 0px 0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slider lory-slider--relative c-room-card__image ",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(221, 221, 221)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slide-wrapper",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.494,
+     "r": {
+      "w": 358,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "lory-slide",
+      "r": {
+       "x": 1806,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "lory-slides",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-frame",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px 3px 0px 0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slider lory-slider--relative c-room-card__image ",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(221, 221, 221)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slide-wrapper",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.494,
+     "r": {
+      "w": 358,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "lory-slide",
+      "r": {
+       "x": 2164,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "lory-slides",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-frame",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px 3px 0px 0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slider lory-slider--relative c-room-card__image ",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(221, 221, 221)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slide-wrapper",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.494,
+     "r": {
+      "w": 358,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "lory-slide",
+      "r": {
+       "x": 2522,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "lory-slides",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-frame",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px 3px 0px 0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slider lory-slider--relative c-room-card__image ",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(221, 221, 221)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slide-wrapper",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.494,
+     "r": {
+      "w": 358,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "lory-slide",
+      "r": {
+       "x": 2880,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "lory-slides",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-frame",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px 3px 0px 0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slider lory-slider--relative c-room-card__image ",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(221, 221, 221)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slide-wrapper",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.494,
+     "r": {
+      "w": 358,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "lory-slide",
+      "r": {
+       "x": 3238,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "lory-slides",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-frame",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px 3px 0px 0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slider lory-slider--relative c-room-card__image ",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(221, 221, 221)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slide-wrapper",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.494,
+     "r": {
+      "w": 358,
+      "h": 240
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "lory-slide",
+      "r": {
+       "x": 3596,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "lory-slides",
+      "r": {
+       "x": -342,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 162, 135)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-frame",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px 3px 0px 0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slider lory-slider--relative c-room-card__image ",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "3px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(221, 221, 221)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "lory-slide-wrapper",
+      "r": {
+       "x": 16,
+       "y": 1292,
+       "w": 358,
+       "h": 240
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(55, 57, 65)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "Skip to main content",
+   "Search",
+   "UK",
+   "10635 venues in London Show map",
+   "See all venues (10635)",
+   "Filter results",
+   "Check availability",
+   "Check availability",
+   "Check availability",
+   "Check availability",
+   "Check availability",
+   "Check availability",
+   "Check availability",
+   "Check availability",
+   "Check availability",
+   "Check availability",
+   "Check availability",
+   "Check availability",
+   "Manchester Business and culture by the docks",
+   "Birmingham Second city, first class event venues",
+   "Leeds Top event venues in the heart of Yorkshire",
+   "Newcastle Discover elegant spots for your event",
+   "Nottingham Picturesque spaces rich in culture",
+   "Brighton Fun and frolic in seaside spots",
+   "Sheffield Venues that take your breath away",
+   "The Best 16th Birthday Party Ideas in London",
+   "Restaurants and private dining rooms",
+   "Private Dining Room at The Perseverance",
+   "restaurants with function rooms",
+   "small private dining rooms",
+   "Bars",
+   "pubs",
+   "Freddie's",
+   "The Wildwood Room at The Green Man",
+   "The Drawing Room at The Marquis Cornwallis",
+   "Cocktail bars and lounges",
+   "The Speakeasy at MNM",
+   "The Main Bar at Ester",
+   "Function rooms, lofts and blank-canvas spaces",
+   "The Gold Bar at COLAB Tower",
+   "Function Room Lower Floor at Simmons | Holborn",
+   "Louie's at Red Dog Saloon Hoxton",
+   "warehouse venues",
+   "halls",
+   "Rooftops and outdoor spaces",
+   "Roof Top Bar at The Solo Kitchen & Bar",
+   "Roof Top Garden at Bow Street Tavern",
+   "outdoor venues",
+   "Meeting rooms and corporate spaces",
+   "Meeting Room at Electric Marketing",
+   "Green Room at Remark! Events",
+   "Meeting Room 2 at Uncommon Liverpool Street",
+   "corporate event venues",
+   "conference venues",
+   "Unusual and quirky venues",
+   "Mala Madre Events Space at The Last Talisman",
+   "party boats",
+   "private cinemas",
+   "Private Dining Room at The Perseverance",
+   "The Wildwood Room at The Green Man",
+   "birthday party venues",
+   "small party venues",
+   "Function Room Lower Floor at Simmons | Holborn",
+   "The Gold Bar at COLAB Tower",
+   "party venues",
+   "The Drawing Room at The Marquis Cornwallis",
+   "Function Room Lower Floor at Simmons | Holborn",
+   "Christmas party venues",
+   "Christmas party restaurants",
+   "Meeting Room at Electric Marketing",
+   "Meeting Room 2 at Uncommon Liverpool Street",
+   "meeting rooms",
+   "conference venues",
+   "corporate event venues",
+   "Private Dining Room at The Perseverance",
+   "private dining rooms",
+   "wedding venues",
+   "wedding packages",
+   "civil ceremony venues",
+   "Roof Top Bar at The Solo Kitchen & Bar",
+   "Roof Top Garden at Bow Street Tavern",
+   "rooftop venues",
+   "summer party venues",
+   "The Boudoir Bar at Bar Soho",
+   "The Wildwood Room at The Green Man",
+   "Garden Room at TOLA",
+   "The Clubhouse at The Vic",
+   "affordable party venues",
+   "small party venues",
+   "Main at The Camden Club",
+   "Full Venue Hire at The Piano Works Farringdon",
+   "live music venues",
+   "gig venues",
+   "concert venues",
+   "The Office at Anomalous Space",
+   "Green Room at Remark! Events",
+   "Meeting Room at The Arc Centre",
+   "workshop venues",
+   "creative spaces",
+   "classrooms",
+   "Central London",
+   "Soho",
+   "Covent Garden",
+   "Mayfair",
+   "King's Cross",
+   "Victoria",
+   "Paddington",
+   "East London",
+   "Shoreditch",
+   "Hackney",
+   "Liverpool Street",
+   "Canary Wharf",
+   "South London",
+   "Brixton",
+   "London Bridge",
+   "Greenwich",
+   "West London",
+   "Chelsea",
+   "Kensington",
+   "Ealing",
+   "North London",
+   "Islington",
+   "Camden",
+   "Entire Ship at The Golden Hinde",
+   "The Lower Deck at Tamesis Dock",
+   "The Speakeasy at MNM",
+   "The Grand Hall at The Escapologist",
+   "Balcony Room at Swan, Shakespeare's Globe",
+   "Main Bar Room at Ninth Ward London",
+   "unusual venues",
+   "railway arches",
+   "boats",
+   "museums",
+   "warehouses",
+   "private cinemas",
+   "The Perseverance",
+   "Le Bab Covent Garden",
+   "Top Floor at The Fable",
+   "The Wildwood Room at The Green Man",
+   "The Boudoir Bar at Bar Soho",
+   "Simmons | Holborn",
+   "Barrio Shoreditch",
+   "Louie's at Red Dog Saloon Hoxton",
+   "The Gold Bar at COLAB Tower",
+   "ultimate guide to venue pricing in London",
+   "minimum spend venues",
+   "affordable party venues",
+   "ultimate guide to venue pricing in London",
+   "Central London",
+   "South London",
+   "North London",
+   "West London",
+   "East London",
+   "South East London",
+   "North West London",
+   "South West London",
+   "North East London",
+   "Soho",
+   "Wembley",
+   "Mayfair",
+   "Paddington",
+   "King's Cross",
+   "Euston",
+   "Shoreditch",
+   "Covent Garden",
+   "Victoria",
+   "Waterloo",
+   "+ Show more",
+   "Restaurants with Private Rooms in Merton",
+   "Restaurants with Private Rooms in Brent",
+   "Restaurants with Private Rooms in Theatreland",
+   "Private Bars in Kensington and Chelsea",
+   "Restaurants with Private Rooms in Notting Hill",
+   "Tagvenue Australia",
+   "Tagvenue Canada",
+   "Tagvenue Ireland",
+   "Tagvenue Singapore",
+   "Tagvenue UK",
+   "Tagvenue USA",
+   "About us",
+   "Help Centre",
+   "Contact us",
+   "Careers",
+   "Terms & Privacy",
+   "Press",
+   "Blog",
+   "Locations",
+   "Popular events"
+  ],
+  "bodyText": "Skip to main content\nLondon Venue Hire\n\nSearch and book 5,000+ event venues in London\n\nEVENT TYPE\nGUESTS\nSearch\n\nTrusted by over 1M+ customers\n\nUK > London\nMost popular event spaces in London\n\nHire London event venues for birthday and Christmas parties, corporate events and conferences, weddings and engagement parties, baby showers, private dinners and summer rooftop socials; from West End private dining rooms and Shoreditch warehouses to Covent Garden rooftops, Mayfair boardrooms and converted railway arches south of the river. Discover the best spots for any celebration or business occasion.\n\n10635 venues in London\n\nShow map\n\nSee all venues (10635)\nFilter results\n \n \nfrom £200\nminimum spend / per session\nThe Wildwood Room\n30\n60\nThe Green Man\n(317)\nGoodge Street Station\nFitzrovia, London\n #Supervenue\nFunction Room in a Pub Private space Vintage feeling\nE\nEve V.\n“I’d absolutely recommend this venue to anyone looking to book an event space :)”\nCheck availability\n \n \nfrom £1000\nminimum spend / per session\nThe Main Bar\n36\n50\nEster\n(71)\nChalk Farm Station\nPrimrose Hill, London\n #Supervenue\nBar Private space Chill vibe Inviting atmosphere\nA\nAmy T.\n“Amazing event space for my party, the staff were incredibly friendly with excellent service.”\nCheck availability\nfrom £600\nminimum spend / per session\nPrivate Party Venue - Lounge\n60\n120\nLe Bab Covent Garden\n(161)\nCovent Garden Station\nCovent Garden, London\n #Supervenue\nEvent Space in a Restaurant Private space Lively vibe Stylish decor\nJ\nJason A.\n“This is an excellent event space that I would certainly use again.”\nCheck availability\nfrom £500\nminimum spend / per session\nUpstairs Taproom Event Space\n50\n70\n3Locks Industrial Brewery Riverside Views\n(120)\nCamden Town Station\nCamden, London\n #Supervenue\nFunction Room in a Winery / Brewery Private space Fun vibe\nJ\nJonathan M.\n“Great event space, really helpful and friendly staff.”\nCheck availability\nfrom £50\nminimum spend / per day\nThe Hide\n20\n30\nBig Chill Kings Cross\n(106)\nKing's Cross St. Pancras Station\nSt Pancras, London\n #Supervenue\nLounge in a Bar Semi-private area Quirky Buzzing vibe\nM\nMegan T.\n“Great event space for what we wanted”\nCheck availability\nfrom £500\nminimum spend / per session\nThe Gallery Bar\n50\n100\nDe Hems Pub\n(52)\nLeicester Square Station\nChinatown, London\n #Supervenue\nFunction Room in a Pub Private space Quirky decor Historic venue\nP\nParveen S.\n“Would definitely book again. Thanks all for a making our event a successful event!”\nCheck availability\nfrom £1500\nminimum spend / per day\nBasement Bar\n150\nThe Oxford Market\n(279)\nOxford Circus Station\nFitzrovia, London\n #Supervenue\nRestaurant Private space Elegant\nJ\nJemilla S.\n“Hosted an event at the Basement Bar, made great by the events team and the staff on the night!”\nCheck availability\nfrom £500\nminimum spend / per session\nDulwich Suite\n100\n120\nThe Crown and Greyhound\n(13)\nDulwich, London\n #Supervenue\nFunction Room in a Pub Private space\nP\nPauline M.\n“I liked the space, it was nicely decorated and just the right size for my event.”\nCheck availability\nfrom £1\nminimum spend / per day\nMala Madre Events Space\n60\n90\nThe Last Talisman\n(629)\nLondon Bridge Station\nBermondsey, London\n #Supervenue\nEvent Space in a Restaurant Private space Casual vibe\nS\nStefano D.\n“The space is beautifully decorated and perfect for an event of ~50 people.”\nCheck availability\nfrom £250\nminimum spend / per session\nThe Terrace\n32\n35\nStudio48 Bar & Kitchen\n(324)\nChalk Farm Station\nPrimrose Hill, London\n #Supervenue\nRestaurant Private space Quirky\nR\nRebecca E.\n“The bar staff were very friendly and the venue is in a good location in Camden”\nCheck availability\nfrom £550\nminimum spend / per session\nThe Games Room\n25\n50\nHeist Bank\n(282)\nPaddington Station\nPaddington, London\n #Supervenue\nFunction Room in a Bar Private space Lively vibe Quirky decor\nH\nHarshita V.\n“Really friendly service aswell by the bar staff and events team.”\nCheck availability\nfrom £1000\nminimum spend / per day\nLouie's\n70\n180\nRed Dog Saloon Hoxton\n(79)\nOld Street Station\nHackney Borough, London\n #Supervenue\nBar in a Restaurant Whole venue\nC\nCalin C.\n“Cannot reccomend Mark and this venue enough for a great event!”\nCheck availability\n1\n2\n3\n...\n296\nTrusted by leading brands and 1M+ customers\nHire the best party venues London has to offer\n\nDiscover a variety of exclusive party spaces, ranging from vibrant clubs to unique venues, perfect for any celebration.\n\nParty Venues in London\nGet ready to have the best time of your life!\n9957 venues\nBirthday Party Venues in London\nWe know the best birthday spots in London for you!\n8084 venues\nChristmas Party Venues in London\nHundreds of festive venues for your Christmas bash!\n6918 venues\nSmall Party Venues in London\nWith these venues a small gathering becomes a big thing!\n9957 venues\nEngagement Party Venues in London\nWe’ve got the perfect engagement party venue for you!\n6839 venues\n30th Birthday Party Venues in London\nKiss your 20s goodbye in the best party venues in London!\n7721 venues\nBaby Shower Venues in London\nCelebrate your baby shower in a beautiful themed venue!\n4066 venues\nSummer Party Venues in London\nMake the most of the London summer\n3101 venues\nParty Apartments in London\nThe fun vibe of a house party, minus the cleaning\n9957 venues\nAffordable Party Venues in London\nLondon's stunning party spaces that won’t break the bank\n9957 venues\nChristmas Party Restaurants in London\nFestive Christmas party restaurants in just a few clicks!\n5551 venues\nCocktail Party Venues in London\nFind one of London's top cocktail party venues\n7674 venues\nSecure the perfect London venue for any occasion\n\nLooking for a specific type of space? Explore stunning gardens, luxurious halls, and more!\n\nFunction Rooms in London\nFind the perfect space for your next function in London.\n4139 venues\nUnusual Venues in London\nPlanning a quirky event? Find a venue to match it up!\n3010 venues\nOutdoor Venues in London\nEnjoy the sun in one of these awesome outdoor spaces\n2171 venues\nMinimum Spend Venues in London\nDiscover your free venue hire possibilities in London!\n4880 venues\nHalls in London\nLondon’s best halls available for all kinds of events.\n1944 venues\nRooftop Venues in London\nThrow an unforgettable rooftop party\n205 venues\nPrivate Cinemas in London\nTake your London movie night to the next level\n159 venues\nParty Boats in London\nEat, drink, be merry and enjoy amazing views of the Thames\n67 venues\nSmall Venues in London\nLondon's best-kept secrets are now yours to unveil!\n10635 venues\nWarehouse Venues in London\nDiscover top industrial spaces available for hire\n249 venues\nGarden Party Venues in London\nThrow a party in the great British outdoors!\n342 venues\nAffordable Venues in London\nDiscover stunning event spaces that won’t break the bank\n10635 venues\nDiscover the perfect venue for dinner or drinks in London\n\nBook one of London’s best bars, pubs, restaurants and private dining rooms to enjoy a memorable evening.\n\nPrivate Bars in London\nLondon’s best bars, now available for private hire\n6448 venues\nPrivate Dining Rooms in London\nTreat yourselves and have a fantastic private feast\n7790 venues\nPubs with Function Rooms in London\nCelebrate your special occasion the London way\n6225 venues\nBars with Private Rooms in London\nGrab a pint in one of these fab spots!\n6448 venues\nRestaurants with Function Rooms in London\nDine and celebrate in London's top restaurants!\n6301 venues\nCheap Private Dining Venues in London\nA nice dinner party doesn't have to be expensive\n7790 venues\nPub Venues in London\nLet the good times roll over a nice cold pint!\n6225 venues\nPubs with Private Dining Rooms in London\nLondon's gastronomic gems, with great private dining rooms\n6225 venues\nSmall Private Dining Rooms in London\nTreat yourselves and have a fantastic private feast\n7790 venues\nPubs for Large Groups in London\nEnjoy a pint with a bustling crowd of London pubs\n6225 venues\nNightclub Venues in London\nLondon’s best nightlife spots, available for your party\n782 venues\nKaraoke Bars in London\nExplore top-rated karaoke rooms and booths in London\n303 venues\nExplore business event venues for hire in London\n\nFrom large conference centres to small meeting rooms, discover London venues for all your corporate needs.\n\nMeeting Rooms in London\nThe best meeting spaces in town, all in one place\n7558 venues\nCorporate Event Venues in London\nMake your business event stand out with the right venue!\n8206 venues\nConference Venues in London\nWorldclass conference centres and dozens of unusual spaces\n3821 venues\nHotel Meeting Rooms in London\nHold a meeting in one of these amazing venues!\n1224 venues\nAffordable Meeting Rooms in London\nSet up a business meeting on a budget\n7558 venues\nWorkshop Venues in London\nLooking for a space to host your next workshop? You’ll find it here\n4935 venues\nSmall Meeting Rooms in London\nComfortable spaces to host your next meeting\n7558 venues\nQuirky Meeting Rooms in London\nDiscover the most unusual meeting rooms in town!\n7558 venues\nTraining Rooms in London\nBook a ",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "London Venue Hire",
+     "style": {
+      "fontFamily": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+     },
+     "r": {
+      "x": 48,
+      "y": 128,
+      "w": 293,
+      "h": 44
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='venue-card'] h2, [class*='VenueCard'] h2, [class*='listing'] h2, h2, h3",
+     "text": "Most popular event spaces in London",
+     "style": {
+      "fontFamily": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "color": "rgb(55, 57, 65)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(55, 57, 65)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+     },
+     "r": {
+      "x": 16,
+      "y": 618,
+      "w": 358,
+      "h": 64
+     }
+    },
+    {
+     "sel": "[class*='venue-card'] h2, [class*='VenueCard'] h2, [class*='listing'] h2, h2, h3",
+     "text": "The Wildwood Room",
+     "style": {
+      "fontFamily": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(55, 57, 65)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(55, 57, 65)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 5px 0px 0px"
+     },
+     "r": {
+      "x": 28,
+      "y": 1543,
+      "w": 139,
+      "h": 17
+     }
+    },
+    {
+     "sel": "[class*='venue-card'] h2, [class*='VenueCard'] h2, [class*='listing'] h2, h2, h3",
+     "text": "The Main Bar",
+     "style": {
+      "fontFamily": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(55, 57, 65)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(55, 57, 65)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 5px 0px 0px"
+     },
+     "r": {
+      "x": 28,
+      "y": 2104,
+      "w": 89,
+      "h": 17
+     }
+    }
+   ],
+   "card-meta": [],
+   "filter-label": [
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "EVENT TYPE",
+     "style": {
+      "fontFamily": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "19.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(55, 57, 65)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "16px 16px 16px 50px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 18,
+      "y": 295,
+      "w": 354,
+      "h": 86
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "GUESTS",
+     "style": {
+      "fontFamily": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "19.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(55, 57, 65)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(55, 57, 65)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "16px 16px 16px 50px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 18,
+      "y": 381,
+      "w": 354,
+      "h": 85
+     }
+    }
+   ],
+   "nav-link": [
+    {
+     "sel": "header nav a, header a",
+     "text": "",
+     "style": {
+      "fontFamily": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "19.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 162, 135)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 162, 135)",
+      "boxShadow": "none",
+      "transition": "color 0.1s ease-out",
+      "padding": "0px 16px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 0,
+      "y": 8,
+      "w": 184,
+      "h": 38
+     }
+    }
+   ],
+   "price": [
+    {
+     "sel": "[class*='price'], [class*='Price']",
+     "text": "from £200 minimum spend / per session",
+     "style": {
+      "fontFamily": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "3px",
+      "backgroundColor": "rgba(0, 0, 0, 0.7)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "6px 8px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 212,
+      "y": 1481,
+      "w": 154,
+      "h": 42
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price']",
+     "text": "£200",
+     "style": {
+      "fontFamily": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 280,
+      "y": 1484,
+      "w": 42,
+      "h": 20
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price']",
+     "text": "from £1000 minimum spend / per session",
+     "style": {
+      "fontFamily": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "3px",
+      "backgroundColor": "rgba(0, 0, 0, 0.7)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "6px 8px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 212,
+      "y": 2042,
+      "w": 154,
+      "h": 42
+     }
+    }
+   ]
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(55, 57, 65)",
+    "fontFamily": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+    "fontSize": "14px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

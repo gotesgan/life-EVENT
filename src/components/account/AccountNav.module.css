@@ -1,0 +1,37 @@
+.nav {
+  margin-bottom: rem(24px);
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: rem(8px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  min-height: rem(36px);
+  padding: 0 rem(14px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-pill);
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  font-weight: 650;
+  text-decoration: none;
+
+  @mixin hover {
+    border-color: var(--app-border-strong);
+    color: var(--app-text);
+  }
+}
+
+/* Active state carries weight and border, not colour alone. */
+.active {
+  border-color: var(--app-brand);
+  background-color: var(--app-brand-soft);
+  color: var(--app-brand-soft-text);
+}

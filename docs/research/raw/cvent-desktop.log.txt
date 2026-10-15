@@ -1,0 +1,609 @@
+URL_REQUESTED https://www.cvent.com/
+STATUS 200
+FINAL_URL https://www.cvent.com/
+TITLE Cvent | Event Platform for In-person, Virtual, and Hybrid Events & Webinars
+STAGE pre-screenshot 86703 ms
+SCREENSHOT docs/research/shots/cvent-desktop.png
+STAGE pre-extract 99266 ms
+STAGE pre-hover 99514 ms
+RAW docs/research/raw/cvent-desktop.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(23, 32, 28)","fontFamily":"\"Suisse Intl\", \"Helvetica Neue\", Helvetica, Arial, sans-serif, sans-serif","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 1x1 "EXPECT MORE FROM YOUR EVENTS™"
+  H2 1000x53 "ANY EVENT. ANY FORMAT. ANY SIZE."
+  H2 1000x106 "BUILT FOR THE PEOPLE WHO MAKE EVENTS WORK"
+  H4 403x81 "One platform to source smarter, execute flawlessly, and walk into every debrief with the data to prove it worked."
+  H4 403x81 "Run every event format on one platform, capture intent data, and connect every dollar to impact you can prove."
+  H4 403x81 "The world's largest marketplace of qualified buyers, with AI to help you respond faster and win more."
+  H2 947x53 "DON'T TAKE OUR WORD FOR IT"
+  H2 899x53 "DISCOVER THE CVENT DIFFERENCE"
+  H3 700x101 "PURPOSE-BUILT FOR PERFORMANCE. PROVEN AT ANY SCALE."
+  H3 768x101 "YOUR NEXT EVENT DESERVES MORE"
+  H3 700x50 "THE PRESENCE PREMIUM™"
+  H3 700x101 "THE DATA IS IN. EVENTS DRIVE GROWTH."
+  H2 589x53 "WHAT'S NEW AT CVENT"
+  H4 288x81 "Show the world what events can do. We reimagined Cvent. Here's why it matters."
+  H4 288x54 "The 2026 Event-Led Growth Report"
+  H4 288x54 "See where planners are booking next"
+  H3 635x106 "YOUR NEXT GREAT EVENT STARTS HERE"
+  H4 123x22 "Sales"
+  H4 129x22 "About"
+  H4 148x22 "Popular products"
+  H4 137x22 "Free resources"
+  H4 125x22 "Support"
+  H4 174x22 "For suppliers & venues"
+--- HEADER {"position":"relative","top":"0px","height":"97.3281px","backgroundColor":"rgba(0, 0, 0, 0)","borderBottom":"0px none rgb(23, 32, 28)","boxShadow":"none","zIndex":"auto"} 1440x97
+--- HEADER_TEXT Main navigation (MICE) Event solutions Hospitality solutions Your role Resources About Cvent Utility navigation REQUEST DEMO FIND EVENT VENUES LOG IN
+--- HEADER_LINKS Event solutions | Hospitality solutions | Your role | Resources | About Cvent | REQUEST DEMO | FIND EVENT VENUES | LOG IN
+--- NAV_ALL Event solutions | Hospitality solutions | Your role | Resources | About Cvent | REQUEST DEMO | FIND EVENT VENUES | LOG IN | Request a demo | Pricing | Contact sales | 971.4568.4914 | Awards | Careers | Investor relations | Newsroom | Partners | Event registration | Mobile apps | Attendee Hub | Check-in & badging | Webinar platform | Venue Sourcing | All products | Blog | Case studies | Events | Watch webinars | Find event venues | Best event venues | Contact support | Community | Developer Hub | Knowledge base | Security | Training | Log in to Cvent | Convert | Manage | Improve | Corporate Travel
+--- SEARCH_INPUTS
+  {"tag":"INPUT","type":"text","ph":null,"aria":null,"name":"FirstName","r":{"x":790,"y":7350,"w":281,"h":46}}
+  {"tag":"INPUT","type":"text","ph":null,"aria":null,"name":"LastName","r":{"x":1095,"y":7350,"w":281,"h":46}}
+  {"tag":"INPUT","type":"text","ph":null,"aria":null,"name":"Email","r":{"x":790,"y":7437,"w":585,"h":46}}
+  {"tag":"INPUT","type":"text","ph":null,"aria":null,"name":"Phone","r":{"x":790,"y":7523,"w":585,"h":46}}
+  {"tag":"INPUT","type":"text","ph":null,"aria":null,"name":"Company","r":{"x":790,"y":7610,"w":585,"h":46}}
+  {"tag":"INPUT","type":"checkbox","ph":null,"aria":null,"name":null,"r":{"x":790,"y":7848,"w":24,"h":24}}
+  {"tag":"INPUT","type":"submit","ph":null,"aria":null,"name":"Submit","r":{"x":790,"y":7982,"w":195,"h":52}}
+--- FILTER_CONTAINERS
+  [0] HTML "supports no-touchevents cssanimations backgroundcliptext cssfilters csstransforms csstransforms3d csstransitions cors js" {"x":0,"y":0,"w":1440,"h":9179} CTRLS=[{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Event solutions"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Hospitality solutions"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Your role"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Resources"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"About Cvent"},{"tag":"BUTTON","type":"button","role":null,"aria":"Search Cvent.com","label":""},{"tag":"BUTTON","type":"button","role":null,"aria":"Pause video and animated text","label":""},{"tag":"INPUT","type":"text","role":null,"aria":"","label":""},{"tag":"INPUT","type":"text","role":null,"aria":"","label":""},{"tag":"INPUT","type":"text","role":null,"aria":"","label":""},{"tag":"INPUT","type":"text","role":null,"aria":"","label":""},{"tag":"INPUT","type":"text","role":null,"aria":"","label":""},{"tag":"SELECT","type":null,"role":null,"aria":"","label":"Select one Administration Business Owner Customer Support Ed"},{"tag":"SELECT","type":null,"role":null,"aria":"","label":"Select Country Australia Canada Germany USA United Kingdom -"},{"tag":"INPUT","type":"checkbox","role":null,"aria":"","label":""},{"tag":"INPUT","type":"submit","role":null,"aria":"","label":""},{"tag":"BUTTON","type":null,"role":null,"aria":"","label":"COOKIES SETTINGS"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"English"}]
+--- CARDS
+  [0] imgRatio=2.444 220x90 alt="6 Sense"
+     d0 PICTURE "" 220x28 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "field field--name-field-image field--type-image field--label-hidden field__item" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "media--logo media--view-mode--default" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "summary-output" 1360x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"22px"} TEXT=""
+     d4 DIV "logo-bar" 1440x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 40px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [1] imgRatio=2.444 220x90 alt="Cognizant"
+     d0 PICTURE "" 220x28 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "field field--name-field-image field--type-image field--label-hidden field__item" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "media--logo media--view-mode--default" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "summary-output" 1360x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"22px"} TEXT=""
+     d4 DIV "logo-bar" 1440x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 40px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [2] imgRatio=2.444 220x90 alt="Purdue University logo"
+     d0 PICTURE "" 220x28 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "field field--name-field-image field--type-image field--label-hidden field__item" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "media--logo media--view-mode--default" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "summary-output" 1360x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"22px"} TEXT=""
+     d4 DIV "logo-bar" 1440x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 40px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [3] imgRatio=2.444 220x90 alt="Rosewood hotel logo"
+     d0 PICTURE "" 220x28 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "field field--name-field-image field--type-image field--label-hidden field__item" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "media--logo media--view-mode--default" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "summary-output" 1360x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"22px"} TEXT=""
+     d4 DIV "logo-bar" 1440x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 40px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [4] imgRatio=2.444 220x90 alt="AMD"
+     d0 PICTURE "" 220x28 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "field field--name-field-image field--type-image field--label-hidden field__item" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "media--logo media--view-mode--default" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "summary-output" 1360x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"22px"} TEXT=""
+     d4 DIV "logo-bar" 1440x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 40px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [5] imgRatio=2.444 220x90 alt="American Marketing Association logo"
+     d0 PICTURE "" 220x28 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "field field--name-field-image field--type-image field--label-hidden field__item" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "media--logo media--view-mode--default" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "summary-output" 1360x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"22px"} TEXT=""
+     d4 DIV "logo-bar" 1440x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 40px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [6] imgRatio=2.444 220x90 alt="Capital Group"
+     d0 PICTURE "" 220x28 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "field field--name-field-image field--type-image field--label-hidden field__item" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "media--logo media--view-mode--default" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "summary-output" 1360x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"22px"} TEXT=""
+     d4 DIV "logo-bar" 1440x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 40px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [7] imgRatio=2.444 220x90 alt="National Geographic Society Logo"
+     d0 PICTURE "" 220x28 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "field field--name-field-image field--type-image field--label-hidden field__item" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "media--logo media--view-mode--default" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "summary-output" 1360x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"22px"} TEXT=""
+     d4 DIV "logo-bar" 1440x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 40px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [8] imgRatio=2.444 220x90 alt="Optimizely logo"
+     d0 PICTURE "" 220x28 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "field field--name-field-image field--type-image field--label-hidden field__item" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "media--logo media--view-mode--default" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "summary-output" 1360x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"22px"} TEXT=""
+     d4 DIV "logo-bar" 1440x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 40px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [9] imgRatio=2.444 220x90 alt="Reuters logo"
+     d0 PICTURE "" 220x28 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "field field--name-field-image field--type-image field--label-hidden field__item" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "media--logo media--view-mode--default" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "summary-output" 1360x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"22px"} TEXT=""
+     d4 DIV "logo-bar" 1440x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 40px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [10] imgRatio=2.444 220x90 alt="Uber for business logo"
+     d0 PICTURE "" 220x28 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "field field--name-field-image field--type-image field--label-hidden field__item" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "media--logo media--view-mode--default" 220x90 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "summary-output" 1360x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"22px"} TEXT=""
+     d4 DIV "logo-bar" 1440x314 {"borderRadius":"0px","border":"0px none rgb(255, 255, 255)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 40px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [11] imgRatio=5.267 1118x212 alt="Cvent Logo"
+     d0 DIV "footer-logo-container" 1118x212 {"borderRadius":"0px","border":"0px none rgb(142, 167, 159)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "footer-top" 1360x403 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 40px","transition":"all","overflow":"visible","display":"flex","gap":"40px"} TEXT="Social menu"
+     d2 DIV "container--standard" 1440x686 {"borderRadius":"0px","border":"0px none rgb(142, 167, 159)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 40px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Footer (Middle East) Sales Request a demo Pricing Contact sales 971.4568.4914 About Awards Careers Investor relations Newsroom Partners Popular products Event registration Mobile apps Attendee Hub Check-in & badging Web
+     d3 FOOTER "theme-dark" 1440x1012 {"borderRadius":"0px","border":"0px none rgb(142, 167, 159)","boxShadow":"none","backgroundColor":"rgb(23, 32, 28)","padding":"90px 0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Footer (Middle East) Sales Request a demo Pricing Contact sales 971.4568.4914 About Awards Careers Investor relations Newsroom Partners Popular products Event registration Mobile apps Attendee Hub Check-in & badging Web
+     d4 DIV "layout-container" 1440x8367 {"borderRadius":"0px","border":"0px none rgb(23, 32, 28)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="8M+ Events managed on Cvent 34K+ Customers globally 89% of the Fortune 100 use Cvent $1B+ Investment in product innovation July 2026 - July 2029 ANY EVENT. ANY FORMAT. ANY SIZE. CventIQ™ puts AI to work across your enti
+--- IMAGES
+  255x48 nat=474x90 fit=fill radius=0px alt="cvent logo"
+  20x20 nat=17x17 fit=fill radius=0px alt=""
+  220x90 nat=440x179 fit=contain radius=0px alt="6 Sense"
+  220x90 nat=440x179 fit=contain radius=0px alt="Cognizant"
+  220x90 nat=600x247 fit=contain radius=0px alt="Purdue University logo"
+  220x90 nat=600x247 fit=contain radius=0px alt="Rosewood hotel logo"
+  220x90 nat=440x179 fit=contain radius=0px alt="AMD"
+  220x90 nat=600x247 fit=contain radius=0px alt="American Marketing Association logo"
+  220x90 nat=440x179 fit=contain radius=0px alt="Capital Group"
+  220x90 nat=600x247 fit=contain radius=0px alt="National Geographic Society Logo"
+  220x90 nat=600x247 fit=contain radius=0px alt="Optimizely logo"
+  220x90 nat=600x247 fit=contain radius=0px alt="Reuters logo"
+  220x90 nat=600x247 fit=contain radius=0px alt="Uber for business logo"
+  1118x212 nat=0x0 fit=fill radius=0px alt="Cvent Logo"
+--- TYPE_ROLES
+  h1 "EXPECT MORE FROM YOUR EVENTS™" {"fontFamily":"\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace","fontSize":"64px","fontWeight":"400","lineHeight":"70.4px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"uppercase","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "ANY EVENT. ANY FORMAT. ANY SIZE." {"fontFamily":"\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace","fontSize":"48px","fontWeight":"400","lineHeight":"52.8px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"uppercase","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "BUILT FOR THE PEOPLE WHO MAKE EVENTS WORK" {"fontFamily":"\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace","fontSize":"48px","fontWeight":"400","lineHeight":"52.8px","letterSpacing":"normal","color":"rgb(23, 32, 28)","textTransform":"uppercase","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(23, 32, 28)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "DON'T TAKE OUR WORD FOR IT" {"fontFamily":"\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace","fontSize":"48px","fontWeight":"400","lineHeight":"52.8px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"uppercase","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "20% year-over-year attendance growth Alkami" {"fontFamily":"\"Suisse Intl\", \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(23, 32, 28)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(23, 32, 28)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "51% more pipeline from a flagship event 6sense" {"fontFamily":"\"Suisse Intl\", \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(23, 32, 28)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(23, 32, 28)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "300K+ unique RFPs sourced via Cvent annually" {"fontFamily":"\"Suisse Intl\", \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(23, 32, 28)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(23, 32, 28)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  filter-label "FIRST NAME *" {"fontFamily":"\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace","fontSize":"12px","fontWeight":"400","lineHeight":"16.8px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"uppercase","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 8px"}
+  filter-label "LAST NAME *" {"fontFamily":"\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace","fontSize":"12px","fontWeight":"400","lineHeight":"16.8px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"uppercase","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 8px"}
+  filter-label "WORK EMAIL *" {"fontFamily":"\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace","fontSize":"12px","fontWeight":"400","lineHeight":"16.8px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"uppercase","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 8px"}
+  nav-link "" {"fontFamily":"\"Suisse Intl\", \"Helvetica Neue\", Helvetica, Arial, sans-serif, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"22.4px","letterSpacing":"normal","color":"rgb(23, 32, 28)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(23, 32, 28)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  nav-link "REQUEST DEMO" {"fontFamily":"\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace","fontSize":"14px","fontWeight":"400","lineHeight":"15.4px","letterSpacing":"normal","color":"rgb(23, 32, 28)","textTransform":"uppercase","borderRadius":"2px","backgroundColor":"rgb(1, 239, 108)","border":"1px solid rgb(1, 239, 108)","boxShadow":"none","transition":"color 0.2s, background-color 0.2s, border-color 0.2s","padding":"8px 16px","margin":"0px"}
+  nav-link "FIND EVENT VENUES" {"fontFamily":"\"Suisse Int'l Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace","fontSize":"12px","fontWeight":"400","lineHeight":"16.8px","letterSpacing":"normal","color":"rgb(23, 32, 28)","textTransform":"uppercase","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(23, 32, 28)","boxShadow":"none","transition":"all","padding":"8px 0px","margin":"0px"}
+--- BODY_TEXT
+___
+Skip to main content
+Main navigation (MICE)
+Event solutions
+Hospitality solutions
+Your role
+Resources
+About Cvent
+Utility navigation
+REQUEST DEMO
+FIND EVENT VENUES
+LOG IN
+EXPECT MORE FROM YOUR EVENTS™
+EXPECT MORE
+WOW MOMENTS
+FROM YOUR EVENTS™
+
+Purpose-built and AI-powered - with the data insights, ecosystem, and expertise to deliver real event outcomes.
+
+EXPLORE THE PLATFORM
+REQUEST A DEMO
+8M+
+
+Events managed on Cvent
+
+34K+
+
+Customers globally
+
+89%
+
+of the Fortune 100 use Cvent
+
+$1B+
+
+Investment in product innovation July 2026 - July 2029
+
+ANY EVENT. ANY FORMAT. ANY SIZE.
+
+CventIQ™ puts AI to work across your entire event program, from first venue search to final ROI report. Less stitching. Less guesswork. More events that perform with the data to prove it.
+
+BUILT FOR THE PEOPLE WHO MAKE EVENTS WORK
+
+Whether you're building a world-class event program, proving events drive pipeline, or winning more group business, the Cvent platform was purpose-built for your outcomes.
+
+EVENT PROFESSIONALS
+One platform to source smarter, execute flawlessly, and walk into every debrief with the data to prove it worked.
+
+20% year-over-year attendance growth
+Alkami
+
+RUN FLAWLESS EVENTS
+MARKETING PROFESSIONALS
+Run every event format on one platform, capture intent data, and connect every dollar to impact you can prove.
+
+51% more pipeline from a flagship event
+6sense
+
+PROVE EVENT ROI
+HOSPITALITY PROFESSIONALS
+The world's largest marketplace of qualified buyers, with AI to help you respond faster and win more.
+
+300K+ unique RFPs sourced via Cvent annually
+
+WIN MORE GROUP BUSINESS
+DON'T TAKE OUR WORD FOR IT
+
+400+ recognitions and awards from the analysts, the industry, and the customers who use our platform every day.
+
+AWARDS & RECOGNITION
+DISCOVER THE CVENT DIFFERENCE
+TRUSTED, AI-POWERED PLATFORM
+DATA ADVANTAGE
+UNRIVALED ECOSYSTEM
+DEEP EXPERTISE
+PURPOSE-BUILT FOR PERFORMANCE. PROVEN AT ANY SCALE.
+
+Decades of R&D. Hundreds of thousands of AI-assisted work units annually. A platform agile enough to run any event type, at any scale, without breaking down at the worst possible moment. Every event your team runs makes the next one sharper.
+
+SEE WHAT SETS CVENT APART
+
+YOUR NEXT EVENT 
+DESERVES MORE
+
+See what it looks like when your entire event program runs on one trusted, AI-powered platform built for the outcomes that matter to your business.
+
+REQUEST A DEMO
+
+OUR EVENT PHILOSOPHY
+
+THE PRESENCE PREMIUM™
+
+AI is scaling content, automating outreach, and flooding every digital channel with noise. What it can't do is put someone in a room. That scarcity is the opportunity. Read our take on why in-person presence is becoming the highest-trust signal in modern marketing, and what it means for the future of your event strategy.
+
+READ THE ARTICLE
+
+EVENT & HOSPITALITY RESEARCH
+
+THE DATA IS IN. 
+EVENTS DRIVE GROWTH.
+
+Commissioned by Cvent, this Forrester study sets out to quantify what event professionals and marketers have always known to be true: events are a revenue engine. Get a first look at the findings and see the research behind The Cvent Center for Event Insights, launching this summer.
+
+READ THE REPORT SUMMARY
+WHAT'S NEW AT CVENT
+BLOG
+Show the world what events can do. We reimagined Cvent. Here's why it matters.
+READ THE STORY
+NEW RESEARCH
+The 2026 Event-Led Growth Report
+READ NOW
+CVENT TOP LISTS
+See where planners are booking next
+BROWSE TOP LISTS
+
+2026 EVENT TRENDS
+
+AI TOOLS FOR EVENTS
+
+WHY EVENTS DRIVE REVENUE
+
+HOW EVENTS BUILD TRUST
+
+YOUR NEXT GREAT EVENT STARTS HERE
+
+The Cvent platform has everything you need to plan, execute, and prove the impact of every event you run.
+
+TRY CVENT EVENT REGISTRATION FOR FREE
+
+
+
+FIRST NAME *
+LAST NAME *
+WORK EMAIL *
+PHONE (NO SPACES) *
+ORGANIZATION *
+JOB FUNCTION *
+Select one
+Administration
+Business Owner
+Customer Support
+Education
+Event Planning
+Executive
+Financial Services
+Hospitality
+Human Resources
+Legal
+Marketing
+Operations
+Sales
+Technology
+Student
+Other
+COUNTRY *
+Select Country
+Australia
+Canada
+Germany
+USA
+United Kingdom
+--------------------------------------------------
+Afghanistan
+Aland Islands
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bonaire, Saint Eustatius and Saba
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Terr.
+British Virgin Islands
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo (Democratic Republic)
+Congo (Republic)
+Cook Islands
+Costa Rica
+Cote d'Ivoire
+Croatia
+Curaçao
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+England
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard & McDonald Islands
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iraq
+Ireland
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+Northern Ireland
+Norway
+Oman
+Pakistan
+Palau
+Palestinian Territory
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Reunion
+Romania
+Russian Federation
+Rwanda
+Saint Barthélemy
+Saint Helena
+Saint Kitts And Nevis
+Saint Lucia
+Saint Martin
+Saint Pierre and Miquelon
+Saint Vincent
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Scotland
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten(Dutch part)
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Korea
+South Sudan
+Spain
+Sri Lanka
+Suriname
+Svalbard And Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+U.S. Virgin Islands
+Uganda
+United Arab Emirates
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City State (Holy See)
+Venezuela
+Vietnam
+Wales
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+I agree to receive emails from Cvent, Inc. about relevant content, products, and services. I understand I can manage my communication preferences or unsubscribe at any time.
+
+Please refer to our Privacy Policy or Contact Us for more details.
+
+*Magic Quadrant for Event Marketing and Management Platforms, 2026, 2025, 2024.
+
+Footer (Middle East)
+Sales
+Request a demo
+Pricing
+Contact sales
+971.4568.4914
+About
+Awards
+Careers
+Investor relations
+Newsroom
+Partners
+Popular products
+Event registration
+Mobile apps
+Attendee Hub
+Check-in & badging
+Webinar platform
+Venue Sourcing
+All products
+Free resources
+Blog
+Case studies
+Events
+Watch webinars
+Find event venues
+Best event venues
+Support
+Contact support
+Community
+Developer Hub
+Knowledge base
+Security
+Training
+Log in to Cvent
+For suppliers & venues
+Convert
+Manage
+Improve
+Corporate Travel
+Social menu
+
+© Copyright 2026 Cvent Inc. All rights reserved.   
+
+LEGAL  |  PRIVACY POLICY  |  ACCESSIBILITY   |  PRODUCT TERMS OF USE |  WEBSITE TERMS OF USE   
+
+ YOUR PRIVACY CHOICES | COOKIES SETTINGS
+
+This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply
+
+English
+STAGE pre-write 99570 ms STAGE done 102211 ms

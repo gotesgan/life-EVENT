@@ -1,0 +1,3092 @@
+{
+ "slug": "eventbrite",
+ "mode": "mobile",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "",
+   "r": {
+    "x": 0,
+    "y": 73,
+    "w": 390,
+    "h": 301
+   },
+   "style": {
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "boxShadow": "none",
+    "border": "0px none rgb(57, 54, 79)",
+    "transition": "transform 0.5s ease-in-out",
+    "transitionDuration": "0.5s",
+    "transitionProperty": "transform",
+    "transitionTimingFunction": "ease-in-out",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 390,
+    "h": 301
+   },
+   "style": {
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "boxShadow": "none",
+    "border": "0px none rgb(57, 54, 79)",
+    "transitionDuration": "0.5s",
+    "transitionProperty": "transform",
+    "transitionTimingFunction": "ease-in-out",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://www.eventbrite.com/",
+  "title": "Eventbrite - Discover the Best Local Events & Things to Do",
+  "viewport": {
+   "w": 390,
+   "h": 844
+  },
+  "docHeight": 10336,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Browsing events in",
+    "x": 16,
+    "y": 657,
+    "w": 165,
+    "h": 24
+   },
+   {
+    "tag": "H2",
+    "text": "Events in Pune",
+    "x": 16,
+    "y": 840,
+    "w": 176,
+    "h": 32
+   },
+   {
+    "tag": "H3",
+    "text": "Computer & Data Science University Taster Lecture",
+    "x": 28,
+    "y": 1067,
+    "w": 338,
+    "h": 56
+   },
+   {
+    "tag": "H3",
+    "text": "Women in Tech Pune - OutGeekWomen",
+    "x": 28,
+    "y": 1458,
+    "w": 330,
+    "h": 56
+   },
+   {
+    "tag": "H3",
+    "text": "Ecstatic Dance Workshop",
+    "x": 36,
+    "y": 1817,
+    "w": 330,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Discover Your Life Purpose Through Guided Visualization",
+    "x": 28,
+    "y": 2148,
+    "w": 330,
+    "h": 56
+   },
+   {
+    "tag": "H3",
+    "text": "Future Money Conference 2025",
+    "x": 36,
+    "y": 2503,
+    "w": 330,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "PCERF Presents International Expo Constro 2027 | 21st Edition",
+    "x": 28,
+    "y": 2858,
+    "w": 330,
+    "h": 56
+   },
+   {
+    "tag": "H3",
+    "text": "AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting",
+    "x": 36,
+    "y": 3241,
+    "w": 330,
+    "h": 84
+   },
+   {
+    "tag": "H3",
+    "text": "AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows",
+    "x": 28,
+    "y": 3628,
+    "w": 330,
+    "h": 84
+   },
+   {
+    "tag": "H3",
+    "text": "AI in the Therapy Room: CPD for Counsellors and Psychotherapists",
+    "x": 36,
+    "y": 4051,
+    "w": 330,
+    "h": 84
+   },
+   {
+    "tag": "H3",
+    "text": "Claude for HR and Recruitment Teams",
+    "x": 28,
+    "y": 4434,
+    "w": 330,
+    "h": 56
+   },
+   {
+    "tag": "H3",
+    "text": "Objective Assessments and Its Applications in Post-ACLR S&C",
+    "x": 36,
+    "y": 4829,
+    "w": 330,
+    "h": 56
+   },
+   {
+    "tag": "H3",
+    "text": "Startup Meetup (Pune)",
+    "x": 28,
+    "y": 5212,
+    "w": 330,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "EPS Energy Expo",
+    "x": 36,
+    "y": 5543,
+    "w": 330,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks",
+    "x": 28,
+    "y": 5898,
+    "w": 330,
+    "h": 84
+   },
+   {
+    "tag": "H3",
+    "text": "19th Engiexpo Pune 2026 | Industrial Exhibition 2026",
+    "x": 36,
+    "y": 6285,
+    "w": 330,
+    "h": 56
+   },
+   {
+    "tag": "H3",
+    "text": "RISE MEETUP – Pune",
+    "x": 28,
+    "y": 6704,
+    "w": 330,
+    "h": 28
+   },
+   {
+    "tag": "H2",
+    "text": "Top destinations in United States",
+    "x": 20,
+    "y": 6964,
+    "w": 351,
+    "h": 64
+   },
+   {
+    "tag": "H2",
+    "text": "Popular cities",
+    "x": 16,
+    "y": 7338,
+    "w": 358,
+    "h": 32
+   },
+   {
+    "tag": "H2",
+    "text": "Explore by State",
+    "x": 16,
+    "y": 7588,
+    "w": 358,
+    "h": 32
+   }
+  ],
+  "header": {
+   "tag": "HEADER",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 57
+   },
+   "style": {
+    "position": "relative",
+    "top": "0px",
+    "height": "57px",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderBottom": "1px solid rgb(238, 237, 242)",
+    "boxShadow": "none",
+    "zIndex": "1001"
+   },
+   "text": "Eventbrite Find my tickets Sign in",
+   "links": [
+    {
+     "t": "Eventbrite",
+     "tag": "A",
+     "href": "https://www.eventbrite.com/",
+     "r": {
+      "x": 16,
+      "y": 16,
+      "w": 24,
+      "h": 24
+     }
+    },
+    {
+     "t": "Find my tickets",
+     "tag": "A",
+     "href": "/signin/signup?referrer=%2Fmytickets",
+     "r": {
+      "x": 238,
+      "y": 8,
+      "w": 40,
+      "h": 40
+     }
+    },
+    {
+     "t": "Sign in",
+     "tag": "A",
+     "href": "/signin/",
+     "r": {
+      "x": 286,
+      "y": 8,
+      "w": 40,
+      "h": 40
+     }
+    }
+   ]
+  },
+  "navAll": [
+   "Eventbrite",
+   "Find my tickets",
+   "Sign in"
+  ],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": "locationPicker",
+    "r": {
+     "x": 76,
+     "y": 689,
+     "w": 238,
+     "h": 36
+    }
+   }
+  ],
+  "filterContainers": [],
+  "images": [
+   {
+    "src": "https://eventbrite-build.s3.amazonaws.com/fe/dist/discover-lib/11.29.24/browser/static/images/home/seasonal/music_mobile-2.webp",
+    "alt": "Music Events",
+    "nat": "1266x950",
+    "r": {
+     "x": 0,
+     "y": 71,
+     "w": 390,
+     "h": 293
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193443197%2F2249530149293%2F1%2Foriginal.20260914-132000?crop=focalpoint&fit=crop&h=230&w=460&auto",
+    "alt": "Computer & Data Science University Taster Lecture primary image",
+    "nat": "460x230",
+    "r": {
+     "x": 16,
+     "y": 880,
+     "w": 358,
+     "h": 179
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1011552393%2F529664982707%2F1%2Foriginal.20250417-191426?crop=focalpoint&fit=crop&w=640&auto=format",
+    "alt": "Women in Tech Pune - OutGeekWomen primary image",
+    "nat": "342x171",
+    "r": {
+     "x": 16,
+     "y": 1239,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194725583%2F2843973159131%2F1%2Foriginal.20260930-142727?crop=focalpoint&fit=crop&w=640&auto=forma",
+    "alt": "Ecstatic Dance Workshop primary image",
+    "nat": "342x171",
+    "r": {
+     "x": 24,
+     "y": 1634,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195003176%2F668151870233%2F1%2Foriginal.20261004-102218?crop=focalpoint&fit=crop&h=230&w=460&auto=",
+    "alt": "Discover Your Life Purpose Through Guided Visualization primary image",
+    "nat": "460x230",
+    "r": {
+     "x": 16,
+     "y": 1965,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172477437%2F2985766730543%2F1%2Foriginal.20251207-170812?crop=focalpoint&fit=crop&h=230&w=460&auto",
+    "alt": "Future Money Conference 2025 primary image",
+    "nat": "460x230",
+    "r": {
+     "x": 24,
+     "y": 2320,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190522674%2F2859001999721%2F1%2Foriginal.20260807-054639?crop=focalpoint&fit=crop&w=640&auto=forma",
+    "alt": "PCERF Presents International Expo Constro 2027 | 21st Edition primary image",
+    "nat": "342x189",
+    "r": {
+     "x": 16,
+     "y": 2675,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195846044%2F240723960242%2F1%2Foriginal.20261015-074818?crop=focalpoint&fit=crop&w=640&auto=format",
+    "alt": "AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting primary image",
+    "nat": "342x220",
+    "r": {
+     "x": 24,
+     "y": 3058,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195845192%2F240723960242%2F1%2Foriginal.20261015-071728?crop=focalpoint&fit=crop&w=640&auto=format",
+    "alt": "AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows primary image",
+    "nat": "342x228",
+    "r": {
+     "x": 16,
+     "y": 3445,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195781707%2F2343933166823%2F1%2Foriginal.20261014-142214?crop=focalpoint&fit=crop&h=230&w=460&auto",
+    "alt": "AI in the Therapy Room: CPD for Counsellors and Psychotherapists primary image",
+    "nat": "460x230",
+    "r": {
+     "x": 24,
+     "y": 3832,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195844416%2F240723960242%2F1%2Foriginal.20261015-064612?crop=focalpoint&fit=crop&w=640&auto=format",
+    "alt": "Claude for HR and Recruitment Teams primary image",
+    "nat": "342x251",
+    "r": {
+     "x": 16,
+     "y": 4251,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194699275%2F2774015167301%2F1%2Foriginal.20260930-065545?crop=focalpoint&fit=crop&w=640&auto=forma",
+    "alt": "Objective Assessments and Its Applications in Post-ACLR S&C primary image",
+    "nat": "342x171",
+    "r": {
+     "x": 24,
+     "y": 4610,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193243884%2F3012881762365%2F1%2Foriginal.20260911-100716?crop=focalpoint&fit=crop&w=640&auto=forma",
+    "alt": "Startup Meetup (Pune) primary image",
+    "nat": "342x171",
+    "r": {
+     "x": 16,
+     "y": 5029,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187307989%2F3005928543170%2F1%2Foriginal.20260620-062716?crop=focalpoint&fit=crop&w=640&auto=forma",
+    "alt": "EPS Energy Expo primary image",
+    "nat": "342x284",
+    "r": {
+     "x": 24,
+     "y": 5360,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178125342%2F2961295839041%2F1%2Foriginal.20260222-035554?crop=focalpoint&fit=crop&h=129&w=259&auto",
+    "alt": "Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks primary image",
+    "nat": "259x129",
+    "r": {
+     "x": 16,
+     "y": 5715,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186145981%2F3001645008864%2F1%2Foriginal.20260604-115005?crop=focalpoint&fit=crop&w=640&auto=forma",
+    "alt": "19th Engiexpo Pune 2026 | Industrial Exhibition 2026 primary image",
+    "nat": "342x171",
+    "r": {
+     "x": 24,
+     "y": 6102,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193993932%2F2172045557503%2F1%2Foriginal.20260921-101650?w=640&auto=format%2Ccompress&q=75&sharp=1",
+    "alt": "RISE MEETUP – Pune primary image",
+    "nat": "342x342",
+    "r": {
+     "x": 16,
+     "y": 6485,
+     "w": 350,
+     "h": 175
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/ny--new-york.webp",
+    "alt": "An image of New York super imposed with the text \"New York\"",
+    "nat": "840x561",
+    "r": {
+     "x": 16,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/ca--san-francisco.webp",
+    "alt": "An image of San Francisco super imposed with the text \"San Francisco\"",
+    "nat": "840x630",
+    "r": {
+     "x": 320,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/ca--los-angeles.webp",
+    "alt": "An image of Los Angeles super imposed with the text \"Los Angeles\"",
+    "nat": "0x0",
+    "r": {
+     "x": 624,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/il--chicago.webp",
+    "alt": "An image of Chicago super imposed with the text \"Chicago\"",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/dc--washington.webp",
+    "alt": "An image of Washington, D.C. super imposed with the text \"Washington, D.C.\"",
+    "nat": "0x0",
+    "r": {
+     "x": 1232,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/ga--atlanta.webp",
+    "alt": "An image of Atlanta super imposed with the text \"Atlanta\"",
+    "nat": "0x0",
+    "r": {
+     "x": 1536,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/tx--houston.webp",
+    "alt": "An image of Houston super imposed with the text \"Houston\"",
+    "nat": "0x0",
+    "r": {
+     "x": 1840,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/ma--boston.webp",
+    "alt": "An image of Boston super imposed with the text \"Boston\"",
+    "nat": "0x0",
+    "r": {
+     "x": 2144,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/tx--dallas.webp",
+    "alt": "An image of Dallas super imposed with the text \"Dallas\"",
+    "nat": "0x0",
+    "r": {
+     "x": 2448,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/tx--austin.webp",
+    "alt": "An image of Austin super imposed with the text \"Austin\"",
+    "nat": "0x0",
+    "r": {
+     "x": 2752,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/fl--miami.webp",
+    "alt": "An image of Miami super imposed with the text \"Miami\"",
+    "nat": "0x0",
+    "r": {
+     "x": 3056,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/ca--san-diego.webp",
+    "alt": "An image of San Diego super imposed with the text \"San Diego\"",
+    "nat": "0x0",
+    "r": {
+     "x": 3360,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/nv--las-vegas.webp",
+    "alt": "An image of Las Vegas super imposed with the text \"Las Vegas\"",
+    "nat": "0x0",
+    "r": {
+     "x": 3664,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/fl--orlando.webp",
+    "alt": "An image of Orlando super imposed with the text \"Orlando\"",
+    "nat": "0x0",
+    "r": {
+     "x": 3968,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/wa--seattle.webp",
+    "alt": "An image of Seattle super imposed with the text \"Seattle\"",
+    "nat": "0x0",
+    "r": {
+     "x": 4272,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/pa--philadelphia.webp",
+    "alt": "An image of Philadelphia super imposed with the text \"Philadelphia\"",
+    "nat": "0x0",
+    "r": {
+     "x": 4576,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/co--denver.webp",
+    "alt": "An image of Denver super imposed with the text \"Denver\"",
+    "nat": "0x0",
+    "r": {
+     "x": 4880,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/tn--nashville.webp",
+    "alt": "An image of Nashville super imposed with the text \"Nashville\"",
+    "nat": "0x0",
+    "r": {
+     "x": 5184,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/la--new-orleans.webp",
+    "alt": "An image of New Orleans super imposed with the text \"New Orleans\"",
+    "nat": "0x0",
+    "r": {
+     "x": 5488,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/nc--charlotte.webp",
+    "alt": "An image of Charlotte super imposed with the text \"Charlotte\"",
+    "nat": "0x0",
+    "r": {
+     "x": 5792,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/or--portland.webp",
+    "alt": "An image of Portland super imposed with the text \"Portland\"",
+    "nat": "0x0",
+    "r": {
+     "x": 6096,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/fl--tampa.webp",
+    "alt": "An image of Tampa super imposed with the text \"Tampa\"",
+    "nat": "0x0",
+    "r": {
+     "x": 6400,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   },
+   {
+    "src": "https://d1n9ior3u0lhlo.cloudfront.net/in--indianapolis.webp",
+    "alt": "An image of Indianapolis super imposed with the text \"Indianapolis\"",
+    "nat": "0x0",
+    "r": {
+     "x": 6704,
+     "y": 7076,
+     "w": 280,
+     "h": 180
+    },
+    "fit": "fill",
+    "radius": "40px 40px 0px 0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "Music Events",
+     "ratio": 1.333,
+     "r": {
+      "w": 390,
+      "h": 293
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 0,
+       "y": 348,
+       "w": 390,
+       "h": 20
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 0,
+       "y": 71,
+       "w": 390,
+       "h": 297
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "HomepageBannerCarousel-module-scss-module__3eTPrW__banner",
+      "r": {
+       "x": 0,
+       "y": 73,
+       "w": 390,
+       "h": 293
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "HomepageBannerCarousel-module-scss-module__3eTPrW__bannerWrapper",
+      "r": {
+       "x": 0,
+       "y": 73,
+       "w": 390,
+       "h": 301
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "transform 0.5s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "HomepageBannerCarousel-module-scss-module__3eTPrW__homepageCarouselContainer",
+      "r": {
+       "x": 0,
+       "y": 57,
+       "w": 390,
+       "h": 317
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Computer & Data Science University Taster Lecture primary image",
+     "ratio": 2,
+     "r": {
+      "w": 358,
+      "h": 179
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 16,
+       "y": 880,
+       "w": 358,
+       "h": 179
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 16,
+       "y": 880,
+       "w": 358,
+       "h": 179
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 16,
+       "y": 880,
+       "w": 358,
+       "h": 343
+      },
+      "text": "Computer & Data Science University Taster Lecture Wed, Oct 28 • 1:00 PM EDT Free Promoted Save this event: Computer & Data Science University Taster Lecture Share this event: Computer & Data Science University Taster Lecture",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 16,
+       "y": 880,
+       "w": 358,
+       "h": 343
+      },
+      "text": "Computer & Data Science University Taster Lecture Wed, Oct 28 • 1:00 PM EDT Free Promoted Save this event: Computer & Data Science University Taster Lecture Share this event: Computer & Data Science University Taster Lecture",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 872,
+       "w": 358,
+       "h": 359
+      },
+      "text": "Computer & Data Science University Taster Lecture Wed, Oct 28 • 1:00 PM EDT Free Promoted Save this event: Computer & Data Science University Taster Lecture Share this event: Computer & Data Science University Taster Lecture",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Women in Tech Pune - OutGeekWomen primary image",
+     "ratio": 2,
+     "r": {
+      "w": 350,
+      "h": 175
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 16,
+       "y": 1239,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 16,
+       "y": 1239,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 16,
+       "y": 1239,
+       "w": 350,
+       "h": 379
+      },
+      "text": "Almost full Women in Tech Pune - OutGeekWomen Thu, Nov 19 • 6:00 PM Pune From $0.00 Save this event: Women in Tech Pune - OutGeekWomen Share this event: Women in Tech Pune - OutGeekWomen",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 16,
+       "y": 1239,
+       "w": 350,
+       "h": 379
+      },
+      "text": "Almost full Women in Tech Pune - OutGeekWomen Thu, Nov 19 • 6:00 PM Pune From $0.00 Save this event: Women in Tech Pune - OutGeekWomen Share this event: Women in Tech Pune - OutGeekWomen",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 1231,
+       "w": 358,
+       "h": 395
+      },
+      "text": "Almost full Women in Tech Pune - OutGeekWomen Thu, Nov 19 • 6:00 PM Pune From $0.00 Save this event: Women in Tech Pune - OutGeekWomen Share this event: Women in Tech Pune - OutGeekWomen",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 8px 8px 0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Ecstatic Dance Workshop primary image",
+     "ratio": 2,
+     "r": {
+      "w": 350,
+      "h": 175
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 24,
+       "y": 1634,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 24,
+       "y": 1634,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 24,
+       "y": 1634,
+       "w": 350,
+       "h": 315
+      },
+      "text": "Ecstatic Dance Workshop Mon, Nov 9 • 5:00 PM The Jackfruit Tree From $11.44 Save this event: Ecstatic Dance Workshop Share this event: Ecstatic Dance Workshop",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 24,
+       "y": 1634,
+       "w": 350,
+       "h": 315
+      },
+      "text": "Ecstatic Dance Workshop Mon, Nov 9 • 5:00 PM The Jackfruit Tree From $11.44 Save this event: Ecstatic Dance Workshop Share this event: Ecstatic Dance Workshop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 1626,
+       "w": 358,
+       "h": 331
+      },
+      "text": "Ecstatic Dance Workshop Mon, Nov 9 • 5:00 PM The Jackfruit Tree From $11.44 Save this event: Ecstatic Dance Workshop Share this event: Ecstatic Dance Workshop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 0px 8px 8px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Discover Your Life Purpose Through Guided Visualization primary image",
+     "ratio": 2,
+     "r": {
+      "w": 350,
+      "h": 175
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 16,
+       "y": 1965,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 16,
+       "y": 1965,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 16,
+       "y": 1965,
+       "w": 350,
+       "h": 339
+      },
+      "text": "Discover Your Life Purpose Through Guided Visualization Fri, Oct 23 • 11:00 AM EDT Free Promoted Save this event: Discover Your Life Purpose Through Guided Visualization Share this event: Discover Your Life Purpose Through Guided Visualization",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 16,
+       "y": 1965,
+       "w": 350,
+       "h": 339
+      },
+      "text": "Discover Your Life Purpose Through Guided Visualization Fri, Oct 23 • 11:00 AM EDT Free Promoted Save this event: Discover Your Life Purpose Through Guided Visualization Share this event: Discover Your Life Purpose Through Guided Visualization",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 1957,
+       "w": 358,
+       "h": 355
+      },
+      "text": "Discover Your Life Purpose Through Guided Visualization Fri, Oct 23 • 11:00 AM EDT Free Promoted Save this event: Discover Your Life Purpose Through Guided Visualization Share this event: Discover Your Life Purpose Through Guided Visualization",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 8px 8px 0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Future Money Conference 2025 primary image",
+     "ratio": 2,
+     "r": {
+      "w": 350,
+      "h": 175
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 24,
+       "y": 2320,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 24,
+       "y": 2320,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 24,
+       "y": 2320,
+       "w": 350,
+       "h": 339
+      },
+      "text": "Future Money Conference 2025 Mon, Dec 14 • 6:00 PM Pune International Exinition and Convention Center From $1,500.00 Save this event: Future Money Conference 2025 Share this event: Future Money Conference 2025",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 24,
+       "y": 2320,
+       "w": 350,
+       "h": 339
+      },
+      "text": "Future Money Conference 2025 Mon, Dec 14 • 6:00 PM Pune International Exinition and Convention Center From $1,500.00 Save this event: Future Money Conference 2025 Share this event: Future Money Conference 2025",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 2312,
+       "w": 358,
+       "h": 355
+      },
+      "text": "Future Money Conference 2025 Mon, Dec 14 • 6:00 PM Pune International Exinition and Convention Center From $1,500.00 Save this event: Future Money Conference 2025 Share this event: Future Money Conference 2025",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 0px 8px 8px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "PCERF Presents International Expo Constro 2027 | 21st Edition primary image",
+     "ratio": 2,
+     "r": {
+      "w": 350,
+      "h": 175
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 16,
+       "y": 2675,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 16,
+       "y": 2675,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 16,
+       "y": 2675,
+       "w": 350,
+       "h": 367
+      },
+      "text": "PCERF Presents International Expo Constro 2027 | 21st Edition Thu, Jan 7 • 10:00 AM PIECC Pune International Exhibition and Convention Centre Entry Gate1 From $157.63 Save this event: PCERF Presents International Expo Constro 2027 | 21st Edition Share this eve",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 16,
+       "y": 2675,
+       "w": 350,
+       "h": 367
+      },
+      "text": "PCERF Presents International Expo Constro 2027 | 21st Edition Thu, Jan 7 • 10:00 AM PIECC Pune International Exhibition and Convention Centre Entry Gate1 From $157.63 Save this event: PCERF Presents International Expo Constro 2027 | 21st Edition Share this eve",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 2667,
+       "w": 358,
+       "h": 383
+      },
+      "text": "PCERF Presents International Expo Constro 2027 | 21st Edition Thu, Jan 7 • 10:00 AM PIECC Pune International Exhibition and Convention Centre Entry Gate1 From $157.63 Save this event: PCERF Presents International Expo Constro 2027 | 21st Edition Share this eve",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 8px 8px 0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting prim",
+     "ratio": 2,
+     "r": {
+      "w": 350,
+      "h": 175
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 24,
+       "y": 3058,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 24,
+       "y": 3058,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 24,
+       "y": 3058,
+       "w": 350,
+       "h": 371
+      },
+      "text": "AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting Sat, Nov 21 • 11:00 AM NP Venue - Pune From $240.00 Save this event: AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting Share this event: AI for SEM Teams: Sea",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 24,
+       "y": 3058,
+       "w": 350,
+       "h": 371
+      },
+      "text": "AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting Sat, Nov 21 • 11:00 AM NP Venue - Pune From $240.00 Save this event: AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting Share this event: AI for SEM Teams: Sea",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 3050,
+       "w": 358,
+       "h": 387
+      },
+      "text": "AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting Sat, Nov 21 • 11:00 AM NP Venue - Pune From $240.00 Save this event: AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting Share this event: AI for SEM Teams: Sea",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 0px 8px 8px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows prima",
+     "ratio": 2,
+     "r": {
+      "w": 350,
+      "h": 175
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 16,
+       "y": 3445,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 16,
+       "y": 3445,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 16,
+       "y": 3445,
+       "w": 350,
+       "h": 371
+      },
+      "text": "AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows Sat, Nov 21 • 11:00 AM NP Venue - Pune From $248.00 Save this event: AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows Share this event: AI for Marketing Teams:",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 16,
+       "y": 3445,
+       "w": 350,
+       "h": 371
+      },
+      "text": "AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows Sat, Nov 21 • 11:00 AM NP Venue - Pune From $248.00 Save this event: AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows Share this event: AI for Marketing Teams:",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 3437,
+       "w": 358,
+       "h": 387
+      },
+      "text": "AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows Sat, Nov 21 • 11:00 AM NP Venue - Pune From $248.00 Save this event: AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows Share this event: AI for Marketing Teams:",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 8px 8px 0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "AI in the Therapy Room: CPD for Counsellors and Psychotherapists primary image",
+     "ratio": 2,
+     "r": {
+      "w": 350,
+      "h": 175
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 24,
+       "y": 3832,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 24,
+       "y": 3832,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 24,
+       "y": 3832,
+       "w": 350,
+       "h": 403
+      },
+      "text": "Just added AI in the Therapy Room: CPD for Counsellors and Psychotherapists Wed, Nov 18 • 5:00 AM EST From £20.00 Promoted Save this event: AI in the Therapy Room: CPD for Counsellors and Psychotherapists Share this event: AI in the Therapy Room: CPD for Couns",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 24,
+       "y": 3832,
+       "w": 350,
+       "h": 403
+      },
+      "text": "Just added AI in the Therapy Room: CPD for Counsellors and Psychotherapists Wed, Nov 18 • 5:00 AM EST From £20.00 Promoted Save this event: AI in the Therapy Room: CPD for Counsellors and Psychotherapists Share this event: AI in the Therapy Room: CPD for Couns",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 3824,
+       "w": 358,
+       "h": 419
+      },
+      "text": "Just added AI in the Therapy Room: CPD for Counsellors and Psychotherapists Wed, Nov 18 • 5:00 AM EST From £20.00 Promoted Save this event: AI in the Therapy Room: CPD for Counsellors and Psychotherapists Share this event: AI in the Therapy Room: CPD for Couns",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 0px 8px 8px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Claude for HR and Recruitment Teams primary image",
+     "ratio": 2,
+     "r": {
+      "w": 350,
+      "h": 175
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 16,
+       "y": 4251,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 16,
+       "y": 4251,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 16,
+       "y": 4251,
+       "w": 350,
+       "h": 343
+      },
+      "text": "Claude for HR and Recruitment Teams Sat, Nov 21 • 11:00 AM NP Venue - Pune From $255.00 Save this event: Claude for HR and Recruitment Teams Share this event: Claude for HR and Recruitment Teams",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 16,
+       "y": 4251,
+       "w": 350,
+       "h": 343
+      },
+      "text": "Claude for HR and Recruitment Teams Sat, Nov 21 • 11:00 AM NP Venue - Pune From $255.00 Save this event: Claude for HR and Recruitment Teams Share this event: Claude for HR and Recruitment Teams",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 4243,
+       "w": 358,
+       "h": 359
+      },
+      "text": "Claude for HR and Recruitment Teams Sat, Nov 21 • 11:00 AM NP Venue - Pune From $255.00 Save this event: Claude for HR and Recruitment Teams Share this event: Claude for HR and Recruitment Teams",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 8px 8px 0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Objective Assessments and Its Applications in Post-ACLR S&C primary image",
+     "ratio": 2,
+     "r": {
+      "w": 350,
+      "h": 175
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 24,
+       "y": 4610,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 24,
+       "y": 4610,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 24,
+       "y": 4610,
+       "w": 350,
+       "h": 403
+      },
+      "text": "Almost full Objective Assessments and Its Applications in Post-ACLR S&C Sunday • 10:00 AM DEENANATH MANGESHKAR HOSPITAL AND RESEARCH CENTER Free Save this event: Objective Assessments and Its Applications in Post-ACLR S&C Share this event: Objective Assessment",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 24,
+       "y": 4610,
+       "w": 350,
+       "h": 403
+      },
+      "text": "Almost full Objective Assessments and Its Applications in Post-ACLR S&C Sunday • 10:00 AM DEENANATH MANGESHKAR HOSPITAL AND RESEARCH CENTER Free Save this event: Objective Assessments and Its Applications in Post-ACLR S&C Share this event: Objective Assessment",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 4602,
+       "w": 358,
+       "h": 419
+      },
+      "text": "Almost full Objective Assessments and Its Applications in Post-ACLR S&C Sunday • 10:00 AM DEENANATH MANGESHKAR HOSPITAL AND RESEARCH CENTER Free Save this event: Objective Assessments and Its Applications in Post-ACLR S&C Share this event: Objective Assessment",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 0px 8px 8px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Startup Meetup (Pune) primary image",
+     "ratio": 2,
+     "r": {
+      "w": 350,
+      "h": 175
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 16,
+       "y": 5029,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 16,
+       "y": 5029,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 16,
+       "y": 5029,
+       "w": 350,
+       "h": 315
+      },
+      "text": "Startup Meetup (Pune) Sat, Oct 31 • 5:00 PM Baner Free Save this event: Startup Meetup (Pune) Share this event: Startup Meetup (Pune)",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 16,
+       "y": 5029,
+       "w": 350,
+       "h": 315
+      },
+      "text": "Startup Meetup (Pune) Sat, Oct 31 • 5:00 PM Baner Free Save this event: Startup Meetup (Pune) Share this event: Startup Meetup (Pune)",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 5021,
+       "w": 358,
+       "h": 331
+      },
+      "text": "Startup Meetup (Pune) Sat, Oct 31 • 5:00 PM Baner Free Save this event: Startup Meetup (Pune) Share this event: Startup Meetup (Pune)",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 8px 8px 0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "EPS Energy Expo primary image",
+     "ratio": 2,
+     "r": {
+      "w": 350,
+      "h": 175
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container",
+      "r": {
+       "x": 24,
+       "y": 5360,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "4px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "A",
+      "cls": "EventCardLink-module-scss-module__VgXwVG__event-card-link ",
+      "r": {
+       "x": 24,
+       "y": 5360,
+       "w": 350,
+       "h": 175
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(54, 89, 227)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-module__A4ipVG__event-card__vertical Vertica",
+      "r": {
+       "x": 24,
+       "y": 5360,
+       "w": 350,
+       "h": 339
+      },
+      "text": "EPS Energy Expo Fri, Dec 11 • 10:00 AM Auto Cluster Development & Research Institute Free Save this event: EPS Energy Expo Share this event: EPS Energy Expo",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "SECTION",
+      "cls": "discover-vertical-event-card",
+      "r": {
+       "x": 24,
+       "y": 5360,
+       "w": 350,
+       "h": 339
+      },
+      "text": "EPS Energy Expo Fri, Dec 11 • 10:00 AM Auto Cluster Development & Research Institute Free Save this event: EPS Energy Expo Share this event: EPS Energy Expo",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "EventsBucket-module-scss-module__W-YksW__feedCardCell",
+      "r": {
+       "x": 16,
+       "y": 5352,
+       "w": 358,
+       "h": 355
+      },
+      "text": "EPS Energy Expo Fri, Dec 11 • 10:00 AM Auto Cluster Development & Research Institute Free Save this event: EPS Energy Expo Share this event: EPS Energy Expo",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(57, 54, 79)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "8px 0px 8px 8px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "Eventbrite",
+   "Find my tickets",
+   "Sign in",
+   "Music",
+   "Nightlife",
+   "Performing & Visual Arts",
+   "Holidays",
+   "Dating",
+   "Hobbies",
+   "Business",
+   "Food & Drink",
+   "All",
+   "For you",
+   "Today",
+   "This weekend",
+   "Computer & Data Science University Taster Lecture",
+   "Women in Tech Pune - OutGeekWomen",
+   "Ecstatic Dance Workshop",
+   "Save this event: Ecstatic Dance Workshop",
+   "Share this event: Ecstatic Dance Workshop",
+   "Future Money Conference 2025",
+   "Save this event: Future Money Conference 2025",
+   "Share this event: Future Money Conference 2025",
+   "Claude for HR and Recruitment Teams",
+   "Startup Meetup (Pune)",
+   "Save this event: Startup Meetup (Pune)",
+   "Share this event: Startup Meetup (Pune)",
+   "EPS Energy Expo",
+   "Save this event: EPS Energy Expo",
+   "Share this event: EPS Energy Expo",
+   "RISE MEETUP – Pune",
+   "Save this event: RISE MEETUP – Pune",
+   "Share this event: RISE MEETUP – Pune",
+   "New York",
+   "San Francisco",
+   "Los Angeles",
+   "Chicago",
+   "Washington, D.C.",
+   "Atlanta",
+   "Houston",
+   "Boston",
+   "Dallas",
+   "Austin",
+   "Miami",
+   "San Diego",
+   "Las Vegas",
+   "Orlando",
+   "Seattle",
+   "Philadelphia",
+   "Denver",
+   "Nashville",
+   "New Orleans",
+   "Charlotte",
+   "Portland",
+   "Tampa",
+   "Indianapolis",
+   "Baltimore",
+   "Sacramento",
+   "Columbus",
+   "Minneapolis",
+   "Oakland",
+   "Detroit",
+   "San Antonio",
+   "Things to do in Abilene",
+   "Things to do in Phoenix",
+   "Things to do in Albuquerque",
+   "Things to do in Anaheim",
+   "Things to do in Raleigh",
+   "Things to do in Wichita",
+   "Alabama",
+   "Arizona",
+   "California",
+   "Connecticut",
+   "District of Columbia",
+   "Georgia",
+   "Idaho",
+   "Indiana",
+   "Kansas",
+   "Louisiana",
+   "Maryland",
+   "Michigan",
+   "Mississippi",
+   "Montana",
+   "Nevada",
+   "New Jersey",
+   "New York",
+   "North Dakota",
+   "Oklahoma",
+   "Pennsylvania",
+   "South Carolina",
+   "Tennessee",
+   "Utah",
+   "Virginia",
+   "West Virginia",
+   "Wyoming",
+   "Alaska",
+   "Arkansas",
+   "Colorado",
+   "Delaware",
+   "Florida",
+   "Hawaii",
+   "Illinois",
+   "Iowa",
+   "Kentucky",
+   "Maine",
+   "Massachusetts",
+   "Minnesota",
+   "Missouri",
+   "Nebraska",
+   "New Hampshire",
+   "New Mexico",
+   "North Carolina",
+   "Ohio",
+   "Oregon",
+   "Rhode Island",
+   "South Dakota",
+   "Texas",
+   "Vermont",
+   "Washington",
+   "Wisconsin",
+   "Create Events",
+   "Pricing",
+   "Event Marketing Platform",
+   "Eventbrite Mobile Ticket App",
+   "Eventbrite Check-In App",
+   "Eventbrite App Marketplace",
+   "Event Registration Software",
+   "Community Guidelines",
+   "FAQs",
+   "Sitemap",
+   "Sell Tickets Online",
+   "Performing Arts Ticketing Software",
+   "Sell Concert Tickets Online",
+   "Event Payment System",
+   "Solutions for Professional Services",
+   "Event Management Software",
+   "Halloween Party Planning",
+   "Virtual Events Platform",
+   "QR Codes for Event Check-In",
+   "Post your event online",
+   "New Orleans Food & Drink Events",
+   "San Francisco Holiday Events",
+   "Tulum Music Events",
+   "Denver Hobby Events",
+   "Atlanta Pop Music Events",
+   "New York Events",
+   "Chicago Events",
+   "Events in Dallas Today",
+   "Los Angeles Events",
+   "Washington Events",
+   "Contact Support",
+   "Contact Sales",
+   "Product Updates",
+   "X",
+   "Facebook",
+   "LinkedIn",
+   "Instagram",
+   "TikTok",
+   "How It Works",
+   "Pricing",
+   "Contact Support",
+   "About",
+   "Blog",
+   "Help",
+   "Careers",
+   "Press",
+   "Impact",
+   "Security",
+   "Developers",
+   "Status",
+   "Terms",
+   "Privacy",
+   "Accessibility",
+   "Cookies",
+   "Manage Cookie Preferences",
+   "Do Not Sell or Share My Personal Information"
+  ],
+  "bodyText": "Eventbrite\nFind my tickets\nSign in\n\nMusic\n\nNightlife\n\nPerforming & Visual Arts\n\nHolidays\n\nDating\n\nHobbies\n\nBusiness\n\nFood & Drink\n\nBrowsing events in\nautocomplete\nAll\nFor you\nToday\nThis weekend\nEvents in Pune\nComputer & Data Science University Taster Lecture\n\nWed, Oct 28 • 1:00 PM EDT\n\nFree\n\nPromoted\n\nSave this event: Computer & Data Science University Taster Lecture\nShare this event: Computer & Data Science University Taster Lecture\n\nAlmost full\n\nWomen in Tech Pune - OutGeekWomen\n\nThu, Nov 19 • 6:00 PM\n\nPune\n\nFrom $0.00\n\nSave this event: Women in Tech Pune - OutGeekWomen\nShare this event: Women in Tech Pune - OutGeekWomen\nEcstatic Dance Workshop\n\nMon, Nov 9 • 5:00 PM\n\nThe Jackfruit Tree\n\nFrom $11.44\n\nSave this event: Ecstatic Dance Workshop\nShare this event: Ecstatic Dance Workshop\nDiscover Your Life Purpose Through Guided Visualization\n\nFri, Oct 23 • 11:00 AM EDT\n\nFree\n\nPromoted\n\nSave this event: Discover Your Life Purpose Through Guided Visualization\nShare this event: Discover Your Life Purpose Through Guided Visualization\nFuture Money Conference 2025\n\nMon, Dec 14 • 6:00 PM\n\nPune International Exinition and Convention Center\n\nFrom $1,500.00\n\nSave this event: Future Money Conference 2025\nShare this event: Future Money Conference 2025\nPCERF Presents International Expo Constro 2027 | 21st Edition\n\nThu, Jan 7 • 10:00 AM\n\nPIECC Pune International Exhibition and Convention Centre Entry Gate1\n\nFrom $157.63\n\nSave this event: PCERF Presents International Expo Constro 2027 | 21st Edition\nShare this event: PCERF Presents International Expo Constro 2027 | 21st Edition\nAI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting\n\nSat, Nov 21 • 11:00 AM\n\nNP Venue - Pune\n\nFrom $240.00\n\nSave this event: AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting\nShare this event: AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting\nAI for Marketing Teams: Research, Content, Analysis and Campaign Workflows\n\nSat, Nov 21 • 11:00 AM\n\nNP Venue - Pune\n\nFrom $248.00\n\nSave this event: AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows\nShare this event: AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows\n\nJust added\n\nAI in the Therapy Room: CPD for Counsellors and Psychotherapists\n\nWed, Nov 18 • 5:00 AM EST\n\nFrom £20.00\n\nPromoted\n\nSave this event: AI in the Therapy Room: CPD for Counsellors and Psychotherapists\nShare this event: AI in the Therapy Room: CPD for Counsellors and Psychotherapists\nClaude for HR and Recruitment Teams\n\nSat, Nov 21 • 11:00 AM\n\nNP Venue - Pune\n\nFrom $255.00\n\nSave this event: Claude for HR and Recruitment Teams\nShare this event: Claude for HR and Recruitment Teams\n\nAlmost full\n\nObjective Assessments and Its Applications in Post-ACLR S&C\n\nSunday • 10:00 AM\n\nDEENANATH MANGESHKAR HOSPITAL AND RESEARCH CENTER\n\nFree\n\nSave this event: Objective Assessments and Its Applications in Post-ACLR S&C\nShare this event: Objective Assessments and Its Applications in Post-ACLR S&C\nStartup Meetup (Pune)\n\nSat, Oct 31 • 5:00 PM\n\nBaner\n\nFree\n\nSave this event: Startup Meetup (Pune)\nShare this event: Startup Meetup (Pune)\nEPS Energy Expo\n\nFri, Dec 11 • 10:00 AM\n\nAuto Cluster Development & Research Institute\n\nFree\n\nSave this event: EPS Energy Expo\nShare this event: EPS Energy Expo\nAqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks\n\nSat, Oct 31 • 6:30 PM\n\nPune\n\nFree\n\nSave this event: Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks\nShare this event: Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks\n19th Engiexpo Pune 2026 | Industrial Exhibition 2026\n\nSat, Nov 21 • 10:00 AM\n\nPIECC Pune International Exhibition and Convention Centre Entry Gate1\n\nFree\n\nSave this event: 19th Engiexpo Pune 2026 | Industrial Exhibition 2026\nShare this event: 19th Engiexpo Pune 2026 | Industrial Exhibition 2026\n\nSales end soon\n\nRISE MEETUP – Pune\n\nSaturday • 11:00 AM\n\nParallel - Bar & All Day Kitchen\n\nFree\n\nSave this event: RISE MEETUP – Pune\nShare this event: RISE MEETUP – Pune\nTop destinations in United States\n\nNew York\n\nSan Francisco\n\nLos Angeles\n\nChicago\n\nWashington, D.C.\n\nAtlanta\n\nHouston\n\nBoston\n\nDallas\n\nAustin\n\nMiami\n\nSan Diego\n\nLas Vegas\n\nOrlando\n\nSeattle\n\nPhiladelphia\n\nDenver\n\nNashville\n\nNew Orleans\n\nCharlotte\n\nPortland\n\nTampa\n\nIndianapolis\n\nBaltimore\n\nSacramento\n\nColumbus\n\nMinneapolis\n\nOakland\n\nDetroit\n\nSan Antonio\n\nPopular cities\nThings to do in Abilene\nThings to do in Phoenix\nThings to do in Albuquerque\nThings to do in Anaheim\nThings to do in Raleigh\nThings to do in Wichita\nExplore by State\nAlabama\nArizona\nCalifornia\nConnecticut\nDistrict of Columbia\nGeorgia\nIdaho\nIndiana\nKansas\nLouisiana\nMaryland\nMichigan\nMississippi\nMontana\nNevada\nNew Jersey\nNew York\nNorth Dakota\nOklahoma\nPennsylvania\nSouth Carolina\nTennessee\nUtah\nVirginia\nWest Virginia\nWyoming\nAlaska\nArkansas\nColorado\nDelaware\nFlorida\nHawaii\nIllinois\nIowa\nKentucky\nMaine\nMassachusetts\nMinnesota\nMissouri\nNebraska\nNew Hampshire\nNew Mexico\nNorth Carolina\nOhio\nOregon\nRhode Island\nSouth Dakota\nTexas\nVermont\nWashington\nWisconsin\nSite Navigation\n\nUse Eventbrite\n\nCreate Events\nPricing\nEvent Marketing Platform\nEventbrite Mobile Ticket App\nEventbrite Check-In App\nEventbrite App Marketplace\nEvent Registration Software\nCommunity Guidelines\nFAQs\nSitemap\n\nPlan Events\n\nSell Tickets Online\nPerforming Arts Ticketing Software\nSell Concert Tickets Online\nEvent Payment System\nSolutions for Professional Services\nEvent Management Software\nHalloween Party Planning\nVirtual Events Platform\nQR Codes for Event Check-In\nPost your event online\n\nFind Events\n\nNew Orleans Food & Drink Events\nSan Francisco Holiday Events\nTulum Music Events\nDenver Hobby Events\nAtlanta Pop Music Events\nNew York Events\nChicago Events\nEvents in Dallas Today\nLos Angeles Events\nWashington Events\n\nConnect With Us\n\nContact Support\nContact Sales\nProduct Updates\nX\nFacebook\nLinkedIn\nInstagram\nTikTok\n© 2026 Eventbrite\nHow It WorksPricingContact SupportAboutBlogHelpCareersPressImpactSecurityDevelopersStatusTermsPrivacyAccessibilityCookiesManage Cookie PreferencesDo Not Sell or Share My Personal Information\nLocale\nUnited States\nArgentina\nAustralia\nBelgië\nBelgique\nBrasil\nCanada (EN)\nCanada (FR)\nChile\nColombia\nDenmark\nDeutschland\nEspaña\nFinland\nFrance\nHong Kong\nIreland\nItalia\nMéxico\nNederland\nNew Zealand\nÖsterreich\nPerú\nPortugal\nSchweiz\nSingapore\nSuisse\nSverige\nUnited Kingdom\nUnited States",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Browsing events in",
+     "style": {
+      "fontFamily": "\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "24px",
+      "letterSpacing": "0.25px",
+      "color": "rgb(57, 54, 79)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(57, 54, 79)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 16,
+      "y": 657,
+      "w": 165,
+      "h": 24
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='event-card'] h2, [class*='EventCard'] h2, h2[class*='title']",
+     "text": "Events in Pune",
+     "style": {
+      "fontFamily": "\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "lineHeight": "32px",
+      "letterSpacing": "0.25px",
+      "color": "rgb(30, 10, 60)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(30, 10, 60)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px -0.25px 0px 0px"
+     },
+     "r": {
+      "x": 16,
+      "y": 840,
+      "w": 176,
+      "h": 32
+     }
+    }
+   ],
+   "card-meta": [
+    {
+     "sel": "[class*='event-card'] p, [class*='EventCard'] p",
+     "text": "Wed, Oct 28 • 1:00 PM EDT",
+     "style": {
+      "fontFamily": "\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(58, 50, 71)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(58, 50, 71)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "4px 0px 0px"
+     },
+     "r": {
+      "x": 28,
+      "y": 1127,
+      "w": 338,
+      "h": 24
+     }
+    },
+    {
+     "sel": "[class*='event-card'] p, [class*='EventCard'] p",
+     "text": "Free",
+     "style": {
+      "fontFamily": "\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(58, 50, 71)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(58, 50, 71)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 28,
+      "y": 1159,
+      "w": 34,
+      "h": 24
+     }
+    },
+    {
+     "sel": "[class*='event-card'] p, [class*='EventCard'] p",
+     "text": "Promoted",
+     "style": {
+      "fontFamily": "\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(113, 107, 122)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(113, 107, 122)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 28,
+      "y": 1187,
+      "w": 65,
+      "h": 20
+     }
+    }
+   ],
+   "filter-label": [],
+   "nav-link": [
+    {
+     "sel": "header nav a, header a",
+     "text": "Eventbrite",
+     "style": {
+      "fontFamily": "\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 89, 227)",
+      "textTransform": "none",
+      "borderRadius": "4px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(54, 89, 227)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 16,
+      "y": 16,
+      "w": 24,
+      "h": 24
+     }
+    },
+    {
+     "sel": "header nav a, header a",
+     "text": "Find my tickets",
+     "style": {
+      "fontFamily": "\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(75, 77, 99)",
+      "textTransform": "none",
+      "borderRadius": "999px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(75, 77, 99)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 238,
+      "y": 8,
+      "w": 40,
+      "h": 40
+     }
+    },
+    {
+     "sel": "header nav a, header a",
+     "text": "Sign in",
+     "style": {
+      "fontFamily": "\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(75, 77, 99)",
+      "textTransform": "none",
+      "borderRadius": "999px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(75, 77, 99)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 286,
+      "y": 8,
+      "w": 40,
+      "h": 40
+     }
+    }
+   ],
+   "price": [
+    {
+     "sel": "[class*='price'], [class*='Price']",
+     "text": "Free",
+     "style": {
+      "fontFamily": "\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "color": "rgb(57, 54, 79)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(57, 54, 79)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "4px 0px 0px"
+     },
+     "r": {
+      "x": 28,
+      "y": 1159,
+      "w": 338,
+      "h": 24
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price']",
+     "text": "From $0.00",
+     "style": {
+      "fontFamily": "\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "color": "rgb(57, 54, 79)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(57, 54, 79)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "4px 0px 0px"
+     },
+     "r": {
+      "x": 28,
+      "y": 1578,
+      "w": 330,
+      "h": 24
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price']",
+     "text": "From $11.44",
+     "style": {
+      "fontFamily": "\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "color": "rgb(57, 54, 79)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(57, 54, 79)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "4px 0px 0px"
+     },
+     "r": {
+      "x": 36,
+      "y": 1909,
+      "w": 330,
+      "h": 24
+     }
+    }
+   ]
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(57, 54, 79)",
+    "fontFamily": "\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

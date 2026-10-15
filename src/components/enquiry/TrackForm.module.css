@@ -1,0 +1,186 @@
+/*
+ * Guest enquiry lookup.
+ *
+ * Two panels: the lookup form, then — once there is an answer — the enquiry it
+ * found. Both are the same width because the answer is about the thing that was
+ * looked up, not a new page.
+ */
+
+.lookup {
+  min-width: 0;
+}
+
+.error {
+  display: flex;
+  align-items: flex-start;
+  gap: rem(8px);
+  margin: 0;
+  padding: rem(10px) rem(12px);
+  border: 1px solid var(--app-danger);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-danger-soft);
+  color: var(--app-danger-soft-text);
+  font-size: var(--text-secondary-size);
+  font-weight: var(--text-error-weight);
+  line-height: var(--text-secondary-leading);
+}
+
+.errorIcon {
+  flex: none;
+  margin-top: rem(1px);
+}
+
+@mixin smaller-than $mantine-breakpoint-sm {
+  .submit {
+    width: 100%;
+  }
+}
+
+/* States ------------------------------------------------------------------
+   "Nothing matched" is an answer, not a failure, so it is a designed panel with
+   its own glyph rather than a bare paragraph. */
+
+.state {
+  display: flex;
+  flex-direction: column;
+  gap: rem(10px);
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.stateIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(36px);
+  height: rem(36px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-surface-raised);
+  color: var(--app-text-muted);
+}
+
+.notFound {
+  margin: 0;
+  max-width: 62ch;
+  color: var(--app-text);
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-leading);
+}
+
+.help {
+  margin: 0;
+  max-width: 62ch;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+/* Result ------------------------------------------------------------------ */
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: rem(14px);
+  min-width: 0;
+}
+
+.resultHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(10px) rem(16px);
+  padding-bottom: rem(14px);
+  border-bottom: 1px solid var(--app-border);
+}
+
+.referenceBlock {
+  min-width: 0;
+}
+
+.referenceLabel {
+  margin: 0;
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+  letter-spacing: 0.01em;
+}
+
+/* The scan anchor of this surface: monospace and tabular so two references can
+   be compared down the page. */
+.reference {
+  margin: 0;
+  color: var(--app-text);
+  font-family: var(--mantine-font-family-monospace, monospace);
+  font-size: var(--text-h3-size);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.statusDescription {
+  margin: 0;
+  max-width: 68ch;
+  color: var(--app-text);
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-leading);
+}
+
+.meta {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  font-variant-numeric: tabular-nums;
+  line-height: var(--text-secondary-leading);
+}
+
+.providers {
+  padding-top: rem(4px);
+}
+
+.providersTitle {
+  margin: 0 0 rem(10px);
+  color: var(--app-text);
+  font-size: var(--text-card-title-size);
+  font-weight: var(--text-card-title-weight);
+  line-height: var(--text-card-title-leading);
+  letter-spacing: var(--text-card-title-tracking);
+}
+
+.providerList {
+  display: flex;
+  flex-direction: column;
+  gap: rem(4px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.provider {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(8px) rem(12px);
+  padding: rem(10px) 0;
+  border-bottom: 1px solid var(--app-border);
+}
+
+.provider:last-child {
+  border-bottom: 0;
+}
+
+.link {
+  color: var(--app-brand);
+  font-weight: 600;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+
+  @mixin hover {
+    text-decoration: underline;
+  }
+}

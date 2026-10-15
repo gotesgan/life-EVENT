@@ -1,0 +1,74 @@
+/* The multi-provider shortlist toggle.
+   Quiet by default: on a listing card it is the 32×32 icon over the media
+   (`toggleCompact`), and on the profile rail it is a full-width secondary button
+   under the primary CTA. Neither form may compete with the primary action. */
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: rem(6px);
+  width: 100%;
+  min-height: rem(40px);
+  padding: 0 rem(12px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-control);
+  background-color: transparent;
+  color: var(--app-text-muted);
+  font-family: inherit;
+  font-size: var(--text-button-size);
+  font-weight: var(--text-button-weight);
+  line-height: var(--text-button-leading);
+  cursor: pointer;
+  transition:
+    border-color var(--app-duration-micro) var(--app-ease-out),
+    background-color var(--app-duration-micro) var(--app-ease-out),
+    color var(--app-duration-micro) var(--app-ease-out);
+
+  @mixin hover {
+    border-color: var(--app-border-strong);
+    background-color: var(--app-surface-muted);
+    color: var(--app-text);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+}
+
+/* The card's media-well toggle (guide §1.5, slot 1b). A raised chip so it stays
+   legible over any photograph, in either scheme. */
+.toggleCompact {
+  width: rem(32px);
+  height: rem(32px);
+  min-height: rem(32px);
+  padding: 0;
+  background-color: var(--app-surface-raised);
+  color: var(--app-text);
+}
+
+.toggleCompact .icon {
+  width: rem(18px);
+  height: rem(18px);
+}
+
+/* Selected state carries both a label change and this treatment, so the state is
+   never colour alone (WCAG 1.4.1). */
+.toggleOn {
+  border-color: var(--app-brand);
+  background-color: var(--app-brand-soft);
+  color: var(--app-brand-soft-text);
+
+  @mixin hover {
+    border-color: var(--app-brand);
+    background-color: var(--app-brand-soft-hover);
+    color: var(--app-brand-soft-text);
+  }
+}
+
+.icon {
+  flex: 0 0 auto;
+  width: rem(16px);
+  height: rem(16px);
+}

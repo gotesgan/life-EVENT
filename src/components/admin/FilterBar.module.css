@@ -1,0 +1,57 @@
+.root {
+  background: var(--app-surface-raised);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  padding: rem(12px) rem(14px);
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-sm);
+  flex-wrap: wrap;
+  margin-bottom: rem(10px);
+}
+
+.heading {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--app-text-muted);
+}
+
+.loader {
+  color: var(--app-brand);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(rem(170px), 1fr));
+  gap: rem(10px);
+  align-items: end;
+}
+
+.field {
+  min-width: 0;
+}
+
+/* Mirrors Mantine's input label metrics so a SegmentedControl label lines up
+   with the `Select` labels in the same grid. */
+.fieldLabel {
+  margin: 0 0 rem(4px);
+  font-size: var(--mantine-font-size-xs);
+  font-weight: 600;
+  color: var(--app-text);
+}
+
+.hint {
+  margin-top: rem(4px);
+  font-size: var(--mantine-font-size-xs);
+  color: var(--app-text-subtle);
+}
+
+@mixin smaller-than $mantine-breakpoint-sm {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

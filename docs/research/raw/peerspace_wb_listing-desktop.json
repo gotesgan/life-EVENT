@@ -1,0 +1,3231 @@
+{
+ "slug": "peerspace_wb_listing",
+ "mode": "desktop",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "",
+   "r": {
+    "x": 720,
+    "y": 139,
+    "w": 720,
+    "h": 900
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px solid rgb(18, 18, 18)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 720,
+    "h": 900
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px solid rgb(18, 18, 18)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://web.archive.org/web/20250717215136/https://www.peerspace.com/venues/abingdon--md/rooftop-venue",
+  "title": "36 Best Rooftop Venues for Rent in Abingdon, MD | Peerspace",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 10516,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Rent a rooftop venue in Abingdon, MD",
+    "x": 160,
+    "y": 393,
+    "w": 490,
+    "h": 80
+   },
+   {
+    "tag": "H2",
+    "text": "How rooftop party spaces work on Peerspace",
+    "x": 160,
+    "y": 1191,
+    "w": 448,
+    "h": 80
+   },
+   {
+    "tag": "H2",
+    "text": "Unique venues",
+    "x": 736,
+    "y": 1191,
+    "w": 544,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Honest pricing",
+    "x": 736,
+    "y": 1313,
+    "w": 544,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Smooth bookings",
+    "x": 736,
+    "y": 1435,
+    "w": 544,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Popular rooftop venues",
+    "x": 144,
+    "y": 1605,
+    "w": 1152,
+    "h": 112
+   },
+   {
+    "tag": "H3",
+    "text": "18.6 miles from Abingdon, MD",
+    "x": 160,
+    "y": 2056,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "19.8 miles from Abingdon, MD",
+    "x": 544,
+    "y": 2056,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "19.9 miles from Abingdon, MD",
+    "x": 928,
+    "y": 2056,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "22.9 miles from Abingdon, MD",
+    "x": 160,
+    "y": 2469,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "Bel Air South, Abingdon, MD",
+    "x": 544,
+    "y": 2469,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "Bel Air South, Abingdon, MD",
+    "x": 928,
+    "y": 2469,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "16.3 miles from Abingdon, MD",
+    "x": 160,
+    "y": 2883,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "16.6 miles from Abingdon, MD",
+    "x": 544,
+    "y": 2883,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "18.5 miles from Abingdon, MD",
+    "x": 928,
+    "y": 2883,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "18.6 miles from Abingdon, MD",
+    "x": 160,
+    "y": 3297,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "18.7 miles from Abingdon, MD",
+    "x": 544,
+    "y": 3297,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "18.8 miles from Abingdon, MD",
+    "x": 928,
+    "y": 3297,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "18.8 miles from Abingdon, MD",
+    "x": 160,
+    "y": 3710,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "18.9 miles from Abingdon, MD",
+    "x": 544,
+    "y": 3710,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "18.9 miles from Abingdon, MD",
+    "x": 928,
+    "y": 3710,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "18.9 miles from Abingdon, MD",
+    "x": 160,
+    "y": 4124,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "19 miles from Abingdon, MD",
+    "x": 544,
+    "y": 4124,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "19.9 miles from Abingdon, MD",
+    "x": 928,
+    "y": 4124,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "20 miles from Abingdon, MD",
+    "x": 160,
+    "y": 4538,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "20.1 miles from Abingdon, MD",
+    "x": 544,
+    "y": 4538,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "20.2 miles from Abingdon, MD",
+    "x": 928,
+    "y": 4538,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "20.3 miles from Abingdon, MD",
+    "x": 160,
+    "y": 4951,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "20.5 miles from Abingdon, MD",
+    "x": 544,
+    "y": 4951,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "21.4 miles from Abingdon, MD",
+    "x": 928,
+    "y": 4951,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "21.6 miles from Abingdon, MD",
+    "x": 160,
+    "y": 5365,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "25 miles from Abingdon, MD",
+    "x": 544,
+    "y": 5365,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "38.3 miles from Abingdon, MD",
+    "x": 928,
+    "y": 5365,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "39.8 miles from Abingdon, MD",
+    "x": 160,
+    "y": 5779,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "40 miles from Abingdon, MD",
+    "x": 544,
+    "y": 5779,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "41 miles from Abingdon, MD",
+    "x": 928,
+    "y": 5779,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "44.6 miles from Abingdon, MD",
+    "x": 160,
+    "y": 6192,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "45.8 miles from Abingdon, MD",
+    "x": 544,
+    "y": 6192,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "48.6 miles from Abingdon, MD",
+    "x": 928,
+    "y": 6192,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "48.8 miles from Abingdon, MD",
+    "x": 160,
+    "y": 6606,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "49.5 miles from Abingdon, MD",
+    "x": 544,
+    "y": 6606,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H3",
+    "text": "49.9 miles from Abingdon, MD",
+    "x": 928,
+    "y": 6606,
+    "w": 348,
+    "h": 20
+   },
+   {
+    "tag": "H2",
+    "text": "Frequently Asked Questions",
+    "x": 144,
+    "y": 6897,
+    "w": 1152,
+    "h": 40
+   },
+   {
+    "tag": "H4",
+    "text": "How much does a rooftop venue cost to rent in Abingdon?",
+    "x": 160,
+    "y": 7009,
+    "w": 458,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "How popular are rooftop venues in Abingdon?",
+    "x": 160,
+    "y": 7082,
+    "w": 362,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "How long do people rent rooftop venues in Abingdon?",
+    "x": 160,
+    "y": 7155,
+    "w": 424,
+    "h": 24
+   },
+   {
+    "tag": "H2",
+    "text": "Reviews for rooftop venues",
+    "x": 144,
+    "y": 7336,
+    "w": 1152,
+    "h": 112
+   },
+   {
+    "tag": "H2",
+    "text": "Similar searches in Abingdon, MD",
+    "x": 144,
+    "y": 9396,
+    "w": 1152,
+    "h": 40
+   },
+   {
+    "tag": "H3",
+    "text": "Similar searches",
+    "x": 160,
+    "y": 9484,
+    "w": 352,
+    "h": 26
+   },
+   {
+    "tag": "H3",
+    "text": "Nearby cities",
+    "x": 544,
+    "y": 9484,
+    "w": 352,
+    "h": 26
+   }
+  ],
+  "header": {
+   "tag": "NAV",
+   "rect": {
+    "x": 0,
+    "y": 67,
+    "w": 1440,
+    "h": 72
+   },
+   "style": {
+    "position": "sticky",
+    "top": "0px",
+    "height": "72px",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "borderBottom": "0px solid rgb(18, 18, 18)",
+    "boxShadow": "none",
+    "zIndex": "1020"
+   },
+   "text": "Search Browse Spaces List Your Space (current) Sign Up Log In",
+   "links": [
+    {
+     "t": "Search",
+     "tag": "A",
+     "href": "/s/?a=event&location=abingdon--md&space_type=rooftop",
+     "r": {
+      "x": 250,
+      "y": 67,
+      "w": 74,
+      "h": 72
+     }
+    },
+    {
+     "t": "List Your Space (current)",
+     "tag": "A",
+     "href": "/host",
+     "r": {
+      "x": 1063,
+      "y": 71,
+      "w": 123,
+      "h": 64
+     }
+    },
+    {
+     "t": "Sign Up",
+     "tag": "A",
+     "href": "/#a=signup&source=nav",
+     "r": {
+      "x": 1199,
+      "y": 83,
+      "w": 86,
+      "h": 40
+     }
+    },
+    {
+     "t": "Log In",
+     "tag": "A",
+     "href": "/signin",
+     "r": {
+      "x": 1297,
+      "y": 71,
+      "w": 59,
+      "h": 64
+     }
+    }
+   ]
+  },
+  "navAll": [
+   "Search",
+   "List Your Space (current)",
+   "Sign Up",
+   "Log In",
+   "About",
+   "Press",
+   "Careers",
+   "Activities",
+   "Locations",
+   "Resources",
+   "Ambassador Program",
+   "List your space",
+   "Community",
+   "Deutschland",
+   "United Kingdom",
+   "United States",
+   "Canada",
+   "Australia",
+   "España",
+   "France",
+   "Help Center",
+   "Trust and Safety",
+   "Terms",
+   "Privacy",
+   "California Privacy",
+   "App Store",
+   "Google Play Store"
+  ],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 209,
+     "y": 600,
+     "w": 1,
+     "h": 27
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 209,
+     "y": 672,
+     "w": 1,
+     "h": 27
+    }
+   }
+  ],
+  "filterContainers": [],
+  "images": [
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1.5,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_750/dboliziddccfnuaii0vn",
+    "alt": "",
+    "nat": "720x480",
+    "r": {
+     "x": 720,
+     "y": 139,
+     "w": 720,
+     "h": 900
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_256/ynonsnyox95jaofeoa1a",
+    "alt": "A bright, modern sunroom with large floor-to-ceiling windows, featuring minimalist furnitu",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 1781,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_256/usxqf20wpvcdbjvuicy8",
+    "alt": "A spacious room filled with colorful graffiti on the walls, featuring a mix of seating arr",
+    "nat": "0x0",
+    "r": {
+     "x": 544,
+     "y": 1781,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_256/yjveul7azd7wr7x6xo7f",
+    "alt": "Downtown Loft Image in Fells Point, Baltimore, MD",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 1781,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_256/hnzalfbylawms8alpoth",
+    "alt": "An interior space with folding chairs arranged in rows, a television screen on the wall, a",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 2195,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_256/ekgvgn65z2h2mzgg6rhm",
+    "alt": "A spacious dance studio featuring a mirrored wall, wooden barre, and a small raised platfo",
+    "nat": "0x0",
+    "r": {
+     "x": 544,
+     "y": 2195,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_256/i9vysqmlrfd1zpbwarw2",
+    "alt": "Event Space, Creative Studio Image in Bel Air South, Abingdon, MD",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 2195,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_256/bcecjb3glewfckyq4x15",
+    "alt": "The scene shows an outdoor gathering area with a sign reading \"The Backyard Debauchery,\" s",
+    "nat": "216x216",
+    "r": {
+     "x": 160,
+     "y": 2608,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_256/p0ykmqyxybz70optjz5e",
+    "alt": "A spacious room with a wooden floor, a white couch, a small table, and large windows that ",
+    "nat": "0x0",
+    "r": {
+     "x": 544,
+     "y": 2608,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_256/hb38kdhjfwxqyzddcpdt",
+    "alt": "A modern white house with large black-framed windows, a green lawn in front, and a wooden ",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 2608,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_256/shz7d1hskjhxpzcwhcim",
+    "alt": "A wooden deck features a glass-top table and chairs, overlooking a distant landscape under",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 3022,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_256/zhkrtxvhnjohc5dasx01",
+    "alt": "A collage of five scenes, including a vintage television set with a blank screen on a silv",
+    "nat": "0x0",
+    "r": {
+     "x": 544,
+     "y": 3022,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://web.archive.org/web/20250717215136im_/https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_256/r4wex9npeniflthloonv",
+    "alt": "Chic Urban Loft with City View Image in Canton, Baltimore, MD",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 3022,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/v3stwu9svaosmbone5qd",
+    "alt": "A living room with two sofas, a glass coffee table, and a vibrant, green carpet, set again",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 3436,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/mwdcpnurrvx5vgtxoova",
+    "alt": "A rooftop deck with a wooden swing, several chairs, a table, and an umbrella, overlooking ",
+    "nat": "0x0",
+    "r": {
+     "x": 544,
+     "y": 3436,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/rbfhclofabzqndjaxb9e",
+    "alt": "A modern gym interior featuring weightlifting equipment and exercise machines arranged aro",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 3436,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/benatjb3qfw7uf4ztayr",
+    "alt": "A shaded outdoor sitting area features rattan furniture and curtains on a wooden deck.",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 3849,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/ddmswsvxvedkynegttc9",
+    "alt": "A rooftop terrace features two black chairs, a white backdrop, potted plants, and a scenic",
+    "nat": "0x0",
+    "r": {
+     "x": 544,
+     "y": 3849,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/cpvp4i3ppvumuulvqdyx",
+    "alt": "A brightly lit banquet room with round tables covered in white cloth and a buffet table di",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 3849,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/gc78w44b6jmpxij6ctvr",
+    "alt": "A modern lounge area with black and white furniture, including chairs and tables, against ",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 4263,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/btogs5mdbfondoldsw7c",
+    "alt": "An empty performance venue with a large backdrop displaying \"LA FAMILIA SOUNDSTAGE,\" stage",
+    "nat": "0x0",
+    "r": {
+     "x": 544,
+     "y": 4263,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/gmwprrld0efb8b1ftbt8",
+    "alt": "A modern lounge area with large windows, a wall-mounted TV, and a mix of blue and gray fur",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 4263,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/khczwdmjrut62epnmd3x",
+    "alt": "A modern living room with a green sofa, a geometric rug, a glass coffee table, exposed bri",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 4677,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/jvf0rcpghllitmiahuc8",
+    "alt": "Multi Functional Smart Event Space Image in Reservoir Hill, Baltimore, MD",
+    "nat": "0x0",
+    "r": {
+     "x": 544,
+     "y": 4677,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/k0ke60h3imkytvv2q3uz",
+    "alt": "A wooden deck with two chairs overlooks a cityscape under a blue sky with scattered clouds",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 4677,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/vozorglx8iw7nhv0fulb",
+    "alt": "A rooftop deck featuring a circular table and two chairs on a green carpet, with a satelli",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 5090,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/scmhuoq26k0kwc4olyay",
+    "alt": "A modern, empty room with light gray walls, a long countertop along one wall, and a door l",
+    "nat": "0x0",
+    "r": {
+     "x": 544,
+     "y": 5090,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/v8x0wygd0kcxnxeiy8sw",
+    "alt": "A modern living room with white sofas, round ottomans, and a large television against a fe",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 5090,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/auwlrjkgoxd3bojqelqv",
+    "alt": "A staircase ascends from a dining area that features a wooden table and black chairs, lead",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 5504,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/ng2rkarjdk5itxler4sr",
+    "alt": "Blush Loft Image in , Wilmington, DE",
+    "nat": "0x0",
+    "r": {
+     "x": 544,
+     "y": 5504,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/ys8f4u9jwkqpqwbxxia3",
+    "alt": "A modern room featuring a billiard table, a fireplace, and a television mounted on the wal",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 5504,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/rlp72vrv0hnwvrlbnmf8",
+    "alt": "A modern spa interior with a reception desk, seating area, and products displayed on the w",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 5918,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/sb5dwpqbriifd4zifeyq",
+    "alt": "A long, elegantly set outdoor dining table is arranged on a green lawn, flanked by white c",
+    "nat": "0x0",
+    "r": {
+     "x": 544,
+     "y": 5918,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/yj467ynf8dmlonvp3ken",
+    "alt": "A modern living room featuring two blue sofas facing each other, a glass coffee table with",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 5918,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/kjbophlwjelcwwmdcboe",
+    "alt": "A two-story white house with a black trim and a balcony, surrounded by greenery and a driv",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 6331,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/mosmz4bqjr7yq6ws0nnb",
+    "alt": "A small outdoor seating area with artificial turf, surrounded by wooden panels, featuring ",
+    "nat": "0x0",
+    "r": {
+     "x": 544,
+     "y": 6331,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_3840/n2rgwm1gxzw5kztck62x",
+    "alt": "A large tent is set up in a grassy area, with a table displaying yellow balloons and treat",
+    "nat": "0x0",
+    "r": {
+     "x": 928,
+     "y": 6331,
+     "w": 352,
+     "h": 235
+    },
+    "fit": "cover",
+    "radius": "4px"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_96/kuhbz8qfrcialh2xkmbk",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 7496,
+     "w": 26,
+     "h": 26
+    },
+    "fit": "cover",
+    "radius": "50%"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_96/s0qq5qphqlkgpeux4o9u",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 736,
+     "y": 7496,
+     "w": 26,
+     "h": 26
+    },
+    "fit": "cover",
+    "radius": "50%"
+   },
+   {
+    "src": "https://img.peerspace.com/image/upload/ar_1,c_fill,g_auto,f_auto,q_auto,dpr_auto,w_96/j4dk99fmyydhhkppxspg",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 160,
+     "y": 7666,
+     "w": 26,
+     "h": 26
+    },
+    "fit": "cover",
+    "radius": "50%"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "",
+     "ratio": 0.8,
+     "r": {
+      "w": 720,
+      "h": 900
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "d-sm-flex align-items-center HeroSection_hero__GU04Z",
+      "r": {
+       "x": 720,
+       "y": 139,
+       "w": 720,
+       "h": 900
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "p-0 col-lg-6 order-lg-2 order-1",
+      "r": {
+       "x": 720,
+       "y": 139,
+       "w": 720,
+       "h": 900
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "row m-0 align-items-center",
+      "r": {
+       "x": 0,
+       "y": 139,
+       "w": 1440,
+       "h": 900
+      },
+      "text": "Rent a rooftop venue in Abingdon, MD Discover thousands of unique rooftop venues for rent perfect for your event. Enter your activity Search",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": " HeroSection_hero-container__p9kiv",
+      "r": {
+       "x": 0,
+       "y": 139,
+       "w": 1440,
+       "h": 900
+      },
+      "text": "Rent a rooftop venue in Abingdon, MD Discover thousands of unique rooftop venues for rent perfect for your event. Enter your activity Search",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "FORM",
+      "cls": "",
+      "r": {
+       "x": 0,
+       "y": 139,
+       "w": 1440,
+       "h": 900
+      },
+      "text": "Rent a rooftop venue in Abingdon, MD Discover thousands of unique rooftop venues for rent perfect for your event. Enter your activity Search",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "A bright, modern sunroom with large floor-to-ceiling windows, featuring minimali",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 160,
+       "y": 1781,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 160,
+       "y": 1781,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$100/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 160,
+       "y": 1781,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$100/hr Skeleton Key Designs",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 160,
+       "y": 1781,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$100/hr Skeleton Key Designs 18.6 miles from Abingdon, MD 5.0 (122) 10 Skeleton Key Designs. Completely unique with two stories of southern exposure. Teak... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 144,
+       "y": 1781,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$100/hr Skeleton Key Designs 18.6 miles from Abingdon, MD 5.0 (122) 10 Skeleton Key Designs. Completely unique with two stories of southern exposure. Teak... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "A spacious room filled with colorful graffiti on the walls, featuring a mix of s",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 544,
+       "y": 1781,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 544,
+       "y": 1781,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$149/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 544,
+       "y": 1781,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$149/hr Graffiti Warehouse",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 544,
+       "y": 1781,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$149/hr Graffiti Warehouse 19.8 miles from Abingdon, MD 5.0 (1) 200 Graffiti Warehouse. This listing is for our 4,000 square foot first floor space for events.... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 528,
+       "y": 1781,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$149/hr Graffiti Warehouse 19.8 miles from Abingdon, MD 5.0 (1) 200 Graffiti Warehouse. This listing is for our 4,000 square foot first floor space for events.... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Downtown Loft Image in Fells Point, Baltimore, MD",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 928,
+       "y": 1781,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 928,
+       "y": 1781,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$92/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 928,
+       "y": 1781,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$92/hr Downtown Loft",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 928,
+       "y": 1781,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$92/hr Downtown Loft 19.9 miles from Abingdon, MD 62 Downtown Loft. Step into the perfect blend of historic charm and modern sophistication with... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 912,
+       "y": 1781,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$92/hr Downtown Loft 19.9 miles from Abingdon, MD 62 Downtown Loft. Step into the perfect blend of historic charm and modern sophistication with... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "An interior space with folding chairs arranged in rows, a television screen on t",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 160,
+       "y": 2195,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 160,
+       "y": 2195,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$150/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 160,
+       "y": 2195,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$150/hr Islamic Leadership Institute of Amirca",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 160,
+       "y": 2195,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$150/hr Islamic Leadership Institute of Amirca 22.9 miles from Abingdon, MD 60 Islamic Leadership Institute of Amirca. of the industrial inspired main hall for larger... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 144,
+       "y": 2195,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$150/hr Islamic Leadership Institute of Amirca 22.9 miles from Abingdon, MD 60 Islamic Leadership Institute of Amirca. of the industrial inspired main hall for larger... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "A spacious dance studio featuring a mirrored wall, wooden barre, and a small rai",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 544,
+       "y": 2195,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 544,
+       "y": 2195,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$75/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 544,
+       "y": 2195,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$75/hr Bel Air Dance Studio and Event Space",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 544,
+       "y": 2195,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$75/hr Bel Air Dance Studio and Event Space Bel Air South, Abingdon, MD 3.5 (2) 100 9000 square foot dance studio with five spacious studio, spacious lobby, dressing rooms.... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 528,
+       "y": 2195,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$75/hr Bel Air Dance Studio and Event Space Bel Air South, Abingdon, MD 3.5 (2) 100 9000 square foot dance studio with five spacious studio, spacious lobby, dressing rooms.... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Event Space, Creative Studio Image in Bel Air South, Abingdon, MD",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 928,
+       "y": 2195,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 928,
+       "y": 2195,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$150/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 928,
+       "y": 2195,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$150/hr Event Space, Creative Studio",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 928,
+       "y": 2195,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$150/hr Event Space, Creative Studio Bel Air South, Abingdon, MD 50 Are you looking to hold an event ? We are a second floor event space that holds up to 50... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 912,
+       "y": 2195,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$150/hr Event Space, Creative Studio Bel Air South, Abingdon, MD 50 Are you looking to hold an event ? We are a second floor event space that holds up to 50... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "The scene shows an outdoor gathering area with a sign reading \"The Backyard Deba",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 160,
+       "y": 2608,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 160,
+       "y": 2608,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$115/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 160,
+       "y": 2608,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$115/hr Backyard Debauchery",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 160,
+       "y": 2608,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$115/hr Backyard Debauchery 16.3 miles from Abingdon, MD 5.0 (26) 35 Chic backyard with spacious brick patio and comfortable furniture ideal for intimate,... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 144,
+       "y": 2608,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$115/hr Backyard Debauchery 16.3 miles from Abingdon, MD 5.0 (26) 35 Chic backyard with spacious brick patio and comfortable furniture ideal for intimate,... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "A spacious room with a wooden floor, a white couch, a small table, and large win",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 544,
+       "y": 2608,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 544,
+       "y": 2608,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$65/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 544,
+       "y": 2608,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$65/hr Versatile Urban Event Space",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 544,
+       "y": 2608,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$65/hr Versatile Urban Event Space 16.6 miles from Abingdon, MD 4.1 (8) 40 Welcome to our versatile event space, where a plethora of celebrations and gatherings... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 528,
+       "y": 2608,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$65/hr Versatile Urban Event Space 16.6 miles from Abingdon, MD 4.1 (8) 40 Welcome to our versatile event space, where a plethora of celebrations and gatherings... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "A modern white house with large black-framed windows, a green lawn in front, and",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 928,
+       "y": 2608,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 928,
+       "y": 2608,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$125/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 928,
+       "y": 2608,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$125/hr Outdoor Oasis For Photo Shoots",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 928,
+       "y": 2608,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$125/hr Outdoor Oasis For Photo Shoots 18.5 miles from Abingdon, MD 5.0 (3) 15 Beautiful backdrop for photos and video productions as well as small gatherings up to 10... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 912,
+       "y": 2608,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$125/hr Outdoor Oasis For Photo Shoots 18.5 miles from Abingdon, MD 5.0 (3) 15 Beautiful backdrop for photos and video productions as well as small gatherings up to 10... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "A wooden deck features a glass-top table and chairs, overlooking a distant lands",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 160,
+       "y": 3022,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 160,
+       "y": 3022,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$80/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 160,
+       "y": 3022,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$80/hr City Sanctuary with Rooftop Deck",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 160,
+       "y": 3022,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$80/hr City Sanctuary with Rooftop Deck 18.6 miles from Abingdon, MD 15 century modern vibe and pops of color, will add a city flair to your event. The main... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 144,
+       "y": 3022,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$80/hr City Sanctuary with Rooftop Deck 18.6 miles from Abingdon, MD 15 century modern vibe and pops of color, will add a city flair to your event. The main... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "A collage of five scenes, including a vintage television set with a blank screen",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 544,
+       "y": 3022,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 544,
+       "y": 3022,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$75/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 544,
+       "y": 3022,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$75/hr Downtown Themed Creative Loft",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 544,
+       "y": 3022,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$75/hr Downtown Themed Creative Loft 18.7 miles from Abingdon, MD 5.0 (21) 20 Searching for the perfect backdrop for your next event? Bring your ideas to life in... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 528,
+       "y": 3022,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$75/hr Downtown Themed Creative Loft 18.7 miles from Abingdon, MD 5.0 (21) 20 Searching for the perfect backdrop for your next event? Bring your ideas to life in... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Chic Urban Loft with City View Image in Canton, Baltimore, MD",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 928,
+       "y": 3022,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 928,
+       "y": 3022,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$125/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 928,
+       "y": 3022,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$125/hr Chic Urban Loft with City View",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 928,
+       "y": 3022,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$125/hr Chic Urban Loft with City View 18.8 miles from Abingdon, MD 5.0 (8) 40 Introducing North, a space to slow down. This is an intentional lounge and office loft... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 912,
+       "y": 3022,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$125/hr Chic Urban Loft with City View 18.8 miles from Abingdon, MD 5.0 (8) 40 Introducing North, a space to slow down. This is an intentional lounge and office loft... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "A living room with two sofas, a glass coffee table, and a vibrant, green carpet,",
+     "ratio": 1.5,
+     "r": {
+      "w": 352,
+      "h": 235
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "ListingThumbnail_listing-img-wrapper__ilauT position-relative",
+      "r": {
+       "x": 160,
+       "y": 3436,
+       "w": 352,
+       "h": 235
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "position-relative",
+      "r": {
+       "x": 160,
+       "y": 3436,
+       "w": 352,
+       "h": 235
+      },
+      "text": "from$99/hr",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "text-gray-900",
+      "r": {
+       "x": 160,
+       "y": 3436,
+       "w": 352,
+       "h": 275
+      },
+      "text": "from$99/hr 60s/70s Retro-inspired Content House next to Patterson Park",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 160,
+       "y": 3436,
+       "w": 352,
+       "h": 374
+      },
+      "text": "from$99/hr 60s/70s Retro-inspired Content House next to Patterson Park 18.8 miles from Abingdon, MD 5.0 (32) 25 Welcome to Lula's Citrine! Travel back in time to the mid century modern era the moment... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "col-xs-12 col-md-6 col-lg-4 mb-6",
+      "r": {
+       "x": 144,
+       "y": 3436,
+       "w": 384,
+       "h": 374
+      },
+      "text": "from$99/hr 60s/70s Retro-inspired Content House next to Patterson Park 18.8 miles from Abingdon, MD 5.0 (32) 25 Welcome to Lula's Citrine! Travel back in time to the mid century modern era the moment... Show more",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px solid rgb(18, 18, 18)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 16px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "Search",
+   "List Your Space (current)",
+   "Sign Up",
+   "Log In",
+   "Search",
+   "Home",
+   "Locations",
+   "Abingdon, MD",
+   "Discover Spaces",
+   "See All ›",
+   "from$100/hr Skeleton Key Designs",
+   "Show more",
+   "from$149/hr Graffiti Warehouse",
+   "Show more",
+   "from$92/hr Downtown Loft",
+   "Show more",
+   "Show more",
+   "from$75/hr Bel Air Dance Studio and Event Space",
+   "Show more",
+   "from$150/hr Event Space, Creative Studio",
+   "Show more",
+   "from$115/hr Backyard Debauchery",
+   "Show more",
+   "from$65/hr Versatile Urban Event Space",
+   "Show more",
+   "from$125/hr Outdoor Oasis For Photo Shoots",
+   "Show more",
+   "from$80/hr City Sanctuary with Rooftop Deck",
+   "Show more",
+   "from$75/hr Downtown Themed Creative Loft",
+   "Show more",
+   "from$125/hr Chic Urban Loft with City View",
+   "Show more",
+   "Show more",
+   "Show more",
+   "from$115/hr Open Spacious Modern Gym",
+   "Show more",
+   "Show more",
+   "from$100/hr Downtown Adjacent with Rooftop Views",
+   "Show more",
+   "from$150/hr Fells Point Luxury Open Space",
+   "Show more",
+   "from$95/hr Midtown private event space",
+   "Show more",
+   "from$400/hr Urban/Downtown Event Space",
+   "Show more",
+   "Show more",
+   "Show more",
+   "from$100/hr Multi Functional Smart Event Space",
+   "Show more",
+   "Show more",
+   "from$110/hr Baltimore Federal Brick Home",
+   "Show more",
+   "from$100/hr Contemporary Downtown Event Space",
+   "Show more",
+   "from$85/hr Open Layout Residential Event Space",
+   "Show more",
+   "Show more",
+   "from$40/hr Blush Loft",
+   "Show more",
+   "Show more",
+   "from$150/hr Urban Space with Endless Possibilites",
+   "Show more",
+   "from$95/hr Metro DC Private Outdoor Event Space",
+   "Show more",
+   "from$150/hr Airy Condo With Cocktail Lounge Vibe",
+   "Show more",
+   "from$150/hr Plush Home on the Hill",
+   "Show more",
+   "from$160/hr Culture Courtyard",
+   "Show more",
+   "from$80/hr Large and Sunny Family Backyard",
+   "Show more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Read more",
+   "Ballroom",
+   "Banquet Hall",
+   "Party Hall",
+   "Gallery",
+   "Commercial Kitchen",
+   "Private Dining Room",
+   "Community Center",
+   "Loft",
+   "Auditorium",
+   "Penthouse",
+   "Warehouse",
+   "Restaurant",
+   "Joppatowne, MD",
+   "Nottingham, MD",
+   "Towson, MD",
+   "Baltimore, MD",
+   "Pikesville, MD",
+   "Rock Hall, MD",
+   "Owings Mills, MD",
+   "Woodlawn, MD",
+   "Linthicum Heights, MD",
+   "Reisterstown, MD",
+   "Ellicott City, MD",
+   "Middletown, DE",
+   "About",
+   "Press",
+   "Careers",
+   "Activities",
+   "Locations",
+   "Resources",
+   "Ambassador Program",
+   "List your space",
+   "Community",
+   "Deutschland",
+   "United Kingdom",
+   "United States",
+   "Canada",
+   "Australia",
+   "España",
+   "France",
+   "Help Center",
+   "Trust and Safety",
+   "Terms",
+   "Privacy",
+   "California Privacy",
+   "App Store",
+   "Google Play Store",
+   "Your privacy choices"
+  ],
+  "bodyText": "Search\nBrowse Spaces\nList Your Space\n(current)\nSign Up\nLog In\nRent a rooftop venue in Abingdon, MD\n\nDiscover thousands of unique rooftop venues for rent perfect for your event.\n\nEnter your activity\nSearch\nHomeLocationsAbingdon, MDRooftop Venues\nHow rooftop party spaces work on Peerspace\n\nPeerspace is the easiest way to book unique rooftop venues for parties, weddings, meetings, productions and more.\n\nDiscover Spaces\nUnique venues\n\nEvery day we uncover new, creative spaces, including rooftop party spaces, perfect for your activity.\n\nHonest pricing\n\nOur rooftop venues are priced to fit your budget. Hire by the hour without worrying about hidden fees.\n\nSmooth bookings\n\nNo more messy contracts. We build the tools to make booking rooftop party space venues as easy as the click of a button.\n\nPopular rooftop venues\nExplore all of our rooftop venues in Abingdon.\nSee All ›\nfrom$100/hr\nSkeleton Key Designs\n18.6 miles from Abingdon, MD\n5.0\n(122)\n10\nSkeleton Key Designs. Completely unique with two stories of southern exposure. Teak... Show more\nfrom$149/hr\nGraffiti Warehouse\n19.8 miles from Abingdon, MD\n5.0\n(1)\n200\nGraffiti Warehouse. This listing is for our 4,000 square foot first floor space for events.... Show more\nfrom$92/hr\nDowntown Loft\n19.9 miles from Abingdon, MD\n62\nDowntown Loft. Step into the perfect blend of historic charm and modern sophistication with... Show more\nfrom$150/hr\nIslamic Leadership Institute of Amirca\n22.9 miles from Abingdon, MD\n60\nIslamic Leadership Institute of Amirca. of the industrial inspired main hall for larger... Show more\nfrom$75/hr\nBel Air Dance Studio and Event Space\nBel Air South, Abingdon, MD\n3.5\n(2)\n100\n9000 square foot dance studio with five spacious studio, spacious lobby, dressing rooms.... Show more\nfrom$150/hr\nEvent Space, Creative Studio\nBel Air South, Abingdon, MD\n50\nAre you looking to hold an event ? We are a second floor event space that holds up to 50... Show more\nfrom$115/hr\nBackyard Debauchery\n16.3 miles from Abingdon, MD\n5.0\n(26)\n35\nChic backyard with spacious brick patio and comfortable furniture ideal for intimate,... Show more\nfrom$65/hr\nVersatile Urban Event Space\n16.6 miles from Abingdon, MD\n4.1\n(8)\n40\nWelcome to our versatile event space, where a plethora of celebrations and gatherings... Show more\nfrom$125/hr\nOutdoor Oasis For Photo Shoots\n18.5 miles from Abingdon, MD\n5.0\n(3)\n15\nBeautiful backdrop for photos and video productions as well as small gatherings up to 10... Show more\nfrom$80/hr\nCity Sanctuary with Rooftop Deck\n18.6 miles from Abingdon, MD\n15\ncentury modern vibe and pops of color, will add a city flair to your event. The main... Show more\nfrom$75/hr\nDowntown Themed Creative Loft\n18.7 miles from Abingdon, MD\n5.0\n(21)\n20\nSearching for the perfect backdrop for your next event? Bring your ideas to life in... Show more\nfrom$125/hr\nChic Urban Loft with City View\n18.8 miles from Abingdon, MD\n5.0\n(8)\n40\nIntroducing North, a space to slow down. This is an intentional lounge and office loft... Show more\nfrom$99/hr\n60s/70s Retro-inspired Content House next to Patterson Park\n18.8 miles from Abingdon, MD\n5.0\n(32)\n25\nWelcome to Lula's Citrine! Travel back in time to the mid century modern era the moment... Show more\nfrom$165/hr\nUrban Parkside Rowhome with Rooftop Views!\n18.9 miles from Abingdon, MD\n4.9\n(11)\n40\nOur space is right across from the beautiful Patterson Park and has been recently... Show more\nfrom$115/hr\nOpen Spacious Modern Gym\n18.9 miles from Abingdon, MD\n5.0\n(1)\n75\nModern huge open space with gym equipment that can be moved to make more space for large... Show more\nfrom$100/hr\nModern Glam Row House w/Rooftop City Views\n18.9 miles from Abingdon, MD\n5.0\n(39)\n40\n**we have acquired the space next door, reach out if more space is needed!** **inquire... Show more\nfrom$100/hr\nDowntown Adjacent with Rooftop Views\n19 miles from Abingdon, MD\n11\nFeel free to host a dinner, small get together, game night, work meeting or photoshoot.... Show more\nfrom$150/hr\nFells Point Luxury Open Space\n19.9 miles from Abingdon, MD\n4.6\n(8)\n60\nPerfect for classes, gatherings, intimate dinner parties, intimate social gatherings, and... Show more\nfrom$95/hr\nMidtown private event space\n20 miles from Abingdon, MD\n4.6\n(9)\n40\nThis is the intimate venue you've been looking for! We offer the perfect venue for baby... Show more\nfrom$400/hr\nUrban/Downtown Event Space\n20.1 miles from Abingdon, MD\n5.0\n(3)\n280\nStage Plays Music Concerts Comedy Shows Spoken Word Shows Meeting Space Art... Show more\nfrom$125/hr\nLounge in Inner Harbor overlooking waterfront!\n20.2 miles from Abingdon, MD\n4.9\n(15)\n30\nRight in Baltimore's beautiful Inner Harbor, our Rooftop Clubroom boasts 360... Show more\nfrom$95/hr\nStylish Open Space in Reservoir Hill Historical Neighborhood\n20.3 miles from Abingdon, MD\n4.9\n(62)\n40\n** Please note this is our Events listing, which has a 4 hour minimum including setup and... Show more\nfrom$100/hr\nMulti Functional Smart Event Space\n20.5 miles from Abingdon, MD\n5.0\n(4)\n112\nThe venue is a large space that can be divided into two spaces. The brand new... Show more\nfrom$100/hr\nFederal Hill Luxury Experience + Charm City Row House\n21.4 miles from Abingdon, MD\n5.0\n(1)\n25\nspace: 3 bedrooms, 3.5 bathrooms, including 2 suites and a private third floor suite,... Show more\nfrom$110/hr\nBaltimore Federal Brick Home\n21.6 miles from Abingdon, MD\n5.0\n(3)\n20\nThis property has a large entertainment center with vaulted ceilings. It has a spacious... Show more\nfrom$100/hr\nContemporary Downtown Event Space\n25 miles from Abingdon, MD\n4.5\n(6)\n55\nThis space is perfect to host your next social gathering or business event. The large,... Show more\nfrom$85/hr\nOpen Layout Residential Event Space\n38.3 miles from Abingdon, MD\n5.0\n(7)\n20\nThis open layout living room/kitchen setup is great for small events such as birthday... Show more\nfrom$89/hr\nDowntown Rowhome with Modern Features and Rustic Wood Accents\n39.8 miles from Abingdon, MD\n5.0\n(2)\n12\n1st Floor Living room, dining room, kitchen. Our home has a small outdoor patio area... Show more\nfrom$40/hr\nBlush Loft\n40 miles from Abingdon, MD\n5.0\n(1)\n40\nBright Open Event Space with Natural Light in a Modern Setting on the 2nd floor of our... Show more\nfrom$120/hr\nSpacious Club House w/ Outdoor Porch for Company Gatherings or Pop Up Events\n41 miles from Abingdon, MD\n5.0\n(9)\n30\nLocated in Laurel, MD, our club house offers the ideal space for team events, parties,... Show more\nfrom$150/hr\nUrban Space with Endless Possibilites\n44.6 miles from Abingdon, MD\n5.0\n(1)\n25\nThis space is great if you're looking for a place to host a fitness class, private club... Show more\nfrom$95/hr\nMetro DC Private Outdoor Event Space\n45.8 miles from Abingdon, MD\n4.9\n(31)\n30\nThe perfect outdoor space for SMALL intimate gatherings. Suitable for: photo shoots,... Show more\nfrom$150/hr\nAiry Condo With Cocktail Lounge Vibe\n48.6 miles from Abingdon, MD\n4.9\n(78)\n10\nThe open floor concept is perfect for production crews to get every desired angle of a... Show more\nfrom$150/hr\nPlush Home on the Hill\n48.8 miles from Abingdon, MD\n5.0\n(3)\n35\nThis perfect indoor/ outdoor space for SMALL intimate gatherings. Suitable for: photo... Show more\nfrom$160/hr\nCulture Courtyard\n49.5 miles from Abingdon, MD\n5.0\n(1)\n40\nThe Courtyard is an entire vibe with seating for 20. With 850 square feet and its bright... Show more\nfrom$80/hr\nLarge and Sunny Family Backyard\n49.9 miles from Abingdon, MD\n5.0\n(1)\n100\nWelcome to our sunny backyard offering a spacious and welcoming environment to host your... Show more\nFrequently Asked Questions\nHow much does a rooftop venue cost to rent in Abingdon?\nHow popular are rooftop venues in Abingdon?\nHow long do people rent rooftop venues in Abingdon?\n\nPricing and popularity information in this section is based on proprietary data from bookings made on Peerspace from 2016-2025.\n\nReviews for rooftop venues\nDawn C.\nStunning Outdoor SkyDeck w/ DC Views\nAwesome, breathtaking panoramic view from a rooftop providing comfortable, chic seating and a manicured landscape. Eduardo...\nRead more\nJuliet F.\nExquisite SkyLounge in Silver Spring\nwas beautiful, clean and spacious. All of my guests commented on the gorgeous view and how lovely it was. Thanks to Eduardo and...\nRead more\nKaryn S.\nDowntown Penthouse with views of Silver Spring\nThe venue was perfect for what we needed. The outdoor enclosed rooftop patio was extremely welcomed during this pandemic....\nRead more\nCharles C.\nInterior Rooftop Lounge with Stunning Views for Events\nreally liked the space. It looked just like the pictures and was beautiful. Since it was a great day outside, the view from the...\nRead more\nAkintunde G.\nModern Glam Row House w/Rooftop City Views\nWow, This spot was definitely worth it, beautiful house all together. Just as advertised. I used it for my marriage proposal,...\nRead more\nMaya N.\nModern Glam Row House w/Multiple Backdrops and Natural Light\nThe house was beautiful, and the rooftop has amazing views! The house is very modern with a spa",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Rent a rooftop venue in Abingdon, MD",
+     "style": {
+      "fontFamily": "__ABCSocialBold_fb379c, __ABCSocialBold_Fallback_fb379c, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "color": "rgb(18, 18, 18)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(18, 18, 18)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 32px"
+     },
+     "r": {
+      "x": 160,
+      "y": 393,
+      "w": 490,
+      "h": 80
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, [class*='listing'] h2, h2, h3",
+     "text": "How rooftop party spaces work on Peerspace",
+     "style": {
+      "fontFamily": "__ABCSocialBold_fb379c, __ABCSocialBold_Fallback_fb379c, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+     },
+     "r": {
+      "x": 160,
+      "y": 1191,
+      "w": 448,
+      "h": 80
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, [class*='listing'] h2, h2, h3",
+     "text": "Unique venues",
+     "style": {
+      "fontFamily": "__ABCSocialMedium_8cf118, __ABCSocialMedium_Fallback_8cf118, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+     },
+     "r": {
+      "x": 736,
+      "y": 1191,
+      "w": 544,
+      "h": 26
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, [class*='listing'] h2, h2, h3",
+     "text": "Honest pricing",
+     "style": {
+      "fontFamily": "__ABCSocialMedium_8cf118, __ABCSocialMedium_Fallback_8cf118, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+     },
+     "r": {
+      "x": 736,
+      "y": 1313,
+      "w": 544,
+      "h": 26
+     }
+    }
+   ],
+   "card-meta": [],
+   "filter-label": [],
+   "nav-link": [],
+   "price": [
+    {
+     "sel": "[class*='price'], [class*='Price']",
+     "text": "from$100/hr",
+     "style": {
+      "fontFamily": "__ABCSocialRegular_a9441b, __ABCSocialRegular_Fallback_a9441b, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(18, 18, 18)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px 4px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 412,
+      "y": 1984,
+      "w": 92,
+      "h": 24
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price']",
+     "text": "from$149/hr",
+     "style": {
+      "fontFamily": "__ABCSocialRegular_a9441b, __ABCSocialRegular_Fallback_a9441b, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(18, 18, 18)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px 4px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 797,
+      "y": 1984,
+      "w": 91,
+      "h": 24
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price']",
+     "text": "from$92/hr",
+     "style": {
+      "fontFamily": "__ABCSocialRegular_a9441b, __ABCSocialRegular_Fallback_a9441b, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(18, 18, 18)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px 4px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1187,
+      "y": 1984,
+      "w": 85,
+      "h": 24
+     }
+    }
+   ]
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(18, 18, 18)",
+    "fontFamily": "__ABCSocialRegular_a9441b, __ABCSocialRegular_Fallback_a9441b, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

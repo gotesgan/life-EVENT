@@ -1,0 +1,80 @@
+/*
+ * Card.
+ *
+ * Occupies E0 at rest — a hairline on a raised surface — and reaches E1 only
+ * while hovered or focused. Nothing here translates or scales: the elevation
+ * change is the affordance, and a grid of 24 cards animating position is what
+ * makes a browse surface feel cheap on a mid-range phone.
+ *
+ * The radius is `--app-radius-card`, which `.surface--dense` re-values to the
+ * dense step. No component decides its own density.
+ */
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* A card is a block, but a grid tile must be able to fill its row. */
+  height: 100%;
+}
+
+.interactive {
+  transition:
+    border-color var(--app-duration-fast) var(--app-ease-in-out),
+    box-shadow var(--app-duration-fast) var(--app-ease-in-out);
+}
+
+.interactive:hover {
+  border-color: var(--app-border-strong);
+  box-shadow: var(--app-shadow-raised);
+}
+
+/* Focus lands on a link or button *inside* the card, so the whole card has to
+   report it — otherwise the ring is drawn around a 20px glyph and the card the
+   user is actually about to activate stays flat. */
+.interactive:focus-within {
+  border-color: var(--app-brand);
+  box-shadow: var(--app-shadow-raised);
+}
+
+.section {
+  padding: var(--app-card-padding);
+}
+
+.divided {
+  border-block-start: 1px solid var(--app-border);
+}
+
+.media {
+  position: relative;
+  overflow: hidden;
+  /* Matches the card's own top corners without hard-coding 12px or 14px. */
+  border-start-start-radius: calc(var(--app-radius-card) - 1px);
+  border-start-end-radius: calc(var(--app-radius-card) - 1px);
+}
+
+.title {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-card-title-size);
+  font-weight: var(--text-card-title-weight);
+  line-height: var(--text-card-title-leading);
+  letter-spacing: var(--text-card-title-tracking);
+}
+
+/* Two lines, reserved. The min-height is what keeps two cards in the same row
+   anchored to the same baseline even when one title is shorter. */
+.clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  min-height: calc(2 * var(--text-card-title-leading) * var(--text-card-title-size));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .interactive {
+    transition: none;
+  }
+}

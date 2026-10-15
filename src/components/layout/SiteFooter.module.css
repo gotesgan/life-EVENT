@@ -1,0 +1,102 @@
+/*
+ * Site footer.
+ *
+ * A raised band separated from the page by a hairline, with the same gutter and
+ * maximum width as the header so chrome and content align exactly. The rhythm
+ * comes from `--app-section-gap`, so a dense route and an editorial one get
+ * different footer breathing room without a second selector.
+ */
+
+.footer {
+  margin-block-start: var(--app-section-gap);
+  border-block-start: 1px solid var(--app-border);
+  background-color: var(--app-surface-raised);
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: rem(28px);
+  padding-block: clamp(2rem, 1.25rem + 2vw, 3.5rem) rem(24px);
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @mixin larger-than $mantine-breakpoint-md {
+    grid-template-columns: minmax(0, 1.6fr) repeat(3, minmax(0, 1fr));
+    gap: rem(32px);
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: rem(12px);
+  max-width: 34ch;
+}
+
+.tagline {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+  text-wrap: pretty;
+}
+
+.columnTitle {
+  margin: 0 0 rem(8px);
+  color: var(--app-text);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: var(--text-label-leading);
+}
+
+.linkList {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* The whole 36px row is the target, not just the glyphs. */
+.link {
+  display: inline-flex;
+  align-items: center;
+  min-height: rem(36px);
+  padding-inline: rem(4px);
+  margin-inline-start: rem(-4px);
+  border-radius: var(--app-radius-1);
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+  text-decoration: none;
+
+  @mixin hover {
+    color: var(--app-brand);
+    text-decoration: underline;
+  }
+}
+
+.link:focus-visible {
+  outline: 2px solid var(--app-focus-ring);
+  outline-offset: 1px;
+}
+
+.baseline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(8px) rem(16px);
+  padding-block: rem(16px);
+  border-block-start: 1px solid var(--app-border);
+}
+
+.baselineText {
+  margin: 0;
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  line-height: var(--text-caption-leading);
+}

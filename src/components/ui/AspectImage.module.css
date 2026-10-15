@@ -1,0 +1,39 @@
+/*
+ * Fixed-ratio image wrapper.
+ *
+ * `next/image` with `fill` requires a positioned parent with its own size, which
+ * is exactly what the ratio classes provide. The wrapper clips, so a card's own
+ * border-radius shapes the image without the image needing a radius of its own.
+ */
+.root {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--app-surface-muted);
+}
+
+.image {
+  object-fit: cover;
+}
+
+.placeholder {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+}
+
+.r3x2 {
+  aspect-ratio: 3 / 2;
+}
+
+.r4x3 {
+  aspect-ratio: 4 / 3;
+}
+
+.r1x1 {
+  aspect-ratio: 1 / 1;
+}
+
+.r16x9 {
+  aspect-ratio: 16 / 9;
+}

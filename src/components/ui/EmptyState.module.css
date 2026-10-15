@@ -1,0 +1,72 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: rem(8px);
+  padding: rem(40px) rem(24px);
+  border: 1px dashed var(--app-border-strong);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-raised);
+}
+
+/* The icon well is a rounded square, not a circle: only chips and badges are
+   pill-shaped in this system. */
+.iconWell {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(44px);
+  height: rem(44px);
+  margin-block-end: rem(4px);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-muted);
+  color: var(--app-text-muted);
+}
+
+.iconWell > svg {
+  width: rem(22px);
+  height: rem(22px);
+}
+
+.title {
+  margin: 0;
+  font-size: var(--text-card-title-size);
+  font-weight: var(--text-card-title-weight);
+  line-height: var(--text-card-title-leading);
+  letter-spacing: var(--text-card-title-tracking);
+  color: var(--app-text);
+}
+
+.description {
+  margin: 0;
+  max-width: 46ch;
+  font-size: var(--text-secondary-size);
+  font-weight: var(--text-secondary-weight);
+  line-height: var(--text-secondary-leading);
+  text-wrap: pretty;
+  color: var(--app-text-muted);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: rem(8px);
+  margin-block-start: rem(8px);
+}
+
+.sm {
+  padding: rem(24px) rem(16px);
+}
+
+.sm .iconWell {
+  width: rem(36px);
+  height: rem(36px);
+}
+
+.sm .iconWell > svg {
+  width: rem(18px);
+  height: rem(18px);
+}

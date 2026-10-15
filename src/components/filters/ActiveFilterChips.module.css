@@ -1,0 +1,51 @@
+/*
+ * Applied-filter chip rail — guide §1.8 rule 4.
+ *
+ * The chips are the *state*, not a decoration of the rail: each one carries the
+ * exact href that removes only that filter, and `Clear all` sits at the end of
+ * the same row so the two reset affordances can never appear at different scroll
+ * positions.
+ */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: rem(8px);
+}
+
+.count {
+  flex: 0 0 auto;
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.clearAll {
+  flex: 0 0 auto;
+  min-height: rem(32px);
+  padding: 0 rem(10px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-surface-raised);
+  color: var(--app-text);
+  font-family: inherit;
+  font-size: var(--text-label-size);
+  font-weight: 650;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    border-color var(--app-duration-micro) var(--app-ease-out),
+    background-color var(--app-duration-micro) var(--app-ease-out);
+
+  @mixin hover {
+    border-color: var(--app-border-strong);
+    background-color: var(--app-surface-hover);
+  }
+
+  &:active {
+    background-color: var(--app-surface-muted);
+  }
+}

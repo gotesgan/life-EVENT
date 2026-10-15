@@ -1,0 +1,26 @@
+/*
+ * Page-width wrapper.
+ *
+ * The gutter is `--app-gutter` (fluid, never below 1rem) so a 320px viewport
+ * still has 64px of readable measure, and the maximum width is a single token
+ * shared with the header so chrome and content line up exactly.
+ */
+.container {
+  width: 100%;
+  max-width: var(--app-max-width);
+  margin-inline: auto;
+  padding-inline: var(--app-gutter);
+}
+
+.wide {
+  max-width: calc(var(--app-max-width) + 5rem);
+}
+
+.prose {
+  max-width: 68ch;
+}
+
+.bleed {
+  max-width: none;
+  padding-inline: 0;
+}

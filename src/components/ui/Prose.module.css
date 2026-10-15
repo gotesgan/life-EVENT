@@ -1,0 +1,86 @@
+/*
+ * Prose.
+ *
+ * One measure, one rhythm, one link treatment for every editorial page. The
+ * measure is capped at 68ch — `ch` rather than `px` because the cap should track
+ * the font, and 68 is comfortably under the ~72-character limit at which the eye
+ * loses the line start (brief §4).
+ *
+ * The rhythm is a flex `gap` rather than per-element margins, so spacing between
+ * a paragraph, a list and a callout is decided once and a nested element cannot
+ * collapse or double it.
+ */
+
+.prose {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-stack-gap);
+  max-width: 68ch;
+}
+
+.wide {
+  max-width: 76ch;
+}
+
+.prose p {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-body-size);
+  font-weight: var(--text-body-weight);
+  line-height: var(--text-body-leading);
+  letter-spacing: var(--text-body-tracking);
+  text-wrap: pretty;
+}
+
+.prose ul,
+.prose ol {
+  display: flex;
+  flex-direction: column;
+  gap: rem(8px);
+  margin: 0;
+  padding-inline-start: rem(20px);
+}
+
+.prose li {
+  color: var(--app-text);
+  font-size: var(--text-body-size);
+  font-weight: var(--text-body-weight);
+  line-height: var(--text-body-leading);
+  text-wrap: pretty;
+}
+
+.prose li::marker {
+  color: var(--app-text-subtle);
+}
+
+.prose strong {
+  color: var(--app-text);
+  font-weight: 700;
+}
+
+.prose a {
+  color: var(--app-brand);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+.prose a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* A blockquote or a nested callout keeps the same gap as any other child. */
+.prose > :first-child {
+  margin-block-start: 0;
+}
+
+.prose > :last-child {
+  margin-block-end: 0;
+}
+
+/* The dense register steps the body copy down one notch without changing the
+   measure. Used by an account or admin panel that borrows this component. */
+.secondary p,
+.secondary li {
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}

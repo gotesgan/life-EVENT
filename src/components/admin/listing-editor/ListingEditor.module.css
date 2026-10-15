@@ -1,0 +1,269 @@
+/*
+ * Listing editor.
+ *
+ * The editor is a long, multi-section form (six sections, roughly forty fields)
+ * that an administrator works through for several minutes. Three structural
+ * decisions follow from that:
+ *
+ * 1. **The section list is vertical and sticky.** Six sections do not fit in one
+ *    horizontal tab strip on a laptop, and a strip that wraps to two lines is
+ *    not a nav. A vertical list shows every section at once, names the section
+ *    you are in, and stays beside the fields instead of scrolling away.
+ * 2. **Saving is a sticky affordance.** A form this long scrolls; a save button
+ *    that lives only at the bottom of section 4 is a save button the user has to
+ *    scroll to find. It is docked below the section list, always visible.
+ * 3. **Dirty state is text first.** "Unsaved changes" is written out, not only
+ *    implied by an enabled button, and a saved flash confirms the write — the
+ *    form's own statement that the database now matches the screen.
+ *
+ * Nothing here uses a hex or a raw px type size; motion is limited to the
+ * short state-change transitions defined by the token set.
+ */
+
+.root {
+  display: block;
+}
+
+/* --- Record header --------------------------------------------------------- */
+
+.recordHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-md);
+  flex-wrap: wrap;
+}
+
+.recordIdentity {
+  display: flex;
+  flex-direction: column;
+  gap: rem(4px);
+  min-width: 0;
+}
+
+.recordNameRow {
+  display: flex;
+  align-items: center;
+  gap: rem(8px);
+  flex-wrap: wrap;
+}
+
+.recordName {
+  font-size: var(--text-card-title-size);
+  font-weight: var(--text-card-title-weight);
+  line-height: var(--text-card-title-leading);
+  letter-spacing: var(--text-card-title-tracking);
+  color: var(--app-text);
+  overflow-wrap: anywhere;
+}
+
+.recordUrl {
+  display: inline-flex;
+  align-items: center;
+  gap: rem(4px);
+  font-size: var(--text-caption-size);
+  font-weight: 550;
+  color: var(--app-text-muted);
+  text-decoration: none;
+
+  @mixin hover {
+    color: var(--app-brand);
+    text-decoration: underline;
+  }
+}
+
+.recordNote {
+  font-size: var(--text-caption-size);
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--app-text-muted);
+  max-width: 60ch;
+}
+
+.recordActions {
+  display: flex;
+  align-items: center;
+  gap: rem(8px);
+  flex-wrap: wrap;
+}
+
+/* --- Two-column editor body ------------------------------------------------ */
+
+.body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--mantine-spacing-lg);
+  align-items: start;
+}
+
+@mixin smaller-than $mantine-breakpoint-md {
+  .body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (min-width: 62em) {
+  .body {
+    grid-template-columns: rem(196px) minmax(0, 1fr);
+    gap: var(--mantine-spacing-xl);
+  }
+
+  .rail {
+    position: sticky;
+    /* One topbar plus the gap the shell already reserves. */
+    top: rem(68px);
+  }
+}
+
+/* The section list: a quiet stack, not a row of pills. The active section is
+   marked by a marker bar plus weight, exactly as the shell's nav does it. */
+.railList {
+  display: flex;
+  flex-direction: column;
+  gap: rem(2px);
+}
+
+.railItem {
+  display: flex;
+  align-items: center;
+  gap: rem(10px);
+  width: 100%;
+  padding: rem(7px) rem(10px);
+  border: 0;
+  border-radius: var(--app-radius-control);
+  background: transparent;
+  color: var(--app-text-muted);
+  font-size: var(--text-label-size);
+  font-weight: 550;
+  line-height: 1.3;
+  text-align: start;
+  cursor: pointer;
+  transition:
+    background-color var(--app-duration-micro) var(--app-ease-out),
+    color var(--app-duration-micro) var(--app-ease-out);
+
+  @mixin hover {
+    background: var(--app-surface-hover);
+    color: var(--app-text);
+  }
+}
+
+.railItem:disabled {
+  color: var(--app-text-subtle);
+  cursor: not-allowed;
+}
+
+.railItem:disabled:hover {
+  background: transparent;
+  color: var(--app-text-subtle);
+}
+
+.railItemActive,
+.railItemActive:hover {
+  background: var(--app-brand-soft);
+  color: var(--app-brand-soft-text);
+  font-weight: 650;
+}
+
+/* A real child span, so the marker is a styleable box and cannot join the
+   button's accessible name (`aria-hidden`). Mirrors the shell's nav marker. */
+.railMarker {
+  width: rem(3px);
+  height: rem(16px);
+  border-radius: var(--app-radius-pill);
+  background: transparent;
+  flex: none;
+}
+
+.railMarkerActive {
+  background: var(--app-brand);
+}
+
+.railItemLabel {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.railNote {
+  margin: rem(10px) rem(10px) 0;
+  font-size: var(--text-caption-size);
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--app-text-subtle);
+}
+
+/* --- Panels and the save dock --------------------------------------------- */
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mantine-spacing-md);
+}
+
+/* The dirty flag and the save controls. A hairline above, a raised fill, and no
+   shadow at rest — this is a docked strip like the table footer, not a floating
+   toolbar. */
+.saveDock {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-sm);
+  flex-wrap: wrap;
+  margin-top: var(--mantine-spacing-md);
+  padding: rem(10px) rem(12px);
+  background: var(--app-surface-raised);
+  border-top: 1px solid var(--app-border);
+}
+
+.saveStatus {
+  display: flex;
+  align-items: center;
+  gap: rem(8px);
+  min-width: 0;
+}
+
+.saveStatusText {
+  font-size: var(--text-caption-size);
+  font-weight: 550;
+  color: var(--app-text-muted);
+}
+
+.saveStatusDirty {
+  color: var(--app-warning-soft-text);
+  font-weight: 650;
+}
+
+.saveStatusSaved {
+  color: var(--app-success-soft-text);
+  font-weight: 650;
+}
+
+.saveDot {
+  width: rem(8px);
+  height: rem(8px);
+  border-radius: 50%;
+  background: currentColor;
+  flex: none;
+}
+
+.saveActions {
+  display: flex;
+  align-items: center;
+  gap: rem(10px);
+  flex-wrap: wrap;
+}
+
+@mixin smaller-than $mantine-breakpoint-sm {
+  .saveDock {
+    justify-content: stretch;
+  }
+
+  .saveActions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}

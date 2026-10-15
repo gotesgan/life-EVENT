@@ -1,0 +1,142 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--app-border);
+  background-color: #1a1214;
+  isolation: isolate;
+}
+
+.photo {
+  object-fit: cover;
+  object-position: center 30%;
+  z-index: -2;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    180deg,
+    rgb(20 8 12 / 55%) 0%,
+    rgb(20 8 12 / 45%) 45%,
+    rgb(20 8 12 / 65%) 100%
+  );
+}
+
+.glow {
+  position: absolute;
+  inset-block-start: rem(-140px);
+  inset-inline-end: rem(-120px);
+  width: rem(360px);
+  height: rem(360px);
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--app-brand-soft) 0%, transparent 68%);
+  pointer-events: none;
+}
+
+.inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: rem(16px);
+  padding-block: rem(64px) rem(48px);
+  max-width: 56rem;
+  margin-inline: auto;
+
+  @mixin larger-than $mantine-breakpoint-md {
+    padding-block: rem(96px) rem(72px);
+  }
+}
+
+.title {
+  margin: 0;
+  max-width: 22ch;
+  color: #fff;
+  font-size: var(--text-display-size);
+  font-weight: var(--text-display-weight);
+  line-height: var(--text-display-leading);
+  letter-spacing: var(--text-display-tracking);
+  text-wrap: balance;
+}
+
+.hero:not(:has(.photo)) .title {
+  color: var(--app-text);
+}
+
+.lede {
+  margin: 0;
+  max-width: 52ch;
+  color: rgb(255 255 255 / 85%);
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-leading);
+}
+
+.hero:not(:has(.photo)) .lede {
+  color: var(--app-text-muted);
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: rem(8px) rem(20px);
+  margin: rem(4px) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fact {
+  display: flex;
+  align-items: center;
+  gap: rem(6px);
+  color: rgb(255 255 255 / 90%);
+  font-size: var(--text-secondary-size);
+  font-weight: 550;
+}
+
+.hero:not(:has(.photo)) .fact {
+  color: var(--app-text-muted);
+}
+
+.factIcon {
+  color: #7ddf9a;
+}
+
+.hero:not(:has(.photo)) .factIcon {
+  color: var(--app-success);
+}
+
+/* White card holding the search form — the key cue from the references. */
+.searchCard {
+  width: 100%;
+  margin-top: rem(10px);
+  padding: rem(16px);
+  border-radius: var(--mantine-radius-lg);
+  background: #fff;
+  box-shadow: 0 20px 60px rgb(0 0 0 / 35%);
+  text-align: start;
+}
+
+.popular {
+  margin: rem(4px) 0 0;
+  color: rgb(255 255 255 / 75%);
+  font-size: var(--text-secondary-size);
+}
+
+.popularLabel {
+  font-weight: 650;
+}
+
+.popularLink {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgb(255 255 255 / 50%);
+}
+
+.popularLink:hover {
+  text-decoration-color: #fff;
+}

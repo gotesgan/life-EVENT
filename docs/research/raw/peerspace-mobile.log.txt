@@ -1,0 +1,19 @@
+URL_REQUESTED https://www.peerspace.com/
+STATUS 403
+FINAL_URL https://www.peerspace.com/
+TITLE 502 Bad Gateway
+SCREENSHOT docs/research/shots/peerspace-mobile.png
+RAW docs/research/raw/peerspace-mobile.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(0, 0, 0)","fontFamily":"Times","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 964x37 "502 Bad Gateway"
+--- NAV_ALL 
+--- SEARCH_INPUTS
+--- FILTER_CONTAINERS
+--- CARDS
+--- IMAGES
+--- TYPE_ROLES
+  h1 "502 Bad Gateway" {"fontFamily":"Times","fontSize":"32px","fontWeight":"700","lineHeight":"normal","letterSpacing":"normal","color":"rgb(0, 0, 0)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(0, 0, 0)","boxShadow":"none","transition":"all","padding":"0px","margin":"21.44px 0px"}
+--- BODY_TEXT
+502 Bad Gateway
+nginx

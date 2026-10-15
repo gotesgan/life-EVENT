@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800"
+     role="img" aria-label="Abstract placeholder illustration" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="grad-da296dfc" x1="0" y1="0" x2="0.93" y2="0.68">
+      <stop offset="0%" stop-color="#6E8B7B" />
+      <stop offset="100%" stop-color="#B385AE" />
+    </linearGradient>
+    <radialGradient id="grad-da296dfc-glow" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" stop-color="#E5C073" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#E5C073" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#grad-da296dfc)" />
+  <rect width="1200" height="800" fill="url(#grad-da296dfc-glow)" />
+  <g opacity="0.62">
+      <path d="M 120 230 C 420 124.48 780 301.73 1080 230" fill="none" stroke="#E5C073" stroke-width="8" opacity="0.6" stroke-linecap="round" />
+      <path d="M 120 350 C 420 261.44 780 437.71 1080 350" fill="none" stroke="#E5C073" stroke-width="8" opacity="0.5" stroke-linecap="round" />
+      <path d="M 120 470 C 420 365.49 780 571.64 1080 470" fill="none" stroke="#E5C073" stroke-width="8" opacity="0.4" stroke-linecap="round" />
+      <path d="M 120 590 C 420 481.4 780 682.63 1080 590" fill="none" stroke="#E5C073" stroke-width="8" opacity="0.3" stroke-linecap="round" />
+      <circle cx="240" cy="230" r="18" fill="#E5C073" opacity="0.8" />
+      <circle cx="420" cy="350" r="18" fill="#E5C073" opacity="0.8" />
+      <circle cx="600" cy="470" r="18" fill="#E5C073" opacity="0.8" />
+      <circle cx="780" cy="230" r="18" fill="#E5C073" opacity="0.8" />
+      <circle cx="960" cy="350" r="18" fill="#E5C073" opacity="0.8" />
+  </g>
+  <rect x="24" y="24" width="1152" height="752" rx="24" fill="none" stroke="#E5C073"
+        stroke-width="2" opacity="0.28" />
+</svg>

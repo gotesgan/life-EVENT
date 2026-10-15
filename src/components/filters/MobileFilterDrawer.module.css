@@ -1,0 +1,41 @@
+/*
+ * The mobile filter route — guide §1.8 rule 6.
+ *
+ * Below `md` the rail is a bottom-sheet drawer, never a collapsed column: the
+ * category attribute filters are the reason a category page exists, and hiding
+ * them behind a disclosure loses the search. The trigger carries the applied
+ * count so the sheet's state is legible before it is opened.
+ */
+.triggerRow {
+  display: flex;
+  align-items: center;
+  gap: rem(10px);
+  flex-wrap: wrap;
+
+  @mixin larger-than $mantine-breakpoint-md {
+    display: none;
+  }
+}
+
+.triggerRow > * {
+  flex: 0 1 auto;
+}
+
+/* The two buttons stay in one row on a phone: "Reset" is a quiet control and
+   "Show N results" owns the width, because it is the drawer's only action. */
+.drawerFooter {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: rem(10px);
+  margin-top: rem(20px);
+  padding-top: rem(14px);
+  padding-bottom: max(rem(4px), env(safe-area-inset-bottom));
+  border-top: 1px solid var(--app-border);
+  background-color: var(--app-surface-raised);
+}
+
+.drawerFooter > *:last-child {
+  flex: 1 1 auto;
+}

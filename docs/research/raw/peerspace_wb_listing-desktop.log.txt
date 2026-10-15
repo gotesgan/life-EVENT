@@ -1,0 +1,486 @@
+URL_REQUESTED https://web.archive.org/web/20250717215136/https://www.peerspace.com/venues/abingdon--md/rooftop-venue
+STATUS 200
+FINAL_URL https://web.archive.org/web/20250717215136/https://www.peerspace.com/venues/abingdon--md/rooftop-venue
+TITLE 36 Best Rooftop Venues for Rent in Abingdon, MD | Peerspace
+SCREENSHOT docs/research/shots/peerspace_wb_listing-desktop.png
+RAW docs/research/raw/peerspace_wb_listing-desktop.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(18, 18, 18)","fontFamily":"__ABCSocialRegular_a9441b, __ABCSocialRegular_Fallback_a9441b, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 490x80 "Rent a rooftop venue in Abingdon, MD"
+  H2 448x80 "How rooftop party spaces work on Peerspace"
+  H2 544x26 "Unique venues"
+  H2 544x26 "Honest pricing"
+  H2 544x26 "Smooth bookings"
+  H2 1152x112 "Popular rooftop venues"
+  H3 348x20 "18.6 miles from Abingdon, MD"
+  H3 348x20 "19.8 miles from Abingdon, MD"
+  H3 348x20 "19.9 miles from Abingdon, MD"
+  H3 348x20 "22.9 miles from Abingdon, MD"
+  H3 348x20 "Bel Air South, Abingdon, MD"
+  H3 348x20 "Bel Air South, Abingdon, MD"
+  H3 348x20 "16.3 miles from Abingdon, MD"
+  H3 348x20 "16.6 miles from Abingdon, MD"
+  H3 348x20 "18.5 miles from Abingdon, MD"
+  H3 348x20 "18.6 miles from Abingdon, MD"
+  H3 348x20 "18.7 miles from Abingdon, MD"
+  H3 348x20 "18.8 miles from Abingdon, MD"
+  H3 348x20 "18.8 miles from Abingdon, MD"
+  H3 348x20 "18.9 miles from Abingdon, MD"
+  H3 348x20 "18.9 miles from Abingdon, MD"
+  H3 348x20 "18.9 miles from Abingdon, MD"
+  H3 348x20 "19 miles from Abingdon, MD"
+  H3 348x20 "19.9 miles from Abingdon, MD"
+  H3 348x20 "20 miles from Abingdon, MD"
+  H3 348x20 "20.1 miles from Abingdon, MD"
+  H3 348x20 "20.2 miles from Abingdon, MD"
+  H3 348x20 "20.3 miles from Abingdon, MD"
+  H3 348x20 "20.5 miles from Abingdon, MD"
+  H3 348x20 "21.4 miles from Abingdon, MD"
+  H3 348x20 "21.6 miles from Abingdon, MD"
+  H3 348x20 "25 miles from Abingdon, MD"
+  H3 348x20 "38.3 miles from Abingdon, MD"
+  H3 348x20 "39.8 miles from Abingdon, MD"
+  H3 348x20 "40 miles from Abingdon, MD"
+  H3 348x20 "41 miles from Abingdon, MD"
+  H3 348x20 "44.6 miles from Abingdon, MD"
+  H3 348x20 "45.8 miles from Abingdon, MD"
+  H3 348x20 "48.6 miles from Abingdon, MD"
+  H3 348x20 "48.8 miles from Abingdon, MD"
+  H3 348x20 "49.5 miles from Abingdon, MD"
+  H3 348x20 "49.9 miles from Abingdon, MD"
+  H2 1152x40 "Frequently Asked Questions"
+  H4 458x24 "How much does a rooftop venue cost to rent in Abingdon?"
+  H4 362x24 "How popular are rooftop venues in Abingdon?"
+  H4 424x24 "How long do people rent rooftop venues in Abingdon?"
+  H2 1152x112 "Reviews for rooftop venues"
+  H2 1152x40 "Similar searches in Abingdon, MD"
+  H3 352x26 "Similar searches"
+  H3 352x26 "Nearby cities"
+--- HEADER {"position":"sticky","top":"0px","height":"72px","backgroundColor":"rgb(0, 0, 0)","borderBottom":"0px solid rgb(18, 18, 18)","boxShadow":"none","zIndex":"1020"} 1440x72
+--- HEADER_TEXT Search Browse Spaces List Your Space (current) Sign Up Log In
+--- HEADER_LINKS Search | List Your Space (current) | Sign Up | Log In
+--- NAV_ALL Search | List Your Space (current) | Sign Up | Log In | About | Press | Careers | Activities | Locations | Resources | Ambassador Program | List your space | Community | Deutschland | United Kingdom | United States | Canada | Australia | España | France | Help Center | Trust and Safety | Terms | Privacy | California Privacy | App Store | Google Play Store
+--- SEARCH_INPUTS
+  {"tag":"INPUT","type":"text","ph":null,"aria":null,"name":null,"r":{"x":209,"y":600,"w":1,"h":27}}
+  {"tag":"INPUT","type":"text","ph":null,"aria":null,"name":null,"r":{"x":209,"y":672,"w":1,"h":27}}
+--- FILTER_CONTAINERS
+--- CARDS
+  [0] imgRatio=0.8 720x900 alt=""
+     d0 DIV "d-sm-flex align-items-center HeroSection_hero__GU04Z" 720x900 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d1 DIV "p-0 col-lg-6 order-lg-2 order-1" 720x900 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "row m-0 align-items-center" 1440x900 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Rent a rooftop venue in Abingdon, MD Discover thousands of unique rooftop venues for rent perfect for your event. Enter your activity Search"
+     d3 DIV " HeroSection_hero-container__p9kiv" 1440x900 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Rent a rooftop venue in Abingdon, MD Discover thousands of unique rooftop venues for rent perfect for your event. Enter your activity Search"
+     d4 FORM "" 1440x900 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Rent a rooftop venue in Abingdon, MD Discover thousands of unique rooftop venues for rent perfect for your event. Enter your activity Search"
+  [1] imgRatio=1.5 352x235 alt="A bright, modern sunroom with large floor-to-ceiling windows, featuring minimali"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$100/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$100/hr Skeleton Key Designs"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$100/hr Skeleton Key Designs 18.6 miles from Abingdon, MD 5.0 (122) 10 Skeleton Key Designs. Completely unique with two stories of southern exposure. Teak... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$100/hr Skeleton Key Designs 18.6 miles from Abingdon, MD 5.0 (122) 10 Skeleton Key Designs. Completely unique with two stories of southern exposure. Teak... Show more"
+  [2] imgRatio=1.5 352x235 alt="A spacious room filled with colorful graffiti on the walls, featuring a mix of s"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$149/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$149/hr Graffiti Warehouse"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$149/hr Graffiti Warehouse 19.8 miles from Abingdon, MD 5.0 (1) 200 Graffiti Warehouse. This listing is for our 4,000 square foot first floor space for events.... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$149/hr Graffiti Warehouse 19.8 miles from Abingdon, MD 5.0 (1) 200 Graffiti Warehouse. This listing is for our 4,000 square foot first floor space for events.... Show more"
+  [3] imgRatio=1.5 352x235 alt="Downtown Loft Image in Fells Point, Baltimore, MD"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$92/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$92/hr Downtown Loft"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$92/hr Downtown Loft 19.9 miles from Abingdon, MD 62 Downtown Loft. Step into the perfect blend of historic charm and modern sophistication with... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$92/hr Downtown Loft 19.9 miles from Abingdon, MD 62 Downtown Loft. Step into the perfect blend of historic charm and modern sophistication with... Show more"
+  [4] imgRatio=1.5 352x235 alt="An interior space with folding chairs arranged in rows, a television screen on t"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$150/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$150/hr Islamic Leadership Institute of Amirca"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$150/hr Islamic Leadership Institute of Amirca 22.9 miles from Abingdon, MD 60 Islamic Leadership Institute of Amirca. of the industrial inspired main hall for larger... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$150/hr Islamic Leadership Institute of Amirca 22.9 miles from Abingdon, MD 60 Islamic Leadership Institute of Amirca. of the industrial inspired main hall for larger... Show more"
+  [5] imgRatio=1.5 352x235 alt="A spacious dance studio featuring a mirrored wall, wooden barre, and a small rai"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$75/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$75/hr Bel Air Dance Studio and Event Space"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$75/hr Bel Air Dance Studio and Event Space Bel Air South, Abingdon, MD 3.5 (2) 100 9000 square foot dance studio with five spacious studio, spacious lobby, dressing rooms.... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$75/hr Bel Air Dance Studio and Event Space Bel Air South, Abingdon, MD 3.5 (2) 100 9000 square foot dance studio with five spacious studio, spacious lobby, dressing rooms.... Show more"
+  [6] imgRatio=1.5 352x235 alt="Event Space, Creative Studio Image in Bel Air South, Abingdon, MD"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$150/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$150/hr Event Space, Creative Studio"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$150/hr Event Space, Creative Studio Bel Air South, Abingdon, MD 50 Are you looking to hold an event ? We are a second floor event space that holds up to 50... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$150/hr Event Space, Creative Studio Bel Air South, Abingdon, MD 50 Are you looking to hold an event ? We are a second floor event space that holds up to 50... Show more"
+  [7] imgRatio=1.5 352x235 alt="The scene shows an outdoor gathering area with a sign reading \"The Backyard Deba"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$115/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$115/hr Backyard Debauchery"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$115/hr Backyard Debauchery 16.3 miles from Abingdon, MD 5.0 (26) 35 Chic backyard with spacious brick patio and comfortable furniture ideal for intimate,... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$115/hr Backyard Debauchery 16.3 miles from Abingdon, MD 5.0 (26) 35 Chic backyard with spacious brick patio and comfortable furniture ideal for intimate,... Show more"
+  [8] imgRatio=1.5 352x235 alt="A spacious room with a wooden floor, a white couch, a small table, and large win"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$65/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$65/hr Versatile Urban Event Space"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$65/hr Versatile Urban Event Space 16.6 miles from Abingdon, MD 4.1 (8) 40 Welcome to our versatile event space, where a plethora of celebrations and gatherings... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$65/hr Versatile Urban Event Space 16.6 miles from Abingdon, MD 4.1 (8) 40 Welcome to our versatile event space, where a plethora of celebrations and gatherings... Show more"
+  [9] imgRatio=1.5 352x235 alt="A modern white house with large black-framed windows, a green lawn in front, and"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$125/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$125/hr Outdoor Oasis For Photo Shoots"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$125/hr Outdoor Oasis For Photo Shoots 18.5 miles from Abingdon, MD 5.0 (3) 15 Beautiful backdrop for photos and video productions as well as small gatherings up to 10... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$125/hr Outdoor Oasis For Photo Shoots 18.5 miles from Abingdon, MD 5.0 (3) 15 Beautiful backdrop for photos and video productions as well as small gatherings up to 10... Show more"
+  [10] imgRatio=1.5 352x235 alt="A wooden deck features a glass-top table and chairs, overlooking a distant lands"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$80/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$80/hr City Sanctuary with Rooftop Deck"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$80/hr City Sanctuary with Rooftop Deck 18.6 miles from Abingdon, MD 15 century modern vibe and pops of color, will add a city flair to your event. The main... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$80/hr City Sanctuary with Rooftop Deck 18.6 miles from Abingdon, MD 15 century modern vibe and pops of color, will add a city flair to your event. The main... Show more"
+  [11] imgRatio=1.5 352x235 alt="A collage of five scenes, including a vintage television set with a blank screen"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$75/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$75/hr Downtown Themed Creative Loft"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$75/hr Downtown Themed Creative Loft 18.7 miles from Abingdon, MD 5.0 (21) 20 Searching for the perfect backdrop for your next event? Bring your ideas to life in... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$75/hr Downtown Themed Creative Loft 18.7 miles from Abingdon, MD 5.0 (21) 20 Searching for the perfect backdrop for your next event? Bring your ideas to life in... Show more"
+  [12] imgRatio=1.5 352x235 alt="Chic Urban Loft with City View Image in Canton, Baltimore, MD"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$125/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$125/hr Chic Urban Loft with City View"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$125/hr Chic Urban Loft with City View 18.8 miles from Abingdon, MD 5.0 (8) 40 Introducing North, a space to slow down. This is an intentional lounge and office loft... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$125/hr Chic Urban Loft with City View 18.8 miles from Abingdon, MD 5.0 (8) 40 Introducing North, a space to slow down. This is an intentional lounge and office loft... Show more"
+  [13] imgRatio=1.5 352x235 alt="A living room with two sofas, a glass coffee table, and a vibrant, green carpet,"
+     d0 DIV "ListingThumbnail_listing-img-wrapper__ilauT position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "position-relative" 352x235 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$99/hr"
+     d2 A "text-gray-900" 352x275 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="from$99/hr 60s/70s Retro-inspired Content House next to Patterson Park"
+     d3 DIV "" 352x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$99/hr 60s/70s Retro-inspired Content House next to Patterson Park 18.8 miles from Abingdon, MD 5.0 (32) 25 Welcome to Lula's Citrine! Travel back in time to the mid century modern era the moment... Show more"
+     d4 DIV "col-xs-12 col-md-6 col-lg-4 mb-6" 384x374 {"borderRadius":"0px","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="from$99/hr 60s/70s Retro-inspired Content House next to Patterson Park 18.8 miles from Abingdon, MD 5.0 (32) 25 Welcome to Lula's Citrine! Travel back in time to the mid century modern era the moment... Show more"
+--- IMAGES
+  720x900 nat=720x480 fit=cover radius=0px alt=""
+  352x235 nat=0x0 fit=cover radius=4px alt="A bright, modern sunroom with large floor-to-ceiling windows, featuring minimalist furnitu"
+  352x235 nat=0x0 fit=cover radius=4px alt="A spacious room filled with colorful graffiti on the walls, featuring a mix of seating arr"
+  352x235 nat=0x0 fit=cover radius=4px alt="Downtown Loft Image in Fells Point, Baltimore, MD"
+  352x235 nat=0x0 fit=cover radius=4px alt="An interior space with folding chairs arranged in rows, a television screen on the wall, a"
+  352x235 nat=0x0 fit=cover radius=4px alt="A spacious dance studio featuring a mirrored wall, wooden barre, and a small raised platfo"
+  352x235 nat=0x0 fit=cover radius=4px alt="Event Space, Creative Studio Image in Bel Air South, Abingdon, MD"
+  352x235 nat=216x216 fit=cover radius=4px alt="The scene shows an outdoor gathering area with a sign reading \"The Backyard Debauchery,\" s"
+  352x235 nat=0x0 fit=cover radius=4px alt="A spacious room with a wooden floor, a white couch, a small table, and large windows that "
+  352x235 nat=0x0 fit=cover radius=4px alt="A modern white house with large black-framed windows, a green lawn in front, and a wooden "
+  352x235 nat=0x0 fit=cover radius=4px alt="A wooden deck features a glass-top table and chairs, overlooking a distant landscape under"
+  352x235 nat=0x0 fit=cover radius=4px alt="A collage of five scenes, including a vintage television set with a blank screen on a silv"
+  352x235 nat=0x0 fit=cover radius=4px alt="Chic Urban Loft with City View Image in Canton, Baltimore, MD"
+  352x235 nat=0x0 fit=cover radius=4px alt="A living room with two sofas, a glass coffee table, and a vibrant, green carpet, set again"
+  352x235 nat=0x0 fit=cover radius=4px alt="A rooftop deck with a wooden swing, several chairs, a table, and an umbrella, overlooking "
+  352x235 nat=0x0 fit=cover radius=4px alt="A modern gym interior featuring weightlifting equipment and exercise machines arranged aro"
+  352x235 nat=0x0 fit=cover radius=4px alt="A shaded outdoor sitting area features rattan furniture and curtains on a wooden deck."
+  352x235 nat=0x0 fit=cover radius=4px alt="A rooftop terrace features two black chairs, a white backdrop, potted plants, and a scenic"
+--- TYPE_ROLES
+  h1 "Rent a rooftop venue in Abingdon, MD" {"fontFamily":"__ABCSocialBold_fb379c, __ABCSocialBold_Fallback_fb379c, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"32px","fontWeight":"400","lineHeight":"40px","letterSpacing":"normal","color":"rgb(18, 18, 18)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(18, 18, 18)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 32px"}
+  card-title "How rooftop party spaces work on Peerspace" {"fontFamily":"__ABCSocialBold_fb379c, __ABCSocialBold_Fallback_fb379c, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"32px","fontWeight":"400","lineHeight":"40px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 16px"}
+  card-title "Unique venues" {"fontFamily":"__ABCSocialMedium_8cf118, __ABCSocialMedium_Fallback_8cf118, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"20px","fontWeight":"400","lineHeight":"26px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 16px"}
+  card-title "Honest pricing" {"fontFamily":"__ABCSocialMedium_8cf118, __ABCSocialMedium_Fallback_8cf118, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"20px","fontWeight":"400","lineHeight":"26px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 16px"}
+  price "from$100/hr" {"fontFamily":"__ABCSocialRegular_a9441b, __ABCSocialRegular_Fallback_a9441b, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"2px","backgroundColor":"rgb(18, 18, 18)","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px 4px","margin":"0px"}
+  price "from$149/hr" {"fontFamily":"__ABCSocialRegular_a9441b, __ABCSocialRegular_Fallback_a9441b, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"2px","backgroundColor":"rgb(18, 18, 18)","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px 4px","margin":"0px"}
+  price "from$92/hr" {"fontFamily":"__ABCSocialRegular_a9441b, __ABCSocialRegular_Fallback_a9441b, \"Helvetica Neue\", Helvetica, Arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"2px","backgroundColor":"rgb(18, 18, 18)","border":"0px solid rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px 4px","margin":"0px"}
+--- HOVER {"before":{"text":"","r":{"x":720,"y":139,"w":720,"h":900},"style":{"transform":"none","boxShadow":"none","border":"0px solid rgb(18, 18, 18)","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","cursor":"auto","translate":"none","scale":"none"}},"after":{"r":{"w":720,"h":900},"style":{"transform":"none","boxShadow":"none","border":"0px solid rgb(18, 18, 18)","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+Search
+Browse Spaces
+List Your Space
+(current)
+Sign Up
+Log In
+Rent a rooftop venue in Abingdon, MD
+
+Discover thousands of unique rooftop venues for rent perfect for your event.
+
+Enter your activity
+Search
+HomeLocationsAbingdon, MDRooftop Venues
+How rooftop party spaces work on Peerspace
+
+Peerspace is the easiest way to book unique rooftop venues for parties, weddings, meetings, productions and more.
+
+Discover Spaces
+Unique venues
+
+Every day we uncover new, creative spaces, including rooftop party spaces, perfect for your activity.
+
+Honest pricing
+
+Our rooftop venues are priced to fit your budget. Hire by the hour without worrying about hidden fees.
+
+Smooth bookings
+
+No more messy contracts. We build the tools to make booking rooftop party space venues as easy as the click of a button.
+
+Popular rooftop venues
+Explore all of our rooftop venues in Abingdon.
+See All ›
+from$100/hr
+Skeleton Key Designs
+18.6 miles from Abingdon, MD
+5.0
+(122)
+10
+Skeleton Key Designs. Completely unique with two stories of southern exposure. Teak... Show more
+from$149/hr
+Graffiti Warehouse
+19.8 miles from Abingdon, MD
+5.0
+(1)
+200
+Graffiti Warehouse. This listing is for our 4,000 square foot first floor space for events.... Show more
+from$92/hr
+Downtown Loft
+19.9 miles from Abingdon, MD
+62
+Downtown Loft. Step into the perfect blend of historic charm and modern sophistication with... Show more
+from$150/hr
+Islamic Leadership Institute of Amirca
+22.9 miles from Abingdon, MD
+60
+Islamic Leadership Institute of Amirca. of the industrial inspired main hall for larger... Show more
+from$75/hr
+Bel Air Dance Studio and Event Space
+Bel Air South, Abingdon, MD
+3.5
+(2)
+100
+9000 square foot dance studio with five spacious studio, spacious lobby, dressing rooms.... Show more
+from$150/hr
+Event Space, Creative Studio
+Bel Air South, Abingdon, MD
+50
+Are you looking to hold an event ? We are a second floor event space that holds up to 50... Show more
+from$115/hr
+Backyard Debauchery
+16.3 miles from Abingdon, MD
+5.0
+(26)
+35
+Chic backyard with spacious brick patio and comfortable furniture ideal for intimate,... Show more
+from$65/hr
+Versatile Urban Event Space
+16.6 miles from Abingdon, MD
+4.1
+(8)
+40
+Welcome to our versatile event space, where a plethora of celebrations and gatherings... Show more
+from$125/hr
+Outdoor Oasis For Photo Shoots
+18.5 miles from Abingdon, MD
+5.0
+(3)
+15
+Beautiful backdrop for photos and video productions as well as small gatherings up to 10... Show more
+from$80/hr
+City Sanctuary with Rooftop Deck
+18.6 miles from Abingdon, MD
+15
+century modern vibe and pops of color, will add a city flair to your event. The main... Show more
+from$75/hr
+Downtown Themed Creative Loft
+18.7 miles from Abingdon, MD
+5.0
+(21)
+20
+Searching for the perfect backdrop for your next event? Bring your ideas to life in... Show more
+from$125/hr
+Chic Urban Loft with City View
+18.8 miles from Abingdon, MD
+5.0
+(8)
+40
+Introducing North, a space to slow down. This is an intentional lounge and office loft... Show more
+from$99/hr
+60s/70s Retro-inspired Content House next to Patterson Park
+18.8 miles from Abingdon, MD
+5.0
+(32)
+25
+Welcome to Lula's Citrine! Travel back in time to the mid century modern era the moment... Show more
+from$165/hr
+Urban Parkside Rowhome with Rooftop Views!
+18.9 miles from Abingdon, MD
+4.9
+(11)
+40
+Our space is right across from the beautiful Patterson Park and has been recently... Show more
+from$115/hr
+Open Spacious Modern Gym
+18.9 miles from Abingdon, MD
+5.0
+(1)
+75
+Modern huge open space with gym equipment that can be moved to make more space for large... Show more
+from$100/hr
+Modern Glam Row House w/Rooftop City Views
+18.9 miles from Abingdon, MD
+5.0
+(39)
+40
+**we have acquired the space next door, reach out if more space is needed!** **inquire... Show more
+from$100/hr
+Downtown Adjacent with Rooftop Views
+19 miles from Abingdon, MD
+11
+Feel free to host a dinner, small get together, game night, work meeting or photoshoot.... Show more
+from$150/hr
+Fells Point Luxury Open Space
+19.9 miles from Abingdon, MD
+4.6
+(8)
+60
+Perfect for classes, gatherings, intimate dinner parties, intimate social gatherings, and... Show more
+from$95/hr
+Midtown private event space
+20 miles from Abingdon, MD
+4.6
+(9)
+40
+This is the intimate venue you've been looking for! We offer the perfect venue for baby... Show more
+from$400/hr
+Urban/Downtown Event Space
+20.1 miles from Abingdon, MD
+5.0
+(3)
+280
+Stage Plays Music Concerts Comedy Shows Spoken Word Shows Meeting Space Art... Show more
+from$125/hr
+Lounge in Inner Harbor overlooking waterfront!
+20.2 miles from Abingdon, MD
+4.9
+(15)
+30
+Right in Baltimore's beautiful Inner Harbor, our Rooftop Clubroom boasts 360... Show more
+from$95/hr
+Stylish Open Space in Reservoir Hill Historical Neighborhood
+20.3 miles from Abingdon, MD
+4.9
+(62)
+40
+** Please note this is our Events listing, which has a 4 hour minimum including setup and... Show more
+from$100/hr
+Multi Functional Smart Event Space
+20.5 miles from Abingdon, MD
+5.0
+(4)
+112
+The venue is a large space that can be divided into two spaces. The brand new... Show more
+from$100/hr
+Federal Hill Luxury Experience + Charm City Row House
+21.4 miles from Abingdon, MD
+5.0
+(1)
+25
+space: 3 bedrooms, 3.5 bathrooms, including 2 suites and a private third floor suite,... Show more
+from$110/hr
+Baltimore Federal Brick Home
+21.6 miles from Abingdon, MD
+5.0
+(3)
+20
+This property has a large entertainment center with vaulted ceilings. It has a spacious... Show more
+from$100/hr
+Contemporary Downtown Event Space
+25 miles from Abingdon, MD
+4.5
+(6)
+55
+This space is perfect to host your next social gathering or business event. The large,... Show more
+from$85/hr
+Open Layout Residential Event Space
+38.3 miles from Abingdon, MD
+5.0
+(7)
+20
+This open layout living room/kitchen setup is great for small events such as birthday... Show more
+from$89/hr
+Downtown Rowhome with Modern Features and Rustic Wood Accents
+39.8 miles from Abingdon, MD
+5.0
+(2)
+12
+1st Floor Living room, dining room, kitchen. Our home has a small outdoor patio area... Show more
+from$40/hr
+Blush Loft
+40 miles from Abingdon, MD
+5.0
+(1)
+40
+Bright Open Event Space with Natural Light in a Modern Setting on the 2nd floor of our... Show more
+from$120/hr
+Spacious Club House w/ Outdoor Porch for Company Gatherings or Pop Up Events
+41 miles from Abingdon, MD
+5.0
+(9)
+30
+Located in Laurel, MD, our club house offers the ideal space for team events, parties,... Show more
+from$150/hr
+Urban Space with Endless Possibilites
+44.6 miles from Abingdon, MD
+5.0
+(1)
+25
+This space is great if you're looking for a place to host a fitness class, private club... Show more
+from$95/hr
+Metro DC Private Outdoor Event Space
+45.8 miles from Abingdon, MD
+4.9
+(31)
+30
+The perfect outdoor space for SMALL intimate gatherings. Suitable for: photo shoots,... Show more
+from$150/hr
+Airy Condo With Cocktail Lounge Vibe
+48.6 miles from Abingdon, MD
+4.9
+(78)
+10
+The open floor concept is perfect for production crews to get every desired angle of a... Show more
+from$150/hr
+Plush Home on the Hill
+48.8 miles from Abingdon, MD
+5.0
+(3)
+35
+This perfect indoor/ outdoor space for SMALL intimate gatherings. Suitable for: photo... Show more
+from$160/hr
+Culture Courtyard
+49.5 miles from Abingdon, MD
+5.0
+(1)
+40
+The Courtyard is an entire vibe with seating for 20. With 850 square feet and its bright... Show more
+from$80/hr
+Large and Sunny Family Backyard
+49.9 miles from Abingdon, MD
+5.0
+(1)
+100
+Welcome to our sunny backyard offering a spacious and welcoming environment to host your... Show more
+Frequently Asked Questions
+How much does a rooftop venue cost to rent in Abingdon?
+How popular are rooftop venues in Abingdon?
+How long do people rent rooftop venues in Abingdon?
+
+Pricing and popularity information in this section is based on proprietary data from bookings made on Peerspace from 2016-2025.
+
+Reviews for rooftop venues
+Dawn C.
+Stunning Outdoor SkyDeck w/ DC Views
+Awesome, breathtaking panoramic view from a rooftop providing comfortable, chic seating and a manicured landscape. Eduardo...
+Read more
+Juliet F.
+Exquisite SkyLounge in Silver Spring
+was beautiful, clean and spacious. All of my guests commented on the gorgeous view and how lovely it was. Thanks to Eduardo and...
+Read more
+Karyn S.
+Downtown Penthouse with views of Silver Spring
+The venue was perfect for what we needed. The outdoor enclosed rooftop patio was extremely welcomed during this pandemic....
+Read more
+Charles C.
+Interior Rooftop Lounge with Stunning Views for Events
+really liked the space. It looked just like the pictures and was beautiful. Since it was a great day outside, the view from the...
+Read more
+Akintunde G.
+Modern Glam Row House w/Rooftop City Views
+Wow, This spot was definitely worth it, beautiful house all together. Just as advertised. I used it for my marriage proposal,...
+Read more
+Maya N.
+Modern Glam Row House w/Multiple Backdrops and Natural Light
+The house was beautiful, and the rooftop has amazing views! The house is very modern with a spa

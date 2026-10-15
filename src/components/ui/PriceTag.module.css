@@ -1,0 +1,75 @@
+.price {
+  display: inline-flex;
+  align-items: baseline;
+  gap: rem(6px);
+  color: var(--app-text);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.amount {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.unit {
+  font-weight: 500;
+  color: var(--app-text-muted);
+  letter-spacing: 0;
+}
+
+/* Sizes ------------------------------------------------------------------- */
+.sm {
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.sm .unit {
+  font-size: var(--text-caption-size);
+}
+
+.md {
+  font-size: var(--text-card-title-size);
+  line-height: var(--text-card-title-leading);
+}
+
+.md .unit {
+  font-size: var(--text-secondary-size);
+}
+
+.lg {
+  font-size: var(--text-h3-size);
+  font-weight: 700;
+  line-height: var(--text-h3-leading);
+  letter-spacing: var(--text-h3-tracking);
+}
+
+.lg .unit {
+  font-size: var(--text-secondary-size);
+}
+
+/* Unknown price ------------------------------------------------------------
+   Quiet, but visibly a decision rather than a missing value: muted text over a
+   dashed rule. Never rendered as an empty node. */
+.onRequest {
+  display: inline-block;
+  color: var(--app-text-subtle);
+  font-weight: 600;
+  border-bottom: 1px dashed var(--app-border-strong);
+  white-space: nowrap;
+}
+
+.onRequest.sm {
+  font-size: var(--text-caption-size);
+  line-height: var(--text-caption-leading);
+}
+
+.onRequest.md {
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.onRequest.lg {
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-leading);
+}

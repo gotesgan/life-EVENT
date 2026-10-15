@@ -1,0 +1,36 @@
+/*
+ * The home hero's search console.
+ *
+ * Category, city and free text — the three things a visitor already knows. It is
+ * deliberately not a filter wall: the results page owns the full rail, and a
+ * search box that asks for six things before it will answer gets abandoned.
+ *
+ * The console is a recessed panel on the raised hero so the three fields read as
+ * one object rather than as three loose inputs on a photograph-free banner.
+ */
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: rem(10px);
+  width: 100%;
+  padding: rem(12px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-muted);
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) minmax(0, 1.4fr) auto;
+    align-items: end;
+  }
+}
+
+.submit {
+  /* Matches the `size="md"` inputs at wide widths so the console's baseline is
+     even, and grows to a primary touch target on a phone. */
+  min-height: rem(36px);
+
+  @mixin smaller-than $mantine-breakpoint-sm {
+    width: 100%;
+    min-height: rem(44px);
+  }
+}

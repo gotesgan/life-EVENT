@@ -1,0 +1,9 @@
+URL_REQUESTED https://www.cvent.com/venues
+STATUS 200
+FINAL_URL https://www.cvent.com/venues
+TITLE Event Venues Near Me | Find Venues for Meetings & Conferences
+STAGE pre-screenshot 92655 ms
+SCREENSHOT docs/research/shots/cvent-listing.png
+STAGE pre-extract 96349 ms
+STAGE pre-hover 96672 ms
+WATCHDOG_TIMEOUT_MS 105000

@@ -1,0 +1,84 @@
+{
+ "slug": "shaadisaga",
+ "mode": "desktop",
+ "status": null,
+ "err": "Error: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.shaadisaga.com/\nCall log:\n  - navigating to \"https://www.shaadisaga.com/\", waiting until \"domcontentloaded\"\n",
+ "hover": null,
+ "data": {
+  "url": "chrome-error://chromewebdata/",
+  "title": "Privacy error",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 900,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Your connection is not private",
+    "x": 420,
+    "y": 238,
+    "w": 600,
+    "h": 30
+   }
+  ],
+  "header": null,
+  "navAll": [],
+  "searchInputs": [],
+  "filterContainers": [],
+  "images": [],
+  "cardCandidates": [],
+  "linkText": [
+   "Learn more about this warning",
+   "Back to safety",
+   "Advanced"
+  ],
+  "bodyText": "Your connection is not private\n\nAttackers might be trying to steal your information from www.shaadisaga.com (for example, passwords, messages or credit cards). Learn more about this warning\n\nNET::ERR_CERT_COMMON_NAME_INVALID\nBack to safety\nAdvanced",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Your connection is not private",
+     "style": {
+      "fontFamily": "system-ui, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "color": "rgb(32, 33, 36)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(32, 33, 36)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "16.08px 0px 16px"
+     },
+     "r": {
+      "x": 420,
+      "y": 238,
+      "w": 600,
+      "h": 30
+     }
+    }
+   ],
+   "card-title": [],
+   "card-meta": [],
+   "filter-label": [],
+   "nav-link": [],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(95, 99, 104)",
+    "fontFamily": "system-ui, sans-serif",
+    "fontSize": "15px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

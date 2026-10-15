@@ -1,0 +1,92 @@
+/*
+ * Filter group + option rows — guide §1.8.
+ *
+ * The rail is a control panel: options are compact rows, never an internally
+ * scrolling list. Collapsing happens at eight options with a "Show N more"
+ * control, because a scrolling filter group hides options behind a gesture and
+ * breaks the rail's sticky height calculation.
+ */
+.group {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+.group + .group {
+  margin-top: rem(16px);
+  padding-top: rem(16px);
+  border-top: 1px solid var(--app-border);
+}
+
+.legend {
+  padding: 0;
+  margin-bottom: rem(8px);
+  color: var(--app-text);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: var(--text-label-leading);
+}
+
+.help {
+  margin: rem(-4px) 0 rem(8px);
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  line-height: var(--text-caption-leading);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  /* Keeps the focus ring of the first/last option from being clipped, and lets
+     the row hover band bleed to the rail's own padding. */
+  padding: rem(2px);
+  margin: rem(-2px);
+}
+
+/* The whole row is the control: 32px tall, hover state on the row, not just the
+   checkbox. Vertical padding lives on the label so the hit area grows with the
+   text rather than the glyph. */
+.option {
+  min-height: rem(32px);
+  padding: 0 rem(8px);
+  margin: 0 rem(-8px);
+  border-radius: var(--app-radius-1);
+  transition: background-color var(--app-duration-micro) var(--app-ease-out);
+
+  @mixin hover {
+    background-color: var(--app-surface-hover);
+  }
+}
+
+.option label {
+  padding-block: rem(7px);
+  font-size: var(--text-secondary-size);
+  font-weight: 450;
+}
+
+.showMore {
+  align-self: flex-start;
+  min-height: rem(32px);
+  margin-top: rem(2px);
+  padding: 0 rem(8px);
+  border: 0;
+  border-radius: var(--app-radius-control);
+  background: none;
+  color: var(--app-brand);
+  font-family: inherit;
+  font-size: var(--text-label-size);
+  font-weight: 650;
+  cursor: pointer;
+  transition: background-color var(--app-duration-micro) var(--app-ease-out);
+
+  @mixin hover {
+    background-color: var(--app-brand-soft);
+  }
+}
+
+.range {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: rem(8px);
+}

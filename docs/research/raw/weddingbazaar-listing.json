@@ -1,0 +1,3212 @@
+{
+ "slug": "weddingbazaar",
+ "mode": "listing",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "10+ Shortlist Surat Garden Vasant Kunj, Delhi 4.5 No reviews yet ₹3,000 - 3,500 Per Plate 300 Car parking 200 Hall capacity Check availability View contact",
+   "r": {
+    "x": 168,
+    "y": 468,
+    "w": 350,
+    "h": 430
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+    "border": "0px none rgba(0, 0, 0, 0.87)",
+    "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+    "transitionDuration": "0.3s",
+    "transitionProperty": "box-shadow",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "cursor": "pointer",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 350,
+    "h": 430
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+    "border": "0px none rgba(0, 0, 0, 0.87)",
+    "transitionDuration": "0.3s",
+    "transitionProperty": "box-shadow",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://www.weddingbazaar.com/wedding-venues-in-delhi",
+  "title": "Best Wedding Venues in Delhi with Price, Photo, Reviews & Availability",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 9022,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Wedding Venues In Delhi",
+    "x": 165,
+    "y": 152,
+    "w": 300,
+    "h": 35
+   },
+   {
+    "tag": "H3",
+    "text": "Surat Garden",
+    "x": 178,
+    "y": 687,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "The Grandreams Luxury",
+    "x": 555,
+    "y": 687,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Celebration Garden",
+    "x": 932,
+    "y": 687,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "The Royal Garden",
+    "x": 178,
+    "y": 1184,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Naveen Banquet",
+    "x": 555,
+    "y": 1184,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "The Golden Palace",
+    "x": 932,
+    "y": 1184,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Sattu Sangwan Farm House",
+    "x": 178,
+    "y": 1665,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Royal Banquet",
+    "x": 555,
+    "y": 1665,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Aashirwad Barat Ghar",
+    "x": 932,
+    "y": 1665,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Bhagwati Garden",
+    "x": 178,
+    "y": 2422,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Savtri Barat Ghar",
+    "x": 555,
+    "y": 2422,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Pandit Tek Chand Vartika",
+    "x": 932,
+    "y": 2422,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Rawat Garden",
+    "x": 178,
+    "y": 2903,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Bhati Ji Garden",
+    "x": 555,
+    "y": 2903,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Shrijee Vatika",
+    "x": 932,
+    "y": 2903,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Invitation K Lounge and Party Hall",
+    "x": 178,
+    "y": 3384,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Harsh Palace and Banquet House",
+    "x": 555,
+    "y": 3384,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Arjun Luxury Banquet",
+    "x": 932,
+    "y": 3384,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Surya Forever",
+    "x": 178,
+    "y": 4300,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Evora Elegant Banquet Halls",
+    "x": 555,
+    "y": 4300,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "China Fort Banquet",
+    "x": 932,
+    "y": 4300,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Seven Horses Resort",
+    "x": 178,
+    "y": 4781,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "Grand Azalea Banquet",
+    "x": 555,
+    "y": 4781,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H3",
+    "text": "V Hotel The Grand Shoba",
+    "x": 932,
+    "y": 4781,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "tag": "H2",
+    "text": "Browse By Localities:",
+    "x": 164,
+    "y": 5191,
+    "w": 1112,
+    "h": 27
+   },
+   {
+    "tag": "H2",
+    "text": "Browse by Other Services in Delhi:",
+    "x": 164,
+    "y": 5350,
+    "w": 1112,
+    "h": 27
+   },
+   {
+    "tag": "H2",
+    "text": "Wedding Venues in Delhi",
+    "x": 585,
+    "y": 5513,
+    "w": 270,
+    "h": 33
+   }
+  ],
+  "header": {
+   "tag": "NAV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "style": {
+    "position": "static",
+    "top": "auto",
+    "height": "auto",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderBottom": "0px none rgb(0, 0, 0)",
+    "boxShadow": "none",
+    "zIndex": "auto"
+   },
+   "text": "PhotographersJewelleryHoneymoonCarsVenuesMakeup ArtistsPlannersDecoratorsMehndi ArtistsBridal DesignersInvitation DesignersGiftsChoreographersEntertainmentPanditsDJ & Live MusicCaterers",
+   "links": []
+  },
+  "navAll": [
+   "Home",
+   "Wedding Venues",
+   "Blog",
+   "About Us",
+   "Careers",
+   "Contact Us",
+   "Terms & Conditions",
+   "Privacy Policy"
+  ],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 164,
+     "y": 2066,
+     "w": 266,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 455,
+     "y": 2077,
+     "w": 218,
+     "h": 23
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 737,
+     "y": 2077,
+     "w": 218,
+     "h": 23
+    }
+   }
+  ],
+  "filterContainers": [
+   {
+    "tag": "DIV",
+    "cls": "MuiStack-root QuickFilter_filterBar__GV_Qx mui-f7epi2",
+    "r": {
+     "x": 164,
+     "y": 273,
+     "w": 990,
+     "h": 96
+    },
+    "text": "Capacity Budget - Per Day Budget - Per Plate Food Type Ratings Venue Amenities Catering Policies Shortlisted",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Capacity"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Budget - Per Day"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Budget - Per Plate"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Food Type"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Ratings"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Venue Amenities"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Catering Policies"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Shortlisted"
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/WeddingBazaarLogo.svg",
+    "alt": "wedding bazaar logo",
+    "nat": "232x66",
+    "r": {
+     "x": 164,
+     "y": 8,
+     "w": 200,
+     "h": 66
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/newportal/images/cityIcon.svg",
+    "alt": "filter-icon",
+    "nat": "24x24",
+    "r": {
+     "x": 397,
+     "y": 31,
+     "w": 24,
+     "h": 24
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/searchIcon.png",
+    "alt": "search icon",
+    "nat": "48x48",
+    "r": {
+     "x": 1206,
+     "y": 35,
+     "w": 12,
+     "h": 12
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/newportal/images/filter-icon.svg",
+    "alt": "filter-icon",
+    "nat": "16x14",
+    "r": {
+     "x": 1204,
+     "y": 281,
+     "w": 16,
+     "h": 14
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/photos/pictures/318306/orginal/profile_pic_2024-10-21.jpg",
+    "alt": "Surat Garden Wedding Venues",
+    "nat": "900x675",
+    "r": {
+     "x": 178,
+     "y": 478,
+     "w": 330,
+     "h": 201
+    },
+    "fit": "cover",
+    "radius": "12px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/newportal/images/VendorPhotoIcon.png",
+    "alt": "Vendor Image Icon",
+    "nat": "64x64",
+    "r": {
+     "x": 194,
+     "y": 644,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/parking_count.svg",
+    "alt": "car icon",
+    "nat": "15x16",
+    "r": {
+     "x": 187,
+     "y": 774,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/venue_size.svg",
+    "alt": "venue icon",
+    "nat": "15x16",
+    "r": {
+     "x": 323,
+     "y": 774,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/photos/pictures/319432/orginal/profile_pic_unnamed-74.webp",
+    "alt": "The Grandreams Luxury Wedding Venues",
+    "nat": "900x675",
+    "r": {
+     "x": 555,
+     "y": 478,
+     "w": 330,
+     "h": 201
+    },
+    "fit": "cover",
+    "radius": "12px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/newportal/images/VendorPhotoIcon.png",
+    "alt": "Vendor Image Icon",
+    "nat": "64x64",
+    "r": {
+     "x": 571,
+     "y": 644,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/parking_count.svg",
+    "alt": "car icon",
+    "nat": "15x16",
+    "r": {
+     "x": 563,
+     "y": 774,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/venue_size.svg",
+    "alt": "venue icon",
+    "nat": "15x16",
+    "r": {
+     "x": 697,
+     "y": 774,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/photos/pictures/320210/orginal/profile_pic_2023-10-25.jpg",
+    "alt": "Celebration Garden Wedding Venues",
+    "nat": "900x675",
+    "r": {
+     "x": 932,
+     "y": 478,
+     "w": 330,
+     "h": 201
+    },
+    "fit": "cover",
+    "radius": "12px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/newportal/images/VendorPhotoIcon.png",
+    "alt": "Vendor Image Icon",
+    "nat": "64x64",
+    "r": {
+     "x": 948,
+     "y": 644,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/parking_count.svg",
+    "alt": "car icon",
+    "nat": "15x16",
+    "r": {
+     "x": 940,
+     "y": 774,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/venue_size.svg",
+    "alt": "venue icon",
+    "nat": "15x16",
+    "r": {
+     "x": 1071,
+     "y": 774,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/photos/pictures/320235/orginal/profile_pic_2025-01-18.jpg",
+    "alt": "The Royal Garden Wedding Venues",
+    "nat": "900x675",
+    "r": {
+     "x": 178,
+     "y": 975,
+     "w": 330,
+     "h": 201
+    },
+    "fit": "cover",
+    "radius": "12px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/newportal/images/VendorPhotoIcon.png",
+    "alt": "Vendor Image Icon",
+    "nat": "64x64",
+    "r": {
+     "x": 194,
+     "y": 1141,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/parking_count.svg",
+    "alt": "car icon",
+    "nat": "15x16",
+    "r": {
+     "x": 187,
+     "y": 1271,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/venue_size.svg",
+    "alt": "venue icon",
+    "nat": "15x16",
+    "r": {
+     "x": 317,
+     "y": 1271,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/photos/pictures/320273/orginal/profile_pic_2021-09-20.png",
+    "alt": "Naveen Banquet Wedding Venues",
+    "nat": "900x675",
+    "r": {
+     "x": 555,
+     "y": 975,
+     "w": 330,
+     "h": 201
+    },
+    "fit": "cover",
+    "radius": "12px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/newportal/images/VendorPhotoIcon.png",
+    "alt": "Vendor Image Icon",
+    "nat": "64x64",
+    "r": {
+     "x": 571,
+     "y": 1141,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/parking_count.svg",
+    "alt": "car icon",
+    "nat": "15x16",
+    "r": {
+     "x": 563,
+     "y": 1271,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/venue_size.svg",
+    "alt": "venue icon",
+    "nat": "15x16",
+    "r": {
+     "x": 693,
+     "y": 1271,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/photos/pictures/320277/orginal/profile_pic_2024-06-20.jpg",
+    "alt": "The Golden Palace Wedding Venues",
+    "nat": "900x675",
+    "r": {
+     "x": 932,
+     "y": 975,
+     "w": 330,
+     "h": 201
+    },
+    "fit": "cover",
+    "radius": "12px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/newportal/images/VendorPhotoIcon.png",
+    "alt": "Vendor Image Icon",
+    "nat": "64x64",
+    "r": {
+     "x": 948,
+     "y": 1141,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/parking_count.svg",
+    "alt": "car icon",
+    "nat": "15x16",
+    "r": {
+     "x": 940,
+     "y": 1271,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/venue_size.svg",
+    "alt": "venue icon",
+    "nat": "15x16",
+    "r": {
+     "x": 1070,
+     "y": 1271,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/photos/pictures/320296/orginal/profile_pic_IMG_20200220_173526.jpg",
+    "alt": "Sattu Sangwan Farm House Wedding Venues",
+    "nat": "900x675",
+    "r": {
+     "x": 178,
+     "y": 1456,
+     "w": 330,
+     "h": 201
+    },
+    "fit": "cover",
+    "radius": "12px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/newportal/images/VendorPhotoIcon.png",
+    "alt": "Vendor Image Icon",
+    "nat": "64x64",
+    "r": {
+     "x": 194,
+     "y": 1622,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/parking_count.svg",
+    "alt": "car icon",
+    "nat": "15x16",
+    "r": {
+     "x": 187,
+     "y": 1752,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/venue_size.svg",
+    "alt": "venue icon",
+    "nat": "15x16",
+    "r": {
+     "x": 317,
+     "y": 1752,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/photos/pictures/320298/orginal/profile_pic_unnamed-6.jpg",
+    "alt": "Royal Banquet Wedding Venues",
+    "nat": "900x675",
+    "r": {
+     "x": 555,
+     "y": 1456,
+     "w": 330,
+     "h": 201
+    },
+    "fit": "cover",
+    "radius": "12px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/newportal/images/VendorPhotoIcon.png",
+    "alt": "Vendor Image Icon",
+    "nat": "64x64",
+    "r": {
+     "x": 571,
+     "y": 1622,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/parking_count.svg",
+    "alt": "car icon",
+    "nat": "15x16",
+    "r": {
+     "x": 563,
+     "y": 1752,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/venue_size.svg",
+    "alt": "venue icon",
+    "nat": "15x16",
+    "r": {
+     "x": 694,
+     "y": 1752,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/photos/pictures/320304/orginal/profile_pic_unnamed-6.jpg",
+    "alt": "Aashirwad Barat Ghar Wedding Venues",
+    "nat": "900x675",
+    "r": {
+     "x": 932,
+     "y": 1456,
+     "w": 330,
+     "h": 201
+    },
+    "fit": "cover",
+    "radius": "12px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/newportal/images/VendorPhotoIcon.png",
+    "alt": "Vendor Image Icon",
+    "nat": "64x64",
+    "r": {
+     "x": 948,
+     "y": 1622,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/parking_count.svg",
+    "alt": "car icon",
+    "nat": "15x16",
+    "r": {
+     "x": 940,
+     "y": 1752,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/venue/features/venue_size.svg",
+    "alt": "venue icon",
+    "nat": "15x16",
+    "r": {
+     "x": 1070,
+     "y": 1752,
+     "w": 15,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "Surat Garden Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 178,
+       "y": 478,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 178,
+       "y": 478,
+       "w": 330,
+       "h": 201
+      },
+      "text": "10+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 178,
+       "y": 478,
+       "w": 330,
+       "h": 348
+      },
+      "text": "10+ Shortlist Surat Garden Vasant Kunj, Delhi 4.5 No reviews yet ₹3,000 - 3,500 Per Plate 300 Car parking 200 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 168,
+       "y": 468,
+       "w": 350,
+       "h": 430
+      },
+      "text": "10+ Shortlist Surat Garden Vasant Kunj, Delhi 4.5 No reviews yet ₹3,000 - 3,500 Per Plate 300 Car parking 200 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 168,
+       "y": 468,
+       "w": 350,
+       "h": 430
+      },
+      "text": "10+ Shortlist Surat Garden Vasant Kunj, Delhi 4.5 No reviews yet ₹3,000 - 3,500 Per Plate 300 Car parking 200 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "The Grandreams Luxury Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 555,
+       "y": 478,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 555,
+       "y": 478,
+       "w": 330,
+       "h": 201
+      },
+      "text": "5+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 555,
+       "y": 478,
+       "w": 330,
+       "h": 348
+      },
+      "text": "5+ Shortlist The Grandreams Luxury Kalkaji, Delhi 4.5 No reviews yet ₹2,350 - 2,550 Per Plate 100 Car parking 150 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 545,
+       "y": 468,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist The Grandreams Luxury Kalkaji, Delhi 4.5 No reviews yet ₹2,350 - 2,550 Per Plate 100 Car parking 150 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 545,
+       "y": 468,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist The Grandreams Luxury Kalkaji, Delhi 4.5 No reviews yet ₹2,350 - 2,550 Per Plate 100 Car parking 150 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Celebration Garden Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 932,
+       "y": 478,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 932,
+       "y": 478,
+       "w": 330,
+       "h": 201
+      },
+      "text": "5+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 932,
+       "y": 478,
+       "w": 330,
+       "h": 348
+      },
+      "text": "5+ Shortlist Celebration Garden Kalindi Kunj, Delhi 4.5 No reviews yet ₹1,75,000 Per Day 50 Car parking 500 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 922,
+       "y": 468,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Celebration Garden Kalindi Kunj, Delhi 4.5 No reviews yet ₹1,75,000 Per Day 50 Car parking 500 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 922,
+       "y": 468,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Celebration Garden Kalindi Kunj, Delhi 4.5 No reviews yet ₹1,75,000 Per Day 50 Car parking 500 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "The Royal Garden Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 178,
+       "y": 975,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 178,
+       "y": 975,
+       "w": 330,
+       "h": 201
+      },
+      "text": "5+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 178,
+       "y": 975,
+       "w": 330,
+       "h": 348
+      },
+      "text": "5+ Shortlist The Royal Garden Palam, Delhi 4.5 No reviews yet ₹3,00,000 Per Day 50 Car parking 1,000 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 168,
+       "y": 965,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist The Royal Garden Palam, Delhi 4.5 No reviews yet ₹3,00,000 Per Day 50 Car parking 1,000 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 168,
+       "y": 965,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist The Royal Garden Palam, Delhi 4.5 No reviews yet ₹3,00,000 Per Day 50 Car parking 1,000 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Naveen Banquet Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 555,
+       "y": 975,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 555,
+       "y": 975,
+       "w": 330,
+       "h": 201
+      },
+      "text": "5+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 555,
+       "y": 975,
+       "w": 330,
+       "h": 348
+      },
+      "text": "5+ Shortlist Naveen Banquet Badarpur, Delhi 4.5 No reviews yet ₹800 - 900 Per Plate 25 Car parking 200 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 545,
+       "y": 965,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Naveen Banquet Badarpur, Delhi 4.5 No reviews yet ₹800 - 900 Per Plate 25 Car parking 200 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 545,
+       "y": 965,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Naveen Banquet Badarpur, Delhi 4.5 No reviews yet ₹800 - 900 Per Plate 25 Car parking 200 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "The Golden Palace Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 932,
+       "y": 975,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 932,
+       "y": 975,
+       "w": 330,
+       "h": 201
+      },
+      "text": "5+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 932,
+       "y": 975,
+       "w": 330,
+       "h": 348
+      },
+      "text": "5+ Shortlist The Golden Palace Delhi 4.5 No reviews yet ₹800 - 900 Per Plate 25 Car parking 200 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 922,
+       "y": 965,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist The Golden Palace Delhi 4.5 No reviews yet ₹800 - 900 Per Plate 25 Car parking 200 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 922,
+       "y": 965,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist The Golden Palace Delhi 4.5 No reviews yet ₹800 - 900 Per Plate 25 Car parking 200 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Sattu Sangwan Farm House Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 178,
+       "y": 1456,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 178,
+       "y": 1456,
+       "w": 330,
+       "h": 201
+      },
+      "text": "5+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 178,
+       "y": 1456,
+       "w": 330,
+       "h": 348
+      },
+      "text": "5+ Shortlist Sattu Sangwan Farm House Delhi 4.5 No reviews yet ₹1,15,000 Per Day 25 Car parking 500 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 168,
+       "y": 1446,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Sattu Sangwan Farm House Delhi 4.5 No reviews yet ₹1,15,000 Per Day 25 Car parking 500 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 168,
+       "y": 1446,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Sattu Sangwan Farm House Delhi 4.5 No reviews yet ₹1,15,000 Per Day 25 Car parking 500 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Royal Banquet Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 555,
+       "y": 1456,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 555,
+       "y": 1456,
+       "w": 330,
+       "h": 201
+      },
+      "text": "10+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 555,
+       "y": 1456,
+       "w": 330,
+       "h": 348
+      },
+      "text": "10+ Shortlist Royal Banquet Delhi 4.5 No reviews yet ₹40,000 Per Day 50 Car parking 250 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 545,
+       "y": 1446,
+       "w": 350,
+       "h": 430
+      },
+      "text": "10+ Shortlist Royal Banquet Delhi 4.5 No reviews yet ₹40,000 Per Day 50 Car parking 250 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 545,
+       "y": 1446,
+       "w": 350,
+       "h": 430
+      },
+      "text": "10+ Shortlist Royal Banquet Delhi 4.5 No reviews yet ₹40,000 Per Day 50 Car parking 250 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Aashirwad Barat Ghar Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 932,
+       "y": 1456,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 932,
+       "y": 1456,
+       "w": 330,
+       "h": 201
+      },
+      "text": "5+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 932,
+       "y": 1456,
+       "w": 330,
+       "h": 348
+      },
+      "text": "5+ Shortlist Aashirwad Barat Ghar Devli Extention, Delhi 4.5 No reviews yet ₹30,000 Per Day 25 Car parking 500 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 922,
+       "y": 1446,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Aashirwad Barat Ghar Devli Extention, Delhi 4.5 No reviews yet ₹30,000 Per Day 25 Car parking 500 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 922,
+       "y": 1446,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Aashirwad Barat Ghar Devli Extention, Delhi 4.5 No reviews yet ₹30,000 Per Day 25 Car parking 500 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Bhagwati Garden Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 178,
+       "y": 2212,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 178,
+       "y": 2212,
+       "w": 330,
+       "h": 201
+      },
+      "text": "5+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 178,
+       "y": 2212,
+       "w": 330,
+       "h": 348
+      },
+      "text": "5+ Shortlist Bhagwati Garden Devli Extention, Delhi 4.5 No reviews yet ₹90,000 Per Day 25 Car parking 250 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 168,
+       "y": 2202,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Bhagwati Garden Devli Extention, Delhi 4.5 No reviews yet ₹90,000 Per Day 25 Car parking 250 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 168,
+       "y": 2202,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Bhagwati Garden Devli Extention, Delhi 4.5 No reviews yet ₹90,000 Per Day 25 Car parking 250 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Savtri Barat Ghar Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 555,
+       "y": 2212,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 555,
+       "y": 2212,
+       "w": 330,
+       "h": 201
+      },
+      "text": "5+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 555,
+       "y": 2212,
+       "w": 330,
+       "h": 348
+      },
+      "text": "5+ Shortlist Savtri Barat Ghar Devli Extention, Delhi 4.5 No reviews yet ₹70,000 Per Day 25 Car parking 1,500 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 545,
+       "y": 2202,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Savtri Barat Ghar Devli Extention, Delhi 4.5 No reviews yet ₹70,000 Per Day 25 Car parking 1,500 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 545,
+       "y": 2202,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Savtri Barat Ghar Devli Extention, Delhi 4.5 No reviews yet ₹70,000 Per Day 25 Car parking 1,500 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Pandit Tek Chand Vartika Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 932,
+       "y": 2212,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 932,
+       "y": 2212,
+       "w": 330,
+       "h": 201
+      },
+      "text": "5+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 932,
+       "y": 2212,
+       "w": 330,
+       "h": 348
+      },
+      "text": "5+ Shortlist Pandit Tek Chand Vartika Karawal Nagar, Delhi 4.5 No reviews yet ₹80,000 Per Day 25 Car parking 500 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 922,
+       "y": 2202,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Pandit Tek Chand Vartika Karawal Nagar, Delhi 4.5 No reviews yet ₹80,000 Per Day 25 Car parking 500 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 922,
+       "y": 2202,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Pandit Tek Chand Vartika Karawal Nagar, Delhi 4.5 No reviews yet ₹80,000 Per Day 25 Car parking 500 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Rawat Garden Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 178,
+       "y": 2693,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 178,
+       "y": 2693,
+       "w": 330,
+       "h": 201
+      },
+      "text": "5+ Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 178,
+       "y": 2693,
+       "w": 330,
+       "h": 348
+      },
+      "text": "5+ Shortlist Rawat Garden Badarpur, Delhi 4.5 No reviews yet ₹70,000 Per Day 25 Car parking 800 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 168,
+       "y": 2683,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Rawat Garden Badarpur, Delhi 4.5 No reviews yet ₹70,000 Per Day 25 Car parking 800 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 168,
+       "y": 2683,
+       "w": 350,
+       "h": 430
+      },
+      "text": "5+ Shortlist Rawat Garden Badarpur, Delhi 4.5 No reviews yet ₹70,000 Per Day 25 Car parking 800 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Bhati Ji Garden Wedding Venues",
+     "ratio": 1.64,
+     "r": {
+      "w": 330,
+      "h": 201
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiBox-root mui-u99uu8",
+      "r": {
+       "x": 555,
+       "y": 2693,
+       "w": 330,
+       "h": 201
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "ImageCarouselListingScreen_ImageCarouselContainer___6oG_ MuiBox-root mui-0",
+      "r": {
+       "x": 555,
+       "y": 2693,
+       "w": 330,
+       "h": 201
+      },
+      "text": "4 Shortlist",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiCardContent-root mui-om8fsr",
+      "r": {
+       "x": 555,
+       "y": 2693,
+       "w": 330,
+       "h": 348
+      },
+      "text": "4 Shortlist Bhati Ji Garden Hari Nagar, Delhi 4.5 No reviews yet ₹65,000 Per Day 25 Car parking 500 Hall capacity",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root VendorListingCard_Container__x5Sie mui-1jy34i7",
+      "r": {
+       "x": 545,
+       "y": 2683,
+       "w": 350,
+       "h": 430
+      },
+      "text": "4 Shortlist Bhati Ji Garden Hari Nagar, Delhi 4.5 No reviews yet ₹65,000 Per Day 25 Car parking 500 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "16px",
+       "border": "0px none rgba(0, 0, 0, 0.87)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 20px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "10px 10px 16px",
+       "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 545,
+       "y": 2683,
+       "w": 350,
+       "h": 430
+      },
+      "text": "4 Shortlist Bhati Ji Garden Hari Nagar, Delhi 4.5 No reviews yet ₹65,000 Per Day 25 Car parking 500 Hall capacity Check availability View contact",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 50, 94)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "Vendors",
+   "Blog",
+   "Home",
+   "Wedding Venues",
+   "Capacity",
+   "Budget - Per Day",
+   "Budget - Per Plate",
+   "Food Type",
+   "Ratings",
+   "Venue Amenities",
+   "Catering Policies",
+   "Shortlisted",
+   "Filters",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Submit",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "View all",
+   "Previous",
+   "Next",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Check availability",
+   "View contact",
+   "Show more vendors",
+   "Wedding Venues in Aerocity",
+   "Wedding Venues in Ajmeri Gate",
+   "Wedding Venues in Alipur",
+   "Wedding Venues in Anand Vihar",
+   "Wedding Venues in Arjun Nagar",
+   "Wedding Venues in Ashok Vihar",
+   "Wedding Venues in Aya Nagar",
+   "Wedding Venues in Azad Hind Gram (Tikri Piyau)",
+   "Wedding Venues in Azadpur",
+   "Wedding Venues in Badarpur",
+   "Wedding Venues in Badli",
+   "Wedding Venues in Bahadurgarh",
+   "Wedding Venues in Bakoli",
+   "Wedding Venues in Bali Nagar",
+   "Wedding Venues in Barakhamba",
+   "Wedding Venues in Bawana",
+   "Wedding Venues in Begampur",
+   "Wedding Venues in Bhajanpura",
+   "Wedding Venues in Bhikaji Cama Place",
+   "Wedding Venues in Bijwasan",
+   "Wedding Venues in Britannia Chowk Shakurpur",
+   "Wedding Venues in Buddh International Circuit",
+   "Wedding Venues in Budh Vihar",
+   "Wedding Venues in Burari",
+   "Wedding Venues in Chanakyapuri",
+   "Wedding Venues in Chhatarpur",
+   "Wedding Venues in Chittaranjan Park",
+   "Wedding Venues in Chuna Mandi",
+   "Wedding Venues in Civil Lines",
+   "Wedding Venues in Connaught Place",
+   "Wedding Venues in Daryaganj",
+   "Wedding Venues in Dashrath Puri",
+   "Wedding Venues in Dayanand Vihar",
+   "Wedding Venues in Defence Colony",
+   "Wedding Venues in Delhi Gate",
+   "Wedding Venues in Derawal Nagar",
+   "Wedding Venues in Devli Extention",
+   "Wedding Venues in Dilshad Garden",
+   "Wedding Venues in Dwarka",
+   "Wedding Venues in Dwarka Sector-3",
+   "Wedding Venues in East of Kailash",
+   "Wedding Venues in Faridabad",
+   "Wedding Venues in Geeta Colony",
+   "Wedding Venues in Ghazipur",
+   "Wedding Venues in Ghevra",
+   "Wedding Venues in Ghitorni",
+   "Wedding Venues in Gokalpur",
+   "Wedding Venues in Gole Market",
+   "Wedding Venues in Greater Kailash",
+   "Wedding Venues in Greater Kailash II",
+   "Wedding Venues in Greater Noida",
+   "Wedding Venues in Green Park",
+   "Wedding Venues in GT Karnal Road Industrial Area",
+   "Wedding Venues in GTB Enclave",
+   "Wedding Venues in Guru Harkishan Nagar",
+   "Wedding Venues in Hari Nagar",
+   "Wedding Venues in Haryana",
+   "Wedding Venues in Hauz Khas",
+   "Wedding Venues in I.P.Extension",
+   "Wedding Venues in Inderlok",
+   "Wedding Venues in India Gate",
+   "Wedding Venues in Jahangirpuri",
+   "Wedding Venues in Janakpuri",
+   "Wedding Venues in Jasola Vihar",
+   "Wedding Venues in Jhandewalan",
+   "Wedding Venues in Jharoda Majra Burari",
+   "Wedding Venues in Jhilmil Colony",
+   "Wedding Venues in Jhilmil Industrial Area",
+   "Wedding Venues in Kalindi Kunj",
+   "Wedding Venues in Kalkaji",
+   "Wedding Venues in Kamla Nagar",
+   "Wedding Venues in Kanjhawala Road",
+   "Wedding Venues in Kapas Hera",
+   "Wedding Venues in Karan Vihar Phase I",
+   "Wedding Venues in Karawal Nagar",
+   "Wedding Venues in Karkardooma",
+   "Wedding Venues in Karol Bagh",
+   "Wedding Venues in Kashmere Gate",
+   "Wedding Venues in Kaushambi",
+   "Wedding Venues in Keshav Puram",
+   "Wedding Venues in Khanpur",
+   "Wedding Venues in Khel Gaon Marg",
+   "Wedding Venues in Kirti Nagar Extension",
+   "Wedding Venues in Krishan Vihar",
+   "Wedding Venues in Krishna Nagar",
+   "Wedding Venues in Lajpat Nagar",
+   "Wedding Venues in Laxmi Nagar",
+   "Wedding Venues in Lodhi Colony",
+   "Wedding Venues in Madhu Vihar",
+   "Wedding Venues in Mahakavi Goswami Tulsidas Marg",
+   "Wedding Venues in Maharani Bagh",
+   "Wedding Venues in Mahipalpur",
+   "Wedding Venues in Mahipalpur Extension",
+   "Wedding Venues in Malviya Nagar",
+   "Wedding Venues in Mandoli Extension",
+   "Wedding Venues in Manesar",
+   "Wedding Venues in Mangolpuri",
+   "Wedding Venues in Mansarover Garden",
+   "Wedding Venues in Mathura Road",
+   "Wedding Venues in Mayapuri",
+   "Wedding Venues in Mayur Vihar",
+   "Wedding Venues in Mehrauli",
+   "Wedding Venues in MG Road",
+   "Wedding Venues in Milap Nagar",
+   "Wedding Venues in Mithapur",
+   "Wedding Venues in Model Town",
+   "Wedding Venues in Mohan Garden",
+   "Wedding Venues in Moti Nagar",
+   "Wedding Venues in Mubarakpur Dabas",
+   "Wedding Venues in Mundka",
+   "Wedding Venues in Najafgarh",
+   "Wedding Venues in Najafgarh Road Industrial Area",
+   "Wedding Venues in Nand Nagri",
+   "Wedding Venues in Nangloi",
+   "Wedding Venues in Naraina",
+   "Wedding Venues in Narela",
+   "Wedding Venues in Nathu Colony",
+   "Wedding Venues in Nawada",
+   "Wedding Venues in Near santoshi mata mandir",
+   "Wedding Venues in Neb Sarai",
+   "Wedding Venues in Nehru Place",
+   "Wedding Venues in Nehru Road",
+   "Wedding Venues in New Friends Colony",
+   "Wedding Venues in New Mustafabad",
+   "Wedding Venues in Nihal Vihar",
+   "Wedding Venues in Nilothi Extn",
+   "Wedding Venues in Nirman Vihar",
+   "Wedding Venues in Okhla",
+   "Wedding Venues in Old Gurgaon Road",
+   "Wedding Venues in Palam",
+   "Wedding Venues in Palam Vihar",
+   "Wedding Venues in Panchsheel Park",
+   "Wedding Venues in Paschim Vihar",
+   "Wedding Venues in Patel Nagar"
+  ],
+  "bodyText": "Delhi\n\nSelect Locality\n\nVendors\n\nBlog\n\nSearch\n\nLogin\n\nHome\n/\nWedding Venues\n/\n\nWedding Venues In Delhi\n\nWedding Venues In Delhi\n(1,490)\n\nSee List Of Best Wedding Venues In Delhi Find And Compare Banquet Halls, Hotels, Farmhouses, Resorts And Wedding Venues In Delhi. See Prices, Capacity, Food Policy, Reviews, Photos Of Best Wedding Venues In Delhi, Schedule A Visit With WeddingBazaar Venue Manager To Get Best Deal!\n\nCapacity\n\nBudget - Per Day\n\nBudget - Per Plate\n\nFood Type\n\nRatings\n\nVenue Amenities\n\nCatering Policies\n\nShortlisted\n\n* Please select only one Budget type\n\nFilters\n\n10+\n\nShortlist\n\nSurat Garden\n\nVasant Kunj, Delhi\n\n4.5\n\nNo reviews yet\n\n₹3,000 - 3,500\n\nPer Plate\n\n300 Car parking\n\n200 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nThe Grandreams Luxury\n\nKalkaji, Delhi\n\n4.5\n\nNo reviews yet\n\n₹2,350 - 2,550\n\nPer Plate\n\n100 Car parking\n\n150 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nCelebration Garden\n\nKalindi Kunj, Delhi\n\n4.5\n\nNo reviews yet\n\n₹1,75,000\n\nPer Day\n\n50 Car parking\n\n500 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nThe Royal Garden\n\nPalam, Delhi\n\n4.5\n\nNo reviews yet\n\n₹3,00,000\n\nPer Day\n\n50 Car parking\n\n1,000 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nNaveen Banquet\n\nBadarpur, Delhi\n\n4.5\n\nNo reviews yet\n\n₹800 - 900\n\nPer Plate\n\n25 Car parking\n\n200 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nThe Golden Palace\n\nDelhi\n\n4.5\n\nNo reviews yet\n\n₹800 - 900\n\nPer Plate\n\n25 Car parking\n\n200 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nSattu Sangwan Farm House\n\nDelhi\n\n4.5\n\nNo reviews yet\n\n₹1,15,000\n\nPer Day\n\n25 Car parking\n\n500 Hall capacity\n\nCheck availability\nView contact\n\n10+\n\nShortlist\n\nRoyal Banquet\n\nDelhi\n\n4.5\n\nNo reviews yet\n\n₹40,000\n\nPer Day\n\n50 Car parking\n\n250 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nAashirwad Barat Ghar\n\nDevli Extention, Delhi\n\n4.5\n\nNo reviews yet\n\n₹30,000\n\nPer Day\n\n25 Car parking\n\n500 Hall capacity\n\nCheck availability\nView contact\nGet FREE quotes from multiple vendors\nEnter mobile number\nEnter mobile number\nSelect city\nSelect city\nSelect vendor category\nSelect vendor category\nSubmit\n\n5+\n\nShortlist\n\nBhagwati Garden\n\nDevli Extention, Delhi\n\n4.5\n\nNo reviews yet\n\n₹90,000\n\nPer Day\n\n25 Car parking\n\n250 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nSavtri Barat Ghar\n\nDevli Extention, Delhi\n\n4.5\n\nNo reviews yet\n\n₹70,000\n\nPer Day\n\n25 Car parking\n\n1,500 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nPandit Tek Chand Vartika\n\nKarawal Nagar, Delhi\n\n4.5\n\nNo reviews yet\n\n₹80,000\n\nPer Day\n\n25 Car parking\n\n500 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nRawat Garden\n\nBadarpur, Delhi\n\n4.5\n\nNo reviews yet\n\n₹70,000\n\nPer Day\n\n25 Car parking\n\n800 Hall capacity\n\nCheck availability\nView contact\n\n4\n\nShortlist\n\nBhati Ji Garden\n\nHari Nagar, Delhi\n\n4.5\n\nNo reviews yet\n\n₹65,000\n\nPer Day\n\n25 Car parking\n\n500 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nShrijee Vatika\n\nKaran Vihar Phase I, Delhi\n\n4.5\n\nNo reviews yet\n\n₹2,00,000\n\nPer Day\n\n25 Car parking\n\n250 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nInvitation K Lounge and Party Hall\n\nDelhi\n\n4.5\n\nNo reviews yet\n\n₹1,500 - 1,800\n\nPer Plate\n\n25 Car parking\n\n200 Hall capacity\n\nCheck availability\nView contact\n\n10+\n\nShortlist\n\nHarsh Palace and Banquet House\n\nKarawal Nagar, Delhi\n\n4.5\n\nNo reviews yet\n\n₹90,000\n\nPer Day\n\n100 Car parking\n\n400 Hall capacity\n\nCheck availability\nView contact\n\n10+\n\nShortlist\n\nArjun Luxury Banquet\n\nDwarka, Delhi\n\n4.5\n\nNo reviews yet\n\n₹1,300 - 1,600\n\nPer Plate\n\n100 Car parking\n\n300 Hall capacity\n\nCheck availability\nView contact\nPromoted Venues\n\nView all\n\nPrevious\nSurat Garden\n\nVasant Kunj, Delhi\n\n4.5\n\nNo reviews yet\n\n₹3,000 - 3,500\n\nThe Grandreams Luxury\n\nKalkaji, Delhi\n\n4.5\n\nNo reviews yet\n\n₹2,350 - 2,550\n\nCelebration Garden\n\nKalindi Kunj, Delhi\n\n4.5\n\nNo reviews yet\n\n₹1,75,000\n\nThe Royal Garden\n\nPalam, Delhi\n\n4.5\n\nNo reviews yet\n\n₹3,00,000\n\nNaveen Banquet\n\nBadarpur, Delhi\n\n4.5\n\nNo reviews yet\n\n₹800 - 900\n\nNext\n\n10+\n\nShortlist\n\nSurya Forever\n\nGT Karnal Road Industrial Area, Delhi\n\n4.5\n\nNo reviews yet\n\nContact for details\n\n50 Car parking\n\n400 Hall capacity\n\nCheck availability\nView contact\n\n15+\n\nShortlist\n\nEvora Elegant Banquet Halls\n\nShakur Basti, Delhi\n\n4.5\n\nNo reviews yet\n\n₹1,600\n\nPer Plate\n\n100 Car parking\n\n500 Hall capacity\n\nCheck availability\nView contact\n\n10+\n\nShortlist\n\nChina Fort Banquet\n\nJanakpuri, Delhi\n\n4.5\n\nNo reviews yet\n\n₹950 - 1,050\n\nPer Plate\n\n100 Car parking\n\n200 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nSeven Horses Resort\n\nSainik Nagar, Delhi\n\n4.5\n\nNo reviews yet\n\n₹50,000\n\nPer Day\n\n50 Car parking\n\n1,500 Hall capacity\n\nCheck availability\nView contact\n\n10+\n\nShortlist\n\nGrand Azalea Banquet\n\nNajafgarh Road Industrial Area, Delhi\n\n4.5\n\nNo reviews yet\n\nContact for details\n\n25 Car parking\n\n200 Hall capacity\n\nCheck availability\nView contact\n\n5+\n\nShortlist\n\nV Hotel The Grand Shoba\n\nMahipalpur Extension, Delhi\n\n4.5\n\nNo reviews yet\n\n₹1,000 - 1,400\n\nPer Plate\n\n25 Car parking\n\n200 Hall capacity\n\nCheck availability\nView contact\nShow more vendors\nBrowse By Localities:\nWedding Venues in Aerocity|Wedding Venues in Ajmeri Gate|Wedding Venues in Alipur|Wedding Venues in Anand Vihar|Wedding Venues in Arjun Nagar|Wedding Venues in Ashok Vihar|Wedding Venues in Aya Nagar|Wedding Venues in Azad Hind Gram (Tikri Piyau)|Wedding Venues in Azadpur|Wedding Venues in Badarpur|Wedding Venues in Badli|Wedding Venues in Bahadurgarh|Wedding Venues in Bakoli|Wedding Venues in Bali Nagar|Wedding Venues in Barakhamba|Wedding Venues in Bawana|Wedding Venues in Begampur|Wedding Venues in Bhajanpura|Wedding Venues in Bhikaji Cama Place|Wedding Venues in Bijwasan|Wedding Venues in Britannia Chowk Shakurpur|Wedding Venues in Buddh International Circuit|Wedding Venues in Budh Vihar|Wedding Venues in Burari|Wedding Venues in Chanakyapuri|Wedding Venues in Chhatarpur|Wedding Venues in Chittaranjan Park|Wedding Venues in Chuna Mandi|Wedding Venues in Civil Lines|Wedding Venues in Connaught Place|Wedding Venues in Daryaganj|Wedding Venues in Dashrath Puri|Wedding Venues in Dayanand Vihar|Wedding Venues in Defence Colony|Wedding Venues in Delhi Gate|Wedding Venues in Derawal Nagar|Wedding Venues in Devli Extention|Wedding Venues in Dilshad Garden|Wedding Venues in Dwarka|Wedding Venues in Dwarka Sector-3|Wedding Venues in East of Kailash|Wedding Venues in Faridabad|Wedding Venues in Geeta Colony|Wedding Venues in Ghazipur|Wedding Venues in Ghevra|Wedding Venues in Ghitorni|Wedding Venues in Gokalpur|Wedding Venues in Gole Market|Wedding Venues in Greater Kailash|Wedding Venues in Greater Kailash II|Wedding Venues in Greater Noida|Wedding Venues in Green Park|Wedding Venues in GT Karnal Road Industrial Area|Wedding Venues in GTB Enclave|Wedding Venues in Guru Harkishan Nagar|Wedding Venues in Hari Nagar|Wedding Venues in Haryana|Wedding Venues in Hauz Khas|Wedding Venues in I.P.Extension|Wedding Venues in Inderlok|Wedding Venues in India Gate|Wedding Venues in Jahangirpuri|Wedding Venues in Janakpuri|Wedding Venues in Jasola Vihar|Wedding Venues in Jhandewalan|Wedding Venues in Jharoda Majra Burari|Wedding Venues in Jhilmil Colony|Wedding Venues in Jhilmil Industrial Area|Wedding Venues in Kalindi Kunj|Wedding Venues in Kalkaji|Wedding Venues in Kamla Nagar|Wedding Venues in Kanjhawala Road|Wedding Venues in Kapas Hera|Wedding Venues in Karan Vihar Phase I|Wedding Venues in Karawal Nagar|Wedding Venues in Karkardooma|Wedding Venues in Karol Bagh|Wedding Venues in Kashmere Gate|Wedding Venues in Kaushambi|Wedding Venues in Keshav Puram|Wedding Venues in Khanpur|Wedding Venues in Khel Gaon Marg|Wedding Venues in Kirti Nagar Extension|Wedding Venues in Krishan Vihar|Wedding Venues in Krishna Nagar|Wedding Venues in Lajpat Nagar|Wedding Venues in Laxmi Nagar|Wedding Venues in Lodhi Colony|Wedding Venues in Madhu Vihar|Wedding Venues in Mahakavi Goswami Tulsidas Marg|Wedding Venues in Maharani Bagh|Wedding Venues in Mahipalpur|Wedding Venues in Mahipalpur Extension|Wedding Venues in Malviya Nagar|Wedding Venues in Mandoli Extension|Wedding Venues in Manesar|Wedding Venues in Mangolpuri|Wedding Venues in Mansarover Garden|Wedding Venues in Mathura Road|Wedding Venues in Mayapuri|Wedding Venues in Mayapuri Industrial Area Phase I|Wedding Venues in Mayur Vihar|Wedding Venues in Mehrauli|Wedding Venues in MG Road|Wedding Venues in Milap Nagar|Wedding Venues in Mithapur|Wedding Venues in Model Town|Wedding Venues in Mohan Garden|Wedding Venues in Moti Nagar|Wedding Venues in Mubarakpur Dabas|Wedding Venues in Mundka|Wedding Venues in Najafgarh|Wedding Venues in Najafgarh Road Industrial Area|Wedding Venues in Nand Nagri|Wedding Venues in Nangloi|Wedding Venues in Naraina|Wedding Venues in Narela|Wedding Venues in Nathu Colony|Wedding Venues in Nawada|Wedding Venues in Near santoshi mata mandir|Wedding Venues in Neb Sarai|Wedding Venues in Nehru Place|Wedding Ve",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Wedding Venues In Delhi",
+     "style": {
+      "fontFamily": "Poppins, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "capitalize",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "16.08px 0px"
+     },
+     "r": {
+      "x": 165,
+      "y": 152,
+      "w": 300,
+      "h": 35
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Surat Garden",
+     "style": {
+      "fontFamily": "Poppins, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 178,
+      "y": 687,
+      "w": 165,
+      "h": 25
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "The Grandreams Luxury",
+     "style": {
+      "fontFamily": "Poppins, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 555,
+      "y": 687,
+      "w": 165,
+      "h": 25
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Celebration Garden",
+     "style": {
+      "fontFamily": "Poppins, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 932,
+      "y": 687,
+      "w": 165,
+      "h": 25
+     }
+    }
+   ],
+   "card-meta": [
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "10+",
+     "style": {
+      "fontFamily": "PoppinsLight",
+      "fontSize": "10px",
+      "fontWeight": "500",
+      "lineHeight": "normal",
+      "letterSpacing": "0.0938px",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 213,
+      "y": 644,
+      "w": 16,
+      "h": 16
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "Shortlist",
+     "style": {
+      "fontFamily": "PoppinsRegular",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "lineHeight": "15px",
+      "letterSpacing": "0.0938px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "1px 0px 0px"
+     },
+     "r": {
+      "x": 449,
+      "y": 644,
+      "w": 41,
+      "h": 15
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "Vasant Kunj, Delhi",
+     "style": {
+      "fontFamily": "PoppinsRegular",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "0.11256px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 178,
+      "y": 712,
+      "w": 165,
+      "h": 18
+     }
+    }
+   ],
+   "filter-label": [
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "Enter mobile number",
+     "style": {
+      "fontFamily": "PoppinsLight",
+      "fontSize": "14px",
+      "fontWeight": "800",
+      "lineHeight": "20.125px",
+      "letterSpacing": "0.13132px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "color 0.2s cubic-bezier(0, 0, 0.2, 1), transform 0.2s cubic-bezier(0, 0, 0.2, 1), max-width 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "padding": "0px",
+      "margin": "-3.4496px 0px 0px"
+     },
+     "r": {
+      "x": 178,
+      "y": 2079,
+      "w": 148,
+      "h": 20
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "Select city",
+     "style": {
+      "fontFamily": "PoppinsLight",
+      "fontSize": "14px",
+      "fontWeight": "800",
+      "lineHeight": "20.125px",
+      "letterSpacing": "0.13132px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "color 0.2s cubic-bezier(0, 0, 0.2, 1), transform 0.2s cubic-bezier(0, 0, 0.2, 1), max-width 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "padding": "0px",
+      "margin": "-3.4496px 0px 0px"
+     },
+     "r": {
+      "x": 460,
+      "y": 2079,
+      "w": 72,
+      "h": 20
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "Select vendor category",
+     "style": {
+      "fontFamily": "PoppinsLight",
+      "fontSize": "14px",
+      "fontWeight": "800",
+      "lineHeight": "20.125px",
+      "letterSpacing": "0.13132px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "color 0.2s cubic-bezier(0, 0, 0.2, 1), transform 0.2s cubic-bezier(0, 0, 0.2, 1), max-width 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "padding": "0px",
+      "margin": "-3.4496px 0px 0px"
+     },
+     "r": {
+      "x": 742,
+      "y": 2079,
+      "w": 164,
+      "h": 20
+     }
+    }
+   ],
+   "nav-link": [],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "fontFamily": "Poppins, sans-serif",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

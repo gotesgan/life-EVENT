@@ -1,0 +1,570 @@
+URL_REQUESTED https://www.eventbrite.com/
+STATUS 200
+FINAL_URL https://www.eventbrite.com/
+TITLE Eventbrite - Discover the Best Local Events & Things to Do
+COOKIE_ACCEPTED button:has-text("Accept All")
+SCREENSHOT docs/research/shots/eventbrite-desktop.png
+RAW docs/research/raw/eventbrite-desktop.json
+--- SURFACES {"body":{"backgroundColor":"rgba(0, 0, 0, 0)","color":"rgb(57, 54, 79)","fontFamily":"\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 165x24 "Browsing events in"
+  H2 176x32 "Events in Pune"
+  H3 266x48 "Women in Tech Pune - OutGeekWomen"
+  H3 266x24 "Ecstatic Dance Workshop"
+  H3 266x48 "Future Money Conference 2025"
+  H3 266x72 "PCERF Presents International Expo Constro 2027 | 21st Edition"
+  H3 266x96 "AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting"
+  H3 266x72 "AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows"
+  H3 266x48 "Claude for HR and Recruitment Teams"
+  H3 266x72 "Objective Assessments and Its Applications in Post-ACLR S&C"
+  H3 266x24 "Startup Meetup (Pune)"
+  H3 266x24 "EPS Energy Expo"
+  H3 266x72 "Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks"
+  H3 266x48 "19th Engiexpo Pune 2026 | Industrial Exhibition 2026"
+  H3 266x24 "RISE MEETUP – Pune"
+  H3 266x48 "Free Weekly Sahaja Yoga Meditation for all"
+  H3 266x72 "Free Meditation Workshop: Discover Inner Peace & Joy (Kothrud)"
+  H3 266x72 "International Education Conferences | Conference Alert"
+  H2 398x32 "Top destinations in United States"
+  H2 1272x32 "Popular cities"
+  H2 1272x32 "Explore by State"
+--- HEADER {"position":"static","top":"auto","height":"61px","backgroundColor":"rgb(255, 255, 255)","borderBottom":"1px solid rgb(238, 237, 242)","boxShadow":"none","zIndex":"auto"} 1440x61
+--- HEADER_TEXT Eventbrite Search events autocomplete Updates Find Events Create Events Help Center Find my tickets Sign in
+--- HEADER_LINKS Eventbrite | Updates | Find Events | Create Events | Find my tickets | Sign in
+--- NAV_ALL Eventbrite | Updates | Find Events | Create Events | Find my tickets | Sign in
+--- SEARCH_INPUTS
+  {"tag":"INPUT","type":"search","ph":"Search events","aria":null,"name":"search-autocomplete-input","r":{"x":235,"y":6,"w":167,"h":48}}
+  {"tag":"INPUT","type":"text","ph":null,"aria":null,"name":null,"r":{"x":459,"y":7,"w":211,"h":46}}
+  {"tag":"INPUT","type":"text","ph":null,"aria":null,"name":"locationPicker","r":{"x":321,"y":722,"w":242,"h":42}}
+--- FILTER_CONTAINERS
+--- CARDS
+  [0] imgRatio=2 286x143 alt="Women in Tech Pune - OutGeekWomen primary image"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x327 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="Almost full Women in Tech Pune - OutGeekWomen Thu, Nov 19 • 6:00 PM Pune From $0.00 Save this event: Women in Tech Pune - OutGeekWomen Share this event: Women in Tech Pune - OutGeekWomen"
+     d3 SECTION "discover-vertical-event-card" 286x327 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Almost full Women in Tech Pune - OutGeekWomen Thu, Nov 19 • 6:00 PM Pune From $0.00 Save this event: Women in Tech Pune - OutGeekWomen Share this event: Women in Tech Pune - OutGeekWomen"
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x367 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Almost full Women in Tech Pune - OutGeekWomen Thu, Nov 19 • 6:00 PM Pune From $0.00 Save this event: Women in Tech Pune - OutGeekWomen Share this event: Women in Tech Pune - OutGeekWomen"
+  [1] imgRatio=2 286x143 alt="Ecstatic Dance Workshop primary image"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x267 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="Ecstatic Dance Workshop Mon, Nov 9 • 5:00 PM The Jackfruit Tree From $11.44 Save this event: Ecstatic Dance Workshop Share this event: Ecstatic Dance Workshop"
+     d3 SECTION "discover-vertical-event-card" 286x267 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Ecstatic Dance Workshop Mon, Nov 9 • 5:00 PM The Jackfruit Tree From $11.44 Save this event: Ecstatic Dance Workshop Share this event: Ecstatic Dance Workshop"
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x367 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Ecstatic Dance Workshop Mon, Nov 9 • 5:00 PM The Jackfruit Tree From $11.44 Save this event: Ecstatic Dance Workshop Share this event: Ecstatic Dance Workshop"
+  [2] imgRatio=2 286x143 alt="Future Money Conference 2025 primary image"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x311 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="Future Money Conference 2025 Mon, Dec 14 • 6:00 PM Pune International Exinition and Convention Center From $1,500.00 Save this event: Future Money Conference 2025 Share this event: Future Money Conference 2025"
+     d3 SECTION "discover-vertical-event-card" 286x311 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Future Money Conference 2025 Mon, Dec 14 • 6:00 PM Pune International Exinition and Convention Center From $1,500.00 Save this event: Future Money Conference 2025 Share this event: Future Money Conference 2025"
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x367 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Future Money Conference 2025 Mon, Dec 14 • 6:00 PM Pune International Exinition and Convention Center From $1,500.00 Save this event: Future Money Conference 2025 Share this event: Future Money Conference 2025"
+  [3] imgRatio=2 286x143 alt="PCERF Presents International Expo Constro 2027 | 21st Edition primary image"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x335 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="PCERF Presents International Expo Constro 2027 | 21st Edition Thu, Jan 7 • 10:00 AM PIECC Pune International Exhibition and Convention Centre Entry Gate1 From $157.63 Save this event: PCERF Presents International Expo C
+     d3 SECTION "discover-vertical-event-card" 286x335 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PCERF Presents International Expo Constro 2027 | 21st Edition Thu, Jan 7 • 10:00 AM PIECC Pune International Exhibition and Convention Centre Entry Gate1 From $157.63 Save this event: PCERF Presents International Expo C
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x367 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PCERF Presents International Expo Constro 2027 | 21st Edition Thu, Jan 7 • 10:00 AM PIECC Pune International Exhibition and Convention Centre Entry Gate1 From $157.63 Save this event: PCERF Presents International Expo C
+  [4] imgRatio=2 286x143 alt="AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting prim"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x339 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting Sat, Nov 21 • 11:00 AM NP Venue - Pune From $240.00 Save this event: AI for SEM Teams: Search Research, Campaign Analysis, Content and Reportin
+     d3 SECTION "discover-vertical-event-card" 286x339 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting Sat, Nov 21 • 11:00 AM NP Venue - Pune From $240.00 Save this event: AI for SEM Teams: Search Research, Campaign Analysis, Content and Reportin
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x403 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting Sat, Nov 21 • 11:00 AM NP Venue - Pune From $240.00 Save this event: AI for SEM Teams: Search Research, Campaign Analysis, Content and Reportin
+  [5] imgRatio=2 286x143 alt="AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows prima"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x315 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows Sat, Nov 21 • 11:00 AM NP Venue - Pune From $248.00 Save this event: AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows 
+     d3 SECTION "discover-vertical-event-card" 286x315 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows Sat, Nov 21 • 11:00 AM NP Venue - Pune From $248.00 Save this event: AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows 
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x403 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows Sat, Nov 21 • 11:00 AM NP Venue - Pune From $248.00 Save this event: AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows 
+  [6] imgRatio=2 286x143 alt="Claude for HR and Recruitment Teams primary image"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x291 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="Claude for HR and Recruitment Teams Sat, Nov 21 • 11:00 AM NP Venue - Pune From $255.00 Save this event: Claude for HR and Recruitment Teams Share this event: Claude for HR and Recruitment Teams"
+     d3 SECTION "discover-vertical-event-card" 286x291 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Claude for HR and Recruitment Teams Sat, Nov 21 • 11:00 AM NP Venue - Pune From $255.00 Save this event: Claude for HR and Recruitment Teams Share this event: Claude for HR and Recruitment Teams"
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x403 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Claude for HR and Recruitment Teams Sat, Nov 21 • 11:00 AM NP Venue - Pune From $255.00 Save this event: Claude for HR and Recruitment Teams Share this event: Claude for HR and Recruitment Teams"
+  [7] imgRatio=2 286x143 alt="Objective Assessments and Its Applications in Post-ACLR S&C primary image"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x371 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="Almost full Objective Assessments and Its Applications in Post-ACLR S&C Sunday • 10:00 AM DEENANATH MANGESHKAR HOSPITAL AND RESEARCH CENTER Free Save this event: Objective Assessments and Its Applications in Post-ACLR S
+     d3 SECTION "discover-vertical-event-card" 286x371 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Almost full Objective Assessments and Its Applications in Post-ACLR S&C Sunday • 10:00 AM DEENANATH MANGESHKAR HOSPITAL AND RESEARCH CENTER Free Save this event: Objective Assessments and Its Applications in Post-ACLR S
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x403 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Almost full Objective Assessments and Its Applications in Post-ACLR S&C Sunday • 10:00 AM DEENANATH MANGESHKAR HOSPITAL AND RESEARCH CENTER Free Save this event: Objective Assessments and Its Applications in Post-ACLR S
+  [8] imgRatio=2 286x143 alt="Startup Meetup (Pune) primary image"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x267 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="Startup Meetup (Pune) Sat, Oct 31 • 5:00 PM Baner Free Save this event: Startup Meetup (Pune) Share this event: Startup Meetup (Pune)"
+     d3 SECTION "discover-vertical-event-card" 286x267 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Startup Meetup (Pune) Sat, Oct 31 • 5:00 PM Baner Free Save this event: Startup Meetup (Pune) Share this event: Startup Meetup (Pune)"
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x347 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Startup Meetup (Pune) Sat, Oct 31 • 5:00 PM Baner Free Save this event: Startup Meetup (Pune) Share this event: Startup Meetup (Pune)"
+  [9] imgRatio=2 286x143 alt="EPS Energy Expo primary image"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x287 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="EPS Energy Expo Fri, Dec 11 • 10:00 AM Auto Cluster Development & Research Institute Free Save this event: EPS Energy Expo Share this event: EPS Energy Expo"
+     d3 SECTION "discover-vertical-event-card" 286x287 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="EPS Energy Expo Fri, Dec 11 • 10:00 AM Auto Cluster Development & Research Institute Free Save this event: EPS Energy Expo Share this event: EPS Energy Expo"
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x347 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="EPS Energy Expo Fri, Dec 11 • 10:00 AM Auto Cluster Development & Research Institute Free Save this event: EPS Energy Expo Share this event: EPS Energy Expo"
+  [10] imgRatio=2 286x143 alt="Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks prima"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x315 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks Sat, Oct 31 • 6:30 PM Pune Free Save this event: Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks Share this event: Aq
+     d3 SECTION "discover-vertical-event-card" 286x315 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks Sat, Oct 31 • 6:30 PM Pune Free Save this event: Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks Share this event: Aq
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x347 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks Sat, Oct 31 • 6:30 PM Pune Free Save this event: Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks Share this event: Aq
+  [11] imgRatio=2 286x143 alt="19th Engiexpo Pune 2026 | Industrial Exhibition 2026 primary image"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x311 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="19th Engiexpo Pune 2026 | Industrial Exhibition 2026 Sat, Nov 21 • 10:00 AM PIECC Pune International Exhibition and Convention Centre Entry Gate1 Free Save this event: 19th Engiexpo Pune 2026 | Industrial Exhibition 202
+     d3 SECTION "discover-vertical-event-card" 286x311 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="19th Engiexpo Pune 2026 | Industrial Exhibition 2026 Sat, Nov 21 • 10:00 AM PIECC Pune International Exhibition and Convention Centre Entry Gate1 Free Save this event: 19th Engiexpo Pune 2026 | Industrial Exhibition 202
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x347 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="19th Engiexpo Pune 2026 | Industrial Exhibition 2026 Sat, Nov 21 • 10:00 AM PIECC Pune International Exhibition and Convention Centre Entry Gate1 Free Save this event: 19th Engiexpo Pune 2026 | Industrial Exhibition 202
+  [12] imgRatio=2 286x143 alt="RISE MEETUP – Pune primary image"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x303 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="Sales end soon RISE MEETUP – Pune Saturday • 11:00 AM Parallel - Bar & All Day Kitchen Free Save this event: RISE MEETUP – Pune Share this event: RISE MEETUP – Pune"
+     d3 SECTION "discover-vertical-event-card" 286x303 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Sales end soon RISE MEETUP – Pune Saturday • 11:00 AM Parallel - Bar & All Day Kitchen Free Save this event: RISE MEETUP – Pune Share this event: RISE MEETUP – Pune"
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x383 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Sales end soon RISE MEETUP – Pune Saturday • 11:00 AM Parallel - Bar & All Day Kitchen Free Save this event: RISE MEETUP – Pune Share this event: RISE MEETUP – Pune"
+  [13] imgRatio=2 286x143 alt="Free Weekly Sahaja Yoga Meditation for all primary image"
+     d0 DIV "EventCardImage-module-scss-module__0bEVka__event-card-image__aspect-container" 286x143 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "EventCardLink-module-scss-module__VgXwVG__event-card-link " 286x143 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__1m761 NestedActionContainer_root__bh4ua VerticalEventCard-module-scss-mod 286x347 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out","overflow":"visibl TEXT="Sales end soon Free Weekly Sahaja Yoga Meditation for all Sunday • 12:30 PM Challenger Public School - Pimple Saudagar Free Save this event: Free Weekly Sahaja Yoga Meditation for all Share this event: Free Weekly Sahaj
+     d3 SECTION "discover-vertical-event-card" 286x347 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Sales end soon Free Weekly Sahaja Yoga Meditation for all Sunday • 12:30 PM Challenger Public School - Pimple Saudagar Free Save this event: Free Weekly Sahaja Yoga Meditation for all Share this event: Free Weekly Sahaj
+     d4 DIV "EventsBucket-module-scss-module__W-YksW__feedCardCell" 318x383 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Sales end soon Free Weekly Sahaja Yoga Meditation for all Sunday • 12:30 PM Challenger Public School - Pimple Saudagar Free Save this event: Free Weekly Sahaja Yoga Meditation for all Share this event: Free Weekly Sahaj
+--- IMAGES
+  1272x393 nat=4096x1265 fit=cover radius=0px alt="Music Events"
+  286x143 nat=400x200 fit=cover radius=0px alt="Women in Tech Pune - OutGeekWomen primary image"
+  286x143 nat=400x200 fit=cover radius=0px alt="Ecstatic Dance Workshop primary image"
+  286x143 nat=460x230 fit=cover radius=0px alt="Future Money Conference 2025 primary image"
+  286x143 nat=400x221 fit=cover radius=0px alt="PCERF Presents International Expo Constro 2027 | 21st Edition primary image"
+  286x143 nat=400x258 fit=cover radius=0px alt="AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting primary image"
+  286x143 nat=400x266 fit=cover radius=0px alt="AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows primary image"
+  286x143 nat=400x294 fit=cover radius=0px alt="Claude for HR and Recruitment Teams primary image"
+  286x143 nat=400x200 fit=cover radius=0px alt="Objective Assessments and Its Applications in Post-ACLR S&C primary image"
+  286x143 nat=400x200 fit=cover radius=0px alt="Startup Meetup (Pune) primary image"
+  286x143 nat=400x333 fit=cover radius=0px alt="EPS Energy Expo primary image"
+  286x143 nat=259x129 fit=cover radius=0px alt="Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks primary image"
+  286x143 nat=400x200 fit=cover radius=0px alt="19th Engiexpo Pune 2026 | Industrial Exhibition 2026 primary image"
+  286x143 nat=400x400 fit=cover radius=0px alt="RISE MEETUP – Pune primary image"
+  286x143 nat=400x225 fit=cover radius=0px alt="Free Weekly Sahaja Yoga Meditation for all primary image"
+  286x143 nat=460x230 fit=cover radius=0px alt="Free Meditation Workshop: Discover Inner Peace & Joy (Kothrud) primary image"
+  286x143 nat=400x600 fit=cover radius=0px alt="International Education Conferences | Conference Alert primary image"
+  336x208 nat=840x561 fit=fill radius=40px 40px 0px 0px alt="An image of New York super imposed with the text \"New York\""
+--- TYPE_ROLES
+  h1 "Browsing events in" {"fontFamily":"\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"18px","fontWeight":"500","lineHeight":"24px","letterSpacing":"0.25px","color":"rgb(57, 54, 79)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(57, 54, 79)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "Events in Pune" {"fontFamily":"\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"24px","fontWeight":"600","lineHeight":"32px","letterSpacing":"0.25px","color":"rgb(30, 10, 60)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(30, 10, 60)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px -0.25px 0px 0px"}
+  card-meta "Almost full" {"fontFamily":"\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"20px","letterSpacing":"normal","color":"rgb(88, 81, 99)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(88, 81, 99)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "Thu, Nov 19 • 6:00 PM" {"fontFamily":"\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"20px","letterSpacing":"normal","color":"rgb(58, 50, 71)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(58, 50, 71)","boxShadow":"none","transition":"all","padding":"0px","margin":"4px 0px 0px"}
+  card-meta "Pune" {"fontFamily":"\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"20px","letterSpacing":"normal","color":"rgb(88, 81, 99)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(88, 81, 99)","boxShadow":"none","transition":"all","padding":"0px","margin":"4px 0px 0px"}
+  nav-link "Eventbrite" {"fontFamily":"\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"normal","letterSpacing":"normal","color":"rgb(54, 89, 227)","textTransform":"none","borderRadius":"4px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(54, 89, 227)","boxShadow":"none","transition":"all","padding":"5px 0px","margin":"0px"}
+  nav-link "Updates" {"fontFamily":"\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"20px","letterSpacing":"normal","color":"rgb(57, 54, 79)","textTransform":"none","borderRadius":"100px","backgroundColor":"rgb(255, 255, 255)","border":"0px none rgb(57, 54, 79)","boxShadow":"none","transition":"all","padding":"10px 16px","margin":"0px"}
+  nav-link "Find Events" {"fontFamily":"\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"20px","letterSpacing":"normal","color":"rgb(57, 54, 79)","textTransform":"none","borderRadius":"100px","backgroundColor":"rgb(255, 255, 255)","border":"0px none rgb(57, 54, 79)","boxShadow":"none","transition":"all","padding":"10px 16px","margin":"0px"}
+  price "From $0.00" {"fontFamily":"\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"16px","letterSpacing":"normal","color":"rgb(57, 54, 79)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(57, 54, 79)","boxShadow":"none","transition":"all","padding":"0px","margin":"4px 0px 0px"}
+  price "From $11.44" {"fontFamily":"\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"16px","letterSpacing":"normal","color":"rgb(57, 54, 79)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(57, 54, 79)","boxShadow":"none","transition":"all","padding":"0px","margin":"4px 0px 0px"}
+  price "From $1,500.00" {"fontFamily":"\"Founders Grotesk R\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"16px","letterSpacing":"normal","color":"rgb(57, 54, 79)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(57, 54, 79)","boxShadow":"none","transition":"all","padding":"0px","margin":"4px 0px 0px"}
+--- HOVER {"before":{"text":"Almost full Women in Tech Pune - OutGeekWomen Thu, Nov 19 • 6:00 PM Pune From $0.00 Save this event: Women in Tech Pune - OutGeekWomen Share this event: Women i","r":{"x":100,"y":920,"w":286,"h":327},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(57, 54, 79)","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","cursor":"auto","translate":"none","scale":"none"}},"after":{"r":{"w":286,"h":327},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(57, 54, 79)","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+Eventbrite
+Search events
+autocomplete
+Updates
+Find Events
+Create Events
+Help Center
+Find my tickets
+Sign in
+
+Music
+
+Nightlife
+
+Performing & Visual Arts
+
+Holidays
+
+Dating
+
+Hobbies
+
+Business
+
+Food & Drink
+
+Browsing events in
+autocomplete
+All
+For you
+Today
+This weekend
+Events in Pune
+
+Almost full
+
+Women in Tech Pune - OutGeekWomen
+
+Thu, Nov 19 • 6:00 PM
+
+Pune
+
+From $0.00
+
+Save this event: Women in Tech Pune - OutGeekWomen
+Share this event: Women in Tech Pune - OutGeekWomen
+Ecstatic Dance Workshop
+
+Mon, Nov 9 • 5:00 PM
+
+The Jackfruit Tree
+
+From $11.44
+
+Save this event: Ecstatic Dance Workshop
+Share this event: Ecstatic Dance Workshop
+Future Money Conference 2025
+
+Mon, Dec 14 • 6:00 PM
+
+Pune International Exinition and Convention Center
+
+From $1,500.00
+
+Save this event: Future Money Conference 2025
+Share this event: Future Money Conference 2025
+PCERF Presents International Expo Constro 2027 | 21st Edition
+
+Thu, Jan 7 • 10:00 AM
+
+PIECC Pune International Exhibition and Convention Centre Entry Gate1
+
+From $157.63
+
+Save this event: PCERF Presents International Expo Constro 2027 | 21st Edition
+Share this event: PCERF Presents International Expo Constro 2027 | 21st Edition
+AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting
+
+Sat, Nov 21 • 11:00 AM
+
+NP Venue - Pune
+
+From $240.00
+
+Save this event: AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting
+Share this event: AI for SEM Teams: Search Research, Campaign Analysis, Content and Reporting
+AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows
+
+Sat, Nov 21 • 11:00 AM
+
+NP Venue - Pune
+
+From $248.00
+
+Save this event: AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows
+Share this event: AI for Marketing Teams: Research, Content, Analysis and Campaign Workflows
+Claude for HR and Recruitment Teams
+
+Sat, Nov 21 • 11:00 AM
+
+NP Venue - Pune
+
+From $255.00
+
+Save this event: Claude for HR and Recruitment Teams
+Share this event: Claude for HR and Recruitment Teams
+
+Almost full
+
+Objective Assessments and Its Applications in Post-ACLR S&C
+
+Sunday • 10:00 AM
+
+DEENANATH MANGESHKAR HOSPITAL AND RESEARCH CENTER
+
+Free
+
+Save this event: Objective Assessments and Its Applications in Post-ACLR S&C
+Share this event: Objective Assessments and Its Applications in Post-ACLR S&C
+Startup Meetup (Pune)
+
+Sat, Oct 31 • 5:00 PM
+
+Baner
+
+Free
+
+Save this event: Startup Meetup (Pune)
+Share this event: Startup Meetup (Pune)
+EPS Energy Expo
+
+Fri, Dec 11 • 10:00 AM
+
+Auto Cluster Development & Research Institute
+
+Free
+
+Save this event: EPS Energy Expo
+Share this event: EPS Energy Expo
+Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks
+
+Sat, Oct 31 • 6:30 PM
+
+Pune
+
+Free
+
+Save this event: Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks
+Share this event: Aqua Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner & Drinks
+19th Engiexpo Pune 2026 | Industrial Exhibition 2026
+
+Sat, Nov 21 • 10:00 AM
+
+PIECC Pune International Exhibition and Convention Centre Entry Gate1
+
+Free
+
+Save this event: 19th Engiexpo Pune 2026 | Industrial Exhibition 2026
+Share this event: 19th Engiexpo Pune 2026 | Industrial Exhibition 2026
+
+Sales end soon
+
+RISE MEETUP – Pune
+
+Saturday • 11:00 AM
+
+Parallel - Bar & All Day Kitchen
+
+Free
+
+Save this event: RISE MEETUP – Pune
+Share this event: RISE MEETUP – Pune
+
+Sales end soon
+
+Free Weekly Sahaja Yoga Meditation for all
+
+Sunday • 12:30 PM
+
+Challenger Public School - Pimple Saudagar
+
+Free
+
+Save this event: Free Weekly Sahaja Yoga Meditation for all
+Share this event: Free Weekly Sahaja Yoga Meditation for all
+Free Meditation Workshop: Discover Inner Peace & Joy (Kothrud)
+
+Thu, Oct 22 • 6:30 PM
+
+Sahaja Yoga Meditation Mayur Colony
+
+Free
+
+Save this event: Free Meditation Workshop: Discover Inner Peace & Joy (Kothrud)
+Share this event: Free Meditation Workshop: Discover Inner Peace & Joy (Kothrud)
+
+Sales end soon
+
+International Education Conferences | Conference Alert
+
+Tomorrow • 10:00 AM
+
+India
+
+Free
+
+Save this event: International Education Conferences | Conference Alert
+Share this event: International Education Conferences | Conference Alert
+Top destinations in United States
+
+New York
+
+San Francisco
+
+Los Angeles
+
+Chicago
+
+Washington, D.C.
+
+Atlanta
+
+Houston
+
+Boston
+
+Dallas
+
+Austin
+
+Miami
+
+San Diego
+
+Las Vegas
+
+Orlando
+
+Seattle
+
+Philadelphia
+
+Denver
+
+Nashville
+
+New Orleans
+
+Charlotte
+
+Portland
+
+Tampa
+
+Indianapolis
+
+Baltimore
+
+Sacramento
+
+Columbus
+
+Minneapolis
+
+Oakland
+
+Detroit
+
+San Antonio
+
+Popular cities
+Things to do in Abilene
+Things to do in Phoenix
+Things to do in Albuquerque
+Things to do in Anaheim
+Things to do in Raleigh
+Things to do in Wichita
+Explore by State
+Alabama
+Arizona
+California
+Connecticut
+District of Columbia
+Georgia
+Idaho
+Indiana
+Kansas
+Louisiana
+Maryland
+Michigan
+Mississippi
+Montana
+Nevada
+New Jersey
+New York
+North Dakota
+Oklahoma
+Pennsylvania
+South Carolina
+Tennessee
+Utah
+Virginia
+West Virginia
+Wyoming
+Alaska
+Arkansas
+Colorado
+Delaware
+Florida
+Hawaii
+Illinois
+Iowa
+Kentucky
+Maine
+Massachusetts
+Minnesota
+Missouri
+Nebraska
+New Hampshire
+New Mexico
+North Carolina
+Ohio
+Oregon
+Rhode Island
+South Dakota
+Texas
+Vermont
+Washington
+Wisconsin
+Site Navigation
+
+Use Eventbrite
+
+Create Events
+Pricing
+Event Marketing Platform
+Eventbrite Mobile Ticket App
+Eventbrite Check-In App
+Eventbrite App Marketplace
+Event Registration Software
+Community Guidelines
+FAQs
+Sitemap
+
+Plan Events
+
+Sell Tickets Online
+Performing Arts Ticketing Software
+Sell Concert Tickets Online
+Event Payment System
+Solutions for Professional Services
+Event Management Software
+Halloween Party Planning
+Virtual Events Platform
+QR Codes for Event Check-In
+Post your event online
+
+Find Events
+
+New Orleans Food & Drink Events
+San Francisco Holiday Events
+Tulum Music Events
+Denver Hobby Events
+Atlanta Pop Music Events
+New York Events
+Chicago Events
+Events in Dallas Today
+Los Angeles Events
+Washington Events
+
+Connect With Us
+
+Contact Support
+Contact Sales
+Product Updates
+X
+Facebook
+LinkedIn
+Instagram
+TikTok
+© 2026 Eventbrite
+How It WorksPricingContact SupportAboutBlogHelpCareersPressImpactSecurityDevelopersStatusTermsPrivacyAccessibilityCookiesManage Cookie PreferencesDo Not Sell or Share My Personal Information
+Locale
+United States
+Argentina
+Australia
+België
+Belgique
+Brasil
+Canada (EN)
+Canada (FR)
+Chile
+Colombia
+Denmark
+Deutschland
+España
+Finland
+France
+Hong Kong
+Ireland
+Italia
+México
+Nederland
+New Zealand
+Österreich
+Perú
+Portugal
+Schweiz
+Singapore
+Suisse
+Sverige
+United Kingdom
+United States

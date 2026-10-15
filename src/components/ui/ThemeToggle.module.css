@@ -1,0 +1,21 @@
+/* Icons are sized in rem and never inlined as pixels; both dimensions come from
+   the same 18px step as the surrounding control. */
+.icon {
+  width: rem(18px);
+  height: rem(18px);
+}
+
+/* The only scheme branching in the component, and it is CSS, not JavaScript. */
+.lightIcon {
+  @mixin dark {
+    display: none;
+  }
+}
+
+.darkIcon {
+  display: none;
+
+  @mixin dark {
+    display: block;
+  }
+}

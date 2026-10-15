@@ -1,0 +1,681 @@
+URL_REQUESTED https://www.weddingwire.in/
+STATUS 200
+FINAL_URL https://www.weddingwire.in/
+TITLE Weddings, Wedding Venues - WeddingWire.in
+STAGE pre-screenshot 16167 ms
+SCREENSHOT docs/research/shots/weddingwire-mobile.png
+STAGE pre-extract 16442 ms
+STAGE pre-hover 16484 ms
+RAW docs/research/raw/weddingwire-mobile.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(34, 34, 34)","fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 358x64 "Everything you need to plan your event"
+  H2 265x30 "Enjoy planning your wedding"
+  H3 214x181 "Your free wedding website"
+  H3 214x181 "Infinite inspiration"
+  H3 214x181 "Planning tools"
+  H2 203x32 "Wedding Awards"
+  H2 358x32 "Featured wedding vendors"
+  H2 358x32 "Real Weddings"
+  H2 358x32 "Wedding ideas and tips"
+  H2 358x32 "Community"
+  H3 226x54 "a Pest-free Home Before Your Romantic Getaway"
+  H3 226x27 "Dubai metro maps"
+  H2 358x32 "Create your wedding website"
+  H2 358x32 "Plan your destination wedding"
+  H2 358x23 "Wedding vendors by category"
+  H3 358x23 "Wedding vendors by location"
+--- HEADER {"position":"relative","top":"0px","height":"56px","backgroundColor":"rgba(0, 0, 0, 0)","borderBottom":"0px none rgb(34, 34, 34)","boxShadow":"none","zIndex":"auto"} 390x56
+--- HEADER_TEXT Planning Tools My Wedding Show all Checklist Guests Budget Wedding Vendors Wedding website Hashtag generator Get the WeddingWire app Plan your wedding on the go with the WeddingWire app. Wedshoots Easily collect all of your guests' event photos in one album! Wedding Venues Venues Show all Banquet Halls Hotels Marriage Garden Kalyana Mandapams Wedding Resorts Wedding Lawns Farmhouses Promotions Des
+--- HEADER_LINKS Planning Tools | My Wedding | Show all | Checklist | Guests | Budget | Wedding Vendors | Wedding website | Hashtag generator | Wedshoots | Wedding Venues | Venues | Show all | Banquet Halls | Hotels | Marriage Garden | Kalyana Mandapams | Wedding Resorts | Wedding Lawns Farmhouses | Promotions | Wedding Vendors | Vendors | Show all | Wedding Photographers | Wedding Videography | Wedding Music | Caterers | Wedding Transportation | Wedding Invitations | Wedding Gifts | Florists | Wedding Planners | Wedding Choreographers | Photobooth | Wedding DJ | Wedding Cakes | Wedding Decorators | Party Places | Honeymoon | Wedding Entertainment | Tent House | Promotions | Brides | Brides | Show all | Mehndi Artists | Bridal Makeup Artists | Makeup Salon | Bridal Jewellery | Bridal Lehenga | Trousseau Packing | Promotions | Grooms | Grooms | Show all | Sherwani | Promotions | Blogs | Wedding ideas | Show all | Before the wedding | The wedding ceremony | The wedding banquet | The services for your wedding | Wedding fashion | Health and beauty | Honeymoon | After the wedding | The wedding reception | Real Weddings
+--- NAV_ALL Planning Tools | My Wedding | Show all | Checklist | Guests | Budget | Wedding Vendors | Wedding website | Hashtag generator | Wedshoots | Wedding Venues | Venues | Show all | Banquet Halls | Hotels | Marriage Garden | Kalyana Mandapams | Wedding Resorts | Wedding Lawns Farmhouses | Promotions | Wedding Vendors | Vendors | Show all | Wedding Photographers | Wedding Videography | Wedding Music | Caterers | Wedding Transportation | Wedding Invitations | Wedding Gifts | Florists | Wedding Planners | Wedding Choreographers | Photobooth | Wedding DJ | Wedding Cakes | Wedding Decorators | Party Places | Honeymoon | Wedding Entertainment | Tent House | Promotions | Brides | Brides | Show all | Mehndi Artists | Bridal Makeup Artists | Makeup Salon | Bridal Jewellery | Bridal Lehenga | Trousseau Packing | Promotions | Grooms | Grooms | Show all | Sherwani | Promotions | Blogs | Wedding ideas | Sh
+--- SEARCH_INPUTS
+--- FILTER_CONTAINERS
+--- CARDS
+  [0] imgRatio=1.499 321x214 alt="Aaraasta Tales"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x365 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Aaraasta Tales 5.0 (5) · Srinagar (North), Srinagar From ₹20,000"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeChoiceAwards__sliderItem" 331x375 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Aaraasta Tales 5.0 (5) · Srinagar (North), Srinagar From ₹20,000"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeChoiceAwards__slider app-choice-award 390x391 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Aaraasta Tales 5.0 (5) · Srinagar (North), Srinagar From ₹20,000 Afterlife Events & Entertainment 4.9 (202) · Bara Bazar, Kolkata From ₹1,50,000 Aesthetic Design Studio 5.0 (6) · Perambur, Chennai From ₹1,50,000 AJ Beat
+  [1] imgRatio=1.499 321x214 alt="Afterlife Events & Entertainment"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x365 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Afterlife Events & Entertainment 4.9 (202) · Bara Bazar, Kolkata From ₹1,50,000"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeChoiceAwards__sliderItem" 331x375 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Afterlife Events & Entertainment 4.9 (202) · Bara Bazar, Kolkata From ₹1,50,000"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeChoiceAwards__slider app-choice-award 390x391 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Aaraasta Tales 5.0 (5) · Srinagar (North), Srinagar From ₹20,000 Afterlife Events & Entertainment 4.9 (202) · Bara Bazar, Kolkata From ₹1,50,000 Aesthetic Design Studio 5.0 (6) · Perambur, Chennai From ₹1,50,000 AJ Beat
+  [2] imgRatio=1.499 321x214 alt="Aesthetic Design Studio"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x365 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Aesthetic Design Studio 5.0 (6) · Perambur, Chennai From ₹1,50,000"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeChoiceAwards__sliderItem" 331x375 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Aesthetic Design Studio 5.0 (6) · Perambur, Chennai From ₹1,50,000"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeChoiceAwards__slider app-choice-award 390x391 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Aaraasta Tales 5.0 (5) · Srinagar (North), Srinagar From ₹20,000 Afterlife Events & Entertainment 4.9 (202) · Bara Bazar, Kolkata From ₹1,50,000 Aesthetic Design Studio 5.0 (6) · Perambur, Chennai From ₹1,50,000 AJ Beat
+  [3] imgRatio=1.499 321x214 alt="AJ Beats Dance & Event Company"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x365 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="AJ Beats Dance & Event Company 5.0 (23) · Pune University, Pune From ₹4,000 1 promotion -10% Discount"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeChoiceAwards__sliderItem" 331x375 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="AJ Beats Dance & Event Company 5.0 (23) · Pune University, Pune From ₹4,000 1 promotion -10% Discount"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeChoiceAwards__slider app-choice-award 390x391 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Aaraasta Tales 5.0 (5) · Srinagar (North), Srinagar From ₹20,000 Afterlife Events & Entertainment 4.9 (202) · Bara Bazar, Kolkata From ₹1,50,000 Aesthetic Design Studio 5.0 (6) · Perambur, Chennai From ₹1,50,000 AJ Beat
+  [4] imgRatio=1.499 321x214 alt="Aesthetic Stories"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x365 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Aesthetic Stories 4.9 (43) · Dharampur, Dehradun From ₹40,000"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeChoiceAwards__sliderItem" 331x375 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Aesthetic Stories 4.9 (43) · Dharampur, Dehradun From ₹40,000"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeChoiceAwards__slider app-choice-award 390x391 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Aaraasta Tales 5.0 (5) · Srinagar (North), Srinagar From ₹20,000 Afterlife Events & Entertainment 4.9 (202) · Bara Bazar, Kolkata From ₹1,50,000 Aesthetic Design Studio 5.0 (6) · Perambur, Chennai From ₹1,50,000 AJ Beat
+  [5] imgRatio=1.499 321x214 alt="2cre8memories"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x365 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="2cre8memories 4.9 (60) · Old Goa, North Goa From ₹1,00,000"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeChoiceAwards__sliderItem" 331x375 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="2cre8memories 4.9 (60) · Old Goa, North Goa From ₹1,00,000"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeChoiceAwards__slider app-choice-award 390x391 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="Aaraasta Tales 5.0 (5) · Srinagar (North), Srinagar From ₹20,000 Afterlife Events & Entertainment 4.9 (202) · Bara Bazar, Kolkata From ₹1,50,000 Aesthetic Design Studio 5.0 (6) · Perambur, Chennai From ₹1,50,000 AJ Beat
+  [6] imgRatio=1.499 321x214 alt="Hotel Ayaan Residency"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="PREMIUM"
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x437 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="PREMIUM Hotel Ayaan Residency 4.9 (7) · Noida Expressway, Noida From ₹1,000 40 to 200 Guests 1 promotion -10% Discount"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeFeaturedVendors__sliderItem" 331x447 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PREMIUM Hotel Ayaan Residency 4.9 (7) · Noida Expressway, Noida From ₹1,000 40 to 200 Guests 1 promotion -10% Discount"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeFeaturedVendors__slider app-home-feat 390x463 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="PREMIUM Hotel Ayaan Residency 4.9 (7) · Noida Expressway, Noida From ₹1,000 40 to 200 Guests 1 promotion -10% Discount PREMIUM Hotel Highland Resort by DLS Hotels 5.0 (11) · Mussoorie, Dehradun From ₹1,300 100 to 300 Gu
+  [7] imgRatio=1.499 321x214 alt="Hotel Highland Resort by DLS Hotels"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="PREMIUM"
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x437 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="PREMIUM Hotel Highland Resort by DLS Hotels 5.0 (11) · Mussoorie, Dehradun From ₹1,300 100 to 300 Guests 1 promotion -15% Discount"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeFeaturedVendors__sliderItem" 331x447 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PREMIUM Hotel Highland Resort by DLS Hotels 5.0 (11) · Mussoorie, Dehradun From ₹1,300 100 to 300 Guests 1 promotion -15% Discount"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeFeaturedVendors__slider app-home-feat 390x463 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="PREMIUM Hotel Ayaan Residency 4.9 (7) · Noida Expressway, Noida From ₹1,000 40 to 200 Guests 1 promotion -10% Discount PREMIUM Hotel Highland Resort by DLS Hotels 5.0 (11) · Mussoorie, Dehradun From ₹1,300 100 to 300 Gu
+  [8] imgRatio=1.499 321x214 alt="Ripples Resort"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="PREMIUM"
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x437 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="PREMIUM Ripples Resort Khadakwasla, Pune From ₹750 100 to 1000 Guests 1 promotion -5% Discount"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeFeaturedVendors__sliderItem" 331x447 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PREMIUM Ripples Resort Khadakwasla, Pune From ₹750 100 to 1000 Guests 1 promotion -5% Discount"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeFeaturedVendors__slider app-home-feat 390x463 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="PREMIUM Hotel Ayaan Residency 4.9 (7) · Noida Expressway, Noida From ₹1,000 40 to 200 Guests 1 promotion -10% Discount PREMIUM Hotel Highland Resort by DLS Hotels 5.0 (11) · Mussoorie, Dehradun From ₹1,300 100 to 300 Gu
+  [9] imgRatio=1.499 321x214 alt="Bon Vivant Lifestyle Resort"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="PREMIUM"
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x437 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="PREMIUM Bon Vivant Lifestyle Resort Nashik Road, Nashik From ₹1,800 100 to 2000 Guests 1 promotion -10% Discount"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeFeaturedVendors__sliderItem" 331x447 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PREMIUM Bon Vivant Lifestyle Resort Nashik Road, Nashik From ₹1,800 100 to 2000 Guests 1 promotion -10% Discount"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeFeaturedVendors__slider app-home-feat 390x463 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="PREMIUM Hotel Ayaan Residency 4.9 (7) · Noida Expressway, Noida From ₹1,000 40 to 200 Guests 1 promotion -10% Discount PREMIUM Hotel Highland Resort by DLS Hotels 5.0 (11) · Mussoorie, Dehradun From ₹1,300 100 to 300 Gu
+  [10] imgRatio=1.499 321x214 alt="Firefox Sports & Resorts"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="PREMIUM"
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x437 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="PREMIUM Firefox Sports & Resorts Moinabad, Ranga Reddy From ₹2,000 100 to 2000 Guests"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeFeaturedVendors__sliderItem" 331x447 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PREMIUM Firefox Sports & Resorts Moinabad, Ranga Reddy From ₹2,000 100 to 2000 Guests"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeFeaturedVendors__slider app-home-feat 390x463 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="PREMIUM Hotel Ayaan Residency 4.9 (7) · Noida Expressway, Noida From ₹1,000 40 to 200 Guests 1 promotion -10% Discount PREMIUM Hotel Highland Resort by DLS Hotels 5.0 (11) · Mussoorie, Dehradun From ₹1,300 100 to 300 Gu
+  [11] imgRatio=1.499 321x214 alt="Wood Stock Acers Villa Resort"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="PREMIUM"
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x437 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="PREMIUM Wood Stock Acers Villa Resort Ghodbunder Road, Mumbai From ₹750 35 to 5000 Guests 1 promotion -3% Discount"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeFeaturedVendors__sliderItem" 331x447 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PREMIUM Wood Stock Acers Villa Resort Ghodbunder Road, Mumbai From ₹750 35 to 5000 Guests 1 promotion -3% Discount"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeFeaturedVendors__slider app-home-feat 390x463 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="PREMIUM Hotel Ayaan Residency 4.9 (7) · Noida Expressway, Noida From ₹1,000 40 to 200 Guests 1 promotion -10% Discount PREMIUM Hotel Highland Resort by DLS Hotels 5.0 (11) · Mussoorie, Dehradun From ₹1,300 100 to 300 Gu
+  [12] imgRatio=1.499 321x214 alt="Surya Grand Banquets"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="PREMIUM"
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x437 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="PREMIUM Surya Grand Banquets 4.0 (29) · Sector 7, Dwarka, Dwarka From ₹950 50 to 1000 Guests 1 promotion -5% Discount"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeFeaturedVendors__sliderItem" 331x447 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PREMIUM Surya Grand Banquets 4.0 (29) · Sector 7, Dwarka, Dwarka From ₹950 50 to 1000 Guests 1 promotion -5% Discount"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeFeaturedVendors__slider app-home-feat 390x463 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="PREMIUM Hotel Ayaan Residency 4.9 (7) · Noida Expressway, Noida From ₹1,000 40 to 200 Guests 1 promotion -10% Discount PREMIUM Hotel Highland Resort by DLS Hotels 5.0 (11) · Mussoorie, Dehradun From ₹1,300 100 to 300 Gu
+  [13] imgRatio=1.499 321x214 alt="Sawan Banquets"
+     d0 PICTURE "vendorTileGallery__image" 321x20 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "vendorTileGallery vendorTileGallery--mosaic " 321x221 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="PREMIUM"
+     d2 DIV " gtm-tracking-impression app-ec-item vendorTile vendorTile--mosaic app-catalog-list-vendo 321x437 {"borderRadius":"8px","border":"0px none rgb(34, 34, 34)","boxShadow":"rgba(0, 0, 0, 0.15) 0px 2px 8px 0px","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="PREMIUM Sawan Banquets 4.3 (8) · Moti Nagar - Kirti Nagar, West Delhi From ₹850 100 to 600 Guests 1 promotion -5% Discount"
+     d3 DIV "scrollSnap__item app-scroll-snap-item homeFeaturedVendors__sliderItem" 331x447 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"5px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="PREMIUM Sawan Banquets 4.3 (8) · Moti Nagar - Kirti Nagar, West Delhi From ₹850 100 to 600 Guests 1 promotion -5% Discount"
+     d4 DIV "scrollSnap__container app-scroll-snap-container homeFeaturedVendors__slider app-home-feat 390x463 {"borderRadius":"0px","border":"0px none rgb(34, 34, 34)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 16px 5px","transition":"all","overflow":"scroll hidden","display":"flex","gap":"normal"} TEXT="PREMIUM Hotel Ayaan Residency 4.9 (7) · Noida Expressway, Noida From ₹1,000 40 to 200 Guests 1 promotion -10% Discount PREMIUM Hotel Highland Resort by DLS Hotels 5.0 (11) · Mussoorie, Dehradun From ₹1,300 100 to 300 Gu
+--- IMAGES
+  220x30 nat=220x30 fit=fill radius=0px alt="Wedding"
+  48x48 nat=60x60 fit=fill radius=0px alt="App icon"
+  48x48 nat=126x126 fit=fill radius=0px alt="WedShoots icon"
+  48x48 nat=80x80 fit=fill radius=0px alt="illustration plane destination"
+  48x48 nat=80x80 fit=fill radius=0px alt="illustration plane destination"
+  44x44 nat=65x65 fit=fill radius=0px alt=""
+  40x40 nat=80x80 fit=fill radius=0px alt="illustration websites"
+  40x40 nat=80x80 fit=fill radius=0px alt="illustration lightbulb"
+  40x40 nat=80x80 fit=fill radius=0px alt="illustration notebook"
+  88x88 nat=90x90 fit=fill radius=0px alt=""
+  321x214 nat=358x238 fit=fill radius=0px alt="Aaraasta Tales"
+  321x214 nat=358x238 fit=fill radius=0px alt="Afterlife Events & Entertainment"
+  321x214 nat=358x238 fit=fill radius=0px alt="Aesthetic Design Studio"
+  321x214 nat=358x238 fit=fill radius=0px alt="AJ Beats Dance & Event Company"
+  321x214 nat=358x238 fit=fill radius=0px alt="Aesthetic Stories"
+  321x214 nat=358x238 fit=fill radius=0px alt="2cre8memories"
+  321x214 nat=358x238 fit=fill radius=0px alt="Hotel Ayaan Residency"
+  321x214 nat=358x238 fit=fill radius=0px alt="Hotel Highland Resort by DLS Hotels"
+--- TYPE_ROLES
+  h1 "Everything you need to plan your event" {"fontFamily":"Merriweather, Merriweather-fallback-TimesNewRoman, times, serif","fontSize":"20px","fontWeight":"700","lineHeight":"32px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "Enjoy planning your wedding" {"fontFamily":"Merriweather, Merriweather-fallback-TimesNewRoman, times, serif","fontSize":"18px","fontWeight":"700","lineHeight":"30px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "Your free wedding website" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"18px","fontWeight":"600","lineHeight":"23px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "Infinite inspiration" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"18px","fontWeight":"600","lineHeight":"23px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "Destination weddings" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px","fontWeight":"600","lineHeight":"24px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 4px"}
+  card-meta "Destination weddings" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px","fontWeight":"600","lineHeight":"24px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 4px"}
+  card-meta "Share your wedding details - and your love story - with a customisable" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  nav-link "" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"color 0.15s","padding":"0px 16px","margin":"4px 29px 0px"}
+  nav-link "Planning Tools" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"17.6px","fontWeight":"600","lineHeight":"24px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"color 0.15s","padding":"15px 0px","margin":"0px"}
+  nav-link "My Wedding" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px","fontWeight":"600","lineHeight":"24px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"color 0.15s","padding":"0px","margin":"0px"}
+  price "From ₹20,000" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"21px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  price "From ₹1,50,000" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"21px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  price "From ₹1,50,000" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"21px","letterSpacing":"normal","color":"rgb(34, 34, 34)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(34, 34, 34)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+--- HOVER {"before":{"text":"Aaraasta Tales 5.0 (5) · Srinagar (North), Srinagar From ₹20,000","r":{"x":16,"y":1590,"w":331,"h":375},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(34, 34, 34)","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","cursor":"auto","translate":"none","scale":"none"}},"after":{"r":{"w":331,"h":375},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(34, 34, 34)","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+Ir al contenido principal
+Planning Tools
+My Wedding
+Show all
+Checklist
+Guests
+Budget
+Wedding Vendors
+Wedding website
+Hashtag generator
+
+Get the WeddingWire app
+
+Plan your wedding on the go with the WeddingWire app.
+Wedshoots
+Easily collect all of your guests' event photos in one album!
+Wedding Venues
+Venues
+Show all
+Banquet Halls
+Hotels
+Marriage Garden
+Kalyana Mandapams
+Wedding Resorts
+Wedding Lawns Farmhouses
+Promotions
+
+Destination weddings
+
+Easily plan your international wedding.
+Wedding Vendors
+Vendors
+Show all
+Wedding Photographers
+Wedding Videography
+Wedding Music
+Caterers
+Wedding Transportation
+Wedding Invitations
+Wedding Gifts
+Florists
+Wedding Planners
+Wedding Choreographers
+Photobooth
+Wedding DJ
+Wedding Cakes
+Wedding Decorators
+Party Places
+Honeymoon
+Wedding Entertainment
+Tent House
+Promotions
+
+Destination weddings
+
+Easily plan your international wedding.
+Brides
+Brides
+Show all
+Mehndi Artists
+Bridal Makeup Artists
+Makeup Salon
+Bridal Jewellery
+Bridal Lehenga
+Trousseau Packing
+Promotions
+Grooms
+Grooms
+Show all
+Sherwani
+Promotions
+Blogs
+Wedding ideas
+Show all
+Before the wedding
+The wedding ceremony
+The wedding banquet
+The services for your wedding
+Wedding fashion
+Health and beauty
+Honeymoon
+After the wedding
+The wedding reception
+Real Weddings
+
+Find wedding inspiration that fits your style with photos from real couples.
+
+Community
+Community
+Show all
+Gifts and Favours
+Invites and Stationery
+Fitness and Health
+Bachelor & Bachelorette Fun
+Wedding Fashion
+Beauty, Hair & Makeup
+Traditions & Ceremonies
+Honeymoon
+Trending Weddings
+Plan a Wedding
+WeddingWire Tech Support
+Pre-Wedding Functions
+Do It Yourself
+Married Life
+Wedding Trivia
+Community Conversations
+Groups by City
+WedShoots
+Get the WeddingWire app
+Business login
+WedClick
+Everything you need to plan your event
+
+Search over 80,000 local professionals with reviews, pricing, and more.
+
+Search vendors
+
+Take your wedding planning on the go
+
+Get the app
+Enjoy planning your wedding
+Wedding venues
+
+Photos, reviews, and so much more... get in touch from here!
+
+Explore venues
+Vendors
+
+Find the top-rated wedding vendors near you in every category.
+
+Start your search
+Your free wedding website
+
+Share your wedding details - and your love story - with a customisable website.
+
+Personalise your free website
+Infinite inspiration
+
+All the freshest wedding inspiration, trends and ideas in one place.
+
+Get inspired here
+Planning tools
+
+Custom planning tools to manage your checklist, budget, guests and vendors.
+
+Discover our tools
+Wedding Awards
+
+Explore winners in your area.
+
+Aaraasta Tales
+5.0
+(5)
+ · 
+Srinagar (North), Srinagar
+From ₹20,000
+Afterlife Events & Entertainment
+4.9
+(202)
+ · 
+Bara Bazar, Kolkata
+From ₹1,50,000
+Aesthetic Design Studio
+5.0
+(6)
+ · 
+Perambur, Chennai
+From ₹1,50,000
+AJ Beats Dance & Event Company
+5.0
+(23)
+ · 
+Pune University, Pune
+From ₹4,000
+1 promotion -10%
+Discount
+Aesthetic Stories
+4.9
+(43)
+ · 
+Dharampur, Dehradun
+From ₹40,000
+2cre8memories
+4.9
+(60)
+ · 
+Old Goa, North Goa
+From ₹1,00,000
+Meet the winners
+Featured wedding vendors
+PREMIUM
+Hotel Ayaan Residency
+4.9
+(7)
+ · 
+Noida Expressway, Noida
+From ₹1,000
+40 to 200
+Guests
+1 promotion -10%
+Discount
+PREMIUM
+Hotel Highland Resort by DLS Hotels
+5.0
+(11)
+ · 
+Mussoorie, Dehradun
+From ₹1,300
+100 to 300
+Guests
+1 promotion -15%
+Discount
+PREMIUM
+Ripples Resort
+Khadakwasla, Pune
+From ₹750
+100 to 1000
+Guests
+1 promotion -5%
+Discount
+PREMIUM
+Bon Vivant Lifestyle Resort
+Nashik Road, Nashik
+From ₹1,800
+100 to 2000
+Guests
+1 promotion -10%
+Discount
+PREMIUM
+Firefox Sports & Resorts
+Moinabad, Ranga Reddy
+From ₹2,000
+100 to 2000
+Guests
+PREMIUM
+Wood Stock Acers Villa Resort
+Ghodbunder Road, Mumbai
+From ₹750
+35 to 5000
+Guests
+1 promotion -3%
+Discount
+PREMIUM
+Surya Grand Banquets
+4.0
+(29)
+ · 
+Sector 7, Dwarka, Dwarka
+From ₹950
+50 to 1000
+Guests
+1 promotion -5%
+Discount
+PREMIUM
+Sawan Banquets
+4.3
+(8)
+ · 
+Moti Nagar - Kirti Nagar, West Delhi
+From ₹850
+100 to 600
+Guests
+1 promotion -5%
+Discount
+PREMIUM
+Omnia by Tivoli, Dwarka
+5.0
+(11)
+ · 
+Kapashera - Samalkha - Rajokri, South Delhi
+From ₹2,999
+200 to 2000
+Guests
+1 promotion -10%
+Discount
+PREMIUM
+TKS Lawns & Banquet , Vashi
+Vashi, Mumbai
+From ₹600
+600
+Guests
+PREMIUM
+GCC Hotel and Club
+4.3
+(10)
+ · 
+Mira Road, Mumbai
+From ₹1,100
+30 to 5000
+Guests
+PREMIUM
+Orriva by Awadh
+4.9
+(3)
+ · 
+Raj Nagar, Ghaziabad
+From ₹3,000
+100 to 1500
+Guests
+1 promotion -5%
+Discount
+PREMIUM
+The Amore Collective
+5.0
+(2)
+ · 
+Yelahanka - Kempegowda International Airport, Bangalore
+From ₹699
+25 to 800
+Guests
+PREMIUM
+Hotel Mystic Falls
+4.7
+(2)
+ · 
+Mansarovar - Sanganer, Jaipur
+From ₹700
+30 to 300
+Guests
+1 promotion -10%
+Discount
+PREMIUM
+Prisha Banquet
+4.7
+(3)
+ · 
+Ghodbunder Road, Mumbai
+From ₹699
+100 to 1000
+Guests
+1 promotion -5%
+Discount
+PREMIUM
+MJ Fun City & Resort
+4.7
+(22)
+ · 
+Indira Nagar, Lucknow
+From ₹1,400
+200 to 1500
+Guests
+1 promotion -10%
+Discount
+PREMIUM
+The Fern Residency, Udaipur
+5.0
+(10)
+ · 
+Udaipur City, Udaipur
+From ₹1,250
+50 to 300
+Guests
+1 promotion -5%
+Discount
+PREMIUM
+Royal Greens Banquets & Lawns
+4.9
+(2)
+ · 
+Aashiana, Lucknow
+From ₹1,150
+110 to 1000
+Guests
+1 promotion -15%
+Discount
+PREMIUM
+Ganeshwaram Banquets, Sector 149
+Sector 135, Noida, Noida
+From ₹2,500
+100 to 800
+Guests
+1 promotion -10%
+Discount
+PREMIUM
+Sayaji Resorts and Spa, Udaipur
+Girwa, Udaipur
+From ₹5,999
+30 to 1000
+Guests
+Wedding Venues
+Wedding Photographers
+Wedding Planners
+Bridal Makeup Artists
+Wedding Decorators
+Caterers
+Wedding Invitations
+Real Weddings
+
+Get inspired by real couples in your area and find wedding suppliers you love.
+
+Ankita & Advit
+57 photos · Mumbai Central, Mumbai
+Saumya & Rohit
+75 photos · MG Road, Gurgaon, Gurgaon
+Suminder & Deepika
+37 photos · Dera Bassi, Zirakpur
+Sachee & Himanshu
+35 photos · Samalka, South Delhi
+Explore more real weddings
+Wedding ideas and tips
+
+Get inspired with the latest trends and advice from our wedding experts.
+
+Before the wedding
+The wedding ceremony
+The wedding banquet
+The services for your wedding
+Wedding fashion
+Health and beauty
+BEFORE THE WEDDING
+Everything You Need to Know About the Handfasting Ceremony
+PLANNING YOUR WEDDING
+The Ultimate Wedding Planning Checklist: Step-by-Step Guide for Your Big Day
+PLANNING YOUR WEDDING
+WWIxPinterest Presents: The 14 Biggest Wedding Trends of 2026
+WEDDING DECORATION
+35+ Flower Wall Decoration Ideas to Instantly Elevate Any Celebration
+Browse all articles
+Community
+
+Ask questions and get answers with the help of other people planning weddings.
+
+a Pest-free Home Before Your Romantic Getaway
+
+Before heading off on your honeymoon, make sure your home is clean, comfortable, and pest-free. At Shayari Planet, we...
+
+Walliam
+
+The 15 September, 2026 at 15:02
+Dubai metro maps
+
+The Dubai Metro map features a simple, color-coded layout designed for effortless navigation across the city's key...
+
+Uae
+
+The 11 September, 2026 at 13:52
+Discover all discussions
+Create your wedding website
+
+Quickly set up and share all of your details in one place.
+
+Check out more designs
+Plan your destination wedding
+
+No matter where in the world you want to get married, WeddingWire's directory of international wedding professionals can help you celebrate.
+
+*Local laws may restrict service availability to all. See the Equality Index for more information.
+
+Brazil
+France
+Italy
+Mexico
+Portugal
+Spain
+United Kingdom
+Discover all destinations
+
+Get the free app
+
+Keep vendor messages, RSVPs, budgets and to-dos in one place.
+
+Wedding vendors by category
+Wedding Venues
+Banquet Halls  Hotels  Marriage Garden  Kalyana Mandapams  Wedding Resorts  Wedding Lawns Farmhouses
+Wedding Vendors
+Caterers  Wedding Invitations  Wedding Gifts  Wedding Photographers  Wedding Music  Wedding Transportation  Tent House  Wedding Entertainment  Florists  Wedding Planners  Wedding Videography  Honeymoon  Wedding Decorators  Wedding Cakes  Wedding DJ  Pandits  Photobooth  Astrologers  Party Places  Wedding Choreographers
+Brides
+Mehndi Artists  Bridal Makeup Artists  Makeup Salon  Bridal Jewellery  Bridal Lehenga  Trousseau Packing
+Grooms
+Sherwani
+Wedding vendors by location
+Maharashtra
+Delhi NCR
+Uttar Pradesh
+Rajasthan
+Karnataka
+Tamil Nadu
+Telangana
+Gujarat
+West Bengal
+Uttarakhand
+Goa
+Punjab
+Chandigarh
+Madhya Pradesh
+Kerala
+Bihar
+Himachal Pradesh
+Andhra Pradesh
+Odisha
+Information
+Contact us
+ 
+Terms & privacy
+ 
+Your Privacy Choices
+ 
+Register your business
+ 
+About us
+ 
+Editorial team & policies
+ 
+Careers
+ 
+Wedding Awards 2026
+ 
+Wedding website
+Get the WeddingWire app
+Follow us on
+Choose a country
+India
+
+© 2026 WeddingWire
+
+1
+Simran
+
+WeddingWire Support
+
+WeddingWire has thousands of venues and wedding professionals to choose from with pricing, reviews and more. I'd like to help you choose the ones that best fit your dream wedding.
+
+Conditions of use of WeddingWire.in
+16/10/2026
+Hi! I'm Simran, your (totally free) wedding planning assistant. Would you like me to help you find venues and wedding vendors for your wedding?
+01:03
+Yes, please!No, thanks.
+STAGE pre-write 17256 ms STAGE done 17367 ms

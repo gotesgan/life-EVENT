@@ -1,0 +1,336 @@
+URL_REQUESTED https://www.zola.com/wedding-vendors/search/wedding-venues
+STATUS 200
+FINAL_URL https://www.zola.com/wedding-vendors/search/wedding-venues
+TITLE The Best 10 Wedding Venues - Zola
+STAGE pre-screenshot 20418 ms
+SCREENSHOT docs/research/shots/zola-listing.png
+STAGE pre-extract 21437 ms
+STAGE pre-hover 21569 ms
+RAW docs/research/raw/zola-listing.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(14, 14, 14)","fontFamily":"circular, helvetica, sans-serif","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 486x32 "The Best Wedding Venues"
+  H2 338x40 "Get Expert Vendor Advice"
+  H2 1360x32 "About wedding venues"
+  H3 1360x24 "How much do wedding & reception venues cost?"
+  H3 1360x24 "What questions should we ask wedding venues?"
+--- HEADER {"position":"relative","top":"0px","height":"189px","backgroundColor":"rgb(255, 255, 255)","borderBottom":"1px solid rgb(183, 183, 183)","boxShadow":"none","zIndex":"auto"} 1440x189
+--- HEADER_TEXT Sale 40% off* invites & paper through 10/19 with code SPOOKY40 Terms Explore designs Zola Baby (opens in a new tab) Zola Home (opens in a new tab) Zola for vendors (opens in a new tab) Plan your wedding Expert advice Find a couple Log in Get started Wedding venues Vendors Destination weddings Become a vendor
+--- HEADER_LINKS Sale 40% off* invites & paper through 10/19 with code SPOOKY | Terms | Zola Baby (opens in a new tab) | Zola Home (opens in a new tab) | Zola for vendors (opens in a new tab) | Plan your wedding | Expert advice | Find a couple | Search | Shopping cart | Log in | Get started | Wedding venues | Vendors | Destination weddings | Become a vendor
+--- NAV_ALL Plan your wedding | Expert advice | Find a couple | Wedding Vendors | Wedding and reception venues | Our story | Become a Zola vendor | Reviews | Zola Baby | Careers | Press | Expert advice | FAQs | Track order | Start a return | Return policy | Contact us | Team Z advisors | Log in | Find a couple | Find a baby registry | Get started | Privacy | Terms | Your privacy choices | Web accessibility
+--- SEARCH_INPUTS
+  {"tag":"DIV","type":null,"ph":null,"aria":null,"name":null,"r":{"x":1021,"y":244,"w":291,"h":44}}
+  {"tag":"INPUT","type":"text","ph":"Location","aria":"Search by location","name":null,"r":{"x":1053,"y":257,"w":222,"h":18}}
+  {"tag":"DIV","type":null,"ph":null,"aria":null,"name":null,"r":{"x":721,"y":244,"w":291,"h":44}}
+  {"tag":"INPUT","type":"text","ph":"Vendor type","aria":"Search by vendor type","name":null,"r":{"x":767,"y":257,"w":209,"h":18}}
+--- FILTER_CONTAINERS
+  [0] DIV "desktopFilters__YmY3Nzgx" {"x":40,"y":333,"w":300,"h":10030} CTRLS=[{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Price"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Availability"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Capacity"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Indoor/outdoor"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Venue type"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Included"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Award winners"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Amenities"},{"tag":"BUTTON","type":"button","role":null,"aria":"","label":"Event types"}]
+--- CARDS
+  [0] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [1] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [2] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [3] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [4] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [5] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [6] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [7] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [8] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [9] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [10] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [11] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [12] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+  [13] imgRatio=1.5 332x221 alt=""
+     d0 DIV "emblaSlide__MDU5Njk1 carouselPhoto__ODZlZDU5" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(243, 243, 243)","padding":"0px 0px 222.438px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "emblaContainer__MDRlMjRl" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d2 DIV "emblaViewport__OWI5ZTg2" 332x222 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "carouselContainer__MzY5ODhk" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "cardBody__MzBiNDc2 vendor-card-photo" 332x222 {"borderRadius":"16px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 222.438px","transition":"0.3s ease-in-out","overflow":"visible","display":"flex","gap":"normal"} TEXT="Quick responder"
+--- IMAGES
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  56x56 nat=320x320 fit=fill radius=0px alt="Awarded Best of Zola"
+  80x60 nat=1440x1080 fit=cover radius=8px alt=""
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  56x56 nat=320x320 fit=fill radius=0px alt="Awarded Best of Zola"
+  80x60 nat=1440x1080 fit=cover radius=8px alt=""
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  332x221 nat=1440x960 fit=cover radius=0px alt=""
+  56x56 nat=320x320 fit=fill radius=0px alt="Awarded Best of Zola"
+--- TYPE_ROLES
+  h1 "The Best Wedding Venues" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"24px","fontWeight":"600","lineHeight":"32px","letterSpacing":"-0.72px","color":"rgb(14, 14, 14)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(14, 14, 14)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "Get Expert Vendor Advice" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"32px","fontWeight":"400","lineHeight":"40px","letterSpacing":"-1.28px","color":"rgb(14, 14, 14)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(14, 14, 14)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "About wedding venues" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"24px","fontWeight":"400","lineHeight":"32px","letterSpacing":"-0.72px","color":"rgb(14, 14, 14)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(14, 14, 14)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "How much do wedding & reception venues cost?" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"20px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(14, 14, 14)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(14, 14, 14)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 16px"}
+  card-meta "5.0" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"22px","letterSpacing":"normal","color":"rgb(14, 14, 14)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(14, 14, 14)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "Willowdale Estate is a private mansion, just 30-miles north of Boston," {"fontFamily":"circular, helvetica, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"20px","letterSpacing":"normal","color":"rgb(74, 74, 74)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(74, 74, 74)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "Why you'll love this venue" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"14px","fontWeight":"600","lineHeight":"22px","letterSpacing":"normal","color":"rgb(74, 74, 74)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(74, 74, 74)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  nav-link "Sale 40% off* invites & paper through 10/19 with code SPOOKY40 Terms E" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"16px","fontWeight":"600","lineHeight":"22.8571px","letterSpacing":"normal","color":"rgb(14, 14, 14)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(14, 14, 14)","boxShadow":"none","transition":"opacity 0.5s ease-in","padding":"0px","margin":"0px"}
+  nav-link "Zola Baby (opens in a new tab)" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"12px","fontWeight":"400","lineHeight":"normal","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  nav-link "Zola Home (opens in a new tab)" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"12px","fontWeight":"400","lineHeight":"normal","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+--- HOVER {"before":{"text":"","r":{"x":380,"y":422,"w":332,"h":222},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(14, 14, 14)","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","cursor":"pointer","translate":"none","scale":"none"}},"after":{"r":{"w":332,"h":222},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(74, 74, 74)","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+Web Accessibility
+Sale
+
+40% off* invites & paper through 10/19 with code SPOOKY40
+
+Terms
+
+Explore designs
+
+Zola Baby
+(opens in a new tab)
+
+Zola Home
+(opens in a new tab)
+
+Zola for vendors
+(opens in a new tab)
+
+Plan your wedding
+Expert advice
+Find a couple
+Log in
+Get started
+Wedding venues
+Vendors
+Destination weddings
+Become a vendor
+Wedding Vendors/
+Wedding and reception venues
+The Best Wedding Venues
+
+How do we sort results, including Sponsored Ads and personalized results?
+
+Search
+Price
+Availability
+Capacity
+Indoor/outdoor
+Venue type
+Included
+Award winners
+Amenities
+Event types
+
+1000+ Wedding Venues
+
+Sort: Distance
+Quick responder
+Willowdale Estate 
+Rating: 5.0 (183 reviews)
+
+5.0
+
+·
+Ratings include Zola and Google reviews
+Topsfield, MA
+Up to 240 guests
+All-inclusive
+Indoor & outdoor
+
+Willowdale Estate is a private mansion, just 30-miles north of Boston, Massachusetts. Located within a 720-acre state forest, and along the pristine Ipswich River. Our private estate is the perfect setting for a New England wedding ceremony and reception. Our coordination team and catering staff will execute your plan with grace, leaving you free to enjoy the party and mix with your guests. At Willowdale Estate, we host two wedding seasons. Our Tent Season from May-October is perfect for parties between 125-240 guests, and our Mansion Season from November-April is better suited for smaller parties between 80-125 guests inside our Estate. As you search for a venue, we would love to hear from you! We can send open dates, host a tour of our space, or create a quote for you. We celebrate the differences that make each client event unique, and warmly welcome people of every race, religion, and gender identity. Thank you for viewing our venue!
+
+Why you'll love this venue
+
+Multiple event spaces
+Accommodates more than 200 guests
+Has a dance floor for celebration
+
+Venue considerations
+
+Venue feels large for events with small guest lists
+No on-premises lodging options
+Lighting and sound are not included
+“Paige and I cannot give a higher recommendation for Allison and the entire team at Willowdale Estate. Our wedding day was absolutely spectacular, and Ally made sure every detail was exactly how we envisioned it. We truly can’t overstate how much she contributed to making our day so special—she is an absolute professional in every sense. From start to finish, we didn’t have to worry about a single thing. If you’re considering Willowdale for your wedding, do yourself a favor and check them out.”
+Read more
+Bradley & P., 10 months ago
+Quick responder
+Bakers Ranch - Florida's Premier Top Rated All Inclusive Wedding Venue 
+Rating: 4.9 (178 reviews)
+
+4.9
+
+·
+Ratings include Zola and Google reviews
+Parrish, FL
+Up to 200 guests
+All-inclusive
+Indoor & outdoor
+Starts at $18,500
+
+With our Simply Incredible All Inclusive Wedding Experience, you will be treated to your customized and worry-free wedding. Your wedding party and family will be stress free and will enjoy this once in a lifetime moment with you! Start your wedding planning in style by touring our beautiful wedding venue in stunning 3D or schedule a tour with us in person. Our "Simply Incredible" All Inclusive Package for up to 50 guests starts at $17,500. This price Includes Reception space, Ceremony site (four different options), Bridal suite, Grooms Cave, taxes and gratuities, full planning and event coordination, design session, tables and chairs, linens, catering, cake, fresh flowers, DJ, uplighting, chandeliers, twinkle lights, ceremony site decor, reception decor, bar with a variety of mixers + bartender, parking attendant + private security, setting up and breaking down and much more!
+
+Why you'll love this venue
+
+All-inclusive venue packages
+Bridal suite on site
+Provides a dedicated team on-site
+
+Venue considerations
+
+Best for events with big guest lists
+Not for you if you don't want a rustic vibe
+“I knew with my busy work schedule it would be difficult to plan a wedding all by myself and that wedding planners are expensive. Baker's Ranch provides an all inclusive experience from start to finish with their lovely staff and made it so easy. The venue itself if beautiful and has a lot of variety and photo backdrop magic. They were very communicative and professional throughout the whole process. You can have design sessions and they can bring whatever vision you have for your special day to life. I'm so glad I got married here.”
+Read more
+Jackie Y., 2 years ago
+Quick responder
+The Villa at Ridder Country Club 
+Rating: 5.0 (167 reviews)
+
+5.0
+
+·
+Ratings include Zola and Google reviews
+East Bridgewater, MA
+Up to 280 guests
+All-inclusive
+Outdoor & indoor
+Offer
+
+Whether you’re looking for sophisticated, indoor elegance or upscale, outdoor chic, The Villa is host to three unique and distinctive spaces perfect for your special day. With separate ceremony options, you can exchange vows under the charming outdoor pergola or transform a ballroom into a sacred ceremony space. No matter the season, The Grand Ballroom, Madera Ballroom, and the Tent offer diverse and captivating options for every taste and style. SAPHIRE EVENT GROUP VENUES: Avenir | The Lakehouse | Saphire Estate | The Villa | Rosemont
+
+Why you'll love this venue
+
+Has a sophisticated vibe
+Has a dance floor to dance the night away
+Provides setup and cleanup
+
+Venue considerations
+
+Not for you if you are looking for something nontraditional
+Large venue, not ideal for small guest lists
+No on-site guest accommodations
+“The Villa at Ridder Country Club was the perfect venue for our wedding. From the moment we started planning, the staff was incredibly communicative and responsive, answering our questions quickly, even in emergencies. On the day of, the venue was beautiful, up-to-date, and spotlessly clean. The staff were wonderful and attentive, with Becky in particular seeming to know what we needed before we did. We heard great things about the venue beforehand, and the overall experience truly exceeded our expectations. We will be raving about The Villa at Ridder Country Club and its amazing team for years to come.”
+Read more
+Victoria L., a year ago
+Quick responder
+A Simple Affair 
+Rating: 4.9 (139 reviews)
+
+4.9
+
+·
+Ratings include Zola and Google reviews
+Las Vegas, NV
+Up to 200 guests
+Select services
+Indoor
+Starts at $1,000
+
+A Simple Affair is a full-service event venue located in Las Vegas, Nevada. This venue offers a relaxing and breathtaking atmosphere for your wedding ceremony and reception. With its reclaimed wood-paneling and wooden furniture, you'll experience a rustic-chic environment like no other. A Simple Affair has got you covered with something for everyone and offers a wide range of services.
+
+Why you'll love this venue
+
+Pets can join the celebration
+Rustic charm with elegance
+Provides event staff
+
+Venue considerations
+
+Not for you if you're looking for a sleek and contemporary space
+Not wheelchair accessible
+Dance floor not included
+“Had a great time attending two different friends’ wedding at a simple affair - the space was beautiful and the perfect size for the amount of guests. I know the bride and groom at both loved being able to bring in their own vendors, which was nice that the venue allowed for something different compared to typical wedding venues. Jess Hoge was a really great planner for one of the weddings, it couldn’t have gone so smoothly without her!”
+Read more
+Angela R., 2 years ago
+Quick responder
+Mountain Crust Event Venue 
+Rating: 5.0 (136 reviews)
+
+5.0
+
+·
+Ratings include Zola and Google reviews
+Denver, CO
+Up to 175 guests
+All-inclusive
+Indoor & outdoor
+Starts at $7,000
+
+Welcome to Mountain Crust Event Venue! Owned and operated by Colorado's hottest catering company (Mountain Crust), this venue offers a rooftop bar, unobstructed mountain views, and an incredible backyard for any and all types of private events. Whether you're looking for a space for your wedding ceremony and reception, your welcome dinner, or post elopement party, we've got you covered! Not only are we located just 15 minutes from Downtown Denver, we're the most affordable one-stop-shop event space in the Denver area. We offer entire venue rental, full bar packages, an extensive catering menu, tables and chairs, staffing, day-of coordination, and event setup & teardown for a price you wouldn't believe! Inquire today for more info on our availability and pricing for your big day.
+
+Why you'll love this venue
+
+Dressing room available
+Wheelchair accessible
+Flexible event spaces
+
+Venue considerations
+
+No on-premises lodging options
+“Mountain Crust puts on a perfect wedding (& a purr-fect pizza--yes they made a cat-shaped pizza for our "first pizza")!!! From the moment you start touring their venue, it's obvious how much they care & think about every single detail! From things like tackling our unique menu requests like chicken/cauliflower tikka pizza, to their commitment to hosting low-impact weddings with minimal waste, and even things like queuing up a few s
+STAGE pre-write 22638 ms STAGE done 22992 ms

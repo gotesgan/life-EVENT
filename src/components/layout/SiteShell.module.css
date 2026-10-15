@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  background-color: var(--app-surface);
+}
+
+/*
+ * Skip link: hidden until it receives keyboard focus, then pinned to the
+ * top-left corner above the header. It is the first focusable element on every
+ * page, so a keyboard user can bypass the whole nav in one Tab.
+ */
+.skipLink {
+  position: absolute;
+  top: rem(8px);
+  left: rem(8px);
+  z-index: 500;
+  padding: rem(10px) rem(16px);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-brand);
+  color: var(--app-brand-contrast);
+  font-size: var(--text-button-size);
+  font-weight: var(--text-button-weight);
+  text-decoration: none;
+  transform: translateY(-200%);
+
+  &:focus-visible {
+    transform: translateY(0);
+  }
+}
+
+.main {
+  flex: 1 1 auto;
+  /* The fixed header must not overlap either the content or the scroll anchor. */
+  min-width: 0;
+  /* `#main-content` is the skip link's target; without this the sticky header
+     covers the first line of the page after the jump. */
+  scroll-margin-block-start: var(--app-header-height);
+}

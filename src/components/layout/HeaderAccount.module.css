@@ -1,0 +1,5 @@
+.account {
+  display: flex;
+  align-items: center;
+  gap: var(--mantine-spacing-xs);
+}

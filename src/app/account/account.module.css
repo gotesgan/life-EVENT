@@ -1,0 +1,409 @@
+/*
+ * Shared layout for the customer account surfaces.
+ *
+ * Every account page is the same shape: a page header, the account nav, then a
+ * small number of panels. The classes here own that rhythm so the four pages
+ * stay consistent and no page restates spacing.
+ *
+ * Density comes from `--app-card-padding` and `--app-radius-card`, which the
+ * `.surface--dense` context re-values — the enquiry list opts into it on the
+ * page, and nothing here hard-codes a padding the context cannot reach.
+ */
+
+/* Overview ---------------------------------------------------------------- */
+
+.stats {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: rem(12px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: rem(4px);
+  min-width: 0;
+}
+
+.statLabel {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: var(--text-label-leading);
+}
+
+/* The three counts are one comparable value in the same slot on every card, so
+   they are the largest and heaviest thing in the row and their digits align. */
+.statValue {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-h2-size);
+  font-weight: var(--text-h2-weight);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: var(--text-h2-tracking);
+  line-height: 1.05;
+}
+
+.statHint {
+  margin: 0;
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: rem(16px);
+  margin-top: rem(24px);
+
+  @mixin larger-than $mantine-breakpoint-md {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  }
+}
+
+/* A panel owns its internal rhythm, so no child carries a margin. */
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: rem(16px);
+  min-width: 0;
+}
+
+.panelHead {
+  display: flex;
+  flex-direction: column;
+  gap: rem(4px);
+  min-width: 0;
+}
+
+.panelTitle {
+  margin: 0 0 rem(12px);
+  color: var(--app-text);
+  font-size: var(--text-card-title-size);
+  font-weight: var(--text-card-title-weight);
+  line-height: var(--text-card-title-leading);
+  letter-spacing: var(--text-card-title-tracking);
+}
+
+/* Inside a head block the panel's own rhythm provides the gap. */
+.panelHead .panelTitle {
+  margin-bottom: 0;
+}
+
+.panelNote {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+}
+
+/* Definition list ---------------------------------------------------------- */
+
+.dl {
+  display: grid;
+  grid-template-columns: minmax(0, 6.5rem) minmax(0, 1fr);
+  gap: rem(12px) rem(16px);
+  margin: 0;
+}
+
+/* The same definition list, separated from the block above it. */
+.dlSpaced {
+  composes: dl;
+  margin-top: var(--app-stack-gap);
+}
+
+@mixin smaller-than $mantine-breakpoint-xs {
+  .dl {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  .dt {
+    margin-top: rem(14px);
+  }
+
+  .dt:first-child {
+    margin-top: 0;
+  }
+
+  .dd {
+    margin-top: rem(2px);
+  }
+}
+
+.dt {
+  color: var(--app-text-muted);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: 1.4;
+}
+
+.dd {
+  min-width: 0;
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+  overflow-wrap: anywhere;
+}
+
+.ddValue {
+  display: block;
+}
+
+.readOnlyNote {
+  display: block;
+  margin-top: rem(4px);
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+}
+
+/* Enquiry rows ------------------------------------------------------------
+   One row per enquiry. The reference code is the scan anchor — monospace and
+   tabular so a column of them lines up — and the stage sits at the opposite end
+   of the same row with a dot as well as a label. */
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: rem(8px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Inside a raised panel the row steps *down* to the canvas so the border is
+   what separates it; on the page itself it steps up. */
+.listInset .item {
+  background-color: var(--app-surface);
+}
+
+.item {
+  min-width: 0;
+  padding: var(--app-card-padding);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-raised);
+}
+
+.itemHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(8px) rem(12px);
+}
+
+.itemTitle {
+  margin: 0;
+  min-width: 0;
+}
+
+.itemLink {
+  color: var(--app-text);
+  font-family: var(--mantine-font-family-monospace, monospace);
+  font-size: var(--text-body-size);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+
+  @mixin hover {
+    color: var(--app-brand);
+    text-decoration: underline;
+  }
+}
+
+.itemMeta {
+  margin: rem(8px) 0 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.itemBusinesses {
+  color: var(--app-text);
+  font-weight: 550;
+}
+
+.itemDescription {
+  margin: rem(8px) 0 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: rem(10px);
+}
+
+/* For an actions row that is a sibling of a panel rather than inside one. */
+.actionsSpaced {
+  composes: actions;
+  margin-top: rem(20px);
+}
+
+.section {
+  margin-top: rem(20px);
+}
+
+/* Enquiry detail ---------------------------------------------------------- */
+
+.detailGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: rem(16px);
+
+  @mixin larger-than $mantine-breakpoint-md {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  }
+}
+
+.providerList {
+  display: flex;
+  flex-direction: column;
+  gap: rem(12px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* These rows sit inside a raised panel, so they step down to the canvas and let
+   the border do the separating. */
+.providerList .item {
+  background-color: var(--app-surface);
+}
+
+.providerHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(8px) rem(12px);
+}
+
+.providerName {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-body-size);
+  font-weight: 700;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.providerMeta {
+  margin: rem(4px) 0 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+}
+
+.providerStatus {
+  margin: rem(8px) 0 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: rem(6px);
+  margin: rem(14px) 0 0;
+  padding: rem(14px) 0 0;
+  border-top: 1px solid var(--app-border);
+  list-style: none;
+}
+
+.contactRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: rem(4px) rem(8px);
+  margin: 0;
+  font-size: var(--text-secondary-size);
+}
+
+.contactLabel {
+  min-width: rem(5rem);
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: 650;
+  line-height: var(--text-secondary-leading);
+}
+
+.contactValue {
+  min-width: 0;
+  color: var(--app-text);
+  line-height: var(--text-secondary-leading);
+  overflow-wrap: anywhere;
+}
+
+.contactValue a {
+  color: var(--app-brand);
+}
+
+/*
+ * The designed state for a contact channel the customer cannot see yet.
+ *
+ * It is not a blank and not an error: a dashed rule marks it as deliberate, and
+ * the sentence the API supplies says what will happen to it.
+ */
+.notice {
+  margin: rem(12px) 0 0;
+  padding: rem(12px) rem(14px);
+  border: 1px dashed var(--app-border-strong);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-surface-muted);
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+}
+
+.noticeLabel {
+  display: block;
+  margin-bottom: rem(2px);
+  color: var(--app-text);
+  font-weight: 650;
+}
+
+/* A value the visitor chose not to supply. Muted, never a number and never a
+   dash — the sentence says which fact is missing. */
+.notGiven {
+  color: var(--app-text-muted);
+}
+
+.muted {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+/* Result count above a list, so the page never claims a total it cannot show. */
+.resultsMeta {
+  margin: 0 0 rem(12px);
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  font-variant-numeric: tabular-nums;
+  line-height: var(--text-caption-leading);
+}

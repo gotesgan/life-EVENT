@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(rem(150px), 1fr));
+  gap: rem(10px) rem(20px);
+  margin: 0;
+  padding: rem(16px) rem(18px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-muted);
+}
+
+.fact {
+  display: flex;
+  flex-direction: column;
+  gap: rem(2px);
+  min-width: 0;
+}
+
+.label {
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-label-weight);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.value {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-secondary-size);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}

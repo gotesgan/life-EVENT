@@ -1,0 +1,96 @@
+/*
+ * The overview dashboard.
+ *
+ * Two jobs, in this order: answer "is anything on fire" in one screen, then route
+ * the reader into the surface that fixes it. The metric row does the first; the
+ * two breakdown panels and the recent-listings table do the second.
+ *
+ * The dashboard deliberately has no chart and no trend line. Every number here
+ * is a current count from one query, and a line drawn through counts the
+ * platform does not retain would be decoration pretending to be analysis.
+ */
+
+/* Section: a heading, then its content. The head is a real row so a "all
+   listings" link can sit on the same baseline as the heading it belongs to. */
+.section {
+  margin-top: var(--app-section-gap);
+}
+
+.sectionHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-md);
+  flex-wrap: wrap;
+  margin-bottom: var(--mantine-spacing-sm);
+}
+
+/* Breakdown rows ------------------------------------------------------------
+   Label left, count right. The count column is fixed and right-aligned so five
+   rows read as a column of numbers, not five different-length lines. */
+
+.breakdown {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.breakdownRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-sm);
+  min-height: rem(34px);
+  padding-block: rem(5px);
+  border-bottom: 1px solid var(--app-border);
+}
+
+.breakdownRow:last-child {
+  border-bottom: 0;
+}
+
+.breakdownLabel {
+  min-width: 0;
+  font-size: var(--text-secondary-size);
+  color: var(--app-text);
+}
+
+.breakdownLink {
+  min-width: 0;
+  font-size: var(--text-secondary-size);
+  font-weight: 550;
+  color: var(--app-text);
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  @mixin hover {
+    color: var(--app-brand);
+    text-decoration: underline;
+  }
+}
+
+/* A count in a column: tabular, right-aligned, and the same width in every row
+   so the numbers form an edge the eye can run down. */
+.breakdownCount {
+  flex: none;
+  min-width: rem(48px);
+  text-align: end;
+  font-size: var(--text-dense-size);
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  color: var(--app-text);
+}
+
+/* The two breakdown panels are the same object, side by side. `align-items:
+   stretch` keeps their headers on one line even when one list is longer. */
+.breakdownPanel {
+  height: 100%;
+}
+
+.panelBody {
+  margin-top: var(--mantine-spacing-sm);
+}

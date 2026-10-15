@@ -1,0 +1,155 @@
+URL_REQUESTED https://micebook.com/
+STATUS 200
+FINAL_URL https://micebook.com/
+TITLE The eventprof community home - micebook.
+STAGE pre-screenshot 71993 ms
+SCREENSHOT docs/research/shots/micebook-desktop.png
+STAGE pre-extract 87627 ms
+STAGE pre-hover 87847 ms
+RAW docs/research/raw/micebook-desktop.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(119, 119, 119)","fontFamily":"\"Open Sans\"","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H2 529x86 "Monaco: one destination, endless possibilities"
+  H2 208x65 "The Shortcut to a More Sustainable Meeting in Washington, DC"
+  H2 208x65 "Discover Sotogrande: Where sport, nature and Mediterranean living meet"
+  H2 208x65 "Venue Showcase: PortAventura Business & Events: Where business meets experience"
+  H2 208x80 "Inside Convene Hospitality’s Next Chapter: New Flagship Venues in London and New York"
+  H2 208x65 "Costa del Sol: a MICE destination that has it all"
+  H2 556x86 "Moving together: X: by micebook 2026 highlights"
+  H2 208x65 "Yellow Fish owners launch The Curiosity Collective and new experiential agency"
+  H2 208x65 "Case Study: How Principal brought 50 years of Day Lewis to life"
+  H2 212x62 "Only 5% of event profs truly understand their clients’ hidden barriers, PCMA research finds"
+  H2 208x65 "James Wallman announced as keynote speaker for micebook LUXE 2026"
+  H2 208x65 "What a Difference a Day Makes: 24 hours at Fairmont Cheshire The Mere"
+  H4 1170x26 "Nineteen Unfiltered"
+  H3 1170x33 "Join Our Community"
+  H2 255x40 "Our events"
+  H2 255x40 "Inspiration"
+  H2 255x40 "About us"
+--- HEADER {"position":"relative","top":"0px","height":"60px","backgroundColor":"rgba(0, 0, 0, 0)","borderBottom":"0px none rgb(119, 119, 119)","boxShadow":"none","zIndex":"999"} 1440x60
+--- HEADER_TEXT | Instagram LinkedIn Flickr community events articles destinations media kit
+--- HEADER_LINKS user | cart | Instagram | LinkedIn | Flickr | community | events | articles | destinations | media kit
+--- NAV_ALL community | events | articles | destinations | media kit
+--- SEARCH_INPUTS
+  {"tag":"INPUT","type":"text","ph":"Name*","aria":null,"name":"your-firstname","r":{"x":155,"y":15820,"w":363,"h":44}}
+  {"tag":"INPUT","type":"text","ph":"Company","aria":null,"name":"your-company","r":{"x":538,"y":15820,"w":363,"h":44}}
+  {"tag":"INPUT","type":"text","ph":"Email*","aria":null,"name":"your-email","r":{"x":922,"y":15820,"w":363,"h":44}}
+  {"tag":"INPUT","type":"checkbox","ph":null,"aria":null,"name":"your-consent","r":{"x":159,"y":16004,"w":13,"h":13}}
+  {"tag":"INPUT","type":"submit","ph":null,"aria":null,"name":null,"r":{"x":155,"y":16063,"w":112,"h":47}}
+--- FILTER_CONTAINERS
+--- CARDS
+  [0] imgRatio=1.5 755x503 alt=""
+     d0 A "" 755x22 {"borderRadius":"0px","border":"0px none rgb(241, 177, 68)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Sponsored Content"
+     d1 DIV "img-cont-left rel" 755x509 {"borderRadius":"0px","border":"0px none rgb(119, 119, 119)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Sponsored Content"
+     d2 DIV "inner-left" 755x509 {"borderRadius":"0px","border":"0px none rgb(119, 119, 119)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Sponsored Content Monaco: one destination, endless possibilities"
+     d3 DIV "wpb_column grve-column grve-column-2-3 left-cont" 780x509 {"borderRadius":"0px","border":"0px none rgb(119, 119, 119)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 25px 0px 0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Sponsored Content Monaco: one destination, endless possibilities"
+     d4 DIV "grve-container" 1170x509 {"borderRadius":"0px","border":"0px none rgb(119, 119, 119)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Sponsored Content Monaco: one destination, endless possibilities The Shortcut to a More Sustainable Meeting in Washington, DC Discover Sotogrande: Where sport, nature and Mediterranean living meet Venue Showcase: PortAv
+  [1] imgRatio=1.5 755x503 alt=""
+     d0 A "" 755x22 {"borderRadius":"0px","border":"0px none rgb(241, 177, 68)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "img-cont-left" 755x509 {"borderRadius":"0px","border":"0px none rgb(119, 119, 119)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "inner-left" 755x509 {"borderRadius":"0px","border":"0px none rgb(119, 119, 119)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Moving together: X: by micebook 2026 highlights"
+     d3 DIV "wpb_column grve-column grve-column-2-3 left-cont" 780x509 {"borderRadius":"0px","border":"0px none rgb(119, 119, 119)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 25px 0px 0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Moving together: X: by micebook 2026 highlights"
+     d4 DIV "grve-container" 1170x509 {"borderRadius":"0px","border":"0px none rgb(119, 119, 119)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Moving together: X: by micebook 2026 highlights Yellow Fish owners launch The Curiosity Collective and new experiential agency Case Study: How Principal brought 50 years of Day Lewis to life Only 5% of event profs truly
+--- IMAGES
+  152x24 nat=1250x197 fit=fill radius=0px alt="micebook."
+  755x503 nat=755x503 fit=fill radius=0px alt=""
+  112x75 nat=112x74 fit=fill radius=0px alt=""
+  112x75 nat=112x74 fit=fill radius=0px alt=""
+  112x75 nat=112x74 fit=fill radius=0px alt=""
+  112x90 nat=112x74 fit=fill radius=0px alt=""
+  112x75 nat=112x74 fit=fill radius=0px alt=""
+  755x503 nat=0x0 fit=fill radius=0px alt=""
+  112x75 nat=0x0 fit=fill radius=0px alt=""
+  112x75 nat=0x0 fit=fill radius=0px alt=""
+  108x72 nat=0x0 fit=fill radius=0px alt=""
+  112x75 nat=0x0 fit=fill radius=0px alt=""
+  112x75 nat=0x0 fit=fill radius=0px alt=""
+  168x40 nat=0x0 fit=fill radius=0px alt=""
+--- TYPE_ROLES
+  card-title "Monaco: one destination, endless possibilities" {"fontFamily":"\"Open Sans\"","fontSize":"22px","fontWeight":"400","lineHeight":"26px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"30px","margin":"0px 0px 15.224px"}
+  card-title "The Shortcut to a More Sustainable Meeting in Washington, DC" {"fontFamily":"\"Open Sans\"","fontSize":"14px","fontWeight":"400","lineHeight":"20px","letterSpacing":"normal","color":"rgb(0, 0, 0)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(0, 0, 0)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 9.688px"}
+  card-title "Discover Sotogrande: Where sport, nature and Mediterranean living meet" {"fontFamily":"\"Open Sans\"","fontSize":"14px","fontWeight":"400","lineHeight":"20px","letterSpacing":"normal","color":"rgb(0, 0, 0)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(0, 0, 0)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 9.688px"}
+  filter-label "Pick your playground...*" {"fontFamily":"\"Open Sans\"","fontSize":"16px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px 0px 10px","margin":"0px"}
+  filter-label "I agree to be added to the micebook mailing list." {"fontFamily":"\"Open Sans\"","fontSize":"16px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px 0px 10px","margin":"0px"}
+  nav-link "" {"fontFamily":"\"Open Sans\"","fontSize":"16px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(241, 177, 68)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(241, 177, 68)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  nav-link "user" {"fontFamily":"\"Open Sans\"","fontSize":"16px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  nav-link "cart" {"fontFamily":"\"Open Sans\"","fontSize":"16px","fontWeight":"400","lineHeight":"24px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+--- HOVER {"before":{"text":"Sponsored Content Monaco: one destination, endless possibilities","r":{"x":135,"y":1548,"w":780,"h":509},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(119, 119, 119)","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","cursor":"auto","translate":"none","scale":"none"}},"after":{"r":{"w":780,"h":509},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(119, 119, 119)","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+|
+Instagram
+LinkedIn
+Flickr
+community
+events
+articles
+destinations
+media kit
+01
+02
+03
+04
+05
+06
+07
+das kollektiv
+View
+micebook C Suite Summit - Das Kollektiv
+Das Achental, Grassau, Germany
+26-27 November 2026
+08
+09
+
+Sponsored Content
+
+Monaco: one destination, endless possibilities
+The Shortcut to a More Sustainable Meeting in Washington, DC
+Discover Sotogrande: Where sport, nature and Mediterranean living meet
+Venue Showcase: PortAventura Business & Events: Where business meets experience
+Inside Convene Hospitality’s Next Chapter: New Flagship Venues in London and New York
+Costa del Sol: a MICE destination that has it all
+Moving together: X: by micebook 2026 highlights
+Yellow Fish owners launch The Curiosity Collective and new experiential agency
+Case Study: How Principal brought 50 years of Day Lewis to life
+Only 5% of event profs truly understand their clients’ hidden barriers, PCMA research finds
+James Wallman announced as keynote speaker for micebook LUXE 2026
+What a Difference a Day Makes: 24 hours at Fairmont Cheshire The Mere
+Nineteen Unfiltered
+
+nineteen unfiltered: a candid podcast series that brings together some of the industry’s most influential leaders for honest conversations, from navigating business growth to shaping the future of the industry.
+
+FIND OUT MORE
+Join Our Community
+
+Join our community and receive the latest trending industry news in our weekly Departure Lounge and exclusive invites to events
+
+Pick your playground...*
+—Please choose an option—
+Buyer(Agency)
+Buyer(CEO/Agency Leader)
+Buyer(Corporate)
+Supplier
+Other
+
+I agree to be added to the micebook mailing list.
+
+Our events
+
+Our events
+Event Sponsorship
+
+Inspiration
+
+Articles
+Destinations
+
+About us
+
+About micebook
+Advertising
+Get in touch with the Team
+Sustainability
+
+COPYRIGHT MICEBOOK. 2019 | ALL RIGHTS RESERVED | T&C | PRIVACY
+BESbswyBESbswyBESbswy
+STAGE pre-write 89283 ms STAGE done 90446 ms

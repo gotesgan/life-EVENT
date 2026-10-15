@@ -1,0 +1,92 @@
+/*
+ * Panel primitive.
+ *
+ * Tone = which elevation step (or tint) the panel sits on. Only `raised` is
+ * allowed to look like it floats; `base`, `muted` and `sunken` are flat by
+ * design, and a tinted panel is a callout rather than a container.
+ */
+.root {
+  border: 1px solid transparent;
+}
+
+.shape-control {
+  border-radius: var(--app-radius-control);
+}
+
+.shape-card {
+  border-radius: var(--app-radius-card);
+}
+
+.bordered {
+  border-color: var(--app-border);
+}
+
+.elevated {
+  box-shadow: var(--app-shadow-card);
+}
+
+.pad-none {
+  padding: 0;
+}
+
+.pad-sm {
+  padding: rem(12px);
+}
+
+.pad-md {
+  padding: var(--app-card-padding);
+}
+
+.pad-lg {
+  padding: clamp(1.5rem, 1rem + 1.5vw, 2.5rem);
+}
+
+/* Elevation steps ---------------------------------------------------------- */
+.tone-base {
+  background-color: var(--app-surface);
+  color: var(--app-text);
+}
+
+.tone-raised {
+  background-color: var(--app-surface-raised);
+  color: var(--app-text);
+}
+
+.tone-muted {
+  background-color: var(--app-surface-muted);
+  color: var(--app-text);
+}
+
+/* Recessed: darker than the canvas in both schemes. */
+.tone-sunken {
+  background-color: var(--app-surface-sunken);
+  color: var(--app-text);
+}
+
+/* Tinted callouts. Backgrounds are translucent tones, so text colour stays
+   `--app-text` / `--app-text-muted`; the measured ratios are in
+   docs/design-system.md. */
+.tone-brand {
+  background-color: var(--app-brand-soft);
+  color: var(--app-text);
+}
+
+.tone-accent {
+  background-color: var(--app-accent-soft);
+  color: var(--app-text);
+}
+
+.tone-success {
+  background-color: var(--app-success-soft);
+  color: var(--app-text);
+}
+
+.tone-warning {
+  background-color: var(--app-warning-soft);
+  color: var(--app-text);
+}
+
+.tone-danger {
+  background-color: var(--app-danger-soft);
+  color: var(--app-text);
+}

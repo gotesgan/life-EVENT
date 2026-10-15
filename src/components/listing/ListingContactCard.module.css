@@ -1,0 +1,80 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: rem(12px);
+}
+
+.heading {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-card-title-size);
+  font-weight: var(--text-card-title-weight);
+  line-height: var(--text-card-title-leading);
+  letter-spacing: var(--text-card-title-tracking);
+}
+
+.lede {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.footnote {
+  margin: 0;
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+}
+
+.message {
+  margin: 0;
+  padding: rem(10px) rem(12px);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-brand-soft);
+  color: var(--app-brand-soft-text);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.channels {
+  display: flex;
+  flex-direction: column;
+  gap: rem(10px);
+  margin: 0;
+  padding-top: rem(12px);
+  border-top: 1px solid var(--app-border);
+}
+
+.channel {
+  display: flex;
+  flex-direction: column;
+  gap: rem(2px);
+  min-width: 0;
+}
+
+.channelLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: rem(4px);
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-label-weight);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.channelValue {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-secondary-size);
+  overflow-wrap: anywhere;
+}
+
+.link {
+  color: var(--app-brand);
+  text-decoration: none;
+
+  @mixin hover {
+    text-decoration: underline;
+  }
+}

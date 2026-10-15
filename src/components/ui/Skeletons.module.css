@@ -1,0 +1,198 @@
+/* Skeletons -----------------------------------------------------------------
+   Every dimension here is the real component's dimension. If the card anatomy
+   in docs/design-system.md changes, this file changes with it. */
+
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: rem(24px);
+}
+
+/* Listing grid -------------------------------------------------------------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+  /* The density token, not a literal: the browse grid and the skeleton must
+     tighten together under `.surface--dense`. */
+  gap: var(--app-grid-gap);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-raised);
+  /* E0: a resting card is a hairline, never a shadow (brief §2, rule 1). The
+     skeleton must not promise an elevation the real card never reaches. */
+}
+
+/* The single landscape ratio used by every listing grid: 3:2. */
+.cardMedia {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  padding: var(--app-card-padding);
+}
+
+/* The reserved two-line title box, derived from the same tokens the real title
+   uses — so the box moves with the type scale, not with a hand-copied number. */
+.cardTitle {
+  height: calc(2 * var(--text-card-title-leading) * var(--text-card-title-size));
+  width: 88%;
+  margin-block-end: rem(8px);
+}
+
+.cardMetaFirst {
+  margin-block-end: rem(4px);
+}
+
+.cardMeta {
+  margin-block-end: rem(16px);
+}
+
+.cardAnchor {
+  height: rem(26px);
+  margin-block-end: rem(12px);
+}
+
+.cardDivider {
+  height: 1px;
+  margin-block-end: rem(12px);
+  background-color: var(--app-border);
+}
+
+.chipRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: rem(8px);
+}
+
+.cardAction {
+  height: rem(40px);
+  width: 100%;
+}
+
+/* Listing detail ------------------------------------------------------------ */
+.detailHero {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: var(--app-radius-card);
+}
+
+.detailHead {
+  display: flex;
+  flex-direction: column;
+  gap: rem(10px);
+  margin-block-start: rem(24px);
+}
+
+.detailBody {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) rem(320px);
+  gap: rem(32px);
+  margin-block-start: rem(28px);
+}
+
+.detailMain {
+  display: flex;
+  flex-direction: column;
+  gap: rem(10px);
+}
+
+.detailTiles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: rem(12px);
+  margin-block-start: rem(12px);
+}
+
+.detailRail {
+  display: flex;
+  flex-direction: column;
+  gap: rem(16px);
+}
+
+.railCard {
+  display: flex;
+  flex-direction: column;
+  gap: rem(12px);
+  padding: var(--app-card-padding);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-raised);
+}
+
+/* Admin table --------------------------------------------------------------- */
+.table {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-raised);
+}
+
+.tableRow {
+  display: grid;
+  grid-template-columns: repeat(var(--table-columns, 5), minmax(0, 1fr));
+  align-items: center;
+  gap: rem(16px);
+  min-height: rem(44px);
+  padding-inline: rem(16px);
+  border-block-end: 1px solid var(--app-border);
+}
+
+.tableRow:last-child {
+  border-block-end: 0;
+}
+
+.tableHead {
+  min-height: rem(40px);
+  background-color: var(--app-surface-muted);
+}
+
+/* Filter rail --------------------------------------------------------------- */
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: rem(24px);
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: rem(10px);
+}
+
+.filterOption {
+  display: flex;
+  align-items: center;
+  gap: rem(10px);
+  /* The filter rail's option rows are 32px and the hit target is the whole row
+     (guide §1.8), so the skeleton reserves the same row. */
+  min-height: rem(32px);
+}
+
+@mixin smaller-than $mantine-breakpoint-md {
+  .detailBody {
+    grid-template-columns: minmax(0, 1fr);
+    gap: rem(24px);
+  }
+
+  .detailTiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@mixin smaller-than $mantine-breakpoint-sm {
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

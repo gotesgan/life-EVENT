@@ -1,0 +1,49 @@
+{
+ "slug": "partybookr",
+ "mode": "desktop",
+ "status": 200,
+ "err": null,
+ "hover": null,
+ "data": {
+  "url": "https://www.partybookr.com/lander",
+  "title": "",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 900,
+  "headings": [],
+  "header": null,
+  "navAll": [],
+  "searchInputs": [],
+  "filterContainers": [],
+  "images": [],
+  "cardCandidates": [],
+  "linkText": [
+   "Get This Domain",
+   "party",
+   "book",
+   "Privacy Policy"
+  ],
+  "bodyText": "partybookr.com\nis parked free, courtesy of GoDaddy.com.\nGet This Domain\nRelated Searches\nparty\nbook\nCopyright © 1999-2026 GoDaddy, LLC. All rights reserved.\nPrivacy Policy\n\nDisclaimer: References to any specific company, product or services on this Site are not controlled by GoDaddy.com LLC and do not constitute or imply its association with or endorsement of third party advertisers.",
+  "typeRoles": {
+   "h1": [],
+   "card-title": [],
+   "card-meta": [],
+   "filter-label": [],
+   "nav-link": [],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(29, 42, 51)",
+    "color": "rgb(0, 0, 0)",
+    "fontFamily": "Arial, serif",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

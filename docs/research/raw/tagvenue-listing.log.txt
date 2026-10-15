@@ -1,0 +1,589 @@
+URL_REQUESTED https://www.tagvenue.com/city/london
+STATUS 200
+FINAL_URL https://www.tagvenue.com/city/london
+TITLE The 16 Best Event Venues for Hire in London | Tagvenue UK
+STAGE pre-screenshot 15504 ms
+SCREENSHOT docs/research/shots/tagvenue-listing.png
+STAGE pre-extract 17668 ms
+STAGE pre-hover 17956 ms
+RAW docs/research/raw/tagvenue-listing.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(55, 57, 65)","fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 440x66 "London Venue Hire"
+  H2 1188x44 "Most popular event spaces in London"
+  H3 139x17 "The Wildwood Room"
+  H3 89x17 "The Main Bar"
+  H3 198x17 "Private Party Venue - Lounge"
+  H3 208x17 "Upstairs Taproom Event Space"
+  H3 61x17 "The Hide"
+  H3 104x17 "The Gallery Bar"
+  H3 94x17 "Basement Bar"
+  H3 93x17 "Dulwich Suite"
+  H3 174x17 "Mala Madre Events Space"
+  H3 81x17 "The Terrace"
+  H3 119x17 "The Games Room"
+  H3 48x17 "Louie's"
+  H3 354x22 "Popular filters"
+  H3 354x22 "Capacity"
+  H3 354x22 "Budget"
+  H3 354x22 "Event Type"
+  H3 354x22 "Area type"
+  H3 354x22 "Venue type"
+  H3 354x22 "Catering and drinks"
+  H3 354x22 "Accessibility features"
+  H2 1200x44 "Trusted by leading brands and 1M+ customers"
+  H2 1200x44 "Hire the best party venues London has to offer"
+  H2 1200x44 "Secure the perfect London venue for any occasion"
+  H2 1200x44 "Discover the perfect venue for dinner or drinks in London"
+  H2 1200x44 "Explore business event venues for hire in London"
+  H2 1200x44 "Book unique wedding venues in London for any budget"
+  H2 1200x44 "Find the best production spaces in London"
+  H2 1200x44 "Discover top event spaces across the UK"
+  H2 1200x44 "Planning an event in the near future but not sure where to start?"
+  H2 1140x44 "Our guide to London venue hire"
+  H3 1120x32 "How much does it cost to hire an event venue in London?"
+  H3 1120x32 "Which type of venue fits your event?"
+  H3 1120x32 "Venue Types and Price Ranges for Different Events in London:"
+  H3 1120x32 "Which London areas are best and cheapest for venue hire?"
+  H3 1120x32 "Our Coolest Venues in London:"
+  H3 1120x32 "Small event spaces vs Large event spaces: how price scales with group size"
+  H2 1120x88 "Want to dig even deeper? Have a look at these frequently asked questions:"
+  H3 1120x64 "I want to host an event in a really hip area of London. What are the most in-demand districts for event venue hire?"
+  H3 1120x32 "What types of event venues for hire are the most popular ones in London?"
+  H3 1120x32 "What do the venue rates in London usually include?"
+  H3 1120x64 "I’m a freelancer working from home. Where can I meet my clients in London? I’d prefer to hire a private meeting room."
+  H3 1120x32 "What can you bring, and what should you check before you book?"
+  H3 1120x32 "Can you hire a venue in London for free?"
+  H3 1120x32 "Are there hidden fees?"
+  H2 1200x44 "Discover spaces for hire near you"
+  H2 1200x44 "Explore London’s brand-new venues"
+--- HEADER {"position":"static","top":"auto","height":"64px","backgroundColor":"rgb(255, 255, 255)","borderBottom":"1px solid rgb(222, 223, 227)","boxShadow":"none","zIndex":"5000"} 1440x64
+--- HEADER_TEXT Browse spaces Log in List your space
+--- HEADER_LINKS Browse spaces | Log in | List your space
+--- NAV_ALL Browse spaces | Log in | List your space | UK
+--- SEARCH_INPUTS
+  {"tag":"INPUT","type":"text","ph":"What are you planning?","aria":null,"name":"room_tag_autocomplete","r":{"x":384,"y":453,"w":240,"h":37}}
+  {"tag":"INPUT","type":"number","ph":"Number of guests","aria":null,"name":null,"r":{"x":687,"y":453,"w":215,"h":37}}
+--- FILTER_CONTAINERS
+  [0] ASIDE "c-card js-filters-container" {"x":120,"y":1072,"w":388,"h":1914} CTRLS=[{"tag":"BUTTON","type":null,"role":null,"aria":"","label":"+ Show more"},{"tag":"BUTTON","type":null,"role":null,"aria":"","label":"+ Show more"},{"tag":"BUTTON","type":null,"role":null,"aria":"","label":"+ Show more"},{"tag":"BUTTON","type":null,"role":null,"aria":"","label":"+ Show more"},{"tag":"BUTTON","type":null,"role":null,"aria":"","label":"+ Show more"},{"tag":"BUTTON","type":null,"role":null,"aria":"","label":"+ Show more"}]
+  [1] DIV "lp-show-more-container lp-show-more-container--limit-4" {"x":137,"y":1097,"w":354,"h":207} CTRLS=[{"tag":"BUTTON","type":null,"role":null,"aria":"","label":"+ Show more"}]
+  [2] DIV "lp-show-more-container lp-show-more-container--limit-4" {"x":137,"y":1323,"w":354,"h":207} CTRLS=[{"tag":"BUTTON","type":null,"role":null,"aria":"","label":"+ Show more"}]
+  [3] DIV "lp-show-more-container lp-show-more-container--limit-4" {"x":137,"y":1550,"w":354,"h":207} CTRLS=[{"tag":"BUTTON","type":null,"role":null,"aria":"","label":"+ Show more"}]
+  [4] DIV "lp-show-more-container lp-show-more-container--limit-4" {"x":137,"y":1777,"w":354,"h":207} CTRLS=[{"tag":"BUTTON","type":null,"role":null,"aria":"","label":"+ Show more"}]
+  [5] DIV "lp-show-more-container lp-show-more-container--limit-4" {"x":137,"y":2004,"w":354,"h":187} CTRLS=[]
+  [6] DIV "lp-show-more-container lp-show-more-container--limit-8" {"x":137,"y":2212,"w":354,"h":335} CTRLS=[{"tag":"BUTTON","type":null,"role":null,"aria":"","label":"+ Show more"}]
+  [7] DIV "lp-show-more-container lp-show-more-container--limit-no" {"x":137,"y":2567,"w":354,"h":187} CTRLS=[]
+--- CARDS
+  [0] imgRatio=1.495 378x253 alt=""
+     d0 DIV "lory-slide" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [1] imgRatio=1.5 379x253 alt="The Wildwood Room at The Green Man in Fitzrovia, London"
+     d0 DIV "lory-slide current active" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [2] imgRatio=1.5 379x253 alt=""
+     d0 DIV "lory-slide" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [3] imgRatio=1.495 378x253 alt=""
+     d0 DIV "lory-slide" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [4] imgRatio=1.495 378x253 alt=""
+     d0 DIV "lory-slide" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [5] imgRatio=1.495 378x253 alt=""
+     d0 DIV "lory-slide" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [6] imgRatio=1.495 378x253 alt=""
+     d0 DIV "lory-slide" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [7] imgRatio=1.495 378x253 alt=""
+     d0 DIV "lory-slide" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [8] imgRatio=1.495 378x253 alt=""
+     d0 DIV "lory-slide" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [9] imgRatio=1.495 378x253 alt=""
+     d0 DIV "lory-slide" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [10] imgRatio=1.495 378x253 alt=""
+     d0 DIV "lory-slide" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [11] imgRatio=1.495 378x253 alt=""
+     d0 DIV "lory-slide" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [12] imgRatio=1.5 379x253 alt="The Wildwood Room at The Green Man in Fitzrovia, London"
+     d0 DIV "lory-slide current" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+  [13] imgRatio=1.495 378x253 alt=""
+     d0 DIV "lory-slide" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"inline-block","gap":"normal"} TEXT=""
+     d1 A "lory-slides" 378x253 {"borderRadius":"0px","border":"0px none rgb(0, 162, 135)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline-block","gap":"normal"} TEXT=""
+     d2 DIV "lory-frame" 378x253 {"borderRadius":"3px 3px 0px 0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d3 DIV "lory-slider lory-slider--relative c-room-card__image " 378x253 {"borderRadius":"3px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgb(221, 221, 221)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d4 DIV "lory-slide-wrapper" 378x253 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+--- IMAGES
+  1440x404 nat=1920x1080 fit=cover radius=0px alt="London Venue Hire"
+  378x253 nat=0x0 fit=fill radius=0px alt=""
+  379x253 nat=900x600 fit=fill radius=0px alt="The Wildwood Room at The Green Man in Fitzrovia, London"
+  379x253 nat=900x600 fit=fill radius=0px alt=""
+  378x253 nat=0x0 fit=fill radius=0px alt=""
+  378x253 nat=0x0 fit=fill radius=0px alt=""
+  378x253 nat=0x0 fit=fill radius=0px alt=""
+  378x253 nat=0x0 fit=fill radius=0px alt=""
+  378x253 nat=0x0 fit=fill radius=0px alt=""
+  378x253 nat=0x0 fit=fill radius=0px alt=""
+  378x253 nat=0x0 fit=fill radius=0px alt=""
+  378x253 nat=0x0 fit=fill radius=0px alt=""
+  378x253 nat=0x0 fit=fill radius=0px alt=""
+  379x253 nat=900x600 fit=fill radius=0px alt="The Wildwood Room at The Green Man in Fitzrovia, London"
+  13x17 nat=183x244 fit=fill radius=0px alt="Supervenue badge"
+  378x253 nat=0x0 fit=fill radius=0px alt=""
+  379x253 nat=900x600 fit=fill radius=0px alt="The Main Bar at Ester in Primrose Hill, London"
+  379x253 nat=900x600 fit=fill radius=0px alt=""
+--- TYPE_ROLES
+  h1 "London Venue Hire" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"48px","fontWeight":"600","lineHeight":"66px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"6px 476.969px 8px"}
+  card-title "Most popular event spaces in London" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"32px","fontWeight":"600","lineHeight":"44px","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(55, 57, 65)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 16px"}
+  card-title "The Wildwood Room" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"700","lineHeight":"normal","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(55, 57, 65)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 5px 0px 0px"}
+  card-title "The Main Bar" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"700","lineHeight":"normal","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(55, 57, 65)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 5px 0px 0px"}
+  filter-label "EVENT TYPE" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"","boxShadow":"none","transition":"all","padding":"16px 20px 16px 58px","margin":"0px 0px 1px"}
+  filter-label "GUESTS" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(55, 57, 65)","boxShadow":"none","transition":"all","padding":"16px 20px 16px 42px","margin":"0px 0px 1px"}
+  filter-label "External catering allowed" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(55, 57, 65)","boxShadow":"none","transition":"all","padding":"4px 0px","margin":"0px"}
+  nav-link "" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(0, 162, 135)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(0, 162, 135)","boxShadow":"none","transition":"color 0.1s ease-out","padding":"0px 16px","margin":"0px"}
+  nav-link "Log in" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(55, 57, 65)","boxShadow":"none","transition":"color 0.1s ease-out","padding":"0px 16px","margin":"0px"}
+  nav-link "List your space" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(55, 57, 65)","boxShadow":"none","transition":"color 0.1s ease-out","padding":"0px 16px","margin":"0px"}
+  price "from £200 minimum spend / per session" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"10px","fontWeight":"400","lineHeight":"14px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"3px","backgroundColor":"rgba(0, 0, 0, 0.7)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"6px 8px","margin":"0px"}
+  price "£200" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"16px","fontWeight":"600","lineHeight":"14px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  price "from £1000 minimum spend / per session" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"10px","fontWeight":"400","lineHeight":"14px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"3px","backgroundColor":"rgba(0, 0, 0, 0.7)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"6px 8px","margin":"0px"}
+--- HOVER {"before":{"text":"","r":{"x":531,"y":723,"w":378,"h":253},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(55, 57, 65)","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgb(221, 221, 221)","cursor":"auto","translate":"none","scale":"none"}},"after":{"r":{"w":378,"h":253},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(55, 57, 65)","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgb(221, 221, 221)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+Skip to main content
+Browse spaces
+Log in
+List your space
+London Venue Hire
+
+Search and book 5,000+ event venues in London
+
+EVENT TYPE
+GUESTS
+Search
+UK > London
+Most popular event spaces in London
+
+Hire London event venues for birthday and Christmas parties, corporate events and conferences, weddings and engagement parties, baby showers, private dinners and summer rooftop socials; from West End private dining rooms and Shoreditch warehouses to Covent Garden rooftops, Mayfair boardrooms and converted railway arches south of the river. Discover the best spots for any celebration or business occasion.
+
+ 
+ 
+from £200
+minimum spend / per session
+The Wildwood Room
+30
+60
+The Green Man
+(317)
+Goodge Street Station
+Fitzrovia, London
+ #Supervenue
+Function Room in a Pub Private space Vintage feeling
+E
+Eve V.
+“I’d absolutely recommend this venue to anyone looking to book an event space :)”
+Check availability
+ 
+ 
+from £1000
+minimum spend / per session
+The Main Bar
+36
+50
+Ester
+(71)
+Chalk Farm Station
+Primrose Hill, London
+ #Supervenue
+Bar Private space Chill vibe Inviting atmosphere
+A
+Amy T.
+“Amazing event space for my party, the staff were incredibly friendly with excellent service.”
+Check availability
+ 
+ 
+from £600
+minimum spend / per session
+Private Party Venue - Lounge
+60
+120
+Le Bab Covent Garden
+(161)
+Covent Garden Station
+Covent Garden, London
+ #Supervenue
+Event Space in a Restaurant Private space Lively vibe Stylish decor
+J
+Jason A.
+“This is an excellent event space that I would certainly use again.”
+Check availability
+ 
+ 
+from £500
+minimum spend / per session
+Upstairs Taproom Event Space
+50
+70
+3Locks Industrial Brewery Riverside Views
+(120)
+Camden Town Station
+Camden, London
+ #Supervenue
+Function Room in a Winery / Brewery Private space Fun vibe
+J
+Jonathan M.
+“Great event space, really helpful and friendly staff.”
+Check availability
+ 
+ 
+from £50
+minimum spend / per day
+The Hide
+20
+30
+Big Chill Kings Cross
+(106)
+King's Cross St. Pancras Station
+St Pancras, London
+ #Supervenue
+Lounge in a Bar Semi-private area Quirky Buzzing vibe
+M
+Megan T.
+“Great event space for what we wanted”
+Check availability
+ 
+ 
+from £500
+minimum spend / per session
+The Gallery Bar
+50
+100
+De Hems Pub
+(52)
+Leicester Square Station
+Chinatown, London
+ #Supervenue
+Function Room in a Pub Private space Quirky decor Historic venue
+P
+Parveen S.
+“Would definitely book again. Thanks all for a making our event a successful event!”
+Check availability
+from £1500
+minimum spend / per day
+Basement Bar
+150
+The Oxford Market
+(279)
+Oxford Circus Station
+Fitzrovia, London
+ #Supervenue
+Restaurant Private space Elegant
+J
+Jemilla S.
+“Hosted an event at the Basement Bar, made great by the events team and the staff on the night!”
+Check availability
+from £500
+minimum spend / per session
+Dulwich Suite
+100
+120
+The Crown and Greyhound
+(13)
+Dulwich, London
+ #Supervenue
+Function Room in a Pub Private space
+P
+Pauline M.
+“I liked the space, it was nicely decorated and just the right size for my event.”
+Check availability
+from £1
+minimum spend / per day
+Mala Madre Events Space
+60
+90
+The Last Talisman
+(629)
+London Bridge Station
+Bermondsey, London
+ #Supervenue
+Event Space in a Restaurant Private space Casual vibe
+S
+Stefano D.
+“The space is beautifully decorated and perfect for an event of ~50 people.”
+Check availability
+from £250
+minimum spend / per session
+The Terrace
+32
+35
+Studio48 Bar & Kitchen
+(324)
+Chalk Farm Station
+Primrose Hill, London
+ #Supervenue
+Restaurant Private space Quirky
+R
+Rebecca E.
+“The bar staff were very friendly and the venue is in a good location in Camden”
+Check availability
+from £550
+minimum spend / per session
+The Games Room
+25
+50
+Heist Bank
+(282)
+Paddington Station
+Paddington, London
+ #Supervenue
+Function Room in a Bar Private space Lively vibe Quirky decor
+H
+Harshita V.
+“Really friendly service aswell by the bar staff and events team.”
+Check availability
+from £1000
+minimum spend / per day
+Louie's
+70
+180
+Red Dog Saloon Hoxton
+(79)
+Old Street Station
+Hackney Borough, London
+ #Supervenue
+Bar in a Restaurant Whole venue
+C
+Calin C.
+“Cannot reccomend Mark and this venue enough for a great event!”
+Check availability
+1
+2
+3
+...
+296
+10635 venues
+in London
+
+Show map
+
+See all venues (10635)
+Popular filters
+External catering allowed
+Private space
+Affordable
+Party
++ Show more
+Capacity
+For 10 guests
+For 20 guests
+For 30 guests
+For 40 guests
++ Show more
+Budget
+Up to £1.000
+Up to £2.000
+Up to £3.000
+Up to £4.000
++ Show more
+Event Type
+Party
+Birthday Party
+Corporate Event
+Baby Shower
++ Show more
+Area type
+Whole venue
+Private space within the venue
+Semi-private area within the space
+Private outdoor space
+Venue type
+Hall
+Function Room
+Bar
+Community Centre
+Restaurant
+Hotel
+Pub
+Church
++ Show more
+Catering and drinks
+Venue offers catering
+External catering allowed
+Venue provides alcohol
+I will bring my own drinks
+Accessibility features
+Wheelchair accessible
+Accessible toilets
+Step-free guest entrance
+Accessible parking spot
++ Show more
+Trusted by leading brands and 1M+ customers
+Hire the best party venues London has to offer
+
+Discover a variety of exclusive party spaces, ranging from vibrant clubs to unique venues, perfect for any celebration.
+
+Party Venues in London
+Get ready to have the best time of your life!
+9957 venues
+Birthday Party Venues in London
+We know the best birthday spots in London for you!
+8084 venues
+Christmas Party Venues in London
+Hundreds of festive venues for your Christmas bash!
+6918 venues
+Small Party Venues in London
+With these venues a small gathering becomes a big thing!
+9957 venues
+Engagement Party Venues in London
+We’ve got the perfect engagement party venue for you!
+6839 venues
+30th Birthday Party Venues in London
+Kiss your 20s goodbye in the best party venues in London!
+7721 venues
+Baby Shower Venues in London
+Celebrate your baby shower in a beautiful themed venue!
+4066 venues
+Summer Party Venues in London
+Make the most of the London summer
+3101 venues
+Party Apartments in London
+The fun vibe of a house party, minus the cleaning
+9957 venues
+Affordable Party Venues in London
+London's stunning party spaces that won’t break the bank
+9957 venues
+Christmas Party Restaurants in London
+Festive Christmas party restaurants in just a few clicks!
+5551 venues
+Cocktail Party Venues in London
+Find one of London's top cocktail party venues
+7674 venues
+Secure the perfect London venue for any occasion
+
+Looking for a specific type of space? Explore stunning gardens, luxurious halls, and more!
+
+Function Rooms in London
+Find the perfect space for your next function in London.
+4139 venues
+Unusual Venues in London
+Planning a quirky event? Find a venue to match it up!
+3010 venues
+Outdoor Venues in London
+Enjoy the sun in one of these awesome outdoor spaces
+2171 venues
+Minimum Spend Venues in London
+Discover your free venue hire possibilities in London!
+4880 venues
+Halls in London
+London’s best halls available for all kinds of events.
+1944 venues
+Rooftop Venues in London
+Throw an unforgettable rooftop party
+205 venues
+Private Cinemas in London
+Take your London movie night to the next level
+159 venues
+Party Boats in London
+Eat, drink, be merry and enjoy amazing views of the Thames
+67 venues
+Small Venues in London
+London's best-kept secrets are now yours to unveil!
+10635 venues
+Warehouse Venues in London
+Discover top industrial spaces available for hire
+249 venues
+Garden Party Venues in London
+Throw a party in the great British outdoors!
+342 venues
+Affordable Venues in London
+Discover stunning event spaces that won’t break the bank
+10635 venues
+Discover the perfect venue for dinner or drinks in London
+
+Book one of London’s best bars, pubs, restaurants and private dining rooms to enjoy a memorable evening.
+
+Private Bars in London
+London’s best bars, now available for private hire
+6448 venues
+Private Dining Rooms in London
+Treat yourselves and have a fantastic private feast
+7790 venues
+Pubs with Function Rooms in London
+Celebrate your special occasion the London way
+6225 venues
+Bars with Private Rooms in London
+Grab a pint in one of these fab spots!
+6448 venues
+Restaurants with Function Rooms in London
+Dine and celebrate in London's top restaurants!
+6301 venues
+Cheap Private Dining Venues in London
+A nice dinner party doesn't have to be expensive
+7790 venues
+Pub Venues in London
+Let the good times roll over a nice cold pint!
+6225 venues
+Pubs with Private Dining Rooms in London
+London's gastronomic gems, with great private dining rooms
+6225 venues
+Small Private Dining Rooms in London
+Treat yourselves and have a fantastic private feast
+7790 venues
+Pubs for Large Groups in London
+Enjoy a pint with a bustling crowd of London pubs
+6225 venues
+Nightclub Venues in London
+London’s best nightlife spots, available for your party
+782 venues
+Karaoke Bars in London
+Explore top-rated karaoke rooms and booths in London
+303 venues
+Explore business event venues for hire in London
+
+From large conference centres to small meeting rooms, discover London venues for all your corporate needs.
+
+Meeting Rooms in London
+STAGE pre-write 19518 ms STAGE done 19986 ms

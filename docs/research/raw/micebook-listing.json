@@ -1,0 +1,569 @@
+{
+ "slug": "micebook",
+ "mode": "listing",
+ "status": 200,
+ "err": null,
+ "hover": null,
+ "data": {
+  "url": "https://micebook.com/blog/2023/03/30/venues-and-events-ace-announce-rebrand/",
+  "title": "Venues and Events International and ACE rebrand as veSpace - micebook.",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 2745,
+  "headings": [
+   {
+    "tag": "H2",
+    "text": "ONE OF THE FOLLOWING",
+    "x": 0,
+    "y": 1618,
+    "w": 1440,
+    "h": 26
+   },
+   {
+    "tag": "H3",
+    "text": "Join Our Community",
+    "x": 135,
+    "y": 1937,
+    "w": 1170,
+    "h": 33
+   },
+   {
+    "tag": "H2",
+    "text": "Our events",
+    "x": 440,
+    "y": 2419,
+    "w": 255,
+    "h": 40
+   },
+   {
+    "tag": "H2",
+    "text": "Inspiration",
+    "x": 745,
+    "y": 2419,
+    "w": 255,
+    "h": 40
+   },
+   {
+    "tag": "H2",
+    "text": "About us",
+    "x": 1050,
+    "y": 2419,
+    "w": 255,
+    "h": 40
+   }
+  ],
+  "header": {
+   "tag": "HEADER",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 60
+   },
+   "style": {
+    "position": "relative",
+    "top": "0px",
+    "height": "60px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderBottom": "0px none rgb(119, 119, 119)",
+    "boxShadow": "none",
+    "zIndex": "999"
+   },
+   "text": "| Instagram LinkedIn Flickr community events articles destinations media kit",
+   "links": [
+    {
+     "t": "user",
+     "tag": "A",
+     "href": "/my-account",
+     "r": {
+      "x": 1261,
+      "y": 18,
+      "w": 14,
+      "h": 22
+     }
+    },
+    {
+     "t": "cart",
+     "tag": "A",
+     "href": "/basket",
+     "r": {
+      "x": 1291,
+      "y": 18,
+      "w": 14,
+      "h": 22
+     }
+    },
+    {
+     "t": "Instagram",
+     "tag": "A",
+     "href": "https://www.instagram.com/micebook/",
+     "r": {
+      "x": 1129,
+      "y": 0,
+      "w": 36,
+      "h": 60
+     }
+    },
+    {
+     "t": "LinkedIn",
+     "tag": "A",
+     "href": "https://www.linkedin.com/company/micebook?trk=top_nav_home",
+     "r": {
+      "x": 1165,
+      "y": 0,
+      "w": 36,
+      "h": 60
+     }
+    },
+    {
+     "t": "Flickr",
+     "tag": "A",
+     "href": "https://www.flickr.com/photos/203639041@N04/",
+     "r": {
+      "x": 1200,
+      "y": 0,
+      "w": 36,
+      "h": 60
+     }
+    },
+    {
+     "t": "community",
+     "tag": "A",
+     "href": "https://micebook.com/buyer/",
+     "r": {
+      "x": 627,
+      "y": 0,
+      "w": 105,
+      "h": 60
+     }
+    },
+    {
+     "t": "events",
+     "tag": "A",
+     "href": "https://micebook.com/events/",
+     "r": {
+      "x": 732,
+      "y": 0,
+      "w": 72,
+      "h": 60
+     }
+    },
+    {
+     "t": "articles",
+     "tag": "A",
+     "href": "https://micebook.com/news/",
+     "r": {
+      "x": 804,
+      "y": 0,
+      "w": 77,
+      "h": 60
+     }
+    },
+    {
+     "t": "destinations",
+     "tag": "A",
+     "href": null,
+     "r": {
+      "x": 880,
+      "y": 0,
+      "w": 112,
+      "h": 60
+     }
+    },
+    {
+     "t": "media kit",
+     "tag": "A",
+     "href": "https://micebook.com/supplier/",
+     "r": {
+      "x": 993,
+      "y": 0,
+      "w": 91,
+      "h": 60
+     }
+    }
+   ]
+  },
+  "navAll": [
+   "community",
+   "events",
+   "articles",
+   "destinations",
+   "media kit"
+  ],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Name*",
+    "aria": null,
+    "name": "your-firstname",
+    "r": {
+     "x": 155,
+     "y": 2039,
+     "w": 363,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Company",
+    "aria": null,
+    "name": "your-company",
+    "r": {
+     "x": 538,
+     "y": 2039,
+     "w": 363,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Email*",
+    "aria": null,
+    "name": "your-email",
+    "r": {
+     "x": 922,
+     "y": 2039,
+     "w": 363,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "ph": null,
+    "aria": null,
+    "name": "your-consent",
+    "r": {
+     "x": 159,
+     "y": 2223,
+     "w": 13,
+     "h": 13
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "submit",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 155,
+     "y": 2282,
+     "w": 112,
+     "h": 47
+    }
+   }
+  ],
+  "filterContainers": [
+   {
+    "tag": "ASIDE",
+    "cls": "grve-sidebar",
+    "r": {
+     "x": 1013,
+     "y": 350,
+     "w": 293,
+     "h": 1159
+    },
+    "text": "Latest Articles TBA Group expands in APAC with acquisition of Second Sunday October 15, 2026 Next Gen Edit: Would you attend your own event? October 15, 2026 Incentive Travel Index 2026 reveals a more cautious outlook for year ahead October 15, 2026 CTL Communications launches US operation with Miami base October 14, 2026 Report predicts bigger event budgets but will they stretch further in 2027? October 13, 2026 Upcoming Events CURRENT MONTH",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "Go to today",
+      "label": "CURRENT MONTH"
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/05/25071857/micebook_logo_new.png",
+    "alt": "micebook.",
+    "nat": "1250x197",
+    "r": {
+     "x": 135,
+     "y": 18,
+     "w": 152,
+     "h": 24
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://mbhub-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/03/28130155/micebook_logo-600x94.webp",
+    "alt": "",
+    "nat": "168x26",
+    "r": {
+     "x": 135,
+     "y": 2419,
+     "w": 168,
+     "h": 40
+    },
+    "fit": "fill",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [],
+  "linkText": [
+   "user",
+   "cart",
+   "Instagram",
+   "LinkedIn",
+   "Flickr",
+   "community",
+   "events",
+   "articles",
+   "destinations",
+   "media kit",
+   "Next Gen Edit: Would you attend your own event?",
+   "CURRENT MONTH",
+   "Our events",
+   "Event Sponsorship",
+   "Articles",
+   "Destinations",
+   "About micebook",
+   "Advertising",
+   "Get in touch with the Team",
+   "Sustainability",
+   "T&C",
+   "PRIVACY"
+  ],
+  "bodyText": "|\nInstagram\nLinkedIn\nFlickr\ncommunity\nevents\narticles\ndestinations\nmedia kit\nMARCH 30, 2023\nVENUES AND EVENTS INTERNATIONAL AND ACE REBRAND AS VESPACE\n\t\n\nFollowing the acquisition of Absolute Corporate Events (ACE) and Absolute Digital Communications in August 2021, Venues and Events International has integrated the companies and rebranded as veSpace.\n\nAnita Lowe, CEO, veSpace, said: “Our brand is an expression of our values. We were delighted to introduce our new values at the beginning of this year, it saw the three companies really come together and has shaped the journey into creating this wonderful new identity for us. I’m so excited for our future, where we truly are now one team.”\n\nChris Parnham, client strategies director, veSpace, added: “With this new brand we intend to honour our heritage and the great reputations each of our brands have built over the years, but to champion a new space where creativity and excellence thrives with passion, energy and drive. The veSpace is the place for great events, and we hope that everyone who works with us, will love being in the veSpace as we do.”\n\nveSpace held a launch party for its suppliers on 29 March at its Swindon head office to share the vision behind the new brand. The official launch party for clients will take place in May.\n\nLatest Articles\nTBA Group expands in APAC with acquisition of Second Sunday\nOctober 15, 2026\nNext Gen Edit: Would you attend your own event?\nOctober 15, 2026\nIncentive Travel Index 2026 reveals a more cautious outlook for year ahead\nOctober 15, 2026\nCTL Communications launches US operation with Miami base\nOctober 14, 2026\nReport predicts bigger event budgets but will they stretch further in 2027?\nOctober 13, 2026\nUpcoming Events\nCURRENT MONTH\nYOU MIGHT ALSO LIKE\nONE OF THE FOLLOWING\nTop Banana strengthens leadership team following strong growth\nJANUARY 16, 2026\n \nOrangeDoor announces merger with US agency Unbridled\nDECEMBER 2, 2025\n \nRapiergroup announces transition to employee ownership\nNOVEMBER 27, 2025\nJoin Our Community\n\nJoin our community and receive the latest trending industry news in our weekly Departure Lounge and exclusive invites to events\n\nPick your playground...*\n—Please choose an option—\nBuyer(Agency)\nBuyer(CEO/Agency Leader)\nBuyer(Corporate)\nSupplier\nOther\n\nI agree to be added to the micebook mailing list.\n\nOur events\n\nOur events\nEvent Sponsorship\n\nInspiration\n\nArticles\nDestinations\n\nAbout us\n\nAbout micebook\nAdvertising\nGet in touch with the Team\nSustainability\n\nCOPYRIGHT MICEBOOK. 2019 | ALL RIGHTS RESERVED | T&C | PRIVACY",
+  "typeRoles": {
+   "h1": [],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, h2, h3",
+     "text": "ONE OF THE FOLLOWING",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 40px"
+     },
+     "r": {
+      "x": 0,
+      "y": 1618,
+      "w": 1440,
+      "h": 26
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, h2, h3",
+     "text": "Join Our Community",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "lineHeight": "33px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 15px"
+     },
+     "r": {
+      "x": 135,
+      "y": 1937,
+      "w": 1170,
+      "h": 33
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h3, h2, h3",
+     "text": "Our events",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 11.072px"
+     },
+     "r": {
+      "x": 440,
+      "y": 2419,
+      "w": 255,
+      "h": 40
+     }
+    }
+   ],
+   "card-meta": [],
+   "filter-label": [
+    {
+     "sel": "label, [class*='filter'] label",
+     "text": "Pick your playground...*",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px 0px 10px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 155,
+      "y": 2113,
+      "w": 1130,
+      "h": 34
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label",
+     "text": "I agree to be added to the micebook mailing list.",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px 0px 10px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 155,
+      "y": 2218,
+      "w": 382,
+      "h": 34
+     }
+    }
+   ],
+   "nav-link": [
+    {
+     "sel": "header nav a, header a",
+     "text": "",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(241, 177, 68)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(241, 177, 68)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 135,
+      "y": 30,
+      "w": 152,
+      "h": 24
+     }
+    },
+    {
+     "sel": "header nav a, header a",
+     "text": "user",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1261,
+      "y": 18,
+      "w": 14,
+      "h": 22
+     }
+    },
+    {
+     "sel": "header nav a, header a",
+     "text": "cart",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1291,
+      "y": 18,
+      "w": 14,
+      "h": 22
+     }
+    }
+   ],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(119, 119, 119)",
+    "fontFamily": "\"Open Sans\"",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

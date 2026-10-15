@@ -1,0 +1,449 @@
+URL_REQUESTED https://www.tagvenue.com/
+STATUS 200
+FINAL_URL https://www.tagvenue.com/
+TITLE Tagvenue | Top Venues for Hire in the UK and Beyond
+STAGE pre-screenshot 11709 ms
+SCREENSHOT docs/research/shots/tagvenue-mobile.png
+STAGE pre-extract 12789 ms
+STAGE pre-hover 13337 ms
+RAW docs/research/raw/tagvenue-mobile.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(55, 57, 65)","fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 358x108 "Find and book venues for any event imaginable"
+  H2 358x73 "Discover top event spaces across the UK"
+  H2 358x73 "Global brands and 1M+ users trust Tagvenue"
+  H2 358x73 "Popular venues for hire in London"
+  H2 358x73 "Top event venues available in Manchester"
+  H2 358x73 "The best event spaces to book in Birmingham"
+  H2 358x73 "Find top venues for events in Leeds"
+  H2 358x73 "Explore popular event spaces around Edinburgh"
+  H2 358x73 "Discover Liverpool's best event locations"
+  H2 358x73 "Find your perfect venue in Bristol"
+  H2 358x73 "Glasgow's best event spaces available for booking"
+  H2 358x73 "Browse top locations for events in Nottingham"
+  H2 358x73 "Book popular spaces in Brighton"
+  H2 358x73 "Explore spaces all over the world"
+  H2 358x73 "Tagvenue - your trusted venue marketplace"
+  H3 310x22 "Discover unique spaces for any event"
+  H3 310x22 "Find the perfect fit with smart tools"
+  H3 310x22 "Check verified reviews before you book"
+  H3 310x22 "Make a secure, hassle-free booking"
+  H2 358x73 "Expert advice to book the perfect venue"
+  H2 286x126 "List your space for free and get more bookings!"
+--- HEADER {"position":"static","top":"auto","height":"56px","backgroundColor":"rgb(255, 255, 255)","borderBottom":"1px solid rgb(222, 223, 227)","boxShadow":"none","zIndex":"5000"} 390x56
+--- HEADER_TEXT Browse spaces United Kingdom London Manchester Birmingham Leeds Edinburgh Liverpool Glasgow Bristol Nottingham Brighton Newcastle Cardiff Popular cities worldwide Singapore SG Melbourne AU Sydney AU New York City, NY US Toronto, ON CA Brisbane AU Los Angeles, CA US Chicago, IL US Dublin IE Browse spacesUserLog inUser loginUser sign upVenueVenue loginList your spaceList your space with usBrowse spa
+--- HEADER_LINKS Browse spacesUserLog inUser loginUser sign upVenueVenue logi
+--- NAV_ALL 
+--- SEARCH_INPUTS
+  {"tag":"INPUT","type":"text","ph":"What are you planning?","aria":null,"name":"room_tag_autocomplete","r":{"x":67,"y":281,"w":290,"h":33}}
+  {"tag":"INPUT","type":"number","ph":"Number of guests","aria":null,"name":null,"r":{"x":67,"y":367,"w":290,"h":33}}
+  {"tag":"INPUT","type":"text","ph":"Event location","aria":null,"name":null,"r":{"x":67,"y":453,"w":290,"h":33}}
+--- FILTER_CONTAINERS
+--- CARDS
+  [0] imgRatio=1.261 252x200 alt="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event"
+     d0 DIV "c-blog-box c-box-carousel__item" 300x400 {"borderRadius":"7px","border":"0px none rgb(55, 57, 65)","boxShadow":"rgba(55, 57, 65, 0.04) 0px 1px 2px 0px, rgba(55, 57, 65, 0.04) 0px 2px 4px 0px, rgba(55, 57, 65, 0.04) 0px 4px 8px 0px, rgba(55, 57, 65, 0.04) 0px 8px 16px 0px, rgba(55, 57, 65, 0.04) 0px 1 TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event"
+     d1 DIV "c-card-box-wrap" 310x400 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 10px 0px 0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event"
+     d2 DIV "c-box-carousel-inner clearfix" 1274x400 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? How Tagvenue Makes Sure You Only Book the Best, Verified Ven
+     d3 DIV "c-box-carousel c-box-carousel--loaded c-box-carousel--beginning" 378x430 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 10px","transition":"all","overflow":"auto","display":"flex","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? How Tagvenue Makes Sure You Only Book the Best, Verified Ven
+     d4 DIV "c-box-carousel-wrap" 358x430 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? How Tagvenue Makes Sure You Only Book the Best, Verified Ven
+  [1] imgRatio=1.261 252x200 alt="Your Ultimate Christmas Party Checklist"
+     d0 DIV "c-blog-box c-box-carousel__item" 300x400 {"borderRadius":"7px","border":"0px none rgb(55, 57, 65)","boxShadow":"rgba(55, 57, 65, 0.04) 0px 1px 2px 0px, rgba(55, 57, 65, 0.04) 0px 2px 4px 0px, rgba(55, 57, 65, 0.04) 0px 4px 8px 0px, rgba(55, 57, 65, 0.04) 0px 8px 16px 0px, rgba(55, 57, 65, 0.04) 0px 1 TEXT="Your Ultimate Christmas Party Checklist"
+     d1 DIV "c-card-box-wrap" 321x400 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 10px 0px 11px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Your Ultimate Christmas Party Checklist"
+     d2 DIV "c-box-carousel-inner clearfix" 1274x400 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? How Tagvenue Makes Sure You Only Book the Best, Verified Ven
+     d3 DIV "c-box-carousel c-box-carousel--loaded c-box-carousel--beginning" 378x430 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 10px","transition":"all","overflow":"auto","display":"flex","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? How Tagvenue Makes Sure You Only Book the Best, Verified Ven
+     d4 DIV "c-box-carousel-wrap" 358x430 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? How Tagvenue Makes Sure You Only Book the Best, Verified Ven
+  [2] imgRatio=1.261 252x200 alt="What If I Need to Cancel My Venue Booking for My Event?"
+     d0 DIV "c-blog-box c-box-carousel__item" 300x400 {"borderRadius":"7px","border":"0px none rgb(55, 57, 65)","boxShadow":"rgba(55, 57, 65, 0.04) 0px 1px 2px 0px, rgba(55, 57, 65, 0.04) 0px 2px 4px 0px, rgba(55, 57, 65, 0.04) 0px 4px 8px 0px, rgba(55, 57, 65, 0.04) 0px 8px 16px 0px, rgba(55, 57, 65, 0.04) 0px 1 TEXT="What If I Need to Cancel My Venue Booking for My Event?"
+     d1 DIV "c-card-box-wrap" 321x400 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 10px 0px 11px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="What If I Need to Cancel My Venue Booking for My Event?"
+     d2 DIV "c-box-carousel-inner clearfix" 1274x400 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? How Tagvenue Makes Sure You Only Book the Best, Verified Ven
+     d3 DIV "c-box-carousel c-box-carousel--loaded c-box-carousel--beginning" 378x430 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 10px","transition":"all","overflow":"auto","display":"flex","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? How Tagvenue Makes Sure You Only Book the Best, Verified Ven
+     d4 DIV "c-box-carousel-wrap" 358x430 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? How Tagvenue Makes Sure You Only Book the Best, Verified Ven
+  [3] imgRatio=1.261 252x200 alt="How Tagvenue Makes Sure You Only Book the Best, Verified Venues for Your Events"
+     d0 DIV "c-blog-box c-box-carousel__item" 300x400 {"borderRadius":"7px","border":"0px none rgb(55, 57, 65)","boxShadow":"rgba(55, 57, 65, 0.04) 0px 1px 2px 0px, rgba(55, 57, 65, 0.04) 0px 2px 4px 0px, rgba(55, 57, 65, 0.04) 0px 4px 8px 0px, rgba(55, 57, 65, 0.04) 0px 8px 16px 0px, rgba(55, 57, 65, 0.04) 0px 1 TEXT="How Tagvenue Makes Sure You Only Book the Best, Verified Venues for Your Events"
+     d1 DIV "c-card-box-wrap" 321x400 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 10px 0px 11px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="How Tagvenue Makes Sure You Only Book the Best, Verified Venues for Your Events"
+     d2 DIV "c-box-carousel-inner clearfix" 1274x400 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? How Tagvenue Makes Sure You Only Book the Best, Verified Ven
+     d3 DIV "c-box-carousel c-box-carousel--loaded c-box-carousel--beginning" 378x430 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 10px","transition":"all","overflow":"auto","display":"flex","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? How Tagvenue Makes Sure You Only Book the Best, Verified Ven
+     d4 DIV "c-box-carousel-wrap" 358x430 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? How Tagvenue Makes Sure You Only Book the Best, Verified Ven
+  [4] imgRatio=1.6 286x179 alt="List your space"
+     d0 DIV "c-box-enlist__column" 286x275 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "c-box-enlist" 358x759 {"borderRadius":"8px","border":"0px none rgb(55, 57, 65)","boxShadow":"rgba(255, 91, 101, 0.08) 0px 1px 2px 0px, rgba(255, 91, 101, 0.08) 0px 2px 4px 0px, rgba(255, 91, 101, 0.08) 0px 4px 8px 0px, rgba(255, 91, 101, 0.08) 0px 8px 16px 0px, rgba(255, 91, 101, 0 TEXT="List your space for free and get more bookings! We are the world’s fastest-growing online marketplace for venue hire, giving you direct access to the right customers. List your space"
+     d2 DIV "p-home-container" 390x1580 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"16px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Expert advice to book the perfect venue Learn how Tagvenue has helped over 1M+ people find and book the ideal venue for events like yours. 10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Chr
+     d3 MAIN "" 390x11639 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Discover top event spaces across the UK London Make it happen in the capital 10635 venues Manchester Business and culture by the docks 1200 venues Birmingham Second city, first class event venues 864 venues Edinburgh Be
+     d4 DIV "l-base-container" 390x12917 {"borderRadius":"0px","border":"0px none rgb(55, 57, 65)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Skip to main content Find and book venues for any event imaginable EVENT TYPE GUESTS LOCATION Search Trusted by over 1M+ customers Discover top event spaces across the UK London Make it happen in the capital 10635 venue
+--- IMAGES
+  150x60 nat=150x68 fit=fill radius=0px alt="google.svg"
+  162x60 nat=162x68 fit=fill radius=0px alt="facebook.svg"
+  90x60 nat=90x68 fit=fill radius=0px alt="p&g.svg"
+  112x60 nat=112x68 fit=fill radius=0px alt="ebay.svg"
+  124x60 nat=124x68 fit=fill radius=0px alt="netflix.svg"
+  130x60 nat=130x68 fit=fill radius=0px alt="visa.svg"
+  252x200 nat=0x0 fit=cover radius=4px alt="10 Reasons Why Tagvenue Is the Best Choice for Your Next Event"
+  252x200 nat=0x0 fit=cover radius=4px alt="Your Ultimate Christmas Party Checklist"
+  252x200 nat=0x0 fit=cover radius=4px alt="What If I Need to Cancel My Venue Booking for My Event?"
+  252x200 nat=0x0 fit=cover radius=4px alt="How Tagvenue Makes Sure You Only Book the Best, Verified Venues for Your Events"
+  286x179 nat=0x0 fit=fill radius=0px alt="List your space"
+  20x20 nat=0x0 fit=fill radius=0px alt=""
+  20x20 nat=0x0 fit=fill radius=0px alt=""
+  20x20 nat=0x0 fit=fill radius=0px alt=""
+  20x20 nat=0x0 fit=fill radius=0px alt=""
+  20x20 nat=0x0 fit=fill radius=0px alt=""
+  20x20 nat=0x0 fit=fill radius=0px alt=""
+--- TYPE_ROLES
+  h1 "Find and book venues for any event imaginable" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"28px","fontWeight":"700","lineHeight":"36px","letterSpacing":"normal","color":"rgb(37, 39, 44)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(37, 39, 44)","boxShadow":"none","transition":"all","padding":"0px 14px","margin":"0px 0px 32px"}
+  card-title "Discover top event spaces across the UK" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"26px","fontWeight":"700","lineHeight":"36.4px","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(55, 57, 65)","boxShadow":"none","transition":"all","padding":"0px","margin":"30px 0px 20px"}
+  card-title "Global brands and 1M+ users trust Tagvenue" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"26px","fontWeight":"700","lineHeight":"36.4px","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(55, 57, 65)","boxShadow":"none","transition":"all","padding":"0px","margin":"90px 0px 20px"}
+  card-title "Popular venues for hire in London" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"26px","fontWeight":"700","lineHeight":"36.4px","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(55, 57, 65)","boxShadow":"none","transition":"all","padding":"0px","margin":"50px 0px 20px"}
+  filter-label "EVENT TYPE" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"","boxShadow":"none","transition":"all","padding":"16px 16px 16px 50px","margin":"0px"}
+  filter-label "GUESTS" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"","boxShadow":"none","transition":"all","padding":"16px 16px 16px 50px","margin":"0px"}
+  filter-label "LOCATION" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(55, 57, 65)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(55, 57, 65)","boxShadow":"none","transition":"all","padding":"16px 16px 16px 50px","margin":"0px"}
+  nav-link "" {"fontFamily":"Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif","fontSize":"14px","fontWeight":"400","lineHeight":"19.6px","letterSpacing":"normal","color":"rgb(0, 162, 135)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(0, 162, 135)","boxShadow":"none","transition":"color 0.1s ease-out","padding":"0px 16px","margin":"0px"}
+--- HOVER {"before":{"text":"10 Reasons Why Tagvenue Is the Best Choice for Your Next Event Your Ultimate Christmas Party Checklist What If I Need to Cancel My Venue Booking for My Event? H","r":{"x":6,"y":10952,"w":378,"h":430},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(55, 57, 65)","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","cursor":"auto","translate":"none","scale":"none"}},"after":{"r":{"w":378,"h":430},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(55, 57, 65)","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+Skip to main content
+Find and book venues for any event imaginable
+EVENT TYPE
+GUESTS
+LOCATION
+Search
+
+Trusted by over 1M+ customers
+
+Discover top event spaces across the UK
+London
+Make it happen in the capital
+10635 venues
+Manchester
+Business and culture by the docks
+1200 venues
+Birmingham
+Second city, first class event venues
+864 venues
+Edinburgh
+Beauty and heritage in Scotland's capital
+450 venues
+Glasgow
+Culture and character along the River Clyde
+419 venues
+Liverpool
+The very best event spaces of Merseyside
+396 venues
+Leeds
+Top event venues in the heart of Yorkshire
+720 venues
+Bristol
+History and creativity in the West Country
+485 venues
+Newcastle
+Discover elegant spots for your event
+198 venues
+Nottingham
+Picturesque spaces rich in culture
+185 venues
+Brighton
+Fun and frolic in seaside spots
+259 venues
+Cardiff
+An event to remember at these Welsh venues
+169 venues
+Sheffield
+Venues that take your breath away
+165 venues
+Leicester
+Discover the best space for your event in Leicester!
+84 venues
+Reading
+Unique spaces in gorgeous Berkshire
+96 venues
+York
+Claim your venue before the ghosts and Vikings do!
+127 venues
+Oxford
+Beautiful venues filled with history
+130 venues
+Cambridge
+Unique and beautiful venues for hire
+104 venues
+Milton Keynes
+Unique locations to bring your celebration alive
+45 venues
+Stockport
+Charming venues for an eventful occasion
+1063 venues
+Bath
+Atmospheric spaces in Somerset's grandest city
+72 venues
+Bradford
+Top event venues in West Yorkshire
+566 venues
+Wolverhampton
+Lovely spaces for your event in central England
+54 venues
+Coventry
+Charming historic venues for every event
+76 venues
+Bournemouth
+Explore top Bournemouth venues for any occasion
+74 venues
+Chester
+Browse and book the city’s best spaces!
+53 venues
+Wirral
+Top event spaces for any occasion
+408 venues
+Southampton
+Browse top picks for parties, meetings and more in Southampton
+82 venues
+Watford
+Jump in and find your new favourite space
+44 venues
+Belfast
+Explore spaces for parties, dinners & more
+84 venues
+Solihull
+Venues for events that impress
+773 venues
+Chelmsford
+Breathtaking venues in a rural setting
+96 venues
+Walsall
+Create the vibe you want at these venues!
+82 venues
+Harrogate
+Postcard-worthy venues for your next celebration
+320 venues
+Wakefield
+Find the right spot for your next gathering – book your space today!
+81 venues
+Bolton
+Browse spaces that bring out the best in your event
+101 venues
+Cheltenham
+Browse top unique spots for special events
+49 venues
+Rotherham
+Find your next gathering place
+186 venues
+Northampton
+Discover and book great venues
+40 venues
+Oldham
+Book great spaces offering a true Northern welcome
+843 venues
+Warrington
+Book a venue with real local flair
+131 venues
+Preston
+Book spaces for big parties or close gatherings
+30 venues
+Doncaster
+Browse Doncaster’s best picks
+82 venues
+Norwich
+Book the perfect place for your next event
+33 venues
+Colchester
+Snag a space that starts conversations
+34 venues
+Canterbury
+Amazing spaces for your next big celebration
+36 venues
+Winchester
+Browse venues and book in minutes
+195 venues
+Maidstone
+See top event picks now!
+91 venues
+Guildford
+Great style, easy booking. Start here.
+143 venues
+Windsor
+Find spaces for any occasion
+36 venues
+Warwick
+Beautiful and unique spaces to wow your guests
+167 venues
+Derby
+Great spaces, zero hassle
+23 venues
+Plymouth
+From barns to ballrooms—it’s all here
+29 venues
+Luton
+Big plans need the right room
+9 venues
+Sutton Coldfield
+Book a spot that brings people together
+147 venues
+Wigan
+Browse spaces made for good times
+129 venues
+Huddersfield
+Easy booking, bold spaces—start here
+33 venues
+Exeter
+Book charming outdoor spots
+42 venues
+Blackpool
+See super spaces you’ll love
+13 venues
+Slough
+Make your occasion unforgettable
+118 venues
+Bedford
+Spaces that put your event on the map
+72 venues
+Aberdeen
+Every event starts with one decision
+12 venues
+Basingstoke
+Discover top spaces for your gathering
+19 venues
+Rochdale
+Find the perfect place to gather
+90 venues
+Birkenhead
+Check out the best event spaces
+387 venues
+Brentwood
+Your perfect event location is here
+60 venues
+Telford
+Every great event needs the right room
+31 venues
+Chichester
+Where great gatherings begin
+49 venues
+Swindon
+Find the right place to gather
+21 venues
+Middlesbrough
+Turn good plans into great events
+14 venues
+Global brands and 1M+ users trust Tagvenue
+Popular venues for hire in London
+
+Party in private function rooms in pubs and bars of London. Host your events in iconic skyscrapers and world-class conference venues. Discover converted warehouses of Brixton, charming Georgian townhouses in North London and many more!
+
+Meeting Rooms in London
+The best meeting spaces in town, all in one place
+7558 venues
+Party Venues in London
+Get ready to have the best time of your life!
+9957 venues
+Private Dining Rooms in London
+Treat yourselves and have a fantastic private feast
+7790 venues
+Pubs with Function Rooms in London
+Celebrate your special occasion the London way
+6225 venues
+Christmas Party Venues in London
+Hundreds of festive venues for your Christmas bash!
+6918 venues
+Birthday Party Venues in London
+We know the best birthday spots in London for you!
+8084 venues
+Small Venues in London
+London's best-kept secrets are now yours to unveil!
+10635 venues
+Photo Studios in London
+Plan your photo shoot in London's best photo studios
+760 venues
+Rooftop Venues in London
+Throw an unforgettable rooftop party
+205 venues
+Conference Venues in London
+Worldclass conference centres and dozens of unusual spaces
+3821 venues
+Dance Studios in London
+Dance away in London's best dance studios
+553 venues
+Party Boats in London
+Eat, drink, be merry and enjoy amazing views of the Thames
+67 venues
+Affordable Wedding Venues in London
+Stunning wedding reception doesn’t have to break the bank
+3225 venues
+Top event venues available in Manchester
+
+From unique and quirky venues of the Northern Quarter and private function rooms in vibrant bars of Canal Street to corporate event venues in Spinningfields and spaces with a view on Salford Docks – when it comes to venue hire in Manchester, we know all the best spots.
+
+Meeting Rooms in Manchester
+Book your ideal spot for meeting in Manchester
+738 venues
+Party Venues in Manchester
+Deansgate, Northern Quarter and the suburbs – top places to party
+895 venues
+Private Dining Rooms in Manchester
+Treat yourselves with an indulging dining experience
+623 venues
+Affordable Venues in Manchester
+Find the most affordable spaces in Manchester
+1200 venues
+Christmas Party Venues in Manchester
+Celebrate the most wonderful time of the year in style!
+557 venues
+Private Bars in Manchester
+Browse Manchester's best private bars
+553 venues
+Conference Venues in Manchester
+Find and book the best conference space in Manchester
+426 venues
+Birthday Party Venues in Manchester
+Let’s make this birthday one to remember!
+678 venues
+Photo Studios in Manchester
+Find the best Manchester photo spaces in a flash
+49 venues
+Affordable Wedding Venues in Manchester
+Organise a gorgeous wedding reception on a budget
+331 venues
+Corporate Event Venues in Manchester
+Discover top Manchester venues for business functions
+699 venues
+Private Cinemas in Manchester
+Have the best private screening experience in Manchester
+11 venues
+The best event spaces to book in Birmingham
+
+Looking for a meeting room or another kind of event space near Bullring? Organising a private party and need a private function room in one of the restaurants in the Jewellery Quarter? We’ve got it all covered. We’re listing the best spaces for hire all over Birmingham!
+
+Meeting Rooms in Birmingham
+Big and small, formal and laid-back meeting rooms for you!
+645 venues
+Affordable Venues in Birmingham
+Affordable Birmingham venues: Perfect spaces within budget
+864 venues
+Party Venues in Birmingham
+The best spaces to host a memorable party in Birmingham
+724 venues
+Private Dining Rooms in Birmingham
+Get the best dining experience in a top-tier private room
+487 venues
+Conference Venues in Birmingham
+Book the best conference spaces in Birmingham
+373 venues
+Photo Studios in Birmingham
+Best studios for your next photo shoot in Birmingham
+37 venues
+Christmas Party Venues in Birmingham
+From dining rooms for your Xmas dinner to clubs for a holiday bash!
+386 venues
+Birthday Party Venues in Birmingham
+These Birmingham birthday party venues will blow you away
+545 venues
+Affordable Wedding Venues in Birmingham
+Organise a lovely wedding reception for less
+214 venues
+Pubs with Function Rooms in Birmingham
+Finest function rooms of Birmingham, all in one place
+392 venues
+Corporate Event Venues in Birmingham
+Book the best Birmingham venue for your corporate needs
+492 venues
+Engagement Party Venues in Birmingham
+We’ve got the perfect engagement party venue for you
+366 venues
+Find top venues for events in Leeds
+
+Are you organising a company event around The Calls? Or maybe planning a milestone private party in Leeds City Centre? Perhaps you're after a creative spot near the docks? Secure a venue that checks all the bo
+STAGE pre-write 18756 ms

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800"
+     role="img" aria-label="Abstract placeholder illustration" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="grad-82e0db96" x1="0" y1="0" x2="0.83" y2="0.81">
+      <stop offset="0%" stop-color="#E5C073" />
+      <stop offset="100%" stop-color="#7D4F79" />
+    </linearGradient>
+    <radialGradient id="grad-82e0db96-glow" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" stop-color="#B385AE" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#B385AE" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#grad-82e0db96)" />
+  <rect width="1200" height="800" fill="url(#grad-82e0db96-glow)" />
+  <g opacity="0.62">
+      <rect x="300" y="0.61" width="104" height="579.39" rx="52" fill="none" stroke="#B385AE" stroke-width="14" />
+      <circle cx="352" cy="40.61" r="16" fill="#B385AE" opacity="0.7" />
+      <rect x="450" y="19.89" width="104" height="560.11" rx="52" fill="none" stroke="#B385AE" stroke-width="14" />
+      <circle cx="502" cy="59.89" r="16" fill="#B385AE" opacity="0.7" />
+      <rect x="600" y="72.22" width="104" height="507.78" rx="52" fill="none" stroke="#B385AE" stroke-width="14" />
+      <circle cx="652" cy="112.22" r="16" fill="#B385AE" opacity="0.7" />
+      <rect x="750" y="101.18" width="104" height="478.82" rx="52" fill="none" stroke="#B385AE" stroke-width="14" />
+      <circle cx="802" cy="141.18" r="16" fill="#B385AE" opacity="0.7" />
+      <rect x="900" y="69.56" width="104" height="510.44" rx="52" fill="none" stroke="#B385AE" stroke-width="14" />
+      <circle cx="952" cy="109.56" r="16" fill="#B385AE" opacity="0.7" />
+  </g>
+  <rect x="24" y="24" width="1152" height="752" rx="24" fill="none" stroke="#E5C073"
+        stroke-width="2" opacity="0.28" />
+</svg>

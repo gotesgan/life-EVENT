@@ -1,0 +1,2829 @@
+{
+ "slug": "theknot",
+ "mode": "listing",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "",
+   "r": {
+    "x": 72,
+    "y": 397,
+    "w": 309,
+    "h": 206
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(0, 0, 0)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 309,
+    "h": 206
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(0, 0, 0)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://www.theknot.com/marketplace/wedding-reception-venues-san-francisco-ca",
+  "title": "Wedding Venues With Prices in San Francisco, CA - The Knot",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 7283,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "398 results for Wedding Venues in San Francisco, CA",
+    "x": 74,
+    "y": 171,
+    "w": 1,
+    "h": 1
+   },
+   {
+    "tag": "H1",
+    "text": "Other reception venues you might like Sponsored results",
+    "x": 1083,
+    "y": 418,
+    "w": 278,
+    "h": 70
+   },
+   {
+    "tag": "H3",
+    "text": "Wedding Vendors in San Francisco",
+    "x": 72,
+    "y": 5168,
+    "w": 1296,
+    "h": 28
+   },
+   {
+    "tag": "H2",
+    "text": "Wedding Reception Venues in San Francisco, CA",
+    "x": 100,
+    "y": 5672,
+    "w": 1240,
+    "h": 32
+   },
+   {
+    "tag": "H3",
+    "text": "Finding Your San Francisco Wedding Venue",
+    "x": 100,
+    "y": 5820,
+    "w": 1240,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Activities in San Francisco",
+    "x": 100,
+    "y": 5964,
+    "w": 1240,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "FAQs",
+    "x": 100,
+    "y": 6132,
+    "w": 1240,
+    "h": 28
+   },
+   {
+    "tag": "H4",
+    "text": "How can my out-of-town guests get to San Fransico?",
+    "x": 100,
+    "y": 6172,
+    "w": 1240,
+    "h": 26
+   },
+   {
+    "tag": "H4",
+    "text": "Are there special considerations if my partner or I are in the military while applying for a San Francisco marriage license?",
+    "x": 100,
+    "y": 6290,
+    "w": 1240,
+    "h": 52
+   },
+   {
+    "tag": "H4",
+    "text": "Can I tie the knot in San Francisco City Hall?",
+    "x": 100,
+    "y": 6410,
+    "w": 1240,
+    "h": 26
+   }
+  ],
+  "header": {
+   "tag": "HEADER",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 120
+   },
+   "style": {
+    "position": "static",
+    "top": "auto",
+    "height": "120px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderBottom": "0px none rgb(0, 0, 0)",
+    "boxShadow": "none",
+    "zIndex": "auto"
+   },
+   "text": "",
+   "links": []
+  },
+  "navAll": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "14"
+  ],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": " ",
+    "aria": null,
+    "name": "search...",
+    "r": {
+     "x": 874,
+     "y": 182,
+     "w": 421,
+     "h": 22
+    }
+   }
+  ],
+  "filterContainers": [],
+  "images": [
+   {
+    "src": "https://media-api.xogrp.com/images/f112b65f-4919-4838-b8ee-ba6646ca0898~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "310x210",
+    "r": {
+     "x": 72,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/dd5f551a-956f-40f9-8516-634230bcf80c~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 381,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/55a9fa54-86c0-451f-bea0-65f210c7170b~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 689,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/e6bfa416-eed2-444d-a389-c5f32ef0ef4c~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 998,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/0a316080-3711-4bf3-ae49-29c5cc5bf933~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1307,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/85d75de9-23b5-42ca-ac93-0ac1f55e55b3~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "310x210",
+    "r": {
+     "x": 401,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/26fd509c-8545-4625-95df-7f5e9aeee165~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 709,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/6d34566f-0e1d-4c36-922f-1d30224c908f~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1018,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/8ef83ff2-684a-4729-8d9d-18616732c63e~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1327,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/cf43f03f-cdb1-4284-8ac9-0152ebe97181~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1635,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/1acf0dc8-2f7f-43dd-a92c-b93c9d99e282~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "310x210",
+    "r": {
+     "x": 729,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/d15fff23-9549-49d2-bdc5-bcddd718785c~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1038,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/795de624-56d2-4464-baa3-0838c9d9d17e~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1347,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/f69c31ef-df09-40fe-bd1e-51e42c465ce3~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1655,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/7b7cfe78-a238-46d2-9fd0-8e79fc9a63d0~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1964,
+     "y": 397,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/f5506c53-e555-4652-8494-a996b6285b65~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "310x210",
+    "r": {
+     "x": 72,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/2f7474cf-8a62-4ba9-9172-d78d35912e7a~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 381,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/90868a0f-8eba-4c9e-973f-a5aa1f05b025~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 689,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/0f1bee3e-42ae-42fb-b407-131cf2acb5ae~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 998,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/7148228f-ae37-4a97-a664-5d12cff0d171~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1307,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/60b80591-a9ca-41ed-bdc0-f21f65d4958e~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "310x210",
+    "r": {
+     "x": 401,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/394bc1d4-346d-4b7b-b26a-04d0db86aa50~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 709,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/368f0fee-5d47-40ac-b974-2a8f7c911c15~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1018,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/ff606271-71aa-457d-9b9c-88f3c18332ce~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1327,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/4c4aaffd-2ab8-4bc5-9e91-5c2b725c5413~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1635,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/18e18168-c4fd-4275-b00e-f5f0027cee48~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "310x210",
+    "r": {
+     "x": 729,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/72b263e0-8dd4-4429-a026-cab193869584~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1038,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/95f1f605-5897-4634-a1f9-7407c3bb4257~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1347,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/d66d0a47-8aaf-4ea2-b300-d37f8d0b7d90~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1655,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/f2335fa3-ff66-4be6-8bf7-39d658987db9~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1964,
+     "y": 849,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/23d619f3-ec7a-42c0-af53-a4abdb36d6ef~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "310x210",
+    "r": {
+     "x": 72,
+     "y": 1300,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/ab661e5b-d747-43d3-82da-6f2014e5d327~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 381,
+     "y": 1300,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/33283ba7-1067-4b4b-b961-9b3431ba5703~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 689,
+     "y": 1300,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/3b29c649-7b34-4eac-af25-d2f034bad5a5~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 998,
+     "y": 1300,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/f69696fc-e09f-485c-9ed5-72c49668c32a~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1307,
+     "y": 1300,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/a6d40c1d-80d1-43d5-bfed-0494e9e103d3~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "310x210",
+    "r": {
+     "x": 401,
+     "y": 1300,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/676f0a96-ce7c-42c4-a421-2b77bb63b5d4~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 709,
+     "y": 1300,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/3925d698-66e7-455d-b321-5c6e898f8d1f~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1018,
+     "y": 1300,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/09b616ab-11fa-46f7-b2f5-8c474d419c61~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1327,
+     "y": 1300,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media-api.xogrp.com/images/75c01f2d-44db-45a9-be0b-7c8c7d4f52da~sc_310.210?quality=70",
+    "alt": "",
+    "nat": "0x0",
+    "r": {
+     "x": 1635,
+     "y": 1300,
+     "w": 309,
+     "h": 206
+    },
+    "fit": "cover",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 72,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 72,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 72,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 72,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 72,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 381,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 381,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 381,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 381,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 72,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 689,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 689,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 689,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 689,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 72,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 998,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 998,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 998,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 998,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 72,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 1307,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1307,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 1307,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 1307,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 72,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 401,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 401,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 401,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 401,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 401,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 709,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 709,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 709,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 709,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 401,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 1018,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1018,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 1018,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 1018,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 401,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 1327,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1327,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 1327,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 1327,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 401,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 1635,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1635,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 1635,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 1635,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 401,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 729,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 729,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 729,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 729,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 729,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 1038,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1038,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 1038,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 1038,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 729,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 1347,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1347,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 1347,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 1347,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 729,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.5,
+     "r": {
+      "w": 309,
+      "h": 206
+     }
+    },
+    "chain": [
+     {
+      "tag": "PICTURE",
+      "cls": "",
+      "r": {
+       "x": 1655,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 10
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1655,
+       "y": 397,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(81, 84, 92)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slide--mp-oVMIb",
+      "r": {
+       "x": 1655,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 205.75px",
+       "transition": "all",
+       "overflow": "auto hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "slideContainer--mp-B47U4",
+      "r": {
+       "x": 1655,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "UL",
+      "cls": "slidesList--mp-Tvfni",
+      "r": {
+       "x": 729,
+       "y": 397,
+       "w": 309,
+       "h": 206
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 5
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "Skip to Main Content",
+   "California Wedding Venues",
+   "San Francisco, CA",
+   "Category",
+   "Starting price",
+   "Guest capacity",
+   "Distance",
+   "Outdoor space",
+   "+ More filters",
+   "Clear All",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "Request quote",
+   "2",
+   "3",
+   "4",
+   "5",
+   "14",
+   "Affordable",
+   "Backyard",
+   "Ballroom",
+   "Barn",
+   "Beach",
+   "Brewery",
+   "Castle",
+   "City Hall",
+   "Country Club",
+   "Estate",
+   "Forest",
+   "Garden",
+   "Historic Venue",
+   "Hotel",
+   "Inexpensive",
+   "Library",
+   "Loft",
+   "Luxury",
+   "Mountain",
+   "Museum",
+   "Outdoor",
+   "Park",
+   "Religious",
+   "Restaurant",
+   "Rooftop",
+   "Small",
+   "Tented",
+   "Vineyard",
+   "San Francisco Bridal Salons",
+   "San Francisco Beauty Salons",
+   "San Francisco Caterers",
+   "San Francisco DJs",
+   "San Francisco Florists",
+   "San Francisco Reception Venues",
+   "San Francisco Videographers",
+   "San Francisco Wedding Bands",
+   "San Francisco Wedding Photographers",
+   "San Francisco Wedding Planners",
+   "Wedding Vendors",
+   "Wedding Venues",
+   "California Wedding Venues"
+  ],
+  "bodyText": "Skip to Main Content\nCalifornia Wedding Venues\n398 results for Wedding Venues in San Francisco, CA\n398 results for Wedding Venues in \nSan Francisco, CA\nSearch by vendor, style or details\nFind your team faster\nNarrow it down by searching specific vendors or styles, like \"rustic barn.\"\nCategory\nStarting price\nGuest capacity\nDistance\nOutdoor space\n+ More filters\nReception venues\nClear All\nSponsored results\nAward winner (4x)\n.\nVendor Details\nThe Westin St. Francis San Francisco on Union Square\n4.9\nStars\n(77)\nReviews\nLocation:\nThe Americas\nThe Americas\n300+ guests • Ceremony/Reception • Indoor…\n300+ guests, Ceremony/Reception, Indoor, Historic, Ballroom, On-site accommodations, Bar & Drinks, Food & Catering\nNestled on Union Square, The Westin St. Francis San Francisco blends turn-of-the-century grandeur with modern sophistication. Since 1904, this landmark hotel has welcomed generations of guests with it\nStarting at $32,450\nView Vendor Storefront\nRequest quote\nAward winner (1x)\n.\nVendor Details\nGolden Gate Club at the Presidio\n4.6\nStars\n(23)\nReviews\nLocation:\nSan Francisco, CA\nCalifornia\n201-250 guests • Ceremony/Reception • Outd…\n201-250 guests, Ceremony/Reception, Outdoor, Indoor, Ballroom, Bar & Drinks, Food & Catering\nThis elegant event venue at the Presidio's Main Post combines historical and classic styling with Spanish Colonial revival architecture for a remarkable setting. Its convenient location in San Francis\nStarting at $14,990\n4 Deals\nView Vendor Storefront\nRequest quote\nVendor Details\nLive it Up Charter\n5.0\nStars\n(2)\nReviews\nLocation:\nSan Francisco Bay Area\nSan Francisco Bay Area\n0-50 guests • Ceremony/Reception • Outdoor…\n0-50 guests, Ceremony/Reception, Outdoor, Beach, Bar & Drinks, Food & Catering\nLive It Up Charter creates unforgettable waterfront wedding experiences on the San Francisco Bay aboard the Hotel California, a stunning 92-foot luxury yacht featuring four staterooms, five bathrooms,\nStarting at $7,000\n4 Deals\nResponds quickly\n.\nView Vendor Storefront\nRequest quote\nAward winner (4x)\n.\nVendor Details\nThe University Club of San Francisco\n5.0\nStars\n(68)\nReviews\nLocation:\nSan Francisco, CA\nCalifornia\n151-200 guests • Reception • Indoor • Historic…\n151-200 guests, Reception, Indoor, Historic, Ballroom, On-site accommodations, Bar & Drinks, Food & Catering\nThe University Club takes pride in being one of San Francisco, CA's oldest traditions and premier wedding venues, dating back to 1890. As one of the Bay Area's finest private city clubs, we are contin\nStarting at $10,000\nResponds quickly\n.\nView Vendor Storefront\nRequest quote\nVendor Details\nOfficer's Club at the Presidio\n4.5\nStars\n(21)\nReviews\nLocation:\nSan Francisco, CA\nCalifornia\n201-250 guests • Ceremony/Reception • Outd…\n201-250 guests, Ceremony/Reception, Outdoor, Indoor, Historic, Ballroom, On-site accommodations, Bar & Drinks, Food & Catering\nEscape the City for a gorgeous escape near the Bay. This picturesque venue combines modern amenities with a classic Spanish Colonial Revival architecture. From regal history to modern stylings, events\nStarting at $11,990\n4 Deals\nView Vendor Storefront\nRequest quote\nAward winner (2x)\n.\nVendor Details\nThe Terrace Room At Lake Merritt\n4.9\nStars\n(40)\nReviews\nLocation:\nOakland, CA\nCalifornia\n151-200 guests • Reception • Indoor • Beach…\n151-200 guests, Reception, Indoor, Beach, Historic, Bar & Drinks, Food & Catering\nThe Terrace Room, located in Oakland, CA, offers couples a historic, elegant setting for their wedding ceremony. Catering to celebrations since the 1920s, this much-loved event space welcomes you and\nStarting at $4,000\nResponds quickly\n.\nView Vendor Storefront\nRequest quote\nVendor Details\nLog Cabin at the Presidio\n4.9\nStars\n(22)\nReviews\nLocation:\nSan Francisco, CA\nCalifornia\n101-150 guests • Ceremony/Reception • Outdo…\n101-150 guests, Ceremony/Reception, Outdoor, Indoor, Historic, Bar & Drinks, Food & Catering\nImagine celebrating your love in a historic log cabin within the majestic Presidio National Park, where the Golden Gate Bridge and sparkling Bay waters create a memorable backdrop. Just minutes from t\nStarting at $11,490\n4 Deals\nView Vendor Storefront\nRequest quote\nVendor Details\nThe City Club of San Francisco\n4.8\nStars\n(25)\nReviews\nLocation:\nSan Francisco, CA\nCalifornia\n201-250 guests • Ceremony/Reception • Indoo…\n201-250 guests, Ceremony/Reception, Indoor, Historic, Ballroom, On-site accommodations, Bar & Drinks, Food & Catering\nCelebrate your wedding in one of San Francisco's most iconic Art Deco landmarks. Featuring Diego Rivera's legendary mural, panoramic skyline views, and impeccably restored interiors, The City Club of\nStarting at $10,000\n3 Deals\nView Vendor Storefront\nRequest quote\nVendor Details\nCorinthian Yacht Club, Tiburon\n4.7\nStars\n(3)\nReviews\nLocation:\nTiburon, CA\nCalifornia\n201-250 guests • Ceremony/Reception • Outd…\n201-250 guests, Ceremony/Reception, Outdoor, Indoor, Beach, Historic, Bar & Drinks, Food & Catering\nJaw-Dropping Wedding Setting Located right in the heart of Tiburon, CA, you'll find Corinthian Yacht Club, a one-of-a-kind venue that's ready to host your special day. With indoor and outdoor settings\nStarting at $15,000\nView Vendor Storefront\nRequest quote\nAward winner (2x)\n.\nVendor Details\nMarines' Memorial Club And Hotel - Union Square\n4.8\nStars\n(23)\nReviews\nLocation:\nSan Francisco, CA\nCalifornia\n201-250 guests • Ceremony/Recepti…\n201-250 guests, Ceremony/Reception, Indoor, Historic, Ballroom, On-site accommodations, Bar & Drinks, Food & Catering\n1 Deal\nDiscover the hidden gem of San Francisco at the Marines' Memorial Club & Hotel, situated near Union Square. Prepare to be captivated by the sheer elegance of our ballrooms, featuring vaulted ceilings\nResponds quickly\n.\nView Vendor Storefront\nRequest quote\nVendor Details\nFort Mason Center for Arts & Culture\n4.5\nStars\n(17)\nReviews\nLocation:\nSan Francisco, CA\nCalifornia\n201-250 guests • Ceremony/Reception • Outd…\n201-250 guests, Ceremony/Reception, Outdoor, Indoor, Beach, Historic\nPerfect for soon-to-be newlyweds who wish to marry in a historic setting, Fort Mason Center for Arts & Culture is a banquet hall wedding venue in San Francisco, CA. Situated on Frisco Bay's northern w\nStarting at $4,150\nView Vendor Storefront\nRequest quote\nVendor Details\nThe Hibernia\n5.0\nStars\n(6)\nReviews\nLocation:\nSan Francisco, CA\nCalifornia\n300+ guests • Ceremony/Reception • Outdoor…\n300+ guests, Ceremony/Reception, Outdoor, Indoor, Historic, Ballroom, Bar & Drinks\nThe Hibernia is a unique, historic wedding and event venue located in the heart of San Francisco, CA. Originally constructed in 1892, the building is the cornerstone of the city's storied Mid-Market n\nStarting at $5,000\n5% discount\nResponds quickly\n.\nView Vendor Storefront\nRequest quote\nVendor Details\nMalibu Farm Tiburon\n0\nStars\n(0)\nReviews\nLocation:\nBelvedere Tiburon, CA\nCalifornia\nMalibu Farm Tiburon is a breathtaking waterfront wedding venue nestled in Belvedere Tiburon, CA. Here, you and your loved ones will get to enjoy incredible farm-to-table food and drink. With beautiful\nStarting at $7,500\nResponds quickly\n.\nView Vendor Storefront\nRequest quote\nVendor Details\nPalace Hotel\n5.0\nStars\n(2)\nReviews\nLocation:\nSan Francisco, CA\nCalifornia\n300+ guests • Ceremony/Reception • Indoor…\n300+ guests, Ceremony/Reception, Indoor, Historic, Ballroom, On-site accommodations, Bar & Drinks, Food & Catering\nPalace Hotel is a romantic wedding venue in San Francisco, CA, belonging to The Luxury Collection, whose doors opened in 1875. Reminiscent of a bygone era, this enchanting venue transports guests back\nStarting at $35,000\n1 Deal\nResponds quickly\n.\nView Vendor Storefront\nRequest quote\nVendor Details\nOaktown Works\n5.0\nStars\n(1)\nReviews\nLocation:\nSan Francisco Bay, Oakland, East Bay\nSan Francisco Bay, Oakland, East Bay\n151-200 guests • Ceremony/Reception • Outd…\n151-200 guests, Ceremony/Reception, Outdoor, Indoor, Garden\nTucked inside a gated complex across from the Kissel Hotel in Uptown Oakland, our 12,000 sq ft property is designed for indoor & outdoor celebration. Fifty feet of sliding glass connect elegant conte\nStarting at $3,500\n1 Deal\nView Vendor Storefront\nRequest quote\nAward winner (2x)\n.\nVendor Details\nCavallo Point – the Lodge at the Golden Gate\n3.2\nStars\n(5)\nReviews\nLocation:\nSausalito, CA\nCalifornia\n201-250 guests • Ceremony/Reception • Outd…\n201-250 guests, Ceremony/Reception, Outdoor, Indoor, Historic, Ballroom, On-site accommodations, Bar & Drinks, Food & Catering\nCultivation and comfort are at the heart of Cavallo Point - the Lodge at the Golden Gate in Sausalito, CA, an understated and refined wedding venue. Tucked away in the Golden Gate National Park, this\nResponds quickly\n.\nView Vendor Storefront\nRequest quote\nVendor Details\nSan Francisco Design Center Galleria\n5.0\nStars\n(4)\nReviews\nLocation:\nSan Francisco, CA\nCalifornia\n300+ guests • Reception • Ind…\n300+ guests, Reception, Indoor, Historic, Bar & Drinks\n10% discount\nSan Francisco Design Center Galleria is a wedding venue locat",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "398 results for Wedding Venues in San Francisco, CA",
+     "style": {
+      "fontFamily": "ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "30px",
+      "fontWeight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "-1px"
+     },
+     "r": {
+      "x": 74,
+      "y": 171,
+      "w": 1,
+      "h": 1
+     }
+    },
+    {
+     "sel": "h1",
+     "text": "Other reception venues you might like Sponsored results",
+     "style": {
+      "fontFamily": "ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "lowercase",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1083,
+      "y": 418,
+      "w": 278,
+      "h": 70
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, h2, h3",
+     "text": "Wedding Vendors in San Francisco",
+     "style": {
+      "fontFamily": "ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 20px"
+     },
+     "r": {
+      "x": 72,
+      "y": 5168,
+      "w": 1296,
+      "h": 28
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, h2, h3",
+     "text": "Wedding Reception Venues in San Francisco, CA",
+     "style": {
+      "fontFamily": "ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "lineHeight": "32.0009px",
+      "letterSpacing": "normal",
+      "color": "rgb(55, 57, 63)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(55, 57, 63)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 20px"
+     },
+     "r": {
+      "x": 100,
+      "y": 5672,
+      "w": 1240,
+      "h": 32
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, h2, h3",
+     "text": "Finding Your San Francisco Wedding Venue",
+     "style": {
+      "fontFamily": "ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "color": "rgb(55, 57, 63)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(55, 57, 63)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 100,
+      "y": 5820,
+      "w": 1240,
+      "h": 28
+     }
+    }
+   ],
+   "card-meta": [],
+   "filter-label": [
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "Search by vendor, style or details",
+     "style": {
+      "fontFamily": "ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "8px 0px 0px 8px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "border": "",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "19px 15px 5px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 858,
+      "y": 162,
+      "w": 452,
+      "h": 48
+     }
+    }
+   ],
+   "nav-link": [],
+   "price": [
+    {
+     "sel": "[class*='price'], [class*='Price']",
+     "text": "Starting at $32,450",
+     "style": {
+      "fontFamily": "ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(81, 84, 92)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(81, 84, 92)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 72,
+      "y": 723,
+      "w": 132,
+      "h": 20
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price']",
+     "text": "Starting at $14,990",
+     "style": {
+      "fontFamily": "ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(81, 84, 92)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(81, 84, 92)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 401,
+      "y": 723,
+      "w": 129,
+      "h": 20
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price']",
+     "text": "Starting at $7,000",
+     "style": {
+      "fontFamily": "ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(81, 84, 92)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(81, 84, 92)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 729,
+      "y": 723,
+      "w": 121,
+      "h": 20
+     }
+    }
+   ]
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontFamily": "ods-font-secondary, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

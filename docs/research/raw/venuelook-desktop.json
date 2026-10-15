@@ -1,0 +1,3135 @@
+{
+ "slug": "venuelook",
+ "mode": "desktop",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "Agra Venues Vendors",
+   "r": {
+    "x": -29426,
+    "y": 1063,
+    "w": 301,
+    "h": 370
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(33, 37, 41)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 301,
+    "h": 370
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(33, 37, 41)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://www.venuelook.com/",
+  "title": "Find & Book Banquet halls | Wedding Venues | Party places for marriage | birthdays | corporate events - VenueLook",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 6583,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Discover & Book the Perfect Venue with Expert Event Planning",
+    "x": 12,
+    "y": 152,
+    "w": 1416,
+    "h": 36
+   },
+   {
+    "tag": "H2",
+    "text": "How it Works?",
+    "x": 72,
+    "y": 588,
+    "w": 1296,
+    "h": 31
+   },
+   {
+    "tag": "H2",
+    "text": "Browse Vendors & Venues",
+    "x": 72,
+    "y": 985,
+    "w": 1296,
+    "h": 55
+   },
+   {
+    "tag": "H2",
+    "text": "Vendors By Category",
+    "x": 72,
+    "y": 1518,
+    "w": 1296,
+    "h": 31
+   },
+   {
+    "tag": "H2",
+    "text": "Featured Venues",
+    "x": 72,
+    "y": 1874,
+    "w": 1296,
+    "h": 39
+   },
+   {
+    "tag": "H3",
+    "text": "Events & Wedding Destinations",
+    "x": 127,
+    "y": 2435,
+    "w": 341,
+    "h": 96
+   },
+   {
+    "tag": "H2",
+    "text": "Our Top Categories for Venues",
+    "x": 170,
+    "y": 3434,
+    "w": 440,
+    "h": 43
+   },
+   {
+    "tag": "H3",
+    "text": "Create Free Online Invitations",
+    "x": 807,
+    "y": 3959,
+    "w": 425,
+    "h": 36
+   },
+   {
+    "tag": "H3",
+    "text": "Check out what other venue seekers are saying",
+    "x": 0,
+    "y": 4734,
+    "w": 1440,
+    "h": 22
+   },
+   {
+    "tag": "H4",
+    "text": "Amarya",
+    "x": 675,
+    "y": 4956,
+    "w": 66,
+    "h": 29
+   },
+   {
+    "tag": "H4",
+    "text": "Devansh",
+    "x": 670,
+    "y": 4956,
+    "w": 75,
+    "h": 29
+   },
+   {
+    "tag": "H4",
+    "text": "Sandeep Mathur",
+    "x": 638,
+    "y": 4956,
+    "w": 140,
+    "h": 29
+   },
+   {
+    "tag": "H4",
+    "text": "Kunal Shukla",
+    "x": 651,
+    "y": 4956,
+    "w": 114,
+    "h": 29
+   },
+   {
+    "tag": "H4",
+    "text": "Sudha Sharma",
+    "x": 645,
+    "y": 4956,
+    "w": 126,
+    "h": 29
+   },
+   {
+    "tag": "H4",
+    "text": "Sujata Garg",
+    "x": 657,
+    "y": 4956,
+    "w": 101,
+    "h": 29
+   },
+   {
+    "tag": "H4",
+    "text": "Samarth Chaudhary",
+    "x": 622,
+    "y": 4956,
+    "w": 171,
+    "h": 29
+   },
+   {
+    "tag": "H4",
+    "text": "Abdul Kareem",
+    "x": 647,
+    "y": 4892,
+    "w": 122,
+    "h": 29
+   },
+   {
+    "tag": "H4",
+    "text": "Aakash Das",
+    "x": 657,
+    "y": 4924,
+    "w": 102,
+    "h": 29
+   },
+   {
+    "tag": "H4",
+    "text": "35,000+",
+    "x": 76,
+    "y": 5130,
+    "w": 151,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "6.5 Lac+",
+    "x": 235,
+    "y": 5130,
+    "w": 151,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "90+",
+    "x": 394,
+    "y": 5130,
+    "w": 151,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "15,000+",
+    "x": 553,
+    "y": 5130,
+    "w": 151,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "Fastest Growing Venue and Vendor Booking MarketPlace",
+    "x": 732,
+    "y": 5053,
+    "w": 636,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "Easy, Secure and Reliable Platform",
+    "x": 72,
+    "y": 5273,
+    "w": 636,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "Venuelook",
+    "x": 746,
+    "y": 5365,
+    "w": 183,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "24/7",
+    "x": 958,
+    "y": 5365,
+    "w": 183,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "Stringent",
+    "x": 1170,
+    "y": 5365,
+    "w": 183,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "We have thousands of verified venues and vendors from all over India",
+    "x": 12,
+    "y": 5577,
+    "w": 1392,
+    "h": 29
+   },
+   {
+    "tag": "H3",
+    "text": "Get Upto 30% Discount on venues and vendors",
+    "x": 397,
+    "y": 271,
+    "w": 646,
+    "h": 31
+   }
+  ],
+  "header": null,
+  "navAll": [],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Search For",
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 293,
+     "y": 312,
+     "w": 360,
+     "h": 27
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Where",
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 657,
+     "y": 312,
+     "w": 360,
+     "h": 27
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "email",
+    "ph": "Your E-mail",
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 732,
+     "y": 6325,
+     "w": 192,
+     "h": 35
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Type to search",
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 420,
+     "y": 386,
+     "w": 584,
+     "h": 42
+    }
+   }
+  ],
+  "filterContainers": [],
+  "images": [
+   {
+    "src": "https://www.venuelook.com/images/VenueLogo.svg",
+    "alt": "VenueLook Logo",
+    "nat": "267x51",
+    "r": {
+     "x": 35,
+     "y": 0,
+     "w": 170,
+     "h": 51
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/ring.png",
+    "alt": "Engagement",
+    "nat": "88x82",
+    "r": {
+     "x": -1168,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/pool.png",
+    "alt": "Pool Party",
+    "nat": "83x82",
+    "r": {
+     "x": -1006,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/cocktail.png",
+    "alt": "Cocktail Party",
+    "nat": "62x82",
+    "r": {
+     "x": -844,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/ofc-party.png",
+    "alt": "Corporate Party",
+    "nat": "77x82",
+    "r": {
+     "x": -682,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/kitty.png",
+    "alt": "Kitty Party",
+    "nat": "84x77",
+    "r": {
+     "x": -520,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/banquet.png",
+    "alt": "Banquet Halls",
+    "nat": "83x82",
+    "r": {
+     "x": -358,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/restaurant.png",
+    "alt": "Restaurants",
+    "nat": "84x86",
+    "r": {
+     "x": -196,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/farm-house.png",
+    "alt": "Farm Houses",
+    "nat": "84x84",
+    "r": {
+     "x": -34,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/wedding.png",
+    "alt": "Wedding",
+    "nat": "86x82",
+    "r": {
+     "x": 128,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/cake.png",
+    "alt": "Birthday",
+    "nat": "82x82",
+    "r": {
+     "x": 290,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/ring.png",
+    "alt": "Engagement",
+    "nat": "88x82",
+    "r": {
+     "x": 452,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/pool.png",
+    "alt": "Pool Party",
+    "nat": "83x82",
+    "r": {
+     "x": 614,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/cocktail.png",
+    "alt": "Cocktail Party",
+    "nat": "62x82",
+    "r": {
+     "x": 776,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/ofc-party.png",
+    "alt": "Corporate Party",
+    "nat": "77x82",
+    "r": {
+     "x": 938,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/kitty.png",
+    "alt": "Kitty Party",
+    "nat": "84x77",
+    "r": {
+     "x": 1100,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/banquet.png",
+    "alt": "Banquet Halls",
+    "nat": "83x82",
+    "r": {
+     "x": 1262,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/restaurant.png",
+    "alt": "Restaurants",
+    "nat": "84x86",
+    "r": {
+     "x": 1424,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/farm-house.png",
+    "alt": "Farm Houses",
+    "nat": "84x84",
+    "r": {
+     "x": 1586,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/wedding.png",
+    "alt": "Wedding",
+    "nat": "86x82",
+    "r": {
+     "x": 1748,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/cake.png",
+    "alt": "Birthday",
+    "nat": "82x82",
+    "r": {
+     "x": 1910,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/ring.png",
+    "alt": "Engagement",
+    "nat": "88x82",
+    "r": {
+     "x": 2072,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/pool.png",
+    "alt": "Pool Party",
+    "nat": "83x82",
+    "r": {
+     "x": 2234,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/cocktail.png",
+    "alt": "Cocktail Party",
+    "nat": "62x82",
+    "r": {
+     "x": 2396,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/ofc-party.png",
+    "alt": "Corporate Party",
+    "nat": "77x82",
+    "r": {
+     "x": 2558,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/kitty.png",
+    "alt": "Kitty Party",
+    "nat": "84x77",
+    "r": {
+     "x": 2720,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/banquet.png",
+    "alt": "Banquet Halls",
+    "nat": "83x82",
+    "r": {
+     "x": 2882,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/restaurant.png",
+    "alt": "Restaurants",
+    "nat": "84x86",
+    "r": {
+     "x": 3044,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/farm-house.png",
+    "alt": "Farm Houses",
+    "nat": "84x84",
+    "r": {
+     "x": 3206,
+     "y": 424,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/search.png",
+    "alt": "Browse Venues",
+    "nat": "86x86",
+    "r": {
+     "x": 193,
+     "y": 686,
+     "w": 65,
+     "h": 65
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/rupee.png",
+    "alt": "Request Quotes",
+    "nat": "118x119",
+    "r": {
+     "x": 523,
+     "y": 686,
+     "w": 65,
+     "h": 65
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/calender.png",
+    "alt": "Book a Venue",
+    "nat": "95x95",
+    "r": {
+     "x": 853,
+     "y": 686,
+     "w": 65,
+     "h": 65
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://admin.venuelook.com/images/new-home-images/events.png",
+    "alt": "Event Planning",
+    "nat": "300x168",
+    "r": {
+     "x": 1183,
+     "y": 686,
+     "w": 65,
+     "h": 65
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/optimized/city/agra.jpg",
+    "alt": "Agra",
+    "nat": "273x230",
+    "r": {
+     "x": -29397,
+     "y": 1064,
+     "w": 245,
+     "h": 217
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/optimized/city/ahemdabad.jpg",
+    "alt": "Ahmedabad",
+    "nat": "273x230",
+    "r": {
+     "x": -29096,
+     "y": 1064,
+     "w": 245,
+     "h": 217
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/optimized/city/ajmer.jpg",
+    "alt": "Ajmer",
+    "nat": "273x230",
+    "r": {
+     "x": -28795,
+     "y": 1064,
+     "w": 245,
+     "h": 217
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/optimized/city/aligarh.jpg",
+    "alt": "Aligarh",
+    "nat": "354x298",
+    "r": {
+     "x": -28494,
+     "y": 1064,
+     "w": 245,
+     "h": 217
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/optimized/city/allahabad.jpg",
+    "alt": "Allahabad",
+    "nat": "273x230",
+    "r": {
+     "x": -28193,
+     "y": 1064,
+     "w": 245,
+     "h": 217
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/optimized/city/alwar.jpg",
+    "alt": "Alwar",
+    "nat": "273x230",
+    "r": {
+     "x": -27892,
+     "y": 1064,
+     "w": 245,
+     "h": 217
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://cdn.venuelook.com/images/new-home-images/optimized/city/ambala.png",
+    "alt": "Ambala",
+    "nat": "273x230",
+    "r": {
+     "x": -27591,
+     "y": 1064,
+     "w": 245,
+     "h": 217
+    },
+    "fit": "fill",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "Agra",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -29397,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -29397,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -29398,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Agra Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -29426,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Agra Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -29426,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Agra Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Ahmedabad",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -29096,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -29096,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -29097,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Ahmedabad Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -29125,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Ahmedabad Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -29125,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Ahmedabad Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Ajmer",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -28795,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -28795,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -28796,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Ajmer Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -28824,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Ajmer Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -28824,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Ajmer Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Aligarh",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -28494,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -28494,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -28495,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Aligarh Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -28523,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Aligarh Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -28523,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Aligarh Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Allahabad",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -28193,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -28193,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -28194,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Allahabad Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -28222,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Allahabad Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -28222,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Allahabad Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Alwar",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -27892,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -27892,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -27893,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Alwar Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -27921,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Alwar Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -27921,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Alwar Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Ambala",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -27591,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -27591,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -27592,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Ambala Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -27620,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Ambala Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -27620,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Ambala Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Amritsar",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -27290,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -27290,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -27291,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Amritsar Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -27319,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Amritsar Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -27319,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Amritsar Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Asansol",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -26989,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -26989,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -26990,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Asansol Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -27018,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Asansol Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -27018,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Asansol Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Bangalore",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -26688,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -26688,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -26689,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Bangalore Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -26717,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Bangalore Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -26717,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Bangalore Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Bareilly",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -26387,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -26387,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -26388,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Bareilly Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -26416,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Bareilly Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -26416,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Bareilly Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Bhopal",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -26086,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -26086,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -26087,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Bhopal Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -26115,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Bhopal Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -26115,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Bhopal Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Bhubaneswar",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -25785,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -25785,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -25786,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Bhubaneswar Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -25814,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Bhubaneswar Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -25814,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Bhubaneswar Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Bidar",
+     "ratio": 1.131,
+     "r": {
+      "w": 245,
+      "h": 217
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": -25484,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(13, 110, 253)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_getinspiredoverflow__vgf_U",
+      "r": {
+       "x": -25484,
+       "y": 1064,
+       "w": 243,
+       "h": 217
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "15px 15px 0px 0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "homePage_swipercardwidthbrowse___LYNz card",
+      "r": {
+       "x": -25485,
+       "y": 1063,
+       "w": 245,
+       "h": 370
+      },
+      "text": "Bidar Venues Vendors",
+      "style": {
+       "borderRadius": "12px",
+       "border": "1px solid rgba(0, 0, 0, 0.176)",
+       "boxShadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px",
+       "transition": "0.3s",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": -25513,
+       "y": 1063,
+       "w": 301,
+       "h": 370
+      },
+      "text": "Bidar Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "getinspiredslider",
+      "r": {
+       "x": -25513,
+       "y": 1063,
+       "w": 301,
+       "h": 376
+      },
+      "text": "Bidar Venues Vendors",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(33, 37, 41)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "VENUES",
+   "VENDORS",
+   "E-INVITATIONS",
+   "BLOG",
+   "EVENT PLANNING",
+   "LIST YOUR BUSINESS",
+   "LIST YOUR BUSINESS",
+   "GET FREE QUOTES",
+   "RESTAURANTS",
+   "RESTAURANTS",
+   "RESORTS",
+   "RESORTS",
+   "FARM HOUSES",
+   "FARM HOUSES",
+   "BANQUET HALLS",
+   "BANQUET HALLS",
+   "PARTY LAWNS",
+   "PARTY LAWNS",
+   "BARS",
+   "BARS",
+   "Engagement",
+   "Pool Party",
+   "Cocktail Party",
+   "Corporate Party",
+   "Kitty Party",
+   "Banquet Halls",
+   "Restaurants",
+   "Farm Houses",
+   "Wedding",
+   "Birthday",
+   "Engagement",
+   "Pool Party",
+   "Cocktail Party",
+   "Corporate Party",
+   "Kitty Party",
+   "Banquet Halls",
+   "Restaurants",
+   "Farm Houses",
+   "Wedding",
+   "Birthday",
+   "Engagement",
+   "Pool Party",
+   "Cocktail Party",
+   "Corporate Party",
+   "Kitty Party",
+   "Banquet Halls",
+   "Restaurants",
+   "Farm Houses",
+   "Watch It Now",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues",
+   "Vendors",
+   "Venues"
+  ],
+  "bodyText": "VENUES\nVENDORS\nE-INVITATIONS\nBLOG\nEVENT PLANNING\nLIST YOUR BUSINESS\n  \nGET FREE QUOTES\n   \nDiscover & Book the Perfect Venue with Expert Event Planning\n\n\nRESTAURANTS\nRESORTS\nFARM HOUSES\nBANQUET HALLS\nPARTY LAWNS\nBARS\nSEARCH\n\nEngagement\n\nPool Party\n\nCocktail Party\n\nCorporate Party\n\nKitty Party\n\nBanquet Halls\n\nRestaurants\n\nFarm Houses\n\nWedding\n\nBirthday\n\nEngagement\n\nPool Party\n\nCocktail Party\n\nCorporate Party\n\nKitty Party\n\nBanquet Halls\n\nRestaurants\n\nFarm Houses\n\nWedding\n\nBirthday\n\nEngagement\n\nPool Party\n\nCocktail Party\n\nCorporate Party\n\nKitty Party\n\nBanquet Halls\n\nRestaurants\n\nFarm Houses\n\nHow it Works?\nWatch It Now\nBrowse Venues\n\nCheck out the best suited Venues, compare photos, special offers and function packages.\n\nRequest Quotes\n\nGet custom quotes of your short-listed Venues at the click of GET FREE QUOTES button.\n\nBook a Venue\n\nSelect and Book the perfect venue in no time at all. Time is money, save both.\n\nEvent Planning\n\nPlan your event effortlessly with expert guidance. Save time, stay stress-free.\n\nBrowse Vendors & Venues\nAgra\nVenues\nVendors\nAhmedabad\nVenues\nVendors\nAjmer\nVenues\nVendors\nAligarh\nVenues\nVendors\nAllahabad\nVenues\nVendors\nAlwar\nVenues\nVendors\nAmbala\nVenues\nVendors\nAmritsar\nVenues\nVendors\nAsansol\nVenues\nVendors\nBangalore\nVenues\nVendors\nBareilly\nVenues\nVendors\nBhopal\nVenues\nVendors\nBhubaneswar\nVenues\nVendors\nBidar\nVenues\nVendors\nBikaner\nVenues\nVendors\nBulandshahr\nVenues\nVendors\nChail\nVenues\nVendors\nChandigarh\nVenues\nVendors\nChennai\nVenues\nVendors\nCoimbatore\nVenues\nVendors\nDavanagere\nVenues\nVendors\nDehradun\nVenues\nVendors\nDelhi\nVenues\nVendors\nDeoghar\nVenues\nVendors\nDharamshala\nVenues\nVendors\nFaridabad\nVenues\nVendors\nFatehpur\nVenues\nVendors\nGhaziabad\nVenues\nVendors\nGoa\nVenues\nVendors\nGreater Noida\nVenues\nVendors\nGurgaon\nVenues\nVendors\nGwalior\nVenues\nVendors\nHaldwani\nVenues\nVendors\nHapur\nVenues\nVendors\nHaridwar\nVenues\nVendors\nHowrah\nVenues\nVendors\nHyderabad\nVenues\nVendors\nIgatpuri\nVenues\nVendors\nIndore\nVenues\nVendors\nJaipur\nVenues\nVendors\nJaisalmer\nVenues\nVendors\nJamshedpur\nVenues\nVendors\nJhansi\nVenues\nVendors\nJim Corbett\nVenues\nVendors\nJodhpur\nVenues\nVendors\nKanpur\nVenues\nVendors\nKarjat\nVenues\nVendors\nKarnal\nVenues\nVendors\nKochi\nVenues\nVendors\nKolkata\nVenues\nVendors\nLonavala\nVenues\nVendors\nLucknow\nVenues\nVendors\nLudhiana\nVenues\nVendors\nMahabaleshwar\nVenues\nVendors\nMathura\nVenues\nVendors\nMeerut\nVenues\nVendors\nModinagar\nVenues\nVendors\nMohali\nVenues\nVendors\nMoradabad\nVenues\nVendors\nMount Abu\nVenues\nVendors\nMumbai\nVenues\nVendors\nMussoorie\nVenues\nVendors\nMysore\nVenues\nVendors\nNagpur\nVenues\nVendors\nNainital\nVenues\nVendors\nNashik\nVenues\nVendors\nNathdwara\nVenues\nVendors\nNoida\nVenues\nVendors\nOoty\nVenues\nVendors\nPanchkula\nVenues\nVendors\nPanipat\nVenues\nVendors\nPataudi\nVenues\nVendors\nPatna\nVenues\nVendors\nPune\nVenues\nVendors\nPushkar\nVenues\nVendors\nRaipur\nVenues\nVendors\nRajkot\nVenues\nVendors\nRamnagar\nVenues\nVendors\nRanchi\nVenues\nVendors\nRanthambore\nVenues\nVendors\nRewari\nVenues\nVendors\nRishikesh\nVenues\nVendors\nRoorkee\nVenues\nVendors\nRudraprayag\nVenues\nVendors\nShimla\nVenues\nVendors\nShirdi\nVenues\nVendors\nSingapore\nVenues\nVendors\nSonipat\nVenues\nVendors\nSurat\nVenues\nVendors\nTada\nVenues\nVendors\nThane\nVenues\nVendors\nUdaipur\nVenues\nVendors\nVadodara\nVenues\nVendors\nVaranasi\nVenues\nVendors\nVellore\nVenues\nVendors\nVijayawada\nVenues\nVendors\nVisakhapatnam\nVenues\nVendors\nZirakpur\nVenues\nVendors\nAgra\nVenues\nVendors\nAhmedabad\nVenues\nVendors\nAjmer\nVenues\nVendors\nAligarh\nVenues\nVendors\nAllahabad\nVenues\nVendors\nAlwar\nVenues\nVendors\nAmbala\nVenues\nVendors\nAmritsar\nVenues\nVendors\nAsansol\nVenues\nVendors\nBangalore\nVenues\nVendors\nBareilly\nVenues\nVendors\nBhopal\nVenues\nVendors\nBhubaneswar\nVenues\nVendors\nBidar\nVenues\nVendors\nBikaner\nVenues\nVendors\nBulandshahr\nVenues\nVendors\nChail\nVenues\nVendors\nChandigarh\nVenues\nVendors\nChennai\nVenues\nVendors\nCoimbatore\nVenues\nVendors\nDavanagere\nVenues\nVendors\nDehradun\nVenues\nVendors\nDelhi\nVenues\nVendors\nDeoghar\nVenues\nVendors\nDharamshala\nVenues\nVendors\nFaridabad\nVenues\nVendors\nFatehpur\nVenues\nVendors\nGhaziabad\nVenues\nVendors\nGoa\nVenues\nVendors\nGreater Noida\nVenues\nVendors\nGurgaon\nVenues\nVendors\nGwalior\nVenues\nVendors\nHaldwani\nVenues\nVendors\nHapur\nVenues\nVendors\nHaridwar\nVenues\nVendors\nHowrah\nVenues\nVendors\nHyderabad\nVenues\nVendors\nIgatpuri\nVenues\nVendors\nIndore\nVenues\nVendors\nJaipur\nVenues\nVendors\nJaisalmer\nVenues\nVendors\nJamshedpur\nVenues\nVendors\nJhansi\nVenues\nVendors\nJim Corbett\nVenues\nVendors\nJodhpur\nVenues\nVendors\nKanpur\nVenues\nVendors\nKarjat\nVenues\nVendors\nKarnal\nVenues\nVendors\nKochi\nVenues\nVendors\nKolkata\nVenues\nVendors\nLonavala\nVenues\nVendors\nLucknow\nVenues\nVendors\nLudhiana\nVenues\nVendors\nMahabaleshwar\nVenues\nVendors\nMathura\nVenues\nVendors\nMeerut\nVenues\nVendors\nModinagar\nVenues\nVendors\nMohali\nVenues\nVendors\nMoradabad\nVenues\nVendors\nMount Abu\nVenues\nVendors\nMumbai\nVenues\nVendors\nMussoorie\nVenues\nVendors\nMysore\nVenues\nVendors\nNagpur\nVenues\nVendors\nNainital\nVenues\nVendors\nNashik\nVenues\nVendors\nNathdwara\nVenues\nVendors\nNoida\nVenues\nVendors\nOoty\nVenues\nVendors\nPanchkula\nVenues\nVendors\nPanipat\nVenues\nVendors\nPataudi\nVenues\nVendors\nPatna\nVenues\nVendors\nPune\nVenues\nVendors\nPushkar\nVenues\nVendors\nRaipur\nVenues\nVendors\nRajkot\nVenues\nVendors\nRamnagar\nVenues\nVendors\nRanchi\nVenues\nVendors\nRanthambore\nVenues\nVendors\nRewari\nVenues\nVendors\nRishikesh\nVenues\nVendors\nRoorkee\nVenues\nVendors\nRudraprayag\nVenues\nVendors\nShimla\nVenues\nVendors\nShirdi\nVenues\nVendors\nSingapore\nVenues\nVendors\nSonipat\nVenues\nVendors\nSurat\nVenues\nVendors\nTada\nVenues\nVendors\nThane\nVenues\nVendors\nUdaipur\nVenues\nVendors\nVadodara\nVenues\nVendors\nVaranasi\nVenues\nVendors\nVellore\nVenues\nVendors\nVijayawada\nVenues\nVendors\nVisakhapatnam\nVenues\nVendors\nZirakpur\nVenues\nVendors\nAgra\nVenues\nVendors\nAhmedabad\nVenues\nVendors\nAjmer\nVenues\nVendors\nAligarh\nVenues\nVendors\nAllahabad\nVenues\nVendors\nAlwar\nVenues\nVendors\nAmbala\nVenues\nVendors\nAmritsar\nVenues\nVendors\nAsansol\nVenues\nVendors\nBangalore\nVenues\nVendors\nBareilly\nVenues\nVendors\nBhopal\nVenues\nVendors\nBhubaneswar\nVenues\nVendors\nBidar\nVenues\nVendors\nBikaner\nVenues\nVendors\nBulandshahr\nVenues\nVendors\nChail\nVenues\nVendors\nChandigarh\nVenues\nVendors\nChennai\nVenues\nVendors\nCoimbatore\nVenues\nVendors\nDavanagere\nVenues\nVendors\nDehradun\nVenues\nVendors\nDelhi\nVenues\nVendors\nDeoghar\nVenues\nVendors\nDharamshala\nVenues\nVendors\nFaridabad\nVenues\nVendors\nFatehpur\nVenues\nVendors\nGhaziabad\nVenues\nVendors\nGoa\nVenues\nVendors\nGreater Noida\nVenues\nVendors\nGurgaon\nVenues\nVendors\nGwalior\nVenues\nVendors\nHaldwani\nVenues\nVendors\nHapur\nVenues\nVendors\nHaridwar\nVenues\nVendors\nHowrah\nVenues\nVendors\nHyderabad\nVenues\nVendors\nIgatpuri\nVenues\nVendors\nIndore\nVenues\nVendors\nJaipur\nVenues\nVendors\nJaisalmer\nVenues\nVendors\nJamshedpur\nVenues\nVendors\nJhansi\nVenues\nVendors\nJim Corbett\nVenues\nVendors\nJodhpur\nVenues\nVendors\nKanpur\nVenues\nVendors\nKarjat\nVenues\nVendors\nKarnal\nVenues\nVendors\nKochi\nVenues\nVendors\nKolkata\nVenues\nVendors\nLonavala\nVenues\nVendors\nLucknow\nVenues\nVendors\nLudhiana\nVenues\nVendors\nMahabaleshwar\nVenues\nVendors\nMathura\nVenues\nVendors\nMeerut\nVenues\nVendors\nModinagar\nVenues\nVendors\nMohali\nVenues\nVendors\nMoradabad\nVenues\nVendors\nMount Abu\nVenues\nVendors\nMumbai\nVenues\nVendors\nMussoorie\nVenues\nVendors\nMysore\nVenues\nVendors\nNagpur\nVenues\nVendors\nNainital\nVenues\nVendors\nNashik\nVenues\nVendors\nNathdwara\nVenues\nVendors\nNoida\nVenues\nVendors\nOoty\nVenues\nVendors\nPanchkula\nVenues\nVendors\nPanipat\nVenues\nVendors\nPataudi\nVenues\nVendors\nPatna\nVenues\nVendors\nPune\nVenues\nVendors\nPushkar\nVenues\nVendors\nRaipur\nVenues\nVendors\nRajkot\nVenues\nVendors\nRamnagar\nVenues\nVendors\nRanchi\nVenues\nVendors\nRanthambore\nVenues\nVendors\nRewari\nVenues\nVendors\nRishikesh\nVenues\nVendors\nRoorkee\nVenues\nVendors\nRudraprayag\nVenues\nVendors\nShimla\nVenues\nVendors\nShirdi\nVenues\nVendors\nSingapore\nVenues\nVendors\nSonipat\nVenues\nVendors\nSurat\nVenues\nVendors\nTada\nVenues\nVendors\nThane\nVenues\nVendors\nUdaipur\nVenues\nVendors\nVadodara\nVenues\nVendors\nVaranasi\nVenues\nVendors\nVellore\nVenues\nVendors\nVijayawada\nVenues\nVendors\nVisakhapatnam\nVenues\nVendors\nZirakpur\nVenues\nVendors\nVendors By Category\nPhotographers\nMakeup Artists\nMehndi Artists\nBands\nCakes\nCaterers\nFlorists\nDecorators\nBridal Wear\nJewellers\nGroom Wear\nChoreographers\nEvent Planners\nDj\nMagician\nGifts\nTent Houses\nEntertainers\nBus on Rent\nWedding Planners\nWedding Photographers\nAstrologers\nPhotographers\nMakeup Artists\nMehndi Artists\nBands\nCakes\nCaterers\nFlorists\nDecorators\nBridal Wear\nJewellers\nGroom Wear\nChoreographers\nEvent Planners\nDj\nMagician\nGifts\nTent Houses\nEntertainers\nBus on Rent\nWedding Planners\nWedding Photographers\nAstrologers\nPhotographers\nMakeup Artists\nMehndi Artists\nBands\nCakes\nCaterers\nFlorists\nDecorators\nBridal Wear\nJewellers\nGroom Wear\nChoreographers\nEvent Planners\nDj\nMagician\nGifts\nTent Houses\nEntertainers\nBus on Rent\nWedding Planners\nWedding Photographers\nAstrologers\nFeatured Venues\nLords Plaza Hotel\nVeg\n₹899\nNon-Veg\n₹1099\nJaipur\nHotel Kingston House\nVeg\n₹799\nNon-Veg\n₹999\nLucknow\nV Club Retreat\nVeg\n₹1400\nNon-Veg\n₹1600\nGurgaon\nRoyal Orchid Golden Suites\nVeg\n₹800\nNon-Veg\n₹900\nPune\nHotel Sadanand Regency\nVeg\n₹850\nNon-Veg\n₹1000\nPune\nMadhavgarh Palace\n",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Discover & Book the Perfect Venue with Expert Event Planning",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "30px",
+      "fontWeight": "500",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 8px"
+     },
+     "r": {
+      "x": 12,
+      "y": 152,
+      "w": 1416,
+      "h": 36
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "How it Works?",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "26px",
+      "fontWeight": "600",
+      "lineHeight": "31.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(33, 37, 41)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 37, 41)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 8px"
+     },
+     "r": {
+      "x": 72,
+      "y": 588,
+      "w": 1296,
+      "h": 31
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Browse Vendors & Venues",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "26px",
+      "fontWeight": "600",
+      "lineHeight": "31.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(33, 37, 41)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 37, 41)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px 0px 24px",
+      "margin": "0px 0px 8px"
+     },
+     "r": {
+      "x": 72,
+      "y": 985,
+      "w": 1296,
+      "h": 55
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Vendors By Category",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "26px",
+      "fontWeight": "600",
+      "lineHeight": "31.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(33, 37, 41)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 37, 41)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "48px 0px"
+     },
+     "r": {
+      "x": 72,
+      "y": 1518,
+      "w": 1296,
+      "h": 31
+     }
+    }
+   ],
+   "card-meta": [
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "19th April 25",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+     },
+     "r": {
+      "x": -1942,
+      "y": 3092,
+      "w": 129,
+      "h": 20
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "25th December 23",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+     },
+     "r": {
+      "x": -1642,
+      "y": 3082,
+      "w": 129,
+      "h": 20
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "23rd October 23",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+     },
+     "r": {
+      "x": -1342,
+      "y": 3073,
+      "w": 129,
+      "h": 20
+     }
+    }
+   ],
+   "filter-label": [],
+   "nav-link": [],
+   "price": [
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "Veg",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "color": "rgb(68, 68, 68)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(68, 68, 68)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": -8880,
+      "y": 2200,
+      "w": 25,
+      "h": 21
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "₹899",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "color": "rgb(68, 68, 68)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(68, 68, 68)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": -8748,
+      "y": 2200,
+      "w": 31,
+      "h": 21
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "Non-Veg",
+     "style": {
+      "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "color": "rgb(68, 68, 68)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(68, 68, 68)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": -8880,
+      "y": 2229,
+      "w": 57,
+      "h": 21
+     }
+    }
+   ]
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(33, 37, 41)",
+    "fontFamily": "ProximaNova, ProximaNova-fallback-Arial, sans-serif",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

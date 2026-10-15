@@ -1,0 +1,56 @@
+/*
+ * Table pagination.
+ *
+ * A pagination control has to *read as a control*. The failure mode is a row of
+ * bare numbers floating under a table, where nothing says whether they are
+ * clickable or which one is current. Three things fix that here, all of them
+ * chrome rather than colour:
+ *
+ *  1. the footer is a bounded strip — a hairline above and a muted fill — so it
+ *     belongs to the table rather than to the page;
+ *  2. the current page gets a real pill (`--app-brand-soft` on ink), not just a
+ *     heavier digit, so "you are on page 3" survives a greyscale screenshot;
+ *  3. Mantine's controls carry borders at rest, so they read as pressable before
+ *     the pointer arrives.
+ *
+ * The count line stays left and the controls right, which is the reading order a
+ * table footer has everywhere else.
+ */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-sm);
+  flex-wrap: wrap;
+  margin-top: 0;
+  padding: rem(8px) rem(12px);
+  border-top: 1px solid var(--app-border);
+  background: var(--app-surface-muted);
+}
+
+.count {
+  font-size: var(--text-caption-size);
+  font-weight: 550;
+  color: var(--app-text-muted);
+  /* The numbers in the count are the point of the line, so they line up with
+     every other figure in the panel. */
+  font-variant-numeric: tabular-nums;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: rem(4px);
+}
+
+@mixin smaller-than $mantine-breakpoint-sm {
+  .footer {
+    justify-content: center;
+  }
+
+  .count {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,111 @@
+/*
+ * Status pill.
+ *
+ * Each tone class only *declares* four custom properties; the three variant
+ * classes consume them. That keeps 7 tones x 3 variants at 10 rules instead of
+ * 21, and makes the contract obvious: a tone must supply `--tone`,
+ * `--tone-soft`, `--tone-soft-text` and `--tone-contrast`.
+ */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: rem(6px);
+  border: 1px solid transparent;
+  border-radius: var(--app-radius-pill);
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/* Sizes ------------------------------------------------------------------- */
+.sm {
+  height: rem(20px);
+  padding-inline: rem(8px);
+  font-size: var(--text-caption-size);
+  line-height: 1;
+}
+
+.md {
+  height: rem(24px);
+  padding-inline: rem(10px);
+  font-size: var(--text-label-size);
+  line-height: 1;
+}
+
+.dot {
+  display: block;
+  width: rem(6px);
+  height: rem(6px);
+  border-radius: 50%;
+  background-color: currentColor;
+}
+
+/* Variants ---------------------------------------------------------------- */
+.solid {
+  background-color: var(--tone);
+  color: var(--tone-contrast);
+}
+
+.soft {
+  background-color: var(--tone-soft);
+  color: var(--tone-soft-text);
+}
+
+/* Outline uses the tone itself for the border, which is why every `--app-<tone>`
+   colour is chosen to clear 3:1 against the surface it sits on. */
+.outline {
+  background-color: transparent;
+  color: var(--tone);
+  border-color: var(--tone);
+}
+
+/* Tones -------------------------------------------------------------------- */
+.neutral {
+  --tone: var(--app-text);
+  --tone-soft: var(--app-surface-muted);
+  --tone-soft-text: var(--app-text-muted);
+  --tone-contrast: var(--app-surface);
+}
+
+.brand {
+  --tone: var(--app-brand);
+  --tone-soft: var(--app-brand-soft);
+  --tone-soft-text: var(--app-brand-soft-text);
+  --tone-contrast: var(--app-brand-contrast);
+}
+
+.info {
+  --tone: var(--app-brand);
+  --tone-soft: var(--app-brand-soft);
+  --tone-soft-text: var(--app-brand-soft-text);
+  --tone-contrast: var(--app-brand-contrast);
+}
+
+.accent {
+  --tone: var(--app-accent);
+  --tone-soft: var(--app-accent-soft);
+  --tone-soft-text: var(--app-accent-soft-text);
+  --tone-contrast: var(--app-contrast);
+}
+
+.success {
+  --tone: var(--app-success);
+  --tone-soft: var(--app-success-soft);
+  --tone-soft-text: var(--app-success-soft-text);
+  --tone-contrast: var(--app-contrast);
+}
+
+.warning {
+  --tone: var(--app-warning);
+  --tone-soft: var(--app-warning-soft);
+  --tone-soft-text: var(--app-warning-soft-text);
+  --tone-contrast: var(--app-contrast);
+}
+
+.danger {
+  --tone: var(--app-danger);
+  --tone-soft: var(--app-danger-soft);
+  --tone-soft-text: var(--app-danger-soft-text);
+  --tone-contrast: var(--app-contrast);
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800"
+     role="img" aria-label="Abstract placeholder illustration" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="grad-1bb98228" x1="0" y1="0" x2="0.98" y2="0.54">
+      <stop offset="0%" stop-color="#7D4F79" />
+      <stop offset="100%" stop-color="#E5C073" />
+    </linearGradient>
+    <radialGradient id="grad-1bb98228-glow" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" stop-color="#E5C073" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#E5C073" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#grad-1bb98228)" />
+  <rect width="1200" height="800" fill="url(#grad-1bb98228-glow)" />
+  <g opacity="0.62">
+      <ellipse cx="336.27" cy="456.45" rx="111.16" ry="46.69" fill="none" stroke="#E5C073" stroke-width="10" />
+      <path d="M 290.27 346.45 q 46 -60 92 0" fill="none" stroke="#E5C073" stroke-width="8" opacity="0.55" stroke-linecap="round" />
+      <ellipse cx="517.84" cy="431.84" rx="98.1" ry="41.2" fill="none" stroke="#E5C073" stroke-width="10" />
+      <path d="M 471.84 321.84 q 46 -60 92 0" fill="none" stroke="#E5C073" stroke-width="8" opacity="0.55" stroke-linecap="round" />
+      <ellipse cx="698.61" cy="462.56" rx="111.23" ry="46.72" fill="none" stroke="#E5C073" stroke-width="10" />
+      <path d="M 652.61 352.56 q 46 -60 92 0" fill="none" stroke="#E5C073" stroke-width="8" opacity="0.55" stroke-linecap="round" />
+      <ellipse cx="887.64" cy="456.52" rx="101.69" ry="42.71" fill="none" stroke="#E5C073" stroke-width="10" />
+      <path d="M 841.64 346.52 q 46 -60 92 0" fill="none" stroke="#E5C073" stroke-width="8" opacity="0.55" stroke-linecap="round" />
+  </g>
+  <rect x="24" y="24" width="1152" height="752" rx="24" fill="none" stroke="#E5C073"
+        stroke-width="2" opacity="0.28" />
+</svg>

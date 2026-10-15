@@ -1,0 +1,282 @@
+URL_REQUESTED https://www.zola.com/
+STATUS 200
+FINAL_URL https://www.zola.com/
+TITLE Zola: Free Wedding Websites, Registry & Planning Tools
+STAGE pre-screenshot 19098 ms
+SCREENSHOT docs/research/shots/zola-desktop.png
+STAGE pre-extract 22846 ms
+STAGE pre-hover 23261 ms
+RAW docs/research/raw/zola-desktop.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(14, 14, 14)","fontFamily":"circular, helvetica, sans-serif","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 863x64 "Wedding planning starts here"
+  H2 520x96 "From venues and save the dates to a free wedding website, a registry and even your cake — Zola is here for all the days along the way"
+  H2 212x120 "Everything you need to plan the wedding you want"
+  H2 464x194 "Share it all on a free wedding website"
+  H2 464x193 "Get more from your guest list"
+  H2 464x194 "Discover the best venues and vendors"
+  H2 464x258 "Look good on paper with invites and more"
+  H2 464x129 "Build your registry"
+  H2 399x80 "The Zola difference is in the details"
+  H3 399x22 "Group gifting"
+  H3 399x21 "Virtual exchanges"
+  H3 399x21 "Smart seating charts"
+  H3 399x21 "20% off post-wedding"
+  H3 399x21 "A powerful guest list"
+  H2 447x80 "Meet Team-Z, your expert advisors"
+  H2 1360x40 "Explore wedding vendors by category"
+  H3 182x20 "Wedding Venues by State"
+  H3 211x20 "Wedding Venues in Top Cities"
+  H3 218x20 "Wedding Vendors in Top Cities"
+  H3 162x20 "Shop invites and paper"
+--- HEADER {"position":"relative","top":"0px","height":"132px","backgroundColor":"rgb(255, 255, 255)","borderBottom":"0px none rgb(14, 14, 14)","boxShadow":"none","zIndex":"auto"} 1440x132
+--- HEADER_TEXT Already have an account? Log in Get started Sale 40% off* invites & paper through 10/19 with code SPOOKY40 Terms Explore designs
+--- HEADER_LINKS Already have an account? Log in | Get started | Sale 40% off* invites & paper through 10/19 with code SPOOKY | Terms
+--- NAV_ALL Our story | Become a Zola vendor | Reviews | Zola Baby | Careers | Press | Expert advice | FAQs | Track order | Start a return | Return policy | Contact us | Team Z advisors | Log in | Find a couple | Find a baby registry | Get started | Privacy | Terms | Your privacy choices | Web accessibility
+--- SEARCH_INPUTS
+--- FILTER_CONTAINERS
+--- CARDS
+  [0] imgRatio=0.885 212x240 alt=""
+     d0 SPAN "" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/registry.35968e89.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-asse
+     d1 DIV "css-mvia3 e1t9pc5m10" 212x240 {"borderRadius":"24px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/registry.35968e89.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-asse
+     d2 DIV "css-7psedx e1t9pc5m9" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"scale 0.3s","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/registry.35968e89.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-asse
+     d3 DIV "css-vn0rdd e1t9pc5m11" 273x417 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Registry The gifts you want, the way you want them."
+     d4 DIV "css-1227yd7 e1t9pc5m5" 819x835 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultr
+  [1] imgRatio=0.882 212x240 alt=""
+     d0 SPAN "" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_grid_bg.b64330b0.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-w
+     d1 DIV "css-mvia3 e1t9pc5m10" 212x240 {"borderRadius":"24px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_grid_bg.b64330b0.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-w
+     d2 DIV "css-7psedx e1t9pc5m9" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"scale 0.3s","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_grid_bg.b64330b0.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-w
+     d3 DIV "css-vn0rdd e1t9pc5m11" 273x417 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Free wedding websites A free, easy way to keep guests in-the-know."
+     d4 DIV "css-1227yd7 e1t9pc5m5" 819x835 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultr
+  [2] imgRatio=1.021 208x204 alt=""
+     d0 DIV "css-7psedx e1t9pc5m9" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"scale 0.3s","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_grid_bg.b64330b0.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-w
+     d1 DIV "css-vn0rdd e1t9pc5m11" 273x417 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Free wedding websites A free, easy way to keep guests in-the-know."
+     d2 DIV "css-1227yd7 e1t9pc5m5" 819x835 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultr
+     d3 DIV "css-8k7p1l e1t9pc5m0" 1092x835 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Everything you need to plan the wedding you want For all the days along the way Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors F
+     d4 DIV "" 1092x835 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Everything you need to plan the wedding you want For all the days along the way Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors F
+  [3] imgRatio=0.882 212x240 alt=""
+     d0 SPAN "" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.b50f3f01.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets
+     d1 DIV "css-mvia3 e1t9pc5m10" 212x240 {"borderRadius":"24px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.b50f3f01.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets
+     d2 DIV "css-7psedx e1t9pc5m9" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"scale 0.3s","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.b50f3f01.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets
+     d3 DIV "css-vn0rdd e1t9pc5m11" 273x417 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Venues and vendors Find the people to bring it all to life."
+     d4 DIV "css-1227yd7 e1t9pc5m5" 819x835 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultr
+  [4] imgRatio=0.979 212x216 alt=""
+     d0 DIV "css-7psedx e1t9pc5m9" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"scale 0.3s","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.b50f3f01.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets
+     d1 DIV "css-vn0rdd e1t9pc5m11" 273x417 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Venues and vendors Find the people to bring it all to life."
+     d2 DIV "css-1227yd7 e1t9pc5m5" 819x835 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultr
+     d3 DIV "css-8k7p1l e1t9pc5m0" 1092x835 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Everything you need to plan the wedding you want For all the days along the way Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors F
+     d4 DIV "" 1092x835 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Everything you need to plan the wedding you want For all the days along the way Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors F
+  [5] imgRatio=0.885 212x240 alt=""
+     d0 SPAN "" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.39950d54.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.
+     d1 DIV "css-mvia3 e1t9pc5m10" 212x240 {"borderRadius":"24px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.39950d54.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.
+     d2 DIV "css-7psedx e1t9pc5m9" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"scale 0.3s","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.39950d54.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.
+     d3 DIV "css-vn0rdd e1t9pc5m11" 273x417 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Invites and paper Set the vibe with ultra-customizable designs."
+     d4 DIV "css-1227yd7 e1t9pc5m5" 819x835 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultr
+  [6] imgRatio=0.98 149x152 alt=""
+     d0 DIV "css-7psedx e1t9pc5m9" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"scale 0.3s","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.39950d54.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-assets.
+     d1 DIV "css-vn0rdd e1t9pc5m11" 273x417 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Invites and paper Set the vibe with ultra-customizable designs."
+     d2 DIV "css-1227yd7 e1t9pc5m5" 819x835 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultr
+     d3 DIV "css-8k7p1l e1t9pc5m0" 1092x835 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Everything you need to plan the wedding you want For all the days along the way Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors F
+     d4 DIV "" 1092x835 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Everything you need to plan the wedding you want For all the days along the way Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors F
+  [7] imgRatio=0.882 212x240 alt=""
+     d0 SPAN "" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guest_list.a0d6be98.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-as
+     d1 DIV "css-mvia3 e1t9pc5m10" 212x240 {"borderRadius":"24px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guest_list.a0d6be98.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-as
+     d2 DIV "css-7psedx e1t9pc5m9" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"scale 0.3s","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guest_list.a0d6be98.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-web-as
+     d3 DIV "css-vn0rdd e1t9pc5m11" 273x417 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Guest list We’ll help you get addresses and track RSVPs."
+     d4 DIV "css-1227yd7 e1t9pc5m5" 819x835 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultr
+  [8] imgRatio=0.882 212x240 alt=""
+     d0 SPAN "" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/budget_grid_bg.5ed4b161.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-we
+     d1 DIV "css-mvia3 e1t9pc5m10" 212x240 {"borderRadius":"24px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/budget_grid_bg.5ed4b161.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-we
+     d2 DIV "css-7psedx e1t9pc5m9" 212x240 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"scale 0.3s","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"(max-width: 1023px) 33vw, 50vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/budget_grid_bg.5ed4b161.webp?auto=format&amp;fit=max&amp;w=128 128w, https://zola-we
+     d3 DIV "css-vn0rdd e1t9pc5m11" 273x417 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px","transition":"all","overflow":"visible","display":"flex","gap":"24px"} TEXT="Budget tool Stay on top of every dollar."
+     d4 DIV "css-1227yd7 e1t9pc5m5" 819x835 {"borderRadius":"0px","border":"","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Registry The gifts you want, the way you want them. Free wedding websites A free, easy way to keep guests in-the-know. Venues and vendors Find the people to bring it all to life. Invites and paper Set the vibe with ultr
+  [9] imgRatio=0.549 480x875 alt=""
+     d0 SPAN "" 480x875 {"borderRadius":"0px","border":"0px none rgb(215, 245, 217)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/v
+     d1 DIV "css-1qjfdt3" 480x875 {"borderRadius":"0px","border":"0px none rgb(215, 245, 217)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/v
+     d2 DIV "css-aip69 etm5ybs7" 480x625 {"borderRadius":"24px","border":"0px none rgb(215, 245, 217)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/v
+     d3 DIV "css-zd8p4p etm5ybs2" 1200x770 {"borderRadius":"0px","border":"0px none rgb(215, 245, 217)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px 0px 80px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs"
+     d4 DIV "" 1200x3850 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(0, 87, 89)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs Get more from your guest list Decide who to celebrate with and we'll do the rest—from collect
+  [10] imgRatio=1.019 295x290 alt=""
+     d0 DIV "css-1ks7cfb etm5ybs11" 480x625 {"borderRadius":"0px","border":"0px none rgb(215, 245, 217)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"grid","gap":"16px normal"} TEXT=""
+     d1 DIV "css-aip69 etm5ybs7" 480x625 {"borderRadius":"24px","border":"0px none rgb(215, 245, 217)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/website_bg.f16206b9.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/v
+     d2 DIV "css-zd8p4p etm5ybs2" 1200x770 {"borderRadius":"0px","border":"0px none rgb(215, 245, 217)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px 0px 80px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs"
+     d3 DIV "" 1200x3850 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(0, 87, 89)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs Get more from your guest list Decide who to celebrate with and we'll do the rest—from collect
+     d4 DIV "css-wjkc0v etm5ybs1" 1200x3850 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs Get more from your guest list Decide who to celebrate with and we'll do the rest—from collect
+  [11] imgRatio=0.549 480x875 alt=""
+     d0 SPAN "" 480x875 {"borderRadius":"0px","border":"0px none rgb(249, 249, 249)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guestlist_bg.7fd9c9bc.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home
+     d1 DIV "css-1qjfdt3" 480x875 {"borderRadius":"0px","border":"0px none rgb(249, 249, 249)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guestlist_bg.7fd9c9bc.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home
+     d2 DIV "css-aip69 etm5ybs7" 480x625 {"borderRadius":"24px","border":"0px none rgb(249, 249, 249)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/guestlist_bg.7fd9c9bc.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home
+     d3 DIV "css-zd8p4p etm5ybs2" 1200x770 {"borderRadius":"0px","border":"0px none rgb(249, 249, 249)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px 0px 80px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Get more from your guest list Decide who to celebrate with and we'll do the rest—from collecting contact info to managing RSVPs. Get started Learn more"
+     d4 DIV "" 1200x3850 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(0, 87, 89)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs Get more from your guest list Decide who to celebrate with and we'll do the rest—from collect
+  [12] imgRatio=0.549 480x875 alt=""
+     d0 SPAN "" 480x875 {"borderRadius":"0px","border":"0px none rgb(217, 202, 252)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.9e7b39c1.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpass
+     d1 DIV "css-1qjfdt3" 480x875 {"borderRadius":"0px","border":"0px none rgb(217, 202, 252)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.9e7b39c1.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpass
+     d2 DIV "css-aip69 etm5ybs7" 480x625 {"borderRadius":"24px","border":"0px none rgb(217, 202, 252)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/venues.9e7b39c1.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpass
+     d3 DIV "css-zd8p4p etm5ybs2" 1200x770 {"borderRadius":"0px","border":"0px none rgb(217, 202, 252)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px 0px 80px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Discover the best venues and vendors We'll play matchmaker. Get personalized recs for your style and budget. Reach out on Zola and book when you're ready. Search vendors near you"
+     d4 DIV "" 1200x3850 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(0, 87, 89)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs Get more from your guest list Decide who to celebrate with and we'll do the rest—from collect
+  [13] imgRatio=0.549 480x875 alt=""
+     d0 SPAN "" 480x875 {"borderRadius":"0px","border":"0px none rgb(249, 249, 249)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.adfc940d.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpasse
+     d1 DIV "css-1qjfdt3" 480x875 {"borderRadius":"0px","border":"0px none rgb(249, 249, 249)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.adfc940d.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpasse
+     d2 DIV "css-aip69 etm5ybs7" 480x625 {"borderRadius":"24px","border":"0px none rgb(249, 249, 249)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="<img alt=\"\" sizes=\"100vw\" srcSet=\"https://zola-web-assets.imgix.net/web-home/vpassets/_next/static/media/paper.adfc940d.webp?auto=format&amp;fit=max&amp;w=360 360w, https://zola-web-assets.imgix.net/web-home/vpasse
+     d3 DIV "css-zd8p4p etm5ybs2" 1200x770 {"borderRadius":"0px","border":"0px none rgb(249, 249, 249)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"40px 0px 80px","transition":"all","overflow":"visible","display":"grid","gap":"normal"} TEXT="Look good on paper with invites and more The easiest way to get from \"save the date\" to \"thanks so much.\" Designed by our artists, customized by you. Explore designs Learn more"
+     d4 DIV "" 1200x3850 {"borderRadius":"0px","border":"0px none rgb(14, 14, 14)","boxShadow":"none","backgroundColor":"rgb(0, 87, 89)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Share it all on a free wedding website The easiest, most beautiful way to keep guests in-the-know. Learn more Explore designs Get more from your guest list Decide who to celebrate with and we'll do the rest—from collect
+--- IMAGES
+  212x240 nat=622x902 fit=cover radius=0px alt=""
+  106x185 nat=332x440 fit=fill radius=0px alt=""
+  212x240 nat=509x369 fit=cover radius=0px alt=""
+  208x204 nat=420x312 fit=fill radius=0px alt=""
+  212x240 nat=719x599 fit=cover radius=0px alt=""
+  212x216 nat=672x521 fit=fill radius=0px alt=""
+  212x240 nat=703x635 fit=cover radius=0px alt=""
+  149x152 nat=620x480 fit=fill radius=0px alt=""
+  212x240 nat=509x370 fit=cover radius=0px alt=""
+  111x53 nat=280x101 fit=fill radius=0px alt=""
+  212x240 nat=509x370 fit=cover radius=0px alt=""
+  114x43 nat=333x95 fit=fill radius=0px alt=""
+  480x875 nat=777x1128 fit=contain radius=0px alt=""
+  295x290 nat=593x582 fit=fill radius=0px alt=""
+  480x875 nat=1x1 fit=contain radius=0px alt=""
+  480x875 nat=1x1 fit=cover radius=0px alt=""
+  480x875 nat=1x1 fit=cover radius=0px alt=""
+  480x875 nat=1x1 fit=cover radius=0px alt=""
+--- TYPE_ROLES
+  h1 "Wedding planning starts here" {"fontFamily":"new-spirit, helvetica-bold, serif","fontSize":"64px","fontWeight":"500","lineHeight":"64px","letterSpacing":"-2.56px","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "From venues and save the dates to a free wedding website, a registry a" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"24px","fontWeight":"400","lineHeight":"32px","letterSpacing":"-0.72px","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "Everything you need to plan the wedding you want" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"32px","fontWeight":"400","lineHeight":"40px","letterSpacing":"-1.28px","color":"rgb(14, 14, 14)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(14, 14, 14)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-title "Share it all on a free wedding website" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"64px","fontWeight":"400","lineHeight":"64px","letterSpacing":"-2.56px","color":"rgb(215, 245, 217)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(215, 245, 217)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  nav-link "" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"22.8571px","letterSpacing":"normal","color":"rgb(14, 14, 14)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(14, 14, 14)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  nav-link "Sale 40% off* invites & paper through 10/19 with code SPOOKY40 Terms E" {"fontFamily":"circular, helvetica, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"22.8571px","letterSpacing":"normal","color":"rgb(14, 14, 14)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(14, 14, 14)","boxShadow":"none","transition":"opacity 0.5s ease-in","padding":"0px","margin":"0px"}
+--- HOVER {"before":{"text":"Registry The gifts you want, the way you want them.","r":{"x":447,"y":883,"w":273,"h":417},"style":{"transform":"none","boxShadow":"none","border":"","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","cursor":"auto","translate":"none","scale":"none"}},"after":{"r":{"w":342,"h":417},"style":{"transform":"none","boxShadow":"none","border":"","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+Skip to main content
+Web Accessibility
+Already have an account? Log in
+Get started
+Sale
+
+40% off* invites & paper through 10/19 with code SPOOKY40
+
+Terms
+
+Explore designs
+
+Wedding planning starts here
+From venues and save the dates to a free wedding website, a registry and even your cake — Zola is here for all the days along the way
+Let's do this!
+Find a couple
+Everything you need to plan the wedding you want
+For all the days along the way
+Registry
+The gifts you want, the way you want them.
+Free wedding websites
+A free, easy way to keep guests in-the-know.
+Venues and vendors
+Find the people to bring it all to life.
+Invites and paper
+Set the vibe with ultra-customizable designs.
+Guest list
+We’ll help you get addresses and track RSVPs.
+Budget tool
+Stay on top of every dollar.
+Share it all on a
+free wedding website
+The easiest, most beautiful way to keep guests in-the-know.
+Learn more
+Explore designs
+Get more from your
+guest list
+Decide who to celebrate with and we'll do the rest—from collecting contact info to managing RSVPs.
+Get started
+Learn more
+Discover the best
+venues and vendors
+We'll play matchmaker. Get personalized recs for your style and budget. Reach out on Zola and book when you're ready.
+Search vendors near you
+Look good on paper with
+invites and more
+The easiest way to get from "save the date" to "thanks so much." Designed by our artists, customized by you.
+Explore designs
+Learn more
+Build your
+registry
+Register for everything from zero-fee cash funds to experiences and gifts—all from just one open tab.
+Get started
+Learn more
+Free wedding websites
+Guest list
+Venue and vendors
+Invites and paper
+Registry
+
+Need a hand?
+
+Chat with us
+The Zola difference is in the details
+Group gifting
+
+A great way to register for those big ticket items. With multiple guests contributing toward the total, you’ll have that couch in no time!
+
+Virtual exchanges
+Smart seating charts
+20% off post-wedding
+A powerful guest list
+Meet Team-Z, your expert advisors
+They're here to help, always just a chat or email away.
+Get answers
+Explore wedding vendors by category
+
+Venues
+
+Photographers
+
+Beauty
+
+Bands and DJs
+
+Florists
+
+Caterers
+
+Planners
+
+Cakes and desserts
+
+Videographers
+
+Bar and beverage
+
+Officiants
+
+Event extras
+
+Wedding Venues by State
+Wedding Venues in Top Cities
+Wedding Vendors in Top Cities
+Shop invites and paper
+About
+Our story
+Become a Zola vendor
+Reviews
+Zola Baby
+Careers
+Press
+Advice and support
+Expert advice
+FAQs
+Track order
+Start a return
+Return policy
+Contact us
+Team Z advisors
+For all the days along the way
+Log in
+Find a couple
+Find a baby registry
+Get started
+Privacy
+Terms
+Your privacy choices
+Web accessibility
+
+© 2026 Zola, Inc. All rights reserved.
+STAGE pre-write 24607 ms STAGE done 25465 ms

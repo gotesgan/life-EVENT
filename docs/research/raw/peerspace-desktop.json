@@ -1,0 +1,80 @@
+{
+ "slug": "peerspace",
+ "mode": "desktop",
+ "status": 403,
+ "err": null,
+ "hover": null,
+ "data": {
+  "url": "https://www.peerspace.com/",
+  "title": "502 Bad Gateway",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 900,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "502 Bad Gateway",
+    "x": 8,
+    "y": 8,
+    "w": 1424,
+    "h": 37
+   }
+  ],
+  "header": null,
+  "navAll": [],
+  "searchInputs": [],
+  "filterContainers": [],
+  "images": [],
+  "cardCandidates": [],
+  "linkText": [],
+  "bodyText": "502 Bad Gateway\nnginx",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "502 Bad Gateway",
+     "style": {
+      "fontFamily": "Times",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "21.44px 0px"
+     },
+     "r": {
+      "x": 8,
+      "y": 8,
+      "w": 1424,
+      "h": 37
+     }
+    }
+   ],
+   "card-title": [],
+   "card-meta": [],
+   "filter-label": [],
+   "nav-link": [],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "fontFamily": "Times",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

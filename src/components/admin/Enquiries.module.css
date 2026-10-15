@@ -1,0 +1,352 @@
+/*
+ * Enquiry screens.
+ *
+ * Two surfaces live here: the inbox table (dense, structured by
+ * `AdminTableRegion`) and the detail page (two read-only panels plus the
+ * write controls). Both are built from the same tokens: no hex, no raw px font
+ * sizes, radius from `--app-radius-*`.
+ *
+ * The single most important distinction in this file is **private note vs
+ * customer-visible activity**. It is carried by structure, not by hue alone: a
+ * private note has a lock-badged panel header, a label, a monospace author line
+ * and an amber-tinted well; an activity entry has a `Customer visible` /
+ * `Internal only` badge. Colour is the third channel, never the first.
+ */
+
+/* --- Table cells ----------------------------------------------------------- */
+
+.truncate {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* A timestamp in a column: tabular so the digits align, and muted because the
+   record matters more than when it was last touched. */
+.timestamp {
+  display: block;
+  font-variant-numeric: tabular-nums;
+  color: var(--app-text-muted);
+  white-space: nowrap;
+}
+
+/* A count or a money value that has to line up down a right-aligned column. */
+.tabularValue {
+  display: block;
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.masked {
+  font-family: var(--mantine-font-family-monospace);
+  letter-spacing: 0.02em;
+}
+
+.referenceLink {
+  text-decoration: none;
+
+  @mixin hover {
+    text-decoration: underline;
+  }
+}
+
+.leadName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*
+ * The bulk triage bar.
+ *
+ * Selection is a mode, so the bar is a docked strip rather than a card: it
+ * borrows the table footer's chrome (hairline, muted fill) and pins itself above
+ * the pagination so the controls stay with the rows they will change. The
+ * `--app-shadow-raised` is the E1 step and is justified here because the bar
+ * floats over table rows that scroll beneath it — this is the one place on the
+ * inbox where content genuinely overlaps.
+ */
+.bulkBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-sm);
+  flex-wrap: wrap;
+  padding: rem(10px) rem(14px);
+  margin-top: var(--mantine-spacing-md);
+  background: var(--app-surface-muted);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card-dense);
+}
+
+.bulkControls {
+  display: flex;
+  align-items: flex-end;
+  gap: rem(10px);
+  flex-wrap: wrap;
+}
+
+.bulkSelect {
+  min-width: rem(190px);
+}
+
+.leadGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: var(--mantine-spacing-md);
+  align-items: start;
+}
+
+@mixin smaller-than $mantine-breakpoint-lg {
+  .leadGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panelHead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-sm);
+  flex-wrap: wrap;
+  margin-bottom: var(--mantine-spacing-sm);
+}
+
+/*
+ * A write control inside the detail page (move the lead, reassign it, flag a
+ * duplicate). It is deliberately the only place on the page with a recessed
+ * fill: read-only facts sit directly on the raised panel, and the fill is what
+ * tells the administrator "these fields will write to the database".
+ */
+.controlGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mantine-spacing-sm);
+  padding: rem(12px);
+  background: var(--app-surface-muted);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-control);
+}
+
+.controlHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-sm);
+  flex-wrap: wrap;
+}
+
+.controlTitle {
+  font-size: var(--text-label-size);
+  font-weight: 650;
+  color: var(--app-text);
+}
+
+/*
+ * Assignment state. The chip carries the fact in words (`Unassigned`) and the
+ * tone only reinforces it, so an empty queue is visible without reading the
+ * select's placeholder.
+ */
+.assignmentChip {
+  display: inline-flex;
+  align-items: center;
+  gap: rem(6px);
+  padding: rem(3px) rem(9px);
+  border-radius: var(--app-radius-pill);
+  font-size: var(--text-caption-size);
+  font-weight: 650;
+  background: var(--app-surface-muted);
+  color: var(--app-text-muted);
+}
+
+.assignmentChipSet {
+  background: var(--app-success-soft);
+  color: var(--app-success-soft-text);
+}
+
+.assignmentChipDot {
+  width: rem(6px);
+  height: rem(6px);
+  border-radius: 50%;
+  background: currentColor;
+  flex: none;
+}
+
+.definitionList {
+  display: grid;
+  grid-template-columns: minmax(0, 9rem) minmax(0, 1fr);
+  gap: rem(6px) rem(12px);
+  margin: 0;
+}
+
+.definitionTerm {
+  font-size: var(--mantine-font-size-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--app-text-muted);
+  margin: 0;
+}
+
+.definitionValue {
+  margin: 0;
+  font-size: var(--mantine-font-size-sm);
+  color: var(--app-text);
+  overflow-wrap: anywhere;
+}
+
+.fingerprint {
+  font-family: var(--mantine-font-family-monospace);
+  font-size: var(--mantine-font-size-xs);
+  overflow-wrap: anywhere;
+}
+
+/*
+ * Activity history.
+ *
+ * A chronology, so the order carries the meaning and the list is an `<ol>`.
+ * Customer-visible and internal entries must be separable at a glance *and*
+ * without colour: the badge text ("Customer visible" / "Internal only") is the
+ * primary channel, the leading rule is the second, and the success tone is the
+ * third. A 1px rule, never thicker — a 2px coloured bar beside every row is the
+ * callout costume the craft floor rejects.
+ */
+.activityList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: rem(2px);
+}
+
+.activityItem {
+  padding: rem(8px) rem(10px) rem(8px) rem(11px);
+  border-left: 1px solid var(--app-border-strong);
+  border-radius: 0 var(--app-radius-control) var(--app-radius-control) 0;
+}
+
+.activityItem:hover {
+  background: var(--app-surface-hover);
+}
+
+.activityItemCustomer {
+  border-left-color: var(--app-success);
+}
+
+.activityMeta {
+  display: flex;
+  align-items: center;
+  gap: rem(8px);
+  flex-wrap: wrap;
+}
+
+/*
+ * Private notes.
+ *
+ * The whole point of this panel is that a note is *not* customer-facing, so it
+ * reads as a different kind of object from the activity feed beside it: a
+ * recessed well rather than a list, an amber lock in the header, and a monospace
+ * author line. The tint is a soft accent fill — never a saturated one, which
+ * would make a private note louder than the enquiry it annotates.
+ */
+.notesPanel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mantine-spacing-sm);
+}
+
+.notesWell {
+  background: var(--app-accent-soft);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-control);
+  padding: rem(10px) rem(12px);
+}
+
+.notesWellHead {
+  display: flex;
+  align-items: center;
+  gap: rem(6px);
+  margin-bottom: rem(2px);
+}
+
+.notesWellTitle {
+  font-size: var(--text-label-size);
+  font-weight: 650;
+  color: var(--app-text);
+}
+
+.notesList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: rem(8px);
+}
+
+.noteItem {
+  background: var(--app-surface-raised);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-control);
+  padding: rem(10px) rem(12px);
+}
+
+.noteMeta {
+  display: flex;
+  align-items: center;
+  gap: rem(8px);
+  flex-wrap: wrap;
+  padding-bottom: rem(6px);
+  margin-bottom: rem(6px);
+  border-bottom: 1px solid var(--app-border);
+}
+
+.noteLock {
+  flex: none;
+  color: var(--app-accent);
+}
+
+.noteAuthor {
+  font-size: var(--text-caption-size);
+  font-weight: 650;
+  color: var(--app-text);
+}
+
+.noteTimestamp {
+  font-size: var(--text-caption-size);
+  font-variant-numeric: tabular-nums;
+  color: var(--app-text-muted);
+}
+
+.noteBody {
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.internalBanner {
+  display: flex;
+  align-items: flex-start;
+  gap: rem(8px);
+}
+
+.slaGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(rem(140px), 1fr));
+  gap: rem(6px) rem(12px);
+  margin: 0;
+}
+
+.slaTerm {
+  font-size: var(--text-caption-size);
+  color: var(--app-text-muted);
+  margin: 0;
+}
+
+.slaValue {
+  margin: 0;
+  font-size: var(--text-secondary-size);
+  font-variant-numeric: tabular-nums;
+}

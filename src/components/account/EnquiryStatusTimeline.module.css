@@ -1,0 +1,114 @@
+/*
+ * Customer enquiry timeline.
+ *
+ * A real sequence, so it gets real sequencing furniture: an ordered list, a
+ * connector between entries, a glyph per activity type, and one solid marker
+ * for the entry the enquiry currently stands at.
+ *
+ * The connector is a pseudo-element on each item, not a border on the list, so
+ * the last item stops the line cleanly without a trailing stub.
+ */
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  position: relative;
+  display: grid;
+  grid-template-columns: rem(20px) minmax(0, 1fr);
+  gap: rem(12px);
+  padding-bottom: rem(20px);
+}
+
+.item:last-child {
+  padding-bottom: 0;
+}
+
+/* The connector: runs from each marker to the next, stopping at the last item. */
+.item:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  top: rem(22px);
+  bottom: 0;
+  left: rem(9px);
+  width: 1px;
+  background-color: var(--app-border);
+}
+
+.marker {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(20px);
+  height: rem(20px);
+  margin-top: rem(1px);
+  border: 1px solid var(--app-border-strong);
+  border-radius: 50%;
+  background-color: var(--app-surface-raised);
+  color: var(--app-text-muted);
+}
+
+/* The enquiry's current position: the only solid marker in the list. */
+.markerLatest {
+  border-color: var(--app-brand);
+  background-color: var(--app-brand);
+  color: var(--app-brand-contrast);
+}
+
+.body {
+  min-width: 0;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: rem(8px);
+  margin: 0;
+}
+
+.type {
+  color: var(--app-text);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: var(--text-label-leading);
+}
+
+.listing {
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+}
+
+.message {
+  margin: rem(6px) 0 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.time {
+  margin: rem(6px) 0 0;
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  font-variant-numeric: tabular-nums;
+  line-height: var(--text-caption-leading);
+}
+
+.empty {
+  margin: 0;
+  padding: rem(14px) rem(16px);
+  border: 1px dashed var(--app-border-strong);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-surface-muted);
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}

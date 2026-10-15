@@ -1,0 +1,89 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: rem(14px);
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    grid-template-columns: repeat(auto-fit, minmax(rem(260px), 1fr));
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: rem(10px);
+  height: 100%;
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: rem(8px);
+}
+
+.name {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-body-size);
+  font-weight: 700;
+}
+
+.price {
+  color: var(--app-text);
+  font-size: var(--text-body-size);
+  font-weight: 750;
+}
+
+.guests {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+}
+
+.description {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.listLabel {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: rem(4px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: rem(8px);
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.rowIcon {
+  flex: 0 0 auto;
+  margin-top: rem(2px);
+}
+
+.included {
+  color: var(--app-success);
+}
+
+.excluded {
+  color: var(--app-text-subtle);
+}

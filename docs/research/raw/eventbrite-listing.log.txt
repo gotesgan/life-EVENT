@@ -1,0 +1,582 @@
+URL_REQUESTED https://www.eventbrite.com/d/ca--san-francisco/business--events/
+STATUS 200
+FINAL_URL https://www.eventbrite.com/b/ca--san-francisco/business/
+TITLE Business Events in San Francisco, CA - Corporate Events for Networking & Growth | Eventbrite
+COOKIE_ACCEPTED button:has-text("Accept All")
+STAGE pre-screenshot 50076 ms
+SCREENSHOT docs/research/shots/eventbrite-listing.png
+STAGE pre-extract 59361 ms
+STAGE pre-hover 60289 ms
+RAW docs/research/raw/eventbrite-listing.json
+--- SURFACES {"body":{"backgroundColor":"rgba(0, 0, 0, 0)","color":"rgb(57, 54, 79)","fontFamily":"\"Founders Grotesk R\", \"Founders Grotesk\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 516x100 "Business events in San Francisco, CA"
+  H2 245x32 "Most popular events"
+  H3 284x48 "November LIVESTREAM Asset Protection & Wealth Creation Summit"
+  H3 284x48 "Startup World Cup Grand Finale 2026"
+  H3 284x48 "SF Summit: Leading the Future of Real Estate"
+  H3 284x48 "Funnel Body Blueprint Cohort KickOff"
+  H3 284x48 "San Fran's Largest Tech Startup, Business & Entrepreneur Networking Soiree"
+  H3 284x48 "Startup World Cup Corporate Innovation Seminar 2026"
+  H3 284x48 "California Sports & Ent. Career Expo hosted at the Chase Center"
+  H3 284x24 "Women in Tech SF 2026"
+  H3 284x48 "Muslims in Business Conference at Harvard Business School"
+  H3 284x48 "Find a Cofounder, Help or Join a Startup"
+  H2 167x32 "This weekend"
+  H3 284x48 "Get Paid to Talk — An Intro to Voice Overs- Live Online Workshop & Q&A"
+  H3 284x48 "Authors in Conversation: China's Tech Power Play"
+  H3 284x48 "PMP Certification Training in San Francisco, CA | PMI Exam Prep"
+  H3 284x24 "NLP For Leaders"
+  H3 172x48 "Pegasus Tech Ventures"
+  H3 172x48 "San Francisco Association of REALTORS® (SFAR)"
+  H3 172x48 "New York Entrepreneurs, Startup & Business Coalition"
+  H3 163x24 "TeamWork Online"
+  H3 172x48 "OutGeek - Badass Pros"
+  H3 172x48 "Islamic Society, a student club at HBS"
+  H3 125x24 "Startup Oasis"
+  H2 140x32 "Networking"
+  H3 284x48 "The Billion Dollar Impact Room: Grow Your Network Through Experiences"
+  H3 284x48 "Portfolio Night - 2026 - San Francisco"
+  H3 284x48 "San Francisco Healthcare, Pharma & Business Networking Event"
+  H3 284x48 "Entrepreneur Exclusive Power Hour w/Christine Campbell Rapin"
+--- HEADER {"position":"static","top":"auto","height":"61px","backgroundColor":"rgb(255, 255, 255)","borderBottom":"1px solid rgb(238, 237, 242)","boxShadow":"none","zIndex":"auto"} 1440x61
+--- HEADER_TEXT Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up
+--- HEADER_LINKS Eventbrite | Updates | Contact Sales | Create Events | Find my tickets | Log In | Sign Up
+--- NAV_ALL Eventbrite | Updates | Contact Sales | Create Events | Find my tickets | Log In | Sign Up | Home | United States | San Francisco | Events in San Francisco
+--- SEARCH_INPUTS
+  {"tag":"INPUT","type":"search","ph":"Search events","aria":"","name":"search-autocomplete-input","r":{"x":227,"y":6,"w":165,"h":48}}
+  {"tag":"INPUT","type":"text","ph":null,"aria":null,"name":null,"r":{"x":437,"y":7,"w":152,"h":46}}
+--- FILTER_CONTAINERS
+  [0] ASIDE "category-browse--header-image category-browse--header-image--square" {"x":966,"y":117,"w":432,"h":288} CTRLS=[]
+  [1] SECTION "category-browse__filters" {"x":72,"y":421,"w":1296,"h":88} CTRLS=[]
+  [2] DIV "discover__date-filter" {"x":239,"y":425,"w":99,"h":48} CTRLS=[]
+--- CARDS
+  [0] imgRatio=1.5 432x288 alt="[object Object]"
+     d0 ASIDE "category-browse--header-image category-browse--header-image--square" 432x288 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT=""
+     d1 DIV "category-browse--header" 1356x288 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px 0px 0px 40px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Business events in San Francisco, CA Discover the best Business events in your area and online"
+     d2 DIV "category-browse--header-container" 1440x288 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(4, 79, 96)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT="Business events in San Francisco, CA Discover the best Business events in your area and online"
+     d3 DIV "" 1440x5851 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"auto","display":"block","gap":"normal"} TEXT="Home/ United States/ San Francisco/ Events in San Francisco/ Business Business events in San Francisco, CA Discover the best Business events in your area and online San Francisco Date Explore what's popular within Busin
+     d4 MAIN "eds-structure__main" 1440x5851 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Home/ United States/ San Francisco/ Events in San Francisco/ Business Business events in San Francisco, CA Discover the best Business events in your area and online San Francisco Date Explore what's popular within Busin
+  [1] imgRatio=2 250x125 alt="Startups & Small Business events"
+     d0 DIV "carousel--card-image__wrapper" 125x125 {"borderRadius":"50%","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "carousel--card carousel--card--vertical" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Startups & Small Business"
+     d2 A "" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Startups & Small Business"
+     d3 LI "" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"list-item","gap":"normal"} TEXT="Startups & Small Business"
+     d4 UL "carousel-internal" 1296x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"auto","display":"flex","gap":"24px"} TEXT="Startups & Small Business Career Real Estate Finance Sales & Marketing Non Profit & NGOs Educators Environment & Sustainability Design Investment"
+  [2] imgRatio=2 250x125 alt="Career events"
+     d0 DIV "carousel--card-image__wrapper" 125x125 {"borderRadius":"50%","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "carousel--card carousel--card--vertical" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Career"
+     d2 A "" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Career"
+     d3 LI "" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"list-item","gap":"normal"} TEXT="Career"
+     d4 UL "carousel-internal" 1296x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"auto","display":"flex","gap":"24px"} TEXT="Startups & Small Business Career Real Estate Finance Sales & Marketing Non Profit & NGOs Educators Environment & Sustainability Design Investment"
+  [3] imgRatio=2 250x125 alt="Real Estate events"
+     d0 DIV "carousel--card-image__wrapper" 125x125 {"borderRadius":"50%","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "carousel--card carousel--card--vertical" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Real Estate"
+     d2 A "" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Real Estate"
+     d3 LI "" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"list-item","gap":"normal"} TEXT="Real Estate"
+     d4 UL "carousel-internal" 1296x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"auto","display":"flex","gap":"24px"} TEXT="Startups & Small Business Career Real Estate Finance Sales & Marketing Non Profit & NGOs Educators Environment & Sustainability Design Investment"
+  [4] imgRatio=2 250x125 alt="Finance events"
+     d0 DIV "carousel--card-image__wrapper" 125x125 {"borderRadius":"50%","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "carousel--card carousel--card--vertical" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Finance"
+     d2 A "" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Finance"
+     d3 LI "" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"list-item","gap":"normal"} TEXT="Finance"
+     d4 UL "carousel-internal" 1296x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"auto","display":"flex","gap":"24px"} TEXT="Startups & Small Business Career Real Estate Finance Sales & Marketing Non Profit & NGOs Educators Environment & Sustainability Design Investment"
+  [5] imgRatio=2 250x125 alt="Sales & Marketing events"
+     d0 DIV "carousel--card-image__wrapper" 125x125 {"borderRadius":"50%","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "carousel--card carousel--card--vertical" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Sales & Marketing"
+     d2 A "" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Sales & Marketing"
+     d3 LI "" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"list-item","gap":"normal"} TEXT="Sales & Marketing"
+     d4 UL "carousel-internal" 1296x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"auto","display":"flex","gap":"24px"} TEXT="Startups & Small Business Career Real Estate Finance Sales & Marketing Non Profit & NGOs Educators Environment & Sustainability Design Investment"
+  [6] imgRatio=2 250x125 alt="Non Profit & NGOs events"
+     d0 DIV "carousel--card-image__wrapper" 125x125 {"borderRadius":"50%","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "carousel--card carousel--card--vertical" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Non Profit & NGOs"
+     d2 A "" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Non Profit & NGOs"
+     d3 LI "" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"list-item","gap":"normal"} TEXT="Non Profit & NGOs"
+     d4 UL "carousel-internal" 1296x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"auto","display":"flex","gap":"24px"} TEXT="Startups & Small Business Career Real Estate Finance Sales & Marketing Non Profit & NGOs Educators Environment & Sustainability Design Investment"
+  [7] imgRatio=2 250x125 alt="Educators events"
+     d0 DIV "carousel--card-image__wrapper" 125x125 {"borderRadius":"50%","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "carousel--card carousel--card--vertical" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Educators"
+     d2 A "" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Educators"
+     d3 LI "" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"list-item","gap":"normal"} TEXT="Educators"
+     d4 UL "carousel-internal" 1296x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"auto","display":"flex","gap":"24px"} TEXT="Startups & Small Business Career Real Estate Finance Sales & Marketing Non Profit & NGOs Educators Environment & Sustainability Design Investment"
+  [8] imgRatio=2 250x125 alt="Environment & Sustainability events"
+     d0 DIV "carousel--card-image__wrapper" 125x125 {"borderRadius":"50%","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "carousel--card carousel--card--vertical" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Environment & Sustainability"
+     d2 A "" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Environment & Sustainability"
+     d3 LI "" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"list-item","gap":"normal"} TEXT="Environment & Sustainability"
+     d4 UL "carousel-internal" 1296x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"auto","display":"flex","gap":"24px"} TEXT="Startups & Small Business Career Real Estate Finance Sales & Marketing Non Profit & NGOs Educators Environment & Sustainability Design Investment"
+  [9] imgRatio=2 250x125 alt="Design events"
+     d0 DIV "carousel--card-image__wrapper" 125x125 {"borderRadius":"50%","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "carousel--card carousel--card--vertical" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Design"
+     d2 A "" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Design"
+     d3 LI "" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"list-item","gap":"normal"} TEXT="Design"
+     d4 UL "carousel-internal" 1296x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"auto","display":"flex","gap":"24px"} TEXT="Startups & Small Business Career Real Estate Finance Sales & Marketing Non Profit & NGOs Educators Environment & Sustainability Design Investment"
+  [10] imgRatio=2 250x125 alt="Investment events"
+     d0 DIV "carousel--card-image__wrapper" 125x125 {"borderRadius":"50%","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d1 DIV "carousel--card carousel--card--vertical" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Investment"
+     d2 A "" 125x151 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT="Investment"
+     d3 LI "" 125x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"list-item","gap":"normal"} TEXT="Investment"
+     d4 UL "carousel-internal" 1296x169 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"auto","display":"flex","gap":"24px"} TEXT="Startups & Small Business Career Real Estate Finance Sales & Marketing Non Profit & NGOs Educators Environment & Sustainability Design Investment"
+  [11] imgRatio=2 308x154 alt="November LIVESTREAM Asset Protection & Wealth Creation Summit primary image"
+     d0 DIV "event-card-image__aspect-container" 308x154 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "event-card-link " 308x154 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__163eu NestedActionContainer_root__1a5vb event-card event-card__vertical v 308x344 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow TEXT="November LIVESTREAM Asset Protection & Wealth Creation Summit Mon, Nov 9 • 11:00 AM EST Free Protect Wealth Academy 5k followers Promoted Save this event: November LIVESTREAM Asset Protection & Wealth Creation Summit Sh
+     d3 SECTION "discover-vertical-event-card" 308x344 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="November LIVESTREAM Asset Protection & Wealth Creation Summit Mon, Nov 9 • 11:00 AM EST Free Protect Wealth Academy 5k followers Promoted Save this event: November LIVESTREAM Asset Protection & Wealth Creation Summit Sh
+     d4 DIV "event-card-simple-carousel-slide" 308x360 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="November LIVESTREAM Asset Protection & Wealth Creation Summit Mon, Nov 9 • 11:00 AM EST Free Protect Wealth Academy 5k followers Promoted Save this event: November LIVESTREAM Asset Protection & Wealth Creation Summit Sh
+  [12] imgRatio=2 308x154 alt="Startup World Cup Grand Finale 2026 primary image"
+     d0 DIV "event-card-image__aspect-container" 308x154 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "event-card-link " 308x154 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__163eu NestedActionContainer_root__1a5vb event-card event-card__vertical v 308x302 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow TEXT="Startup World Cup Grand Finale 2026 Fri, Nov 6 • 9:00 AM Hilton San Francisco Union Square Check ticket price on event Save this event: Startup World Cup Grand Finale 2026 Share this event: Startup World Cup Grand Final
+     d3 SECTION "discover-vertical-event-card" 308x302 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Startup World Cup Grand Finale 2026 Fri, Nov 6 • 9:00 AM Hilton San Francisco Union Square Check ticket price on event Save this event: Startup World Cup Grand Finale 2026 Share this event: Startup World Cup Grand Final
+     d4 DIV "event-card-simple-carousel-slide" 308x360 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Startup World Cup Grand Finale 2026 Fri, Nov 6 • 9:00 AM Hilton San Francisco Union Square Check ticket price on event Save this event: Startup World Cup Grand Finale 2026 Share this event: Startup World Cup Grand Final
+  [13] imgRatio=2 308x154 alt="SF Summit: Leading the Future of Real Estate primary image"
+     d0 DIV "event-card-image__aspect-container" 308x154 {"borderRadius":"4px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"hidden","display":"flex","gap":"normal"} TEXT=""
+     d1 A "event-card-link " 308x154 {"borderRadius":"0px","border":"0px none rgb(54, 89, 227)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "Container_root__163eu NestedActionContainer_root__1a5vb event-card event-card__vertical v 308x302 {"borderRadius":"16px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow TEXT="SF Summit: Leading the Future of Real Estate Mon, Oct 26 • 9:00 AM Hyatt Regency San Francisco Downtown SOMA Check ticket price on event Save this event: SF Summit: Leading the Future of Real Estate Share this event: SF
+     d3 SECTION "discover-vertical-event-card" 308x302 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="SF Summit: Leading the Future of Real Estate Mon, Oct 26 • 9:00 AM Hyatt Regency San Francisco Downtown SOMA Check ticket price on event Save this event: SF Summit: Leading the Future of Real Estate Share this event: SF
+     d4 DIV "event-card-simple-carousel-slide" 308x360 {"borderRadius":"0px","border":"0px none rgb(57, 54, 79)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="SF Summit: Leading the Future of Real Estate Mon, Oct 26 • 9:00 AM Hyatt Regency San Francisco Downtown SOMA Check ticket price on event Save this event: SF Summit: Leading the Future of Real Estate Share this event: SF
+--- IMAGES
+  432x288 nat=1001x501 fit=cover radius=0px alt="[object Object]"
+  250x125 nat=300x150 fit=cover radius=0px alt="Startups & Small Business events"
+  250x125 nat=300x150 fit=cover radius=0px alt="Career events"
+  250x125 nat=300x150 fit=cover radius=0px alt="Real Estate events"
+  250x125 nat=300x150 fit=cover radius=0px alt="Finance events"
+  250x125 nat=300x150 fit=cover radius=0px alt="Sales & Marketing events"
+  250x125 nat=300x150 fit=cover radius=0px alt="Non Profit & NGOs events"
+  250x125 nat=300x150 fit=cover radius=0px alt="Educators events"
+  250x125 nat=300x150 fit=cover radius=0px alt="Environment & Sustainability events"
+  250x125 nat=300x150 fit=cover radius=0px alt="Design events"
+  250x125 nat=300x150 fit=cover radius=0px alt="Investment events"
+  308x154 nat=460x230 fit=cover radius=0px alt="November LIVESTREAM Asset Protection & Wealth Creation Summit primary image"
+  308x154 nat=400x198 fit=cover radius=0px alt="Startup World Cup Grand Finale 2026 primary image"
+  308x154 nat=400x200 fit=cover radius=0px alt="SF Summit: Leading the Future of Real Estate primary image"
+  308x154 nat=460x230 fit=cover radius=0px alt="Funnel Body Blueprint Cohort KickOff primary image"
+  308x154 nat=400x200 fit=cover radius=0px alt="San Fran's Largest Tech Startup, Business & Entrepreneur Networking Soiree primary image"
+  308x154 nat=400x200 fit=cover radius=0px alt="Startup World Cup Corporate Innovation Seminar 2026 primary image"
+  308x154 nat=0x0 fit=cover radius=0px alt="California Sports & Ent. Career Expo hosted at the Chase Center primary image"
+--- TYPE_ROLES
+  h1 "Business events in San Francisco, CA" {"fontFamily":"\"Founders Grotesk R\", \"Founders Grotesk\", -apple-system, \"system-ui\", Roboto, \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif","fontSize":"64px","fontWeight":"700","lineHeight":"60px","letterSpacing":"normal","color":"rgb(239, 237, 171)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(239, 237, 171)","boxShadow":"none","transition":"all","padding":"4px 0px","margin":"0px 0px 8px"}
+  card-meta "Mon, Nov 9 • 11:00 AM EST" {"fontFamily":"\"Founders Grotesk R\", -apple-system, blinkmacsystemfont, roboto, \"Helvetica Neue\", helvetica, tahoma, arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"20px","letterSpacing":"normal","color":"rgb(58, 50, 71)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(58, 50, 71)","boxShadow":"none","transition":"all","padding":"0px","margin":"4px 0px 0px"}
+  card-meta "Free" {"fontFamily":"\"Founders Grotesk R\", -apple-system, blinkmacsystemfont, roboto, \"Helvetica Neue\", helvetica, tahoma, arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"20px","letterSpacing":"normal","color":"rgb(58, 50, 71)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(58, 50, 71)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  card-meta "Protect Wealth Academy" {"fontFamily":"\"Founders Grotesk R\", -apple-system, blinkmacsystemfont, roboto, \"Helvetica Neue\", helvetica, tahoma, arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"20px","letterSpacing":"normal","color":"rgb(88, 81, 99)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(88, 81, 99)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  nav-link "Eventbrite" {"fontFamily":"\"Founders Grotesk R\", \"Founders Grotesk R\"","fontSize":"14px","fontWeight":"500","lineHeight":"normal","letterSpacing":"normal","color":"rgb(54, 89, 227)","textTransform":"none","borderRadius":"4px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(54, 89, 227)","boxShadow":"none","transition":"all","padding":"5px 0px","margin":"0px"}
+  nav-link "Updates" {"fontFamily":"\"Founders Grotesk R\", \"Founders Grotesk R\"","fontSize":"14px","fontWeight":"500","lineHeight":"20px","letterSpacing":"normal","color":"rgb(57, 54, 79)","textTransform":"none","borderRadius":"100px","backgroundColor":"rgb(255, 255, 255)","border":"0px none rgb(57, 54, 79)","boxShadow":"none","transition":"all","padding":"10px 16px","margin":"0px"}
+  nav-link "Contact Sales" {"fontFamily":"\"Founders Grotesk R\", \"Founders Grotesk R\"","fontSize":"14px","fontWeight":"500","lineHeight":"20px","letterSpacing":"normal","color":"rgb(57, 54, 79)","textTransform":"none","borderRadius":"100px","backgroundColor":"rgb(255, 255, 255)","border":"0px none rgb(57, 54, 79)","boxShadow":"none","transition":"all","padding":"10px 16px","margin":"0px"}
+  price "Free" {"fontFamily":"\"Founders Grotesk R\", -apple-system, blinkmacsystemfont, roboto, \"Helvetica Neue\", helvetica, tahoma, arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"16px","letterSpacing":"normal","color":"rgb(57, 54, 79)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(57, 54, 79)","boxShadow":"none","transition":"all","padding":"0px","margin":"4px 0px 0px"}
+  price "Check ticket price on event" {"fontFamily":"\"Founders Grotesk R\", -apple-system, blinkmacsystemfont, roboto, \"Helvetica Neue\", helvetica, tahoma, arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"16px","letterSpacing":"normal","color":"rgb(57, 54, 79)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(57, 54, 79)","boxShadow":"none","transition":"all","padding":"0px","margin":"4px 0px 0px"}
+  price "Check ticket price on event" {"fontFamily":"\"Founders Grotesk R\", -apple-system, blinkmacsystemfont, roboto, \"Helvetica Neue\", helvetica, tahoma, arial, sans-serif","fontSize":"16px","fontWeight":"400","lineHeight":"16px","letterSpacing":"normal","color":"rgb(57, 54, 79)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(57, 54, 79)","boxShadow":"none","transition":"all","padding":"0px","margin":"4px 0px 0px"}
+--- HOVER {"before":{"text":"","r":{"x":966,"y":117,"w":432,"h":288},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(57, 54, 79)","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","cursor":"auto","translate":"none","scale":"none"}},"after":{"r":{"w":432,"h":288},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(57, 54, 79)","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+Eventbrite
+Search events
+Choose a location
+autocomplete
+Updates
+Contact Sales
+Create Events
+Help Center
+Find my tickets
+Log In
+Sign Up
+Home/
+United States/
+San Francisco/
+Events in San Francisco/
+Business
+Business events
+in San Francisco, CA
+
+Discover the best Business events in your area and online
+
+San Francisco
+Date
+Explore what's popular within Business
+
+Startups & Small Business
+
+Career
+
+Real Estate
+
+Finance
+
+Sales & Marketing
+
+Non Profit & NGOs
+
+Educators
+
+Environment & Sustainability
+
+Design
+
+Investment
+
+Most popular events
+November LIVESTREAM Asset Protection & Wealth Creation Summit
+
+Mon, Nov 9 • 11:00 AM EST
+
+Free
+
+Protect Wealth Academy
+
+5k followers
+
+Promoted
+
+Save this event: November LIVESTREAM Asset Protection & Wealth Creation Summit
+Share this event: November LIVESTREAM Asset Protection & Wealth Creation Summit
+Promoted event actions
+Startup World Cup Grand Finale 2026
+
+Fri, Nov 6 • 9:00 AM
+
+Hilton San Francisco Union Square
+
+Check ticket price on event
+
+Save this event: Startup World Cup Grand Finale 2026
+Share this event: Startup World Cup Grand Finale 2026
+SF Summit: Leading the Future of Real Estate
+
+Mon, Oct 26 • 9:00 AM
+
+Hyatt Regency San Francisco Downtown SOMA
+
+Check ticket price on event
+
+Save this event: SF Summit: Leading the Future of Real Estate
+Share this event: SF Summit: Leading the Future of Real Estate
+
+Sales end soon
+
+Funnel Body Blueprint Cohort KickOff
+
+Monday • 6:00 PM EDT
+
+From $397.00
+
+Jeshia Sutherland
+
+Promoted
+
+Save this event: Funnel Body Blueprint Cohort KickOff
+Share this event: Funnel Body Blueprint Cohort KickOff
+Promoted event actions
+
+Almost full
+
+San Fran's Largest Tech Startup, Business & Entrepreneur Networking Soiree
+
+Mon, Oct 26 • 6:00 PM
+
+Hardwood Bar & Smokery
+
+Check ticket price on event
+
+Save this event: San Fran's Largest Tech Startup, Business & Entrepreneur Networking Soiree
+Share this event: San Fran's Largest Tech Startup, Business & Entrepreneur Networking Soiree
+
+Going fast
+
+Startup World Cup Corporate Innovation Seminar 2026
+
+Thu, Nov 5 • 2:00 PM
+
+Hilton San Francisco Union Square
+
+Check ticket price on event
+
+Save this event: Startup World Cup Corporate Innovation Seminar 2026
+Share this event: Startup World Cup Corporate Innovation Seminar 2026
+
+Sales end soon
+
+California Sports & Ent. Career Expo hosted at the Chase Center
+
+Tomorrow • 12:00 PM
+
+Chase Center
+
+Check ticket price on event
+
+Save this event: California Sports & Ent. Career Expo hosted at the Chase Center
+Share this event: California Sports & Ent. Career Expo hosted at the Chase Center
+
+Almost full
+
+Women in Tech SF 2026
+
+Tue, Jan 26 • 6:00 PM
+
+We're looking for a host in SF!
+
+Check ticket price on event
+
+Save this event: Women in Tech SF 2026
+Share this event: Women in Tech SF 2026
+Muslims in Business Conference at Harvard Business School
+
+Sat, Dec 5 • 8:00 AM
+
+Klarman Hall, Harvard Business School
+
+Check ticket price on event
+
+Save this event: Muslims in Business Conference at Harvard Business School
+Share this event: Muslims in Business Conference at Harvard Business School
+
+Sales end soon
+
+Find a Cofounder, Help or Join a Startup
+
+Tomorrow • 5:00 PM
+
+Sports Basement Bryant Street
+
+Check ticket price on event
+
+Save this event: Find a Cofounder, Help or Join a Startup
+Share this event: Find a Cofounder, Help or Join a Startup
+This weekend
+
+Sales end soon
+
+Get Paid to Talk — An Intro to Voice Overs- Live Online Workshop & Q&A
+
+Sunday • 6:30 PM EDT
+
+From $44.52
+
+Voice Coaches
+
+9.5k followers
+
+Promoted
+
+Save this event: Get Paid to Talk — An Intro to Voice Overs- Live Online Workshop & Q&A
+Share this event: Get Paid to Talk — An Intro to Voice Overs- Live Online Workshop & Q&A
+Promoted event actions
+
+Sales end soon
+
+Authors in Conversation: China's Tech Power Play
+
+Tomorrow • 4:00 PM
+
+Yes SF Headquarters
+
+From $0.00
+
+Save this event: Authors in Conversation: China's Tech Power Play
+Share this event: Authors in Conversation: China's Tech Power Play
+
+Sales Ended
+
+PMP Certification Training in San Francisco, CA | PMI Exam Prep
+
+Saturday • 9:00 AM
+
+Jacoby & Meyers Accident & Injury Lawyers - San Francisco
+
+From $746.92
+
+Save this event: PMP Certification Training in San Francisco, CA | PMI Exam Prep
+Share this event: PMP Certification Training in San Francisco, CA | PMI Exam Prep
+
+Sales end soon
+
+NLP For Leaders
+
+Sunday • 7:00 PM EDT
+
+Free
+
+Centre for Life Therapies
+
+569 followers
+
+Promoted
+
+Save this event: NLP For Leaders
+Share this event: NLP For Leaders
+Promoted event actions
+Organizers to follow
+Pegasus Tech Ventures
+
+534 followers
+
+Follow
+San Francisco Association of REALTORS® (SFAR)
+
+300 followers
+
+Follow
+New York Entrepreneurs, Startup & Business Coalition
+
+30641 followers
+
+Follow
+TeamWork Online
+
+16082 followers
+
+Follow
+OutGeek - Badass Pros
+
+6965 followers
+
+Follow
+Islamic Society, a student club at HBS
+
+170 followers
+
+Follow
+Startup Oasis
+
+917 followers
+
+Follow
+Networking
+
+Sales end soon
+
+The Billion Dollar Impact Room: Grow Your Network Through Experiences
+
+Tuesday • 1:00 PM EDT
+
+Free
+
+Stacey Lauren
+
+1.9k followers
+
+Promoted
+
+Save this event: The Billion Dollar Impact Room: Grow Your Network Through Experiences
+Share this event: The Billion Dollar Impact Room: Grow Your Network Through Experiences
+Promoted event actions
+Portfolio Night - 2026 - San Francisco
+
+Thu, Oct 22 • 5:30 PM
+
+45 Fremont Street
+
+From $25.00
+
+Save this event: Portfolio Night - 2026 - San Francisco
+Share this event: Portfolio Night - 2026 - San Francisco
+San Francisco Healthcare, Pharma & Business Networking Event
+
+Fri, Oct 23 • 7:00 PM
+
+Skylark
+
+From $9.85
+
+Save this event: San Francisco Healthcare, Pharma & Business Networking Event
+Share this event: San Francisco Healthcare, Pharma & Business Networking Event
+
+Sales end soon
+
+Entrepreneur Exclusive Power Hour w/Christine Campbell Rapin
+
+Today • 9:00 PM EDT
+
+Free
+
+Powerteam International
+
+8.8k followers
+
+Promoted
+
+Save this event: Entrepreneur Exclusive Power Hour w/Christine Campbell Rapin
+Share this event: Entrepreneur Exclusive Power Hour w/Christine Campbell Rapin
+Promoted event actions
+Site Navigation
+
+Use Eventbrite
+
+Create Events
+Pricing
+Event Marketing Platform
+Eventbrite Mobile Ticket App
+Eventbrite Check-In App
+Eventbrite App Marketplace
+Event Registration Software
+Community Guidelines
+FAQs
+Sitemap
+
+Plan Events
+
+Sell Tickets Online
+Performing Arts Ticketing Software
+Sell Concert Tickets Online
+Event Payment System
+Solutions for Professional Services
+Event Management Software
+Halloween Party Planning
+Virtual Events Platform
+QR Codes for Event Check-In
+Post your event online
+
+Find Events
+
+New Orleans Food & Drink Events
+San Francisco Holiday Events
+Tulum Music Events
+Denver Hobby Events
+Atlanta Pop Music Events
+New York Events
+Chicago Events
+Events in Dallas Today
+Los Angeles Events
+Washington Events
+
+Connect With Us
+
+Contact Support
+Contact Sales
+Product Updates
+X
+Facebook
+LinkedIn
+Instagram
+TikTok
+© 2026 Eventbrite
+AboutBlogHelpCareersPressImpactSecurityDevelopersStatusTermsPrivacyAccessibilityCookiesManage Cookie Preferences
+Locale
+United States
+Argentina
+Australia
+België
+Belgique
+Brasil
+Canada (EN)
+Canada (FR)
+Chile
+Colombia
+Denmark
+Deutschland
+España
+Finland
+France
+Hong Kong
+Ireland
+Italia
+México
+Nederland
+New Zealand
+Österreich
+Perú
+Portugal
+Schweiz
+Singapore
+Suisse
+Sverige
+United Kingdom
+United States
+STAGE pre-write 62464 ms STAGE done 64219 ms

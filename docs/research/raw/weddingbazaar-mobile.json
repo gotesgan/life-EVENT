@@ -1,0 +1,3206 @@
+{
+ "slug": "weddingbazaar",
+ "mode": "mobile",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "Download WeddingBazaar app! Make your wedding planning easy and hassle-free",
+   "r": {
+    "x": 21,
+    "y": 3651,
+    "w": 347,
+    "h": 488
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "2px solid rgba(239, 74, 107, 0.1)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "auto",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 347,
+    "h": 488
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "2px solid rgba(239, 74, 107, 0.1)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://www.weddingbazaar.com/",
+  "title": "WeddingBazaar - India's Leading Wedding Planning Platform",
+  "viewport": {
+   "w": 390,
+   "h": 844
+  },
+  "docHeight": 13375,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "India's Largest Wedding Planning Platform",
+    "x": 42,
+    "y": 358,
+    "w": 306,
+    "h": 47
+   },
+   {
+    "tag": "H2",
+    "text": "Vendor categories",
+    "x": 21,
+    "y": 756,
+    "w": 347,
+    "h": 24
+   },
+   {
+    "tag": "H3",
+    "text": "Bridal Makeup Artists",
+    "x": 33,
+    "y": 956,
+    "w": 132,
+    "h": 45
+   },
+   {
+    "tag": "H3",
+    "text": "Wedding Photographers",
+    "x": 33,
+    "y": 1212,
+    "w": 132,
+    "h": 45
+   },
+   {
+    "tag": "H3",
+    "text": "Wedding Planners",
+    "x": 226,
+    "y": 956,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Venues",
+    "x": 226,
+    "y": 1195,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Wedding Decorators",
+    "x": 419,
+    "y": 956,
+    "w": 132,
+    "h": 45
+   },
+   {
+    "tag": "H3",
+    "text": "Mehndi Artists",
+    "x": 419,
+    "y": 1212,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Wedding Caterers",
+    "x": 612,
+    "y": 956,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Wedding Invitations",
+    "x": 612,
+    "y": 1195,
+    "w": 132,
+    "h": 45
+   },
+   {
+    "tag": "H3",
+    "text": "Jewellery",
+    "x": 805,
+    "y": 956,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "DJ & Live Music",
+    "x": 805,
+    "y": 1195,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Wedding Wear",
+    "x": 998,
+    "y": 956,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Cars",
+    "x": 998,
+    "y": 1195,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Entertainment",
+    "x": 1191,
+    "y": 956,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Choreographers",
+    "x": 1191,
+    "y": 1195,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Wedding Gifts",
+    "x": 1384,
+    "y": 956,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Pandits",
+    "x": 1384,
+    "y": 1195,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H3",
+    "text": "Honeymoon",
+    "x": 1577,
+    "y": 956,
+    "w": 132,
+    "h": 28
+   },
+   {
+    "tag": "H2",
+    "text": "Why WeddingBazaar?",
+    "x": 21,
+    "y": 1353,
+    "w": 347,
+    "h": 24
+   },
+   {
+    "tag": "H2",
+    "text": "Help us with your details",
+    "x": 21,
+    "y": 1948,
+    "w": 347,
+    "h": 24
+   },
+   {
+    "tag": "H2",
+    "text": "Find top vendors for hassle-free wedding planning",
+    "x": 21,
+    "y": 2409,
+    "w": 347,
+    "h": 48
+   },
+   {
+    "tag": "H4",
+    "text": "Makeup Artists",
+    "x": 32,
+    "y": 2600,
+    "w": 106,
+    "h": 17
+   },
+   {
+    "tag": "H4",
+    "text": "Photographers",
+    "x": 208,
+    "y": 2600,
+    "w": 106,
+    "h": 17
+   },
+   {
+    "tag": "H4",
+    "text": "Planners",
+    "x": 32,
+    "y": 2760,
+    "w": 62,
+    "h": 17
+   },
+   {
+    "tag": "H4",
+    "text": "Venues",
+    "x": 208,
+    "y": 2760,
+    "w": 53,
+    "h": 17
+   },
+   {
+    "tag": "H4",
+    "text": "Decorators",
+    "x": 32,
+    "y": 2920,
+    "w": 79,
+    "h": 17
+   },
+   {
+    "tag": "H4",
+    "text": "Mehndi Artists",
+    "x": 208,
+    "y": 2920,
+    "w": 102,
+    "h": 17
+   },
+   {
+    "tag": "H2",
+    "text": "What our customers say",
+    "x": 21,
+    "y": 3201,
+    "w": 347,
+    "h": 24
+   },
+   {
+    "tag": "H2",
+    "text": "Download WeddingBazaar app!",
+    "x": 45,
+    "y": 3911,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "tag": "H2",
+    "text": "India's Largest Wedding Venue Booking Platform with 40,000+ venues",
+    "x": 21,
+    "y": 4491,
+    "w": 347,
+    "h": 118
+   },
+   {
+    "tag": "H2",
+    "text": "Our vendors have generated 100 Crore business last month!",
+    "x": 21,
+    "y": 4765,
+    "w": 347,
+    "h": 48
+   },
+   {
+    "tag": "H2",
+    "text": "Planning a wedding now made easy",
+    "x": 42,
+    "y": 5603,
+    "w": 306,
+    "h": 48
+   }
+  ],
+  "header": {
+   "tag": "NAV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "style": {
+    "position": "static",
+    "top": "auto",
+    "height": "auto",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderBottom": "0px none rgb(0, 0, 0)",
+    "boxShadow": "none",
+    "zIndex": "auto"
+   },
+   "text": "PhotographersJewelleryHoneymoonCarsVenuesMakeup ArtistsPlannersDecoratorsMehndi ArtistsBridal DesignersInvitation DesignersGiftsChoreographersEntertainmentPanditsDJ & Live MusicCaterers",
+   "links": []
+  },
+  "navAll": [
+   "Blog",
+   "About Us",
+   "Careers",
+   "Contact Us",
+   "Terms & Conditions",
+   "Privacy Policy"
+  ],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 51,
+     "y": 499,
+     "w": 258,
+     "h": 23
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 51,
+     "y": 574,
+     "w": 258,
+     "h": 23
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 21,
+     "y": 2070,
+     "w": 347,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 30,
+     "y": 2145,
+     "w": 299,
+     "h": 23
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 30,
+     "y": 2209,
+     "w": 299,
+     "h": 23
+    }
+   }
+  ],
+  "filterContainers": [],
+  "images": [
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/WeddingBazaarLogo.svg",
+    "alt": "wedding bazaar logo",
+    "nat": "232x66",
+    "r": {
+     "x": 64,
+     "y": 14,
+     "w": 124,
+     "h": 34
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/bridal-makeup-artists.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 25,
+     "y": 804,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/wedding-photographers.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 25,
+     "y": 1060,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/wedding-planners.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 218,
+     "y": 804,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/wedding-venues.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 218,
+     "y": 1043,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/wedding-decorators.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 411,
+     "y": 804,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/mehndi-artists.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 411,
+     "y": 1060,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/catering.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 604,
+     "y": 804,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/wedding-cards.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 604,
+     "y": 1043,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/wedding-jewellery.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 797,
+     "y": 804,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/dj.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 797,
+     "y": 1043,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/wedding-wear.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 990,
+     "y": 804,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/wedding-cars-rental.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 990,
+     "y": 1043,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/wedding-entertainment.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 1183,
+     "y": 804,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/choreographers.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 1183,
+     "y": 1043,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/wedding-gifts.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 1376,
+     "y": 804,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/wedding-pandits.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 1376,
+     "y": 1043,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/honeymoon-tour-travels.jpg",
+    "alt": "Vendor Category thumbnail pic",
+    "nat": "164x152",
+    "r": {
+     "x": 1569,
+     "y": 804,
+     "w": 140,
+     "h": 152
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/whyWBZ1.svg",
+    "alt": "Badge icon",
+    "nat": "74x74",
+    "r": {
+     "x": 40,
+     "y": 1408,
+     "w": 40,
+     "h": 40
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/whyWBZ3.svg",
+    "alt": "Badge icon",
+    "nat": "74x74",
+    "r": {
+     "x": 40,
+     "y": 1562,
+     "w": 40,
+     "h": 40
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/whyWBZ4.svg",
+    "alt": "Badge icon",
+    "nat": "74x74",
+    "r": {
+     "x": 40,
+     "y": 1717,
+     "w": 40,
+     "h": 40
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/whyWBZ2.svg",
+    "alt": "Badge icon",
+    "nat": "74x74",
+    "r": {
+     "x": 214,
+     "y": 1408,
+     "w": 40,
+     "h": 40
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/whyWBZ6.svg",
+    "alt": "Badge icon",
+    "nat": "74x74",
+    "r": {
+     "x": 214,
+     "y": 1562,
+     "w": 40,
+     "h": 40
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/quotes.svg",
+    "alt": "quotes thumbnail",
+    "nat": "32x32",
+    "r": {
+     "x": 42,
+     "y": 3290,
+     "w": 32,
+     "h": 32
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/quotes.svg",
+    "alt": "quotes thumbnail",
+    "nat": "32x32",
+    "r": {
+     "x": 389,
+     "y": 3290,
+     "w": 32,
+     "h": 32
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/quotes.svg",
+    "alt": "quotes thumbnail",
+    "nat": "32x32",
+    "r": {
+     "x": 736,
+     "y": 3290,
+     "w": 32,
+     "h": 32
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/images/homepage/downloadWeddingBazaarIAppmageDesktop.jpg",
+    "alt": "banner app store component",
+    "nat": "700x560",
+    "r": {
+     "x": 44,
+     "y": 3653,
+     "w": 302,
+     "h": 242
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/mobileGooglePlay.svg",
+    "alt": "play store logo",
+    "nat": "170x80",
+    "r": {
+     "x": 45,
+     "y": 4020,
+     "w": 146,
+     "h": 69
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/images/homepage/mobileAppleLogo.svg",
+    "alt": "app store logo",
+    "nat": "170x80",
+    "r": {
+     "x": 199,
+     "y": 4020,
+     "w": 146,
+     "h": 69
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/logos/mandapLogo.svg",
+    "alt": "mandap logo",
+    "nat": "0x0",
+    "r": {
+     "x": 21,
+     "y": 4200,
+     "w": 168,
+     "h": 44
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/mandapImageCompressed.jpg",
+    "alt": "mandap banner image",
+    "nat": "618x404",
+    "r": {
+     "x": 21,
+     "y": 4267,
+     "w": 318,
+     "h": 208
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/quotes.svg",
+    "alt": "",
+    "nat": "32x32",
+    "r": {
+     "x": 42,
+     "y": 4954,
+     "w": 32,
+     "h": 32
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/quotes.svg",
+    "alt": "",
+    "nat": "32x32",
+    "r": {
+     "x": 389,
+     "y": 4954,
+     "w": 32,
+     "h": 32
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/icons/quotes.svg",
+    "alt": "",
+    "nat": "32x32",
+    "r": {
+     "x": 736,
+     "y": 4954,
+     "w": 32,
+     "h": 32
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/vendor_categories/WeddingBazaarLogo.svg",
+    "alt": "wedding bazaar logo",
+    "nat": "232x66",
+    "r": {
+     "x": 21,
+     "y": 6080,
+     "w": 168,
+     "h": 48
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/logos/instagramLogo.svg",
+    "alt": "Instagram",
+    "nat": "0x0",
+    "r": {
+     "x": 21,
+     "y": 6505,
+     "w": 24,
+     "h": 24
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/logos/facebookLogo.svg",
+    "alt": "Facebook",
+    "nat": "0x0",
+    "r": {
+     "x": 85,
+     "y": 6505,
+     "w": 24,
+     "h": 24
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/logos/pinterestLogo.svg",
+    "alt": "Pinterest",
+    "nat": "0x0",
+    "r": {
+     "x": 149,
+     "y": 6505,
+     "w": 24,
+     "h": 24
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://img.weddingbazaar.com/static/send_enquiry_logo.png",
+    "alt": "enquiry image",
+    "nat": "96x96",
+    "r": {
+     "x": 314,
+     "y": 788,
+     "w": 22,
+     "h": 22
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.weddingbazaar.com/images/vendor-banner.svg",
+    "alt": "Are you a vendor? Get more bookings by listing on WeddingBazaar",
+    "nat": "257x106",
+    "r": {
+     "x": -290,
+     "y": 71,
+     "w": 270,
+     "h": 111
+    },
+    "fit": "fill",
+    "radius": "0px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 25,
+       "y": 804,
+       "w": 140,
+       "h": 227
+      },
+      "text": "Bridal Makeup Artists 27,131",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 25,
+       "y": 804,
+       "w": 140,
+       "h": 227
+      },
+      "text": "Bridal Makeup Artists 27,131",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 21,
+       "y": 800,
+       "w": 148,
+       "h": 235
+      },
+      "text": "Bridal Makeup Artists 27,131",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 21,
+       "y": 800,
+       "w": 173,
+       "h": 235
+      },
+      "text": "Bridal Makeup Artists 27,131",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active slick-current",
+      "r": {
+       "x": 21,
+       "y": 780,
+       "w": 193,
+       "h": 512
+      },
+      "text": "Bridal Makeup Artists 27,131 Wedding Photographers 24,869",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 25,
+       "y": 1060,
+       "w": 140,
+       "h": 227
+      },
+      "text": "Wedding Photographers 24,869",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 25,
+       "y": 1060,
+       "w": 140,
+       "h": 227
+      },
+      "text": "Wedding Photographers 24,869",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 21,
+       "y": 1056,
+       "w": 148,
+       "h": 235
+      },
+      "text": "Wedding Photographers 24,869",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 21,
+       "y": 1056,
+       "w": 173,
+       "h": 235
+      },
+      "text": "Wedding Photographers 24,869",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active slick-current",
+      "r": {
+       "x": 21,
+       "y": 780,
+       "w": 193,
+       "h": 512
+      },
+      "text": "Bridal Makeup Artists 27,131 Wedding Photographers 24,869",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 218,
+       "y": 804,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Wedding Planners 3,852",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 218,
+       "y": 804,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Wedding Planners 3,852",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 214,
+       "y": 800,
+       "w": 148,
+       "h": 219
+      },
+      "text": "Wedding Planners 3,852",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 214,
+       "y": 800,
+       "w": 173,
+       "h": 219
+      },
+      "text": "Wedding Planners 3,852",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active",
+      "r": {
+       "x": 214,
+       "y": 780,
+       "w": 193,
+       "h": 479
+      },
+      "text": "Wedding Planners 3,852 Venues 53,277",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 218,
+       "y": 1043,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Venues 53,277",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 218,
+       "y": 1043,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Venues 53,277",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 214,
+       "y": 1039,
+       "w": 148,
+       "h": 219
+      },
+      "text": "Venues 53,277",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 214,
+       "y": 1039,
+       "w": 173,
+       "h": 219
+      },
+      "text": "Venues 53,277",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active",
+      "r": {
+       "x": 214,
+       "y": 780,
+       "w": 193,
+       "h": 479
+      },
+      "text": "Wedding Planners 3,852 Venues 53,277",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 411,
+       "y": 804,
+       "w": 140,
+       "h": 227
+      },
+      "text": "Wedding Decorators 3,638",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 411,
+       "y": 804,
+       "w": 140,
+       "h": 227
+      },
+      "text": "Wedding Decorators 3,638",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 407,
+       "y": 800,
+       "w": 148,
+       "h": 235
+      },
+      "text": "Wedding Decorators 3,638",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 407,
+       "y": 800,
+       "w": 173,
+       "h": 235
+      },
+      "text": "Wedding Decorators 3,638",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 407,
+       "y": 780,
+       "w": 193,
+       "h": 495
+      },
+      "text": "Wedding Decorators 3,638 Mehndi Artists 3,735",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 411,
+       "y": 1060,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Mehndi Artists 3,735",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 411,
+       "y": 1060,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Mehndi Artists 3,735",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 407,
+       "y": 1056,
+       "w": 148,
+       "h": 219
+      },
+      "text": "Mehndi Artists 3,735",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 407,
+       "y": 1056,
+       "w": 173,
+       "h": 219
+      },
+      "text": "Mehndi Artists 3,735",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 407,
+       "y": 780,
+       "w": 193,
+       "h": 495
+      },
+      "text": "Wedding Decorators 3,638 Mehndi Artists 3,735",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 604,
+       "y": 804,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Wedding Caterers 1,497",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 604,
+       "y": 804,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Wedding Caterers 1,497",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 600,
+       "y": 800,
+       "w": 148,
+       "h": 219
+      },
+      "text": "Wedding Caterers 1,497",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 600,
+       "y": 800,
+       "w": 173,
+       "h": 219
+      },
+      "text": "Wedding Caterers 1,497",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 600,
+       "y": 780,
+       "w": 193,
+       "h": 495
+      },
+      "text": "Wedding Caterers 1,497 Wedding Invitations 433",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 604,
+       "y": 1043,
+       "w": 140,
+       "h": 227
+      },
+      "text": "Wedding Invitations 433",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 604,
+       "y": 1043,
+       "w": 140,
+       "h": 227
+      },
+      "text": "Wedding Invitations 433",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 600,
+       "y": 1039,
+       "w": 148,
+       "h": 235
+      },
+      "text": "Wedding Invitations 433",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 600,
+       "y": 1039,
+       "w": 173,
+       "h": 235
+      },
+      "text": "Wedding Invitations 433",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 600,
+       "y": 780,
+       "w": 193,
+       "h": 495
+      },
+      "text": "Wedding Caterers 1,497 Wedding Invitations 433",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 797,
+       "y": 804,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Jewellery 263",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 797,
+       "y": 804,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Jewellery 263",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 793,
+       "y": 800,
+       "w": 148,
+       "h": 219
+      },
+      "text": "Jewellery 263",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 793,
+       "y": 800,
+       "w": 173,
+       "h": 219
+      },
+      "text": "Jewellery 263",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 793,
+       "y": 780,
+       "w": 193,
+       "h": 479
+      },
+      "text": "Jewellery 263 DJ & Live Music 370",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 797,
+       "y": 1043,
+       "w": 140,
+       "h": 211
+      },
+      "text": "DJ & Live Music 370",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 797,
+       "y": 1043,
+       "w": 140,
+       "h": 211
+      },
+      "text": "DJ & Live Music 370",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 793,
+       "y": 1039,
+       "w": 148,
+       "h": 219
+      },
+      "text": "DJ & Live Music 370",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 793,
+       "y": 1039,
+       "w": 173,
+       "h": 219
+      },
+      "text": "DJ & Live Music 370",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 793,
+       "y": 780,
+       "w": 193,
+       "h": 479
+      },
+      "text": "Jewellery 263 DJ & Live Music 370",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 990,
+       "y": 804,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Wedding Wear 314",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 990,
+       "y": 804,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Wedding Wear 314",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 986,
+       "y": 800,
+       "w": 148,
+       "h": 219
+      },
+      "text": "Wedding Wear 314",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 986,
+       "y": 800,
+       "w": 173,
+       "h": 219
+      },
+      "text": "Wedding Wear 314",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 986,
+       "y": 780,
+       "w": 193,
+       "h": 479
+      },
+      "text": "Wedding Wear 314 Cars 182",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 990,
+       "y": 1043,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Cars 182",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 990,
+       "y": 1043,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Cars 182",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 986,
+       "y": 1039,
+       "w": 148,
+       "h": 219
+      },
+      "text": "Cars 182",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 986,
+       "y": 1039,
+       "w": 173,
+       "h": 219
+      },
+      "text": "Cars 182",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 986,
+       "y": 780,
+       "w": 193,
+       "h": 479
+      },
+      "text": "Wedding Wear 314 Cars 182",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 1183,
+       "y": 804,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Entertainment 278",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1183,
+       "y": 804,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Entertainment 278",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 1179,
+       "y": 800,
+       "w": 148,
+       "h": 219
+      },
+      "text": "Entertainment 278",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 1179,
+       "y": 800,
+       "w": 173,
+       "h": 219
+      },
+      "text": "Entertainment 278",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 1179,
+       "y": 780,
+       "w": 193,
+       "h": 479
+      },
+      "text": "Entertainment 278 Choreographers 225",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Vendor Category thumbnail pic",
+     "ratio": 0.921,
+     "r": {
+      "w": 140,
+      "h": 152
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root mui-1doi1xi",
+      "r": {
+       "x": 1183,
+       "y": 1043,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Choreographers 225",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px 0px 8.2048px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1183,
+       "y": 1043,
+       "w": 140,
+       "h": 211
+      },
+      "text": "Choreographers 225",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "MuiStack-root catCard mui-mm7z24",
+      "r": {
+       "x": 1179,
+       "y": 1039,
+       "w": 148,
+       "h": 219
+      },
+      "text": "Choreographers 225",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "rgba(0, 0, 0, 0.12) 0px 6px 16px 0px",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "4px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 1179,
+       "y": 1039,
+       "w": 173,
+       "h": 219
+      },
+      "text": "Choreographers 225",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 1179,
+       "y": 780,
+       "w": 193,
+       "h": 479
+      },
+      "text": "Entertainment 278 Choreographers 225",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "Find vendors",
+   "Bridal Makeup Artists 27,131",
+   "Wedding Photographers 24,869",
+   "Wedding Planners 3,852",
+   "Venues 53,277",
+   "Wedding Decorators 3,638",
+   "Mehndi Artists 3,735",
+   "Wedding Caterers 1,497",
+   "Wedding Invitations 433",
+   "Jewellery 263",
+   "DJ & Live Music 370",
+   "Wedding Wear 314",
+   "Cars 182",
+   "Entertainment 278",
+   "Choreographers 225",
+   "Wedding Gifts 297",
+   "Pandits 45",
+   "Honeymoon 91",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "Submit",
+   "Enquire now",
+   "1",
+   "2",
+   "3",
+   "Explore now",
+   "1",
+   "2",
+   "3",
+   "Register as vendor",
+   "Register as vendor",
+   "Hire a vendor",
+   "About Us",
+   "Careers",
+   "Contact Us",
+   "Mandap",
+   "Make My Wedding",
+   "Wedding Guest Post",
+   "Sitemap",
+   "Terms & Conditions",
+   "Privacy Policy",
+   "Bridal Makeup Artists",
+   "Bridal Makeup Artists In Delhi NCR",
+   "Bridal Makeup Artists In Mumbai",
+   "Bridal Makeup Artists In Bangalore",
+   "Bridal Makeup Artists In Chennai",
+   "Bridal Makeup Artists In Hyderabad",
+   "Bridal Makeup Artists In Chandigarh",
+   "Bridal Makeup Artists In Kolkata",
+   "Bridal Makeup Artists In Pune",
+   "Bridal Makeup Artists In Lucknow",
+   "Bridal Makeup Artists In Indore",
+   "Bridal Makeup Artists In Jaipur",
+   "Bridal Makeup Artists In Ahmedabad",
+   "Wedding Photographers",
+   "Wedding Photographers In Delhi NCR",
+   "Wedding Photographers In Mumbai",
+   "Wedding Photographers In Bangalore",
+   "Wedding Photographers In Chennai",
+   "Wedding Photographers In Hyderabad",
+   "Wedding Photographers In Chandigarh",
+   "Wedding Photographers In Kolkata",
+   "Wedding Photographers In Pune",
+   "Wedding Photographers In Lucknow",
+   "Wedding Photographers In Indore",
+   "Wedding Photographers In Jaipur",
+   "Wedding Photographers In Ahmedabad",
+   "Wedding Planners",
+   "Wedding Planners In Delhi NCR",
+   "Wedding Planners In Mumbai",
+   "Wedding Planners In Bangalore",
+   "Wedding Planners In Chennai",
+   "Wedding Planners In Hyderabad",
+   "Wedding Planners In Chandigarh",
+   "Wedding Planners In Kolkata",
+   "Wedding Planners In Pune",
+   "Wedding Planners In Lucknow",
+   "Wedding Planners In Indore",
+   "Wedding Planners In Jaipur",
+   "Wedding Planners In Ahmedabad",
+   "Wedding Venues",
+   "Wedding Venues In Delhi NCR",
+   "Wedding Venues In Mumbai",
+   "Wedding Venues In Bangalore",
+   "Wedding Venues In Chennai",
+   "Wedding Venues In Hyderabad",
+   "Wedding Venues In Chandigarh",
+   "Wedding Venues In Kolkata",
+   "Wedding Venues In Pune",
+   "Wedding Venues In Lucknow",
+   "Wedding Venues In Indore",
+   "Wedding Venues In Jaipur",
+   "Wedding Venues In Ahmedabad",
+   "Wedding Decorators",
+   "Wedding Decorators In Delhi NCR",
+   "Wedding Decorators In Mumbai",
+   "Wedding Decorators In Bangalore",
+   "Wedding Decorators In Chennai",
+   "Wedding Decorators In Hyderabad",
+   "Wedding Decorators In Chandigarh",
+   "Wedding Decorators In Kolkata",
+   "Wedding Decorators In Pune",
+   "Wedding Decorators In Lucknow",
+   "Wedding Decorators In Indore",
+   "Wedding Decorators In Jaipur",
+   "Wedding Decorators In Ahmedabad",
+   "Bridal Mehendi Artists",
+   "Bridal Mehendi Artists In Delhi NCR",
+   "Bridal Mehendi Artists In Mumbai",
+   "Bridal Mehendi Artists In Bangalore",
+   "Bridal Mehendi Artists In Chennai",
+   "Bridal Mehendi Artists In Hyderabad",
+   "Bridal Mehendi Artists In Chandigarh",
+   "Bridal Mehendi Artists In Kolkata",
+   "Bridal Mehendi Artists In Pune",
+   "Bridal Mehendi Artists In Lucknow",
+   "Bridal Mehendi Artists In Indore",
+   "Bridal Mehendi Artists In Jaipur",
+   "Bridal Mehendi Artists In Ahmedabad",
+   "Wedding Catering Services",
+   "Wedding Catering Services In Delhi NCR",
+   "Wedding Catering Services In Mumbai",
+   "Wedding Catering Services In Bangalore",
+   "Wedding Catering Services In Chennai",
+   "Wedding Catering Services In Hyderabad",
+   "Wedding Catering Services In Chandigarh",
+   "Wedding Catering Services In Kolkata",
+   "Wedding Catering Services In Pune",
+   "Wedding Catering Services In Lucknow",
+   "Wedding Catering Services In Indore",
+   "Wedding Catering Services In Jaipur",
+   "Wedding Catering Services In Ahmedabad",
+   "Wedding Invitation Cards Maker",
+   "Wedding Invitation Cards Maker In Delhi NCR",
+   "Wedding Invitation Cards Maker In Mumbai",
+   "Wedding Invitation Cards Maker In Bangalore",
+   "Wedding Invitation Cards Maker In Chennai",
+   "Wedding Invitation Cards Maker In Hyderabad",
+   "Wedding Invitation Cards Maker In Chandigarh",
+   "Wedding Invitation Cards Maker In Kolkata",
+   "Wedding Invitation Cards Maker In Pune",
+   "Wedding Invitation Cards Maker In Lucknow",
+   "Wedding Invitation Cards Maker In Indore",
+   "Wedding Invitation Cards Maker In Jaipur",
+   "Wedding Invitation Cards Maker In Ahmedabad",
+   "Wedding Jewellery",
+   "Wedding Jewellery In Delhi NCR",
+   "Wedding Jewellery In Mumbai",
+   "Wedding Jewellery In Bangalore",
+   "Wedding Jewellery In Chennai",
+   "Wedding Jewellery In Hyderabad",
+   "Wedding Jewellery In Chandigarh",
+   "Wedding Jewellery In Kolkata",
+   "Wedding Jewellery In Pune",
+   "Wedding Jewellery In Lucknow",
+   "Wedding Jewellery In Indore",
+   "Wedding Jewellery In Jaipur",
+   "Wedding Jewellery In Ahmedabad",
+   "Djs",
+   "DJs In Delhi NCR",
+   "DJs In Mumbai",
+   "DJs In Bangalore",
+   "DJs In Chennai",
+   "DJs In Hyderabad",
+   "DJs In Chandigarh",
+   "DJs In Kolkata",
+   "DJs In Pune",
+   "DJs In Lucknow",
+   "DJs In Indore",
+   "DJs In Jaipur",
+   "DJs In Ahmedabad",
+   "Wedding Wear",
+   "Wedding Wear In Delhi NCR",
+   "Wedding Wear In Mumbai",
+   "Wedding Wear In Bangalore",
+   "Wedding Wear In Chennai",
+   "Wedding Wear In Hyderabad",
+   "Wedding Wear In Chandigarh",
+   "Wedding Wear In Kolkata",
+   "Wedding Wear In Pune",
+   "Wedding Wear In Lucknow",
+   "Wedding Wear In Indore",
+   "Wedding Wear In Jaipur",
+   "Wedding Wear In Ahmedabad",
+   "Wedding Car Rental",
+   "Wedding Car Rental In Delhi NCR",
+   "Wedding Car Rental In Mumbai",
+   "Wedding Car Rental In Bangalore",
+   "Wedding Car Rental In Chennai",
+   "Wedding Car Rental In Hyderabad",
+   "Wedding Car Rental In Pune",
+   "Wedding Car Rental In Jaipur",
+   "Wedding Car Rental In Ahmedabad"
+  ],
+  "bodyText": "Login\n\nIndia's Largest Wedding Planning Platform\n\nHire best vendors such as photographers, makeup artists, Mandap, Caterers and so on.\n\nSearch For Vendors\nSearch For Vendors\nWedding city\nWedding city\nFind vendors\nVendor categories\nBridal Makeup Artists\n27,131\nWedding Photographers\n24,869\nWedding Planners\n3,852\nVenues\n53,277\nWedding Decorators\n3,638\nMehndi Artists\n3,735\nWedding Caterers\n1,497\nWedding Invitations\n433\nJewellery\n263\nDJ & Live Music\n370\nWedding Wear\n314\nCars\n182\nEntertainment\n278\nChoreographers\n225\nWedding Gifts\n297\nPandits\n45\nHoneymoon\n91\n1\n2\n3\n4\n5\n6\n7\n8\n9\nWhy WeddingBazaar?\nTrusted marketplace from Matrimony.com group\n2.8 Lakh+ trusted vendors across 40+ cities\n2.3 million connections with 60K+ vendors\n20 Lakh+ and counting happy customers\nChoose best vendors based on user reviews\nHelp us with your details\n\nOur executives will call you to understand your requirements to find suitable vendors\n\nEnter mobile number\nEnter mobile number\nSelect city\nSelect city\nSelect vendor category\nSelect vendor category\nSubmit\nFind top vendors for hassle-free wedding planning\nMakeup Artists\n27,131\nPhotographers\n24,869\nPlanners\n3,852\nVenues\n53,277\nDecorators\n3,638\nMehndi Artists\n3,735\n\nSend your enquiry to know about the vendors. Our executive will call you shortly.\n\nEnquire now\nWhat our customers say\n\n\"I found the perfect makeover artist for my wedding through WeddingBazaar.com. My wedding took place in Indore. Vinaya traveled here and her work was flawless. She styled my hair beautifully and did a fantastic job with the entire makeover.\n\nHarmeet kaur\n\nWedding Makeup, Indore\n\n\"Aperture Art impressed me with their amazing photography skills. I made the right choice by selecting them for my marriage. Grateful to WeddingBazaar.com for suggesting the right people. They know what exactly to bring in front of you.\n\nS. Rahul\n\nPhotography, Bangalore\n\n\"The team of photographers recommended by WeddingBazaar.com surprised me with their approach to my portfolio. Their out-of-the-box thinking made the posing process exciting for me.\n\nShatabdi\n\nPhotography, Chennai\n\n1\n2\n3\nDownload WeddingBazaar app!\n\nMake your wedding planning easy and hassle-free\n\nIndia's Largest Wedding Venue Booking Platform with 40,000+ venues\nExplore now\nOur vendors have generated 100 Crore business last month!\nHere are some of our vendor testimonials\n\n\"When I registered here as a verified vendor, I did not know that my business would improve vastly within a short period. Understanding the requirements of the customers and serving them has helped develop my business widely. My sincere thanks to the WeddingBazaar team for providing me with leads and support consistently.\n\nVarun\n\nCaterers, Chennai\n\n\"I took the most popular package on WeddingBazaar and it is totally useful. For beginners like me, it would be very helpful to have a support like WeddingBazaar to get more clients. I would recommend this platform to everyone looking to grow their business quickly.\n\nHemavathy\n\nMakeup Artist, Hyderabad\n\n\"Grateful to the WeddingBazaar team. As a registered vendor, I connected with a lot of new clients. Doubling the business as a Mehndi artist with the help of Wean ddingBazaar was so easy. Not only as a vendor, I also used WeddingBazaar as a customer and was highly satisfied with their personalized vendor suggestions.\n\nParvathy\n\nMehndi Artist, Chennai\n\n1\n2\n3\n\nBecome a vendor in WeddingBazaar! Double your business\n\nRegister as vendor\nPlanning a wedding now made easy\n\nHelps plan your wedding like a loved one. WeddingBazaar is India’s most loved largest wedding services marketplace. Check prices, verified reviews and book best wedding photographers, bridal makeup artists, wedding venues, decorators, and all other wedding vendors at guaranteed best prices.\n\nExplore wedding vendors for your big day\n\nHire a vendor\n\nKnow about us\n\nAbout Us\n\nCareers\n\nContact Us\n\nOther Services\n\nMandap\n\nMake My Wedding\n\nYou need to know\n\nWedding Guest Post\n\nSitemap\n\nTerms & Conditions\n\nPrivacy Policy\n\nFollow us on\n\n© Copyright 2026 WeddingBazaar (Matrimony.com Group) - All Rights Reserved\n\nWedding Vendors in over 100 cities\n\nBridal Makeup Artists\n\nBridal Makeup Artists\nBridal Makeup Artists In Delhi NCR\nBridal Makeup Artists In Mumbai\nBridal Makeup Artists In Bangalore\nBridal Makeup Artists In Chennai\nBridal Makeup Artists In Hyderabad\nBridal Makeup Artists In Chandigarh\nBridal Makeup Artists In Kolkata\nBridal Makeup Artists In Pune\nBridal Makeup Artists In Lucknow\nBridal Makeup Artists In Indore\nBridal Makeup Artists In Jaipur\nBridal Makeup Artists In Ahmedabad\n\nWedding Photographers\n\nWedding Photographers\nWedding Photographers In Delhi NCR\nWedding Photographers In Mumbai\nWedding Photographers In Bangalore\nWedding Photographers In Chennai\nWedding Photographers In Hyderabad\nWedding Photographers In Chandigarh\nWedding Photographers In Kolkata\nWedding Photographers In Pune\nWedding Photographers In Lucknow\nWedding Photographers In Indore\nWedding Photographers In Jaipur\nWedding Photographers In Ahmedabad\n\nWedding Planners\n\nWedding Planners\nWedding Planners In Delhi NCR\nWedding Planners In Mumbai\nWedding Planners In Bangalore\nWedding Planners In Chennai\nWedding Planners In Hyderabad\nWedding Planners In Chandigarh\nWedding Planners In Kolkata\nWedding Planners In Pune\nWedding Planners In Lucknow\nWedding Planners In Indore\nWedding Planners In Jaipur\nWedding Planners In Ahmedabad\n\nWedding Venues\n\nWedding Venues\nWedding Venues In Delhi NCR\nWedding Venues In Mumbai\nWedding Venues In Bangalore\nWedding Venues In Chennai\nWedding Venues In Hyderabad\nWedding Venues In Chandigarh\nWedding Venues In Kolkata\nWedding Venues In Pune\nWedding Venues In Lucknow\nWedding Venues In Indore\nWedding Venues In Jaipur\nWedding Venues In Ahmedabad\n\nWedding Decorators\n\nWedding Decorators\nWedding Decorators In Delhi NCR\nWedding Decorators In Mumbai\nWedding Decorators In Bangalore\nWedding Decorators In Chennai\nWedding Decorators In Hyderabad\nWedding Decorators In Chandigarh\nWedding Decorators In Kolkata\nWedding Decorators In Pune\nWedding Decorators In Lucknow\nWedding Decorators In Indore\nWedding Decorators In Jaipur\nWedding Decorators In Ahmedabad\n\nBridal Mehendi Artists\n\nBridal Mehendi Artists\nBridal Mehendi Artists In Delhi NCR\nBridal Mehendi Artists In Mumbai\nBridal Mehendi Artists In Bangalore\nBridal Mehendi Artists In Chennai\nBridal Mehendi Artists In Hyderabad\nBridal Mehendi Artists In Chandigarh\nBridal Mehendi Artists In Kolkata\nBridal Mehendi Artists In Pune\nBridal Mehendi Artists In Lucknow\nBridal Mehendi Artists In Indore\nBridal Mehendi Artists In Jaipur\nBridal Mehendi Artists In Ahmedabad\n\nWedding Catering Services\n\nWedding Catering Services\nWedding Catering Services In Delhi NCR\nWedding Catering Services In Mumbai\nWedding Catering Services In Bangalore\nWedding Catering Services In Chennai\nWedding Catering Services In Hyderabad\nWedding Catering Services In Chandigarh\nWedding Catering Services In Kolkata\nWedding Catering Services In Pune\nWedding Catering Services In Lucknow\nWedding Catering Services In Indore\nWedding Catering Services In Jaipur\nWedding Catering Services In Ahmedabad\n\nWedding Invitation Cards Maker\n\nWedding Invitation Cards Maker\nWedding Invitation Cards Maker In Delhi NCR\nWedding Invitation Cards Maker In Mumbai\nWedding Invitation Cards Maker In Bangalore\nWedding Invitation Cards Maker In Chennai\nWedding Invitation Cards Maker In Hyderabad\nWedding Invitation Cards Maker In Chandigarh\nWedding Invitation Cards Maker In Kolkata\nWedding Invitation Cards Maker In Pune\nWedding Invitation Cards Maker In Lucknow\nWedding Invitation Cards Maker In Indore\nWedding Invitation Cards Maker In Jaipur\nWedding Invitation Cards Maker In Ahmedabad\n\nWedding Jewellery\n\nWedding Jewellery\nWedding Jewellery In Delhi NCR\nWedding Jewellery In Mumbai\nWedding Jewellery In Bangalore\nWedding Jewellery In Chennai\nWedding Jewellery In Hyderabad\nWedding Jewellery In Chandigarh\nWedding Jewellery In Kolkata\nWedding Jewellery In Pune\nWedding Jewellery In Lucknow\nWedding Jewellery In Indore\nWedding Jewellery In Jaipur\nWedding Jewellery In Ahmedabad\n\nDjs\n\nDjs\nDJs In Delhi NCR\nDJs In Mumbai\nDJs In Bangalore\nDJs In Chennai\nDJs In Hyderabad\nDJs In Chandigarh\nDJs In Kolkata\nDJs In Pune\nDJs In Lucknow\nDJs In Indore\nDJs In Jaipur\nDJs In Ahmedabad\n\nWedding Wear\n\nWedding Wear\nWedding Wear In Delhi NCR\nWedding Wear In Mumbai\nWedding Wear In Bangalore\nWedding Wear In Chennai\nWedding Wear In Hyderabad\nWedding Wear In Chandigarh\nWedding Wear In Kolkata\nWedding Wear In Pune\nWedding Wear In Lucknow\nWedding Wear In Indore\nWedding Wear In Jaipur\nWedding Wear In Ahmedabad\n\nWedding Car Rental\n\nWedding Car Rental\nWedding Car Rental In Delhi NCR\nWedding Car Rental In Mumbai\nWedding Car Rental In Bangalore\nWedding Car Rental In Chennai\nWedding Car Rental In Hyderabad\nWedding Car Rental In Pune\nWedding Car Rental In Jaipur\nWedding Car Rental In Ahmedabad\n\nWedding Entertainers\n\nWedding Entertainers\nWedding Entertainers In Delhi NCR\nWedding Entertainers In Mumbai\nWedding Entertainers In",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "India's Largest Wedding Planning Platform",
+     "style": {
+      "fontFamily": "Poppins, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "lineHeight": "23.34px",
+      "letterSpacing": "-0.3124px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 42,
+      "y": 358,
+      "w": 306,
+      "h": 47
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Vendor categories",
+     "style": {
+      "fontFamily": "Poppins, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "0.48px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 21,
+      "y": 756,
+      "w": 347,
+      "h": 24
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Bridal Makeup Artists",
+     "style": {
+      "fontFamily": "Poppins, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "16.338px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "capitalize",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "12px 0px 0px",
+      "margin": "0px 0px 0px 8px"
+     },
+     "r": {
+      "x": 33,
+      "y": 956,
+      "w": 132,
+      "h": 45
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Wedding Photographers",
+     "style": {
+      "fontFamily": "Poppins, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "16.338px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "capitalize",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "12px 0px 0px",
+      "margin": "0px 0px 0px 8px"
+     },
+     "r": {
+      "x": 33,
+      "y": 1212,
+      "w": 132,
+      "h": 45
+     }
+    }
+   ],
+   "card-meta": [
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "\"When I registered here as a verified vendor, I did not know that my b",
+     "style": {
+      "fontFamily": "PoppinsLight",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "18px",
+      "letterSpacing": "0.11256px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "32px 0px 0px"
+     },
+     "r": {
+      "x": 42,
+      "y": 5018,
+      "w": 306,
+      "h": 144
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "Varun",
+     "style": {
+      "fontFamily": "PoppinsRegular",
+      "fontSize": "14px",
+      "fontWeight": "900",
+      "lineHeight": "21px",
+      "letterSpacing": "0.13132px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 42,
+      "y": 5194,
+      "w": 306,
+      "h": 21
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "Caterers, Chennai",
+     "style": {
+      "fontFamily": "PoppinsLight",
+      "fontSize": "12px",
+      "fontWeight": "900",
+      "lineHeight": "18px",
+      "letterSpacing": "0.11256px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 42,
+      "y": 5219,
+      "w": 306,
+      "h": 18
+     }
+    }
+   ],
+   "filter-label": [
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "Search For Vendors",
+     "style": {
+      "fontFamily": "PoppinsLight",
+      "fontSize": "12px",
+      "fontWeight": "800",
+      "lineHeight": "17.25px",
+      "letterSpacing": "0.11256px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "capitalize",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "color 0.2s cubic-bezier(0, 0, 0.2, 1), transform 0.2s cubic-bezier(0, 0, 0.2, 1), max-width 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "padding": "0px",
+      "margin": "-2.9568px 0px 0px"
+     },
+     "r": {
+      "x": 56,
+      "y": 501,
+      "w": 118,
+      "h": 17
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "Wedding city",
+     "style": {
+      "fontFamily": "PoppinsLight",
+      "fontSize": "12px",
+      "fontWeight": "800",
+      "lineHeight": "17.25px",
+      "letterSpacing": "0.11256px",
+      "color": "rgba(0, 0, 0, 0.38)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgba(0, 0, 0, 0.38)",
+      "boxShadow": "none",
+      "transition": "color 0.2s cubic-bezier(0, 0, 0.2, 1), transform 0.2s cubic-bezier(0, 0, 0.2, 1), max-width 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "padding": "0px",
+      "margin": "-2.9568px 0px 0px"
+     },
+     "r": {
+      "x": 56,
+      "y": 576,
+      "w": 79,
+      "h": 17
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "Enter mobile number",
+     "style": {
+      "fontFamily": "PoppinsLight",
+      "fontSize": "12px",
+      "fontWeight": "800",
+      "lineHeight": "17.25px",
+      "letterSpacing": "0.11256px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "color 0.2s cubic-bezier(0, 0, 0.2, 1), transform 0.2s cubic-bezier(0, 0, 0.2, 1), max-width 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "padding": "0px",
+      "margin": "-2.9568px 0px 0px"
+     },
+     "r": {
+      "x": 35,
+      "y": 2083,
+      "w": 127,
+      "h": 17
+     }
+    }
+   ],
+   "nav-link": [],
+   "price": []
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "fontFamily": "Poppins, sans-serif",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

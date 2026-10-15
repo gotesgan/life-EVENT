@@ -1,0 +1,3932 @@
+{
+ "slug": "weddingz",
+ "mode": "listing",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "",
+   "r": {
+    "x": 449,
+    "y": 317,
+    "w": 365,
+    "h": 266
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(0, 0, 238)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "pointer",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 365,
+    "h": 266
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(0, 0, 238)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://weddingz.in/banquet-halls/delhi/all/",
+  "title": "Book Banquet Halls in Delhi | Marriage Hall/Party/Small Function Venue near Delhi | Banquet & Marriage Hall Near Me | Weddingz",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 7880,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Banquet Halls in Delhi",
+    "x": 444,
+    "y": 246,
+    "w": 220,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Lagoona Emerald Serviced by Weddingz",
+    "x": 838,
+    "y": 334,
+    "w": 449,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Welcomhotel by ITC Hotels",
+    "x": 838,
+    "y": 677,
+    "w": 355,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Radisson Blu Plaza Hotel",
+    "x": 838,
+    "y": 1020,
+    "w": 355,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Radiance Tania Farms",
+    "x": 838,
+    "y": 1541,
+    "w": 348,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Luxera",
+    "x": 838,
+    "y": 1898,
+    "w": 374,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Cherish at Imperial Club of India",
+    "x": 838,
+    "y": 2255,
+    "w": 449,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Khwaish Events",
+    "x": 838,
+    "y": 2616,
+    "w": 449,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Urban Banquet Hall",
+    "x": 838,
+    "y": 2957,
+    "w": 449,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "S L House",
+    "x": 838,
+    "y": 3300,
+    "w": 449,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Anila Hotel",
+    "x": 838,
+    "y": 3643,
+    "w": 351,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Average Rating and Reviews for Banquet Halls in Delhi",
+    "x": 120,
+    "y": 4057,
+    "w": 1200,
+    "h": 24
+   },
+   {
+    "tag": "H4",
+    "text": "[ Last Review Updated on 2026-07-22 ]",
+    "x": 120,
+    "y": 4168,
+    "w": 1200,
+    "h": 14
+   },
+   {
+    "tag": "H2",
+    "text": "Do you want to know more about Banquet Halls in Delhi?",
+    "x": 128,
+    "y": 4638,
+    "w": 1184,
+    "h": 30
+   },
+   {
+    "tag": "H2",
+    "text": "Which are the top Wedding Venues in Delhi?",
+    "x": 128,
+    "y": 4748,
+    "w": 1184,
+    "h": 30
+   },
+   {
+    "tag": "H2",
+    "text": "How to find Affordable Wedding Halls In Delhi?",
+    "x": 128,
+    "y": 4939,
+    "w": 1184,
+    "h": 30
+   },
+   {
+    "tag": "H2",
+    "text": "Why should you consider Banquet Halls with Review in Delhi?",
+    "x": 128,
+    "y": 5089,
+    "w": 1184,
+    "h": 30
+   },
+   {
+    "tag": "H2",
+    "text": "How can you get the best deals on Marriage Halls in Delhi?",
+    "x": 128,
+    "y": 5219,
+    "w": 1184,
+    "h": 30
+   },
+   {
+    "tag": "H2",
+    "text": "Which are the best banquet halls for small guest capacities in Delhi?",
+    "x": 128,
+    "y": 5369,
+    "w": 1184,
+    "h": 30
+   },
+   {
+    "tag": "H2",
+    "text": "What do Banquet Halls with Wedding Services offer in Delhi?",
+    "x": 128,
+    "y": 5620,
+    "w": 1184,
+    "h": 30
+   },
+   {
+    "tag": "H2",
+    "text": "How do I look for Banquet Halls for Engagement and other pre-wedding ceremonies in Delhi?",
+    "x": 128,
+    "y": 5770,
+    "w": 1184,
+    "h": 30
+   },
+   {
+    "tag": "H2",
+    "text": "Banquet Halls for Family Functions in Delhi",
+    "x": 128,
+    "y": 5920,
+    "w": 1184,
+    "h": 30
+   },
+   {
+    "tag": "H2",
+    "text": "Banquet Halls for Wedding in Delhi",
+    "x": 128,
+    "y": 6050,
+    "w": 1184,
+    "h": 30
+   },
+   {
+    "tag": "H2",
+    "text": "Banquet Halls for Reception in Delhi",
+    "x": 128,
+    "y": 6180,
+    "w": 1184,
+    "h": 30
+   },
+   {
+    "tag": "H3",
+    "text": "Which are the Best banquet halls in Delhi city?",
+    "x": 136,
+    "y": 4855,
+    "w": 285,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "Can I quickly find the banquet hall availability for October 2026 & November 2026?",
+    "x": 136,
+    "y": 4904,
+    "w": 508,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "What is the price range for wedding venues in Delhi City?",
+    "x": 136,
+    "y": 4953,
+    "w": 350,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "Which are the banquet halls that have the highest ratings?",
+    "x": 136,
+    "y": 5002,
+    "w": 358,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "How many banquet halls are there in Delhi City?",
+    "x": 136,
+    "y": 5051,
+    "w": 295,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "How many good wedding lawns are there in Delhi City?",
+    "x": 136,
+    "y": 5100,
+    "w": 339,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "Which are the popular 5 star venues in Delhi City?",
+    "x": 136,
+    "y": 5149,
+    "w": 305,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "Which are the best wedding venues for big fat weddings in Delhi City?",
+    "x": 136,
+    "y": 5198,
+    "w": 430,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "Which are the best venues for corporate events in Delhi City?",
+    "x": 136,
+    "y": 5247,
+    "w": 375,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "Which are the best venues for exhibitions in Delhi City?",
+    "x": 136,
+    "y": 5296,
+    "w": 338,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "How to pick an exhibition venue for your next big event in any city?",
+    "x": 136,
+    "y": 5345,
+    "w": 410,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "What are the banquet halls in Delhi City are famous for?",
+    "x": 136,
+    "y": 5394,
+    "w": 344,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "How many Banquet Halls in Delhi city have valet parking facility?",
+    "x": 136,
+    "y": 5443,
+    "w": 398,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "Want to know about best banquet halls near you?",
+    "x": 136,
+    "y": 5492,
+    "w": 305,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "Do banquet hall prices include decoration costs?",
+    "x": 136,
+    "y": 5541,
+    "w": 301,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "Can we customize decorations in banquet halls in Delhi?",
+    "x": 136,
+    "y": 5590,
+    "w": 349,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "Do banquet halls in Delhi provide enough parking?",
+    "x": 136,
+    "y": 5639,
+    "w": 309,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "What are the cancellation policies of the wedding venues in Delhi? Can I get a refund?",
+    "x": 136,
+    "y": 5688,
+    "w": 528,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "What are the Top 10 Banquet Halls in Delhi with price?",
+    "x": 136,
+    "y": 5737,
+    "w": 335,
+    "h": 16
+   },
+   {
+    "tag": "H3",
+    "text": "Frequent Searches Leading To This Page",
+    "x": 100,
+    "y": 5817,
+    "w": 1200,
+    "h": 24
+   },
+   {
+    "tag": "H3",
+    "text": "Similar Near Me Searches",
+    "x": 100,
+    "y": 5958,
+    "w": 1200,
+    "h": 24
+   },
+   {
+    "tag": "H3",
+    "text": "Find Banquet Halls In Localities In Delhi",
+    "x": 100,
+    "y": 6099,
+    "w": 1200,
+    "h": 24
+   },
+   {
+    "tag": "H3",
+    "text": "Other Related Searches",
+    "x": 100,
+    "y": 6272,
+    "w": 1200,
+    "h": 24
+   },
+   {
+    "tag": "H3",
+    "text": "Serviceable Cities For Banquet Halls And Wedding Services",
+    "x": 100,
+    "y": 6413,
+    "w": 1200,
+    "h": 24
+   }
+  ],
+  "header": {
+   "tag": "NAV",
+   "rect": {
+    "x": 120,
+    "y": 4574,
+    "w": 1200,
+    "h": 40
+   },
+   "style": {
+    "position": "static",
+    "top": "auto",
+    "height": "32px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderBottom": "0px none rgb(0, 0, 0)",
+    "boxShadow": "none",
+    "zIndex": "auto"
+   },
+   "text": "1 2 3 4 5 … 1102",
+   "links": [
+    {
+     "t": "1",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 584,
+      "y": 4578,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "t": "2",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 622,
+      "y": 4578,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "t": "3",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 660,
+      "y": 4578,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "t": "4",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 698,
+      "y": 4578,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "t": "5",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 736,
+      "y": 4578,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "t": "1102",
+     "tag": "BUTTON",
+     "href": null,
+     "r": {
+      "x": 812,
+      "y": 4578,
+      "w": 44,
+      "h": 32
+     }
+    }
+   ]
+  },
+  "navAll": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "1102"
+  ],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": "city",
+    "r": {
+     "x": 157,
+     "y": 84,
+     "w": 188,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": "locality",
+    "r": {
+     "x": 490,
+     "y": 84,
+     "w": 230,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": "date",
+    "r": {
+     "x": 773,
+     "y": 84,
+     "w": 100,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": "guests",
+    "r": {
+     "x": 926,
+     "y": 84,
+     "w": 100,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "aria": null,
+    "name": "budget",
+    "r": {
+     "x": 1079,
+     "y": 84,
+     "w": 100,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Search Locality",
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 187,
+     "y": 443,
+     "w": 208,
+     "h": 20
+    }
+   }
+  ],
+  "filterContainers": [
+   {
+    "tag": "DIV",
+    "cls": "venueList__filter-row oyo-cell oyo-cell--3-col  oyo-cell--hide-tablet oyo-cell--hide-phone",
+    "r": {
+     "x": 120,
+     "y": 206,
+     "w": 300,
+     "h": 3771
+    },
+    "text": "Applied Filters (1) Clear Banquet Halls Locality (0) Clear Dwarka 125 Rohini 106 Shahdara 67 Chattarpur 67 Connaught Place 62 + Show More Venue Budget (including food and decor) Clear Less than 1 Lakh 1-2 Lakh 2-3 Lakh 3-4 Lakh 4-5 Lakh Greater than 5 Lakhs Venue Type (1) Clear Banquet Halls Wedding Lawns Villa / Farmhouse 5 Star Wedding Hotels Wedding Resorts + Show More Facilities (0) Clear Food provided by venue Outside food allowed Alcohol allowed Outside alcohol allowed Music allowed late + Show More Meal Preferences (0) Clear Vegetarian Only Related Articles View All 10 Best Banquet Halls in West Delhi to Tie the Knot! You're finally getting the wedding you've been dreaming about since you were a little girl. And, while you've outgrown the idea... Popular Banquet Halls and Wedding Venues in Chattarpur That Are Too Good To Be True Whether it’s a wedding in Delhi or any place else, there are no compromises made in quality, excellence, and exuberance. For co... Banquet Halls in South Delhi That You Will Fall In Love With! Known to be a hot spot for big fat Indian weddings, Delhi is the place where you have couples who wish to keep their pre-weddin...",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "+ Show More"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "+ Show More"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "+ Show More"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     }
+    ]
+   },
+   {
+    "tag": "DIV",
+    "cls": "venueList__filter-row-container",
+    "r": {
+     "x": 120,
+     "y": 222,
+     "w": 300,
+     "h": 700
+    },
+    "text": "Applied Filters (1) Clear Banquet Halls Locality (0) Clear Dwarka 125 Rohini 106 Shahdara 67 Chattarpur 67 Connaught Place 62 + Show More Venue Budget (including food and decor) Clear Less than 1 Lakh 1-2 Lakh 2-3 Lakh 3-4 Lakh 4-5 Lakh Greater than 5 Lakhs Venue Type (1) Clear Banquet Halls Wedding Lawns Villa / Farmhouse 5 Star Wedding Hotels Wedding Resorts + Show More Facilities (0) Clear Food provided by venue Outside food allowed Alcohol allowed Outside alcohol allowed Music allowed late + Show More Meal Preferences (0) Clear Vegetarian Only Related Articles View All 10 Best Banquet Halls in West Delhi to Tie the Knot! You're finally getting the wedding you've been dreaming about since you were a little girl. And, while you've outgrown the idea... Popular Banquet Halls and Wedding Venues in Chattarpur That Are Too Good To Be True Whether it’s a wedding in Delhi or any place else, there are no compromises made in quality, excellence, and exuberance. For co... Banquet Halls in South Delhi That You Will Fall In Love With! Known to be a hot spot for big fat Indian weddings, Delhi is the place where you have couples who wish to keep their pre-weddin...",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "+ Show More"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "+ Show More"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "+ Show More"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     }
+    ]
+   },
+   {
+    "tag": "DIV",
+    "cls": "filters filters__container",
+    "r": {
+     "x": 120,
+     "y": 222,
+     "w": 292,
+     "h": 1716
+    },
+    "text": "Applied Filters (1) Clear Banquet Halls Locality (0) Clear Dwarka 125 Rohini 106 Shahdara 67 Chattarpur 67 Connaught Place 62 + Show More Venue Budget (including food and decor) Clear Less than 1 Lakh 1-2 Lakh 2-3 Lakh 3-4 Lakh 4-5 Lakh Greater than 5 Lakhs Venue Type (1) Clear Banquet Halls Wedding Lawns Villa / Farmhouse 5 Star Wedding Hotels Wedding Resorts + Show More Facilities (0) Clear Food provided by venue Outside food allowed Alcohol allowed Outside alcohol allowed Music allowed late + Show More Meal Preferences (0) Clear Vegetarian Only",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "+ Show More"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "+ Show More"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "+ Show More"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     }
+    ]
+   },
+   {
+    "tag": "DIV",
+    "cls": "oyo-row oyo-row--no-spacing filterList__container locality",
+    "r": {
+     "x": 136,
+     "y": 396,
+     "w": 260,
+     "h": 307
+    },
+    "text": "Locality (0) Clear Dwarka 125 Rohini 106 Shahdara 67 Chattarpur 67 Connaught Place 62 + Show More",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": null,
+      "aria": "",
+      "label": ""
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "+ Show More"
+     }
+    ]
+   },
+   {
+    "tag": "DIV",
+    "cls": "filterList__search u-displayBlock",
+    "r": {
+     "x": 136,
+     "y": 429,
+     "w": 260,
+     "h": 48
+    },
+    "text": "",
+    "controls": [
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": null,
+      "aria": "",
+      "label": ""
+     }
+    ]
+   },
+   {
+    "tag": "UL",
+    "cls": "filterList__list  u-displayBlock",
+    "r": {
+     "x": 136,
+     "y": 493,
+     "w": 260,
+     "h": 170
+    },
+    "text": "Dwarka 125 Rohini 106 Shahdara 67 Chattarpur 67 Connaught Place 62",
+    "controls": []
+   },
+   {
+    "tag": "DIV",
+    "cls": "budgetFilter filter-ranges budgetFilter__container oyo-row",
+    "r": {
+     "x": 136,
+     "y": 744,
+     "w": 260,
+     "h": 334
+    },
+    "text": "Venue Budget (including food and decor) Clear Less than 1 Lakh 1-2 Lakh 2-3 Lakh 3-4 Lakh 4-5 Lakh Greater than 5 Lakhs",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     }
+    ]
+   },
+   {
+    "tag": "DIV",
+    "cls": "oyo-cell oyo-cell-right-left-no-spacing budgetFilter__header",
+    "r": {
+     "x": 136,
+     "y": 752,
+     "w": 260,
+     "h": 46
+    },
+    "text": "Venue Budget (including food and decor) Clear",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "10 Best Banquet Halls in West Delhi to Tie the Knot! ",
+    "nat": "200x133",
+    "r": {
+     "x": 136,
+     "y": 1994,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Popular Banquet Halls and Wedding Venues in Chattarpur That Are Too Good To Be True",
+    "nat": "200x133",
+    "r": {
+     "x": 136,
+     "y": 2147,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Banquet Halls in South Delhi That You Will Fall In Love With! ",
+    "nat": "200x133",
+    "r": {
+     "x": 136,
+     "y": 2331,
+     "w": 50,
+     "h": 50
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/medium/photologue/images/weddingz-banquet-company-serviced-lagoona-emerald-wazirpur-delhi.jpg",
+    "alt": "Lagoona Emerald Serviced by Weddingz | Banquet Halls in Delhi",
+    "nat": "640x359",
+    "r": {
+     "x": 449,
+     "y": 317,
+     "w": 365,
+     "h": 263
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Lagoona Emerald Serviced by Weddingz | Banquet Halls in Delhi",
+    "nat": "200x133",
+    "r": {
+     "x": 2639,
+     "y": 317,
+     "w": 365,
+     "h": 263
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/weddingz-banquet-company-serviced-lagoona-emerald-wazirpur-delhi.jpg",
+    "alt": "Lagoona Emerald Serviced by Weddingz",
+    "nat": "320x180",
+    "r": {
+     "x": 449,
+     "y": 583,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/weddingz-banquet-company-serviced-lagoona-emerald-weddingz-banquet-company-serviced-lagoona-emerald.jp",
+    "alt": "Lagoona Emerald Serviced by Weddingz",
+    "nat": "320x182",
+    "r": {
+     "x": 541,
+     "y": 583,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/weddingz-banquet-company-serviced-lagoona-emerald-weddingz-banquet-company-serviced-lagoona-emerald-1.",
+    "alt": "Lagoona Emerald Serviced by Weddingz",
+    "nat": "320x181",
+    "r": {
+     "x": 633,
+     "y": 583,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/weddingz-banquet-company-serviced-lagoona-emerald-weddingz-banquet-company-serviced-lagoona-emerald-2.",
+    "alt": "Lagoona Emerald Serviced by Weddingz | Banquet Halls in Delhi",
+    "nat": "320x180",
+    "r": {
+     "x": 725,
+     "y": 583,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/medium/venues/welcomhotel-dwarka-new.jpg",
+    "alt": "Welcomhotel by ITC Hotels | Banquet Halls in Delhi",
+    "nat": "640x344",
+    "r": {
+     "x": 449,
+     "y": 661,
+     "w": 365,
+     "h": 263
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Welcomhotel by ITC Hotels | Banquet Halls in Delhi",
+    "nat": "200x133",
+    "r": {
+     "x": 5559,
+     "y": 661,
+     "w": 365,
+     "h": 263
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/venues/welcomhotel-dwarka-new.jpg",
+    "alt": "Welcomhotel by ITC Hotels",
+    "nat": "320x172",
+    "r": {
+     "x": 449,
+     "y": 926,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/itc-welcom-itc-welcom-album-2.jpg",
+    "alt": "Welcomhotel by ITC Hotels",
+    "nat": "320x200",
+    "r": {
+     "x": 541,
+     "y": 926,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/itc-welcom-itc-welcom-album-6.jpg",
+    "alt": "Welcomhotel by ITC Hotels",
+    "nat": "320x200",
+    "r": {
+     "x": 633,
+     "y": 926,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/itc-welcom-itc-welcom-album-7.jpg",
+    "alt": "Welcomhotel by ITC Hotels | Banquet Halls in Delhi",
+    "nat": "320x200",
+    "r": {
+     "x": 725,
+     "y": 926,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/medium/photologue/images/radisson-blu-plaza-mahipalpur-delhi.jpg",
+    "alt": "Radisson Blu Plaza Hotel | Banquet Halls in Delhi",
+    "nat": "640x383",
+    "r": {
+     "x": 449,
+     "y": 1004,
+     "w": 365,
+     "h": 263
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Radisson Blu Plaza Hotel | Banquet Halls in Delhi",
+    "nat": "200x133",
+    "r": {
+     "x": 7384,
+     "y": 1004,
+     "w": 365,
+     "h": 263
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/radisson-blu-plaza-mahipalpur-delhi.jpg",
+    "alt": "Radisson Blu Plaza Hotel",
+    "nat": "320x192",
+    "r": {
+     "x": 449,
+     "y": 1270,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/radisson-blu-plaza-radisson-blu-nh8-album.jpg",
+    "alt": "Radisson Blu Plaza Hotel",
+    "nat": "320x197",
+    "r": {
+     "x": 541,
+     "y": 1270,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/radisson-blu-plaza-radisson-blu-nh8-album-1.jpg",
+    "alt": "Radisson Blu Plaza Hotel",
+    "nat": "320x193",
+    "r": {
+     "x": 633,
+     "y": 1270,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/radisson-blu-plaza-radisson-blu-nh8-album-4.jpg",
+    "alt": "Radisson Blu Plaza Hotel | Banquet Halls in Delhi",
+    "nat": "320x173",
+    "r": {
+     "x": 725,
+     "y": 1270,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://weddingz.in/new-ui-2/client/assets/banner-mask.png",
+    "alt": "",
+    "nat": "149x90",
+    "r": {
+     "x": 728,
+     "y": 1382,
+     "w": 164,
+     "h": 96
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://weddingz.in/new-ui-2/client/assets/banner-mask.png",
+    "alt": "",
+    "nat": "149x90",
+    "r": {
+     "x": 923,
+     "y": 1382,
+     "w": 164,
+     "h": 96
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://weddingz.in/new-ui-2/client/assets/banner-mask.png",
+    "alt": "",
+    "nat": "149x90",
+    "r": {
+     "x": 1117,
+     "y": 1382,
+     "w": 164,
+     "h": 96
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/medium/photologue/images/radiance-motel-chattarpur-delhi-5.jpg",
+    "alt": "Radiance Tania Farms | Banquet Halls in Delhi",
+    "nat": "640x426",
+    "r": {
+     "x": 449,
+     "y": 1525,
+     "w": 365,
+     "h": 263
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Radiance Tania Farms | Banquet Halls in Delhi",
+    "nat": "200x133",
+    "r": {
+     "x": 13224,
+     "y": 1525,
+     "w": 365,
+     "h": 263
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/radiance-motel-chattarpur-delhi-5.jpg",
+    "alt": "Radiance Tania Farms",
+    "nat": "320x213",
+    "r": {
+     "x": 449,
+     "y": 1791,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/radiance-motel-radiance-motel-lawn.png",
+    "alt": "Radiance Tania Farms",
+    "nat": "320x239",
+    "r": {
+     "x": 541,
+     "y": 1791,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/radiance-motel-radiance-motel-lawn-11.jpg",
+    "alt": "Radiance Tania Farms",
+    "nat": "320x213",
+    "r": {
+     "x": 633,
+     "y": 1791,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://imagewedz.oyoroomscdn.com/small/photologue/images/radiance-motel-radiance-motel-lawn.jpg",
+    "alt": "Radiance Tania Farms | Banquet Halls in Delhi",
+    "nat": "320x156",
+    "r": {
+     "x": 725,
+     "y": 1791,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Luxera | Banquet Halls in Delhi",
+    "nat": "200x133",
+    "r": {
+     "x": 449,
+     "y": 1882,
+     "w": 365,
+     "h": 263
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Luxera | Banquet Halls in Delhi",
+    "nat": "200x133",
+    "r": {
+     "x": 5559,
+     "y": 1882,
+     "w": 365,
+     "h": 263
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Luxera",
+    "nat": "200x133",
+    "r": {
+     "x": 449,
+     "y": 2148,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Luxera",
+    "nat": "200x133",
+    "r": {
+     "x": 541,
+     "y": 2148,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Luxera",
+    "nat": "200x133",
+    "r": {
+     "x": 633,
+     "y": 2148,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Luxera | Banquet Halls in Delhi",
+    "nat": "200x133",
+    "r": {
+     "x": 725,
+     "y": 2148,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Cherish at Imperial Club of India | Banquet Halls in Delhi",
+    "nat": "200x133",
+    "r": {
+     "x": 449,
+     "y": 2239,
+     "w": 365,
+     "h": 263
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Cherish at Imperial Club of India | Banquet Halls in Delhi",
+    "nat": "200x133",
+    "r": {
+     "x": 15414,
+     "y": 2239,
+     "w": 365,
+     "h": 263
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Cherish at Imperial Club of India",
+    "nat": "200x133",
+    "r": {
+     "x": 449,
+     "y": 2505,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   },
+   {
+    "src": "https://assets.oyoroomscdn.com/pwa/images/lazy_placeholder.png",
+    "alt": "Cherish at Imperial Club of India",
+    "nat": "200x133",
+    "r": {
+     "x": 541,
+     "y": 2505,
+     "w": 88,
+     "h": 52
+    },
+    "fit": "fill",
+    "radius": "4px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "Lagoona Emerald Serviced by Weddingz | Banquet Halls in Delhi",
+     "ratio": 1.39,
+     "r": {
+      "w": 365,
+      "h": 263
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "imageContainer imageContainer--noShimmer",
+      "r": {
+       "x": 449,
+       "y": 317,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.54)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 449,
+       "y": 317,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active slick-current",
+      "r": {
+       "x": 449,
+       "y": 317,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 84,
+       "y": 317,
+       "w": 4745,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-list",
+      "r": {
+       "x": 449,
+       "y": 317,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Lagoona Emerald Serviced by Weddingz | Banquet Halls in Delhi",
+     "ratio": 1.39,
+     "r": {
+      "w": 365,
+      "h": 263
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "imageContainer d-shimmer",
+      "r": {
+       "x": 2639,
+       "y": 317,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.54)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 2639,
+       "y": 317,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-cloned",
+      "r": {
+       "x": 2639,
+       "y": 317,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 84,
+       "y": 317,
+       "w": 4745,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 13
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-list",
+      "r": {
+       "x": 449,
+       "y": 317,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Welcomhotel by ITC Hotels | Banquet Halls in Delhi",
+     "ratio": 1.39,
+     "r": {
+      "w": 365,
+      "h": 263
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "imageContainer imageContainer--noShimmer",
+      "r": {
+       "x": 449,
+       "y": 661,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.54)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 449,
+       "y": 661,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active slick-current",
+      "r": {
+       "x": 449,
+       "y": 661,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 84,
+       "y": 661,
+       "w": 10585,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 29
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-list",
+      "r": {
+       "x": 449,
+       "y": 661,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Welcomhotel by ITC Hotels | Banquet Halls in Delhi",
+     "ratio": 1.39,
+     "r": {
+      "w": 365,
+      "h": 263
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "imageContainer d-shimmer",
+      "r": {
+       "x": 5559,
+       "y": 661,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.54)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 5559,
+       "y": 661,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-cloned",
+      "r": {
+       "x": 5559,
+       "y": 661,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 84,
+       "y": 661,
+       "w": 10585,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 29
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-list",
+      "r": {
+       "x": 449,
+       "y": 661,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Radisson Blu Plaza Hotel | Banquet Halls in Delhi",
+     "ratio": 1.39,
+     "r": {
+      "w": 365,
+      "h": 263
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "imageContainer imageContainer--noShimmer",
+      "r": {
+       "x": 449,
+       "y": 1004,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.54)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 449,
+       "y": 1004,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active slick-current",
+      "r": {
+       "x": 449,
+       "y": 1004,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 84,
+       "y": 1004,
+       "w": 14235,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 39
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-list",
+      "r": {
+       "x": 449,
+       "y": 1004,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Radisson Blu Plaza Hotel | Banquet Halls in Delhi",
+     "ratio": 1.39,
+     "r": {
+      "w": 365,
+      "h": 263
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "imageContainer d-shimmer",
+      "r": {
+       "x": 7384,
+       "y": 1004,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.54)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 7384,
+       "y": 1004,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-cloned",
+      "r": {
+       "x": 7384,
+       "y": 1004,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 84,
+       "y": 1004,
+       "w": 14235,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 39
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-list",
+      "r": {
+       "x": 449,
+       "y": 1004,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.708,
+     "r": {
+      "w": 164,
+      "h": 96
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "mask-svg",
+      "r": {
+       "x": 728,
+       "y": 1382,
+       "w": 164,
+       "h": 100
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "WzManagedBanner__point first-point",
+      "r": {
+       "x": 708,
+       "y": 1382,
+       "w": 185,
+       "h": 96
+      },
+      "text": "Great Event guaranteed Our venue managers ensure all commitments delivered",
+      "style": {
+       "borderRadius": "6px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "WzManagedBanner WzManagedBanner__lv-page",
+      "r": {
+       "x": 443,
+       "y": 1364,
+       "w": 862,
+       "h": 132
+      },
+      "text": "INTRODUCING Plan your Wedding at Weddingz Managed Venues Great Event guaranteed Our venue managers ensure all commitments delivered One - Stop Shop Book curated & trusted vendors under one roof 100% Transparency No hidden costs, 100% documentation",
+      "style": {
+       "borderRadius": "6px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "scroll hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "A",
+      "cls": "WzManagedBanner__container WzManagedBanner__container__lv-page",
+      "r": {
+       "x": 443,
+       "y": 1364,
+       "w": 862,
+       "h": 132
+      },
+      "text": "INTRODUCING Plan your Wedding at Weddingz Managed Venues Great Event guaranteed Our venue managers ensure all commitments delivered One - Stop Shop Book curated & trusted vendors under one roof 100% Transparency No hidden costs, 100% documentation",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "scroll auto",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "",
+      "r": {
+       "x": 432,
+       "y": 991,
+       "w": 884,
+       "h": 521
+      },
+      "text": "Previous Next +19 View All Radisson Blu Plaza Hotel 4.6 / 5 11 Radisson Blu Plaza Hotel, Near, Nh 8, Block R, Mahipalpur Extension, Mahipalpur, New Delhi, Delhi 110037 , Delhi 50 Pax Packages Available 150-900 Guests +91-8048122420 Are you looking for a luxury",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.708,
+     "r": {
+      "w": 164,
+      "h": 96
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "mask-svg",
+      "r": {
+       "x": 923,
+       "y": 1382,
+       "w": 164,
+       "h": 100
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "WzManagedBanner__point second-point",
+      "r": {
+       "x": 902,
+       "y": 1382,
+       "w": 184,
+       "h": 96
+      },
+      "text": "One - Stop Shop Book curated & trusted vendors under one roof",
+      "style": {
+       "borderRadius": "6px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "WzManagedBanner WzManagedBanner__lv-page",
+      "r": {
+       "x": 443,
+       "y": 1364,
+       "w": 862,
+       "h": 132
+      },
+      "text": "INTRODUCING Plan your Wedding at Weddingz Managed Venues Great Event guaranteed Our venue managers ensure all commitments delivered One - Stop Shop Book curated & trusted vendors under one roof 100% Transparency No hidden costs, 100% documentation",
+      "style": {
+       "borderRadius": "6px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "scroll hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "A",
+      "cls": "WzManagedBanner__container WzManagedBanner__container__lv-page",
+      "r": {
+       "x": 443,
+       "y": 1364,
+       "w": 862,
+       "h": 132
+      },
+      "text": "INTRODUCING Plan your Wedding at Weddingz Managed Venues Great Event guaranteed Our venue managers ensure all commitments delivered One - Stop Shop Book curated & trusted vendors under one roof 100% Transparency No hidden costs, 100% documentation",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "scroll auto",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "",
+      "r": {
+       "x": 432,
+       "y": 991,
+       "w": 884,
+       "h": 521
+      },
+      "text": "Previous Next +19 View All Radisson Blu Plaza Hotel 4.6 / 5 11 Radisson Blu Plaza Hotel, Near, Nh 8, Block R, Mahipalpur Extension, Mahipalpur, New Delhi, Delhi 110037 , Delhi 50 Pax Packages Available 150-900 Guests +91-8048122420 Are you looking for a luxury",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "",
+     "ratio": 1.708,
+     "r": {
+      "w": 164,
+      "h": 96
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "mask-svg",
+      "r": {
+       "x": 1117,
+       "y": 1382,
+       "w": 164,
+       "h": 100
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "WzManagedBanner__point third-point",
+      "r": {
+       "x": 1097,
+       "y": 1382,
+       "w": 185,
+       "h": 96
+      },
+      "text": "100% Transparency No hidden costs, 100% documentation",
+      "style": {
+       "borderRadius": "6px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     },
+     {
+      "tag": "DIV",
+      "cls": "WzManagedBanner WzManagedBanner__lv-page",
+      "r": {
+       "x": 443,
+       "y": 1364,
+       "w": 862,
+       "h": 132
+      },
+      "text": "INTRODUCING Plan your Wedding at Weddingz Managed Venues Great Event guaranteed Our venue managers ensure all commitments delivered One - Stop Shop Book curated & trusted vendors under one roof 100% Transparency No hidden costs, 100% documentation",
+      "style": {
+       "borderRadius": "6px",
+       "border": "0px none rgb(255, 255, 255)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "scroll hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "A",
+      "cls": "WzManagedBanner__container WzManagedBanner__container__lv-page",
+      "r": {
+       "x": 443,
+       "y": 1364,
+       "w": 862,
+       "h": 132
+      },
+      "text": "INTRODUCING Plan your Wedding at Weddingz Managed Venues Great Event guaranteed Our venue managers ensure all commitments delivered One - Stop Shop Book curated & trusted vendors under one roof 100% Transparency No hidden costs, 100% documentation",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "scroll auto",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "LI",
+      "cls": "",
+      "r": {
+       "x": 432,
+       "y": 991,
+       "w": 884,
+       "h": 521
+      },
+      "text": "Previous Next +19 View All Radisson Blu Plaza Hotel 4.6 / 5 11 Radisson Blu Plaza Hotel, Near, Nh 8, Block R, Mahipalpur Extension, Mahipalpur, New Delhi, Delhi 110037 , Delhi 50 Pax Packages Available 150-900 Guests +91-8048122420 Are you looking for a luxury",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 0)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 2
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Radiance Tania Farms | Banquet Halls in Delhi",
+     "ratio": 1.39,
+     "r": {
+      "w": 365,
+      "h": 263
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "imageContainer imageContainer--noShimmer",
+      "r": {
+       "x": 449,
+       "y": 1525,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.54)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 449,
+       "y": 1525,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active slick-current",
+      "r": {
+       "x": 449,
+       "y": 1525,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 84,
+       "y": 1525,
+       "w": 25915,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 71
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-list",
+      "r": {
+       "x": 449,
+       "y": 1525,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Radiance Tania Farms | Banquet Halls in Delhi",
+     "ratio": 1.39,
+     "r": {
+      "w": 365,
+      "h": 263
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "imageContainer d-shimmer",
+      "r": {
+       "x": 13224,
+       "y": 1525,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.54)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 13224,
+       "y": 1525,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-cloned",
+      "r": {
+       "x": 13224,
+       "y": 1525,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 84,
+       "y": 1525,
+       "w": 25915,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 71
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-list",
+      "r": {
+       "x": 449,
+       "y": 1525,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Luxera | Banquet Halls in Delhi",
+     "ratio": 1.39,
+     "r": {
+      "w": 365,
+      "h": 263
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "imageContainer d-shimmer",
+      "r": {
+       "x": 449,
+       "y": 1882,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.54)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 449,
+       "y": 1882,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active slick-current",
+      "r": {
+       "x": 449,
+       "y": 1882,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 84,
+       "y": 1882,
+       "w": 10585,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 29
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-list",
+      "r": {
+       "x": 449,
+       "y": 1882,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Luxera | Banquet Halls in Delhi",
+     "ratio": 1.39,
+     "r": {
+      "w": 365,
+      "h": 263
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "imageContainer d-shimmer",
+      "r": {
+       "x": 5559,
+       "y": 1882,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.54)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 5559,
+       "y": 1882,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-cloned",
+      "r": {
+       "x": 5559,
+       "y": 1882,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 84,
+       "y": 1882,
+       "w": 10585,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 29
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-list",
+      "r": {
+       "x": 449,
+       "y": 1882,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Cherish at Imperial Club of India | Banquet Halls in Delhi",
+     "ratio": 1.39,
+     "r": {
+      "w": 365,
+      "h": 263
+     }
+    },
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "imageContainer d-shimmer",
+      "r": {
+       "x": 449,
+       "y": 2239,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgba(0, 0, 0, 0.54)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 449,
+       "y": 2239,
+       "w": 365,
+       "h": 263
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active slick-current",
+      "r": {
+       "x": 449,
+       "y": 2239,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 84,
+       "y": 2239,
+       "w": 30295,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 83
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-list",
+      "r": {
+       "x": 449,
+       "y": 2239,
+       "w": 365,
+       "h": 266
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(0, 0, 238)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "+91-1140140801",
+   "Search",
+   "Deals",
+   "Testimonial",
+   "Home",
+   "Delhi",
+   "Clear",
+   "Clear",
+   "+ Show More",
+   "Clear",
+   "Clear",
+   "+ Show More",
+   "Clear",
+   "+ Show More",
+   "Clear",
+   "View All",
+   "Previous Next +6 View All",
+   "Previous",
+   "Next",
+   "+91-8048071681",
+   "Read more",
+   "See Prices",
+   "Previous Next +14 View All",
+   "Previous",
+   "Next",
+   "+91-8048123068",
+   "Read more",
+   "See Prices",
+   "Previous Next +19 View All",
+   "Previous",
+   "Next",
+   "+91-8048122420",
+   "Read more",
+   "See Prices",
+   "Previous Next +35 View All",
+   "Previous",
+   "Next",
+   "+91-8048123066",
+   "Read more",
+   "See Prices",
+   "Previous Next +14 View All",
+   "Previous",
+   "Next",
+   "+91-8048129562",
+   "Read more",
+   "See Prices",
+   "Previous Next +41 View All",
+   "Previous",
+   "Next",
+   "+91-8048054958",
+   "Read more",
+   "See Prices",
+   "+91-9871545414",
+   "Read more",
+   "See Prices",
+   "Previous Next +15 View All",
+   "Previous",
+   "Next",
+   "+91-8048165259",
+   "Read more",
+   "See Prices",
+   "Previous Next +7 View All",
+   "Previous",
+   "Next",
+   "+91-8048164589",
+   "Read more",
+   "See Prices",
+   "Previous Next +6 View All",
+   "Previous",
+   "Next",
+   "+91-1140118006",
+   "Read more",
+   "See Prices",
+   "Show More",
+   "Dream Palace",
+   "Read more",
+   "DD Club",
+   "Read more",
+   "DK Celebration",
+   "Read more",
+   "Invitee Banquet",
+   "Read more",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "1102",
+   "Punjabi Rasoi",
+   "The Royce Hotel",
+   "Hotel Airport Inn",
+   "Hotel Royal Star",
+   "The Athena Hotel",
+   "Show More",
+   "Which are the Best banquet halls in Delhi city?",
+   "How many banquet halls are there in Delhi City?",
+   "Want to know about best banquet halls near you?",
+   "Do banquet hall prices include decoration costs?",
+   "Do banquet halls in Delhi provide enough parking?",
+   "Affordable Banquet Halls in Delhi",
+   "Banquet Halls in Delhi",
+   "AC Banquet Halls in Delhi",
+   "Top Banquet Halls in Delhi",
+   "Best Banquet Halls with price in Delhi",
+   "Banquet Halls with review in Delhi",
+   "Luxury Banquet Halls in Delhi",
+   "Best Banquet Halls in Delhi",
+   "List of Banquet Halls in Delhi",
+   "Cheap Banquet Halls in Delhi",
+   "Best banquets in Delhi",
+   "Banquet Halls nearby Delhi",
+   "Banquet Halls near Delhi",
+   "Affordable Banquet Halls near me",
+   "Banquet Halls near me",
+   "AC Banquet Halls near me",
+   "Top Banquet Halls near me",
+   "Best Banquet Halls with price near me",
+   "Banquet Halls with review near me",
+   "Luxury Banquet Halls near me",
+   "Best Banquet Halls near me",
+   "List of Banquet Halls near me",
+   "Cheap Banquet Halls near me",
+   "Best banquets near me",
+   "Banquet Halls nearby Delhi",
+   "Banquet Halls near Delhi",
+   "Banquet Halls in Dwarka",
+   "Banquet Halls in Rohini",
+   "Banquet Halls in Shahdara",
+   "Banquet Halls in Chattarpur",
+   "Banquet Halls in Connaught Place",
+   "Banquet Halls in Najafgarh",
+   "Banquet Halls in Karol Bagh",
+   "Banquet Halls in Pitampura",
+   "Banquet Halls in Mahipalpur",
+   "Banquet Halls in Alipur",
+   "Banquet Halls in Uttam nagar",
+   "Banquet Halls in G.K - 1",
+   "Show More",
+   "Wedding Venues in Delhi",
+   "Marriage Halls in Delhi",
+   "Mantapa / Convention Hall in Delhi",
+   "Wedding Lawns in Delhi",
+   "Destination Wedding Venues in Delhi",
+   "5 Star Wedding Hotels in Delhi",
+   "Party Halls in Delhi",
+   "Cocktail Venues in Delhi",
+   "Birthday Party Halls in Delhi",
+   "Party Plots in Delhi",
+   "Terrace Banquet Halls in Delhi",
+   "Corporate Event Venues in Delhi",
+   "Wedding Resorts in Delhi",
+   "Wedding Hotels in Delhi",
+   "Villa / Farmhouse in Delhi",
+   "Heritage Wedding Venues in Delhi",
+   "Bidar",
+   "Asansol",
+   "Gangtok",
+   "Moradabad",
+   "Jim Corbett",
+   "Jaisalmer",
+   "Kota",
+   "Mandawa",
+   "Chittorgarh",
+   "Digha",
+   "Jammu",
+   "Mathura",
+   "Aligarh",
+   "Durgapur",
+   "Dharamshala",
+   "Alwar",
+   "Tirupati",
+   "Bareilly",
+   "Dhanbad",
+   "Lavasa",
+   "Others",
+   "Mohali",
+   "Bikaner",
+   "Alleppey",
+   "Lonavala",
+   "Neemrana",
+   "Kumbalgarh",
+   "Ajmer",
+   "Nainital",
+   "Rishikesh",
+   "Haridwar",
+   "Ratnagiri",
+   "Shirdi",
+   "Karjat",
+   "Patiala",
+   "Sonipat",
+   "Thailand",
+   "Turkey",
+   "Mysore",
+   "Trivandrum",
+   "Igatpuri",
+   "Mussoorie",
+   "Orchha",
+   "Jhansi",
+   "Matheran",
+   "Ranthambore"
+  ],
+  "bodyText": "+91-1140140801\nSearch for Venue, Locality\nNear Me\nLocality\nEvent Date\nGuests\nBudget\nSearch\nVenuesServicesBlogsReal WeddingsPhotosDealsTestimonialWhy Weddingz\nHome\n/\nDelhi\n/\nBanquet Halls in Delhi\nApplied Filters \n(1)\nClear\nBanquet Halls\nLocality \n(0)\nClear\nDwarka\n 125\nRohini\n 106\nShahdara\n 67\nChattarpur\n 67\nConnaught Place\n 62\n+ Show More\nVenue Budget (including food and decor)\nClear\nLess than 1 Lakh\n1-2 Lakh\n2-3 Lakh\n3-4 Lakh\n4-5 Lakh\nGreater than 5 Lakhs\nVenue Type \n(1)\nClear\nBanquet Halls\nWedding Lawns\nVilla / Farmhouse\n5 Star Wedding Hotels\nWedding Resorts\n+ Show More\nFacilities \n(0)\nClear\nFood provided by venue\nOutside food allowed\nAlcohol allowed\nOutside alcohol allowed\nMusic allowed late\n+ Show More\nMeal Preferences \n(0)\nClear\nVegetarian Only\nRelated Articles\nView All\n10 Best Banquet Halls in West Delhi to Tie the Knot!\nYou're finally getting the wedding you've been dreaming about since you were a little girl. And, while you've outgrown the idea...\nPopular Banquet Halls and Wedding Venues in Chattarpur That Are Too Good To Be True\nWhether it’s a wedding in Delhi or any place else, there are no compromises made in quality, excellence, and exuberance. For co...\nBanquet Halls in South Delhi That You Will Fall In Love With!\nKnown to be a hot spot for big fat Indian weddings, Delhi is the place where you have couples who wish to keep their pre-weddin...\nBanquet Halls in Delhi\n \n(1473 Venues)\n Previous\n Next\n+6\nView All\nLagoona Emerald Serviced by Weddingz\nLagoona Emerald Serviced by Weddingz, printing press area 13, behind punjab kesri, next to prem badi pool, Delhi, 110035, Delhi\n50 Pax Packages Available\n125-200 Guests\n+91-8048071681\n\nCelebrate life's biggest milestones at Lagoona Emerald Serviced by Weddingz, Wazirpur,…\n\nRead more\nBanquet Halls\nBirthday Party Halls\nParty Halls\nVegetarian\n₹1100/Plate\nSee Prices\n Previous\n Next\n+14\nView All\nWelcomhotel by ITC Hotels\n4.6 / 5\n11\nWelcomhotel By ITC Hotels, District Center, Plot No.3, Sector 10 Dwarka, Dwarka, New Delhi, Delhi, 110075, Delhi\n50 Pax Packages Available\n30-300 Guests\n+91-8048123068\n\nAre you looking for a luxury wedding venue in Dwarka Delhi?…\n\nRead more\nWedding Hotels\nCocktail Venues\nBanquet Halls\nNon Vegetarian\n₹3600/Plate\nVegetarian\n₹3200/Plate\nSee Prices\n Previous\n Next\n+19\nView All\nRadisson Blu Plaza Hotel\n4.6 / 5\n11\nRadisson Blu Plaza Hotel, Near, Nh 8, Block R, Mahipalpur Extension, Mahipalpur, New Delhi, Delhi 110037 , Delhi\n50 Pax Packages Available\n150-900 Guests\n+91-8048122420\n\nAre you looking for a luxury banquet hall or outdoor venue in Delhi…\n\nRead more\nWedding Hotels\nCocktail Venues\nBanquet Halls\nNon Vegetarian\n₹5000/Plate\nVegetarian\n₹5000/Plate\nSee Prices\nINTRODUCING\nPlan your Wedding at Weddingz Managed Venues\nGreat Event guaranteed\nOur venue managers ensure all commitments delivered\nOne - Stop\nShop\nBook curated & trusted vendors under one roof\n100%\nTransparency\nNo hidden costs, 100% documentation\n Previous\n Next\n+35\nView All\nRadiance Tania Farms\n4.4 / 5\n64\nRadiance Tania Farms, Main Chhatarpur Rd, Ansal Villas, Satbari, New Delhi, Delhi 110074 , Delhi\n50 Pax Packages Available\n50-2000 Guests\n+91-8048123066\n\nRadiance Tania Farms Chattarpur, Delhi located in South Delhi, is a…\n\nRead more\nCocktail Venues\nBanquet Halls\nWedding Lawns\nNon Vegetarian\n₹1600/Plate\nVegetarian\n₹2600/Plate\nSee Prices\n Previous\n Next\n+14\nView All\nLuxera\n5 / 5\n1\nLuxera, METRO STATION, Mehrauli-Gurgaon Rd, near ARJAN GARH, Aya Nagar, New Delhi, Delhi 110047, Delhi\n50 Pax Packages Available\n40-700 Guests\n+91-8048129562\n\nLuxera, Aya Nagar, Delhi, offers a unique and charming venue for…\n\nRead more\nWedding Hotels\nCocktail Venues\nBanquet Halls\nNon Vegetarian\n₹3000/Plate\nVegetarian\n₹2500/Plate\nSee Prices\n Previous\n Next\n+41\nView All\nCherish at Imperial Club of India\nCherish at Imperial Club of India, Bhagwan Mahaveer Rd, Sector 2b, Harijan Basti, Sector B, Vasant Kunj, Delhi, New Delhi, Delhi 110067, Delhi\n50 Pax Packages Available\n120-900 Guests\n+91-8048054958\n\nCherish At Imperial Club Of India, Vasant Kunj, Delhi is a gem of a…\n\nRead more\nWedding Hotels\nCocktail Venues\nBanquet Halls\nNon Vegetarian\n₹3200/Plate\nVegetarian\n₹3000/Plate\nSee Prices\nKhwaish Events\nKhwaish Events, Oppsite Veer Apartment, Sector 13, Rohini, Delhi, 110085, Delhi\n50 Pax Packages Available\n100-150 Guests\n+91-9871545414\n\nKhwaish Events Rohini Delhi serves as a well-known event…\n\nRead more\nBanquet Halls\nBirthday Party Halls\nParty Halls\nVegetarian\n₹1000/Plate\nSee Prices\n Previous\n Next\n+15\nView All\nUrban Banquet Hall\nUrban Banquet Hall, Ground Floor, Mangalam Paradise Mall, Rohini, Sector 3, near Prachin Mahakali Mandir, Mangalam Place, Rohini, Delhi, 110085, Delhi\n50 Pax Packages Available\n100-150 Guests\n+91-8048165259\n\nSituated in the Capital of India, Urban Banquet Hall, Rohini, Delhi,…\n\nRead more\nBanquet Halls\nBirthday Party Halls\nParty Halls\nVegetarian\n₹1000/Plate\nSee Prices\n Previous\n Next\n+7\nView All\nS L House\nS L House, 176, Maharishi Dayanand Marg, Opposite Panchasheela Park, Block S, Jahanpanah Monument, Malviya Nagar, New Delhi, Delhi 110017, Delhi\n50 Pax Packages Available\n100-550 Guests\n+91-8048164589\n\nAre you looking for AC Banquet Halls in Malviya Nagar for your…\n\nRead more\nWedding Hotels\nCocktail Venues\nBanquet Halls\nNon Vegetarian\n₹2000/Plate\nVegetarian\n₹1800/Plate\nSee Prices\n Previous\n Next\n+6\nView All\nAnila Hotel\n3.9 / 5\n75\nAnila Hotel, A-15, Block A, Naraina Vihar, Naraina, New Delhi, Delhi 110028, Delhi\nFree Rescheduling\n30-200 Guests\n+91-1140118006\nBeing settled in the City of Rallies amidst various hotels, Anila Hotel, Naraina, Delhi is a perfect…Read more\nWedding Hotels\nBanquet Halls\nTerrace Banquet Halls\nNon Vegetarian\n₹1000/Plate\nVegetarian\n₹900/Plate\nSee Prices\nShow More\nAverage Rating and Reviews for Banquet Halls in Delhi\n4.0/5\n4405 Ratings & Reviews\n[ Last Review Updated on 2026-07-22 ]\nDream Palace\n1/5\nReviewed by: XXXXXXXX7119\nEvent Date: 21 Jul 2026\nVery bad service food bhut kharab toilets very bad condition stale food a.c kharab all over…Read more\nDD Club\n1/5\nReviewed by: XXXXXXXX0046\nEvent Date: 11 Jul 2026\nThis review probably won't make a difference anyway. We booked this place for a Ceremony with…Read more\nDK Celebration\n1/5\nReviewed by: XXXXXXXX3823\nEvent Date: 28 Jun 2026\nIf anyone wants to spoil their function they can surely come in dk celebration. we have booked the…Read more\nInvitee Banquet\n1/5\nReviewed by: XXXXXXXX0663\nEvent Date: 31 May 2026\nVery disappointing experience. During my visit to invitee banquet hall, I handed over my car to the…Read more\n1\n2\n3\n4\n5\n…\n1102\nDo you want to know more about Banquet Halls in Delhi?\n\nA small-scale backyard celebration is not necessary for every occasion! Certain occasions necessitate throwing a party, such as your child's first birthday, a wedding or reception, an engagement celebration, or a significant anniversary. Weddingz. in can assist you in finding hundreds of the best banquet halls in Delhi that can accommodate your event needs so you can celebrate those significant occasions with family and friends. The best part is that you can locate the ideal luxury banquet halls in Delhi for your event by simply donning your event planner hat, lounging on your comfortable couch, and searching Weddingz. in for \" the best banquet halls in Delhi near me\"!\n\nWhich are the top Wedding Venues in Delhi?\n\nWho knew that with just one click, you could get a glimpse of all the best banquet halls in Delhi? Well, thanks to technology, we can get any information with just one click, which has made wedding planning a lot easier. But Weddingz also believes in giving your big day a personal touch mixed with a little bit of a modern twist, so you can get all the info on the top banquet halls in Delhi and, at the same time, get personal help from the Weddingz team. All you have to do is visit our website, select the city and locality of your choice, apply a few filters like banquet type, price range, and meal preference, and voila, enjoy the list of venues in your city tailored to your needs. Just to give you a little peek, there are around 1473 banquet halls in Delhi alone.\n\n \n\n And for the personal touch, our venue managers will help you choose a marriage venue that fits your budget and style. Whether you want to host a pre-wedding ceremony, wedding, or reception, you will find marriage halls and venues suitable for your guest list for each function. From the most popular luxury banquet halls in Delhi to the hidden gems, Weddingz offers the best deals on top banquet halls in Delhi, so make sure you are ready to plan the best day of your life!\n\nHow to find Affordable Wedding Halls In Delhi?\n\nAs we mentioned before, with the help of Team Weddingz, your wedding planning would be as easy as a walk in the park. When it comes to planning a wedding, we know how much the budget can change the game. So finding affordable banquet halls in Delhi, NCR, should be one of the first things to plan. Here, we don’t just need to find affordable banquet halls in Delhi, we a",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Banquet Halls in Delhi",
+     "style": {
+      "fontFamily": "Inter",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "lineHeight": "26px",
+      "letterSpacing": "0.35px",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 444,
+      "y": 246,
+      "w": 220,
+      "h": 26
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Lagoona Emerald Serviced by Weddingz",
+     "style": {
+      "fontFamily": "Inter",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "lineHeight": "26px",
+      "letterSpacing": "0.35px",
+      "color": "rgb(33, 33, 33)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 33, 33)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "4px 0px 0px"
+     },
+     "r": {
+      "x": 838,
+      "y": 334,
+      "w": 449,
+      "h": 26
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Welcomhotel by ITC Hotels",
+     "style": {
+      "fontFamily": "Inter",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "lineHeight": "26px",
+      "letterSpacing": "0.35px",
+      "color": "rgb(33, 33, 33)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 33, 33)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "4px 0px 0px"
+     },
+     "r": {
+      "x": 838,
+      "y": 677,
+      "w": 355,
+      "h": 26
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Radisson Blu Plaza Hotel",
+     "style": {
+      "fontFamily": "Inter",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "lineHeight": "26px",
+      "letterSpacing": "0.35px",
+      "color": "rgb(33, 33, 33)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 33, 33)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "4px 0px 0px"
+     },
+     "r": {
+      "x": 838,
+      "y": 1020,
+      "w": 355,
+      "h": 26
+     }
+    }
+   ],
+   "card-meta": [
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "Celebrate life's biggest milestones at Lagoona Emerald Serviced by Wed",
+     "style": {
+      "fontFamily": "Inter",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "0.2px",
+      "color": "rgb(33, 33, 33)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 33, 33)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 838,
+      "y": 473,
+      "w": 449,
+      "h": 40
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "Are you looking for a luxury wedding venue in Dwarka Delhi?…",
+     "style": {
+      "fontFamily": "Inter",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "0.2px",
+      "color": "rgb(33, 33, 33)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 33, 33)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 838,
+      "y": 816,
+      "w": 449,
+      "h": 20
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "Are you looking for a luxury banquet hall or outdoor venue in Delhi…",
+     "style": {
+      "fontFamily": "Inter",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "0.2px",
+      "color": "rgb(33, 33, 33)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(33, 33, 33)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 838,
+      "y": 1155,
+      "w": 449,
+      "h": 40
+     }
+    }
+   ],
+   "filter-label": [
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "Search for Venue, Locality",
+     "style": {
+      "fontFamily": "Inter",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 157,
+      "y": 81,
+      "w": 188,
+      "h": 44
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "Locality",
+     "style": {
+      "fontFamily": "Inter",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 490,
+      "y": 88,
+      "w": 230,
+      "h": 44
+     }
+    },
+    {
+     "sel": "label, [class*='filter'] label, [class*='Filter'] label",
+     "text": "Event Date",
+     "style": {
+      "fontFamily": "Inter",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 773,
+      "y": 88,
+      "w": 100,
+      "h": 44
+     }
+    }
+   ],
+   "nav-link": [],
+   "price": [
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "Vegetarian ₹1100/Plate See Prices",
+     "style": {
+      "fontFamily": "\"Open Sans\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 838,
+      "y": 576,
+      "w": 449,
+      "h": 61
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "₹1100/Plate",
+     "style": {
+      "fontFamily": "Inter",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px 0px 0px 20px"
+     },
+     "r": {
+      "x": 986,
+      "y": 591,
+      "w": 95,
+      "h": 26
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "/Plate",
+     "style": {
+      "fontFamily": "Inter",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "0.2px",
+      "color": "rgb(199, 199, 199)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(199, 199, 199)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 1042,
+      "y": 597,
+      "w": 39,
+      "h": 17
+     }
+    }
+   ]
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontFamily": "\"Open Sans\"",
+    "fontSize": "16px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

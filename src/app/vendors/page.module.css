@@ -1,0 +1,86 @@
+/*
+ * Browse results — the dense surface (guide §8.1).
+ *
+ * A rail and a grid, one scroll, no independent scrolling of the rail's content
+ * below the page. The rail is sticky on desktop only, because a sticky column on
+ * a phone steals the viewport from the results.
+ */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: rem(24px);
+  align-items: start;
+
+  @mixin larger-than $mantine-breakpoint-md {
+    grid-template-columns: var(--app-sidebar-width) minmax(0, 1fr);
+    gap: rem(28px);
+  }
+}
+
+/* Desktop filter rail: sticky beside the grid, never overlapping content. */
+.sidebar {
+  display: none;
+
+  @mixin larger-than $mantine-breakpoint-md {
+    display: block;
+    position: sticky;
+    top: calc(var(--app-header-height) + #{rem(12px)});
+    max-height: calc(100dvh - var(--app-header-height) - #{rem(24px)});
+    overflow-y: auto;
+    /* Reserved so the rail does not shift sideways when it starts scrolling. */
+    scrollbar-gutter: stable;
+    padding-inline-end: rem(2px);
+  }
+}
+
+.results {
+  min-width: 0;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: rem(12px);
+  margin-bottom: rem(16px);
+}
+
+/* The sort bar. It reads as the top of a results table, not as a form: the
+   count is the label, the sort control is the only thing to operate. */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(12px);
+  margin-bottom: rem(16px);
+  padding: rem(6px) rem(12px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-surface-raised);
+}
+
+.total {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  font-weight: 450;
+  line-height: var(--text-secondary-leading);
+}
+
+.totalStrong {
+  color: var(--app-text);
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: rem(28px);
+}
+
+/* Empty and error surfaces sit inside the results column, so they need the
+   column's rhythm rather than the browser's default block spacing. */
+.stateBlock {
+  padding-block: rem(8px) rem(24px);
+}

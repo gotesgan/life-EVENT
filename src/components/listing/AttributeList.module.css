@@ -1,0 +1,54 @@
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: rem(8px);
+}
+
+.group + .group {
+  margin-top: rem(18px);
+}
+
+.groupLabel {
+  margin: 0;
+  color: var(--app-text-subtle);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: 0;
+  border-top: 1px solid var(--app-border);
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: rem(24px);
+  }
+}
+
+.row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: rem(16px);
+  padding-block: rem(10px);
+  border-bottom: 1px solid var(--app-border);
+}
+
+.label {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+}
+
+.value {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-secondary-size);
+  font-weight: 650;
+  text-align: end;
+}

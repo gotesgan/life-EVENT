@@ -1,0 +1,65 @@
+/*
+ * Listing editor — field grouping.
+ *
+ * The editor's sections are still long (Contact & disclosure alone is nineteen
+ * fields), so each section is broken into labelled groups. The grouping is
+ * structural, not decorative: a fieldset with a heading and one hairline above
+ * it, so a reader who scrolls into the middle of a section can see where the
+ * group started without a nested card around it.
+ *
+ * Nested cards are deliberately avoided here — the whole editor already sits on
+ * a raised Surface, and a second panel inside it would imply a second level of
+ * containment that does not exist.
+ */
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mantine-spacing-md);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+/* A hairline above a group, but not above the first one in a section. */
+.fieldGroup + .fieldGroup {
+  margin-top: var(--mantine-spacing-sm);
+  padding-top: var(--mantine-spacing-lg);
+  border-top: 1px solid var(--app-border);
+}
+
+.groupHead {
+  display: flex;
+  flex-direction: column;
+  gap: rem(2px);
+  padding: 0;
+}
+
+.groupTitle {
+  margin: 0;
+  font-size: var(--text-label-size);
+  font-weight: 650;
+  line-height: 1.3;
+  color: var(--app-text);
+}
+
+.groupHint {
+  margin: 0;
+  max-width: 62ch;
+  font-size: var(--text-caption-size);
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--app-text-muted);
+  text-wrap: pretty;
+}
+
+/* Two controls that belong together on a wide screen and stack on a narrow
+   one. The grid is used instead of `Group grow` so the two fields keep their
+   own label alignment when they wrap. */
+.pair {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(rem(200px), 1fr));
+  gap: var(--mantine-spacing-md);
+  align-items: start;
+}

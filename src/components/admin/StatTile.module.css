@@ -1,0 +1,84 @@
+/*
+ * One operational number.
+ *
+ * A metric tile is the single place in the admin panel where a larger type step
+ * is justified, because it is the only value a reader takes in without reading a
+ * row around it. Everything else about it is plain: a hairline on a raised
+ * surface (E0), no gradient, no coloured fill, no sparkline. A decorative
+ * gradient would spend the palette's chroma budget on a number that is already
+ * the loudest thing in the box.
+ *
+ * The label is sentence case at weight 650, not uppercase: uppercase destroys
+ * word shape, and here the label is a sentence about what the number counts
+ * ("Unassigned provider leads"), which is exactly the kind of token the guide
+ * §4.4 keeps out of caps.
+ */
+
+.root {
+  background: var(--app-surface-raised);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card-dense);
+  padding: rem(12px) rem(14px);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: rem(4px);
+}
+
+.label {
+  font-size: var(--text-label-size);
+  font-weight: 650;
+  line-height: 1.3;
+  color: var(--app-text);
+}
+
+/* The number and its unit sit on one baseline. The unit is never part of the
+   number token (guide §4.5.5): `18` is the measurement, `%` is the unit. */
+.valueRow {
+  display: flex;
+  align-items: baseline;
+  gap: rem(2px);
+  margin-top: rem(2px);
+}
+
+.value {
+  font-size: rem(28px);
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  color: var(--app-text);
+}
+
+.unit {
+  font-size: var(--text-label-size);
+  font-weight: 600;
+  color: var(--app-text-muted);
+}
+
+/* Tones. `brand` is available here because a metric is a *value*, not a badge —
+   the rule that reserves the action colour applies to status pills. It is still
+   used sparingly: at most one tile per row. */
+.brand {
+  color: var(--app-brand);
+}
+
+.success {
+  color: var(--app-success);
+}
+
+.warning {
+  color: var(--app-warning);
+}
+
+.danger {
+  color: var(--app-danger);
+}
+
+.hint {
+  font-size: var(--text-caption-size);
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--app-text-subtle);
+  text-wrap: pretty;
+}

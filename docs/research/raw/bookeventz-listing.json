@@ -1,0 +1,3485 @@
+{
+ "slug": "bookeventz",
+ "mode": "listing",
+ "status": 200,
+ "err": null,
+ "hover": {
+  "before": {
+   "text": "",
+   "r": {
+    "x": 357,
+    "y": 1269,
+    "w": 338,
+    "h": 220
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(51, 122, 183)",
+    "transition": "all",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "cursor": "pointer",
+    "translate": "none",
+    "scale": "none"
+   }
+  },
+  "after": {
+   "r": {
+    "w": 338,
+    "h": 220
+   },
+   "style": {
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(51, 122, 183)",
+    "transitionDuration": "0s",
+    "transitionProperty": "all",
+    "transitionTimingFunction": "ease",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "translate": "none",
+    "scale": "none"
+   }
+  }
+ },
+ "data": {
+  "url": "https://www.bookeventz.com/banquets/mumbai",
+  "title": "2400+ Banquet Halls in Mumbai | Price & Reviews",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "docHeight": 9889,
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Best Banquet Halls In Mumbai, with Price, Photos & Reviews",
+    "x": 88,
+    "y": 210,
+    "w": 727,
+    "h": 180
+   },
+   {
+    "tag": "H2",
+    "text": "Top Banquet Halls In Mumbai",
+    "x": 86,
+    "y": 942,
+    "w": 1354,
+    "h": 49
+   },
+   {
+    "tag": "H2",
+    "text": "Sahara banquet",
+    "x": 373,
+    "y": 1501,
+    "w": 140,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Fairfield by Marriott",
+    "x": 733,
+    "y": 1501,
+    "w": 177,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Galaxy Banquet",
+    "x": 1093,
+    "y": 1501,
+    "w": 140,
+    "h": 23
+   },
+   {
+    "tag": "H4",
+    "text": "Sahara banquet",
+    "x": 388,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Fairfield by Marriott",
+    "x": 735,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Galaxy Banquet",
+    "x": 1082,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Radisson Blu",
+    "x": 1429,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Ayesha Banquet Hall",
+    "x": 1776,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Pearl Banquet Hall @ Sahara Star",
+    "x": 2123,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Holiday Inn",
+    "x": 2470,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Hotel Satkar Grande",
+    "x": 2817,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "The Peninsula Grand",
+    "x": 3164,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "West Block",
+    "x": 3511,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Hilton Hotel",
+    "x": 3858,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Lotus Sky Lawns by Tunga International",
+    "x": 4205,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Hitchki NESCO Goregaon",
+    "x": 4552,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Nesco",
+    "x": 4899,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Cidco Exhibition Centre",
+    "x": 5246,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Peninsula Redpine",
+    "x": 5593,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Hotel Satkar Residency",
+    "x": 5940,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Hotel Galaxy",
+    "x": 6287,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Radisson Mumbai Goregaon",
+    "x": 6634,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H4",
+    "text": "Radisson Hotel",
+    "x": 6981,
+    "y": 1943,
+    "w": 285,
+    "h": 15
+   },
+   {
+    "tag": "H2",
+    "text": "Radisson Blu",
+    "x": 373,
+    "y": 2542,
+    "w": 114,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Ayesha Banquet Hall",
+    "x": 733,
+    "y": 2542,
+    "w": 184,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Pearl Banquet Hall @ Sahara Star",
+    "x": 1093,
+    "y": 2542,
+    "w": 292,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Holiday Inn",
+    "x": 373,
+    "y": 3209,
+    "w": 100,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Hotel Satkar Grande",
+    "x": 733,
+    "y": 3209,
+    "w": 179,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "The Peninsula Grand",
+    "x": 1093,
+    "y": 3209,
+    "w": 182,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "West Block",
+    "x": 373,
+    "y": 3836,
+    "w": 99,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Hilton Hotel",
+    "x": 733,
+    "y": 3836,
+    "w": 105,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Lotus Sky Lawns by Tunga International",
+    "x": 1093,
+    "y": 3836,
+    "w": 306,
+    "h": 47
+   },
+   {
+    "tag": "H2",
+    "text": "Hitchki NESCO Goregaon",
+    "x": 373,
+    "y": 4281,
+    "w": 223,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Nesco",
+    "x": 733,
+    "y": 4281,
+    "w": 55,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Cidco Exhibition Centre",
+    "x": 1093,
+    "y": 4281,
+    "w": 209,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Peninsula Redpine",
+    "x": 373,
+    "y": 4712,
+    "w": 163,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Hotel Satkar Residency",
+    "x": 733,
+    "y": 4712,
+    "w": 206,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Hotel Galaxy",
+    "x": 1093,
+    "y": 4712,
+    "w": 113,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Radisson Mumbai Goregaon",
+    "x": 373,
+    "y": 5144,
+    "w": 248,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Radisson Hotel",
+    "x": 733,
+    "y": 5144,
+    "w": 133,
+    "h": 23
+   },
+   {
+    "tag": "H2",
+    "text": "Top Banquet Halls in Mumbai with Price",
+    "x": 73,
+    "y": 6326,
+    "w": 652,
+    "h": 111
+   },
+   {
+    "tag": "H2",
+    "text": "Find the Best Banquet Halls in Mumbai for Every Occasion",
+    "x": 87,
+    "y": 7056,
+    "w": 593,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Top Banquet Halls for Weddings & Celebrations",
+    "x": 87,
+    "y": 7192,
+    "w": 593,
+    "h": 26
+   },
+   {
+    "tag": "H3",
+    "text": "1. Wedding & Reception Banquet Halls",
+    "x": 87,
+    "y": 7238,
+    "w": 593,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "2. Social Gatherings & Private Functions",
+    "x": 87,
+    "y": 7365,
+    "w": 593,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "3. Budget-Friendly Banquet Halls",
+    "x": 87,
+    "y": 7492,
+    "w": 593,
+    "h": 17
+   },
+   {
+    "tag": "H3",
+    "text": "4. Baby Shower & Family Celebrations",
+    "x": 87,
+    "y": 7619,
+    "w": 593,
+    "h": 17
+   },
+   {
+    "tag": "H2",
+    "text": "Why Choose a Banquet Hall in Mumbai?",
+    "x": 760,
+    "y": 7319,
+    "w": 593,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Explore More Event Spaces in Mumbai for Every Occasion",
+    "x": 760,
+    "y": 7455,
+    "w": 593,
+    "h": 26
+   },
+   {
+    "tag": "H2",
+    "text": "Frequently Asked Questions about Banquet Halls",
+    "x": 39,
+    "y": 7866,
+    "w": 545,
+    "h": 90
+   },
+   {
+    "tag": "H3",
+    "text": "Which Are The Popular Banquet Halls In Mumbai?",
+    "x": 641,
+    "y": 7875,
+    "w": 760,
+    "h": 72
+   },
+   {
+    "tag": "H3",
+    "text": "How Much Does Wedding Cost In Mumbai?",
+    "x": 641,
+    "y": 7948,
+    "w": 760,
+    "h": 72
+   },
+   {
+    "tag": "H3",
+    "text": "Which Are The Big Banquet Halls In Mumbai For 50 - 100 People?",
+    "x": 641,
+    "y": 8021,
+    "w": 760,
+    "h": 72
+   },
+   {
+    "tag": "H3",
+    "text": "Are Parking Facilities Available At Banquet Halls In Mumbai?",
+    "x": 641,
+    "y": 8094,
+    "w": 760,
+    "h": 72
+   },
+   {
+    "tag": "H3",
+    "text": "Are Outside Decorators Allowed At Low Budget Banquet Halls?",
+    "x": 641,
+    "y": 8167,
+    "w": 760,
+    "h": 72
+   },
+   {
+    "tag": "H4",
+    "text": "Frequent Searches Leading to This Page",
+    "x": 41,
+    "y": 8433,
+    "w": 1348,
+    "h": 22
+   },
+   {
+    "tag": "H3",
+    "text": "Find event venue near you",
+    "x": 250,
+    "y": 54,
+    "w": 357,
+    "h": 24
+   }
+  ],
+  "header": null,
+  "navAll": [],
+  "searchInputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Search by venue name",
+    "aria": "Search by venue name",
+    "name": null,
+    "r": {
+     "x": 804,
+     "y": 1189,
+     "w": 450,
+     "h": 48
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "Enter the Area",
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 395,
+     "y": 2202,
+     "w": 518,
+     "h": 44
+    }
+   },
+   {
+    "tag": "INPUT",
+    "type": "number",
+    "ph": "Enter No. of guests",
+    "aria": null,
+    "name": null,
+    "r": {
+     "x": 803,
+     "y": 3496,
+     "w": 518,
+     "h": 44
+    }
+   }
+  ],
+  "filterContainers": [
+   {
+    "tag": "DIV",
+    "cls": "filters-and-search-section filters-and-search-section-mobile",
+    "r": {
+     "x": 803,
+     "y": 1188,
+     "w": 607,
+     "h": 50
+    },
+    "text": "Grid",
+    "controls": [
+     {
+      "tag": "INPUT",
+      "type": "text",
+      "role": null,
+      "aria": "Search by venue name",
+      "label": ""
+     }
+    ]
+   },
+   {
+    "tag": "DIV",
+    "cls": "desktop-filter-section",
+    "r": {
+     "x": 0,
+     "y": 1248,
+     "w": 346,
+     "h": 4074
+    },
+    "text": "Confused how to plan? Get expert advice with a quick call Book at your convenience No obligations to buy Trusted and reliable advice Book a Free Call Area No of People Budget Per Person Occasion Venue Type Distance Rating Clear Apply Related Search By Locality › By Occasion › By Venue Type › By Popularity › Blogs & Guides › Vendors › Top Articles View all → Auspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide The winter season is one of the most popular wedding seasons in India. The weather is nice, it s the holiday Wedding Games That Actually Get Guests Involved There are many special moments in a wedding – entrance of the couple, the garland exchange, music, food and dance. How to Choose the Right Auditorium in Mumbai for Your Event Here are some tips for selecting the appropriate Auditorium in Mumbai for your event. The selection of an auditorium in Wedding Venue Booking Checklist: 15 Things to Check Before Booking When you re looking for a wedding venue, it s important that you have a checklist on hand to help you make View All Articles",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Book a Free Call"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Apply"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "By Locality ›"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "By Occasion ›"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "By Venue Type ›"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "By Popularity ›"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Blogs & Guides ›"
+     },
+     {
+      "tag": "BUTTON",
+      "type": "button",
+      "role": null,
+      "aria": "",
+      "label": "Vendors ›"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "View All Articles"
+     }
+    ]
+   },
+   {
+    "tag": "DIV",
+    "cls": "filter-section-main",
+    "r": {
+     "x": 24,
+     "y": 1551,
+     "w": 312,
+     "h": 632
+    },
+    "text": "Area No of People Budget Per Person Occasion Venue Type Distance Rating Clear Apply",
+    "controls": [
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Clear"
+     },
+     {
+      "tag": "BUTTON",
+      "type": null,
+      "role": null,
+      "aria": "",
+      "label": "Apply"
+     }
+    ]
+   },
+   {
+    "tag": "DIV",
+    "cls": "area_k_filters_5",
+    "r": {
+     "x": 368,
+     "y": 3437,
+     "w": 1037,
+     "h": 126
+    },
+    "text": "Enter Number of Guests Expected : 50-100 100-200 200-500 500+",
+    "controls": [
+     {
+      "tag": "INPUT",
+      "type": "number",
+      "role": null,
+      "aria": "",
+      "label": ""
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "src": "https://media.bookeventz.com/html/bookeventz.com/asset/images/bzMainLogo.svg",
+    "alt": "Bookeventz",
+    "nat": "160x24",
+    "r": {
+     "x": 20,
+     "y": 14,
+     "w": 161,
+     "h": 24
+    },
+    "fit": "cover",
+    "radius": "0px"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/bookeventz.com/images/headerFooterIcons/dropDown.svg",
+    "alt": "Drop down ",
+    "nat": "12x7",
+    "r": {
+     "x": 1036,
+     "y": 23,
+     "w": 12,
+     "h": 7
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/bookeventz.com/images/headerFooterIcons/phone.svg",
+    "alt": "Call",
+    "nat": "20x20",
+    "r": {
+     "x": 1087,
+     "y": 16,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/bookeventz.com/images/headerFooterIcons/circle.svg",
+    "alt": "Profile",
+    "nat": "20x20",
+    "r": {
+     "x": 1274,
+     "y": 16,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/bookeventz.com/images/headerFooterIcons/w_arrow.svg",
+    "alt": "Profile",
+    "nat": "12x8",
+    "r": {
+     "x": 86,
+     "y": 74,
+     "w": 9,
+     "h": 6
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/bookeventz.com/images/headerFooterIcons/w_arrow.svg",
+    "alt": "Profile",
+    "nat": "12x8",
+    "r": {
+     "x": 184,
+     "y": 74,
+     "w": 9,
+     "h": 6
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/bookeventz.com/images/headerFooterIcons/w_arrow.svg",
+    "alt": "Profile",
+    "nat": "12x8",
+    "r": {
+     "x": 320,
+     "y": 74,
+     "w": 9,
+     "h": 6
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/bookeventz.com/images/headerFooterIcons/w_arrow.svg",
+    "alt": "Profile",
+    "nat": "12x8",
+    "r": {
+     "x": 395,
+     "y": 74,
+     "w": 9,
+     "h": 6
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/flash.png",
+    "alt": "",
+    "nat": "40x40",
+    "r": {
+     "x": 605,
+     "y": 428,
+     "w": 40,
+     "h": 40
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/ui_website/venue-popup/wedding_icon.png",
+    "alt": "Wedding icon",
+    "nat": "85x85",
+    "r": {
+     "x": 929,
+     "y": 290,
+     "w": 72,
+     "h": 72
+    },
+    "fit": "cover",
+    "radius": "50%"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/ui_website/venue-popup/enagagement_icon.png",
+    "alt": "engagement icon",
+    "nat": "84x84",
+    "r": {
+     "x": 1063,
+     "y": 290,
+     "w": 72,
+     "h": 72
+    },
+    "fit": "cover",
+    "radius": "50%"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/ui_website/venue-popup/corporate_events_icon.png",
+    "alt": "corporate  event icon",
+    "nat": "71x71",
+    "r": {
+     "x": 1197,
+     "y": 290,
+     "w": 72,
+     "h": 72
+    },
+    "fit": "cover",
+    "radius": "50%"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/ui_website/venue-popup/birthday_party_icon_2.png",
+    "alt": "Birthday icon",
+    "nat": "69x69",
+    "r": {
+     "x": 929,
+     "y": 437,
+     "w": 72,
+     "h": 72
+    },
+    "fit": "cover",
+    "radius": "50%"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/ui_website/venue-popup/cocktail_party_icon.png",
+    "alt": "Cocktail icon",
+    "nat": "85x85",
+    "r": {
+     "x": 1063,
+     "y": 437,
+     "w": 72,
+     "h": 72
+    },
+    "fit": "cover",
+    "radius": "50%"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/ui_website/venue-popup/get_together_icon.png",
+    "alt": "Get together icon",
+    "nat": "85x85",
+    "r": {
+     "x": 1197,
+     "y": 437,
+     "w": 72,
+     "h": 72
+    },
+    "fit": "cover",
+    "radius": "50%"
+   },
+   {
+    "src": "https://s3-bucket-bookeventzbf89ibq4de.cdn.e2enetworks.net/html/ui_website/venue-popup/down.svg",
+    "alt": "dropdown icon",
+    "nat": "16x16",
+    "r": {
+     "x": 1263,
+     "y": 581,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/filters/s.svg",
+    "alt": "Search icon",
+    "nat": "17x16",
+    "r": {
+     "x": 32,
+     "y": 1116,
+     "w": 17,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/filters/l.svg",
+    "alt": "Location icon",
+    "nat": "20x20",
+    "r": {
+     "x": 516,
+     "y": 1114,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/filters/c.svg",
+    "alt": "Calender icon",
+    "nat": "18x16",
+    "r": {
+     "x": 810,
+     "y": 1116,
+     "w": 18,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/filters/p.svg",
+    "alt": "Capacity icon",
+    "nat": "17x14",
+    "r": {
+     "x": 969,
+     "y": 1117,
+     "w": 17,
+     "h": 14
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/filters/r.svg",
+    "alt": "Budget icon",
+    "nat": "12x15",
+    "r": {
+     "x": 1123,
+     "y": 1117,
+     "w": 12,
+     "h": 15
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/Magnifier.svg",
+    "alt": "search-icon",
+    "nat": "17x22",
+    "r": {
+     "x": 1254,
+     "y": 1204,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/griddy.svg",
+    "alt": "First Image",
+    "nat": "32x32",
+    "r": {
+     "x": 1319,
+     "y": 1200,
+     "w": 28,
+     "h": 28
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/Schedule.svg",
+    "alt": "Icons",
+    "nat": "16x16",
+    "r": {
+     "x": 49,
+     "y": 1375,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/Trust1.svg",
+    "alt": "Icons",
+    "nat": "16x16",
+    "r": {
+     "x": 49,
+     "y": 1401,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/TrustNew.svg",
+    "alt": "Icons",
+    "nat": "16x16",
+    "r": {
+     "x": 49,
+     "y": 1427,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/arrowtop.svg",
+    "alt": "down-arrow",
+    "nat": "31x31",
+    "r": {
+     "x": 286,
+     "y": 1586,
+     "w": 23,
+     "h": 23
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/arrowtop.svg",
+    "alt": "down-arrow",
+    "nat": "31x31",
+    "r": {
+     "x": 286,
+     "y": 1664,
+     "w": 23,
+     "h": 23
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/arrowtop.svg",
+    "alt": "down-arrow",
+    "nat": "31x31",
+    "r": {
+     "x": 286,
+     "y": 1742,
+     "w": 23,
+     "h": 23
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/arrowtop.svg",
+    "alt": "down-arrow",
+    "nat": "31x31",
+    "r": {
+     "x": 286,
+     "y": 1820,
+     "w": 23,
+     "h": 23
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/arrowtop.svg",
+    "alt": "down-arrow",
+    "nat": "31x31",
+    "r": {
+     "x": 286,
+     "y": 1898,
+     "w": 23,
+     "h": 23
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/arrowtop.svg",
+    "alt": "down-arrow",
+    "nat": "31x31",
+    "r": {
+     "x": 286,
+     "y": 1976,
+     "w": 23,
+     "h": 23
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/arrowtop.svg",
+    "alt": "down-arrow",
+    "nat": "31x31",
+    "r": {
+     "x": 286,
+     "y": 2054,
+     "w": 23,
+     "h": 23
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/sping_left.svg",
+    "alt": "Previous image button",
+    "nat": "24x24",
+    "r": {
+     "x": 363,
+     "y": 1365,
+     "w": 28,
+     "h": 28
+    },
+    "fit": "cover",
+    "radius": "10px"
+   },
+   {
+    "src": "https://media.bookeventz.com/441x272/html/bookeventz.com/images/restaurant-picture/sahara-banquet-17487376393211750488127-0.jpg",
+    "alt": "Sahara banquet Sakinaka Banquet in Sakinaka",
+    "nat": "441x272",
+    "r": {
+     "x": 357,
+     "y": 1269,
+     "w": 338,
+     "h": 220
+    },
+    "fit": "cover",
+    "radius": "10px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/sping_right.svg",
+    "alt": "Next image button",
+    "nat": "24x24",
+    "r": {
+     "x": 661,
+     "y": 1365,
+     "w": 28,
+     "h": 28
+    },
+    "fit": "cover",
+    "radius": "10px"
+   },
+   {
+    "src": "https://media.bookeventz.com/html/ui_website/images/singleLogo.png",
+    "alt": "BZ Logo",
+    "nat": "27x24",
+    "r": {
+     "x": 383,
+     "y": 1287,
+     "w": 13,
+     "h": 13
+    },
+    "fit": "contain",
+    "radius": "0px"
+   },
+   {
+    "src": "https://media.bookeventz.com/html/ui_website/images/like.png",
+    "alt": "like-image",
+    "nat": "256x256",
+    "r": {
+     "x": 655,
+     "y": 1289,
+     "w": 20,
+     "h": 20
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/peoples.svg",
+    "alt": "user-icon",
+    "nat": "18x18",
+    "r": {
+     "x": 568,
+     "y": 1541,
+     "w": 16,
+     "h": 16
+    },
+    "fit": "fill",
+    "radius": "0px"
+   },
+   {
+    "src": "https://www.bookeventz.com/media/sping_left.svg",
+    "alt": "Previous image button",
+    "nat": "24x24",
+    "r": {
+     "x": 723,
+     "y": 1365,
+     "w": 28,
+     "h": 28
+    },
+    "fit": "cover",
+    "radius": "10px"
+   }
+  ],
+  "cardCandidates": [
+   {
+    "img": {
+     "alt": "Sahara banquet Sakinaka Banquet in Sakinaka",
+     "ratio": 1.536,
+     "r": {
+      "w": 338,
+      "h": 220
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 357,
+       "y": 1269,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "clingo_carousel_1",
+      "r": {
+       "x": 357,
+       "y": 1269,
+       "w": 338,
+       "h": 220
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "clingo_carousel",
+      "r": {
+       "x": 357,
+       "y": 1269,
+       "w": 338,
+       "h": 220
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "A",
+      "cls": "universal-listing__image-link",
+      "r": {
+       "x": 357,
+       "y": 1269,
+       "w": 338,
+       "h": 220
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "venue-image-container",
+      "r": {
+       "x": 357,
+       "y": 1269,
+       "w": 338,
+       "h": 220
+      },
+      "text": "BZ Venue",
+      "style": {
+       "borderRadius": "16px 16px 0px 0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Fairfield by Marriott Sakinaka Banquet in Sakinaka",
+     "ratio": 1.536,
+     "r": {
+      "w": 338,
+      "h": 220
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 717,
+       "y": 1269,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "clingo_carousel_1",
+      "r": {
+       "x": 717,
+       "y": 1269,
+       "w": 338,
+       "h": 220
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "clingo_carousel",
+      "r": {
+       "x": 717,
+       "y": 1269,
+       "w": 338,
+       "h": 220
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "A",
+      "cls": "universal-listing__image-link",
+      "r": {
+       "x": 717,
+       "y": 1269,
+       "w": 338,
+       "h": 220
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "venue-image-container",
+      "r": {
+       "x": 717,
+       "y": 1269,
+       "w": 338,
+       "h": 220
+      },
+      "text": "BZ Venue",
+      "style": {
+       "borderRadius": "16px 16px 0px 0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Galaxy Banquet Andheri Banquet in Andheri",
+     "ratio": 1.536,
+     "r": {
+      "w": 338,
+      "h": 220
+     }
+    },
+    "chain": [
+     {
+      "tag": "SPAN",
+      "cls": "",
+      "r": {
+       "x": 1077,
+       "y": 1269,
+       "w": 0,
+       "h": 0
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "clingo_carousel_1",
+      "r": {
+       "x": 1077,
+       "y": 1269,
+       "w": 338,
+       "h": 220
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "clingo_carousel",
+      "r": {
+       "x": 1077,
+       "y": 1269,
+       "w": 338,
+       "h": 220
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "10px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "A",
+      "cls": "universal-listing__image-link",
+      "r": {
+       "x": 1077,
+       "y": 1269,
+       "w": 338,
+       "h": 220
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "venue-image-container",
+      "r": {
+       "x": 1077,
+       "y": 1269,
+       "w": 338,
+       "h": 220
+      },
+      "text": "BZ Venue",
+      "style": {
+       "borderRadius": "16px 16px 0px 0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "hidden",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 3
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Sahara banquet Sakinaka undefined in Sakinaka",
+     "ratio": 1.765,
+     "r": {
+      "w": 300,
+      "h": 170
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 379,
+       "y": 1841,
+       "w": 300,
+       "h": 14
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "deals-card",
+      "r": {
+       "x": 379,
+       "y": 1763,
+       "w": 300,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px 0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active slick-current",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 6940,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People Fairfield by Marriott Sakinaka 50-1500 People Galaxy Banquet Andheri 100-1200 People Radisson Blu Marol Naka 50-500 People Ayesha Banquet Hall Sakinaka 50-1500 People Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 Peop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 20
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Fairfield by Marriott Sakinaka undefined in Sakinaka",
+     "ratio": 1.765,
+     "r": {
+      "w": 300,
+      "h": 170
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 726,
+       "y": 1841,
+       "w": 300,
+       "h": 14
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "deals-card",
+      "r": {
+       "x": 726,
+       "y": 1763,
+       "w": 300,
+       "h": 300
+      },
+      "text": "Fairfield by Marriott Sakinaka 50-1500 People",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px 0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 713,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Fairfield by Marriott Sakinaka 50-1500 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active",
+      "r": {
+       "x": 713,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Fairfield by Marriott Sakinaka 50-1500 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 6940,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People Fairfield by Marriott Sakinaka 50-1500 People Galaxy Banquet Andheri 100-1200 People Radisson Blu Marol Naka 50-500 People Ayesha Banquet Hall Sakinaka 50-1500 People Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 Peop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 20
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Galaxy Banquet Andheri undefined in Andheri",
+     "ratio": 1.765,
+     "r": {
+      "w": 300,
+      "h": 170
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1073,
+       "y": 1841,
+       "w": 300,
+       "h": 14
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "deals-card",
+      "r": {
+       "x": 1073,
+       "y": 1763,
+       "w": 300,
+       "h": 300
+      },
+      "text": "Galaxy Banquet Andheri 100-1200 People",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px 0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 1060,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Galaxy Banquet Andheri 100-1200 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide slick-active",
+      "r": {
+       "x": 1060,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Galaxy Banquet Andheri 100-1200 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 6940,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People Fairfield by Marriott Sakinaka 50-1500 People Galaxy Banquet Andheri 100-1200 People Radisson Blu Marol Naka 50-500 People Ayesha Banquet Hall Sakinaka 50-1500 People Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 Peop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 20
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Radisson Blu Marol Naka undefined in Marol Naka",
+     "ratio": 1.765,
+     "r": {
+      "w": 300,
+      "h": 170
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1420,
+       "y": 1841,
+       "w": 300,
+       "h": 14
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "deals-card",
+      "r": {
+       "x": 1420,
+       "y": 1763,
+       "w": 300,
+       "h": 300
+      },
+      "text": "Radisson Blu Marol Naka 50-500 People",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px 0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 1407,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Radisson Blu Marol Naka 50-500 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 1407,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Radisson Blu Marol Naka 50-500 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 6940,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People Fairfield by Marriott Sakinaka 50-1500 People Galaxy Banquet Andheri 100-1200 People Radisson Blu Marol Naka 50-500 People Ayesha Banquet Hall Sakinaka 50-1500 People Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 Peop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 20
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Ayesha Banquet Hall Sakinaka undefined in Sakinaka",
+     "ratio": 1.765,
+     "r": {
+      "w": 300,
+      "h": 170
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 1767,
+       "y": 1841,
+       "w": 300,
+       "h": 14
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "deals-card",
+      "r": {
+       "x": 1767,
+       "y": 1763,
+       "w": 300,
+       "h": 300
+      },
+      "text": "Ayesha Banquet Hall Sakinaka 50-1500 People",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px 0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 1754,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Ayesha Banquet Hall Sakinaka 50-1500 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 1754,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Ayesha Banquet Hall Sakinaka 50-1500 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 6940,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People Fairfield by Marriott Sakinaka 50-1500 People Galaxy Banquet Andheri 100-1200 People Radisson Blu Marol Naka 50-500 People Ayesha Banquet Hall Sakinaka 50-1500 People Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 Peop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 20
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Pearl Banquet Hall @ Sahara Star Vile Parle undefined in Vile Parle",
+     "ratio": 1.765,
+     "r": {
+      "w": 300,
+      "h": 170
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 2114,
+       "y": 1841,
+       "w": 300,
+       "h": 14
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "deals-card",
+      "r": {
+       "x": 2114,
+       "y": 1763,
+       "w": 300,
+       "h": 300
+      },
+      "text": "Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 People",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px 0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 2101,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 2101,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 6940,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People Fairfield by Marriott Sakinaka 50-1500 People Galaxy Banquet Andheri 100-1200 People Radisson Blu Marol Naka 50-500 People Ayesha Banquet Hall Sakinaka 50-1500 People Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 Peop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 20
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Holiday Inn Andheri undefined in Andheri",
+     "ratio": 1.765,
+     "r": {
+      "w": 300,
+      "h": 170
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 2461,
+       "y": 1841,
+       "w": 300,
+       "h": 14
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "deals-card",
+      "r": {
+       "x": 2461,
+       "y": 1763,
+       "w": 300,
+       "h": 300
+      },
+      "text": "Holiday Inn Andheri 50-600 People",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px 0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 2448,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Holiday Inn Andheri 50-600 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 2448,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Holiday Inn Andheri 50-600 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 6940,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People Fairfield by Marriott Sakinaka 50-1500 People Galaxy Banquet Andheri 100-1200 People Radisson Blu Marol Naka 50-500 People Ayesha Banquet Hall Sakinaka 50-1500 People Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 Peop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 20
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Hotel Satkar Grande Thane undefined in Thane",
+     "ratio": 1.765,
+     "r": {
+      "w": 300,
+      "h": 170
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 2808,
+       "y": 1841,
+       "w": 300,
+       "h": 14
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "deals-card",
+      "r": {
+       "x": 2808,
+       "y": 1763,
+       "w": 300,
+       "h": 300
+      },
+      "text": "Hotel Satkar Grande Thane 275-500 People",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px 0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 2795,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Hotel Satkar Grande Thane 275-500 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 2795,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Hotel Satkar Grande Thane 275-500 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 6940,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People Fairfield by Marriott Sakinaka 50-1500 People Galaxy Banquet Andheri 100-1200 People Radisson Blu Marol Naka 50-500 People Ayesha Banquet Hall Sakinaka 50-1500 People Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 Peop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 20
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "The Peninsula Grand Andheri undefined in Andheri",
+     "ratio": 1.765,
+     "r": {
+      "w": 300,
+      "h": 170
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 3155,
+       "y": 1841,
+       "w": 300,
+       "h": 14
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "deals-card",
+      "r": {
+       "x": 3155,
+       "y": 1763,
+       "w": 300,
+       "h": 300
+      },
+      "text": "The Peninsula Grand Andheri 10-800 People",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px 0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 3142,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "The Peninsula Grand Andheri 10-800 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 3142,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "The Peninsula Grand Andheri 10-800 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 6940,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People Fairfield by Marriott Sakinaka 50-1500 People Galaxy Banquet Andheri 100-1200 People Radisson Blu Marol Naka 50-500 People Ayesha Banquet Hall Sakinaka 50-1500 People Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 Peop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 20
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "West Block Vile Parle undefined in Vile Parle",
+     "ratio": 1.765,
+     "r": {
+      "w": 300,
+      "h": 170
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 3502,
+       "y": 1841,
+       "w": 300,
+       "h": 14
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "deals-card",
+      "r": {
+       "x": 3502,
+       "y": 1763,
+       "w": 300,
+       "h": 300
+      },
+      "text": "West Block Vile Parle 50-300 People",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px 0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 3489,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "West Block Vile Parle 50-300 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 3489,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "West Block Vile Parle 50-300 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 6940,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People Fairfield by Marriott Sakinaka 50-1500 People Galaxy Banquet Andheri 100-1200 People Radisson Blu Marol Naka 50-500 People Ayesha Banquet Hall Sakinaka 50-1500 People Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 Peop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 20
+     }
+    ]
+   },
+   {
+    "img": {
+     "alt": "Hilton Hotel Andheri undefined in Andheri",
+     "ratio": 1.765,
+     "r": {
+      "w": 300,
+      "h": 170
+     }
+    },
+    "chain": [
+     {
+      "tag": "A",
+      "cls": "",
+      "r": {
+       "x": 3849,
+       "y": 1841,
+       "w": 300,
+       "h": 14
+      },
+      "text": "",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 122, 183)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "deals-card",
+      "r": {
+       "x": 3849,
+       "y": 1763,
+       "w": 300,
+       "h": 300
+      },
+      "text": "Hilton Hotel Andheri 60-200 People",
+      "style": {
+       "borderRadius": "8px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgb(255, 255, 255)",
+       "padding": "0px 0px 12px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "inline-block",
+       "gap": "normal"
+      },
+      "childCount": 4
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "r": {
+       "x": 3836,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Hilton Hotel Andheri 60-200 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-slide",
+      "r": {
+       "x": 3836,
+       "y": 1763,
+       "w": 347,
+       "h": 300
+      },
+      "text": "Hilton Hotel Andheri 60-200 People",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "visible",
+       "display": "block",
+       "gap": "normal"
+      },
+      "childCount": 1
+     },
+     {
+      "tag": "DIV",
+      "cls": "slick-track",
+      "r": {
+       "x": 366,
+       "y": 1763,
+       "w": 6940,
+       "h": 300
+      },
+      "text": "Sahara banquet Sakinaka 450-800 People Fairfield by Marriott Sakinaka 50-1500 People Galaxy Banquet Andheri 100-1200 People Radisson Blu Marol Naka 50-500 People Ayesha Banquet Hall Sakinaka 50-1500 People Pearl Banquet Hall @ Sahara Star Vile Parle 20-50 Peop",
+      "style": {
+       "borderRadius": "0px",
+       "border": "0px none rgb(51, 51, 51)",
+       "boxShadow": "none",
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "padding": "0px",
+       "transition": "all",
+       "overflow": "auto",
+       "display": "flex",
+       "gap": "normal"
+      },
+      "childCount": 20
+     }
+    ]
+   }
+  ],
+  "linkText": [
+   "+91 99675 81110",
+   "Blog",
+   "CorporateEventz",
+   "List With Us",
+   "Home",
+   "Mumbai",
+   "Search",
+   "Near By",
+   "Bz Venue",
+   "Pure Veg",
+   "Book a Free Call",
+   "Clear",
+   "Apply",
+   "By Locality ›",
+   "By Occasion ›",
+   "By Venue Type ›",
+   "By Popularity ›",
+   "Blogs & Guides ›",
+   "Vendors ›",
+   "View all →",
+   "View All Articles",
+   "View All Articles",
+   "Sahara banquet",
+   "Check Availability",
+   "Fairfield by Marriott",
+   "Check Availability",
+   "Galaxy Banquet",
+   "Check Availability",
+   "Sahara banquet",
+   "Fairfield by Marriott",
+   "Galaxy Banquet",
+   "Radisson Blu",
+   "Ayesha Banquet Hall",
+   "Pearl Banquet Hall @ Sahara Star",
+   "Holiday Inn",
+   "Hotel Satkar Grande",
+   "The Peninsula Grand",
+   "West Block",
+   "Hilton Hotel",
+   "Lotus Sky Lawns by Tunga International",
+   "Hitchki NESCO Goregaon",
+   "Nesco",
+   "Cidco Exhibition Centre",
+   "Peninsula Redpine",
+   "Hotel Satkar Residency",
+   "Hotel Galaxy",
+   "Radisson Mumbai Goregaon",
+   "Radisson Hotel",
+   "Radisson Blu",
+   "Check Availability",
+   "Ayesha Banquet Hall",
+   "Check Availability",
+   "Pearl Banquet Hall @ Sahara Star",
+   "Check Availability",
+   "Explore BZ Venues",
+   "Explore BZ Venues",
+   "Holiday Inn",
+   "Check Availability",
+   "Hotel Satkar Grande",
+   "Check Availability",
+   "The Peninsula Grand",
+   "Check Availability",
+   "West Block",
+   "Check Availability",
+   "Hilton Hotel",
+   "Check Availability",
+   "Lotus Sky Lawns by Tunga International",
+   "Check Availability",
+   "Hitchki NESCO Goregaon",
+   "Check Availability",
+   "Nesco",
+   "Check Availability",
+   "Cidco Exhibition Centre",
+   "Check Availability",
+   "Peninsula Redpine",
+   "Check Availability",
+   "Hotel Satkar Residency",
+   "Check Availability",
+   "Hotel Galaxy",
+   "Check Availability",
+   "Radisson Mumbai Goregaon",
+   "Check Availability",
+   "Radisson Hotel",
+   "Check Availability",
+   "Next",
+   "Sahara banquet",
+   "Fairfield by Marriott",
+   "Galaxy Banquet",
+   "Radisson Blu",
+   "Ayesha Banquet Hall",
+   "Pearl Banquet Hall @ Sahara Star",
+   "Holiday Inn",
+   "Hotel Satkar Grande",
+   "The Peninsula Grand",
+   "West Block",
+   "Hilton Hotel",
+   "Get Call Back",
+   "Wedding Anniversary",
+   "Get Together",
+   "Baby Shower",
+   "Sahara banquet",
+   "Fairfield by Marriott",
+   "Galaxy Banquet",
+   "Radisson Blu",
+   "Ayesha Banquet Hall",
+   "Pearl Banquet Hall @ Sahara Star",
+   "wedding",
+   "Birthday party halls in Mumbai",
+   "Kitty party halls in Mumbai",
+   "Seminar halls in Mumbai",
+   "Convention halls in Mumbai",
+   "Engagement halls in Mumbai",
+   "Conference halls in Mumbai",
+   "Show More",
+   "About Us",
+   "Team",
+   "Contact Us",
+   "FAQ",
+   "Create Event Website",
+   "List With Us",
+   "Media",
+   "Add Your Venue",
+   "Feedback",
+   "Real Events",
+   "Offers",
+   "Corporate Offerings",
+   "Jobs",
+   "Testimonial",
+   "Blog",
+   "+91 99 675 81110",
+   "info@bookeventz.com",
+   "Andheri",
+   "Borivali",
+   "Chembur",
+   "Dadar",
+   "Ghatkopar",
+   "Malad",
+   "Mira Road",
+   "Thane",
+   "Vashi",
+   "Hotel",
+   "Restaurant",
+   "Lounge",
+   "Resort",
+   "Party Lawns",
+   "5 Star Hotel",
+   "Training/Boardroom",
+   "Wedding Anniversary",
+   "First Birthday Party",
+   "Corporate Event",
+   "Mehendi Ceremony",
+   "Product Launch",
+   "Seminar",
+   "Conference",
+   "Annual Meet",
+   "Naming Ceremony",
+   "Baby Shower",
+   "Birthday Party",
+   "Wedding",
+   "Engagement",
+   "Cocktail Party",
+   "Under ₹500 per plate",
+   "₹500 to ₹700 per plate",
+   "₹700 to ₹1200 per plate",
+   "Above ₹1200 per plate",
+   "Upto 50 Guests",
+   "51 to 200 Guests",
+   "201 to 300 Guests",
+   "301 to 500 Guests",
+   "500+ Guests",
+   "Terms Of Services",
+   "Policies"
+  ],
+  "bodyText": "Mumbai\n+91 99675 81110\nLOGIN\nVenues\nVendors\nBlog\nInvites\nIdeas\nCorporateEventz\nList With Us\nBest Banquet Halls In Mumbai, with Price, Photos & Reviews\nEnquire now &\nGet Upto 30% Off\n13 Years\nOf Trust\n25000+\nVendors\n8 Lacs+\nHappy Customers\nSelect Occasion\nWedding\nEngagement\nCorporate Event\nBirthday Party\nCocktail Party\nGet Together\nMore Occasion\nTop Banquet Halls In Mumbai\nShowing 2407 results Top Banquet Halls In Mumbai\nHome > Mumbai > Banquets\n\n\n\nSearch for Venue, Locality\n\nOcassion\n\nEvent Date\n\nGuests\n\nBudget\n\nSearch\nGrid\nNear By\nBz Venue\nPure Veg\nConfused how to plan?\nGet expert advice with a quick call\nBook at your convenience\nNo obligations to buy\nTrusted and reliable advice\nBook a Free Call\n\nArea\n\nNo of People\n\nBudget Per Person\n\nOccasion\n\nVenue Type\n\nDistance\n\nRating\n\nClear\nApply\nRelated Search\nBy Locality\n›\nBy Occasion\n›\nBy Venue Type\n›\nBy Popularity\n›\nBlogs & Guides\n›\nVendors\n›\nTop Articles\nView all →\nAuspicious Wedding Dates for Winter: Shubh Muhurat and Planning Guide\nThe winter season is one of the most popular wedding seasons in India. The weather is nice, it s the holiday\nWedding Games That Actually Get Guests Involved\nThere are many special moments in a wedding – entrance of the couple, the garland exchange, music, food and dance.\nHow to Choose the Right Auditorium in Mumbai for Your Event\nHere are some tips for selecting the appropriate Auditorium in Mumbai for your event. The selection of an auditorium in\nWedding Venue Booking Checklist: 15 Things to Check Before Booking\nWhen you re looking for a wedding venue, it s important that you have a checklist on hand to help you make\nView All Articles\nBZ Venue\nSahara banquet\n\nSakinaka, Mumbai\n\n450-800 pax\n\n₹ 700\n/ Person\n\nVery Good\n5 reviews\n3.8\nCheck Availability\nBZ Venue\nFairfield by Marriott\n\nSakinaka, Mumbai\n\n50-1500 pax\n\n₹ 3200\n/ Person\n\nExcellent\n6 reviews\n4\nCheck Availability\nBZ Venue\nGalaxy Banquet\n\nAndheri, Mumbai\n\n100-1200 pax\n\n₹ 1200\n/ Person\n\nExceptional\n18 reviews\n4.5\nCheck Availability\n\nBZ Venue - Fully managed by Bookeventz\n\nSahara banquet\n\nSakinaka\n\n450-800\n\nPeople\n\nFairfield by Marriott\n\nSakinaka\n\n50-1500\n\nPeople\n\nGalaxy Banquet\n\nAndheri\n\n100-1200\n\nPeople\n\nRadisson Blu\n\nMarol Naka\n\n50-500\n\nPeople\n\nAyesha Banquet Hall\n\nSakinaka\n\n50-1500\n\nPeople\n\nPearl Banquet Hall @ Sahara Star\n\nVile Parle\n\n20-50\n\nPeople\n\nHoliday Inn\n\nAndheri\n\n50-600\n\nPeople\n\nHotel Satkar Grande\n\nThane\n\n275-500\n\nPeople\n\nThe Peninsula Grand\n\nAndheri\n\n10-800\n\nPeople\n\nWest Block\n\nVile Parle\n\n50-300\n\nPeople\n\nHilton Hotel\n\nAndheri\n\n60-200\n\nPeople\n\nLotus Sky Lawns by Tunga International\n\nAndheri East\n\n500-2000\n\nPeople\n\nHitchki NESCO Goregaon\n\nGoregaon East\n\n50-150\n\nPeople\n\nNesco\n\nGoregaon\n\n200-1500\n\nPeople\n\nCidco Exhibition Centre\n\nVashi\n\n500-3000\n\nPeople\n\nPeninsula Redpine\n\nAndheri\n\n30-200\n\nPeople\n\nHotel Satkar Residency\n\nThane\n\n500-800\n\nPeople\n\nHotel Galaxy\n\nSantacruz\n\n50-250\n\nPeople\n\nRadisson Mumbai Goregaon\n\nGoregaon West\n\n100-600\n\nPeople\n\nRadisson Hotel\n\nAndheri East\n\n100-300\n\nPeople\n\nSearch the area you are looking in :\nBZ Venue\nRadisson Blu\n\nMarol Naka, Mumbai\n\n50-500 pax\n\n₹ 2499\n/ Person\n\nExcellent\n12 reviews\n4.3\nCheck Availability\nBZ Venue\nAyesha Banquet Hall\n\nSakinaka, Mumbai\n\n50-1500 pax\n\n₹ 500\n/ Person\n\nCheck Availability\nBZ Venue\nPearl Banquet Hall @ Sahara Star\n\nVile Parle, Mumbai\n\n20-50 pax\n\n₹ 4500\n/ Person\n\nCheck Availability\nPlan your Wedding at Bookeventz Managed Venues\nExplore BZ Venues\nPerfect Events Guaranteed\n\nOur event managers ensure flawless execution\n\nOne-Stop Solution\n\nCurated & verified vendors under one roof\n\n100% Transparency\n\nNo hidden costs, complete documentation\n\nBest Price Guarantee\n\nUnbeatable rates with premium quality\n\nBZ Venue\nHoliday Inn\n\nAndheri, Mumbai\n\n50-600 pax\n\n₹ 3200\n/ Person\n\nVery Good\n30 reviews\n3.7\nCheck Availability\nBZ Venue\nHotel Satkar Grande\n\nThane, Mumbai\n\n275-500 pax\n\n₹ 1050\n/ Person\n\nExcellent\n1 reviews\n4\nCheck Availability\nBZ Venue\nThe Peninsula Grand\n\nAndheri, Mumbai\n\n10-800 pax\n\n₹ 4000\n/ Person\n\nExcellent\n15 reviews\n4.4\nCheck Availability\nEnter Number of Guests Expected :\n50-100\n100-200\n200-500\n500+\nBZ Venue\nWest Block\n\nVile Parle, Mumbai\n\n50-300 pax\n\n₹ 2000\n/ Person\n\nExcellent\n28 reviews\n4.1\nCheck Availability\nBZ Venue\nHilton Hotel\n\nAndheri, Mumbai\n\n60-200 pax\n\n₹ 4500\n/ Person\n\nExcellent\n15 reviews\n4\nCheck Availability\nBZ Venue\nLotus Sky Lawns by Tunga International\n\nAndheri East, Mumbai\n\n500-2000 pax\n\n₹ 2500\n/ Person\n\nCheck Availability\nBZ Venue\nHitchki NESCO Goregaon\n\nGoregaon East, Mumbai\n\n50-150 pax\n\n₹ 1299\n/ Person\n\nCheck Availability\nBZ Venue\nNesco\n\nGoregaon, Mumbai\n\n200-1500 pax\n\n₹ 2600\n/ Person\n\nExcellent\n6 reviews\n4\nCheck Availability\nBZ Venue\nCidco Exhibition Centre\n\nVashi, Mumbai\n\n500-3000 pax\n\n₹ 1200\n/ Person\n\nExceptional\n13 reviews\n4.7\nCheck Availability\nBZ Venue\nPeninsula Redpine\n\nAndheri, Mumbai\n\n30-200 pax\n\n₹ 1200\n/ Person\n\nVery Good\n14 reviews\n3.9\nCheck Availability\nBZ Venue\nHotel Satkar Residency\n\nThane, Mumbai\n\n500-800 pax\n\n₹ 1000\n/ Person\n\nGood\n1 reviews\n1\nCheck Availability\nBZ Venue\nHotel Galaxy\n\nSantacruz, Mumbai\n\n50-250 pax\n\n₹ 650\n/ Person\n\nExcellent\n1 reviews\n4\nCheck Availability\nBZ Venue\nRadisson Mumbai Goregaon\n\nGoregaon West, Mumbai\n\n100-600 pax\n\n₹ 3000\n/ Person\n\nExcellent\n5 reviews\n4\nCheck Availability\nBZ Venue\nRadisson Hotel\n\nAndheri East, Mumbai\n\n100-300 pax\n\n₹ 2500\n/ Person\n\nExcellent\n1 reviews\n4\nCheck Availability\n1\n2\n3\n4\n5\nNext >>\nAsk Us\nHow can we help you?\nChoose an option to get the right service\nSelect query type\nVenue Enquiry\nEvent Management\nVendor Registration\nExisting Booking\nOthers\nNext\nAverage Reviews and Ratings for Banquet Halls in Mumbai.\n4.2\n/5\n1645 Rating & Reviews\nLast Review updated On 02/12/2026\n4\nGood hospitality\nAmazing staff and th decoration was amazing. really enjoyed the haldi function. ...\nRead More\nKaran Patel\n02 Dec 2026\n5\nWonderful Place\nVery decent and beautiful property. We had our son's thread ceromony organised h...\nRead More\nPriya Mehta\n02 Oct 2026\n5\nPremium venue\nPerfect place for a cocktail celebration. Elegant interiors, delicious starters,...\nRead More\nVikram Singh\n04 Aug 2026\n4\nGreat facilities \nEasy to reach and very nice ambiance and all the management was top notch. very ...\nRead More\nRahul Sharma\n13 May 2026\n5\nGood food\nThe menu was so rich and yummy. weddings at radisson blu are an experience in it...\nRead More\nAmit Verma\n13 May 2026\n4\nDecent Property\nExclusive banquet space and layput suitable for wedding. Our entire wedding was ...\nRead More\nNeha Joshi\n13 May 2026\n3\nCozy ambiance\nElegant venue with a warm and classy ambiance. The entire team was extremely coo...\nRead More\nPooja Nair\n13 May 2026\n4\nLuxurious experience\nThe luxurious banquet space and stunning décor created the perfect atmosphere fo...\nRead More\nArjun Malhotra\n13 May 2026\n3\nWell organized\nWe hosted our daughter’s engagement ceremony here and everything was perfectly m...\nRead More\nShweta Kulkarni\n13 May 2026\n4\nConvenient location\nPerfect location for hosting events as it is easily accessible from all parts of...\nRead More\nShreya Singh\n13 May 2026\nTop Banquet Halls in Mumbai with Price\nDiscover Affordable Venue Options for Every Budget!\nVenue Name\tCapacity\tPrice (Per Person)\nSahara banquet\t450 - 800\tStarts from ₹700\nFairfield by Marriott\t50 - 1500\tStarts from ₹3200\nGalaxy Banquet\t100 - 1200\tStarts from ₹1200\nRadisson Blu\t50 - 500\tStarts from ₹2499\nAyesha Banquet Hall\t50 - 1500\tStarts from ₹500\nPearl Banquet Hall @ Sahara Star\t20 - 50\tStarts from ₹4500\nHoliday Inn\t50 - 600\tStarts from ₹3200\nHotel Satkar Grande\t275 - 500\tStarts from ₹1050\nThe Peninsula Grand\t10 - 800\tStarts from ₹4000\nWest Block\t50 - 300\tStarts from ₹2000\nHilton Hotel\t60 - 200\tStarts from ₹4500\nNeed help finding the Best Banquet Halls in Mumbai\nOur team will help you find what you're looking for.\nRequest a call back, We promise to respond within 24 working hours.\nGet Call Back\nFind the Best Banquet Halls in Mumbai for Every Occasion\n\nLooking for the perfect banquet halls in Mumbai to host your special event? Whether it’s a wedding, a birthday, or a social gathering, choosing the right venue ensures a memorable experience. From grand wedding halls to elegant small banquets, there are venues to suit every celebration.\n\nTop Banquet Halls for Weddings & Celebrations\n1. Wedding & Reception Banquet Halls\n\nA wedding is a once-in-a-lifetime event, and finding the ideal wedding venues is key to making the day perfect. Whether you’re looking for a luxurious shadi hall or an intimate marriage hall, there are plenty of options available. Many venues also offer specialized spaces for a Wedding Anniversary, ensuring a beautiful celebration of love.\n\n2. Social Gatherings & Private Functions\n\nBanquet halls are not just for weddings—they are also great for a Get Together with family and friends. Whether you need a stylish party hall for a milestone birthday or a charming space for an engagement, these venues provide the right ambiance for a memorable event.\n\n3. Budget-Friendly Banquet Halls\n\nIf you’re looking for an elegant venue without exceedin",
+  "typeRoles": {
+   "h1": [
+    {
+     "sel": "h1",
+     "text": "Best Banquet Halls In Mumbai, with Price, Photos & Reviews",
+     "style": {
+      "fontFamily": "Metropolis, sans-serif",
+      "fontSize": "52px",
+      "fontWeight": "400",
+      "lineHeight": "60px",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 38, 110)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 38, 110)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "20px 0px 10px"
+     },
+     "r": {
+      "x": 88,
+      "y": 210,
+      "w": 727,
+      "h": 180
+     }
+    }
+   ],
+   "card-title": [
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Top Banquet Halls In Mumbai",
+     "style": {
+      "fontFamily": "Metropolis, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, sans-serif",
+      "fontSize": "43px",
+      "fontWeight": "400",
+      "lineHeight": "49.45px",
+      "letterSpacing": "normal",
+      "color": "rgb(74, 38, 110)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(74, 38, 110)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 86,
+      "y": 942,
+      "w": 1354,
+      "h": 49
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Sahara banquet",
+     "style": {
+      "fontFamily": "Metropolis, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(17, 24, 39)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(17, 24, 39)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 373,
+      "y": 1501,
+      "w": 140,
+      "h": 23
+     }
+    },
+    {
+     "sel": "[class*='card'] h2, [class*='Card'] h2, [class*='vendor'] h3, [class*='venue'] h3, h2, h3",
+     "text": "Fairfield by Marriott",
+     "style": {
+      "fontFamily": "Metropolis, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(17, 24, 39)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(17, 24, 39)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 733,
+      "y": 1501,
+      "w": 177,
+      "h": 23
+     }
+    }
+   ],
+   "card-meta": [
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "Area",
+     "style": {
+      "fontFamily": "Metropolis, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(51, 51, 51)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(51, 51, 51)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 61,
+      "y": 1585,
+      "w": 37,
+      "h": 24
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "No of People",
+     "style": {
+      "fontFamily": "Metropolis, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(51, 51, 51)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(51, 51, 51)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 61,
+      "y": 1663,
+      "w": 101,
+      "h": 24
+     }
+    },
+    {
+     "sel": "[class*='card'] p, [class*='Card'] p, [class*='vendor'] p, [class*='venue'] p",
+     "text": "Budget Per Person",
+     "style": {
+      "fontFamily": "Metropolis, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(51, 51, 51)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(51, 51, 51)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 61,
+      "y": 1741,
+      "w": 146,
+      "h": 24
+     }
+    }
+   ],
+   "filter-label": [],
+   "nav-link": [],
+   "price": [
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "₹ 700 / Person Very Good 5 reviews 3.8",
+     "style": {
+      "fontFamily": "Metropolis, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(51, 51, 51)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(51, 51, 51)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 373,
+      "y": 1567,
+      "w": 306,
+      "h": 30
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "₹ 700 / Person",
+     "style": {
+      "fontFamily": "Metropolis, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "lineHeight": "22.8571px",
+      "letterSpacing": "normal",
+      "color": "rgb(17, 24, 39)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(17, 24, 39)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 373,
+      "y": 1570,
+      "w": 104,
+      "h": 23
+     }
+    },
+    {
+     "sel": "[class*='price'], [class*='Price'], [class*='amount']",
+     "text": "₹ 700",
+     "style": {
+      "fontFamily": "Metropolis, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "22.8571px",
+      "letterSpacing": "normal",
+      "color": "rgb(17, 24, 39)",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(17, 24, 39)",
+      "boxShadow": "none",
+      "transition": "all",
+      "padding": "0px",
+      "margin": "0px"
+     },
+     "r": {
+      "x": 373,
+      "y": 1570,
+      "w": 46,
+      "h": 23
+     }
+    }
+   ]
+  },
+  "surfaces": {
+   "body": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(51, 51, 51)",
+    "fontFamily": "Metropolis, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, sans-serif",
+    "fontSize": "14px"
+   },
+   "html": {
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ }
+}

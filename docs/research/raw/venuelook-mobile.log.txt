@@ -1,0 +1,1219 @@
+URL_REQUESTED https://www.venuelook.com/
+STATUS 200
+FINAL_URL https://www.venuelook.com/
+TITLE Find & Book Banquet halls | Wedding Venues | Party places for marriage | birthdays | corporate events - VenueLook
+STAGE pre-screenshot 17961 ms
+SCREENSHOT docs/research/shots/venuelook-mobile.png
+STAGE pre-extract 18468 ms
+STAGE pre-hover 18552 ms
+RAW docs/research/raw/venuelook-mobile.json
+--- SURFACES {"body":{"backgroundColor":"rgb(255, 255, 255)","color":"rgb(33, 37, 41)","fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"16px"},"html":{"backgroundColor":"rgba(0, 0, 0, 0)"}}
+--- HEADINGS
+  H1 390x90 "Discover & Book the Perfect Venue with Expert Event Planning"
+  H4 255x22 "Plan My Event, Get Started"
+  H4 330x48 "Search Venues By Occasion In Your City"
+  H2 366x70 "Browse Vendors & Venues"
+  H2 342x54 "Vendors By Category"
+  H2 366x39 "Featured Venues"
+  H3 196x48 "Events & Wedding Destinations"
+  H2 366x22 "Our Top Categories for Venues"
+  H3 390x22 "Create Free Online Invitations"
+  H4 375x52 "Check out what other venue seekers are saying"
+  H3 320x58 "Get Upto 30% Discount on venues and vendors"
+--- NAV_ALL 
+--- SEARCH_INPUTS
+  {"tag":"INPUT","type":"text","ph":"Search Your Event","aria":null,"name":null,"r":{"x":70,"y":977,"w":286,"h":24}}
+  {"tag":"INPUT","type":"text","ph":"Search Your City","aria":null,"name":null,"r":{"x":70,"y":1030,"w":286,"h":24}}
+  {"tag":"INPUT","type":"number","ph":"Enter your phone number","aria":null,"name":null,"r":{"x":96,"y":5731,"w":198,"h":35}}
+  {"tag":"INPUT","type":"email","ph":"Your E-mail","aria":null,"name":null,"r":{"x":68,"y":5898,"w":182,"h":35}}
+  {"tag":"INPUT","type":"text","ph":"Type to search","aria":null,"name":null,"r":{"x":58,"y":361,"w":258,"h":42}}
+--- FILTER_CONTAINERS
+--- CARDS
+  [0] imgRatio=1.103 250x227 alt="Visakhapatnam"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Visakhapatnam Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Visakhapatnam Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Visakhapatnam Venues Vendors"
+  [1] imgRatio=1.103 250x227 alt="Zirakpur"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Zirakpur Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Zirakpur Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Zirakpur Venues Vendors"
+  [2] imgRatio=1.103 250x227 alt="Agra"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Agra Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Agra Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Agra Venues Vendors"
+  [3] imgRatio=1.103 250x227 alt="Ahmedabad"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Ahmedabad Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Ahmedabad Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Ahmedabad Venues Vendors"
+  [4] imgRatio=1.103 250x227 alt="Ajmer"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Ajmer Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Ajmer Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Ajmer Venues Vendors"
+  [5] imgRatio=1.103 250x227 alt="Aligarh"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Aligarh Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Aligarh Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Aligarh Venues Vendors"
+  [6] imgRatio=1.103 250x227 alt="Allahabad"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Allahabad Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Allahabad Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Allahabad Venues Vendors"
+  [7] imgRatio=1.103 250x227 alt="Alwar"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Alwar Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Alwar Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Alwar Venues Vendors"
+  [8] imgRatio=1.103 250x227 alt="Ambala"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Ambala Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Ambala Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Ambala Venues Vendors"
+  [9] imgRatio=1.103 250x227 alt="Amritsar"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Amritsar Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Amritsar Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Amritsar Venues Vendors"
+  [10] imgRatio=1.103 250x227 alt="Asansol"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Asansol Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Asansol Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Asansol Venues Vendors"
+  [11] imgRatio=1.103 250x227 alt="Bangalore"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Bangalore Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Bangalore Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Bangalore Venues Vendors"
+  [12] imgRatio=1.103 250x227 alt="Bareilly"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Bareilly Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Bareilly Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Bareilly Venues Vendors"
+  [13] imgRatio=1.103 250x227 alt="Bhopal"
+     d0 A "" 248x227 {"borderRadius":"0px","border":"0px none rgb(13, 110, 253)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"inline","gap":"normal"} TEXT=""
+     d1 DIV "homePage_getinspiredoverflow__vgf_U" 248x217 {"borderRadius":"15px 15px 0px 0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"hidden","display":"block","gap":"normal"} TEXT=""
+     d2 DIV "homePage_swipercardwidthbrowseMobile__zCEZQ card" 250x319 {"borderRadius":"15px","border":"1px solid rgba(0, 0, 0, 0.176)","boxShadow":"none","backgroundColor":"rgb(255, 255, 255)","padding":"0px","transition":"all","overflow":"visible","display":"flex","gap":"normal"} TEXT="Bhopal Venues Vendors"
+     d3 DIV "" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Bhopal Venues Vendors"
+     d4 DIV "getinspiredslider" 266x319 {"borderRadius":"0px","border":"0px none rgb(33, 37, 41)","boxShadow":"none","backgroundColor":"rgba(0, 0, 0, 0)","padding":"0px","transition":"all","overflow":"visible","display":"block","gap":"normal"} TEXT="Bhopal Venues Vendors"
+--- IMAGES
+  139x21 nat=155x23 fit=fill radius=0px alt="venuelogo"
+  33x33 nat=207x231 fit=fill radius=0px alt="location icon"
+  50x50 nat=86x82 fit=fill radius=0px alt="Wedding"
+  50x50 nat=82x82 fit=fill radius=0px alt="Birthday"
+  50x50 nat=88x82 fit=fill radius=0px alt="Engagement"
+  50x50 nat=83x82 fit=fill radius=0px alt="Pool Party"
+  50x50 nat=62x82 fit=fill radius=0px alt="Cocktail Party"
+  50x50 nat=77x82 fit=fill radius=0px alt="Corporate Party"
+  50x50 nat=84x77 fit=fill radius=0px alt="Kitty Party"
+  50x50 nat=83x82 fit=fill radius=0px alt="Banquet Halls"
+  50x50 nat=84x86 fit=fill radius=0px alt="Restaurants"
+  50x50 nat=84x84 fit=fill radius=0px alt="Farm Houses"
+  250x227 nat=273x230 fit=fill radius=0px alt="Visakhapatnam"
+  250x227 nat=273x230 fit=fill radius=0px alt="Zirakpur"
+  250x227 nat=273x230 fit=fill radius=0px alt="Agra"
+  250x227 nat=273x230 fit=fill radius=0px alt="Ahmedabad"
+  250x227 nat=273x230 fit=fill radius=0px alt="Ajmer"
+  250x227 nat=354x298 fit=fill radius=0px alt="Aligarh"
+--- TYPE_ROLES
+  h1 "Discover & Book the Perfect Venue with Expert Event Planning" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"25px","fontWeight":"700","lineHeight":"30px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 8px"}
+  card-title "Browse Vendors & Venues" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"20px","fontWeight":"600","lineHeight":"22px","letterSpacing":"normal","color":"rgb(28, 28, 28)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(28, 28, 28)","boxShadow":"none","transition":"all","padding":"32px 0px 16px","margin":"0px 0px 8px"}
+  card-title "Vendors By Category" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"20px","fontWeight":"600","lineHeight":"22px","letterSpacing":"normal","color":"rgb(28, 28, 28)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(28, 28, 28)","boxShadow":"none","transition":"all","padding":"32px 0px 0px","margin":"48px 0px 16px"}
+  card-title "Featured Venues" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"26px","fontWeight":"600","lineHeight":"31.2px","letterSpacing":"normal","color":"rgb(33, 37, 41)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(33, 37, 41)","boxShadow":"none","transition":"all","padding":"0px 0px 8px","margin":"8px 0px 24px"}
+  card-meta "19th April 25" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"20px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 16px"}
+  card-meta "25th December 23" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"20px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 16px"}
+  card-meta "23rd October 23" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"500","lineHeight":"20px","letterSpacing":"normal","color":"rgb(255, 255, 255)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(255, 255, 255)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px 0px 16px"}
+  price "Veg" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"600","lineHeight":"21px","letterSpacing":"normal","color":"rgb(68, 68, 68)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(68, 68, 68)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  price "₹1800" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"600","lineHeight":"21px","letterSpacing":"normal","color":"rgb(68, 68, 68)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(68, 68, 68)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+  price "Non-Veg" {"fontFamily":"ProximaNova, ProximaNova-fallback-Arial, sans-serif","fontSize":"14px","fontWeight":"600","lineHeight":"21px","letterSpacing":"normal","color":"rgb(68, 68, 68)","textTransform":"none","borderRadius":"0px","backgroundColor":"rgba(0, 0, 0, 0)","border":"0px none rgb(68, 68, 68)","boxShadow":"none","transition":"all","padding":"0px","margin":"0px"}
+--- HOVER {"before":{"text":"Visakhapatnam Venues Vendors","r":{"x":-470,"y":1210,"w":266,"h":319},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(33, 37, 41)","transition":"all","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","cursor":"auto","translate":"none","scale":"none"}},"after":{"r":{"w":266,"h":319},"style":{"transform":"none","boxShadow":"none","border":"0px none rgb(33, 37, 41)","transitionDuration":"0s","transitionProperty":"all","transitionTimingFunction":"ease","backgroundColor":"rgba(0, 0, 0, 0)","translate":"none","scale":"none"}}}
+--- BODY_TEXT
+  
+Discover & Book the Perfect Venue with Expert Event Planning
+Plan My Event
+
+Wedding
+
+Birthday
+
+Engagement
+
+Pool Party
+
+Cocktail Party
+
+Corporate Party
+
+Kitty Party
+
+Banquet Halls
+
+Restaurants
+
+Farm Houses
+
+Plan My Event, Get Started
+Luxury Wedding Venues
+Corporate Party Venues
+Birthday Party Places
+Party Venues
+Search Venues By Occasion In Your City
+FIND VENUES
+Browse Vendors & Venues
+ Previous
+Visakhapatnam
+Venues
+Vendors
+Zirakpur
+Venues
+Vendors
+Agra
+Venues
+Vendors
+Ahmedabad
+Venues
+Vendors
+Ajmer
+Venues
+Vendors
+Aligarh
+Venues
+Vendors
+Allahabad
+Venues
+Vendors
+Alwar
+Venues
+Vendors
+Ambala
+Venues
+Vendors
+Amritsar
+Venues
+Vendors
+Asansol
+Venues
+Vendors
+Bangalore
+Venues
+Vendors
+Bareilly
+Venues
+Vendors
+Bhopal
+Venues
+Vendors
+Bhubaneswar
+Venues
+Vendors
+Bidar
+Venues
+Vendors
+Bikaner
+Venues
+Vendors
+Bulandshahr
+Venues
+Vendors
+Chail
+Venues
+Vendors
+Chandigarh
+Venues
+Vendors
+Chennai
+Venues
+Vendors
+Coimbatore
+Venues
+Vendors
+Davanagere
+Venues
+Vendors
+Dehradun
+Venues
+Vendors
+Delhi
+Venues
+Vendors
+Deoghar
+Venues
+Vendors
+Dharamshala
+Venues
+Vendors
+Faridabad
+Venues
+Vendors
+Fatehpur
+Venues
+Vendors
+Ghaziabad
+Venues
+Vendors
+Goa
+Venues
+Vendors
+Greater Noida
+Venues
+Vendors
+Gurgaon
+Venues
+Vendors
+Gwalior
+Venues
+Vendors
+Haldwani
+Venues
+Vendors
+Hapur
+Venues
+Vendors
+Haridwar
+Venues
+Vendors
+Howrah
+Venues
+Vendors
+Hyderabad
+Venues
+Vendors
+Igatpuri
+Venues
+Vendors
+Indore
+Venues
+Vendors
+Jaipur
+Venues
+Vendors
+Jaisalmer
+Venues
+Vendors
+Jamshedpur
+Venues
+Vendors
+Jhansi
+Venues
+Vendors
+Jim Corbett
+Venues
+Vendors
+Jodhpur
+Venues
+Vendors
+Kanpur
+Venues
+Vendors
+Karjat
+Venues
+Vendors
+Karnal
+Venues
+Vendors
+Kochi
+Venues
+Vendors
+Kolkata
+Venues
+Vendors
+Lonavala
+Venues
+Vendors
+Lucknow
+Venues
+Vendors
+Ludhiana
+Venues
+Vendors
+Mahabaleshwar
+Venues
+Vendors
+Mathura
+Venues
+Vendors
+Meerut
+Venues
+Vendors
+Modinagar
+Venues
+Vendors
+Mohali
+Venues
+Vendors
+Moradabad
+Venues
+Vendors
+Mount Abu
+Venues
+Vendors
+Mumbai
+Venues
+Vendors
+Mussoorie
+Venues
+Vendors
+Mysore
+Venues
+Vendors
+Nagpur
+Venues
+Vendors
+Nainital
+Venues
+Vendors
+Nashik
+Venues
+Vendors
+Nathdwara
+Venues
+Vendors
+Noida
+Venues
+Vendors
+Ooty
+Venues
+Vendors
+Panchkula
+Venues
+Vendors
+Panipat
+Venues
+Vendors
+Pataudi
+Venues
+Vendors
+Patna
+Venues
+Vendors
+Pune
+Venues
+Vendors
+Pushkar
+Venues
+Vendors
+Raipur
+Venues
+Vendors
+Rajkot
+Venues
+Vendors
+Ramnagar
+Venues
+Vendors
+Ranchi
+Venues
+Vendors
+Ranthambore
+Venues
+Vendors
+Rewari
+Venues
+Vendors
+Rishikesh
+Venues
+Vendors
+Roorkee
+Venues
+Vendors
+Rudraprayag
+Venues
+Vendors
+Shimla
+Venues
+Vendors
+Shirdi
+Venues
+Vendors
+Singapore
+Venues
+Vendors
+Sonipat
+Venues
+Vendors
+Surat
+Venues
+Vendors
+Tada
+Venues
+Vendors
+Thane
+Venues
+Vendors
+Udaipur
+Venues
+Vendors
+Vadodara
+Venues
+Vendors
+Varanasi
+Venues
+Vendors
+Vellore
+Venues
+Vendors
+Vijayawada
+Venues
+Vendors
+Visakhapatnam
+Venues
+Vendors
+Zirakpur
+Venues
+Vendors
+Agra
+Venues
+Vendors
+Ahmedabad
+Venues
+Vendors
+Ajmer
+Venues
+Vendors
+Aligarh
+Venues
+Vendors
+Allahabad
+Venues
+Vendors
+Alwar
+Venues
+Vendors
+Ambala
+Venues
+Vendors
+Amritsar
+Venues
+Vendors
+Asansol
+Venues
+Vendors
+Bangalore
+Venues
+Vendors
+Bareilly
+Venues
+Vendors
+Bhopal
+Venues
+Vendors
+Bhubaneswar
+Venues
+Vendors
+Bidar
+Venues
+Vendors
+Bikaner
+Venues
+Vendors
+Bulandshahr
+Venues
+Vendors
+Chail
+Venues
+Vendors
+Chandigarh
+Venues
+Vendors
+Chennai
+Venues
+Vendors
+Coimbatore
+Venues
+Vendors
+Davanagere
+Venues
+Vendors
+Dehradun
+Venues
+Vendors
+Delhi
+Venues
+Vendors
+Deoghar
+Venues
+Vendors
+Dharamshala
+Venues
+Vendors
+Faridabad
+Venues
+Vendors
+Fatehpur
+Venues
+Vendors
+Ghaziabad
+Venues
+Vendors
+Goa
+Venues
+Vendors
+Greater Noida
+Venues
+Vendors
+Gurgaon
+Venues
+Vendors
+Gwalior
+Venues
+Vendors
+Haldwani
+Venues
+Vendors
+Hapur
+Venues
+Vendors
+Haridwar
+Venues
+Vendors
+Howrah
+Venues
+Vendors
+Hyderabad
+Venues
+Vendors
+Igatpuri
+Venues
+Vendors
+Indore
+Venues
+Vendors
+Jaipur
+Venues
+Vendors
+Jaisalmer
+Venues
+Vendors
+Jamshedpur
+Venues
+Vendors
+Jhansi
+Venues
+Vendors
+Jim Corbett
+Venues
+Vendors
+Jodhpur
+Venues
+Vendors
+Kanpur
+Venues
+Vendors
+Karjat
+Venues
+Vendors
+Karnal
+Venues
+Vendors
+Kochi
+Venues
+Vendors
+Kolkata
+Venues
+Vendors
+Lonavala
+Venues
+Vendors
+Lucknow
+Venues
+Vendors
+Ludhiana
+Venues
+Vendors
+Mahabaleshwar
+Venues
+Vendors
+Mathura
+Venues
+Vendors
+Meerut
+Venues
+Vendors
+Modinagar
+Venues
+Vendors
+Mohali
+Venues
+Vendors
+Moradabad
+Venues
+Vendors
+Mount Abu
+Venues
+Vendors
+Mumbai
+Venues
+Vendors
+Mussoorie
+Venues
+Vendors
+Mysore
+Venues
+Vendors
+Nagpur
+Venues
+Vendors
+Nainital
+Venues
+Vendors
+Nashik
+Venues
+Vendors
+Nathdwara
+Venues
+Vendors
+Noida
+Venues
+Vendors
+Ooty
+Venues
+Vendors
+Panchkula
+Venues
+Vendors
+Panipat
+Venues
+Vendors
+Pataudi
+Venues
+Vendors
+Patna
+Venues
+Vendors
+Pune
+Venues
+Vendors
+Pushkar
+Venues
+Vendors
+Raipur
+Venues
+Vendors
+Rajkot
+Venues
+Vendors
+Ramnagar
+Venues
+Vendors
+Ranchi
+Venues
+Vendors
+Ranthambore
+Venues
+Vendors
+Rewari
+Venues
+Vendors
+Rishikesh
+Venues
+Vendors
+Roorkee
+Venues
+Vendors
+Rudraprayag
+Venues
+Vendors
+Shimla
+Venues
+Vendors
+Shirdi
+Venues
+Vendors
+Singapore
+Venues
+Vendors
+Sonipat
+Venues
+Vendors
+Surat
+Venues
+Vendors
+Tada
+Venues
+Vendors
+Thane
+Venues
+Vendors
+Udaipur
+Venues
+Vendors
+Vadodara
+Venues
+Vendors
+Varanasi
+Venues
+Vendors
+Vellore
+Venues
+Vendors
+Vijayawada
+Venues
+Vendors
+Visakhapatnam
+Venues
+Vendors
+Zirakpur
+Venues
+Vendors
+ Next
+Vendors By Category
+ Previous
+Photographers
+Makeup Artists
+Mehndi Artists
+Bands
+Cakes
+Caterers
+Florists
+Decorators
+Bridal Wear
+Jewellers
+Groom Wear
+Choreographers
+Event Planners
+Dj
+Magician
+Gifts
+Tent Houses
+Entertainers
+Bus on Rent
+Wedding Planners
+Wedding Photographers
+Astrologers
+Photographers
+Makeup Artists
+Mehndi Artists
+Bands
+Cakes
+Caterers
+Florists
+Decorators
+Bridal Wear
+Jewellers
+Groom Wear
+Choreographers
+Event Planners
+Dj
+Magician
+Gifts
+Tent Houses
+Entertainers
+Bus on Rent
+Wedding Planners
+Wedding Photographers
+Astrologers
+Photographers
+Makeup Artists
+Mehndi Artists
+Bands
+Cakes
+Caterers
+Florists
+Decorators
+Bridal Wear
+Jewellers
+Groom Wear
+Choreographers
+Event Planners
+Dj
+Magician
+Gifts
+Tent Houses
+Entertainers
+Bus on Rent
+Wedding Planners
+Wedding Photographers
+Astrologers
+ Next
+Featured Venues
+1411 Bar & Kitchen
+Veg
+₹1800
+Non-Veg
+₹2000
+Mumbai
+Hotel Myriad
+Veg
+₹1000
+Non-Veg
+₹1100
+Lucknow
+Tranquil Woods By Jade
+Veg
+₹3500
+Non-Veg
+₹5000
+Bangalore
+asar Landmark Suites Banquet
+Veg
+₹900
+Non-Veg
+₹1100
+Mumbai
+Twenty Four Hotel
+Veg
+₹799
+Non-Veg
+₹950
+Bangalore
+Royal Orchid Golden Suites
+Veg
+₹800
+Non-Veg
+₹900
+Pune
+Lords Plaza Hotel
+Veg
+₹899
+Non-Veg
+₹1099
+Jaipur
+Hotel Lxia
+Veg
+₹550
+Non-Veg
+₹600
+Pune
+Rain Forest Resort And Spa
+Veg
+₹1000
+Igatpuri
+Inventree Hotels & Resorts
+Veg
+₹800
+Non-Veg
+₹900
+Pune
+Hotel Vaibhav Inn
+Veg
+₹750
+Non-Veg
+₹900
+Lucknow
+Aaswad Banquets And Caterers
+Veg
+₹850
+Mumbai
+Mango Grove Hotel
+Veg
+₹1400
+Non-Veg
+₹1500
+Chandigarh
+Ginger Goa Candolim
+Veg
+₹850
+Non-Veg
+₹900
+Goa
+Madhavgarh Palace
+Veg
+₹3000
+Non-Veg
+₹3000
+Gurgaon
+Susegado Microbrewery
+Veg
+₹1000
+Non-Veg
+₹1000
+Goa
+V Club Retreat
+Veg
+₹1400
+Non-Veg
+₹1600
+Gurgaon
+Flechazo Gold
+Veg
+₹1299
+Non-Veg
+₹1399
+Bangalore
+Hotel Sadanand Regency
+Veg
+₹850
+Non-Veg
+₹1000
+Pune
+The Bluebop Cafe
+Veg
+₹1500
+Non-Veg
+₹2000
+Mumbai
+Hotel Kingston House
+Veg
+₹799
+Non-Veg
+₹999
+Lucknow
+Icon Suites By Bhagini Hotels
+Veg
+₹599
+Non-Veg
+₹749
+Bangalore
+Breakout Escape Rooms
+Veg
+₹599
+Non-Veg
+₹799
+Bangalore
+The Ontime Hotel
+Veg
+₹950
+Non-Veg
+₹1100
+Mumbai
+Cymbal
+Veg
+₹749
+Non-Veg
+₹849
+Gurgaon
+Anr Hotel
+Veg
+₹650
+Lucknow
+Grand Tamanna Hotel
+Veg
+₹700
+Non-Veg
+₹900
+Pune
+Hotel Amanda
+Veg
+₹799
+Non-Veg
+₹999
+Lucknow
+Ramada Gurgaon Central
+Veg
+₹2000
+Non-Veg
+₹2200
+Gurgaon
+Club Florence
+Veg
+₹1500
+Non-Veg
+₹1700
+Gurgaon
+1411 Bar & Kitchen
+Veg
+₹1800
+Non-Veg
+₹2000
+Mumbai
+Hotel Myriad
+Veg
+₹1000
+Non-Veg
+₹1100
+Lucknow
+Tranquil Woods By Jade
+Veg
+₹3500
+Non-Veg
+₹5000
+Bangalore
+asar Landmark Suites Banquet
+Veg
+₹900
+Non-Veg
+₹1100
+Mumbai
+Twenty Four Hotel
+Veg
+₹799
+Non-Veg
+₹950
+Bangalore
+Royal Orchid Golden Suites
+Veg
+₹800
+Non-Veg
+₹900
+Pune
+Lords Plaza Hotel
+Veg
+₹899
+Non-Veg
+₹1099
+Jaipur
+Hotel Lxia
+Veg
+₹550
+Non-Veg
+₹600
+Pune
+Rain Forest Resort And Spa
+Veg
+₹1000
+Igatpuri
+Inventree Hotels & Resorts
+Veg
+₹800
+Non-Veg
+₹900
+Pune
+Hotel Vaibhav Inn
+Veg
+₹750
+Non-Veg
+₹900
+Lucknow
+Aaswad Banquets And Caterers
+Veg
+₹850
+Mumbai
+Mango Grove Hotel
+Veg
+₹1400
+Non-Veg
+₹1500
+Chandigarh
+Ginger Goa Candolim
+Veg
+₹850
+Non-Veg
+₹900
+Goa
+Madhavgarh Palace
+Veg
+₹3000
+Non-Veg
+₹3000
+Gurgaon
+Susegado Microbrewery
+Veg
+₹1000
+Non-Veg
+₹1000
+Goa
+V Club Retreat
+Veg
+₹1400
+Non-Veg
+₹1600
+Gurgaon
+Flechazo Gold
+Veg
+₹1299
+Non-Veg
+₹1399
+Bangalore
+Hotel Sadanand Regency
+Veg
+₹850
+Non-Veg
+₹1000
+Pune
+The Bluebop Cafe
+Veg
+₹1500
+Non-Veg
+₹2000
+Mumbai
+Hotel Kingston House
+Veg
+₹799
+Non-Veg
+₹999
+Lucknow
+Icon Suites By Bhagini Hotels
+Veg
+₹599
+Non-Veg
+₹749
+Bangalore
+Breakout Escape Rooms
+Veg
+₹599
+Non-Veg
+₹799
+Bangalore
+The Ontime Hotel
+Veg
+₹950
+Non-Veg
+₹1100
+Mumbai
+Cymbal
+Veg
+₹749
+Non-Veg
+₹849
+Gurgaon
+Anr Hotel
+Veg
+₹650
+Lucknow
+Grand Tamanna Hotel
+Veg
+₹700
+Non-Veg
+₹900
+Pune
+Hotel Amanda
+Veg
+₹799
+Non-Veg
+₹999
+Lucknow
+Ramada Gurgaon Central
+Veg
+₹2000
+Non-Veg
+₹2200
+Gurgaon
+Club Florence
+Veg
+₹1500
+Non-Veg
+₹1700
+Gurgaon
+1411 Bar & Kitchen
+Veg
+₹1800
+Non-Veg
+₹2000
+Mumbai
+Hotel Myriad
+Veg
+₹1000
+Non-Veg
+₹1100
+Lucknow
+Tranquil Woods By Jade
+Veg
+₹3500
+Non-Veg
+₹5000
+Bangalore
+asar Landmark Suites Banquet
+Veg
+₹900
+Non-Veg
+₹1100
+Mumbai
+Twenty Four
+STAGE pre-write 24271 ms STAGE done 24383 ms

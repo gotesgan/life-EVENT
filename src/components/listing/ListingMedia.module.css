@@ -1,0 +1,17 @@
+.wrap {
+  position: relative;
+  width: 100%;
+}
+
+/* Used only for the SVG pass-through case and as the placeholder box. */
+.frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background-color: var(--app-surface-muted);
+}
+
+.image {
+  object-fit: cover;
+}
