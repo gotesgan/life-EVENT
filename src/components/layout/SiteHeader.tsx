@@ -21,15 +21,16 @@ import classes from './SiteHeader.module.css';
  *
  * Server-rendered chrome: the brand, the primary nav (real catalogue links) and
  * the theme switch are all static. Only the account affordance reads the
- * session, so it is the one thing behind `<Suspense>` — the header paints
- * immediately and the sign-in/account button streams in a moment later.
+ * session, and the nav reads `usePathname()` for its active state, so both sit
+ * behind `<Suspense>` — the header paints immediately and those two stream in a
+ * moment later.
  *
  * **Colour.** The chrome is *not* painted in the brand colour. An earlier
  * revision filled both bars with it, which measured as a WCAG AA failure in dark
- * mode (white nav text on the dark-scheme light pink, 3.06:1) and spent ~5% of
- * the whole page's pixels on primary fills. The brand now appears three times:
- * the active-section underline, the single primary account CTA, and the focus
- * ring. See the header comment in `SiteHeader.module.css` for the measurements.
+ * mode (white nav text on the dark-scheme light pink, 3.06:1) and spent 5.21% of
+ * the whole page's rendered pixels on primary fills. The brand now appears four times: the
+ * mark’s own tile, the active-section underline, the single primary account
+ * CTA, and the focus ring. See the header comment in `SiteHeader.module.css` for the measurements.
  *
  * **No search field.** The homepage's `<form role="search">` is the only search
  * landmark in the product; a second one in the header would make

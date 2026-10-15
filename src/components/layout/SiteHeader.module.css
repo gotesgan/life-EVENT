@@ -12,15 +12,15 @@
  *     on the dark-scheme light pink at **3.06:1**, below WCAG AA. (Light mode passed
  *     at 5.14:1, which is exactly why the bug survived review.)
  *  2. **A budget breach.** Bars at full bleed plus the card CTAs put **~7.1%** of
- *     the painted area into primary fills, against this project's ≤4% ceiling.
+ *     the painted area into primary fills, against this project’s ≤4% ceiling.
  *
  * The reference research supports the alternative: of the 13 auditable
  * marketplaces, none paints its chrome in the action colour at full bleed. The
  * chrome is a neutral surface; the brand appears as an accent — the active nav
  * rule, the one primary CTA, and the focus ring.
  *
- * The pink identity is intact: it is the underline you are on, the button that
- * does the thing, and the ring you see when you tab. It is simply no longer the
+ * The pink identity is intact: the mark itself, the underline you are on, the
+ * button that does the thing, and the ring you see when you tab. It is simply no longer the
  * wallpaper.
  *
  * ## Rules this file follows
