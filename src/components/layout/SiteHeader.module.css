@@ -95,7 +95,13 @@
   text-decoration: none;
 
   @mixin hover {
-    color: var(--app-brand);
+    /*
+     * `--app-text`, not `--app-brand`: the brand colour on this tinted ground
+     * measures 4.41:1 in the light scheme, 0.09 under AA for 12px/600 text.
+     * This matches `.navLink:hover` and keeps the brand reserved for the ring,
+     * the active rule and the primary CTA.
+     */
+    color: var(--app-text);
     text-decoration: underline;
     text-underline-offset: rem(3px);
   }
@@ -286,7 +292,10 @@
 }
 
 .burgerSlot :global(.mantine-Burger-root) {
-  color: var(--app-text);
+  /* Mantine's Burger paints its bars from `background-color: var(--burger-color)`,
+     so a `color` declaration here does nothing. Verified by overriding it at
+     runtime and watching the bars stay put. */
+  --burger-color: var(--app-text);
 }
 
 .burgerSlot :global(.mantine-Burger-root):focus-visible {
