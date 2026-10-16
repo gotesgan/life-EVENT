@@ -6,8 +6,8 @@ import { paginationSchema } from '@/lib/pagination';
  * order-by clause in the repository — user input is never interpolated into a
  * query.
  *
- * `recommended` is the default: featured listings first, then verified
- * businesses, then most recently published, with `id` as a deterministic
+ * `recommended` is the default: featured listings first, then top picks,
+ * then most recently published, with `id` as a deterministic
  * tie-break so pagination is stable across pages.
  */
 export const LISTING_SORT_OPTIONS = [

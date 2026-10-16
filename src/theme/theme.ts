@@ -5,13 +5,14 @@
  * them:
  *
  * - one font family (Manrope) for every element, including admin tables;
- * - `brand` is the primary colour, `primaryShade` is 6 in light and 4 in dark;
- * - `autoContrast` is on and `luminanceThreshold` is 0.29, which is what makes
+ * - `brand` is the primary colour — charcoal slate, not a hue — with
+ *   `primaryShade` 6 in light and 3 in dark;
+ * - `autoContrast` is on and `luminanceThreshold` is 0.22, which is what makes
  *   a filled brand button legible in *both* schemes (see the measured ratios
  *   below);
  * - reduced motion is respected by Mantine's own transitions;
  * - `slate` is the neutral ramp and Mantine's `gray` ramp is remapped to it in
- *   `cssVariablesResolver`, so no cool grey can appear anywhere.
+ *   `cssVariablesResolver`, so no second neutral family can appear anywhere.
  *
  * `createTheme` returns a plain, serialisable object — `cssVariablesResolver` is
  * a **`MantineProvider` prop**, not a theme field (passing it here is a type
@@ -27,18 +28,18 @@ const FONT_STACK = 'var(--font-manrope), ui-sans-serif, system-ui, sans-serif';
  *
  * `getContrastColor` puts dark text on a fill when `luminance(fill) > theme.luminanceThreshold`,
  * and white text otherwise. The marketplace palette inverts its action colour
- * between schemes — a deep blue in light, a light blue in dark — so the
+ * between schemes — a deep charcoal in light, a light slate in dark — so the
  * threshold has to classify both correctly with a single number:
  *
- *   light `brand[6]` #1F5EDC  luminance 0.135  → white   5.69:1
- *   light `brand[5]` #3371EA  luminance 0.121  → white   6.28:1
- *   dark  `brand[4]` #4E88F5  luminance 0.258  → dark    5.50:1
- *   dark  `brand[3]` #8FB2F9  luminance 0.420  → dark    8.66:1
+ *   light `brand[6]` #0F172A  luminance 0.009  → white  17.85:1
+ *   light `brand[7]` #1E293B  luminance 0.022  → white  14.63:1
+ *   dark  `brand[3]` #CBD5E1  luminance 0.657  → dark   12.02:1
+ *   dark  `brand[4]` #94A3B8  luminance 0.360  → dark    6.96:1
  *
- * 0.22 sits between 0.135 and 0.258, so every one of those takes the readable
- * direction. Mantine's default of 0.3 would put *white* on the dark-scheme blue
- * (3.41:1, an AA failure). The same threshold is correct for the semantic fills:
- * light danger #C2333A (0.141 → white, 5.49:1) and dark danger #F0736F
+ * 0.22 sits between 0.022 and 0.360, so every one of those takes the readable
+ * direction. Mantine's default of 0.3 would put *white* on the dark-scheme
+ * slate (1.79:1, an AA failure). The same threshold is correct for the semantic
+ * fills: light danger #C2333A (0.141 → white, 5.49:1) and dark danger #F0736F
  * (0.319 → dark, 6.59:1).
  */
 export const LUMINANCE_THRESHOLD = 0.22;
@@ -65,9 +66,9 @@ export const theme = createTheme({
 
   colors: palette,
   primaryColor: 'brand',
-  primaryShade: { light: 6, dark: 4 },
+  primaryShade: { light: 6, dark: 3 },
   white: '#FFFFFF',
-  black: '#1D1917',
+  black: '#0F172A',
   autoContrast: true,
   luminanceThreshold: LUMINANCE_THRESHOLD,
 
@@ -113,10 +114,10 @@ export const theme = createTheme({
   },
 
   shadows: {
-    xs: '0 1px 2px rgba(29, 25, 23, 0.06)',
-    sm: '0 1px 2px rgba(29, 25, 23, 0.05), 0 4px 12px -6px rgba(29, 25, 23, 0.12)',
+    xs: '0 1px 2px rgba(15, 23, 42, 0.06)',
+    sm: '0 1px 2px rgba(15, 23, 42, 0.05), 0 4px 12px -6px rgba(15, 23, 42, 0.12)',
     md: 'var(--app-shadow-card)',
-    lg: '0 12px 32px -16px rgba(29, 25, 23, 0.22)',
+    lg: '0 12px 32px -16px rgba(15, 23, 42, 0.22)',
     xl: 'var(--app-shadow-overlay)',
   },
 

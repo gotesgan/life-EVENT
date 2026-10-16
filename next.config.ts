@@ -29,10 +29,11 @@ const nextConfig: NextConfig = {
     // the local driver in development. `next/image` is used with `unoptimized`
     // for those URLs, because the image is already transformed and cached
     // downstream — re-optimising it would double the transformation cost.
+    // Seed photography is committed under `public/media/seed/`, so there is no
+    // third-party image host to allow-list.
     remotePatterns: [
       { protocol: 'https', hostname: '**.r2.dev' },
       { protocol: 'https', hostname: '**.r2.cloudflarestorage.com' },
-      { protocol: 'https', hostname: 'images.unsplash.com' },
     ],
   },
 };

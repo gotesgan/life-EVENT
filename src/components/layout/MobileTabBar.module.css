@@ -1,0 +1,97 @@
+/*
+ * Mobile quick-action bar.
+ *
+ * Fixed to the bottom of the viewport below `lg`, where the header's dropdown
+ * navigation does not exist. The page owes it height back — `SiteShell` adds
+ * `--app-tab-bar-height` to `main`'s bottom padding below the same breakpoint —
+ * so the last row of content is never permanently underneath it.
+ *
+ * `padding-block-end: env(safe-area-inset-bottom)` grows the bar behind a phone's
+ * home indicator instead of letting the indicator sit on top of the labels.
+ */
+
+.bar {
+  position: fixed;
+  inset-inline: 0;
+  inset-block-end: 0;
+  z-index: 190;
+  border-block-start: 1px solid var(--app-border);
+  background-color: var(--app-surface-raised);
+  padding-block-end: env(safe-area-inset-bottom, 0px);
+
+  @mixin larger-than $mantine-breakpoint-lg {
+    display: none;
+  }
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  max-width: var(--app-max-width);
+  margin-inline: auto;
+  margin-block: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  min-width: 0;
+}
+
+.tab {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: rem(2px);
+  min-height: var(--app-tab-bar-height);
+  padding: rem(6px) rem(2px);
+  color: var(--app-text-muted);
+  text-decoration: none;
+
+  @mixin hover {
+    background-color: var(--app-surface-hover);
+  }
+}
+
+.tab:focus-visible {
+  outline: 2px solid var(--app-focus-ring);
+  outline-offset: -2px;
+}
+
+.icon {
+  flex: none;
+}
+
+/* Truncates rather than wraps: a long first name must not push the row taller. */
+.label {
+  max-width: 100%;
+  overflow: hidden;
+  font-size: var(--text-caption-size);
+  font-weight: 600;
+  line-height: 1.1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tab[data-active] {
+  color: var(--app-text);
+}
+
+.tab[data-active] .icon {
+  color: var(--app-brand);
+}
+
+/* The rule is the non-colour half of the active state, matching the desktop
+   nav's underline so both surfaces speak the same language (WCAG 1.4.1). */
+.tab[data-active]::before {
+  content: '';
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline: 28%;
+  height: rem(2px);
+  border-end-start-radius: rem(2px);
+  border-end-end-radius: rem(2px);
+  background-color: var(--app-brand);
+}

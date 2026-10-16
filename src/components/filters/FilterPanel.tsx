@@ -176,7 +176,7 @@ export function FilterPanel({
 
       <div className={classes.switchRow}>
         <Switch
-          label="Verified businesses only"
+          label="Top picks only"
           checked={nav.params.verified === 'true'}
           onChange={() => nav.update((params) => toggleFlag(params, 'verified'))}
         />

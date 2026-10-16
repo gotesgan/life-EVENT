@@ -289,7 +289,7 @@ function buildAppliedFilters(input: {
     delete next.verified;
     chips.push({
       code: 'verified',
-      label: 'Verified only',
+      label: 'Top picks only',
       displayValue: 'Yes',
       removeHref: link(next),
     });

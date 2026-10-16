@@ -37,3 +37,15 @@
      covers the first line of the page after the jump. */
   scroll-margin-block-start: var(--app-header-height);
 }
+
+/*
+ * Below `lg` the quick-action tab bar is fixed to the bottom of the viewport, so
+ * the page owes it the height back — otherwise the last row of content and the
+ * footer are permanently underneath it. `env(safe-area-inset-bottom)` is added
+ * on top for phones with a home indicator.
+ */
+@mixin smaller-than $mantine-breakpoint-lg {
+  .main {
+    padding-block-end: calc(var(--app-tab-bar-height) + env(safe-area-inset-bottom, 0px));
+  }
+}

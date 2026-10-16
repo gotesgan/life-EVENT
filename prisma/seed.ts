@@ -8,7 +8,8 @@
  *   * child collections owned by a row (attribute values, media, services,
  *     packages, venue spaces, category/event-type/service-area links, enquiry
  *     listings, activities, notes) are deleted and rewritten;
- *   * placeholder SVG files are only rewritten when their bytes differ.
+ *   * listing photography is read from `public/media/seed/`, which
+ *     `scripts/fetch-listing-photos.mts` populates and the repository commits.
  *
  * Passwords are written exactly the way Better Auth's Prisma adapter writes
  * them (a `credential` row on `Account`, hashed with Better Auth's default
@@ -16,7 +17,8 @@
  */
 
 import 'dotenv/config';
-import { resolve } from 'node:path';
+import { stat } from 'node:fs/promises';
+import { join, resolve } from 'node:path';
 import { PrismaPg } from '@prisma/adapter-pg';
 import { PrismaClient } from '@/generated/prisma/client';
 import type { AttributeDataType, EnquiryStatus } from '@/generated/prisma/enums';
@@ -27,15 +29,18 @@ import {
   ATTRIBUTE_DEFINITIONS,
   findAttributeDefinition,
 } from './seed-data/attributes';
-import { CATEGORY_SEEDS, EVENT_TYPE_SEEDS, findCategorySeed } from './seed-data/categories';
+import { CATEGORY_SEEDS, EVENT_TYPE_SEEDS } from './seed-data/categories';
 import { ENQUIRY_SEEDS } from './seed-data/enquiries';
 import { LISTING_SEEDS, type ListingSeed } from './seed-data/listings';
 import { findLocationSeed, LOCATION_SEEDS, locationAncestorNames } from './seed-data/locations';
 import {
-  type PlaceholderImage,
-  type ImageVariant,
-  writePlaceholderImage,
-} from './seed-data/placeholder-images';
+  LISTING_PHOTOS,
+  PHOTO_HEIGHT,
+  PHOTO_WIDTH,
+  photoFileName,
+  photoPublicUrl,
+  photoStorageKey,
+} from './seed-data/listing-photos';
 import { USER_SEEDS } from './seed-data/users';
 
 /**
@@ -760,9 +765,14 @@ async function seedListings(context: {
       });
     }
 
-    const variants: ImageVariant[] = ['cover'];
-    if (listing.galleryCount >= 1) variants.push('gallery-2');
-    if (listing.galleryCount >= 2) variants.push('gallery-3');
+    const photos = LISTING_PHOTOS[listing.slug];
+    if (!photos || photos.length === 0) {
+      throw new Error(
+        `No photography catalogued for "${listing.slug}". Add it to ` +
+          'prisma/seed-data/listing-photos.ts, then run ' +
+          '`pnpm tsx scripts/fetch-listing-photos.mts`.',
+      );
+    }
 
     const mediaRows: {
       listingId: string;
@@ -779,31 +789,33 @@ async function seedListings(context: {
       isCover: boolean;
     }[] = [];
 
-    for (const [index, variant] of variants.entries()) {
-      const image: PlaceholderImage = await writePlaceholderImage(MEDIA_DIRECTORY, {
-        slug: listing.slug,
-        family: findCategorySeed(listing.primaryCategorySlug).familySlug,
-        variant,
-      });
+    for (const [index, photo] of photos.entries()) {
+      const fileName = photoFileName(listing.slug, photo.variant);
+      const filePath = join(MEDIA_DIRECTORY, fileName);
 
-      const altText =
-        variant === 'cover'
-          ? `Abstract placeholder cover for ${listing.name}`
-          : `Abstract placeholder gallery image ${variant.slice(-1)} for ${listing.name}`;
+      let sizeBytes: number;
+      try {
+        ({ size: sizeBytes } = await stat(filePath));
+      } catch {
+        throw new Error(
+          `Missing photo file public/media/seed/${fileName}. ` +
+            'Run `pnpm tsx scripts/fetch-listing-photos.mts`.',
+        );
+      }
 
       mediaRows.push({
         listingId: row.id,
-        storageKey: image.storageKey,
-        publicUrl: image.publicUrl,
-        altText,
+        storageKey: photoStorageKey(listing.slug, photo.variant),
+        publicUrl: photoPublicUrl(listing.slug, photo.variant),
+        altText: photo.alt,
         kind: 'IMAGE',
         status: 'READY',
-        mimeType: image.mimeType,
-        sizeBytes: image.sizeBytes,
-        width: image.width,
-        height: image.height,
+        mimeType: 'image/jpeg',
+        sizeBytes,
+        width: PHOTO_WIDTH,
+        height: PHOTO_HEIGHT,
         sortOrder: index * 10,
-        isCover: variant === 'cover',
+        isCover: photo.variant === 'cover',
       });
     }
 
@@ -1023,10 +1035,10 @@ async function seedAuditLogs(context: { adminId: string; listings: IdMap }): Pro
       action: 'listing.media_uploaded',
       entityType: 'BusinessListing',
       entityId,
-      summary: `Uploaded placeholder cover for "${listing.name}"`,
+      summary: `Uploaded cover photo for "${listing.name}"`,
       actorUserId: context.adminId,
       actorName: 'Platform Admin',
-      metadata: { storageKey: `seed/${listing.slug}-cover.svg` },
+      metadata: { storageKey: `seed/${listing.slug}-cover.jpg` },
       createdAt: new Date(Date.UTC(2026, 4, 2 + index, 4, 45, 0)),
     });
   });
@@ -1169,7 +1181,7 @@ async function printSummary(summary: SeedSummary): Promise<void> {
   console.log('Seed complete.');
   console.log(`  writes this run: ${summary.listings} listings, ${summary.enquiries} enquiries`);
   console.log(
-    `  published listings: ${summary.publishedListings}, placeholder media: ${summary.listingMedia}`,
+    `  published listings: ${summary.publishedListings}, listing photos: ${summary.listingMedia}`,
   );
   console.log('');
   for (const [table, key] of perTable) {

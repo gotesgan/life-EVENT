@@ -24,21 +24,21 @@ export const metadata: Metadata = {
     template: '%s · Live Envt',
   },
   description:
-    'Find banquet halls, photographers, decorators, caterers and more. Compare published prices, capacity and verified details, then send one short enquiry — no phone-number chasing, no booking maze.',
+    'Find banquet halls, photographers, decorators, caterers and more. Compare published prices, capacity and inclusions, then send one short enquiry — no phone-number chasing, no booking maze.',
   robots: { index: true, follow: true },
   openGraph: {
     type: 'website',
     siteName: 'Live Envt',
     title: 'Live Envt — wedding and event vendors, with real prices',
     description:
-      'Compare published prices, capacity and verified details across wedding and event vendors. One short enquiry form, sent to the vendors you choose.',
+      'Compare published prices, capacity and inclusions across wedding and event vendors. One short enquiry form, sent to the vendors you choose.',
     url: appUrl,
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Live Envt — wedding and event vendors, with real prices',
     description:
-      'Compare published prices, capacity and verified details across wedding and event vendors.',
+      'Compare published prices, capacity and inclusions across wedding and event vendors.',
   },
 };
 
