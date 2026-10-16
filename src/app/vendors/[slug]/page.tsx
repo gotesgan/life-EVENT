@@ -15,7 +15,7 @@ import { ProfileJumpNav, type JumpNavItem } from '@/components/listing/ProfileJu
 import { RelatedListings } from '@/components/listing/RelatedListings';
 import { ServiceList } from '@/components/listing/ServiceList';
 import { SpaceList } from '@/components/listing/SpaceList';
-import { VerifiedBadge } from '@/components/listing/VerifiedBadge';
+import { TopPickBadge } from '@/components/listing/TopPickBadge';
 import { Container } from '@/components/ui/Container';
 import { PageHeader } from '@/components/ui/PageHeader';
 import { PriceTag } from '@/components/ui/PriceTag';
@@ -180,7 +180,7 @@ async function ListingProfile({ slug }: { slug: string }) {
             }
             actions={
               <div className={classes.identityActions}>
-                <VerifiedBadge isVerified={isVerified} size="md" />
+                <TopPickBadge isVerified={isVerified} size="md" />
                 <span className={classes.mobileCta}>
                   {/*
                    * Shortlist-aware, like the primary CTA further down the page.

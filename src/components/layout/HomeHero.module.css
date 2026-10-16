@@ -2,26 +2,28 @@
   position: relative;
   overflow: hidden;
   border-bottom: 1px solid var(--app-border);
-  background-color: #1a1214;
+  /* The colour behind the photograph while it decodes. Charcoal slate rather
+     than a warm near-black: a warm base tints the photograph's shadows. */
+  background-color: var(--app-brand);
   isolation: isolate;
 }
 
 .photo {
   object-fit: cover;
-  object-position: center 30%;
+  object-position: center 40%;
   z-index: -2;
 }
 
+/* A single, even scrim. The previous gradient ran 55% → 45% → 65% with a warm
+   red-black, which left the middle band lighter than both ends and gave white
+   text an inconsistent background to sit on. A flat `--app-overlay` (slate-900/60
+   in light) is the documented treatment: enough to hold AA white text at every
+   scroll position, predictable over any photograph. */
 .overlay {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(
-    180deg,
-    rgb(20 8 12 / 55%) 0%,
-    rgb(20 8 12 / 45%) 45%,
-    rgb(20 8 12 / 65%) 100%
-  );
+  background: var(--app-overlay);
 }
 
 .glow {
@@ -54,7 +56,7 @@
 .title {
   margin: 0;
   max-width: 22ch;
-  color: #fff;
+  color: var(--app-text-on-dark);
   font-size: var(--text-display-size);
   font-weight: var(--text-display-weight);
   line-height: var(--text-display-leading);
@@ -69,7 +71,7 @@
 .lede {
   margin: 0;
   max-width: 52ch;
-  color: rgb(255 255 255 / 85%);
+  color: var(--app-text-on-dark-muted);
   font-size: var(--text-body-size);
   line-height: var(--text-body-leading);
 }
@@ -92,7 +94,7 @@
   display: flex;
   align-items: center;
   gap: rem(6px);
-  color: rgb(255 255 255 / 90%);
+  color: var(--app-text-on-dark-muted);
   font-size: var(--text-secondary-size);
   font-weight: 550;
 }
@@ -102,27 +104,38 @@
 }
 
 .factIcon {
-  color: #7ddf9a;
+  /* Always drawn over the slate-900/60 scrim, so it needs the light success
+     tint rather than the scheme's `--app-success` (a dark green in light). */
+  color: var(--app-success-on-dark);
 }
 
+/* No photograph: the hero falls back to a light surface, so every white-on-dark
+   rule above has to flip back to ink — including the check glyph. */
 .hero:not(:has(.photo)) .factIcon {
   color: var(--app-success);
 }
 
-/* White card holding the search form — the key cue from the references. */
+/* The crisp white search card (`bg-white shadow-xl rounded-2xl p-4 sm:p-6`).
+   It is the only elevated object in the hero, and the form inside it is drawn
+   flat so the card reads as one control surface rather than a card-in-a-card. */
 .searchCard {
   width: 100%;
-  margin-top: rem(10px);
+  margin-top: rem(16px);
   padding: rem(16px);
-  border-radius: var(--mantine-radius-lg);
-  background: #fff;
-  box-shadow: 0 20px 60px rgb(0 0 0 / 35%);
+  border: 1px solid var(--app-border);
+  border-radius: rem(16px);
+  background: var(--app-surface-raised);
+  box-shadow: var(--app-shadow-top);
   text-align: start;
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    padding: rem(24px);
+  }
 }
 
 .popular {
   margin: rem(4px) 0 0;
-  color: rgb(255 255 255 / 75%);
+  color: var(--app-text-on-dark-subtle);
   font-size: var(--text-secondary-size);
 }
 
@@ -131,12 +144,12 @@
 }
 
 .popularLink {
-  color: #fff;
+  color: var(--app-text-on-dark);
   text-decoration: underline;
   text-underline-offset: 3px;
-  text-decoration-color: rgb(255 255 255 / 50%);
+  text-decoration-color: var(--app-text-on-dark-subtle);
 }
 
 .popularLink:hover {
-  text-decoration-color: #fff;
+  text-decoration-color: var(--app-text-on-dark);
 }

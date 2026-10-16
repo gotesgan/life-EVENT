@@ -43,9 +43,8 @@ export default function TermsPage() {
               confirm the final details with them before you rely on anything.
             </p>
             <p>
-              A &ldquo;verified&rdquo; mark means the business&rsquo;s details were checked and that
-              check is recorded. It does not mean we recommend the business, guarantee its work, or
-              have inspected anything it does.
+              A &ldquo;top pick&rdquo; marks a listing our team chose to highlight. It does not mean
+              we recommend the business, guarantee its work, or have inspected anything it does.
             </p>
           </Prose>
         </PageSection>

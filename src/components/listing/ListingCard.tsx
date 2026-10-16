@@ -3,7 +3,7 @@ import { PriceTag } from '@/components/ui/PriceTag';
 import type { ListingCard as ListingCardDto } from '@/server/dto/listing.dto';
 import { AddToEnquiryButton, EnquirySubmitLink } from './EnquiryShortlist';
 import { ListingMedia } from './ListingMedia';
-import { VerifiedBadge } from './VerifiedBadge';
+import { TopPickBadge } from './TopPickBadge';
 import classes from './ListingCard.module.css';
 
 export interface ListingCardProps {
@@ -107,7 +107,7 @@ export function ListingCard({ listing, preloadImage = false }: ListingCardProps)
         <div className={classes.metaRow}>
           {metaLine ? <span className={classes.metaText}>{metaLine}</span> : null}
           <span className={classes.badgeSlot}>
-            <VerifiedBadge isVerified={listing.isVerified} />
+            <TopPickBadge isVerified={listing.isVerified} />
           </span>
         </div>
 

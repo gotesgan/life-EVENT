@@ -5,18 +5,18 @@
  * deliberately not a filter wall: the results page owns the full rail, and a
  * search box that asks for six things before it will answer gets abandoned.
  *
- * The console is a recessed panel on the raised hero so the three fields read as
- * one object rather than as three loose inputs on a photograph-free banner.
+ * The console draws **no chrome of its own**. It used to paint a
+ * `--app-surface-muted` panel with its own border inside the hero's white card,
+ * which produced a visible card-inside-a-card and, while the neutral ramp was
+ * pink, the "floating pink search box" that made the hero look tinted. The white
+ * card in `HomeHero.module.css` owns the border, radius and shadow; this is just
+ * the field grid.
  */
 .form {
   display: grid;
   grid-template-columns: 1fr;
-  gap: rem(10px);
+  gap: rem(12px);
   width: 100%;
-  padding: rem(12px);
-  border: 1px solid var(--app-border);
-  border-radius: var(--app-radius-card);
-  background-color: var(--app-surface-muted);
 
   @mixin larger-than $mantine-breakpoint-sm {
     grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) minmax(0, 1.4fr) auto;

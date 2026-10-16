@@ -45,9 +45,9 @@ export default function AboutPage() {
               number.
             </p>
             <p>
-              A &ldquo;verified&rdquo; mark appears only when that business&rsquo;s details have
-              actually been checked and recorded. A business without the mark is not being called
-              untrustworthy — it simply has not been through that check.
+              A &ldquo;top pick&rdquo; is a listing our team has chosen to highlight. It is an
+              editorial choice, not a paid placement and not a promise about the business — a
+              listing without it is no less worth your time.
             </p>
           </Prose>
         </PageSection>

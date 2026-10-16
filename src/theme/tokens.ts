@@ -16,9 +16,12 @@
  * A **marketplace** world, not an editorial one. The references are Amazon,
  * Flipkart and Myntra (see `docs/marketplace-styling-guide.md`): a neutral wall,
  * one dominant action colour, and colour spent almost entirely on action and
- * status rather than on decoration. The palette is deliberately cool — a deep
- * action blue on a cool slate neutral — with a single warm amber accent carrying
- * the wedding register and the "featured / verified" highlights.
+ * status rather than on decoration. The palette is deliberately neutral — a
+ * charcoal action on a cool slate neutral — with a single warm amber accent
+ * carrying the wedding register and the "featured / verified" highlights.
+ *
+ * Neutrals do the work; the only saturation in the system is the amber accent
+ * and the semantic status tones.
  *
  * Coverage budget, enforced by review rather than by code: neutrals ≥90% of
  * painted area, ink ≤9%, primary ≤4% (at most one primary fill per card and per
@@ -40,23 +43,39 @@ import type { MantineColorsTuple } from '@mantine/core';
 /* -------------------------------------------------------------------------- */
 
 /**
- * Primary. A deep marketplace blue — links, primary actions, active navigation.
+ * Primary. **Charcoal slate** — links, primary actions, active navigation.
  *
  * One action colour for the whole product. A marketplace needs the eye to learn
- * a single "this does something" signal, and spending the blue anywhere else
- * (badges, headings, borders) spends the affordance itself.
+ * a single "this does something" signal, and spending it anywhere else (badges,
+ * headings, borders) spends the affordance itself.
+ *
+ * This ramp is deliberately role-keyed rather than a smooth light→dark sweep,
+ * because the two things Mantine reads out of it want opposite directions:
+ *
+ *   * `primaryShade.light = 6` → `#0F172A` (slate-900). White text, 17.85:1.
+ *   * `primaryShade.dark  = 3` → `#CBD5E1` (slate-300). Dark text, 12.02:1.
+ *   * shade 7 is deliberately **lighter** than shade 6, so the filled-button
+ *     hover raises the fill (`slate-900` → `slate-800`) instead of deepening it.
+ *
+ * A neutral action colour is the point: a saturated hue reads as decoration on a
+ * page that already spends amber on "featured" and green on "verified". Neutral
+ * actions plus one warm accent is the register a general-purpose marketplace
+ * uses, and it cannot clash with a photograph of somebody's wedding.
+ *
+ * Shades 0–5 are the tints and mid-neutrals the `light`/`outline`/`subtle`
+ * variants draw on; 8–9 are pressed states.
  */
 export const brand: MantineColorsTuple = [
-  '#FFF1F7',
-  '#FFDCEA',
-  '#FFB7CE',
-  '#FB8DB4',
-  '#F25F97',
-  '#E63A7C',
-  '#D6006E',
-  '#AE005A',
-  '#850046',
-  '#5C0031',
+  '#F8FAFC',
+  '#F1F5F9',
+  '#E2E8F0',
+  '#CBD5E1',
+  '#94A3B8',
+  '#64748B',
+  '#0F172A',
+  '#1E293B',
+  '#334155',
+  '#475569',
 ];
 
 /** Secondary. Warm amber — the wedding register, featured and verified marks. */
@@ -76,18 +95,23 @@ export const accent: MantineColorsTuple = [
 /**
  * Cool slate neutral. Replaces Mantine's `gray` ramp everywhere, so no second
  * neutral family leaks in. This is the wall: ≥90% of the painted area.
+ *
+ * The previous ramp was named `plum` and carried a pink cast (`#FDF7F9`,
+ * `#F9EDF1`), which tinted the entire canvas and every Mantine grey — the
+ * "washed-out pink" the redesign removes. These are the standard cool slate
+ * steps, so a white card separates from the wall by luminance alone.
  */
-export const plum: MantineColorsTuple = [
-  '#FFFFFF',
-  '#FDF7F9',
-  '#F9EDF1',
-  '#EFDCE2',
-  '#DDC2CC',
-  '#C68EA0',
-  '#AA7A89',
-  '#8D6672',
-  '#71515B',
-  '#553D44',
+export const slate: MantineColorsTuple = [
+  '#F8FAFC',
+  '#F1F5F9',
+  '#E2E8F0',
+  '#CBD5E1',
+  '#94A3B8',
+  '#64748B',
+  '#475569',
+  '#334155',
+  '#1E293B',
+  '#0F172A',
 ];
 
 /** Success. Signal green for confirmed and verified states. */
@@ -132,18 +156,18 @@ export const danger: MantineColorsTuple = [
   '#54151A',
 ];
 
-/** Dark-theme surfaces and primary dark text, lightest → deepest. */
+/** Dark-theme surfaces and primary dark text, lightest → deepest. Cool, never warm. */
 export const dark: MantineColorsTuple = [
-  '#FBEEF1',
-  '#E7D5DA',
-  '#C9AEB7',
-  '#A88E97',
-  '#8A6B75',
-  '#6B4F58',
-  '#3A282C',
-  '#2C1E21',
-  '#221719',
-  '#191114',
+  '#F1F5F9',
+  '#CBD5E1',
+  '#A8B3C4',
+  '#8A97AB',
+  '#64748B',
+  '#475569',
+  '#334155',
+  '#232A34',
+  '#171C24',
+  '#0F1319',
 ];
 
 /**
@@ -151,17 +175,17 @@ export const dark: MantineColorsTuple = [
  * Mantine's `gray` ramp (see `css-variables-resolver.ts`) so every neutral in
  * the product comes from one family.
  */
-export const palette = { brand, accent, plum, success, warning, danger, dark } as const;
+export const palette = { brand, accent, slate, success, warning, danger, dark } as const;
 
 /*
  * Scheme-dependent surface ramp, kept here as comments because these four
  * values are the ones a reviewer will want to sanity-check:
  *
  *              darkest ──────────────────────────────► lightest
- *   light:  sunken #E3E6EB · muted #EEF1F4 · surface #F7F8FA · raised #FFFFFF
+ *   light:  sunken #E2E8F0 · muted #F1F5F9 · surface #F8FAFC · raised #FFFFFF
  *   dark:   sunken #0A0D12 · surface #0F1319 · raised #171C24 · muted #232A34
  *
- * In light mode the canvas is a whisper-cool off-white and cards are pure white,
+ * In light mode the canvas is a neutral cool off-white and cards are pure white,
  * so elevation reads as "brighter is higher" and a white card separates from the
  * wall without needing a shadow. In dark mode elevation reads as "lighter is
  * higher" on the palette steps 9 → 8 → 7, with one derived step below the canvas
@@ -173,34 +197,39 @@ export const palette = { brand, accent, plum, success, warning, danger, dark } a
 /* -------------------------------------------------------------------------- */
 
 export const lightSchemeTokens = {
-  /* Surfaces: brightest is highest. */
-  '--app-surface': '#FFF7F9',
+  /* Surfaces: brightest is highest. A clean, neutral, cool canvas (slate-50)
+     with **pure white** cards. The previous canvas was a pink-tinted `#FFF7F9`
+     with a `#FBE9EF` muted step, which tinted every card edge and made white
+     photographs look warm. A neutral wall is what lets a photograph be the only
+     colour on a browse grid. */
+  '--app-surface': '#F8FAFC',
   '--app-surface-raised': '#FFFFFF',
-  '--app-surface-muted': '#FBE9EF',
-  '--app-surface-sunken': '#F5DCE5',
-  '--app-surface-hover': '#FFF0F5',
+  '--app-surface-muted': '#F1F5F9',
+  '--app-surface-sunken': '#E2E8F0',
+  '--app-surface-hover': '#F1F5F9',
 
   /* Borders. `border` is a decorative hairline and carries no contrast duty.
      `border-strong` is the outline of an actual control, so it must clear the
-     3:1 non-text requirement of WCAG 1.4.11 — measured 3.40:1 on white. */
-  '--app-border': '#F0D8E1',
-  '--app-border-strong': '#9A7084',
+     3:1 non-text requirement of WCAG 1.4.11 — measured 4.55:1 on the canvas. */
+  '--app-border': '#E2E8F0',
+  '--app-border-strong': '#64748B',
 
   /* Text. All three clear 4.5:1 on the canvas, on muted and on every raised
-     surface. */
-  '--app-text': '#1C1416',
-  '--app-text-muted': '#553D44',
-  '--app-text-subtle': '#71515B',
+     surface. Measured: text 17.06:1, muted 7.24:1, subtle 4.55:1 on the canvas. */
+  '--app-text': '#0F172A',
+  '--app-text-muted': '#475569',
+  '--app-text-subtle': '#64748B',
 
-  /* Brand — the action colour. `brand-soft` is a tint for quiet emphasis
-     (selected filter, active nav row), never a large fill. */
-  '--app-brand': '#D6006E',
-  '--app-brand-soft': 'rgba(214, 0, 110, 0.08)',
-  '--app-brand-soft-hover': 'rgba(214, 0, 110, 0.14)',
-  '--app-brand-soft-text': '#A3005A',
+  /* Brand — the action colour. Charcoal slate, not a hue: `brand-soft` is a tint
+     for quiet emphasis (selected filter, active nav row), never a large fill. */
+  '--app-brand': '#0F172A',
+  '--app-brand-soft': 'rgba(15, 23, 42, 0.06)',
+  '--app-brand-soft-hover': 'rgba(15, 23, 42, 0.11)',
+  '--app-brand-soft-text': '#1E293B',
   '--app-brand-contrast': '#FFFFFF',
 
-  /* Accent — amber, for featured and warm emphasis. Text-safe on white. */
+  /* Accent — amber, for featured and warm emphasis. Text-safe on white
+     (measured 4.66:1 on the canvas). It is the only warm hue in the system. */
   '--app-accent': '#A85F0A',
   '--app-accent-soft': 'rgba(168, 95, 10, 0.12)',
   '--app-accent-soft-hover': 'rgba(168, 95, 10, 0.18)',
@@ -231,18 +260,19 @@ export const lightSchemeTokens = {
   '--app-contrast': '#FFFFFF',
 
   /* Focus + overlays */
-  '--app-focus-ring': '#D6006E',
-  '--app-overlay': 'rgba(28, 20, 22, 0.55)',
+  '--app-focus-ring': '#0F172A',
+  '--app-overlay': 'rgba(15, 23, 42, 0.60)',
 
   /* Elevation. E0 is the default and is *not* a shadow — a resting card is a
      1px border on a white surface. Shadows are reserved for things that float
-     above the page, so 95% of the app paints none. */
-  '--app-shadow-raised': '0 1px 2px rgba(28, 20, 22, 0.06), 0 2px 8px -3px rgba(28, 20, 22, 0.10)',
+     above the page, so 95% of the app paints none. Tinted with the slate ink
+     rather than a warm black, so a shadow never adds a brown cast. */
+  '--app-shadow-raised': '0 1px 2px rgba(15, 23, 42, 0.06), 0 2px 8px -3px rgba(15, 23, 42, 0.10)',
   '--app-shadow-overlay':
-    '0 1px 2px rgba(28, 20, 22, 0.05), 0 10px 28px -14px rgba(28, 20, 22, 0.16)',
-  '--app-shadow-card': '0 1px 2px rgba(28, 20, 22, 0.05), 0 10px 28px -14px rgba(28, 20, 22, 0.16)',
-  '--app-shadow-top': '0 28px 72px -18px rgba(28, 20, 22, 0.30)',
-  '--app-shadow-overlay-strong': '0 28px 72px -18px rgba(28, 20, 22, 0.3)',
+    '0 1px 2px rgba(15, 23, 42, 0.05), 0 10px 28px -14px rgba(15, 23, 42, 0.16)',
+  '--app-shadow-card': '0 1px 2px rgba(15, 23, 42, 0.05), 0 10px 28px -14px rgba(15, 23, 42, 0.16)',
+  '--app-shadow-top': '0 28px 72px -18px rgba(15, 23, 42, 0.30)',
+  '--app-shadow-overlay-strong': '0 28px 72px -18px rgba(15, 23, 42, 0.3)',
 } as const;
 
 /* -------------------------------------------------------------------------- */
@@ -250,32 +280,32 @@ export const lightSchemeTokens = {
 /* -------------------------------------------------------------------------- */
 
 export const darkSchemeTokens = {
-  '--app-surface': '#191114',
-  '--app-surface-raised': '#221719',
-  '--app-surface-muted': '#2C1E21',
-  '--app-surface-sunken': '#120C0E',
-  '--app-surface-hover': '#33232A',
+  '--app-surface': '#0F1319',
+  '--app-surface-raised': '#171C24',
+  '--app-surface-muted': '#232A34',
+  '--app-surface-sunken': '#0A0D12',
+  '--app-surface-hover': '#1C222C',
 
   /* Raised, not lowered: on dark ground a hairline must be *lighter* than the
      surface to be perceptible, and a control outline must still clear 3:1 —
-     `border-strong` measures 3.06:1 on the canvas. */
-  '--app-border': '#3A282C',
-  '--app-border-strong': '#8A6B75',
+     `border-strong` measures 3.91:1 on the canvas. */
+  '--app-border': '#263042',
+  '--app-border-strong': '#64748B',
 
   /* Re-tuned so muted and subtle hold ≥4.5:1 on the canvas and on raised
-     surfaces. */
-  '--app-text': '#FBEEF1',
-  '--app-text-muted': '#C4A9B2',
-  '--app-text-subtle': '#A88E97',
+     surfaces. Measured: text 17.00:1, muted 8.79:1, subtle 6.29:1. */
+  '--app-text': '#F1F5F9',
+  '--app-text-muted': '#A8B3C4',
+  '--app-text-subtle': '#8A97AB',
 
-  /* The action colour inverts: a light blue fill with near-black text, because
-     white on any blue light enough to read against a near-black canvas fails
-     4.5:1. Measured 5.50:1 with the dark ink. */
-  '--app-brand': '#F25F97',
-  '--app-brand-soft': 'rgba(242, 95, 151, 0.16)',
-  '--app-brand-soft-hover': 'rgba(242, 95, 151, 0.24)',
-  '--app-brand-soft-text': '#FFB7CE',
-  '--app-brand-contrast': '#1C1416',
+  /* The action colour inverts: a light slate fill with near-black text, because
+     a charcoal fill is invisible against a near-black canvas. Measured 12.02:1
+     with the dark ink. */
+  '--app-brand': '#CBD5E1',
+  '--app-brand-soft': 'rgba(203, 213, 225, 0.14)',
+  '--app-brand-soft-hover': 'rgba(203, 213, 225, 0.22)',
+  '--app-brand-soft-text': '#E2E8F0',
+  '--app-brand-contrast': '#0F172A',
 
   '--app-accent': '#E0A046',
   '--app-accent-soft': 'rgba(224, 160, 70, 0.18)',
@@ -299,10 +329,10 @@ export const darkSchemeTokens = {
 
   /* Every dark-scheme semantic tone is a light colour, so a saturated fill takes
      the near-black. */
-  '--app-contrast': '#1C1416',
+  '--app-contrast': '#0F172A',
 
-  '--app-focus-ring': '#F87FAE',
-  '--app-overlay': 'rgba(10, 6, 8, 0.72)',
+  '--app-focus-ring': '#CBD5E1',
+  '--app-overlay': 'rgba(2, 6, 23, 0.72)',
 
   /* Dark alphas are far higher than light ones on purpose: a 5%-black shadow on
      a near-black canvas is invisible, so elevation has to be bought with depth
@@ -319,6 +349,22 @@ export const darkSchemeTokens = {
 /* -------------------------------------------------------------------------- */
 
 export const sharedTokens = {
+  /* A light success tint for content that sits on a *dark* scrim regardless of
+     the active scheme — currently the check glyphs in the homepage hero, which
+     are always drawn over the `slate-900/60` photograph overlay. Without it the
+     light scheme's `--app-success` (#1B7F4B) would be a dark green on a dark
+     scrim, and the alternative is a hex literal outside this file. */
+  '--app-success-on-dark': '#6FD3A1',
+
+  /* Text drawn on the same dark scrim. These do not flip with the scheme — the
+     photograph and its `--app-overlay` are dark in both — so they are a
+     three-step white ramp rather than `--app-text` and friends. Two nearly
+     identical alphas (90% and 85%) were folded into one muted step; the link
+     underline moved up to the subtle step so the affordance is perceivable. */
+  '--app-text-on-dark': '#FFFFFF',
+  '--app-text-on-dark-muted': 'rgb(255 255 255 / 90%)',
+  '--app-text-on-dark-subtle': 'rgb(255 255 255 / 75%)',
+
   /* Radii. Radius cost scales with how many times it is drawn: 24 tiles at a
      generous 16px reads as a field of lozenges and the grid edges stop
      registering, so dense browse surfaces step *down*, not up. */
@@ -331,6 +377,7 @@ export const sharedTokens = {
   '--app-max-width': '1280px',
   '--app-header-height': '4rem',
   '--app-header-utility-height': '2.25rem',
+  '--app-tab-bar-height': '3.25rem',
   '--app-sidebar-width': '16.5rem',
 
   /* Component-level rhythm. These are the only spacing values a component should
@@ -358,7 +405,7 @@ export const sharedTokens = {
 
 /** Mantine's own neutral ramp is remapped to `slate` so no second family leaks in. */
 export const grayRampTokens = Object.fromEntries(
-  plum.map((shade, index) => [`--mantine-color-gray-${index}`, shade]),
+  slate.map((shade, index) => [`--mantine-color-gray-${index}`, shade]),
 ) as Record<`--mantine-color-gray-${number}`, string>;
 
 /** Every colour-bearing semantic token, in emission order. */

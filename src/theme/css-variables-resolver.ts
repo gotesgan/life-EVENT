@@ -58,8 +58,9 @@ export const cssVariablesResolver: CSSVariablesResolver = () => ({
     '--mantine-color-disabled': 'var(--app-surface-muted)',
 
     /* Mantine derives the dark `light` variant by darkening shade 9 by 50%,
-       which for plum is a near-black chip. Replace it with a real, desaturated
-       plum tint and keep the chip label light enough to read on it. */
+       which for the charcoal ramp is a near-black chip on a near-black canvas.
+       Replace it with a real, desaturated slate tint and keep the chip label
+       light enough to read on it. */
     '--mantine-color-brand-light': 'var(--app-brand-soft)',
     '--mantine-color-brand-light-hover': 'var(--app-brand-soft-hover)',
     '--mantine-color-brand-light-color': 'var(--app-brand-soft-text)',

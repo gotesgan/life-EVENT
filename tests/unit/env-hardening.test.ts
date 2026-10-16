@@ -18,6 +18,7 @@ const MANAGED_KEYS = [
   'BETTER_AUTH_SECRET',
   'IP_HASH_SALT',
   'ALLOW_LOCAL_MEDIA_STORAGE',
+  'NEXT_PUBLIC_APP_URL',
   'NEXT_PHASE',
   'R2_ACCESS_KEY_ID',
   'R2_SECRET_ACCESS_KEY',
@@ -31,6 +32,7 @@ const VALID_PRODUCTION = {
   DATABASE_URL: 'postgresql://user:pass@host:5432/db?schema=public',
   BETTER_AUTH_SECRET: 'a'.repeat(48),
   IP_HASH_SALT: 'b'.repeat(24),
+  NEXT_PUBLIC_APP_URL: 'https://liveenvt.example',
   ALLOW_LOCAL_MEDIA_STORAGE: 'false',
   R2_ACCESS_KEY_ID: 'key',
   R2_SECRET_ACCESS_KEY: 'secret',
@@ -90,6 +92,21 @@ describe('production environment hardening', () => {
   it('rejects an IP hash salt that is too short to be a real secret', () => {
     applyEnv({ NODE_ENV: 'production', IP_HASH_SALT: 'short' });
     expect(() => getServerEnv()).toThrow(/IP_HASH_SALT/);
+  });
+
+  it('rejects a production deploy with no public app URL', () => {
+    applyEnv({ NODE_ENV: 'production', NEXT_PUBLIC_APP_URL: undefined });
+    expect(() => getServerEnv()).toThrow(/NEXT_PUBLIC_APP_URL/);
+  });
+
+  it('rejects a production deploy that falls back to the localhost default', () => {
+    applyEnv({ NODE_ENV: 'production', NEXT_PUBLIC_APP_URL: 'http://localhost:3000' });
+    expect(() => getServerEnv()).toThrow(/NEXT_PUBLIC_APP_URL/);
+  });
+
+  it('rejects a production app URL with no scheme to build links from', () => {
+    applyEnv({ NODE_ENV: 'production', NEXT_PUBLIC_APP_URL: 'liveenvt.example' });
+    expect(() => getServerEnv()).toThrow(/NEXT_PUBLIC_APP_URL/);
   });
 
   it('rejects a production deploy with no media storage configured', () => {
@@ -153,6 +170,7 @@ describe('the build phase is exempt from deployment checks', () => {
       NEXT_PHASE: 'phase-production-build',
       BETTER_AUTH_SECRET: 'replace-with-a-long-random-secret',
       IP_HASH_SALT: 'dev-only-ip-salt',
+      NEXT_PUBLIC_APP_URL: 'http://localhost:3000',
       R2_ACCESS_KEY_ID: undefined,
       R2_SECRET_ACCESS_KEY: undefined,
       R2_BUCKET: undefined,

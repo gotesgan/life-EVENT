@@ -1,52 +1,36 @@
 'use client';
 
-import Link from '@/components/ui/ClientLink';
-import { Burger, Drawer, NavLink } from '@mantine/core';
+import { Suspense } from 'react';
+import { Burger, Drawer } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { IconChevronRight } from '@tabler/icons-react';
-import { FOOTER_COMPANY, FOOTER_LEGAL, PRIMARY_NAV } from './navigation';
+import { MobileNavLinks } from './MobileNavLinks';
 import classes from './MobileNav.module.css';
 
-export interface MobileNavProps {
-  /** Extra links appended under "Categories" — supplied by the caller when known. */
-  categoryLinks?: ReadonlyArray<{ href: string; label: string }>;
-}
-
 /**
- * Mobile navigation as a left-side `Drawer`.
+ * Mobile navigation as a left-side `Drawer` — the counterpart to the
+ * quick-action bar.
  *
- * Mantine's `Drawer` traps focus, closes on Escape, restores focus to the
- * burger on close and locks scroll — all defaults, none of them disabled here.
- * `Burger` carries its own accessible label and `aria-expanded`, which is why
- * its label is left exactly as it is.
+ * The split is deliberate: five controls are always reachable on the bar (home,
+ * browse, search, enquire, account), and *everything else* is here, which is why
+ * this drawer carries four labelled groups rather than a short list. Group labels
+ * are visible rather than `visually-hidden`: the drawer holds thirteen rows, and
+ * unlabelled blocks of links are a wall.
  *
- * Group labels are visible rather than `visually-hidden`: at 82vw the drawer
- * holds four lists and roughly twenty rows, and four unlabelled blocks of links
- * is a wall. The accessible name of each link is unchanged — the group label
- * was already exposed, it just now also paints.
+ * Mantine's `Drawer` traps focus, closes on Escape, restores focus to the burger
+ * on close and locks scroll — all defaults, none of them disabled here. `Burger`
+ * carries its own accessible label and `aria-expanded`; it is left exactly as it
+ * is.
+ *
+ * **Why the links are behind `<Suspense>`.** The burger and the drawer shell are
+ * static chrome and prerender; the link list reads `usePathname()` for its
+ * current-page marker and cannot. Nesting the boundary here — inside the drawer,
+ * rather than around the whole component — keeps the burger in the prerendered
+ * HTML, so the header never renders on a phone without a way to open navigation.
+ * The empty window is invisible: the drawer is closed until someone taps the
+ * burger, and by then the list is there.
  */
-export function MobileNav({ categoryLinks }: MobileNavProps) {
+export function MobileNav() {
   const [opened, { open, close }] = useDisclosure(false);
-
-  const renderGroup = (label: string, links: ReadonlyArray<{ href: string; label: string }>) => (
-    <div className={classes.group} key={label}>
-      <p className={classes.groupLabel}>{label}</p>
-      <ul className={classes.groupList}>
-        {links.map((link) => (
-          <li key={link.href}>
-            <NavLink
-              className={classes.link}
-              component={Link}
-              href={link.href}
-              label={link.label}
-              onClick={close}
-              rightSection={<IconChevronRight size="1rem" stroke={1.5} aria-hidden />}
-            />
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
 
   return (
     <>
@@ -60,14 +44,9 @@ export function MobileNav({ categoryLinks }: MobileNavProps) {
         title="Menu"
         classNames={{ body: classes.drawerBody }}
       >
-        <nav aria-label="Mobile">
-          {renderGroup('Browse', PRIMARY_NAV)}
-          {categoryLinks && categoryLinks.length > 0
-            ? renderGroup('Categories', categoryLinks)
-            : null}
-          {renderGroup('Live Envt', FOOTER_COMPANY)}
-          {renderGroup('Legal', FOOTER_LEGAL)}
-        </nav>
+        <Suspense fallback={null}>
+          <MobileNavLinks onNavigate={close} />
+        </Suspense>
       </Drawer>
     </>
   );

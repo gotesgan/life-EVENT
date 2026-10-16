@@ -194,7 +194,7 @@ test.describe('mobile filter experience', () => {
     // so this must appear in the query string while the sheet is still open —
     // a drawer that silently discards edits now fails here instead of passing
     // because the apply button happened to exist.
-    await dialog.getByLabel('Verified businesses only').click();
+    await dialog.getByLabel('Top picks only').click();
     await expect.poll(() => new URL(page.url()).searchParams.get('verified')).toBe('true');
 
     const applyButton = dialog.getByRole('button', { name: /show \d+ result|apply/i }).first();

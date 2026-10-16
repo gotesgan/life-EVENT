@@ -284,12 +284,18 @@ function buildAppliedFilters(input: {
     });
   }
 
+  /*
+   * The query parameter stays `verified=true` — it is part of a published URL
+   * contract and of the `searchQuerySchema` filter names — while the *copy* the
+   * visitor reads is "Top picks", which says what a highlighted listing actually
+   * is without promising a verification process.
+   */
   if (query.verified) {
     const next = { ...rawParams };
     delete next.verified;
     chips.push({
       code: 'verified',
-      label: 'Verified only',
+      label: 'Top picks only',
       displayValue: 'Yes',
       removeHref: link(next),
     });

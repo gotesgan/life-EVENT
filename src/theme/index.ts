@@ -12,7 +12,7 @@ export {
   palette,
   brand,
   accent,
-  plum,
+  slate,
   success,
   warning,
   danger,

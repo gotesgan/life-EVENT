@@ -116,7 +116,7 @@ async function CityStrip() {
   );
 }
 
-async function VerifiedRail() {
+async function TopPicksRail() {
   // `connection()` marks this subtree as request-time. Without it Next tries to
   // prerender the homepage at build time, which both freezes build-time listing
   // data into the HTML and fails outright: the Prisma client calls
@@ -134,7 +134,7 @@ async function VerifiedRail() {
   if (result.cards.length === 0) {
     return (
       <EmptyState
-        title="No verified businesses yet"
+        title="No top picks yet"
         description="Browse every listing in the meantime."
         primaryAction={
           <Button component={Link} href="/vendors" variant="default">
@@ -147,10 +147,10 @@ async function VerifiedRail() {
 
   return (
     <>
-      <ListingGrid listings={result.cards} label="Verified businesses" />
+      <ListingGrid listings={result.cards} label="Top picks" />
       <Group mt="md">
         <Button component={Link} href="/vendors?verified=true" variant="default" size="sm">
-          See all verified businesses
+          See all top picks
         </Button>
       </Group>
     </>
@@ -168,8 +168,8 @@ export default function HomePage() {
           title="Your wedding, your way."
           lede="Compare published prices, then send one enquiry."
           facts={['Published prices and inclusions', 'One enquiry to up to 10 businesses']}
-          imageUrl="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2000&auto=format&fit=crop"
-          imageAlt="Bride and groom celebrating with confetti"
+          imageUrl="/media/seed/home-hero-cover.jpg"
+          imageAlt="A couple celebrating beneath a floral arch as confetti falls"
           popularSearches={[
             { label: 'Banquet halls', href: '/vendors?category=venues' },
             { label: 'Photographers', href: '/vendors?category=photographers' },
@@ -220,9 +220,9 @@ export default function HomePage() {
           </Suspense>
         </PageSection>
 
-        <PageSection id="verified" title="Verified businesses">
+        <PageSection id="top-picks" title="Top picks">
           <Suspense fallback={<ListingResultsSkeleton count={4} />}>
-            <VerifiedRail />
+            <TopPicksRail />
           </Suspense>
         </PageSection>
 
