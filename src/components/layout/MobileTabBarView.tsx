@@ -6,6 +6,7 @@ import {
   IconSend,
   IconUserCircle,
 } from '@tabler/icons-react';
+import { matchesPath } from './navigation';
 import classes from './MobileTabBar.module.css';
 
 export interface MobileTabBarViewProps {
@@ -52,12 +53,10 @@ const TABS = [
  * a row of decorative icons.
  */
 export function MobileTabBarView({ accountHref, accountLabel, pathname }: MobileTabBarViewProps) {
-  const matches = (href: string) =>
-    pathname !== null &&
-    (href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(`${href}/`));
+  const matches = (href: string) => pathname !== null && matchesPath(pathname, href);
 
-  /* Query strings must not take part in the active comparison. */
-  const accountPath = accountHref.split('?')[0];
+  /* The gate carries a `next`, which is not part of the route it points at. */
+  const accountCurrent = matches(accountHref.split('?')[0]);
 
   return (
     <nav className={classes.bar} aria-label="Quick actions">
@@ -85,8 +84,8 @@ export function MobileTabBarView({ accountHref, accountLabel, pathname }: Mobile
           <Link
             href={accountHref}
             className={classes.tab}
-            data-active={matches(accountPath) ? 'true' : undefined}
-            aria-current={matches(accountPath) ? 'page' : undefined}
+            data-active={accountCurrent ? 'true' : undefined}
+            aria-current={accountCurrent ? 'page' : undefined}
           >
             <IconUserCircle className={classes.icon} size="1.375rem" stroke={1.6} aria-hidden />
             <span className={classes.label}>{accountLabel}</span>
