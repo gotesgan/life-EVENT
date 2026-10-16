@@ -40,12 +40,16 @@
 
 /*
  * Below `lg` the quick-action tab bar is fixed to the bottom of the viewport, so
- * the page owes it the height back — otherwise the last row of content and the
- * footer are permanently underneath it. `env(safe-area-inset-bottom)` is added
- * on top for phones with a home indicator.
+ * the shell owes it the height back — otherwise the last row of content and the
+ * footer are permanently underneath it.
+ *
+ * The space is reserved on the shell and not on `main`: the column's last child
+ * is the *footer*, so padding on `main` only nudged the footer up and left its
+ * final row covered. `env(safe-area-inset-bottom)` is added on top for phones
+ * with a home indicator.
  */
 @mixin smaller-than $mantine-breakpoint-lg {
-  .main {
+  .root {
     padding-block-end: calc(var(--app-tab-bar-height) + env(safe-area-inset-bottom, 0px));
   }
 }

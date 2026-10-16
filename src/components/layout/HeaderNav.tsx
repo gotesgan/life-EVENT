@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Popover } from '@mantine/core';
 import { IconChevronDown, IconChevronRight } from '@tabler/icons-react';
-import { NAV_SECTIONS, type NavPanel } from './navigation';
+import { NAV_SECTIONS, activeSectionId, type NavPanel } from './navigation';
 import classes from './SiteHeader.module.css';
 
 /**
@@ -50,6 +50,13 @@ export function HeaderNav() {
   const [openId, setOpenId] = useState<string | null>(null);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  /*
+   * Exactly one section can be the current page. `pathname` alone would mark
+   * two — `/categories/venues` matches both "Venues" and the "All categories"
+   * catch-all — so the decision lives in one tested helper.
+   */
+  const activeId = activeSectionId(pathname);
+
   const cancelClose = useCallback(() => {
     if (closeTimer.current !== null) {
       clearTimeout(closeTimer.current);
@@ -81,7 +88,7 @@ export function HeaderNav() {
     <nav className={classes.nav} aria-label="Primary">
       <ul className={classes.navList}>
         {NAV_SECTIONS.map((section) => {
-          const isActive = pathname === section.href || pathname.startsWith(`${section.href}/`);
+          const isActive = section.id === activeId;
           const isOpen = openId === section.id;
           const panel = section.panel;
 

@@ -22,6 +22,11 @@ const serverEnvSchema = z.object({
   BETTER_AUTH_SECRET: z.string().min(16, 'BETTER_AUTH_SECRET must be at least 16 characters'),
   BETTER_AUTH_URL: z.string().min(1).optional(),
 
+  /**
+   * The app's public origin. Defaults so development needs no setup; in
+   * production the hardening pass below rejects the default and any loopback
+   * value, because this lands in canonical URLs, share links and auth callbacks.
+   */
   NEXT_PUBLIC_APP_URL: z.string().min(1).default('http://localhost:3000'),
 
   // Media. All optional: when R2 is not configured the local filesystem driver
@@ -116,6 +121,28 @@ const hardenedEnvSchema = serverEnvSchema.superRefine((env, ctx) => {
         'IP_HASH_SALT must be set to a unique random value of at least 16 characters in production. It is the only thing protecting stored IP hashes from reversal.',
     });
   }
+  /*
+   * `NEXT_PUBLIC_APP_URL` defaults to `http://localhost:3000` so development
+   * needs no configuration — but that default fails *open*. A production deploy
+   * that forgets the variable would put `localhost` in canonical URLs, share
+   * links and auth callbacks, and, because the value is `NEXT_PUBLIC_`, bake it
+   * into the client bundle as it did so. There is no correct localhost value in
+   * production, so demand a real origin: a scheme the app can build links from,
+   * and a host that is not the loopback.
+   */
+  if (
+    !process.env.NEXT_PUBLIC_APP_URL ||
+    !/^https?:\/\//i.test(env.NEXT_PUBLIC_APP_URL) ||
+    /^https?:\/\/(localhost|127\.0\.0\.1|\[::1\])(:|\/|$)/i.test(env.NEXT_PUBLIC_APP_URL)
+  ) {
+    ctx.addIssue({
+      code: 'custom',
+      path: ['NEXT_PUBLIC_APP_URL'],
+      message:
+        'NEXT_PUBLIC_APP_URL must be the public origin in production, e.g. https://liveenvt.example — the localhost default is not a deployment value.',
+    });
+  }
+
   if (!env.ALLOW_LOCAL_MEDIA_STORAGE) {
     const missing = (
       ['R2_ACCESS_KEY_ID', 'R2_SECRET_ACCESS_KEY', 'R2_BUCKET', 'R2_PUBLIC_BASE_URL'] as const

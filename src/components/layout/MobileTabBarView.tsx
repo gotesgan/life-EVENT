@@ -57,7 +57,7 @@ export function MobileTabBarView({ accountHref, accountLabel, pathname }: Mobile
     (href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(`${href}/`));
 
   /* Query strings must not take part in the active comparison. */
-  const accountPath = accountHref.split('?')[0] ?? accountHref;
+  const accountPath = accountHref.split('?')[0];
 
   return (
     <nav className={classes.bar} aria-label="Quick actions">

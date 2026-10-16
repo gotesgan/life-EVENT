@@ -3,7 +3,7 @@ import { register } from '@/instrumentation';
 import { resetServerEnvCache } from '@/lib/env';
 
 /**
- * The server must refuse to start on invalid configuration.
+ * The server must validate its configuration rather than discover it per request.
  *
  * Regression guard for a defect with a particularly bad failure shape: because
  * `getServerEnv()` was only reached from inside request handling, a bad variable
@@ -11,9 +11,9 @@ import { resetServerEnvCache } from '@/lib/env';
  * had already been flushed — so the client got **HTTP 200 with a zero-byte
  * body**. A status code of 200 means nothing in monitoring noticed.
  *
- * `register()` runs before any request, so the same misconfiguration now aborts
- * startup. These tests pin that behaviour, and pin the fact that the logged
- * reason names the *variable*, never its secret value.
+ * `register()` runs before any request is handled, so the same misconfiguration
+ * is now raised on the way up. These tests pin that behaviour, and pin the fact
+ * that the logged reason names the *variable*, never its secret value.
  */
 
 const MANAGED_KEYS = [
@@ -23,6 +23,7 @@ const MANAGED_KEYS = [
   'BETTER_AUTH_SECRET',
   'IP_HASH_SALT',
   'ALLOW_LOCAL_MEDIA_STORAGE',
+  'NEXT_PUBLIC_APP_URL',
   'R2_ACCESS_KEY_ID',
   'R2_SECRET_ACCESS_KEY',
   'R2_BUCKET',
@@ -36,6 +37,7 @@ const VALID_PRODUCTION = {
   DATABASE_URL: 'postgresql://user:pass@host:5432/db?schema=public',
   BETTER_AUTH_SECRET: 'a'.repeat(48),
   IP_HASH_SALT: 'b'.repeat(24),
+  NEXT_PUBLIC_APP_URL: 'https://liveenvt.example',
   ALLOW_LOCAL_MEDIA_STORAGE: 'false',
   R2_ACCESS_KEY_ID: 'key',
   R2_SECRET_ACCESS_KEY: 'secret-value-must-never-be-logged',
@@ -110,7 +112,7 @@ describe('server bootstrap validation', () => {
       .map((part) => String(part))
       .join('\n');
 
-    expect(logged).toMatch(/cannot start with this configuration/i);
+    expect(logged).toMatch(/server configuration is invalid/i);
     expect(logged).toMatch(/IP_HASH_SALT/);
   });
 

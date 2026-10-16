@@ -359,6 +359,102 @@ export const PRIMARY_NAV: readonly NavLink[] = NAV_SECTIONS.map(({ href, label }
   label,
 }));
 
+/* -------------------------------------------------------------------------- */
+/* Current-page matching                                                       */
+/* -------------------------------------------------------------------------- */
+
+/** Strips the query: `/vendors?verified=true` is the `/vendors` route. */
+function pathOf(href: string): string {
+  return href.split('?')[0];
+}
+
+/** True when `pathname` is `href`'s route, or sits underneath it. */
+function matchesPath(pathname: string, href: string): boolean {
+  const path = pathOf(href);
+  return pathname === path || pathname.startsWith(`${path}/`);
+}
+
+/**
+ * The length of the longest route in `hrefs` that `pathname` sits under, or `0`.
+ *
+ * Which route *wins* is a question of specificity, and this is the score: the
+ * longest match is the most specific one. `/categories/venues` matches both
+ * `/categories/venues` and the `/categories` catch-all; scoring by length is
+ * what stops both surfaces lighting up and leaving two `aria-current="page"`
+ * links on one page.
+ */
+function matchLength(pathname: string, hrefs: readonly string[]): number {
+  let longest = 0;
+
+  for (const href of hrefs) {
+    if (matchesPath(pathname, href)) longest = Math.max(longest, pathOf(href).length);
+  }
+
+  return longest;
+}
+
+/**
+ * The routes a section stands for: its own, plus every route on its rail.
+ *
+ * The panes' directory filters (`/vendors?category=…`) are deliberately *not*
+ * claims. They belong to the directory, and counting them would let a category
+ * section claim "All vendors".
+ */
+function sectionClaims(section: NavSection): string[] {
+  return [section.href, ...(section.panel?.rail ?? []).map((row) => row.href)];
+}
+
+/**
+ * The single header section that owns `pathname`.
+ *
+ * A section is scored by its most specific matching claim, so a child route like
+ * `/categories/banquet-halls` credits "Venues" (whose rail lists it) rather than
+ * the "All categories" catch-all. A tie keeps the earlier section, which is what
+ * makes "Venues" beat "All categories" on `/categories/venues`.
+ */
+export function activeSectionId(pathname: string): string | null {
+  let bestId: string | null = null;
+  let bestLength = 0;
+
+  for (const section of NAV_SECTIONS) {
+    const length = matchLength(pathname, sectionClaims(section));
+    if (length > bestLength) {
+      bestId = section.id;
+      bestLength = length;
+    }
+  }
+
+  return bestId;
+}
+
+/**
+ * The one link in `links` that owns `pathname`.
+ *
+ * For surfaces that render the same destinations without their panels — the
+ * mobile drawer. A link that is a section is scored through that section's
+ * claims, so the drawer agrees with the header about child routes, and everything
+ * else is scored on its own route. The winning *href* is returned rather than the
+ * route, so query-only variants stay distinguishable: on `/vendors` both "All
+ * vendors" and "Top picks" are the `/vendors` route, the scores tie, and the
+ * earlier row wins.
+ */
+export function currentNavHref(pathname: string, links: readonly NavLink[]): string | null {
+  let bestHref: string | null = null;
+  let bestScore = 0;
+
+  for (const link of links) {
+    const section = NAV_SECTIONS.find((candidate) => candidate.href === link.href);
+    const score = matchLength(pathname, section ? sectionClaims(section) : [link.href]);
+
+    if (score > bestScore) {
+      bestHref = link.href;
+      bestScore = score;
+    }
+  }
+
+  return bestHref;
+}
+
 /**
  * Every top-level category, flat. The footer and the mobile drawer both read
  * this, so a category can be edited in one place and appear in both.

@@ -16,14 +16,14 @@
 
 /* A single, even scrim. The previous gradient ran 55% → 45% → 65% with a warm
    red-black, which left the middle band lighter than both ends and gave white
-   text an inconsistent background to sit on. A flat slate-900/60 is the
-   documented `bg-slate-900/60` treatment: enough to hold AA white text at every
+   text an inconsistent background to sit on. A flat `--app-overlay` (slate-900/60
+   in light) is the documented treatment: enough to hold AA white text at every
    scroll position, predictable over any photograph. */
 .overlay {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: rgb(15 23 42 / 60%);
+  background: var(--app-overlay);
 }
 
 .glow {
@@ -56,7 +56,7 @@
 .title {
   margin: 0;
   max-width: 22ch;
-  color: #fff;
+  color: var(--app-text-on-dark);
   font-size: var(--text-display-size);
   font-weight: var(--text-display-weight);
   line-height: var(--text-display-leading);
@@ -71,7 +71,7 @@
 .lede {
   margin: 0;
   max-width: 52ch;
-  color: rgb(255 255 255 / 85%);
+  color: var(--app-text-on-dark-muted);
   font-size: var(--text-body-size);
   line-height: var(--text-body-leading);
 }
@@ -94,7 +94,7 @@
   display: flex;
   align-items: center;
   gap: rem(6px);
-  color: rgb(255 255 255 / 90%);
+  color: var(--app-text-on-dark-muted);
   font-size: var(--text-secondary-size);
   font-weight: 550;
 }
@@ -125,9 +125,7 @@
   border: 1px solid var(--app-border);
   border-radius: rem(16px);
   background: var(--app-surface-raised);
-  box-shadow:
-    0 1px 2px rgb(15 23 42 / 6%),
-    0 20px 48px -20px rgb(15 23 42 / 45%);
+  box-shadow: var(--app-shadow-top);
   text-align: start;
 
   @mixin larger-than $mantine-breakpoint-sm {
@@ -137,7 +135,7 @@
 
 .popular {
   margin: rem(4px) 0 0;
-  color: rgb(255 255 255 / 75%);
+  color: var(--app-text-on-dark-subtle);
   font-size: var(--text-secondary-size);
 }
 
@@ -146,12 +144,12 @@
 }
 
 .popularLink {
-  color: #fff;
+  color: var(--app-text-on-dark);
   text-decoration: underline;
   text-underline-offset: 3px;
-  text-decoration-color: rgb(255 255 255 / 50%);
+  text-decoration-color: var(--app-text-on-dark-subtle);
 }
 
 .popularLink:hover {
-  text-decoration-color: #fff;
+  text-decoration-color: var(--app-text-on-dark);
 }

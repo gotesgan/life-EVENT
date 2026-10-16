@@ -2,9 +2,10 @@
  * Mobile quick-action bar.
  *
  * Fixed to the bottom of the viewport below `lg`, where the header's dropdown
- * navigation does not exist. The page owes it height back — `SiteShell` adds
- * `--app-tab-bar-height` to `main`'s bottom padding below the same breakpoint —
- * so the last row of content is never permanently underneath it.
+ * navigation does not exist. The shell owes it height back — `SiteShell` adds
+ * `--app-tab-bar-height` to its own bottom padding below the same breakpoint —
+ * so the last row of content, and the footer under it, are never permanently
+ * underneath it.
  *
  * `padding-block-end: env(safe-area-inset-bottom)` grows the bar behind a phone's
  * home indicator instead of letting the indicator sit on top of the labels.

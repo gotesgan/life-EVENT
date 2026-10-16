@@ -356,6 +356,15 @@ export const sharedTokens = {
      scrim, and the alternative is a hex literal outside this file. */
   '--app-success-on-dark': '#6FD3A1',
 
+  /* Text drawn on the same dark scrim. These do not flip with the scheme — the
+     photograph and its `--app-overlay` are dark in both — so they are a
+     three-step white ramp rather than `--app-text` and friends. Two nearly
+     identical alphas (90% and 85%) were folded into one muted step; the link
+     underline moved up to the subtle step so the affordance is perceivable. */
+  '--app-text-on-dark': '#FFFFFF',
+  '--app-text-on-dark-muted': 'rgb(255 255 255 / 90%)',
+  '--app-text-on-dark-subtle': 'rgb(255 255 255 / 75%)',
+
   /* Radii. Radius cost scales with how many times it is drawn: 24 tiles at a
      generous 16px reads as a field of lozenges and the grid edges stop
      registering, so dense browse surfaces step *down*, not up. */

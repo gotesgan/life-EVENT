@@ -91,6 +91,12 @@ handlers; put new work in `src/server` instead.
 - **Accessibility is not optional.** Every interactive element needs an accessible name,
   a visible focus state and a non-colour way to convey state. Check contrast against
   WCAG AA (4.5:1 body text, 3:1 UI) before choosing a colour.
+- **Navigation has one source of truth.** `src/components/layout/navigation.ts` holds
+  the routes; a new nav surface must derive its destinations from it rather than
+  restate them. For "which item is the current page", use `activeSectionId()` (the
+  header) or `currentNavHref()` (flat surfaces such as the drawer) instead of
+  `pathname.startsWith(href)` — the naive test marks two items current on overlapping
+  routes and leaves two `aria-current="page"` links on one page.
 - **Comments explain why, not what.** Match the surrounding density; the existing code
   documents non-obvious decisions and leaves self-evident code alone.
 - **Types.** `strict` is on, but `noUncheckedIndexedAccess` is off — do not sprinkle

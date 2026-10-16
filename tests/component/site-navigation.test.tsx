@@ -213,6 +213,42 @@ describe('HeaderNav', () => {
 
     expect(screen.queryByText('Banquet Halls')).not.toBeInTheDocument();
   });
+
+  it('marks exactly one section current where two routes overlap', () => {
+    /* `/categories/venues` also starts with `/categories`, so a naive prefix
+       match would leave "Venues" and "All categories" both claiming to be the
+       current page — two `aria-current="page"` links on one page. */
+    nav.pathname = '/categories/venues';
+    renderWithProvider(<HeaderNav />);
+
+    const current = primaryNav()
+      .getAllByRole('link')
+      .filter((link) => link.getAttribute('aria-current') === 'page');
+
+    expect(current.map((link) => link.textContent?.trim())).toEqual(['Venues']);
+  });
+
+  it('credits a subcategory page to the section that carries it', () => {
+    nav.pathname = '/categories/banquet-halls';
+    renderWithProvider(<HeaderNav />);
+
+    expect(primaryNav().getByRole('link', { name: /Venues/ })).toHaveAttribute(
+      'aria-current',
+      'page',
+    );
+    expect(primaryNav().getByRole('link', { name: 'All categories' })).not.toHaveAttribute(
+      'aria-current',
+    );
+  });
+
+  it('marks nothing current on a page no section owns', () => {
+    nav.pathname = '/about';
+    renderWithProvider(<HeaderNav />);
+
+    for (const link of primaryNav().getAllByRole('link')) {
+      expect(link).not.toHaveAttribute('aria-current');
+    }
+  });
 });
 
 describe('MobileTabBarView', () => {
@@ -325,6 +361,41 @@ describe('MobileNavLinks', () => {
 
     expect(drawer.getByRole('link', { name: 'About' })).toHaveAttribute('data-active', 'true');
     expect(drawer.getByRole('link', { name: 'Contact' })).not.toHaveAttribute('data-active');
+  });
+
+  it('carries the current page in the accessible name, not just the tint', () => {
+    nav.pathname = '/about';
+    renderWithProvider(<MobileNavLinks onNavigate={() => {}} />);
+
+    const drawer = within(screen.getByRole('navigation', { name: 'Mobile' }));
+
+    expect(drawer.getByRole('link', { name: 'About' })).toHaveAttribute('aria-current', 'page');
+    expect(drawer.getByRole('link', { name: 'Contact' })).not.toHaveAttribute('aria-current');
+  });
+
+  it('marks exactly one row current where a route and a filter share a path', () => {
+    /* `/vendors` and `/vendors?verified=true` are the same pathname, so "All
+       vendors" and "Top picks" would both light up without a tie-break. */
+    nav.pathname = '/vendors';
+    renderWithProvider(<MobileNavLinks onNavigate={() => {}} />);
+
+    const current = within(screen.getByRole('navigation', { name: 'Mobile' }))
+      .getAllByRole('link')
+      .filter((link) => link.getAttribute('aria-current') === 'page');
+
+    expect(current.map((link) => link.textContent?.trim())).toEqual(['All vendors']);
+  });
+
+  it('credits a subcategory page to the category above it', () => {
+    nav.pathname = '/categories/banquet-halls';
+    renderWithProvider(<MobileNavLinks onNavigate={() => {}} />);
+
+    const drawer = within(screen.getByRole('navigation', { name: 'Mobile' }));
+
+    expect(drawer.getByRole('link', { name: 'Venues' })).toHaveAttribute('aria-current', 'page');
+    expect(drawer.getByRole('link', { name: 'All categories' })).not.toHaveAttribute(
+      'aria-current',
+    );
   });
 
   it('closes the drawer when a destination is chosen', async () => {

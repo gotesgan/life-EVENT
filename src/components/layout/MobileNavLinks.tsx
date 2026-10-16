@@ -3,8 +3,7 @@
 import Link from '@/components/ui/ClientLink';
 import { usePathname } from 'next/navigation';
 import { NavLink } from '@mantine/core';
-import { IconChevronRight } from '@tabler/icons-react';
-import { DRAWER_GROUPS } from './navigation';
+import { DRAWER_GROUPS, currentNavHref } from './navigation';
 import classes from './MobileNav.module.css';
 
 /**
@@ -18,17 +17,21 @@ import classes from './MobileNav.module.css';
  *
  * Marking the current page matters more here than on desktop: the drawer covers
  * the page it was opened from, so the only thing telling you where you are is the
- * list itself.
+ * list itself. Exactly one row is marked — `currentNavHref` exists because three
+ * drawer rows (`/vendors`, `/categories/venues`, `/categories`) sit on paths that
+ * naively match one another.
+ *
+ * The marker is two-channel: Mantine tints the active row and the stylesheet adds
+ * a brand rule down its inline-start edge, so the state does not depend on
+ * colour alone (WCAG 1.4.1).
  */
 export function MobileNavLinks({ onNavigate }: { onNavigate: () => void }) {
   const pathname = usePathname();
 
-  /* A query string is not part of a page's identity — `/vendors?verified=true`
-     is the same route as `/vendors`. */
-  const isActive = (href: string) => {
-    const path = href.split('?')[0] ?? href;
-    return pathname === path || pathname.startsWith(`${path}/`);
-  };
+  const current = currentNavHref(
+    pathname,
+    DRAWER_GROUPS.flatMap((group) => [...group.links]),
+  );
 
   return (
     <nav aria-label="Mobile">
@@ -36,19 +39,23 @@ export function MobileNavLinks({ onNavigate }: { onNavigate: () => void }) {
         <div className={classes.group} key={group.label}>
           <p className={classes.groupLabel}>{group.label}</p>
           <ul className={classes.groupList}>
-            {group.links.map((link) => (
-              <li key={link.href}>
-                <NavLink
-                  className={classes.link}
-                  component={Link}
-                  href={link.href}
-                  label={link.label}
-                  active={isActive(link.href)}
-                  onClick={onNavigate}
-                  rightSection={<IconChevronRight size="1rem" stroke={1.5} aria-hidden />}
-                />
-              </li>
-            ))}
+            {group.links.map((link) => {
+              const isActive = current !== null && link.href === current;
+
+              return (
+                <li key={link.href}>
+                  <NavLink
+                    className={classes.link}
+                    component={Link}
+                    href={link.href}
+                    label={link.label}
+                    active={isActive}
+                    aria-current={isActive ? 'page' : undefined}
+                    onClick={onNavigate}
+                  />
+                </li>
+              );
+            })}
           </ul>
         </div>
       ))}

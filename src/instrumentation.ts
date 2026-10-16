@@ -1,5 +1,5 @@
 /**
- * Server bootstrap — validate configuration before serving anything.
+ * Server bootstrap — validate configuration on the way up, not on the way out.
  *
  * ## The defect this exists to fix
  *
@@ -32,12 +32,13 @@
  * warms the cache the request path then reuses.
  *
  * **What it does not do.** Throwing here does *not* stop Next from accepting
- * connections; the failure is logged and requests are answered with a 500. So
- * this is *fail-loud*, not *fail-closed*: a misconfigured deploy is now obvious
- * to both a monitor and a human, but a platform health check pointed at `/` will
- * still see a server that answers. Making it truly fail-closed would need the
- * entrypoint to exit, which is a deployment-contract decision rather than a
- * code one — recorded here so nobody assumes a stronger guarantee than exists.
+ * connections; the failure is logged and the requests that subsequently read
+ * configuration are answered with a 500. So this is *fail-loud*, not
+ * *fail-closed*: a misconfigured deploy is now obvious to both a monitor and a
+ * human, but a platform health check pointed at `/` will still see a server that
+ * answers. Making it truly fail-closed would need the entrypoint to exit, which
+ * is a deployment-contract decision rather than a code one — recorded here so
+ * nobody assumes a stronger guarantee than exists.
  *
  * Note the division of responsibility: the **API** layer already returns a
  * generic `500 INTERNAL_ERROR` for an unexpected throw and keeps the internal
@@ -60,24 +61,28 @@ export async function register(): Promise<void> {
     getServerEnv();
   } catch (error) {
     // Log the real reason — it is the whole point, and it goes to the operator's
-    // log stream, not to a response body.
+    // log stream, not to a response body. The wording claims only what happens:
+    // the process keeps serving, so the message must not say it failed to start.
     console.error(
       [
         '',
-        '  Fatal: the server cannot start with this configuration.',
+        '  Fatal: the server configuration is invalid.',
         '',
         error instanceof Error ? error.message : String(error),
         '',
-        '  Fix the variables above and restart. Until then the process would',
-        '  serve 200 responses with empty bodies, which is worse than not',
-        '  starting at all.',
+        '  Fix the variables above and restart. The process keeps accepting',
+        '  connections, so until then any request that reads configuration fails',
+        '  loudly — which is the point: a 5xx an operator can see, rather than the',
+        '  200 with a zero-byte body this misconfiguration used to produce.',
         '',
       ].join('\n'),
     );
 
-    // Rethrow so the failure is not swallowed: Next records it against the
-    // server, every request answers 5xx instead of a blank 200, and the operator
-    // sees the block above. See the note on fail-loud vs fail-closed.
+    // Rethrow so the failure is not swallowed. This does not stop the server
+    // from accepting connections (see the note on fail-loud vs fail-closed), but
+    // it is recorded against the server instead of being a log line nobody
+    // reads, and a request that then reads configuration fails as a 5xx rather
+    // than a blank 200.
     throw error;
   }
 }

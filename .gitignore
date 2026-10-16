@@ -45,7 +45,6 @@ yarn-error.log*
 .env*
 # ...but the documented template must ship.
 !.env.example
-!.env.example
 
 # machine-specific local shims (cache/store paths, local DB URLs)
 .dev-env.sh

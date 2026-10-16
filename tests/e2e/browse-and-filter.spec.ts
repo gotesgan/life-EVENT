@@ -134,7 +134,7 @@ test.describe('browse and filter', () => {
     await selectInRail(page, 'City or locality', 'Mumbai');
     await expect.poll(() => searchParams(page).get('location')).toBe('mumbai');
 
-    await toggleInFilters(page, 'Verified businesses only');
+    await toggleInFilters(page, 'Top picks only');
     await expect.poll(() => searchParams(page).get('verified')).toBe('true');
 
     // All three parameters survive together in the URL.
@@ -153,7 +153,7 @@ test.describe('browse and filter', () => {
     await expectResultsOrEmptyState(page);
 
     const locationChip = page.getByRole('button', { name: 'Remove filter: Location: mumbai' });
-    const verifiedChip = page.getByRole('button', { name: 'Remove filter: Verified only: Yes' });
+    const verifiedChip = page.getByRole('button', { name: 'Remove filter: Top picks only: Yes' });
     await expect(locationChip).toBeVisible();
     await expect(verifiedChip).toBeVisible();
 
