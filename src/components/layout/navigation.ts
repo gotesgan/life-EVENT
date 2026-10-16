@@ -368,8 +368,15 @@ function pathOf(href: string): string {
   return href.split('?')[0];
 }
 
-/** True when `pathname` is `href`'s route, or sits underneath it. */
-function matchesPath(pathname: string, href: string): boolean {
+/**
+ * True when `pathname` is `href`'s route, or sits underneath it.
+ *
+ * The one way to ask "is this route the page?" — the header, the drawer and the
+ * tab bar all read it from here, so they cannot drift apart on the details that
+ * are easy to get wrong: `/` is its own case rather than a prefix of everything,
+ * and a query string is not part of the route.
+ */
+export function matchesPath(pathname: string, href: string): boolean {
   const path = pathOf(href);
   return pathname === path || pathname.startsWith(`${path}/`);
 }

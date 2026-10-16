@@ -1,18 +1,12 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { useCallback, useEffect, useRef, useState } from 'react';
 import { Popover } from '@mantine/core';
-import { IconChevronDown, IconChevronRight } from '@tabler/icons-react';
-import { NAV_SECTIONS, activeSectionId, type NavPanel } from './navigation';
+import { IconChevronDown } from '@tabler/icons-react';
+import { HeaderPanel } from './HeaderPanel';
+import { NAV_SECTIONS } from './navigation';
+import { useMegaMenu } from './use-mega-menu';
 import classes from './SiteHeader.module.css';
-
-/**
- * Grace period before a hover-opened panel closes, so a pointer travelling
- * diagonally from the trigger to the panel is not clipped off on the way.
- */
-const CLOSE_DELAY_MS = 120;
 
 /**
  * Panel surface. Applied inline rather than through the stylesheet because
@@ -27,10 +21,11 @@ const PANEL_STYLE = {
 } as const;
 
 /**
- * The primary navigation, with a dropdown per section.
+ * The primary navigation: one entry per section, with a dropdown for the sections
+ * that carry a panel.
  *
- * **Why a `Popover` and not a `Menu`.** These panels are navigation, not a list
- * of commands: `Menu` would put `role="menu"`/`menuitem` on a set of links and
+ * **Why a `Popover` and not a `Menu`.** These panels are navigation, not a list of
+ * commands: `Menu` would put `role="menu"`/`menuitem` on a set of links and
  * promise arrow-key semantics this does not implement. `Popover` gives the parts
  * that are actually needed — Escape, click-outside, focus return — and leaves the
  * markup as ordinary `<nav>`/`<a>`, so the accessible tree matches what the
@@ -42,47 +37,14 @@ const PANEL_STYLE = {
  * crosses from the trigger into the panel. The trigger stays a real link, so a
  * click still navigates to the section index rather than dead-ending.
  *
- * `withRoles={false}` because Mantine would otherwise stamp `aria-haspopup` and
- * a button role onto an anchor that is genuinely a link.
+ * `withRoles={false}` because Mantine would otherwise stamp `aria-haspopup` and a
+ * button role onto an anchor that is genuinely a link.
+ *
+ * Which section is open, and the grace period that lets a pointer reach its panel,
+ * live in `useMegaMenu`; the panel's own markup lives in `HeaderPanel`.
  */
 export function HeaderNav() {
-  const pathname = usePathname();
-  const [openId, setOpenId] = useState<string | null>(null);
-  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-
-  /*
-   * Exactly one section can be the current page. `pathname` alone would mark
-   * two — `/categories/venues` matches both "Venues" and the "All categories"
-   * catch-all — so the decision lives in one tested helper.
-   */
-  const activeId = activeSectionId(pathname);
-
-  const cancelClose = useCallback(() => {
-    if (closeTimer.current !== null) {
-      clearTimeout(closeTimer.current);
-      closeTimer.current = null;
-    }
-  }, []);
-
-  const scheduleClose = useCallback(() => {
-    cancelClose();
-    closeTimer.current = setTimeout(() => setOpenId(null), CLOSE_DELAY_MS);
-  }, [cancelClose]);
-
-  /* Clears a pending close if this nav ever unmounts. */
-  useEffect(() => cancelClose, [cancelClose]);
-
-  /*
-   * Landing on a new page is the end of the interaction that opened the panel.
-   * Adjusted during render rather than in an effect: the pathname is already
-   * known here, so React can restart the render immediately instead of painting
-   * an open panel for one frame and then cascading a second render.
-   */
-  const [lastPath, setLastPath] = useState(pathname);
-  if (lastPath !== pathname) {
-    setLastPath(pathname);
-    setOpenId(null);
-  }
+  const { activeId, openId, open, close, scheduleClose, cancelClose } = useMegaMenu();
 
   return (
     <nav className={classes.nav} aria-label="Primary">
@@ -92,15 +54,15 @@ export function HeaderNav() {
           const isOpen = openId === section.id;
           const panel = section.panel;
 
+          const activeProps = {
+            'data-active': isActive ? 'true' : undefined,
+            'aria-current': isActive ? ('page' as const) : undefined,
+          };
+
           if (!panel) {
             return (
               <li key={section.id} className={classes.navItem}>
-                <Link
-                  className={classes.navLink}
-                  href={section.href}
-                  data-active={isActive ? 'true' : undefined}
-                  aria-current={isActive ? 'page' : undefined}
-                >
+                <Link className={classes.navLink} href={section.href} {...activeProps}>
                   {section.label}
                 </Link>
               </li>
@@ -114,14 +76,15 @@ export function HeaderNav() {
               data-open={isOpen ? 'true' : undefined}
               onMouseEnter={() => {
                 cancelClose();
-                setOpenId(section.id);
+                open(section.id);
               }}
               onMouseLeave={scheduleClose}
             >
               <Popover
                 opened={isOpen}
                 onChange={(next) => {
-                  if (!next) setOpenId(null);
+                  /* Mantine reports every dismissal — Escape, click-outside. */
+                  if (!next) close();
                 }}
                 position="bottom-start"
                 offset={6}
@@ -137,12 +100,11 @@ export function HeaderNav() {
                   <Link
                     className={classes.navLink}
                     href={section.href}
-                    data-active={isActive ? 'true' : undefined}
-                    aria-current={isActive ? 'page' : undefined}
+                    {...activeProps}
                     aria-expanded={isOpen}
                     onFocus={() => {
                       cancelClose();
-                      setOpenId(section.id);
+                      open(section.id);
                     }}
                   >
                     {section.label}
@@ -156,7 +118,7 @@ export function HeaderNav() {
                 </Popover.Target>
 
                 <Popover.Dropdown p={0} style={PANEL_STYLE}>
-                  <PanelContents panel={panel} onNavigate={() => setOpenId(null)} />
+                  <HeaderPanel panel={panel} onNavigate={() => close()} />
                 </Popover.Dropdown>
               </Popover>
             </li>
@@ -164,81 +126,5 @@ export function HeaderNav() {
         })}
       </ul>
     </nav>
-  );
-}
-
-/**
- * The panel itself: a rail down the left (the side menu) and a pane on the right
- * that swaps as the pointer moves down the rail.
- *
- * The rail is the side menu the brief asks for — it is what makes a wide panel
- * readable, by giving one column of stable destinations and one column that
- * answers "narrowed how?".
- */
-function PanelContents({ panel, onNavigate }: { panel: NavPanel; onNavigate: () => void }) {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const active = panel.rail[activeIndex] ?? panel.rail[0];
-
-  if (!active) return null;
-
-  return (
-    <div className={classes.panelSurface}>
-      <div className={classes.panelBody}>
-        <div className={classes.panelRail}>
-          <p className={classes.panelHeading}>{panel.railHeading}</p>
-          <ul className={classes.panelRailList}>
-            {panel.rail.map((item, index) => (
-              <li key={`${item.href}::${item.label}`}>
-                <Link
-                  href={item.href}
-                  className={classes.panelRailLink}
-                  data-active={index === activeIndex ? 'true' : undefined}
-                  onMouseEnter={() => setActiveIndex(index)}
-                  onFocus={() => setActiveIndex(index)}
-                  onClick={onNavigate}
-                >
-                  <span className={classes.panelRailLabel}>{item.label}</span>
-                  <IconChevronRight
-                    className={classes.panelRailChevron}
-                    size="0.875rem"
-                    stroke={1.75}
-                    aria-hidden
-                  />
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className={classes.panelPane}>
-          <p className={classes.panelPaneTitle}>
-            {active.label}
-            <span className={classes.panelPaneNote}>{active.description}</span>
-          </p>
-          <ul className={classes.panelLinkGrid}>
-            {active.links.map((link) => (
-              <li key={link.href}>
-                <Link href={link.href} className={classes.panelLink} onClick={onNavigate}>
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-
-      <div className={classes.panelFoot}>
-        {panel.quickLinks.map((link) => (
-          <Link
-            key={`${link.href}::${link.label}`}
-            href={link.href}
-            className={classes.panelFootLink}
-            onClick={onNavigate}
-          >
-            {link.label}
-          </Link>
-        ))}
-      </div>
-    </div>
   );
 }
