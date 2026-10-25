@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Popover } from '@mantine/core';
+import { useEffect, useRef } from 'react';
 import { IconChevronDown } from '@tabler/icons-react';
 import { HeaderPanel } from './HeaderPanel';
 import { NAV_SECTIONS } from './navigation';
@@ -9,45 +9,84 @@ import { useMegaMenu } from './use-mega-menu';
 import classes from './SiteHeader.module.css';
 
 /**
- * Panel surface. Applied inline rather than through the stylesheet because
- * Mantine paints `Popover.Dropdown` from its own colour variables, and an inline
- * declaration beats any stylesheet rule regardless of bundle order — no
- * `!important`, no specificity arms race.
- */
-const PANEL_STYLE = {
-  backgroundColor: 'var(--app-surface-raised)',
-  borderColor: 'var(--app-border)',
-  overflow: 'hidden',
-} as const;
-
-/**
- * The primary navigation: one entry per section, with a dropdown for the sections
- * that carry a panel.
+ * The primary navigation: one entry per section, with a full-width panel for the
+ * sections that carry one.
  *
- * **Why a `Popover` and not a `Menu`.** These panels are navigation, not a list of
- * commands: `Menu` would put `role="menu"`/`menuitem` on a set of links and
- * promise arrow-key semantics this does not implement. `Popover` gives the parts
- * that are actually needed — Escape, click-outside, focus return — and leaves the
- * markup as ordinary `<nav>`/`<a>`, so the accessible tree matches what the
- * element does.
+ * **Full-width and seamless.** The panel is a fixed layer pinned to the header's
+ * bottom edge (`--app-header-utility-height + --app-header-height`), spanning the
+ * viewport and carrying no radius, gap or shadow of its own — the header's
+ * existing hairline is the only seam, so the bar and the panel read as one sheet
+ * rather than a floating card. Content sits in a `Container`, so its columns
+ * align with the brand and the nav above.
  *
- * **Opening.** Hover for a pointer, focus for a keyboard. Both are on the section
- * wrapper, and `withinPortal={false}` keeps the panel a DOM descendant of that
- * wrapper — which is what stops `mouseleave` firing the moment the pointer
- * crosses from the trigger into the panel. The trigger stays a real link, so a
- * click still navigates to the section index rather than dead-ending.
+ * **Why not `Popover` any more.** Mantine's dropdown is a popper positioned
+ * against its trigger: a fixed panel width and a 6px offset were exactly the
+ * floating-card look this replaces. The behaviours that mattered — hover-open
+ * with a grace period, focus-open, Escape, click-outside, close on navigation —
+ * are handled here: hover state in `useMegaMenu`, and the dismissal paths as
+ * small effects. Links stay ordinary links (no menu roles), and the trigger
+ * stays a real link, so a click still navigates to the section index.
  *
- * `withRoles={false}` because Mantine would otherwise stamp `aria-haspopup` and a
- * button role onto an anchor that is genuinely a link.
- *
- * Which section is open, and the grace period that lets a pointer reach its panel,
- * live in `useMegaMenu`; the panel's own markup lives in `HeaderPanel`.
+ * The panel renders inside the section's `<li>`, which keeps its links next to
+ * the trigger in tab order and keeps pointer travel from the trigger into the
+ * panel inside the same subtree.
  */
 export function HeaderNav() {
   const { activeId, openId, open, close, scheduleClose, cancelClose } = useMegaMenu();
+  const navRef = useRef<HTMLElement | null>(null);
+
+  /* Click outside the nav dismisses the panel. Reading `contains` on the nav is
+     enough because the panel is a DOM descendant of it, fixed position or not. */
+  useEffect(() => {
+    if (!openId) return;
+
+    const onPointerDown = (event: PointerEvent) => {
+      if (event.target instanceof Node && navRef.current?.contains(event.target)) return;
+      close();
+    };
+
+    document.addEventListener('pointerdown', onPointerDown);
+    return () => document.removeEventListener('pointerdown', onPointerDown);
+  }, [openId, close]);
+
+  /* Escape dismisses and hands focus back to the trigger that opened the panel,
+     so a keyboard user is never dropped at the top of the document. */
+  useEffect(() => {
+    if (!openId) return;
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== 'Escape') return;
+      close();
+      navRef.current?.querySelector<HTMLAnchorElement>(`[data-mega-trigger="${openId}"]`)?.focus();
+    };
+
+    document.addEventListener('keydown', onKeyDown);
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [openId, close]);
+
+  /* A panel pinned under the header would hover over the page while it scrolls;
+     scrolling ends the interaction instead. */
+  useEffect(() => {
+    if (!openId) return;
+
+    const onScroll = () => close();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [openId, close]);
 
   return (
-    <nav className={classes.nav} aria-label="Primary">
+    <nav
+      ref={navRef}
+      className={classes.nav}
+      aria-label="Primary"
+      onBlur={(event) => {
+        /* Tabbing or clicking out of the nav entirely closes the panel; moving
+           between its own links does not. */
+        const next = event.relatedTarget;
+        if (next instanceof Node && navRef.current?.contains(next)) return;
+        close();
+      }}
+    >
       <ul className={classes.navList}>
         {NAV_SECTIONS.map((section) => {
           const isActive = section.id === activeId;
@@ -80,47 +119,36 @@ export function HeaderNav() {
               }}
               onMouseLeave={scheduleClose}
             >
-              <Popover
-                opened={isOpen}
-                onChange={(next) => {
-                  /* Mantine reports every dismissal — Escape, click-outside. */
-                  if (!next) close();
+              <Link
+                className={classes.navLink}
+                href={section.href}
+                data-mega-trigger={section.id}
+                {...activeProps}
+                aria-expanded={isOpen}
+                onFocus={() => {
+                  cancelClose();
+                  open(section.id);
                 }}
-                position="bottom-start"
-                offset={6}
-                width="min(46rem, calc(100vw - 2rem))"
-                radius="var(--app-radius-card)"
-                shadow="var(--app-shadow-overlay)"
-                withinPortal={false}
-                withRoles={false}
-                returnFocus={false}
-                transitionProps={{ duration: 0 }}
               >
-                <Popover.Target>
-                  <Link
-                    className={classes.navLink}
-                    href={section.href}
-                    {...activeProps}
-                    aria-expanded={isOpen}
-                    onFocus={() => {
-                      cancelClose();
-                      open(section.id);
-                    }}
-                  >
-                    {section.label}
-                    <IconChevronDown
-                      className={classes.navChevron}
-                      size="0.8125rem"
-                      stroke={2}
-                      aria-hidden
-                    />
-                  </Link>
-                </Popover.Target>
+                {section.label}
+                <IconChevronDown
+                  className={classes.navChevron}
+                  size="0.8125rem"
+                  stroke={2}
+                  aria-hidden
+                />
+              </Link>
 
-                <Popover.Dropdown p={0} style={PANEL_STYLE}>
-                  <HeaderPanel panel={panel} onNavigate={() => close()} />
-                </Popover.Dropdown>
-              </Popover>
+              {isOpen ? (
+                <div
+                  className={classes.megaLayer}
+                  data-testid="mega-panel"
+                  onMouseEnter={cancelClose}
+                  onMouseLeave={scheduleClose}
+                >
+                  <HeaderPanel panel={panel} sectionId={section.id} onNavigate={() => close()} />
+                </div>
+              ) : null}
             </li>
           );
         })}

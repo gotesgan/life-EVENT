@@ -79,17 +79,15 @@ function primaryNav() {
 }
 
 /**
- * The inside of the open dropdown panel.
+ * The inside of the open full-width panel.
  *
- * Mantine renders its dropdown through floating-ui's `hide()` middleware and
- * applies an inline `display: none` while the trigger is `referenceHidden`.
- * jsdom measures every element as zero-sized and out of the viewport, so that
- * middleware always fires under test even though the panel is open — in a real
- * browser it is visible. Query the mounted dropdown directly and opt into
- * hidden elements, rather than write assertions that only pass here.
+ * The panel is our own fixed layer now (it used to be a Mantine `Popover`), and it
+ * is marked with `data-testid="mega-panel"`. Queries still pass `hidden: true`
+ * where they used to, because the links inside are ordinary links and the option
+ * is simply irrelevant to them.
  */
 function panel() {
-  const dropdown = document.querySelector('[class*="Popover-dropdown"]');
+  const dropdown = document.querySelector('[data-testid="mega-panel"]');
   if (!dropdown) throw new Error('expected one panel to be open');
   return within(dropdown as HTMLElement);
 }
