@@ -4,6 +4,9 @@ import { NumericRangeField } from './NumericRangeField';
 
 export interface GuestCapacityRangeProps {
   legend?: string;
+  /** Catalogue capacity envelope, shown as the opening values of the two inputs. */
+  defaultMin?: number | null;
+  defaultMax?: number | null;
 }
 
 /**
@@ -14,7 +17,11 @@ export interface GuestCapacityRangeProps {
  * capacity is excluded while this filter is active rather than being claimed to
  * fit — the server's overlap clause is deliberate about that.
  */
-export function GuestCapacityRange({ legend = 'Guests' }: GuestCapacityRangeProps) {
+export function GuestCapacityRange({
+  legend = 'Guests',
+  defaultMin = null,
+  defaultMax = null,
+}: GuestCapacityRangeProps) {
   return (
     <NumericRangeField
       legend={legend}
@@ -25,6 +32,8 @@ export function GuestCapacityRange({ legend = 'Guests' }: GuestCapacityRangeProp
       thousandSeparator=","
       minLabel="At least"
       maxLabel="At most"
+      defaultMin={defaultMin}
+      defaultMax={defaultMax}
     />
   );
 }

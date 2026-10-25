@@ -17,6 +17,7 @@ import { ListingDetailSkeleton } from '@/components/ui/Skeletons';
 import { getAppUrl } from '@/lib/env';
 import { searchQuerySchema } from '@/lib/validation/search';
 import {
+  getCatalogBounds,
   getCategoryDetail,
   listAmenities,
   listCategories,
@@ -24,6 +25,7 @@ import {
   listLocations,
 } from '@/server/services/catalog.service';
 import { searchPublicListings } from '@/server/services/search.service';
+import { getRevealedSlugs, publicListingCards } from '@/lib/listing-privacy';
 import classes from './page.module.css';
 
 interface CategoryPageProps {
@@ -72,7 +74,8 @@ async function CategoryLanding({ slug }: { slug: string }) {
   const { category, parent, children, listingCount, filterDefinitions } = detail;
   const browseHref = `/vendors?category=${encodeURIComponent(category.slug)}`;
 
-  const [preview, categories, cities, eventTypes, amenities] = await Promise.all([
+  const revealed = await getRevealedSlugs();
+  const [previewResult, categories, cities, eventTypes, amenities, bounds] = await Promise.all([
     searchPublicListings({
       query: searchQuerySchema.parse({
         category: category.slug,
@@ -87,7 +90,9 @@ async function CategoryLanding({ slug }: { slug: string }) {
     listLocations({ type: 'CITY' }),
     listEventTypes(),
     listAmenities(),
+    getCatalogBounds(),
   ]);
+  const preview = { ...previewResult, cards: publicListingCards(previewResult.cards, revealed) };
 
   const facets = {
     categories: categories.map((item) => ({
@@ -134,6 +139,7 @@ async function CategoryLanding({ slug }: { slug: string }) {
               definitions={filterDefinitions}
               categoryName={category.name}
               idPrefix="category"
+              bounds={bounds}
             />
           </aside>
 
@@ -153,6 +159,7 @@ async function CategoryLanding({ slug }: { slug: string }) {
               /* The unfiltered category total is exactly what `/vendors` shows
                  before any filter is applied, so the trigger cannot overstate. */
               resultCount={listingCount}
+              bounds={bounds}
             />
           </div>
 

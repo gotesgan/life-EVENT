@@ -109,6 +109,34 @@ export async function registerNewCustomer(
   return { email, password, name };
 }
 
+/**
+ * Sends an enquiry from a listing's own profile form.
+ *
+ * Every enquiry belongs to exactly one listing now, so there is no multi-business
+ * form to drive: the journey is "open the profile, fill the four required fields,
+ * send". Returns the reference code shown on the confirmation.
+ */
+export async function submitListingEnquiry(
+  page: Page,
+  slug: string,
+  options: { name?: string; email?: string; phone?: string; consent?: boolean } = {},
+): Promise<string> {
+  await page.goto(`/vendors/${slug}`);
+
+  await page.getByLabel('Full name').fill(options.name ?? 'E2E Guest');
+  await page.getByLabel('Contact number').fill(options.phone ?? uniquePhone());
+  await page.getByLabel('Email address').fill(options.email ?? uniqueEmail('guest'));
+
+  if (options.consent !== false) {
+    await page.getByLabel(/privacy terms/i).check();
+  }
+  await page.getByRole('button', { name: /^send enquiry$/i }).click();
+
+  const reference = page.getByText(/LE-[A-Z0-9]{8}/);
+  await expect(reference).toBeVisible({ timeout: 30_000 });
+  return (await reference.innerText()).trim();
+}
+
 /** Fails the test with a readable message when a page renders an error boundary. */
 export async function expectNoErrorBoundary(page: Page): Promise<void> {
   const errorHeading = page.getByRole('heading', { name: /something went wrong/i });

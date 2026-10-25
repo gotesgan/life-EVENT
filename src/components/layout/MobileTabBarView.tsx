@@ -1,11 +1,5 @@
 import Link from 'next/link';
-import {
-  IconHome,
-  IconLayoutGrid,
-  IconSearch,
-  IconSend,
-  IconUserCircle,
-} from '@tabler/icons-react';
+import { IconHome, IconLayoutGrid, IconSearch, IconUserCircle } from '@tabler/icons-react';
 import { matchesPath } from './navigation';
 import classes from './MobileTabBar.module.css';
 
@@ -30,7 +24,6 @@ const TABS = [
   { href: '/', label: 'Home', icon: IconHome },
   { href: '/categories', label: 'Browse', icon: IconLayoutGrid },
   { href: '/vendors', label: 'Search', icon: IconSearch },
-  { href: '/enquire', label: 'Enquire', icon: IconSend },
 ] as const;
 
 /**

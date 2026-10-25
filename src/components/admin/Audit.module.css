@@ -60,7 +60,7 @@
 
 .detailLabel {
   font-size: var(--text-label-size);
-  font-weight: 650;
+  font-weight: 600;
   letter-spacing: 0.02em;
   color: var(--app-text-muted);
 }
@@ -75,7 +75,7 @@
    stays neutral and out of the semantic tones. */
 .metaBadge {
   font-size: var(--text-caption-size);
-  font-weight: 550;
+  font-weight: 500;
   font-variant-numeric: tabular-nums;
   color: var(--app-text-muted);
   border-color: var(--app-border);

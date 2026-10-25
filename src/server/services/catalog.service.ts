@@ -359,3 +359,43 @@ export async function resolveEventTypeIds(slugs: readonly string[]): Promise<str
 
   return rows.map((row) => row.id);
 }
+
+/**
+ * The published catalogue's price and capacity envelope.
+ *
+ * The filter rail shows these as the opening values of the two range inputs, so
+ * a visitor sees the plausible span ("₹0 to ₹18,00,000") instead of two empty
+ * boxes with no hint of the scale. They are display defaults only: a value equal
+ * to the envelope writes no query parameter, so "the whole range" still means
+ * "no filter" and an unpublished price is not silently excluded.
+ */
+export interface CatalogBounds {
+  priceMin: number | null;
+  priceMax: number | null;
+  capacityMin: number | null;
+  capacityMax: number | null;
+}
+
+export async function getCatalogBounds(): Promise<CatalogBounds> {
+  const where = { publicationStatus: 'PUBLISHED' as const, archivedAt: null };
+
+  const [price, capacity] = await Promise.all([
+    prisma.businessListing.aggregate({
+      where,
+      _min: { priceMin: true },
+      _max: { priceMax: true },
+    }),
+    prisma.businessListing.aggregate({
+      where,
+      _min: { capacityMin: true },
+      _max: { capacityMax: true },
+    }),
+  ]);
+
+  return {
+    priceMin: price._min.priceMin,
+    priceMax: price._max.priceMax,
+    capacityMin: capacity._min.capacityMin,
+    capacityMax: capacity._max.capacityMax,
+  };
+}

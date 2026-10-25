@@ -254,16 +254,20 @@ describe('HeaderNav', () => {
 describe('MobileTabBarView', () => {
   const tabBar = () => within(screen.getByRole('navigation', { name: 'Quick actions' }));
 
-  it('carries the five agreed slots', () => {
+  it('carries the four agreed slots', () => {
     renderWithProvider(
       <MobileTabBarView accountHref="/account" accountLabel="Priya" pathname="/" />,
     );
 
+    /* Vendor registration deliberately is not a tab: it lives in the utility
+       bar and the drawer. A fifth slot truncated its own label on a 390px
+       phone, so the bar stays at the four destinations a visitor returns to
+       mid-journey. */
     expect(
       tabBar()
         .getAllByRole('link')
         .map((link) => link.textContent?.trim()),
-    ).toEqual(['Home', 'Browse', 'Search', 'Enquire', 'Priya']);
+    ).toEqual(['Home', 'Browse', 'Search', 'Priya']);
   });
 
   it('points each slot at the surface it stands for', () => {
@@ -273,7 +277,6 @@ describe('MobileTabBarView', () => {
 
     expect(tabBar().getByRole('link', { name: 'Browse' })).toHaveAttribute('href', '/categories');
     expect(tabBar().getByRole('link', { name: 'Search' })).toHaveAttribute('href', '/vendors');
-    expect(tabBar().getByRole('link', { name: 'Enquire' })).toHaveAttribute('href', '/enquire');
   });
 
   it('marks no tab current before the pathname is known', () => {
@@ -297,11 +300,11 @@ describe('MobileTabBarView', () => {
 
   it('does not treat the home tab as current on every page', () => {
     renderWithProvider(
-      <MobileTabBarView accountHref="/account" accountLabel="Priya" pathname="/enquire" />,
+      <MobileTabBarView accountHref="/account" accountLabel="Priya" pathname="/categories" />,
     );
 
     expect(tabBar().getByRole('link', { name: 'Home' })).not.toHaveAttribute('aria-current');
-    expect(tabBar().getByRole('link', { name: 'Enquire' })).toHaveAttribute('aria-current', 'page');
+    expect(tabBar().getByRole('link', { name: 'Browse' })).toHaveAttribute('aria-current', 'page');
   });
 
   it('marks the account tab current on a deeper account page', () => {

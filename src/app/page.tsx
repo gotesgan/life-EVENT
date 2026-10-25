@@ -17,10 +17,12 @@ import { Surface } from '@/components/ui/Surface';
 import { searchQuerySchema } from '@/lib/validation/search';
 import { listCategories, listLocations } from '@/server/services/catalog.service';
 import { searchPublicListings } from '@/server/services/search.service';
+import { getRevealedSlugs, publicListingCards } from '@/lib/listing-privacy';
 
 export const metadata: Metadata = {
   title: 'Wedding and event vendors, with published prices',
-  description: 'Compare published prices and send one enquiry to the businesses you choose.',
+  description:
+    'Compare published prices and send an enquiry to the businesses you choose. Names unlock when you enquire.',
   alternates: { canonical: '/' },
 };
 
@@ -130,8 +132,10 @@ async function TopPicksRail() {
     rawParams: { verified: 'true' },
     basePath: '/vendors',
   });
+  const revealed = await getRevealedSlugs();
+  const cards = publicListingCards(result.cards, revealed);
 
-  if (result.cards.length === 0) {
+  if (cards.length === 0) {
     return (
       <EmptyState
         title="No top picks yet"
@@ -147,7 +151,7 @@ async function TopPicksRail() {
 
   return (
     <>
-      <ListingGrid listings={result.cards} label="Top picks" />
+      <ListingGrid listings={cards} label="Top picks" />
       <Group mt="md">
         <Button component={Link} href="/vendors?verified=true" variant="default" size="sm">
           See all top picks
@@ -166,10 +170,11 @@ export default function HomePage() {
       <div className="surface--editorial">
         <HomeHero
           title="Your wedding, your way."
-          lede="Compare published prices, then send one enquiry."
-          facts={['Published prices and inclusions', 'One enquiry to up to 10 businesses']}
+          lede="Compare published prices, then enquire with the business you want."
+          facts={['Published prices and inclusions', 'Names unlock when you enquire']}
           imageUrl="/media/seed/home-hero-cover.jpg"
           imageAlt="A couple celebrating beneath a floral arch as confetti falls"
+          videoUrl="/media/video/hero.mp4"
           popularSearches={[
             { label: 'Banquet halls', href: '/vendors?category=venues' },
             { label: 'Photographers', href: '/vendors?category=photographers' },
@@ -236,14 +241,16 @@ export default function HomePage() {
             </Surface>
             <Surface tone="raised" padding="md" radius="card">
               <Stack gap="xs">
-                <h3>Enquire once</h3>
-                <p>One form to up to ten businesses.</p>
+                <h3>Enquire, and unlock</h3>
+                <p>
+                  One short form per business. Sending it reveals their name and contact details.
+                </p>
               </Stack>
             </Surface>
             <Surface tone="raised" padding="md" radius="card">
               <Stack gap="xs">
                 <h3>Track replies</h3>
-                <p>One reference code. No account needed.</p>
+                <p>One reference code per enquiry. No account needed.</p>
               </Stack>
             </Surface>
           </SimpleGrid>

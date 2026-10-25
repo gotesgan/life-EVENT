@@ -216,25 +216,29 @@ test.describe('browse and filter', () => {
     await expectResultsOrEmptyState(page);
   });
 
-  test('a venue card highlight renders the option label, never a raw identifier', async ({
-    page,
-  }) => {
+  test('a bound attribute renders its option label, never a raw identifier', async ({ page }) => {
     await page.goto('/vendors?category=venues');
     await expectNoErrorState(page);
     await expectResultsOrEmptyState(page);
 
-    // `venue_type` is a multi-select bound with `showOnCard`. Its options are
-    // stored as ids; the card must resolve them to their labels.
-    const venueTypeHighlight = page
-      .locator('article')
-      .first()
-      .locator('li', { hasText: /Venue type/i });
+    // Open the first venue and read its Details list. `venue_type` is a
+    // multi-select bound whose options are stored as ids, so the profile must
+    // resolve them to labels before rendering — a raw cuid on the page is the
+    // failure mode this guards against.
+    await page.locator('article a').first().click();
+    await expect(page.getByRole('heading', { level: 1 })).toBeVisible({ timeout: 30_000 });
 
-    await expect(venueTypeHighlight).toHaveCount(1);
-    const text = (await venueTypeHighlight.innerText()).trim();
+    const details = page.getByRole('heading', { name: /^details$/i });
+    await expect(details).toBeVisible();
 
+    const section = page.locator('section', { has: details });
+    const text = (await section.innerText()).trim();
+
+    expect(text).toMatch(/Venue type/i);
     expect(text).toMatch(/Banquet|Hotel|Resort|Lawn/i);
-    expect(text, `raw identifier leaked onto the card: ${text}`).not.toMatch(/c[a-z0-9]{20,}/);
+    expect(text, `raw identifier leaked onto the detail page: ${text}`).not.toMatch(
+      /c[a-z0-9]{20,}/,
+    );
   });
 
   test('a category attribute filter appears only for the category that declares it', async ({

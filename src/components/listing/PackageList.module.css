@@ -33,7 +33,7 @@
 .price {
   color: var(--app-text);
   font-size: var(--text-body-size);
-  font-weight: 750;
+  font-weight: 700;
 }
 
 .guests {

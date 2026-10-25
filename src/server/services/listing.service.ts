@@ -7,6 +7,7 @@ import { deriveContactDisclosure } from '@/server/domain/contact';
 import type { EnquiryStatusValue } from '@/server/domain/enquiry-status';
 import { formatCapacityRange, formatPriceRange } from '@/lib/format';
 import { disambiguateSlug, slugify } from '@/lib/slug';
+import { listingIdFromRef } from '@/lib/public-listing-ref';
 import { normaliseSearchText } from '@/server/domain/search-filters';
 import { toAuditActor } from '@/server/domain/audit-actor';
 import { recordAudit } from '@/server/services/audit.service';
@@ -38,11 +39,15 @@ export interface PublicListingOptions {
  * opts in as an administrator, so a guessed slug cannot reveal a draft.
  */
 export async function getPublicListingBySlug(
-  slug: string,
+  slugOrRef: string,
   options: PublicListingOptions = {},
 ): Promise<ListingDetail> {
+  // Public links carry an opaque id (`ul_…`) so the URL cannot leak a trading
+  // name; slugs remain accepted for the admin surface and existing links.
+  const id = listingIdFromRef(slugOrRef);
+
   const listing = await prisma.businessListing.findUnique({
-    where: { slug },
+    where: id ? { id } : { slug: slugOrRef },
     include: {
       primaryCategory: { select: { name: true, slug: true } },
       primaryLocation: {

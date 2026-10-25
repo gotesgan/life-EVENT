@@ -14,6 +14,30 @@
   z-index: -2;
 }
 
+/* The video shares `.photo` so the `:has(.photo)` contrast rules below keep
+   applying to the text layer, and so a clip that fails to play leaves the
+   poster/photo underneath untouched rather than a gap. */
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* A short dissolve into the page surface at the foot of the hero. The flat
+   scrim above is what guarantees text contrast; this only softens the seam
+   between a moving image and a white page, so it never reaches the headline. */
+.hero::after {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  inset-block-end: 0;
+  z-index: -1;
+  height: rem(80px);
+  background: linear-gradient(to bottom, transparent, var(--app-surface));
+  pointer-events: none;
+}
+
 /* A single, even scrim. The previous gradient ran 55% → 45% → 65% with a warm
    red-black, which left the middle band lighter than both ends and gave white
    text an inconsistent background to sit on. A flat `--app-overlay` (slate-900/60
@@ -96,7 +120,7 @@
   gap: rem(6px);
   color: var(--app-text-on-dark-muted);
   font-size: var(--text-secondary-size);
-  font-weight: 550;
+  font-weight: 500;
 }
 
 .hero:not(:has(.photo)) .fact {
@@ -140,7 +164,7 @@
 }
 
 .popularLabel {
-  font-weight: 650;
+  font-weight: 600;
 }
 
 .popularLink {

@@ -2,6 +2,7 @@ import 'server-only';
 import { prisma } from '@/lib/db';
 import { ConflictError, NotFoundError, ValidationError } from '@/lib/errors';
 import { buildPaginated } from '@/lib/pagination';
+import { listingIdFromRef } from '@/lib/public-listing-ref';
 import type { CreateEnquiryInput } from '@/lib/validation/enquiry';
 import {
   generateReferenceCode,
@@ -378,26 +379,54 @@ async function claimOrRecoverKey(input: ClaimOrRecoverInput): Promise<ClaimOutco
   throw new ConflictError('That enquiry was already submitted');
 }
 
-/** Resolves listing slugs, refusing anything not publicly visible. */
-async function resolveEnquiryListings(slugs: readonly string[]) {
-  if (slugs.length > MAX_LISTINGS_PER_ENQUIRY) {
+/**
+ * Resolves the identifiers an enquiry names, refusing anything not publicly
+ * visible.
+ *
+ * An identifier is either a public reference (`ul_<id>`, what the site's own
+ * forms post) or a slug (accepted so older clients and direct API callers keep
+ * working). Both are resolved in one query and the caller's order is preserved.
+ */
+async function resolveEnquiryListings(identifiers: readonly string[]) {
+  if (identifiers.length > MAX_LISTINGS_PER_ENQUIRY) {
     throw new ValidationError(
       `You can enquire with up to ${MAX_LISTINGS_PER_ENQUIRY} businesses at once`,
     );
   }
 
+  const ids = identifiers.map((identifier) => listingIdFromRef(identifier));
   const listings = await prisma.businessListing.findMany({
-    where: { slug: { in: [...slugs] } },
-    select: { id: true, slug: true, name: true, publicationStatus: true, archivedAt: true },
+    where: {
+      OR: [
+        { id: { in: ids.filter((id): id is string => id !== null) } },
+        { slug: { in: [...identifiers] } },
+      ],
+    },
+    select: {
+      id: true,
+      slug: true,
+      name: true,
+      publicationStatus: true,
+      archivedAt: true,
+    },
   });
 
-  const foundSlugs = new Set(listings.map((listing) => listing.slug));
-  const missing = slugs.filter((slug) => !foundSlugs.has(slug));
+  const keyFor = (identifier: string) => listingIdFromRef(identifier) ?? identifier;
+  // Keyed on both, so a slug lookup and a reference lookup of the same listing
+  // cannot disagree.
+  const byKey = new Map<string, (typeof listings)[number]>();
+  for (const listing of listings) {
+    byKey.set(listing.id, listing);
+    byKey.set(listing.slug, listing);
+  }
+
+  const missing = identifiers.filter((identifier) => !byKey.has(keyFor(identifier)));
   if (missing.length > 0) {
     throw new ValidationError('Some businesses could not be found', { listings: missing });
   }
 
-  const unavailable = listings.filter(
+  const resolved = identifiers.map((identifier) => byKey.get(keyFor(identifier))!);
+  const unavailable = resolved.filter(
     (listing) => listing.publicationStatus !== 'PUBLISHED' || listing.archivedAt !== null,
   );
   if (unavailable.length > 0) {
@@ -407,8 +436,7 @@ async function resolveEnquiryListings(slugs: readonly string[]) {
   }
 
   // Preserve the order the customer chose so the confirmation reads sensibly.
-  const bySlug = new Map(listings.map((listing) => [listing.slug, listing]));
-  return slugs.map((slug) => bySlug.get(slug)!);
+  return resolved;
 }
 
 async function generateUniqueReferenceCode(tx: {

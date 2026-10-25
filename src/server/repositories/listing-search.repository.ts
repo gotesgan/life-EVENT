@@ -132,6 +132,7 @@ export function toListingCard(
     }),
     priceMin: row.priceMin,
     priceMax: row.priceMax,
+    priceUnit: row.priceUnit,
     capacityLabel: formatCapacityRange(row.capacityMin, row.capacityMax),
     isVerified: row.verificationStatus === 'VERIFIED',
     isFeatured: row.isFeatured,

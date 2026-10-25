@@ -108,12 +108,13 @@
   letter-spacing: 0.01em;
 }
 
-/* The scan anchor of this surface: monospace and tabular so two references can
-   be compared down the page. */
+/* The scan anchor of this surface: tabular and tracked so two references can be
+   compared down the page. One family everywhere — the reference code is the only
+   uppercase-tracked string on the page, which is enough to set it apart without
+   importing a second typeface. */
 .reference {
   margin: 0;
   color: var(--app-text);
-  font-family: var(--mantine-font-family-monospace, monospace);
   font-size: var(--text-h3-size);
   font-weight: 700;
   font-variant-numeric: tabular-nums;

@@ -6,7 +6,7 @@ import {
   registerNewCustomer,
   signInAs,
   signOut,
-  uniquePhone,
+  submitListingEnquiry,
 } from './helpers';
 
 /**
@@ -21,16 +21,8 @@ import {
 const PROVIDER_SLUG = 'gulmohar-banjara-banquets';
 
 async function submitEnquiry(page: import('@playwright/test').Page, email: string) {
-  await page.goto(`/enquire?enquire=${PROVIDER_SLUG}`);
-  await page.getByLabel('Your name').fill('Isolation Test');
-  await page.getByLabel('Email').fill(email);
-  await page.getByLabel('Phone').fill(uniquePhone());
-  await page.getByLabel(/accept the privacy terms/i).check();
-  await page.getByRole('button', { name: /send enquiry/i }).click();
-
-  const reference = page.getByText(/LE-[A-Z0-9]{8}/);
-  await expect(reference).toBeVisible({ timeout: 20_000 });
-  return (await reference.innerText()).trim();
+  // One enquiry per listing: the profile's own form is the submission surface.
+  return submitListingEnquiry(page, PROVIDER_SLUG, { name: 'Isolation Test', email });
 }
 
 test.describe('customer account', () => {

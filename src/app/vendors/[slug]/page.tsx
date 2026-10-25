@@ -2,11 +2,12 @@ import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import Link from '@/components/ui/ClientLink';
 import { notFound } from 'next/navigation';
-import { IconMapPin } from '@tabler/icons-react';
+import { IconLock, IconMapPin, IconSend } from '@tabler/icons-react';
+import { Button } from '@mantine/core';
+import { ListingEnquiryForm } from '@/components/enquiry/ListingEnquiryForm';
 import { SiteShell } from '@/components/layout/SiteShell';
 import { AmenityList } from '@/components/listing/AmenityList';
 import { AttributeList } from '@/components/listing/AttributeList';
-import { EnquirySubmitButton } from '@/components/listing/EnquiryShortlist';
 import { ListingContactCard } from '@/components/listing/ListingContactCard';
 import { ListingFacts, type ListingFact } from '@/components/listing/ListingFacts';
 import { ListingGallery } from '@/components/listing/ListingGallery';
@@ -21,9 +22,18 @@ import { PageHeader } from '@/components/ui/PageHeader';
 import { PriceTag } from '@/components/ui/PriceTag';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { ListingDetailSkeleton, ListingGridSkeleton } from '@/components/ui/Skeletons';
+import { Surface } from '@/components/ui/Surface';
 import { getAppUrl } from '@/lib/env';
 import { NotFoundError } from '@/lib/errors';
+import {
+  getRevealedSlugs,
+  isListingRevealed,
+  maskedListingName,
+  publicListingDetail,
+} from '@/lib/listing-privacy';
+import { listingRef } from '@/lib/public-listing-ref';
 import type { ListingDetail } from '@/server/dto/listing.dto';
+import { listEventTypes } from '@/server/services/catalog.service';
 import { getPublicListingBySlug } from '@/server/services/listing.service';
 import classes from './page.module.css';
 
@@ -41,31 +51,43 @@ export async function generateMetadata({ params }: ListingPageProps): Promise<Me
 
   try {
     const listing = await getPublicListingBySlug(slug);
-    const title = listing.tagline ? `${listing.name} — ${listing.tagline}` : listing.name;
-    const description =
-      listing.description ??
-      listing.about ??
-      `${listing.name}${
-        listing.primaryCategory ? `, a ${listing.primaryCategory.name.toLowerCase()} business` : ''
-      }${listing.location ? ` in ${listing.location.name}` : ''}. See what the business has published and send an enquiry.`;
+
+    /*
+     * Metadata is always written against the anonymous identity, even for a
+     * visitor who has already enquired. A page title, an OG card or a canonical
+     * URL is a permanent, crawlable artefact; writing the trading name into it
+     * would leak the name to everyone the link is ever shared with, which is the
+     * one thing the enquiry gate exists to prevent.
+     */
+    const anonymousName = maskedListingName(listing);
+    const title = `${anonymousName} — prices, capacity and facilities`;
+    const description = `${anonymousName}. ${
+      listing.primaryCategory
+        ? `A ${listing.primaryCategory.name.toLowerCase()} listing`
+        : 'A listing'
+    } on Live Envt with published prices${
+      listing.location ? ` in ${listing.location.name}` : ''
+    }. Send an enquiry to see the business name and contact details.`;
 
     const cover = listing.gallery[0];
     // Social crawlers cannot render the seeded SVG placeholders, so an SVG cover
     // is omitted rather than advertised as a broken preview image.
     const ogImage =
       cover && !cover.url.endsWith('.svg')
-        ? { url: absoluteMediaUrl(cover.url), alt: cover.alt }
+        ? { url: absoluteMediaUrl(cover.url), alt: anonymousName }
         : null;
+
+    const publicPath = `/vendors/${listingRef(listing.id)}`;
 
     return {
       title,
       description,
-      alternates: { canonical: `/vendors/${listing.slug}` },
+      alternates: { canonical: publicPath },
       openGraph: {
         type: 'website',
         title,
         description,
-        url: `${getAppUrl()}/vendors/${listing.slug}`,
+        url: `${getAppUrl()}${publicPath}`,
         images: ogImage ? [ogImage] : undefined,
       },
     };
@@ -100,7 +122,7 @@ function jumpItemsFor(listing: ListingDetail): JumpNavItem[] {
   if (listing.attributeGroups.some((group) => group.attributes.length > 0)) {
     items.push({ id: 'details', label: 'Details' });
   }
-  items.push({ id: 'contact', label: 'Contact' });
+  items.push({ id: 'enquiry', label: 'Enquire' });
   return items;
 }
 
@@ -115,9 +137,20 @@ async function ListingProfile({ slug }: { slug: string }) {
     throw error;
   }
 
+  // The reveal cookie decides whether this request may see the trading name.
+  // Everything downstream reads the masked projection, so the real name is
+  // never rendered — and never serialised — for an unrevealed visitor.
+  const revealed = await getRevealedSlugs();
+  const identityHidden = !isListingRevealed(revealed, listing);
+  // Captured before masking: the masked projection replaces `slug` with the
+  // opaque public reference, and the related rail must still exclude this row.
+  const realSlug = listing.slug;
+  const eventTypes = await listEventTypes();
+  listing = publicListingDetail(listing, revealed);
+
   const category = listing.primaryCategory;
-  const enquiryHref = `/enquire?enquire=${encodeURIComponent(listing.slug)}`;
   const isVerified = listing.verificationStatus === 'VERIFIED';
+  const publicReference = listingRef(listing.id);
 
   return (
     <>
@@ -182,18 +215,29 @@ async function ListingProfile({ slug }: { slug: string }) {
               <div className={classes.identityActions}>
                 <TopPickBadge isVerified={isVerified} size="md" />
                 <span className={classes.mobileCta}>
-                  {/*
-                   * Shortlist-aware, like the primary CTA further down the page.
-                   * The plain `enquiryHref` link would silently replace a basket
-                   * the customer had already built on the browse page with this
-                   * single business — the button looked identical but did
-                   * something different.
-                   */}
-                  <EnquirySubmitButton slug={listing.slug} />
+                  <Button
+                    component="a"
+                    href="#enquiry"
+                    leftSection={<IconSend size="1rem" stroke={1.6} aria-hidden />}
+                    size="sm"
+                  >
+                    {identityHidden ? 'Enquire to unlock' : 'Send an enquiry'}
+                  </Button>
                 </span>
               </div>
             }
           />
+
+          {identityHidden ? (
+            <Surface tone="muted" padding="sm" className={classes.privacyNote}>
+              <IconLock size="1.125rem" stroke={1.5} aria-hidden />
+              <p>
+                <strong>The name is hidden until you enquire.</strong> Everything this business has
+                published — prices, capacity, facilities and photographs — is shown below. Sending
+                the enquiry is free, needs no account, and unlocks the name and contact details.
+              </p>
+            </Surface>
+          ) : null}
 
           <div className={classes.priceRow}>
             <PriceTag
@@ -270,13 +314,24 @@ async function ListingProfile({ slug }: { slug: string }) {
         </div>
 
         <aside className={classes.rail} aria-label={`Enquire about ${listing.name}`}>
-          <div id="contact" className={classes.railSticky}>
+          <div id="enquiry" className={classes.railSticky}>
             <ListingContactCard
               contact={listing.contact}
               listingName={listing.name}
-              enquiryHref={enquiryHref}
+              hidden={identityHidden}
               footnote="Businesses typically reply within two working days."
             />
+
+            <Surface tone="raised" padding="md" elevated className={classes.enquiryCard}>
+              <ListingEnquiryForm
+                listingRef={publicReference}
+                eventTypeOptions={eventTypes.map((eventType) => ({
+                  value: eventType.slug,
+                  label: eventType.name,
+                }))}
+                hidden={identityHidden}
+              />
+            </Surface>
           </div>
         </aside>
       </div>
@@ -287,7 +342,7 @@ async function ListingProfile({ slug }: { slug: string }) {
             <RelatedListings
               categorySlug={category.slug}
               categoryName={category.name}
-              excludeSlug={listing.slug}
+              excludeSlug={realSlug}
             />
           </Suspense>
         </div>

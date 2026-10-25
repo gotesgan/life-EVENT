@@ -1,8 +1,8 @@
 import type { ReactNode } from 'react';
-import Image from 'next/image';
 import Link from '@/components/ui/ClientLink';
 import { IconCheck } from '@tabler/icons-react';
 import { Container } from '@/components/ui/Container';
+import { HomeHeroMedia } from './HomeHeroMedia';
 import classes from './HomeHero.module.css';
 
 export interface HomeHeroProps {
@@ -13,13 +13,18 @@ export interface HomeHeroProps {
   /** Full-bleed background photo, like the WedMeGood-style reference. */
   imageUrl?: string;
   imageAlt?: string;
+  /**
+   * Optional looping background clip. It sits above the still and falls back to
+   * it wherever motion is unwelcome or the file cannot play.
+   */
+  videoUrl?: string;
   popularSearches?: ReadonlyArray<{ label: string; href: string }>;
   children?: ReactNode;
 }
 
 /**
- * The homepage hero — full-bleed photo with a dark overlay, centred white
- * headline, and the search form in a white card (see reference screenshots).
+ * The homepage hero — full-bleed video (with a photo poster) under a dark
+ * overlay, centred white headline, and the search form in a white card.
  */
 export function HomeHero({
   title,
@@ -27,21 +32,15 @@ export function HomeHero({
   facts,
   imageUrl,
   imageAlt = '',
+  videoUrl,
   popularSearches,
   children,
 }: HomeHeroProps) {
   return (
     <section className={classes.hero} aria-labelledby="home-hero-title">
-      {imageUrl ? (
+      {imageUrl || videoUrl ? (
         <>
-          <Image
-            src={imageUrl}
-            alt={imageAlt}
-            fill
-            priority
-            sizes="100vw"
-            className={classes.photo}
-          />
+          <HomeHeroMedia videoSrc={videoUrl} posterSrc={imageUrl} posterAlt={imageAlt} />
           <span aria-hidden className={classes.overlay} />
         </>
       ) : (

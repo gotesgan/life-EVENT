@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { IconArrowRight } from '@tabler/icons-react';
 import { truncate } from '@/lib/format';
 import classes from './CategoryCard.module.css';
 
@@ -42,6 +43,7 @@ export function CategoryCard({
       {shortDescription ? (
         <p className={classes.description}>{truncate(shortDescription, 110)}</p>
       ) : null}
+      <IconArrowRight className={classes.arrow} size="1rem" stroke={1.6} aria-hidden />
     </Link>
   );
 }

@@ -45,13 +45,25 @@ export default function ContactPage() {
         <PageSection title="Sending a new enquiry">
           <Prose>
             <p>
-              <Link href="/enquire">Send an enquiry</Link> after choosing the businesses you are
-              interested in. You can add up to ten businesses to one enquiry and describe the event
-              once.
+              Every enquiry belongs to one listing. Open the venue, planner or decorator you are
+              interested in and use the enquiry form on that profile — one enquiry per business, so
+              each one can be answered on its own. Sending it is also what unlocks that
+              business&rsquo;s name and contact details.
             </p>
             <p>
               If you are still looking, start from <Link href="/categories">the category list</Link>{' '}
               or <Link href="/vendors">search every vendor</Link>.
+            </p>
+          </Prose>
+        </PageSection>
+
+        <PageSection title="Listing your business">
+          <Prose>
+            <p>
+              If you run a wedding or event business,{' '}
+              <Link href="/partner-with-us">register it here</Link>. The form asks for the business
+              name, what kind of vendor you are, a contact number and a short description — the team
+              calls you back from there.
             </p>
           </Prose>
         </PageSection>

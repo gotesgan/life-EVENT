@@ -7,6 +7,20 @@
   white-space: nowrap;
 }
 
+/* Narrow-column form: the unit wraps under the amount instead of being clipped
+   out of the card. See `PriceTagProps.stack`. */
+.stack {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: rem(2px);
+  white-space: normal;
+}
+
+.stack .unit {
+  font-size: var(--text-caption-size);
+  line-height: var(--text-caption-leading);
+}
+
 .amount {
   font-weight: 700;
   letter-spacing: -0.01em;

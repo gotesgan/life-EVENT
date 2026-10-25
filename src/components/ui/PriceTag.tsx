@@ -15,6 +15,15 @@ export interface PriceTagProps {
    * state carrying a reason, never a blank line.
    */
   onRequestLabel?: string;
+  /**
+   * Puts the unit on its own line under the amount.
+   *
+   * In a narrow card the single-line form is 220–280px wide once the range is
+   * written out ("₹1,20,000 – ₹4,50,000 per event"), which is wider than the
+   * column, so the old card clipped it to "₹4,50,000 per ev…". Stacking keeps
+   * the whole number on the identifier line and moves the unit beneath it.
+   */
+  stack?: boolean;
   className?: string;
 }
 
@@ -32,6 +41,7 @@ export function PriceTag({
   priceUnit,
   size = 'md',
   onRequestLabel = 'Price on request',
+  stack = false,
   className,
 }: PriceTagProps) {
   const value = formatPriceRange({ priceMin, priceMax, priceUnit: priceUnit ?? null });
@@ -49,7 +59,7 @@ export function PriceTag({
     : value;
 
   return (
-    <span className={cx(classes.price, classes[size], className)}>
+    <span className={cx(classes.price, classes[size], stack && classes.stack, className)}>
       <span className={classes.amount}>{amount}</span>
       {hasUnitSuffix ? <span className={classes.unit}>{unit}</span> : null}
     </span>

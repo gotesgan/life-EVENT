@@ -2,6 +2,11 @@
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
+  /* The gallery is the first thing on the profile, and at 16:9 across a wide
+     column it alone filled the whole viewport — the name, price and enquiry
+     action were all below the fold. Capping the height keeps the photograph
+     cinematic while letting the identity and price share the first screen. */
+  max-height: min(56vh, rem(520px));
   overflow: hidden;
   border: 1px solid var(--app-border);
   border-radius: var(--app-radius-card);

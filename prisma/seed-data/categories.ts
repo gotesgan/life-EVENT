@@ -92,6 +92,13 @@ const TOP_LEVEL: readonly TopLevelCategorySeed[] = [
     iconKey: 'car',
     sortOrder: 80,
   },
+  {
+    slug: 'corporate-events',
+    name: 'Corporate Events',
+    shortDescription: 'Venues, catering, AV and offsites for conferences, launches and team days.',
+    iconKey: 'briefcase',
+    sortOrder: 90,
+  },
 ];
 
 const SUBCATEGORIES: readonly SubcategorySeed[] = [
@@ -230,6 +237,38 @@ const SUBCATEGORIES: readonly SubcategorySeed[] = [
     shortDescription: 'Chauffeured luxury cars for the wedding party.',
     iconKey: 'car',
     sortOrder: 20,
+  },
+  {
+    slug: 'corporate-venues',
+    name: 'Corporate Venues',
+    parentSlug: 'corporate-events',
+    shortDescription: 'Conference centres, business hotels and auditoriums with AV on site.',
+    iconKey: 'briefcase',
+    sortOrder: 10,
+  },
+  {
+    slug: 'conference-and-av',
+    name: 'Conference & AV',
+    parentSlug: 'corporate-events',
+    shortDescription: 'Staging, sound, projection and hybrid-meeting production.',
+    iconKey: 'speakerphone',
+    sortOrder: 20,
+  },
+  {
+    slug: 'corporate-catering',
+    name: 'Corporate Catering',
+    parentSlug: 'corporate-events',
+    shortDescription: 'Board lunches, conference catering and office celebration menus.',
+    iconKey: 'tools-kitchen',
+    sortOrder: 30,
+  },
+  {
+    slug: 'team-offsites',
+    name: 'Team Offsites',
+    parentSlug: 'corporate-events',
+    shortDescription: 'Resort and estate stays for offsites, retreats and team days.',
+    iconKey: 'trees',
+    sortOrder: 40,
   },
 ];
 

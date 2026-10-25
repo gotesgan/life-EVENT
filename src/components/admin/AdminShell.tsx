@@ -17,6 +17,7 @@ import {
   IconShieldCheck,
   IconSofa,
   IconTags,
+  IconUserPlus,
   IconUsers,
 } from '@tabler/icons-react';
 import { BrandMark, ThemeToggle } from '@/components/ui';
@@ -46,6 +47,11 @@ const PRIMARY_NAV: NavItem[] = [
     label: 'Enquiries',
     icon: <IconInbox size={18} stroke={1.5} />,
     badge: 'inbox',
+  },
+  {
+    href: '/admin/vendor-applications',
+    label: 'Vendor applications',
+    icon: <IconUserPlus size={18} stroke={1.5} />,
   },
   { href: '/admin/customers', label: 'Customers', icon: <IconUsers size={18} stroke={1.5} /> },
 ];

@@ -138,17 +138,53 @@
   white-space: pre-line;
 }
 
+/* The rail is the enquiry surface, so it is shown at every width — on a phone it
+   simply stacks under the profile. It was previously hidden below `md`, which
+   would now hide the only enquiry form on the page. */
 .rail {
-  display: none;
-
-  @mixin larger-than $mantine-breakpoint-md {
-    display: block;
-  }
+  display: block;
+  order: 2;
 }
 
 .railSticky {
-  position: sticky;
-  top: calc(var(--app-header-height) + rem(20px));
+  display: flex;
+  flex-direction: column;
+  gap: rem(16px);
+  scroll-margin-top: calc(var(--app-header-height) + rem(20px));
+
+  @mixin larger-than $mantine-breakpoint-md {
+    position: sticky;
+    top: calc(var(--app-header-height) + rem(20px));
+  }
+}
+
+/* The "name is hidden" explainer above the price. A muted surface rather than a
+   warning tone: this is the product's normal state, not an error. */
+.privacyNote {
+  display: flex;
+  align-items: flex-start;
+  gap: rem(10px);
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+
+  & p {
+    margin: 0;
+  }
+
+  & strong {
+    color: var(--app-text);
+    font-weight: 600;
+  }
+
+  & svg {
+    flex: 0 0 auto;
+    margin-top: rem(2px);
+    color: var(--app-text-subtle);
+  }
+}
+
+.enquiryCard {
   scroll-margin-top: calc(var(--app-header-height) + rem(20px));
 }
 

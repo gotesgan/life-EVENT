@@ -1,0 +1,39 @@
+.browseAll {
+  color: var(--app-brand);
+  font-size: var(--text-button-size);
+  font-weight: var(--text-button-weight);
+  text-decoration: none;
+
+  @mixin hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+.skeletonTile {
+  height: rem(120px);
+  border-radius: var(--app-radius-card-dense);
+  background-color: var(--app-surface-muted);
+}
+
+.empty {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.whyTitle {
+  margin: 0 0 rem(4px);
+  font-size: var(--text-card-title-size);
+  font-weight: var(--text-card-title-weight);
+  line-height: var(--text-card-title-leading);
+  letter-spacing: var(--text-card-title-tracking);
+}
+
+.whyBody {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}

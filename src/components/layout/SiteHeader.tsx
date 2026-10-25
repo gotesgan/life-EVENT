@@ -62,6 +62,14 @@ export function SiteHeader() {
               </Link>
             </li>
             <li>
+              {/* The supply-side entry point, deliberately beside the
+                  demand-side one: a vendor looking at the marketplace should not
+                  have to hunt for how to join it. */}
+              <Link href="/partner-with-us" className={classes.utilityLink}>
+                List your business
+              </Link>
+            </li>
+            <li>
               <Link href="/contact" className={classes.utilityLink}>
                 Contact us
               </Link>

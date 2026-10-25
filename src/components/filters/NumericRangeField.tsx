@@ -23,6 +23,16 @@ export interface NumericRangeFieldProps {
   /** Local labels so the two inputs are distinguishable to a screen reader. */
   minLabel: string;
   maxLabel: string;
+  /**
+   * The catalogue's own lower/upper bound, shown as the input's opening value.
+   *
+   * This is a *display* default, not a filter: a value equal to the bound writes
+   * no query parameter, so leaving the range alone still means "any". It exists
+   * because two empty number boxes give no sense of the scale — "₹0 to
+   * ₹18,00,000" says what is available in one glance.
+   */
+  defaultMin?: number | null;
+  defaultMax?: number | null;
 }
 
 function parseNumber(value: string | undefined): number | null {
@@ -39,6 +49,11 @@ function parseNumber(value: string | undefined): number | null {
  * combined `min-max` encoding that category attribute ranges use. Commits are
  * debounced and also flushed on blur, so a partially typed number never becomes
  * a filter — and because it is a `replace`, typing does not fill the history.
+ *
+ * The inputs open on the catalogue's bounds. A bound that is left untouched is
+ * not written to the URL, which keeps "the whole range" meaning "no filter" —
+ * important for unpublished prices, which an accidental `priceMin=0` would
+ * otherwise exclude.
  */
 export function NumericRangeField({
   legend,
@@ -50,13 +65,16 @@ export function NumericRangeField({
   thousandSeparator,
   minLabel,
   maxLabel,
+  defaultMin = null,
+  defaultMax = null,
 }: NumericRangeFieldProps) {
   const nav = useFilterNavigation();
   const currentMin = parseNumber(nav.params[minKey]);
   const currentMax = parseNumber(nav.params[maxKey]);
 
-  const externalMin = currentMin === null ? '' : String(currentMin);
-  const externalMax = currentMax === null ? '' : String(currentMax);
+  // The URL wins when it holds a value; otherwise the catalogue bound is shown.
+  const externalMin = String(currentMin ?? defaultMin ?? '');
+  const externalMax = String(currentMax ?? defaultMax ?? '');
   const [min, setMin] = useState(externalMin);
   const [max, setMax] = useState(externalMax);
   const [syncedFrom, setSyncedFrom] = useState(`${externalMin}|${externalMax}`);
@@ -72,11 +90,21 @@ export function NumericRangeField({
     setMax(externalMax);
   }
 
+  /** A bound only becomes a query parameter once it differs from the catalogue's. */
+  const commitBound = (raw: string, bound: number | null): string | undefined => {
+    const trimmed = raw.trim();
+    if (!trimmed) return undefined;
+    const value = Number(trimmed);
+    if (!Number.isFinite(value)) return undefined;
+    if (bound !== null && value === bound) return undefined;
+    return trimmed;
+  };
+
   const commit = useDebouncedCallback((nextMin: string, nextMax: string) => {
     nav.update(
       (params) => {
-        const withMin = setSingleValue(params, minKey, nextMin.trim() || undefined);
-        return setSingleValue(withMin, maxKey, nextMax.trim() || undefined);
+        const withMin = setSingleValue(params, minKey, commitBound(nextMin, defaultMin));
+        return setSingleValue(withMin, maxKey, commitBound(nextMax, defaultMax));
       },
       { replace: true },
     );
@@ -88,6 +116,7 @@ export function NumericRangeField({
         <NumberInput
           label={minLabel}
           value={min}
+          placeholder="Any"
           prefix={prefix}
           suffix={suffix}
           thousandSeparator={thousandSeparator}
@@ -110,6 +139,7 @@ export function NumericRangeField({
         <NumberInput
           label={maxLabel}
           value={max}
+          placeholder="Any"
           prefix={prefix}
           suffix={suffix}
           thousandSeparator={thousandSeparator}

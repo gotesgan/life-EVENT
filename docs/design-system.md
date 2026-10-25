@@ -439,16 +439,16 @@ applied — `font-size: var(--text-h1)` is not valid CSS — and the shorthand a
 | Token                 | Size                                           | Weight | Line height | Tracking   |
 | --------------------- | ---------------------------------------------- | ------ | ----------- | ---------- |
 | `--text-display-*`    | `clamp(2.5rem, 1.6rem + 3.6vw, 4rem)`          | 800    | 1.05        | `-0.03em`  |
-| `--text-h1-*`         | `clamp(2rem, 1.5rem + 2vw, 3rem)`              | 750    | 1.08        | `-0.025em` |
-| `--text-h2-*`         | `clamp(1.5rem, 1.3rem + 0.9vw, 2.125rem)`      | 720    | 1.15        | `-0.02em`  |
+| `--text-h1-*`         | `clamp(2rem, 1.5rem + 2vw, 3rem)`              | 700    | 1.08        | `-0.025em` |
+| `--text-h2-*`         | `clamp(1.5rem, 1.3rem + 0.9vw, 2.125rem)`      | 700    | 1.15        | `-0.02em`  |
 | `--text-h3-*`         | `clamp(1.1875rem, 1.1rem + 0.35vw, 1.4375rem)` | 700    | 1.22        | `-0.015em` |
 | `--text-card-title-*` | `1.0625rem` (17px)                             | 700    | 1.3         | `-0.01em`  |
-| `--text-anchor-*`     | `1.125rem` (18px)                              | 750    | 1.2         | `-0.01em`  |
-| `--text-body-*`       | `0.9375rem` (15px)                             | 450    | 1.6         | `0`        |
-| `--text-secondary-*`  | `0.875rem` (14px)                              | 450    | 1.55        | —          |
-| `--text-label-*`      | `0.8125rem` (13px)                             | 650    | 1.3         | —          |
-| `--text-button-*`     | `0.875rem` (14px)                              | 650    | 1           | —          |
-| `--text-caption-*`    | `0.75rem` (12px)                               | 550    | 1.4         | —          |
+| `--text-anchor-*`     | `1.125rem` (18px)                              | 700    | 1.2         | `-0.01em`  |
+| `--text-body-*`       | `0.9375rem` (15px)                             | 400    | 1.6         | `0`        |
+| `--text-secondary-*`  | `0.875rem` (14px)                              | 400    | 1.55        | —          |
+| `--text-label-*`      | `0.8125rem` (13px)                             | 600    | 1.3         | —          |
+| `--text-button-*`     | `0.875rem` (14px)                              | 600    | 1           | —          |
+| `--text-caption-*`    | `0.75rem` (12px)                               | 500    | 1.4         | —          |
 | `--text-error-*`      | `0.75rem` (12px)                               | 600    | 1.4         | —          |
 | `--text-dense-*`      | `0.8125rem` (13px)                             | 500    | 1.35        | —          |
 
@@ -460,14 +460,25 @@ value sits in the same slot on every tile; Amazon and Flipkart use price and rat
 product has neither (fabricated ratings are forbidden and rates are often "on request"), so the slot
 is filled by a deterministic ladder (`docs/marketplace-styling-guide.md` §2.2). The step is larger
 and heavier than a card title, tabular so digits align down a column, and never the loudest thing on
-the page. It is defined in `globals.css`; **no component consumes it yet** — that migration is part
-of the in-flight component restyle, so treat the token as available-but-unadopted rather than as a
-description of shipped tiles.
+the page. It is defined in `globals.css`. The listing card's price slot now renders through `PriceTag`
+(the amount is the card-title step at weight 700, with the unit on its own line in narrow columns),
+so the anchor slot is adopted rather than aspirational.
 
-**Hierarchy is four-channel, not just size.** A caption is smaller _and_ lighter (550) _and_ muted
+**Five weights, not nine.** The scale ships exactly five weights: **400** reading text, **500**
+supporting text (captions, metadata, dense table cells), **600** labels and controls, **700**
+headings and the scan anchor, **800** the hero display. The previous scale used nine
+(450/500/550/600/650/700/720/750/800); nine values inside a 400-wide axis are indistinguishable at
+text sizes, so the result read as inconsistency rather than emphasis — a label at 550 and one at 650
+looked identical and neither looked chosen. New type picks a rung; it never invents a weight between
+two rungs.
+
+**Hierarchy is four-channel, not just size.** A caption is smaller _and_ lighter (500) _and_ muted
 (`--app-text-subtle`); a card title is larger _and_ heavier (700) _and_ tighter (-0.01em) _and_ full
-contrast. Weight comes from Manrope's variable axis, so 450/550/650/720/750 are real weights, not
-faux-bold.
+contrast. Weight comes from Manrope's variable axis, so all five are real weights, not faux-bold.
+
+**One family everywhere on the public site.** Manrope is the only typeface; reference codes are set
+in Manrope with `tabular-nums` and letter-spacing rather than a second monospace family. Monospace
+remains only in the admin back office, where it marks machine data (ids, audit payloads).
 
 The Mantine theme mirrors these into `headings.sizes` by reference
 (`h1.fontSize: 'var(--text-h1-size)'`), so Mantine's `Title` renders at the same size as a plain

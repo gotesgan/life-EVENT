@@ -19,6 +19,26 @@
 
    Hierarchy comes from size + weight + tracking + colour together, never from
    size alone: a caption is smaller *and* lighter *and* muted.
+
+   ## The emphasis ladder
+
+   One family (Manrope), and only **five weights** across the whole product:
+
+       400  reading text — body, secondary body, prose
+       500  supporting text — captions, metadata, dense table cells
+       600  labels and controls — field labels, buttons, chips, eyebrows
+       700  headings and the scan anchor — h1/h2/h3, card titles, prices
+       800  display only — the home hero headline
+
+   The previous scale used nine weights (450/500/550/600/650/700/720/750/800).
+   Nine values inside a 400-wide range are indistinguishable at text sizes, so
+   the result read as *inconsistency* rather than emphasis: a label at 550 and one
+   at 650 looked identical and neither looked chosen. Consolidating to five means
+   a weight change is always visible, and hierarchy is delivered by size and
+   colour where a finer step was doing nothing.
+
+   Rule for new type: pick a rung, never invent a value between two rungs. New
+   sizes are fine; new weights are not.
    ========================================================================== */
 :root {
   /* Display: only the marketing hero on the home page. */
@@ -29,13 +49,13 @@
 
   /* Page title. */
   --text-h1-size: clamp(2rem, 1.5rem + 2vw, 3rem);
-  --text-h1-weight: 750;
+  --text-h1-weight: 700;
   --text-h1-leading: 1.08;
   --text-h1-tracking: -0.025em;
 
   /* Major section. */
   --text-h2-size: clamp(1.5rem, 1.3rem + 0.9vw, 2.125rem);
-  --text-h2-weight: 720;
+  --text-h2-weight: 700;
   --text-h2-leading: 1.15;
   --text-h2-tracking: -0.02em;
 
@@ -53,27 +73,27 @@
 
   /* Body copy. */
   --text-body-size: 0.9375rem;
-  --text-body-weight: 450;
+  --text-body-weight: 400;
   --text-body-leading: 1.6;
   --text-body-tracking: 0;
 
   /* Supporting body copy inside dense regions. */
   --text-secondary-size: 0.875rem;
-  --text-secondary-weight: 450;
+  --text-secondary-weight: 400;
   --text-secondary-leading: 1.55;
 
   /* Field labels, table headers, eyebrow text — heavier weight, not caps. */
   --text-label-size: 0.8125rem;
-  --text-label-weight: 650;
+  --text-label-weight: 600;
   --text-label-leading: 1.3;
 
   --text-button-size: 0.875rem;
-  --text-button-weight: 650;
+  --text-button-weight: 600;
   --text-button-leading: 1;
 
   /* Metadata, meta lines, helper text. */
   --text-caption-size: 0.75rem;
-  --text-caption-weight: 550;
+  --text-caption-weight: 500;
   --text-caption-leading: 1.4;
 
   /* Inline validation messages. */
@@ -97,7 +117,7 @@
      heavier than a card title, tabular so digits align down a column, and never
      the loudest thing on the page. */
   --text-anchor-size: 1.125rem;
-  --text-anchor-weight: 750;
+  --text-anchor-weight: 700;
   --text-anchor-leading: 1.2;
   --text-anchor-tracking: -0.01em;
 }

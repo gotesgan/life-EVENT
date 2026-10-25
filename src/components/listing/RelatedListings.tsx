@@ -3,6 +3,7 @@ import { Button } from '@mantine/core';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { searchPublicListings } from '@/server/services/search.service';
 import { searchQuerySchema } from '@/lib/validation/search';
+import { getRevealedSlugs, publicListingCards } from '@/lib/listing-privacy';
 import { ListingGrid } from './ListingGrid';
 
 export interface RelatedListingsProps {
@@ -35,7 +36,14 @@ export async function RelatedListings({
   });
 
   const result = await searchPublicListings({ query, rawParams: {}, basePath: '/vendors' });
-  const cards = result.cards.filter((card) => card.slug !== excludeSlug).slice(0, limit);
+  const revealed = await getRevealedSlugs();
+  // Filter on the real slug *before* masking: a masked card carries an opaque
+  // reference in `slug`, which would never match `excludeSlug` and the profile
+  // would recommend itself.
+  const cards = publicListingCards(
+    result.cards.filter((card) => card.slug !== excludeSlug),
+    revealed,
+  ).slice(0, limit);
 
   if (cards.length === 0) return null;
 

@@ -24,6 +24,8 @@
  * and the alt text describes the scene, not a claim about the business.
  */
 
+import { createHash } from 'node:crypto';
+
 export const PHOTO_WIDTH = 1600;
 export const PHOTO_HEIGHT = 900;
 
@@ -264,10 +266,77 @@ export const LISTING_PHOTOS: Readonly<Record<string, readonly ListingPhotoSeed[]
       alt: 'A black chauffeur car waiting with its headlights lit',
     },
   ],
+  // --- Corporate events --------------------------------------------------
+  'meridian-conference-centre': [
+    {
+      variant: 'cover',
+      unsplashId: '1675247488725-22d1b78e75db',
+      alt: 'A ballroom set for dinner with chandeliers above the tables',
+    },
+    {
+      variant: 'gallery-2',
+      unsplashId: '1549895058-36748fa6c6a7',
+      alt: 'A chandelier lit above a white-panelled banqueting hall',
+    },
+  ],
+  'orbit-business-hotel': [
+    {
+      variant: 'cover',
+      unsplashId: '1677129663241-5be1f17fe6fe',
+      alt: 'A convention hall set with long rows of white-dressed tables',
+    },
+  ],
+  'northstar-corporate-catering': [
+    {
+      variant: 'cover',
+      unsplashId: '1555244162-803834f70033',
+      alt: 'A buffet counter of silver chafing dishes holding prepared dishes',
+    },
+    {
+      variant: 'gallery-2',
+      unsplashId: '1680490964889-67a5ab8d8b54',
+      alt: 'A server ladling a dish from a bowl on the catering line',
+    },
+  ],
+  'signal-and-stage-av': [
+    {
+      variant: 'cover',
+      unsplashId: '1657208431551-cbf415b8ef26',
+      alt: 'Stage spotlights cutting through haze over a dance floor',
+    },
+  ],
+  'summit-offsite-estate': [
+    {
+      variant: 'cover',
+      unsplashId: '1782025419777-09e493453d9f',
+      alt: 'White canvas tents pitched on a green lawn beside the water',
+    },
+    {
+      variant: 'gallery-2',
+      unsplashId: '1774814305525-c302b0dee3e7',
+      alt: 'Rows of white chairs arranged on a wide green lawn',
+    },
+  ],
 };
 
+/**
+ * The on-disk name of a seeded photograph.
+ *
+ * Listing files are named from a digest of the slug rather than from the slug
+ * itself. The product withholds a listing's trading name until an enquiry is
+ * sent, and the slug is derived from that name — a file called
+ * `gulmohar-banjara-banquets-cover.jpg` would spell the withheld name out in
+ * every `<img src>`, in the Open Graph image and in the network panel, which is
+ * exactly the leak the mask exists to prevent.
+ *
+ * The digest is deterministic, so re-running the seed resolves the same file
+ * name it wrote the first time. The one exception is the home-page hero, which
+ * is not a listing and keeps its descriptive name.
+ */
 export function photoFileName(slug: string, variant: PhotoVariant): string {
-  return `${slug}-${variant}.jpg`;
+  if (slug === HERO_PHOTO.slug) return `${slug}-${variant}.jpg`;
+  const digest = createHash('sha256').update(slug).digest('hex').slice(0, 16);
+  return `l-${digest}-${variant}.jpg`;
 }
 
 /** Browser-facing URL for a seeded photograph. */

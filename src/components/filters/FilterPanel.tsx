@@ -1,6 +1,6 @@
 'use client';
 
-import { Select, Switch } from '@mantine/core';
+import { Checkbox, Select } from '@mantine/core';
 import { cx } from '@/components/ui/cx';
 import {
   readList,
@@ -45,6 +45,19 @@ export interface FilterPanelProps {
    * the surface, so the same panel must not render card-in-card inside it.
    */
   flush?: boolean;
+  /**
+   * The catalogue's price and capacity envelope, shown as the opening values of
+   * the two range inputs so the scale of what is available is visible without a
+   * query. Both default to "no bound".
+   */
+  bounds?: FilterBounds;
+}
+
+export interface FilterBounds {
+  priceMin?: number | null;
+  priceMax?: number | null;
+  capacityMin?: number | null;
+  capacityMax?: number | null;
 }
 
 /**
@@ -81,6 +94,7 @@ export function FilterPanel({
   categoryName,
   idPrefix,
   flush = false,
+  bounds,
 }: FilterPanelProps) {
   const nav = useFilterNavigation();
   const category = nav.params.category ?? '';
@@ -171,21 +185,29 @@ export function FilterPanel({
         </FilterFieldset>
       ) : null}
 
-      <BudgetRange />
-      <GuestCapacityRange />
+      <BudgetRange defaultMin={bounds?.priceMin ?? null} defaultMax={bounds?.priceMax ?? null} />
+      <GuestCapacityRange
+        defaultMin={bounds?.capacityMin ?? null}
+        defaultMax={bounds?.capacityMax ?? null}
+      />
 
-      <div className={classes.switchRow}>
-        <Switch
-          label="Top picks only"
-          checked={nav.params.verified === 'true'}
-          onChange={() => nav.update((params) => toggleFlag(params, 'verified'))}
-        />
-        <Switch
-          label="Featured listings only"
-          checked={nav.params.featured === 'true'}
-          onChange={() => nav.update((params) => toggleFlag(params, 'featured'))}
-        />
-      </div>
+      <FilterFieldset legend="Show only">
+        <div className={classes.switchRow}>
+          {/* Checkboxes rather than switches: these are filter criteria that
+              combine with the rest of the rail, and every other criterion is a
+              tick — one control idiom for one kind of decision. */}
+          <Checkbox
+            label="Top picks only"
+            checked={nav.params.verified === 'true'}
+            onChange={() => nav.update((params) => toggleFlag(params, 'verified'))}
+          />
+          <Checkbox
+            label="Featured listings only"
+            checked={nav.params.featured === 'true'}
+            onChange={() => nav.update((params) => toggleFlag(params, 'featured'))}
+          />
+        </div>
+      </FilterFieldset>
 
       {amenityGroups.size > 0 ? (
         <FilterFieldset legend="Amenities">

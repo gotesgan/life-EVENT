@@ -65,7 +65,7 @@
      has to earn its height with links that do something. */
   display: none;
   font-size: var(--text-caption-size);
-  font-weight: 550;
+  font-weight: 500;
   letter-spacing: 0.005em;
   color: var(--app-text-muted);
 
