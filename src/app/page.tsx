@@ -27,6 +27,17 @@ export const metadata: Metadata = {
 };
 
 /*
+ * The hero clip.
+ *
+ * A hosted 12-second loop (Cloudflare R2). Only its first nine seconds were cut
+ * to loop seamlessly, so the player loops at 0:09 rather than at the file's end
+ * — see `HomeHeroMedia` for how the playhead is moved back. To change the video,
+ * change the URL; there is no local file to replace.
+ */
+const HERO_VIDEO_URL = 'https://pub-4669c5f1fbd346d6994920d5422e4d3f.r2.dev/video/hero-loop.mp4';
+const HERO_VIDEO_SEGMENT_END_SECONDS = 9;
+
+/*
  * Every data-reading subtree below is its own async component behind a
  * `<Suspense>` boundary. `cacheComponents: true` makes an uncached database read
  * outside a boundary a build error, and it is also the right shape: the hero and
@@ -174,7 +185,8 @@ export default function HomePage() {
           facts={['Published prices and inclusions', 'Names unlock when you enquire']}
           imageUrl="/media/seed/home-hero-cover.jpg"
           imageAlt="A couple celebrating beneath a floral arch as confetti falls"
-          videoUrl="/media/video/hero.mp4"
+          videoUrl={HERO_VIDEO_URL}
+          videoSegmentEndSeconds={HERO_VIDEO_SEGMENT_END_SECONDS}
           popularSearches={[
             { label: 'Banquet halls', href: '/vendors?category=venues' },
             { label: 'Photographers', href: '/vendors?category=photographers' },

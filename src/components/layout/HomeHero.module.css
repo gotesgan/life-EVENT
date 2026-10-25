@@ -1,11 +1,53 @@
+/*
+ * The homepage hero — a framed, cinematic stage.
+ *
+ * The reference: a near-black band, the video inset inside a thin rectangular
+ * frame rather than bled under the header, tracked-out micro-lines above and
+ * below, and a centred display headline with a lot of air around it. The search
+ * console is the one interactive object, so it stays a plain rectangle inside
+ * the frame instead of becoming another rounded card in a stack of cards.
+ *
+ * Two rules drive the colour here:
+ *
+ * 1. **The stage is dark in both schemes.** It is a band of film under the page,
+ *    not a themed surface, so it uses `--app-stage-surface` and the on-dark text
+ *    ramp. Nothing in this file flips with the colour scheme.
+ * 2. **The frame is the only boundary.** A 1px `--app-stage-border` separates the
+ *    video from the band; there is no drop shadow and no gradient fade into the
+ *    page, because both would soften the hard, print-like edge the reference has.
+ */
 .hero {
+  background-color: var(--app-stage-surface);
+  /* Wider than the page gutter: the reference keeps a generous margin between
+     the screen edge and the frame. */
+  padding: clamp(rem(8px), 1.5vw, rem(24px)) clamp(1rem, 4vw, 4.5rem)
+    clamp(rem(20px), 3vw, rem(48px));
+
+  /* On a phone the frame cannot be a fixed 80vh stage: the stacked console alone
+     is ~280px, so a pinned foot line ends up under the fixed tab bar. The frame
+     hugs its content instead (see `.stage` and `.popular` below). */
+  @mixin smaller-than $mantine-breakpoint-sm {
+    padding-inline: rem(12px);
+  }
+}
+
+.stage {
   position: relative;
-  overflow: hidden;
-  border-bottom: 1px solid var(--app-border);
-  /* The colour behind the photograph while it decodes. Charcoal slate rather
-     than a warm near-black: a warm base tints the photograph's shadows. */
-  background-color: var(--app-brand);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* One stacking context, so the negative-z media layers stay inside the frame. */
   isolation: isolate;
+  overflow: hidden;
+  min-height: clamp(rem(540px), 80vh, rem(880px));
+  border: 1px solid var(--app-stage-border);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-stage-surface);
+
+  @mixin smaller-than $mantine-breakpoint-sm {
+    min-height: 0;
+  }
 }
 
 .photo {
@@ -14,9 +56,8 @@
   z-index: -2;
 }
 
-/* The video shares `.photo` so the `:has(.photo)` contrast rules below keep
-   applying to the text layer, and so a clip that fails to play leaves the
-   poster/photo underneath untouched rather than a gap. */
+/* The video shares `.photo` so a clip that fails to play leaves the poster /
+   photo underneath untouched rather than a gap. */
 .video {
   position: absolute;
   inset: 0;
@@ -24,156 +65,176 @@
   height: 100%;
 }
 
-/* A short dissolve into the page surface at the foot of the hero. The flat
-   scrim above is what guarantees text contrast; this only softens the seam
-   between a moving image and a white page, so it never reaches the headline. */
-.hero::after {
-  content: '';
-  position: absolute;
-  inset-inline: 0;
-  inset-block-end: 0;
-  z-index: -1;
-  height: rem(80px);
-  background: linear-gradient(to bottom, transparent, var(--app-surface));
-  pointer-events: none;
-}
-
-/* A single, even scrim. The previous gradient ran 55% → 45% → 65% with a warm
-   red-black, which left the middle band lighter than both ends and gave white
-   text an inconsistent background to sit on. A flat `--app-overlay` (slate-900/60
-   in light) is the documented treatment: enough to hold AA white text at every
-   scroll position, predictable over any photograph. */
+/* Two scrims, for two different jobs: the scheme's flat overlay holds the whole
+   frame down, and a soft vignette concentrates the darkness behind the copy so
+   14px white text clears AA even over a bright frame. Neither is a decorative
+   gradient — both are measured legibility layers. */
 .overlay {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: var(--app-overlay);
+  background: var(--app-stage-vignette), var(--app-overlay);
 }
 
-.glow {
+/* The foot line needs its own scrim because the vignette fades before the bottom
+   edge, where a bright clip can leave a white floral band behind 12px text. */
+.stage::after {
+  content: '';
   position: absolute;
-  inset-block-start: rem(-140px);
-  inset-inline-end: rem(-120px);
-  width: rem(360px);
-  height: rem(360px);
-  border-radius: 50%;
-  background: radial-gradient(circle, var(--app-brand-soft) 0%, transparent 68%);
+  inset-inline: 0;
+  inset-block-end: 0;
+  z-index: 0;
+  height: clamp(rem(120px), 18%, rem(190px));
+  background: var(--app-stage-foot-scrim);
   pointer-events: none;
 }
 
-.inner {
+.content {
   position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: rem(18px);
+  /* The bottom padding reserves the foot line's height, so the pinned "Popular"
+     row can never sit on top of the search console on a short viewport. */
+  padding-block: clamp(rem(40px), 6vw, rem(88px)) clamp(rem(72px), 9vw, rem(112px));
+  width: min(rem(760px), calc(100% - 2 * clamp(1rem, 4vw, 3rem)));
   text-align: center;
-  gap: rem(16px);
-  padding-block: rem(64px) rem(48px);
-  max-width: 56rem;
-  margin-inline: auto;
 
-  @mixin larger-than $mantine-breakpoint-md {
-    padding-block: rem(96px) rem(72px);
+  @mixin smaller-than $mantine-breakpoint-sm {
+    gap: rem(14px);
+    padding-block: rem(32px) rem(20px);
+    width: calc(100% - 2 * rem(12px));
+  }
+}
+
+/* The facts, as a tracked-out micro-line above the headline — the reference's
+   small-caps register, without turning the copy into all-caps body text. */
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: rem(6px);
+  margin: 0;
+  padding: 0;
+  color: var(--app-text-on-dark-muted);
+  font-size: var(--text-caption-size);
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  line-height: 1.5;
+  list-style: none;
+  text-transform: uppercase;
+
+  /* Two facts across two lines read better than one line with a separator
+     stranded at the start of the second. */
+  @mixin smaller-than $mantine-breakpoint-sm {
+    flex-direction: column;
+    gap: rem(2px);
+  }
+}
+
+.fact {
+  display: inline-flex;
+  align-items: center;
+}
+
+.fact + .fact::before {
+  content: '·';
+  margin-inline: rem(10px);
+  color: var(--app-text-on-dark-subtle);
+
+  @mixin smaller-than $mantine-breakpoint-sm {
+    content: none;
   }
 }
 
 .title {
   margin: 0;
-  max-width: 22ch;
+  max-width: 18ch;
   color: var(--app-text-on-dark);
-  font-size: var(--text-display-size);
-  font-weight: var(--text-display-weight);
-  line-height: var(--text-display-leading);
-  letter-spacing: var(--text-display-tracking);
+  font-size: var(--text-hero-size);
+  font-weight: var(--text-hero-weight);
+  line-height: var(--text-hero-leading);
+  letter-spacing: var(--text-hero-tracking);
+  text-transform: uppercase;
   text-wrap: balance;
-}
 
-.hero:not(:has(.photo)) .title {
-  color: var(--app-text);
+  @mixin smaller-than $mantine-breakpoint-sm {
+    max-width: 16ch;
+  }
 }
 
 .lede {
   margin: 0;
-  max-width: 52ch;
-  color: var(--app-text-on-dark-muted);
-  font-size: var(--text-body-size);
-  line-height: var(--text-body-leading);
-}
-
-.hero:not(:has(.photo)) .lede {
-  color: var(--app-text-muted);
-}
-
-.facts {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: rem(8px) rem(20px);
-  margin: rem(4px) 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.fact {
-  display: flex;
-  align-items: center;
-  gap: rem(6px);
+  max-width: 46ch;
   color: var(--app-text-on-dark-muted);
   font-size: var(--text-secondary-size);
-  font-weight: 500;
+  line-height: 1.65;
 }
 
-.hero:not(:has(.photo)) .fact {
-  color: var(--app-text-muted);
-}
-
-.factIcon {
-  /* Always drawn over the slate-900/60 scrim, so it needs the light success
-     tint rather than the scheme's `--app-success` (a dark green in light). */
-  color: var(--app-success-on-dark);
-}
-
-/* No photograph: the hero falls back to a light surface, so every white-on-dark
-   rule above has to flip back to ink — including the check glyph. */
-.hero:not(:has(.photo)) .factIcon {
-  color: var(--app-success);
-}
-
-/* The crisp white search card (`bg-white shadow-xl rounded-2xl p-4 sm:p-6`).
-   It is the only elevated object in the hero, and the form inside it is drawn
-   flat so the card reads as one control surface rather than a card-in-a-card. */
+/* The console: a white rectangle, deliberately squarer than a card. */
 .searchCard {
   width: 100%;
-  margin-top: rem(16px);
-  padding: rem(16px);
+  margin-top: rem(6px);
+  padding: rem(14px) rem(16px);
   border: 1px solid var(--app-border);
-  border-radius: rem(16px);
-  background: var(--app-surface-raised);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-surface-raised);
   box-shadow: var(--app-shadow-top);
   text-align: start;
 
   @mixin larger-than $mantine-breakpoint-sm {
-    padding: rem(24px);
+    padding: rem(18px) rem(20px);
   }
 }
 
+/* The foot line of the frame: quiet, tracked, uppercase — the reference's
+   "WEDDING PHOTOGRAPHY · INDIA & WORLDWIDE" slot, carrying the popular cuts. */
 .popular {
-  margin: rem(4px) 0 0;
+  position: absolute;
+  inset-inline: 0;
+  inset-block-end: clamp(rem(16px), 2.4vw, rem(26px));
+  z-index: 1;
+  margin: 0;
+  padding-inline: rem(16px);
   color: var(--app-text-on-dark-subtle);
-  font-size: var(--text-secondary-size);
+  font-size: var(--text-caption-size);
+  letter-spacing: 0.16em;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* The foot line is the frame's desktop flourish. On a phone it would wrap to
+     three tracked lines and the last one lands under the fixed tab bar, so it is
+     dropped there; the same shortcuts live in the drawer and the header. */
+  @mixin smaller-than $mantine-breakpoint-sm {
+    display: none;
+  }
 }
 
 .popularLabel {
+  color: var(--app-text-on-dark-muted);
   font-weight: 600;
+}
+
+.popularItem {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.dot {
+  margin-inline: rem(8px);
+  color: var(--app-text-on-dark-subtle);
 }
 
 .popularLink {
   color: var(--app-text-on-dark);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-color: var(--app-text-on-dark-subtle);
-}
+  text-decoration: none;
 
-.popularLink:hover {
-  text-decoration-color: var(--app-text-on-dark);
+  @mixin hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
 }

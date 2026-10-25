@@ -28,6 +28,11 @@
   /* Matches the `size="md"` inputs at wide widths so the console's baseline is
      even, and grows to a primary touch target on a phone. */
   min-height: rem(36px);
+  /* Tracked uppercase, echoing the reference's rectangular ENQUIRE control. The
+     hero is the only place the product sets a button this way — it is a caption
+     register, not the button style used in the rest of the app. */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 
   @mixin smaller-than $mantine-breakpoint-sm {
     width: 100%;

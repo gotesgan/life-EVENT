@@ -438,6 +438,7 @@ applied — `font-size: var(--text-h1)` is not valid CSS — and the shorthand a
 
 | Token                 | Size                                           | Weight | Line height | Tracking   |
 | --------------------- | ---------------------------------------------- | ------ | ----------- | ---------- |
+| `--text-hero-*`       | `clamp(2.5rem, 2rem + 3.2vw, 4.75rem)`         | 600    | 1.04        | `0.01em`   |
 | `--text-display-*`    | `clamp(2.5rem, 1.6rem + 3.6vw, 4rem)`          | 800    | 1.05        | `-0.03em`  |
 | `--text-h1-*`         | `clamp(2rem, 1.5rem + 2vw, 3rem)`              | 700    | 1.08        | `-0.025em` |
 | `--text-h2-*`         | `clamp(1.5rem, 1.3rem + 0.9vw, 2.125rem)`      | 700    | 1.15        | `-0.02em`  |
@@ -452,6 +453,11 @@ applied — `font-size: var(--text-h1)` is not valid CSS — and the shorthand a
 | `--text-error-*`      | `0.75rem` (12px)                               | 600    | 1.4         | —          |
 | `--text-dense-*`      | `0.8125rem` (13px)                             | 500    | 1.35        | —          |
 
+`--text-hero` is the homepage hero headline only. It is set in uppercase with positive tracking, so
+it cannot borrow `--text-display`: that step is tuned for sentence-case copy at negative tracking, and
+uppercase at −0.03em collides. The hero is the one place on the public site that uses this
+tracked-caps register; every other heading stays sentence case.
+
 `--text-dense` is the admin-table size. It is 13px rather than 12px, is paired with `tabular-nums`
 so currency columns align, and is never used for prose.
 
@@ -465,8 +471,9 @@ the page. It is defined in `globals.css`. The listing card's price slot now rend
 so the anchor slot is adopted rather than aspirational.
 
 **Five weights, not nine.** The scale ships exactly five weights: **400** reading text, **500**
-supporting text (captions, metadata, dense table cells), **600** labels and controls, **700**
-headings and the scan anchor, **800** the hero display. The previous scale used nine
+supporting text (captions, metadata, dense table cells), **600** labels, controls and the hero
+headline, **700** headings and the scan anchor, **800** the reserved display step. The previous scale
+used nine
 (450/500/550/600/650/700/720/750/800); nine values inside a 400-wide axis are indistinguishable at
 text sizes, so the result read as inconsistency rather than emphasis — a label at 550 and one at 650
 looked identical and neither looked chosen. New type picks a rung; it never invents a weight between
@@ -487,6 +494,23 @@ The Mantine theme mirrors these into `headings.sizes` by reference
 Global element rules in `globals.css`: headings inherit the scale, `text-wrap: balance` on
 `h1…h6`, `text-wrap: pretty` on `p`, and zeroed default margins (spacing belongs to layout
 primitives).
+
+### The hero stage
+
+The homepage hero is the one surface built as a dark **stage**: a near-black band
+(`--app-stage-surface`) with the video inset inside a thin frame (`--app-stage-border`) rather than
+bled under the header. The stage is dark in both colour schemes — it is film, not a themed surface —
+so its text uses the on-dark ramp and nothing about it flips with the theme.
+
+Two scrims sit over the media: the scheme's flat `--app-overlay`, plus a soft
+`--app-stage-vignette` that concentrates darkness behind the copy block, and a short
+`--app-stage-foot-scrim` under the foot link line. Both are legibility layers, not decoration:
+measured against the worst frame of the current clip, the copy band's background stays at or below
+luminance 0.14 (≥5.6:1 for white text) and the foot line below 0.04 (≥11.8:1).
+
+The search console stays a rectangle with `--app-radius-control` — squarer than a card — because it
+is the single interactive object in the frame, not another tile. On a phone the frame hugs its
+content and the foot link line is dropped; it would otherwise land under the fixed tab bar.
 
 ---
 

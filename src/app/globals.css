@@ -47,6 +47,13 @@
   --text-display-leading: 1.05;
   --text-display-tracking: -0.03em;
 
+  /* The homepage hero headline only: set in uppercase and tracked positively,
+     which the negative-tracking `--text-display` step is wrong for. */
+  --text-hero-size: clamp(2.5rem, 2rem + 3.2vw, 4.75rem);
+  --text-hero-weight: 600;
+  --text-hero-leading: 1.04;
+  --text-hero-tracking: 0.01em;
+
   /* Page title. */
   --text-h1-size: clamp(2rem, 1.5rem + 2vw, 3rem);
   --text-h1-weight: 700;

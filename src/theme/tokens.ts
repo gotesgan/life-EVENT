@@ -365,6 +365,24 @@ export const sharedTokens = {
   '--app-text-on-dark-muted': 'rgb(255 255 255 / 90%)',
   '--app-text-on-dark-subtle': 'rgb(255 255 255 / 75%)',
 
+  /* The homepage hero's cinematic stage. It is dark in *both* schemes — a band of
+     film under the page, not a themed surface — so it cannot use `--app-surface`
+     (which flips with the scheme), and `--app-overlay` is a translucent scrim
+     rather than a fill. The hairline is the frame edge that separates the video
+     from the band. */
+  '--app-stage-surface': '#0B0F1A',
+  '--app-stage-border': 'rgb(255 255 255 / 12%)',
+
+  /* Scrims for the hero stage. The base overlay alone leaves a bright clip's
+     centre too light for 14px white text, and its foot too light for the tracked
+     link line, so the stage adds a soft vignette behind the copy block plus a
+     short gradient under the foot line. They are shared because the stage is dark
+     in both schemes. */
+  '--app-stage-vignette':
+    'radial-gradient(ellipse 95% 75% at 50% 42%, rgb(2 6 23 / 46%) 0%, rgb(2 6 23 / 0%) 72%)',
+  '--app-stage-foot-scrim':
+    'linear-gradient(to top, rgb(2 6 23 / 72%) 0%, rgb(2 6 23 / 38%) 55%, rgb(2 6 23 / 0%) 100%)',
+
   /* Radii. Radius cost scales with how many times it is drawn: 24 tiles at a
      generous 16px reads as a field of lozenges and the grid edges stop
      registering, so dense browse surfaces step *down*, not up. */
