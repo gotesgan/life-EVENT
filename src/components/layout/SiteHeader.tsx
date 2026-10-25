@@ -101,7 +101,12 @@ export function SiteHeader() {
           </Suspense>
 
           <div className={classes.actions}>
-            <Link href="/vendors" className={classes.iconAction} aria-label="Search vendors">
+            <Link
+              href="/vendors"
+              className={`${classes.iconAction} ${classes.searchAction}`}
+              aria-label="Search vendors"
+              title="Search vendors"
+            >
               <IconSearch size="1.125rem" stroke={1.5} aria-hidden />
             </Link>
             <ThemeToggle className={classes.iconAction} />

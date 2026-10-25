@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/Button';
 import { IconLogout } from '@tabler/icons-react';
+import classes from './SignOutButton.module.css';
 
 export interface SignOutButtonProps {
   /** Where to land after the session is cleared. */
@@ -48,9 +49,9 @@ export function SignOutButton({ redirectTo = '/' }: SignOutButtonProps) {
       onClick={signOut}
       leftSection={!pending ? <IconLogout size="1rem" stroke={1.5} aria-hidden /> : undefined}
       aria-label="Sign out"
-      title={failed ? 'Sign out failed — please try again' : undefined}
+      title={failed ? 'Sign out failed — please try again' : 'Sign out'}
     >
-      {failed ? 'Retry sign out' : 'Sign out'}
+      <span className={classes.label}>{failed ? 'Retry sign out' : 'Sign out'}</span>
     </Button>
   );
 }

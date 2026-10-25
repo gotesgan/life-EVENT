@@ -179,10 +179,9 @@
   list-style: none;
   /*
    * The dropdowns are DOM children of these items, so the strip must not clip.
-   * The label set is fixed at six sections, which is short enough never to push
-   * the header wider than the viewport — the guard `overflow: hidden` used to
-   * provide is no longer the thing keeping this honest.
+   * The gap is zero because the tab padding already separates the labels.
    */
+  gap: 0;
   overflow: visible;
 }
 
@@ -208,6 +207,14 @@
   font-weight: 600;
   text-decoration: none;
   white-space: nowrap;
+
+  /*
+   * Seven sections plus a signed-in account action do not fit at the container's
+   * maximum width with the original 10px padding. Compact tabs are therefore the
+   * default: the alternates are overlapping labels or dropping navigation.
+   */
+  padding-inline: rem(7px);
+  font-size: rem(13px);
 
   @mixin hover {
     background-color: var(--app-surface-hover);
@@ -534,6 +541,15 @@
   align-items: center;
   gap: rem(6px);
   margin-inline-start: auto;
+}
+
+/* On laptop widths the account and sign-out icons take priority over this
+   convenience shortcut; search remains reachable through the vendor nav and the
+   mobile tab bar. Declared after `.iconAction` so it wins at equal specificity. */
+@media (max-width: 82em) {
+  .actions .searchAction {
+    display: none;
+  }
 }
 
 /*

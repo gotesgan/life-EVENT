@@ -38,9 +38,10 @@ export async function HeaderAccount() {
         href="/account"
         variant="primary"
         size="sm"
+        aria-label="Your account"
         leftSection={<IconUserCircle size="1rem" stroke={1.5} aria-hidden />}
       >
-        {firstName}
+        <span className={classes.name}>{firstName}</span>
       </Button>
       <SignOutButton />
     </div>
