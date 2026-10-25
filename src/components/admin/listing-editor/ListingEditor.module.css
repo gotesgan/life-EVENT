@@ -195,6 +195,18 @@
 
 /* --- Panels and the save dock --------------------------------------------- */
 
+/*
+ * The content column: the shared PATCH form plus the two panels that save
+ * separately. It is one grid item so the rail and the content stay in their own
+ * columns regardless of which tab is open.
+ */
+.panelColumn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mantine-spacing-md);
+  min-width: 0;
+}
+
 .panel {
   display: flex;
   flex-direction: column;

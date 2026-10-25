@@ -306,34 +306,46 @@ export function ListingEditor({
           </p>
         </Tabs.List>
 
-        <form
-          className={editorClasses.panel}
-          onSubmit={form.onSubmit((values) => void submit(values))}
-          noValidate
-        >
-          <Tabs.Panel value="basics">
-            <BasicsSection
-              form={form}
-              categories={categories}
-              locations={locations}
-              eventTypes={eventTypes}
-              amenities={amenities}
-            />
-          </Tabs.Panel>
+        {/*
+          The second grid column.
 
-          <Tabs.Panel value="contact">
-            <ContactSection form={form} />
-          </Tabs.Panel>
+          Four panels live inside the `<form>` because they share one PATCH, while
+          Attributes and Media save through their own endpoints and sit outside it.
+          Before this wrapper existed they were direct grid children, so the grid
+          auto-placed them into the *rail* column: on the Media and Attributes tabs
+          the panel rendered 196px wide under the section list. One column wrapper
+          keeps every panel in the content column while preserving the separate
+          save paths.
+        */}
+        <div className={editorClasses.panelColumn}>
+          <form
+            className={editorClasses.panel}
+            onSubmit={form.onSubmit((values) => void submit(values))}
+            noValidate
+          >
+            <Tabs.Panel value="basics">
+              <BasicsSection
+                form={form}
+                categories={categories}
+                locations={locations}
+                eventTypes={eventTypes}
+                amenities={amenities}
+              />
+            </Tabs.Panel>
 
-          <Tabs.Panel value="commercial">
-            <CommercialSection form={form} showCapacity />
-          </Tabs.Panel>
+            <Tabs.Panel value="contact">
+              <ContactSection form={form} />
+            </Tabs.Panel>
 
-          <Tabs.Panel value="collections">
-            <CollectionsSection form={form} onRequestRemove={requestRemove} />
-          </Tabs.Panel>
+            <Tabs.Panel value="commercial">
+              <CommercialSection form={form} showCapacity />
+            </Tabs.Panel>
 
-          {/*
+            <Tabs.Panel value="collections">
+              <CollectionsSection form={form} onRequestRemove={requestRemove} />
+            </Tabs.Panel>
+
+            {/*
             Dirty state and the save affordance, in one docked strip.
 
             Three statements, in priority order: the error (if the last save was
@@ -341,77 +353,78 @@ export function ListingEditor({
             controls. The status is written out as text — a colour alone is not a
             statement about unsaved work — and the dot repeats it non-verbally.
           */}
-          {canSubmit ? (
-            <div className={editorClasses.saveDock}>
-              <div className={editorClasses.saveStatus} role="status">
-                <span aria-hidden className={editorClasses.saveDot} />
-                <Text component="span" className={editorClasses.saveStatusText}>
-                  {isDirty ? (
-                    <span className={editorClasses.saveStatusDirty}>Unsaved changes</span>
-                  ) : savedAt ? (
-                    <span className={editorClasses.saveStatusSaved}>
-                      <IconCheck size={12} stroke={2} aria-hidden /> Saved
-                    </span>
-                  ) : (
-                    'No changes to save'
-                  )}
-                </Text>
+            {canSubmit ? (
+              <div className={editorClasses.saveDock}>
+                <div className={editorClasses.saveStatus} role="status">
+                  <span aria-hidden className={editorClasses.saveDot} />
+                  <Text component="span" className={editorClasses.saveStatusText}>
+                    {isDirty ? (
+                      <span className={editorClasses.saveStatusDirty}>Unsaved changes</span>
+                    ) : savedAt ? (
+                      <span className={editorClasses.saveStatusSaved}>
+                        <IconCheck size={12} stroke={2} aria-hidden /> Saved
+                      </span>
+                    ) : (
+                      'No changes to save'
+                    )}
+                  </Text>
+                </div>
+
+                <div className={editorClasses.saveActions}>
+                  <Button
+                    type="button"
+                    variant="default"
+                    size="sm"
+                    onClick={() => {
+                      form.reset();
+                      setSaveError(null);
+                      setSavedAt(null);
+                    }}
+                    disabled={!isDirty}
+                  >
+                    Discard changes
+                  </Button>
+                  <Button type="submit" size="sm" loading={saving} disabled={!isDirty}>
+                    {isCreate ? 'Create draft listing' : 'Save changes'}
+                  </Button>
+                </div>
               </div>
+            ) : null}
 
-              <div className={editorClasses.saveActions}>
-                <Button
-                  type="button"
-                  variant="default"
-                  size="sm"
-                  onClick={() => {
-                    form.reset();
-                    setSaveError(null);
-                    setSavedAt(null);
-                  }}
-                  disabled={!isDirty}
-                >
-                  Discard changes
-                </Button>
-                <Button type="submit" size="sm" loading={saving} disabled={!isDirty}>
-                  {isCreate ? 'Create draft listing' : 'Save changes'}
-                </Button>
-              </div>
-            </div>
+            {saveError ? (
+              <Alert
+                variant="light"
+                color="red"
+                role="alert"
+                icon={<IconAlertTriangle size={16} />}
+                mb="md"
+              >
+                {saveError}
+              </Alert>
+            ) : null}
+          </form>
+
+          {!isCreate && listing ? (
+            <>
+              <Tabs.Panel value="attributes">
+                <AttributesSection
+                  listingId={listing.id}
+                  fields={listing.attributeFields}
+                  initialValues={listing.attributeValues}
+                  onSaved={() => router.refresh()}
+                />
+              </Tabs.Panel>
+
+              <Tabs.Panel value="media">
+                <MediaManager
+                  listingId={listing.id}
+                  media={listing.media}
+                  maxUploadBytes={maxUploadBytes}
+                />
+              </Tabs.Panel>
+            </>
           ) : null}
-
-          {saveError ? (
-            <Alert
-              variant="light"
-              color="red"
-              role="alert"
-              icon={<IconAlertTriangle size={16} />}
-              mb="md"
-            >
-              {saveError}
-            </Alert>
-          ) : null}
-        </form>
-
-        {!isCreate && listing ? (
-          <>
-            <Tabs.Panel value="attributes">
-              <AttributesSection
-                listingId={listing.id}
-                fields={listing.attributeFields}
-                initialValues={listing.attributeValues}
-                onSaved={() => router.refresh()}
-              />
-            </Tabs.Panel>
-
-            <Tabs.Panel value="media">
-              <MediaManager
-                listingId={listing.id}
-                media={listing.media}
-                maxUploadBytes={maxUploadBytes}
-              />
-            </Tabs.Panel>
-          </>
-        ) : null}
+        </div>
       </Tabs>
     </Stack>
   );

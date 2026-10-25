@@ -90,7 +90,11 @@ export function TourHost() {
     );
   }
 
-  if (!promptVisible) return null;
+  /*
+   * The prompt is a dashboard affordance, not a permanent overlay. On an editor
+   * page it would sit on top of the form the visitor is trying to use.
+   */
+  if (!promptVisible || pathname !== '/admin') return null;
 
   return (
     <aside className={classes.prompt} aria-label="Guided tour">
