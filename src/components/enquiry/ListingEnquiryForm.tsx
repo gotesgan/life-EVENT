@@ -239,8 +239,8 @@ export function ListingEnquiryForm({
         <p className={classes.resultBody}>
           {submitted.listingName ? (
             <>
-              You unlocked <strong>{submitted.listingName}</strong>. The business replies to you
-              directly using the details you gave.
+              This business is <strong>{submitted.listingName}</strong>. Its contact details are in
+              the panel above, and it replies to you directly using the details you gave.
             </>
           ) : (
             <>The business replies to you directly using the details you gave.</>
@@ -260,12 +260,10 @@ export function ListingEnquiryForm({
   return (
     <form className={classes.form} onSubmit={form.onSubmit(handleSubmit)} noValidate>
       <div className={classes.head}>
-        <h2 className={classes.title}>
-          {hidden ? 'Send an enquiry to unlock' : 'Send an enquiry'}
-        </h2>
+        <h2 className={classes.title}>Send an enquiry</h2>
         <p className={classes.note}>
           {hidden
-            ? 'Prices, capacity and facilities are published. The name and contact details unlock when you send this enquiry — free, and no account needed.'
+            ? 'One short form — no account needed.'
             : 'Your details go to this business only. One enquiry, one reply, no phone-number chasing.'}
         </p>
       </div>

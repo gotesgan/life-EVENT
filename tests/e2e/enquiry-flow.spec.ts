@@ -14,22 +14,21 @@ import { expectNoErrorBoundary, submitListingEnquiry, uniqueEmail, uniquePhone }
 const PROVIDER_SLUG = 'gulmohar-banjara-banquets';
 
 test.describe('enquiry submission', () => {
-  test('a guest can submit an enquiry, receives a reference, and unlocks the name', async ({
-    page,
-  }) => {
+  test('a guest can submit an enquiry and receives a reference', async ({ page }) => {
     await page.goto(`/vendors/${PROVIDER_SLUG}`);
 
     // The profile streams in behind a Suspense boundary, so wait for the locked
     // state before reading the text: an early read sees the skeleton and passes
     // the "no name" assertion for the wrong reason.
-    await expect(page.getByText(/name is hidden until you enquire/i)).toBeVisible({
+    await expect(page.getByRole('heading', { name: /name & contact details/i })).toBeVisible({
       timeout: 30_000,
     });
 
     // Before submitting, the trading name must not be on the page at all.
     const before = await page.locator('main').innerText();
     expect(before).not.toMatch(/gulmohar/i);
-    expect(before).toMatch(/name is hidden|contact details locked/i);
+    // The rail names the withheld state; the anonymous label is the evidence.
+    expect(before).toMatch(/name & contact details/i);
 
     const reference = await submitListingEnquiry(page, PROVIDER_SLUG, { name: 'E2E Guest' });
     expect(reference).toMatch(/LE-[A-Z0-9]{8}/);

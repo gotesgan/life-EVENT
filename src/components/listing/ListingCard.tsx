@@ -73,7 +73,7 @@ export function ListingCard({ listing, preloadImage = false }: ListingCardProps)
   const hidden = listing.isNameHidden === true;
 
   const identityLine = hidden
-    ? 'Name revealed after you enquire'
+    ? 'Name shown after enquiry'
     : [listing.category?.name, listing.location?.name].filter(Boolean).join(' · ');
 
   // One quiet line of supporting copy, never a clamped list of chips: the card

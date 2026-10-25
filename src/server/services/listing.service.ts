@@ -237,7 +237,7 @@ export async function getPublicListingBySlug(
       website: contact.website,
       hasWithheldChannels: contact.hasWithheldChannels,
       message: contact.hasWithheldChannels
-        ? 'Send an enquiry to see the full contact details for this business.'
+        ? 'Some contact details are shared only after your enquiry reaches the business.'
         : null,
     },
   };

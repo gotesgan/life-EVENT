@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import Link from '@/components/ui/ClientLink';
 import { notFound } from 'next/navigation';
-import { IconLock, IconMapPin, IconSend } from '@tabler/icons-react';
+import { IconMapPin, IconSend } from '@tabler/icons-react';
 import { Button } from '@mantine/core';
 import { ListingEnquiryForm } from '@/components/enquiry/ListingEnquiryForm';
 import { SiteShell } from '@/components/layout/SiteShell';
@@ -221,23 +221,20 @@ async function ListingProfile({ slug }: { slug: string }) {
                     leftSection={<IconSend size="1rem" stroke={1.6} aria-hidden />}
                     size="sm"
                   >
-                    {identityHidden ? 'Enquire to unlock' : 'Send an enquiry'}
+                    Send an enquiry
                   </Button>
                 </span>
               </div>
             }
           />
 
-          {identityHidden ? (
-            <Surface tone="muted" padding="sm" className={classes.privacyNote}>
-              <IconLock size="1.125rem" stroke={1.5} aria-hidden />
-              <p>
-                <strong>The name is hidden until you enquire.</strong> Everything this business has
-                published — prices, capacity, facilities and photographs — is shown below. Sending
-                the enquiry is free, needs no account, and unlocks the name and contact details.
-              </p>
-            </Surface>
-          ) : null}
+          {/*
+            There used to be a paragraph here explaining that the name was hidden and
+            that everything else was published. It made the same point as the title
+            (an anonymous label), the card's "Name shown after enquiry" line, the
+            locked rail and the form — four explanations of one rule. The rail says
+            it once, in two short sentences, and this space stays for the price.
+          */}
 
           <div className={classes.priceRow}>
             <PriceTag

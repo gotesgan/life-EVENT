@@ -46,12 +46,9 @@ export function ListingContactCard({
       {hidden ? (
         <>
           <h2 className={classes.heading}>
-            <IconLock size="1rem" stroke={1.5} aria-hidden /> Contact details locked
+            <IconLock size="1rem" stroke={1.5} aria-hidden /> Name &amp; contact details
           </h2>
-          <p className={classes.lede}>
-            {listingName} has not shared its name or contact channels with you yet. Send the enquiry
-            just below and they appear here immediately — no account, no phone call.
-          </p>
+          <p className={classes.lede}>They appear here as soon as you send the enquiry below.</p>
         </>
       ) : (
         <h2 className={classes.heading}>Contact {listingName}</h2>

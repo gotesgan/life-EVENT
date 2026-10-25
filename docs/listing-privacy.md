@@ -13,17 +13,17 @@ The rule, stated plainly:
 
 ## What a visitor sees before enquiring
 
-| Surface              | Public form                                                                     |
-| -------------------- | ------------------------------------------------------------------------------- |
-| Card / grid          | `Banquet hall in Andheri East`, a lock glyph, “Name revealed after you enquire” |
-| Profile heading      | the same anonymous label, plus a note explaining what unlocks it                |
-| Profile contact      | “Contact details locked”, no channel rendered at all                            |
-| Prose                | the trading name replaced with “this business” / “This business”                |
-| Named halls/packages | brand words removed, e.g. `Gulmohar Grand Hall` → `Grand Hall`                  |
-| Image URLs           | opaque digests, e.g. `/media/seed/l-21ec9f4e70e1015f-cover.jpg`                 |
-| URL                  | opaque reference, e.g. `/vendors/ul_cmvnu50oz00kiwd1rebzgidvh`                  |
-| `<title>`, OG tags   | always the anonymous label, even for a revealed visitor                         |
-| JSON API             | masked cards; the real name is not in the payload at all                        |
+| Surface              | Public form                                                              |
+| -------------------- | ------------------------------------------------------------------------ |
+| Card / grid          | `Banquet hall in Andheri East`, a lock glyph, “Name shown after enquiry” |
+| Profile heading      | the same anonymous label; the enquiry rail states once what unlocks it   |
+| Profile contact      | “Name & contact details”, no channel rendered at all                     |
+| Prose                | the trading name replaced with “this business” / “This business”         |
+| Named halls/packages | brand words removed, e.g. `Gulmohar Grand Hall` → `Grand Hall`           |
+| Image URLs           | opaque digests, e.g. `/media/seed/l-21ec9f4e70e1015f-cover.jpg`          |
+| URL                  | opaque reference, e.g. `/vendors/ul_cmvnu50oz00kiwd1rebzgidvh`           |
+| `<title>`, OG tags   | always the anonymous label, even for a revealed visitor                  |
+| JSON API             | masked cards; the real name is not in the payload at all                 |
 
 ## The three enforcement layers
 
@@ -77,5 +77,18 @@ Notes and limits:
   signed cookie is present; per-listing (not global) unlock.
 - `tests/e2e/enquiry-flow.spec.ts` — masked page before submission, success + reference after,
   consent required, duplicate replay, inline field errors.
-- Manual: open any listing, confirm the anonymous heading and locked contact panel, submit the
-  form, and confirm the name and channels appear and survive a reload.
+- Manual: open any listing, confirm the anonymous heading and the “Name & contact details” panel,
+  submit the form, and confirm the name and channels appear and survive a reload.
+
+## Copy rules for this state
+
+The withholding rule used to be explained in four places at once (a paragraph above the price, a
+card line, the rail panel and the form note), each in a different voice — one of them read as if
+the business had personally refused to share its name. The rule is now stated once, in the rail,
+as two short sentences, and every other surface just labels the state:
+
+- rail: “Name & contact details” / “They appear here as soon as you send the enquiry below.”
+- form: “Send an enquiry” / “The business name and contact details appear as soon as you send it.”
+- card: “Name shown after enquiry” (a label, not an explanation)
+- no paragraph above the price, and no “has not shared its name with you” phrasing: the
+  business has not refused anything, the marketplace is asking for an enquiry first.

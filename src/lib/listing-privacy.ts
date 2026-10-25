@@ -403,8 +403,7 @@ export function publicListingDetail(
       whatsapp: null,
       website: null,
       hasWithheldChannels: true,
-      message:
-        'The name and contact details are shared with businesses you enquire with. Send an enquiry to unlock them.',
+      message: 'Send an enquiry to see the business name and its contact details.',
     },
   };
 }

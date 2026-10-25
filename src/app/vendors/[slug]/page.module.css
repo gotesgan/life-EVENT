@@ -158,32 +158,6 @@
   }
 }
 
-/* The "name is hidden" explainer above the price. A muted surface rather than a
-   warning tone: this is the product's normal state, not an error. */
-.privacyNote {
-  display: flex;
-  align-items: flex-start;
-  gap: rem(10px);
-  color: var(--app-text-muted);
-  font-size: var(--text-secondary-size);
-  line-height: var(--text-secondary-leading);
-
-  & p {
-    margin: 0;
-  }
-
-  & strong {
-    color: var(--app-text);
-    font-weight: 600;
-  }
-
-  & svg {
-    flex: 0 0 auto;
-    margin-top: rem(2px);
-    color: var(--app-text-subtle);
-  }
-}
-
 .enquiryCard {
   scroll-margin-top: calc(var(--app-header-height) + rem(20px));
 }
