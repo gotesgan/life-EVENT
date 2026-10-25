@@ -49,6 +49,13 @@ export const AUDIT_ACTIONS = [
   'enquiry.contact_disclosed',
   'enquiry.flagged_duplicate',
   'enquiry.unflagged_duplicate',
+  // Vendor onboarding + settings
+  'vendor_invite.created',
+  'vendor_invite.revoked',
+  'vendor_invite.submitted',
+  'vendor_application.approved_to_listing',
+  'settings.updated',
+  'integration.meta_test_sent',
   // Customers
   'customer.suspended',
   'customer.reactivated',

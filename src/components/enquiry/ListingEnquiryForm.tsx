@@ -8,6 +8,7 @@ import { DatePickerInput } from '@mantine/dates';
 import { schemaResolver, useForm, type FormErrors } from '@mantine/form';
 import { IconCircleCheck, IconSend } from '@tabler/icons-react';
 import { Surface } from '@/components/ui';
+import { trackMetaEvent } from '@/lib/analytics/meta-pixel';
 import { PRIVACY_POLICY_VERSION, createEnquirySchema } from '@/lib/validation/enquiry';
 import classes from './ListingEnquiryForm.module.css';
 
@@ -192,6 +193,16 @@ export function ListingEnquiryForm({
             : null,
         duplicate: result.data.duplicate === true,
       });
+      trackMetaEvent('Lead', {
+        eventId: result.data.referenceCode as string,
+        params: {
+          content_type: 'product',
+          content_name: Array.isArray(result.data.listings)
+            ? (result.data.listings as string[]).join(', ')
+            : undefined,
+        },
+      });
+
       // The reveal cookie was set by this response; re-render the server
       // components so the real name and contact details appear.
       router.refresh();

@@ -7,6 +7,7 @@ import type { AdminVendorApplicationQuery } from '@/lib/validation/vendor-applic
 import type { CreateVendorApplicationInput } from '@/lib/validation/vendor-application';
 import { hashIp, normalisePhone } from '@/server/domain/contact';
 import { enforceRateLimit } from '@/server/services/rate-limit.service';
+import { sendVendorApplicationDecisionEmail } from '@/server/services/email-notification.port';
 
 export interface VendorApplicationContext {
   ipAddress: string | null;
@@ -88,6 +89,12 @@ export interface AdminVendorApplicationRow {
   businessName: string;
   vendorType: string;
   contactPhone: string;
+  contactName: string | null;
+  contactEmail: string | null;
+  citySlug: string | null;
+  websiteUrl: string | null;
+  source: string;
+  listingId: string | null;
   description: string;
   status: 'NEW' | 'REVIEWING' | 'APPROVED' | 'REJECTED';
   reviewNote: string | null;
@@ -124,6 +131,12 @@ export async function adminListVendorApplications(query: AdminVendorApplicationQ
         businessName: true,
         vendorType: true,
         contactPhone: true,
+        contactName: true,
+        contactEmail: true,
+        citySlug: true,
+        websiteUrl: true,
+        source: true,
+        listingId: true,
         description: true,
         status: true,
         reviewNote: true,
@@ -144,7 +157,7 @@ export async function adminSetVendorApplicationStatus(
 ): Promise<void> {
   const existing = await prisma.vendorApplication.findUnique({
     where: { id },
-    select: { id: true },
+    select: { id: true, businessName: true, contactEmail: true },
   });
   if (!existing) throw new NotFoundError('That application does not exist');
 
@@ -156,4 +169,17 @@ export async function adminSetVendorApplicationStatus(
       reviewedAt: status === 'NEW' ? null : new Date(),
     },
   });
+
+  /*
+   * A decision is only useful to the applicant if it is told to them. Failures are
+   * recorded in `EmailLog` and deliberately never roll back the status change.
+   */
+  if ((status === 'APPROVED' || status === 'REJECTED') && existing.contactEmail) {
+    await sendVendorApplicationDecisionEmail({
+      to: existing.contactEmail,
+      businessName: existing.businessName,
+      approved: status === 'APPROVED',
+      note,
+    });
+  }
 }

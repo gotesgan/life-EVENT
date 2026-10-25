@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from 'next';
-import type { ReactNode } from 'react';
+import { Suspense, type ReactNode } from 'react';
 import { Bodoni_Moda, Jost } from 'next/font/google';
 import { ColorSchemeScript, mantineHtmlProps } from '@mantine/core';
 import { AppProviders } from '@/theme/app-providers';
+import { ConsentBanner } from '@/components/integrations/ConsentBanner';
+import { MetaPixel } from '@/components/integrations/MetaPixel';
 import { darkSchemeTokens, lightSchemeTokens } from '@/theme/tokens';
 import './globals.css';
 
@@ -152,7 +154,17 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <ColorSchemeScript defaultColorScheme="auto" localStorageKey="liveenvt-color-scheme" />
       </head>
       <body>
-        <AppProviders defaultColorScheme="auto">{children}</AppProviders>
+        <AppProviders defaultColorScheme="auto">
+          {children}
+          {/* Both integrations read `usePathname()`, so they sit inside Suspense
+              boundaries; the fallbacks are hook-free by design. */}
+          <Suspense fallback={null}>
+            <ConsentBanner />
+          </Suspense>
+          <Suspense fallback={null}>
+            <MetaPixel />
+          </Suspense>
+        </AppProviders>
       </body>
     </html>
   );

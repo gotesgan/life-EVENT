@@ -10,6 +10,8 @@ import {
   IconBuildingStore,
   IconCalendarEvent,
   IconCategory,
+  IconChartBar,
+  IconSettings,
   IconExternalLink,
   IconInbox,
   IconLayoutDashboard,
@@ -54,6 +56,8 @@ const PRIMARY_NAV: NavItem[] = [
     icon: <IconUserPlus size={18} stroke={1.5} />,
   },
   { href: '/admin/customers', label: 'Customers', icon: <IconUsers size={18} stroke={1.5} /> },
+  { href: '/admin/reports', label: 'Reports', icon: <IconChartBar size={18} stroke={1.5} /> },
+  { href: '/admin/settings', label: 'Settings', icon: <IconSettings size={18} stroke={1.5} /> },
 ];
 
 const CATALOGUE_NAV: NavItem[] = [

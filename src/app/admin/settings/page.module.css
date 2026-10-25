@@ -1,0 +1,134 @@
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: rem(20px);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: rem(14px);
+}
+
+.cardTitle {
+  margin: 0 0 rem(4px);
+  font-size: var(--text-h3-size);
+  font-weight: var(--text-h3-weight);
+  line-height: var(--text-h3-leading);
+}
+
+.cardBody {
+  margin: 0;
+  max-width: 78ch;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+
+  & code {
+    padding: 0 rem(4px);
+    border: 1px solid var(--app-border);
+    border-radius: rem(4px);
+    background-color: var(--app-surface-muted);
+    font-family: var(--mantine-font-family-monospace);
+    font-size: var(--text-caption-size);
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: rem(6px);
+  max-width: rem(560px);
+}
+
+.label {
+  margin-block-start: rem(6px);
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  font-weight: 600;
+}
+
+.input {
+  height: rem(36px);
+  padding-inline: rem(10px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-surface-raised);
+  color: var(--app-text);
+  font-size: var(--text-secondary-size);
+}
+
+.checkboxRow {
+  display: flex;
+  align-items: center;
+  gap: rem(8px);
+  color: var(--app-text);
+  font-size: var(--text-secondary-size);
+  font-weight: 600;
+}
+
+.checkbox {
+  width: rem(16px);
+  height: rem(16px);
+}
+
+.buttonRow {
+  display: flex;
+  gap: rem(8px);
+  margin-block-start: rem(8px);
+}
+
+.notice {
+  margin: 0;
+  font-size: var(--text-secondary-size);
+  font-weight: 500;
+  line-height: var(--text-secondary-leading);
+}
+
+.logBlock {
+  display: flex;
+  flex-direction: column;
+  gap: rem(8px);
+  margin-block-start: rem(8px);
+  padding-block-start: rem(14px);
+  border-block-start: 1px solid var(--app-border);
+}
+
+.logTitle {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-body-size);
+  font-weight: 700;
+}
+
+.logList {
+  display: flex;
+  flex-direction: column;
+  gap: rem(4px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logRow {
+  display: flex;
+  align-items: center;
+  gap: rem(10px);
+  padding-block: rem(6px);
+  border-block-start: 1px solid var(--app-border);
+  font-size: var(--text-caption-size);
+}
+
+.logMain {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  color: var(--app-text-muted);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.logMeta {
+  flex: none;
+  color: var(--app-text-subtle);
+}

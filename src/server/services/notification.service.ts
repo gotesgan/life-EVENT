@@ -43,10 +43,31 @@ export const noopNotificationPort: NotificationPort = {
   async adminLeadAssigned() {},
 };
 
-let port: NotificationPort = noopNotificationPort;
+/**
+ * The installed port, if a caller (or a test) has set one.
+ *
+ * When nothing has been installed, `sendNotification` lazily loads the email
+ * implementation. Doing it lazily rather than wiring it in `instrumentation.ts`
+ * matters: instrumentation is compiled into its own module graph, so assigning a
+ * singleton there did not affect the instances the route handlers use, and
+ * enquiry notifications silently stayed on the no-op port. The dynamic import
+ * keeps `prisma` and the settings service out of every module that merely
+ * imports the notification seam.
+ */
+let port: NotificationPort | null = null;
+let emailPort: NotificationPort | null = null;
 
-export function getNotificationPort(): NotificationPort {
-  return port;
+export function getNotificationPort(): NotificationPort | null {
+  return port ?? emailPort;
+}
+
+async function resolveNotificationPort(): Promise<NotificationPort> {
+  if (port) return port;
+  if (!emailPort) {
+    const { createEmailNotificationPort } = await import('./email-notification.port');
+    emailPort = createEmailNotificationPort();
+  }
+  return emailPort;
 }
 
 /** Injection point for a real provider (email/SMS) or for tests. */
@@ -63,7 +84,7 @@ export async function sendNotification(
   send: (port: NotificationPort) => Promise<void>,
 ): Promise<void> {
   try {
-    await send(getNotificationPort());
+    await send(await resolveNotificationPort());
   } catch (error) {
     console.error('[notification] delivery failed', error);
   }

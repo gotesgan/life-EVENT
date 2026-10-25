@@ -33,6 +33,7 @@ import {
   releaseIdempotencyKey,
 } from '@/server/services/idempotency.service';
 import { sendNotification } from '@/server/services/notification.service';
+import { sendMetaLeadEvent } from '@/server/services/meta.service';
 import type {
   CustomerEnquiryDetail,
   CustomerEnquiryListingView,
@@ -308,6 +309,26 @@ export async function createEnquiry(
       eventDate: input.eventDate ?? null,
     }),
   );
+
+  /*
+   * Server-side conversion. Awaited so the event is actually delivered before the
+   * request finishes (a floating promise can be dropped when a serverless request
+   * completes), but the sender records failures instead of throwing — the lead is
+   * already committed and must not be lost to a marketing API.
+   */
+  if (!isHoneypotTripped) {
+    await sendMetaLeadEvent({
+      enquiryId: created.id,
+      referenceCode: created.referenceCode,
+      customerName: input.contactName,
+      customerEmail: email,
+      customerPhone: input.contactPhone ?? null,
+      eventDate: input.eventDate ?? null,
+      listings: listings.map((listing) => ({ id: listing.id, name: listing.name })),
+      ipAddress: context.ipAddress,
+      userAgent: context.userAgent,
+    });
+  }
 
   await Promise.all([pruneExpiredRateLimitBuckets(), pruneExpiredIdempotencyKeys()]);
 

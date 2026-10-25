@@ -67,6 +67,26 @@ const serverEnvSchema = z.object({
    */
   TRUSTED_PROXY_HOPS: z.coerce.number().int().min(0).max(10).default(1),
 
+  /**
+   * The admin origin, when the back office is served from its own hostname
+   * (`admin.example.com`). Optional: when unset every host serves the app as
+   * before, so local development and the existing test suite need no setup.
+   */
+  ADMIN_URL: z.string().url().optional(),
+  /** Overrides automatic cross-subdomain cookie-domain derivation (e.g. `.example.com`). */
+  AUTH_COOKIE_DOMAIN: z.string().min(2).optional(),
+
+  /** Outbound email. Without a provider, messages are recorded as skipped. */
+  RESEND_API_KEY: z.string().min(1).optional(),
+  EMAIL_FROM: z.string().min(3).default('Life Events <notifications@lifeevents.example>'),
+  ADMIN_NOTIFICATION_EMAIL: z.string().email().optional(),
+
+  /** Meta Conversions API. The token may also be stored in admin settings. */
+  META_PIXEL_ID: z.string().min(1).optional(),
+  META_CAPI_TOKEN: z.string().min(1).optional(),
+  META_TEST_EVENT_CODE: z.string().min(1).optional(),
+  META_GRAPH_VERSION: z.string().min(2).default('v21.0'),
+
   RATE_LIMIT_ENQUIRY_PER_IP: z.coerce.number().int().positive().default(5),
   RATE_LIMIT_ENQUIRY_PER_EMAIL: z.coerce.number().int().positive().default(3),
   RATE_LIMIT_AUTH_PER_IP: z.coerce.number().int().positive().default(20),
@@ -191,4 +211,10 @@ export function isR2Configured(): boolean {
  */
 export function getAppUrl(): string {
   return getServerEnv().NEXT_PUBLIC_APP_URL.replace(/\/$/, '');
+}
+
+/** The admin origin when host routing is enabled, normalised, or `null`. */
+export function getAdminUrl(): string | null {
+  const value = getServerEnv().ADMIN_URL;
+  return value ? value.replace(/\/$/, '') : null;
 }

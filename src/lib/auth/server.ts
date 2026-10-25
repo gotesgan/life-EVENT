@@ -3,7 +3,7 @@ import { betterAuth } from 'better-auth';
 import { prismaAdapter } from 'better-auth/adapters/prisma';
 import { nextCookies } from 'better-auth/next-js';
 import { prisma } from '@/lib/db';
-import { getAppUrl, getServerEnv } from '@/lib/env';
+import { getAdminUrl, getAppUrl, getServerEnv } from '@/lib/env';
 
 /**
  * Better Auth server instance.
@@ -20,6 +20,51 @@ import { getAppUrl, getServerEnv } from '@/lib/env';
  *    Moderation (suspend/reactivate) is implemented in the customer service
  *    against our own `status` column instead.
  */
+/**
+ * The cookie domain for a panel served from a sibling host.
+ *
+ * `app.example.com` + `admin.example.com` share `.example.com`, so one login is
+ * valid on both. The rule is deliberately strict: strip the leading label from
+ * each host, and only use the remainder when it is a proper registrable domain
+ * (two labels). That refuses public suffixes (`nip.io`, `vercel.app`) where a
+ * `Domain=` cookie would be rejected or unsafe. `AUTH_COOKIE_DOMAIN` overrides
+ * the derivation where an operator knows better.
+ */
+function sharedCookieDomain(): string | null {
+  const adminUrl = getAdminUrl();
+  if (!adminUrl) return null;
+
+  const override = getServerEnv().AUTH_COOKIE_DOMAIN;
+  if (override) return override.startsWith('.') ? override : `.${override}`;
+
+  try {
+    const publicHost = new URL(getAppUrl()).hostname;
+    const adminHost = new URL(adminUrl).hostname;
+    if (publicHost === adminHost) return null;
+
+    const remainder = (hostname: string): string | null => {
+      const labels = hostname.split('.');
+      if (labels.length < 3) return null;
+      return labels.slice(1).join('.');
+    };
+
+    const fromPublic = remainder(publicHost);
+    const fromAdmin = remainder(adminHost);
+    if (!fromPublic || fromPublic !== fromAdmin) return null;
+
+    // Two labels is a registrable domain; more is usually a public suffix
+    // (`nip.io`, `vercel.app`), where a Domain= cookie would be rejected.
+    if (fromPublic.split('.').length !== 2) return null;
+
+    return `.${fromPublic}`;
+  } catch {
+    return null;
+  }
+}
+
+const adminUrl = getAdminUrl();
+const cookieDomain = sharedCookieDomain();
+
 export const auth = betterAuth({
   baseURL: getAppUrl(),
   secret: getServerEnv().BETTER_AUTH_SECRET,
@@ -65,6 +110,7 @@ export const auth = betterAuth({
       sameSite: 'lax',
       httpOnly: true,
     },
+    ...(cookieDomain ? { crossSubDomainCookies: { enabled: true, domain: cookieDomain } } : {}),
   },
 
   /**
@@ -88,7 +134,9 @@ export const auth = betterAuth({
     },
   },
 
-  trustedOrigins: [getAppUrl()],
+  // Both hosts are legitimate origins for one Better Auth instance. Authorization
+  // is still decided by the actor's role, never by the host.
+  trustedOrigins: adminUrl ? [getAppUrl(), adminUrl] : [getAppUrl()],
 
   // Required so cookies set during a Server Action / Route Handler response are
   // actually written. Must be the last plugin.
