@@ -104,7 +104,7 @@ export function vendorApplicationDecisionEmail(input: {
       `Hello ${input.businessName},`,
       '',
       input.approved
-        ? 'Your business has been approved for a listing on Life Events.'
+        ? 'Your business has been approved for a listing on Life Events. We will send you a link to complete the details before it goes live.'
         : 'Thanks for applying. We are not listing this business at the moment.',
       input.note ? `Note from the team: ${input.note}` : '',
     ]

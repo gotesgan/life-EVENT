@@ -19,6 +19,10 @@ import { NextResponse, type NextRequest } from 'next/server';
  * operational boundary: separate cookies, separate logs, a URL that can be
  * firewalled or put behind SSO later, and a public site that gives no hint the
  * panel exists.
+ *
+ * The routing decision is extracted into `resolveHostRoute` so the rules are
+ * testable without a server; `proxy` only translates its result into Next
+ * responses.
  */
 const ADMIN_URL = process.env.ADMIN_URL;
 const PUBLIC_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'http://localhost:3000';
@@ -27,6 +31,61 @@ const ADMIN_ASSET_PREFIXES = ['/_next', '/media', '/brand', '/icon', '/apple-ico
 
 function isAsset(pathname: string): boolean {
   return ADMIN_ASSET_PREFIXES.some((prefix) => pathname.startsWith(prefix));
+}
+
+/** Pages that must be reachable on the admin host without an `/admin` prefix. */
+const ADMIN_HOST_PASSTHROUGH = ['/admin', '/api', '/sign-in', '/sign-up', '/brand'] as const;
+
+export type HostRoute =
+  /** Serve the request unchanged. */
+  | { kind: 'next' }
+  /** Redirect to an absolute URL. */
+  | { kind: 'redirect'; to: string }
+  /** Rewrite to another path on the current host. */
+  | { kind: 'rewrite'; to: string };
+
+/**
+ * The host-routing decision. `null` means host routing is disabled (no
+ * `ADMIN_URL` in the environment).
+ */
+export function resolveHostRoute(input: {
+  host: string;
+  pathname: string;
+  search?: string;
+  adminOrigin: URL;
+  publicOrigin: URL;
+}): HostRoute {
+  const { host, pathname, adminOrigin, publicOrigin } = input;
+  const search = input.search ?? '';
+
+  if (isAsset(pathname)) return { kind: 'next' };
+
+  const onAdminHost = host === adminOrigin.host;
+  const onPublicHost = host === publicOrigin.host;
+
+  if (onAdminHost) {
+    if (pathname === '/')
+      return { kind: 'redirect', to: new URL('/admin', adminOrigin).toString() };
+
+    /*
+     * The back office keeps `/admin/*` URLs, so a dashboard link and a typed
+     * `admin.host/vendor-applications` must both land on the same page. Bare
+     * paths are rewritten to their `/admin` equivalent; auth routes, APIs and
+     * assets are left alone.
+     */
+    const passThrough = ADMIN_HOST_PASSTHROUGH.some(
+      (prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`),
+    );
+    if (passThrough) return { kind: 'next' };
+
+    return { kind: 'rewrite', to: `/admin${pathname}${search}` };
+  }
+
+  if (onPublicHost && (pathname === '/admin' || pathname.startsWith('/admin/'))) {
+    return { kind: 'redirect', to: new URL(`${pathname}${search}`, adminOrigin).toString() };
+  }
+
+  return { kind: 'next' };
 }
 
 export function proxy(request: NextRequest): NextResponse {
@@ -42,45 +101,17 @@ export function proxy(request: NextRequest): NextResponse {
     return NextResponse.next();
   }
 
-  const host = request.headers.get('host') ?? '';
-  const pathname = request.nextUrl.pathname;
-  const onAdminHost = host === adminOrigin.host;
-  const onPublicHost = host === publicOrigin.host;
+  const route = resolveHostRoute({
+    host: request.headers.get('host') ?? '',
+    pathname: request.nextUrl.pathname,
+    search: request.nextUrl.search,
+    adminOrigin,
+    publicOrigin,
+  });
 
-  if (isAsset(pathname)) return NextResponse.next();
-
-  if (onAdminHost) {
-    if (pathname === '/') {
-      return NextResponse.redirect(new URL('/admin', adminOrigin));
-    }
-
-    /*
-     * The back office keeps `/admin/*` URLs, so a dashboard link and a typed
-     * `admin.host/vendor-applications` must both land on the same page. Bare
-     * paths are rewritten to their `/admin` equivalent; auth routes, APIs and
-     * assets are left alone.
-     */
-    const passThrough =
-      pathname.startsWith('/admin') ||
-      pathname.startsWith('/api') ||
-      pathname.startsWith('/sign-in') ||
-      pathname.startsWith('/sign-up') ||
-      pathname.startsWith('/brand');
-
-    if (!passThrough) {
-      return NextResponse.rewrite(
-        new URL(`/admin${pathname}${request.nextUrl.search}`, request.url),
-      );
-    }
-
-    return NextResponse.next();
-  }
-
-  if (onPublicHost && (pathname === '/admin' || pathname.startsWith('/admin/'))) {
-    return NextResponse.redirect(new URL(pathname, adminOrigin));
-  }
-
-  return NextResponse.next();
+  if (route.kind === 'next') return NextResponse.next();
+  if (route.kind === 'redirect') return NextResponse.redirect(route.to);
+  return NextResponse.rewrite(new URL(route.to, request.url));
 }
 
 export const config = {

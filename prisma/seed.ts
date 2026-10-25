@@ -1100,11 +1100,19 @@ async function verifySeededData(): Promise<void> {
     throw new Error(`${emptySearchText} published listings have an empty searchText`);
   }
 
+  /*
+   * Only *published* listings need a cover.
+   *
+   * Drafts legitimately have none until the team finishes them — the admin
+   * "approve application → draft listing" flow creates exactly such a row. The
+   * old check counted every listing and made a reseed fail after an operator did
+   * ordinary work in the back office, which is a seed bug, not a data bug.
+   */
   const listingsWithoutCover = await prisma.businessListing.count({
-    where: { media: { none: { isCover: true } } },
+    where: { publicationStatus: 'PUBLISHED', media: { none: { isCover: true } } },
   });
   if (listingsWithoutCover > 0) {
-    throw new Error(`${listingsWithoutCover} listings have no cover media`);
+    throw new Error(`${listingsWithoutCover} published listings have no cover media`);
   }
 
   const enquiries = await prisma.enquiry.findMany({

@@ -174,11 +174,30 @@ migration. Keys: `site`, `email`, `meta`.
   invite creation/revocation, onboarding submission, approval-to-listing and Meta
   test events.
 
+## Tests
+
+The admin surface is covered at three levels:
+
+- `tests/unit/proxy-routing.test.ts` — the host-routing decision table: public
+  `/admin` redirects, admin-host root, pass-through paths, bare-path rewrites,
+  assets and lookalike hosts.
+- `tests/unit/crypto.test.ts` — secret round trip, fresh IV, wrong-key and
+  tampered-payload rejection, hashing.
+- `tests/unit/email-templates.test.ts` — every template carries the information
+  it exists to carry (links, references, dates, status wording).
+- `tests/integration/vendor-invites.test.ts` — the whole invite lifecycle against
+  PostgreSQL: hash-only storage, resolve, submit, second-submit refusal, expired
+  and revoked links, approval into exactly one draft listing, notification rows.
+
+`tests/setup/truncate.ts` and the Vitest harness reset the new tables, so the
+admin tables cannot leak state between test files.
+
 ## Deliberately not built yet
 
 - Vendor portal login (invite + review only for now).
 - Claim-an-existing-listing flow.
-- Enquiry bulk actions, saved views and reply templates.
+- Enquiry reply templates and saved filter views (the inbox already has search,
+  filters, per-row pipeline controls and multi-select bulk status changes).
 - Granular admin roles and 2FA (Better Auth plugins can supply 2FA; roles would
   extend the existing `UserRole`).
 - IP allowlist / SSO for the admin host.
