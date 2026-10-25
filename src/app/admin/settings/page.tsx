@@ -5,6 +5,8 @@ import { getAdminUrl, getServerEnv } from '@/lib/env';
 import { formatDateTime } from '@/lib/format';
 import { Button, PageHeader, StatusBadge, Surface, TableSkeleton } from '@/components/ui';
 import { getSettings } from '@/server/services/settings.service';
+import { TourLauncher, TourResetButton } from '@/components/tour/TourLauncher';
+import { ADMIN_TOUR } from '@/lib/tours/admin-tour';
 import {
   saveEmailSettingsAction,
   saveMetaSettingsAction,
@@ -81,6 +83,22 @@ async function SettingsContent({
   return (
     <div className={classes.sections}>
       <Notice saved={params.saved} error={params.error} metaTest={params.metaTest} />
+
+      <Surface tone="raised" padding="lg" className={classes.card}>
+        <div>
+          <h2 className={classes.cardTitle}>Guided tour</h2>
+          <p className={classes.cardBody}>
+            A two-minute walkthrough of the whole loop: onboarding a vendor, approving the draft
+            listing and answering the first enquiry. It moves between pages as it goes, can be left
+            at any point with Esc, and never changes any data. The vendor-facing walkthrough lives
+            on the public <code>/partner-with-us</code> page.
+          </p>
+        </div>
+        <div className={classes.buttonRow}>
+          <TourLauncher tour={ADMIN_TOUR} label="Start the admin walkthrough" />
+          <TourResetButton tours={[ADMIN_TOUR]} />
+        </div>
+      </Surface>
 
       <Surface tone="raised" padding="lg" className={classes.card}>
         <div>
@@ -215,7 +233,12 @@ async function SettingsContent({
         </div>
       </Surface>
 
-      <Surface tone="raised" padding="lg" className={classes.card}>
+      <Surface
+        tone="raised"
+        padding="lg"
+        className={classes.card}
+        data-tour="settings-integrations"
+      >
         <div>
           <h2 className={classes.cardTitle}>Meta Pixel &amp; Conversions API</h2>
           <p className={classes.cardBody}>

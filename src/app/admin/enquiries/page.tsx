@@ -76,7 +76,7 @@ async function EnquiriesResult({
 
   return (
     <>
-      <div style={{ marginTop: 'var(--mantine-spacing-lg)' }}>
+      <div style={{ marginTop: 'var(--mantine-spacing-lg)' }} data-tour="enquiry-filters">
         <EnquiryFilters
           current={urlParams}
           categoryOptions={categoryOptions}
@@ -87,7 +87,7 @@ async function EnquiriesResult({
         />
       </div>
 
-      <div style={{ marginTop: 'var(--mantine-spacing-md)' }}>
+      <div style={{ marginTop: 'var(--mantine-spacing-md)' }} data-tour="enquiry-inbox">
         <EnquiryInbox
           rows={result.data}
           params={urlParams}

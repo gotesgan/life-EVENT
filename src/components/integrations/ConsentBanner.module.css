@@ -1,3 +1,9 @@
+/* While a guided tour is running, the consent banner waits its turn: two
+   floating surfaces in the same corner is one decision too many. */
+:global(body[data-tour-open]) .banner {
+  display: none;
+}
+
 .banner {
   position: fixed;
   inset-inline: rem(12px);

@@ -76,7 +76,7 @@ async function ApplicationsResult() {
     <div className={classes.sections}>
       <InviteFlash />
 
-      <Surface tone="raised" padding="md" className={classes.card}>
+      <Surface tone="raised" padding="md" className={classes.card} data-tour="vendor-invite-form">
         <div className={classes.head}>
           <div>
             <h2 className={classes.name}>Send an onboarding link</h2>
@@ -150,7 +150,9 @@ async function ApplicationsResult() {
         </Surface>
       ) : null}
 
-      <h2 className={classes.sectionTitle}>Applications</h2>
+      <h2 className={classes.sectionTitle} data-tour="vendor-applications-list">
+        Applications
+      </h2>
 
       {rows.length === 0 ? (
         <Surface tone="muted" padding="lg">

@@ -1,0 +1,181 @@
+/*
+ * Guided-tour overlay.
+ *
+ * The dim layer is four rectangles around the target rather than one sheet, so
+ * the highlighted control keeps its true colours and stays clickable. Everything
+ * is fixed-positioned and sits above the admin chrome but below toasts.
+ */
+.layer {
+  position: fixed;
+  inset: 0;
+  z-index: 500;
+}
+
+.dim,
+.dimFull {
+  position: fixed;
+  background-color: rgb(10 8 6 / 55%);
+}
+
+.dimFull {
+  inset: 0;
+}
+
+.highlight {
+  position: fixed;
+  border: 2px solid var(--app-brand);
+  border-radius: var(--app-radius-control);
+  box-shadow: 0 0 0 4px rgb(168 32 26 / 22%);
+  pointer-events: none;
+  animation: ringIn 180ms var(--app-ease-out);
+}
+
+.card {
+  position: fixed;
+  z-index: 1;
+  width: min(376px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  overflow-y: auto;
+  padding: rem(18px) rem(20px) rem(16px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-raised);
+  box-shadow: var(--app-shadow-overlay);
+  animation: cardIn 160ms var(--app-ease-out);
+}
+
+.head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: rem(12px);
+}
+
+.eyebrow {
+  margin: 0 0 rem(6px);
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.close {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(28px);
+  height: rem(28px);
+  margin: rem(-4px) rem(-4px) 0 0;
+  border: 0;
+  border-radius: var(--app-radius-control);
+  background: transparent;
+  color: var(--app-text-muted);
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: var(--app-surface-muted);
+  color: var(--app-text);
+}
+
+.close:focus-visible {
+  outline: 2px solid var(--app-focus-ring);
+  outline-offset: 2px;
+}
+
+.title {
+  margin: 0 0 rem(8px);
+  color: var(--app-text);
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-size: var(--text-h3-size);
+  font-weight: 600;
+  line-height: var(--text-h3-leading);
+}
+
+.title:focus {
+  outline: none;
+}
+
+.body {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: 1.55;
+  text-wrap: pretty;
+}
+
+.progress {
+  display: flex;
+  gap: rem(4px);
+  margin-block: rem(14px) rem(12px);
+}
+
+.progressDot {
+  flex: 1 1 0;
+  height: rem(3px);
+  border-radius: var(--app-radius-pill);
+  background-color: var(--app-border);
+  transition: background-color 160ms var(--app-ease-out);
+}
+
+.progressDot[data-done] {
+  background-color: var(--app-brand);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(8px);
+  flex-wrap: wrap;
+}
+
+.actionsRight {
+  display: flex;
+  gap: rem(6px);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ringIn {
+  from {
+    opacity: 0;
+    box-shadow: 0 0 0 0 rgb(168 32 26 / 0%);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .highlight {
+    animation: none;
+  }
+
+  .progressDot {
+    transition: none;
+  }
+}

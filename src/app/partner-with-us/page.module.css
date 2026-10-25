@@ -162,3 +162,8 @@
   border-radius: var(--app-radius-control);
   background-color: var(--app-surface-muted);
 }
+
+/* The guided-tour launcher sits under the form's lede, above the fields. */
+.tourLaunch {
+  margin-block: rem(-6px) rem(14px);
+}

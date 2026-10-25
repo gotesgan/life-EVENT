@@ -174,6 +174,43 @@ migration. Keys: `site`, `email`, `meta`.
   invite creation/revocation, onboarding submission, approval-to-listing and Meta
   test events.
 
+## Guided tours
+
+Two in-app walkthroughs, built from Mantine primitives and CSS modules (no tour
+dependency):
+
+| Tour               | Where it starts                                                                       | Steps                                                                                                                                            |
+| ------------------ | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Admin walkthrough  | Settings → **Guided tour**, the first-visit prompt in the corner, or "Show me around" | Overview → Vendor applications → onboarding link → approval → listing editor → enquiry filters → handling a query → Settings/integrations → done |
+| Vendor walkthrough | The **Show me how this works** button on `/partner-with-us`                           | Welcome → the four fields → submit → what happens next (call, onboarding link, review, publish) → done                                           |
+
+How it is built:
+
+- **Data, not components.** `src/lib/tours/admin-tour.ts` and `vendor-tour.ts`
+  are plain `TourStep[]` definitions (`title`, `body`, optional `target` CSS
+  selector, optional `path`, optional `placement`). Adding a step is content
+  work; no engine change.
+- **Cross-page without reloading.** The admin engine lives in `TourHost`, mounted
+  in `AdminShell` — the one client component that survives admin navigation. A
+  step with a `path` makes the host `router.push()`; the engine then polls for
+  the target and highlights it.
+- **Targets are the real interface.** Steps point at existing links and page
+  sections (`a[href="/admin/enquiries"]`, `[data-tour="vendor-invite-form"]`),
+  so the tour teaches the actual UI rather than a mock. Missing targets are not
+  fatal: the engine falls back to a centred card after a short poll.
+- **Accessibility.** The card is a `role="dialog"` with `aria-modal`, labelled by
+  the step heading; each step change focuses the heading and announces
+  "step N of M"; Escape dismisses; arrows move; Tab is trapped inside the card;
+  the highlight ring is decorative and the dim layer sits _around_ the target, so
+  the underlying control stays visible. `prefers-reduced-motion` removes all
+  transitions.
+- **Progress is remembered locally.** Completion/dismissal is stored in
+  `localStorage` (`lifeevents.tour.admin.v1`, `lifeevents.tour.vendor.v1`). The
+  first-visit prompt appears only when the admin tour has never been seen;
+  Settings → **Guided tour** can start it again and restore the prompt.
+- **No data changes.** Both tours are read-only overlays; they never submit a
+  form or mutate a record.
+
 ## Tests
 
 The admin surface is covered at three levels:
@@ -185,6 +222,12 @@ The admin surface is covered at three levels:
   tampered-payload rejection, hashing.
 - `tests/unit/email-templates.test.ts` — every template carries the information
   it exists to carry (links, references, dates, status wording).
+- `tests/unit/tours.test.ts` — tour definitions are structurally valid: unique
+  step ids, welcome/done are centred, admin steps only navigate within `/admin`,
+  every body is substantial.
+- `tests/component/guided-tour.test.tsx` — the engine's behaviour: dialog
+  labelling and focus, next/back/finish, Escape and close-button dismissal, skip,
+  missing-target fallback, and the host/standalone launcher split.
 - `tests/integration/vendor-invites.test.ts` — the whole invite lifecycle against
   PostgreSQL: hash-only storage, resolve, submit, second-submit refusal, expired
   and revoked links, approval into exactly one draft listing, notification rows.

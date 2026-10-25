@@ -195,6 +195,7 @@ export function VendorApplicationForm({ vendorTypes }: VendorApplicationFormProp
         type="submit"
         size="md"
         fullWidth
+        data-tour="vendor-form-submit"
         loading={pending}
         leftSection={<IconSend size="1rem" stroke={1.6} aria-hidden />}
       >

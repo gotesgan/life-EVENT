@@ -4,6 +4,8 @@ import { connection } from 'next/server';
 import { IconCheck } from '@tabler/icons-react';
 import { SiteShell } from '@/components/layout/SiteShell';
 import { VendorApplicationForm } from '@/components/vendor/VendorApplicationForm';
+import { TourLauncher } from '@/components/tour/TourLauncher';
+import { VENDOR_TOUR } from '@/lib/tours/vendor-tour';
 import { Container } from '@/components/ui/Container';
 import { PageHeader } from '@/components/ui/PageHeader';
 import { Surface } from '@/components/ui/Surface';
@@ -113,7 +115,7 @@ export default function PartnerWithUsPage() {
               </p>
             </div>
 
-            <div className={classes.steps}>
+            <div className={classes.steps} data-tour="vendor-form-steps">
               <h3 className={classes.stepsTitle}>What happens next</h3>
               <ol className={classes.stepList}>
                 {STEPS.map((step) => (
@@ -123,11 +125,26 @@ export default function PartnerWithUsPage() {
             </div>
           </Surface>
 
-          <Surface tone="raised" padding="lg" elevated className={classes.formCard}>
+          <Surface
+            tone="raised"
+            padding="lg"
+            elevated
+            className={classes.formCard}
+            data-tour="vendor-form"
+          >
             <h2 className={classes.panelTitle}>Register your business</h2>
             <p className={classes.panelLede}>
               Four fields. No catalogue documents, no payment details, no account.
             </p>
+            <div className={classes.tourLaunch}>
+              <TourLauncher
+                tour={VENDOR_TOUR}
+                mode="standalone"
+                label="Show me how this works"
+                variant="default"
+                size="xs"
+              />
+            </div>
             <Suspense fallback={<FormSkeleton />}>
               <VendorTypeOptions />
             </Suspense>
