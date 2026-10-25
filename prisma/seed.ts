@@ -254,6 +254,7 @@ async function seedCategories(): Promise<{ records: Map<string, CategoryRecord>;
         parentId,
         shortDescription: category.shortDescription,
         iconKey: category.iconKey,
+        heroImageUrl: category.heroImageUrl,
         isActive: true,
         sortOrder: category.sortOrder,
       },
@@ -264,6 +265,7 @@ async function seedCategories(): Promise<{ records: Map<string, CategoryRecord>;
         parentId,
         shortDescription: category.shortDescription,
         iconKey: category.iconKey,
+        heroImageUrl: category.heroImageUrl,
         sortOrder: category.sortOrder,
       },
     });

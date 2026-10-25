@@ -69,6 +69,7 @@ async function CorporateCategories() {
             name={category.name}
             listingCount={category.listingCount}
             shortDescription={category.shortDescription}
+            imageUrl={category.heroImageUrl}
             href={`/vendors?category=${encodeURIComponent(category.slug)}`}
           />
         );

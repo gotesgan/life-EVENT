@@ -15,6 +15,14 @@ export interface CategorySeed {
   familySlug: string;
   shortDescription: string;
   iconKey: string;
+  /**
+   * Tile photograph for the category grid.
+   *
+   * Top-level categories carry one; subcategories stay `null` and fall back to
+   * the deterministic placeholder motif, because a subcategory tile sits in a
+   * denser list where eight photographs would be noise.
+   */
+  heroImageUrl: string | null;
   sortOrder: number;
 }
 
@@ -23,6 +31,7 @@ interface TopLevelCategorySeed {
   name: string;
   shortDescription: string;
   iconKey: string;
+  heroImageUrl: string;
   sortOrder: number;
 }
 
@@ -41,6 +50,7 @@ const TOP_LEVEL: readonly TopLevelCategorySeed[] = [
     name: 'Venues',
     shortDescription: 'Banquet halls, hotels, resorts, lawns and farmhouses.',
     iconKey: 'building-arch',
+    heroImageUrl: '/media/categories/venues.jpg',
     sortOrder: 10,
   },
   {
@@ -48,6 +58,7 @@ const TOP_LEVEL: readonly TopLevelCategorySeed[] = [
     name: 'Photography & Film',
     shortDescription: 'Photographers and videographers for every event day.',
     iconKey: 'camera',
+    heroImageUrl: '/media/categories/photography.jpg',
     sortOrder: 20,
   },
   {
@@ -55,6 +66,7 @@ const TOP_LEVEL: readonly TopLevelCategorySeed[] = [
     name: 'Planning & Decor',
     shortDescription: 'Wedding planners, decorators and florists.',
     iconKey: 'clipboard-heart',
+    heroImageUrl: '/media/categories/planning-and-decor.jpg',
     sortOrder: 30,
   },
   {
@@ -62,6 +74,7 @@ const TOP_LEVEL: readonly TopLevelCategorySeed[] = [
     name: 'Catering',
     shortDescription: 'Caterers and live food stations.',
     iconKey: 'tools-kitchen',
+    heroImageUrl: '/media/categories/catering.jpg',
     sortOrder: 40,
   },
   {
@@ -69,6 +82,7 @@ const TOP_LEVEL: readonly TopLevelCategorySeed[] = [
     name: 'Beauty & Styling',
     shortDescription: 'Makeup artists and hair stylists.',
     iconKey: 'sparkles',
+    heroImageUrl: '/media/categories/beauty.jpg',
     sortOrder: 50,
   },
   {
@@ -76,6 +90,7 @@ const TOP_LEVEL: readonly TopLevelCategorySeed[] = [
     name: 'Entertainment',
     shortDescription: 'DJs, live bands and performers.',
     iconKey: 'music',
+    heroImageUrl: '/media/categories/entertainment.jpg',
     sortOrder: 60,
   },
   {
@@ -83,6 +98,7 @@ const TOP_LEVEL: readonly TopLevelCategorySeed[] = [
     name: 'Invitations & Gifts',
     shortDescription: 'Invitation designers and gift hampers.',
     iconKey: 'mail',
+    heroImageUrl: '/media/categories/invitations-and-gifts.jpg',
     sortOrder: 70,
   },
   {
@@ -90,6 +106,7 @@ const TOP_LEVEL: readonly TopLevelCategorySeed[] = [
     name: 'Rentals & Transport',
     shortDescription: 'Furniture rentals and luxury car rentals.',
     iconKey: 'car',
+    heroImageUrl: '/media/categories/rentals-and-transport.jpg',
     sortOrder: 80,
   },
   {
@@ -97,6 +114,7 @@ const TOP_LEVEL: readonly TopLevelCategorySeed[] = [
     name: 'Corporate Events',
     shortDescription: 'Venues, catering, AV and offsites for conferences, launches and team days.',
     iconKey: 'briefcase',
+    heroImageUrl: '/media/categories/corporate-events.jpg',
     sortOrder: 90,
   },
 ];
@@ -357,6 +375,7 @@ export const CATEGORY_SEEDS: readonly CategorySeed[] = [
     ...category,
     path: `${category.parentSlug}/${category.slug}`,
     familySlug: category.parentSlug,
+    heroImageUrl: null,
   })),
 ];
 

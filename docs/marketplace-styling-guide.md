@@ -232,6 +232,13 @@ A separate, much simpler component, modelled on Flipkart's and Myntra's category
   are navigation, not decisions).
 - Radius: `--app-radius-2` (8px). Category tiles are chrome; they get less radius than listing cards.
 
+> **Shipped implementation (ink & vermilion revision).** The tile is 3:2 photographic media with the
+> name, the real count and one clamped description _beneath_ the image — not the centred overlay label
+> described above — because a marketplace category needs its count and a scannable description, and the
+> reference the product now follows puts the label under the picture. Media comes from
+> `Category.heroImageUrl`; a category without a photograph falls back to the deterministic placeholder
+> motif, so a tile is never an empty box. Radius is `--app-radius-card-dense` (12px).
+
 ### 1.8 Filter sidebar
 
 Modelled on all three, which are structurally almost identical. **[observed]**

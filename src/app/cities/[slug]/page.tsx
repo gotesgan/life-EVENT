@@ -133,6 +133,7 @@ async function CityLanding({ slug }: { slug: string }) {
                 name={category.name}
                 shortDescription={category.shortDescription}
                 listingCount={category.listingCount}
+                imageUrl={category.heroImageUrl}
                 href={`/vendors?category=${category.slug}&location=${location.slug}`}
               />
             ))}

@@ -103,6 +103,7 @@ async function PopularCategories() {
           name={category.name}
           listingCount={category.listingCount}
           shortDescription={category.shortDescription}
+          imageUrl={category.heroImageUrl}
         />
       ))}
     </SimpleGrid>

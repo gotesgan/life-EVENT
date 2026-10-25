@@ -79,6 +79,7 @@ async function CategoryDirectory() {
                   name={child.name}
                   listingCount={child.listingCount}
                   shortDescription={child.shortDescription}
+                  imageUrl={child.heroImageUrl}
                 />
               ))}
             </SimpleGrid>
