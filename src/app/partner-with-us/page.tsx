@@ -76,8 +76,20 @@ export default function PartnerWithUsPage() {
           breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'List your business' }]}
         />
 
+        {/*
+         * Two panels of equal height, not a loose column beside a card.
+         *
+         * The old layout put bare text on the left and a padded card on the
+         * right, so the two columns' first lines sat ~36px apart (the card's
+         * padding) and their bottom edges never matched. Giving the pitch its own
+         * muted panel means both columns share one inner inset, one top edge and
+         * one bottom edge; the steps block is pinned to the foot of its panel so
+         * the two bottom borders line up whatever the form's height.
+         */}
         <div className={classes.layout}>
-          <div className={classes.pitch}>
+          <Surface tone="muted" padding="lg" className={classes.pitchCard}>
+            <h2 className={classes.panelTitle}>Why list with us</h2>
+
             <ul className={classes.reasons}>
               {REASONS.map((reason) => (
                 <li key={reason.title} className={classes.reason}>
@@ -85,26 +97,35 @@ export default function PartnerWithUsPage() {
                     <IconCheck size="0.875rem" stroke={2} />
                   </span>
                   <div>
-                    <h2 className={classes.reasonTitle}>{reason.title}</h2>
+                    <h3 className={classes.reasonTitle}>{reason.title}</h3>
                     <p className={classes.reasonBody}>{reason.body}</p>
                   </div>
                 </li>
               ))}
             </ul>
 
-            <Surface tone="muted" padding="md" className={classes.steps}>
-              <h2 className={classes.stepsTitle}>What happens next</h2>
+            <div className={classes.who}>
+              <h3 className={classes.whoTitle}>Who can list</h3>
+              <p className={classes.whoBody}>
+                Venues, photographers and film-makers, planners and decorators, caterers, beauty
+                artists, entertainers, stationers, rental and transport businesses — and corporate
+                suppliers for conferences, launches and team offsites.
+              </p>
+            </div>
+
+            <div className={classes.steps}>
+              <h3 className={classes.stepsTitle}>What happens next</h3>
               <ol className={classes.stepList}>
                 {STEPS.map((step) => (
                   <li key={step}>{step}</li>
                 ))}
               </ol>
-            </Surface>
-          </div>
+            </div>
+          </Surface>
 
           <Surface tone="raised" padding="lg" elevated className={classes.formCard}>
-            <h2 className={classes.formTitle}>Register your business</h2>
-            <p className={classes.formLede}>
+            <h2 className={classes.panelTitle}>Register your business</h2>
+            <p className={classes.panelLede}>
               Four fields. No catalogue documents, no payment details, no account.
             </p>
             <Suspense fallback={<FormSkeleton />}>
