@@ -8,7 +8,13 @@ which documents what is _already implemented_. This file documents the _structur
 implementation should follow, and the reasoning behind them.
 
 Stack assumptions: Next.js App Router, Mantine 9, CSS Modules, design tokens in
-`src/theme/tokens.ts`. One font family: **Manrope**. Light and dark themes are both first-class.
+`src/theme/tokens.ts`. Light and dark themes are both first-class.
+
+> **Revision note (ink & vermilion).** This guide was researched for a single-sans, cool-slate
+> system. The shipped product now uses **two faces** — Bodoni Moda for display type and Jost for UI
+> text — and a warm **ink & vermilion** palette on a `stone` neutral ramp. The research below is kept
+> for its reasoning; the exact hex values and the "one font family" rule are superseded by
+> `docs/design-system.md` §2–§3, which describes what is actually implemented.
 
 ---
 

@@ -13,12 +13,15 @@
 }
 
 .wordmark {
-  font-weight: 700;
-  letter-spacing: -0.025em;
+  /* The wordmark is display type: Bodoni Moda, slightly tracked so the wordmark
+     reads as an imprint rather than as interface text. */
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-weight: 500;
+  letter-spacing: 0.005em;
   white-space: nowrap;
 }
 
-/* The brass full stop: the only decorative mark in the identity, and it is a
+/* The vermilion full stop: the only decorative mark in the identity, and it is a
    typographic character rather than an effect. */
 .stop {
   color: var(--app-accent);

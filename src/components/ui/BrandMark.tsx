@@ -11,14 +11,14 @@ export interface BrandMarkProps {
 }
 
 /**
- * The wordmark: a charcoal tile carrying an arch — the one form that reads as
- * "venue" without resorting to a building or a ring — topped with a brass
+ * The wordmark: a warm ink tile carrying an arch — the one form that reads as
+ * "venue" without resorting to a building or a ring — topped with a vermilion
  * keystone dot drawn from the accent ramp.
  *
  * Everything is inline SVG plus tokens, so it needs no asset request, cannot
  * 404, and is correct in both schemes by construction: the tile uses
  * `--app-brand` and the arch uses `--app-brand-contrast`, which Mantine defines
- * as white in light and near-black slate in dark.
+ * as white in light and warm near-black ink in dark.
  *
  * When the wordmark is shown the SVG is `aria-hidden` and the text carries the
  * accessible name; without it the SVG becomes `role="img"` with a label.

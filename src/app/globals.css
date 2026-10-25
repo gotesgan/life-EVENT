@@ -20,15 +20,24 @@
    Hierarchy comes from size + weight + tracking + colour together, never from
    size alone: a caption is smaller *and* lighter *and* muted.
 
+   ## Two faces, two jobs
+
+   **Bodoni Moda** is the display face: `h1`, `h2`, the hero headline and the
+   wordmark. **Jost** is the UI face: body copy, `h3`–`h6` card headings,
+   controls, prices, tables and admin. Two families is the ceiling — the earlier
+   build used one (Manrope), and the reference's identity needs the high-contrast
+   serif for display type that a single sans cannot supply. They are never mixed
+   inside one element: the family is a property of the role.
+
    ## The emphasis ladder
 
-   One family (Manrope), and only **five weights** across the whole product:
+   Only **five weights** across the whole product:
 
-       400  reading text — body, secondary body, prose
+       400  reading text and display serif — body, prose, hero and h1/h2
        500  supporting text — captions, metadata, dense table cells
-       600  labels and controls — field labels, buttons, chips, eyebrows
-       700  headings and the scan anchor — h1/h2/h3, card titles, prices
-       800  display only — the home hero headline
+       600  labels and controls — field labels, buttons, chips, h1/h2 in Mantine
+       700  card titles and the scan anchor — h3, prices
+       800  reserved — a campaign display step
 
    The previous scale used nine weights (450/500/550/600/650/700/720/750/800).
    Nine values inside a 400-wide range are indistinguishable at text sizes, so
@@ -50,21 +59,22 @@
   /* The homepage hero headline only: set in uppercase and tracked positively,
      which the negative-tracking `--text-display` step is wrong for. */
   --text-hero-size: clamp(2.5rem, 2rem + 3.2vw, 4.75rem);
-  --text-hero-weight: 600;
-  --text-hero-leading: 1.04;
-  --text-hero-tracking: 0.01em;
+  --text-hero-weight: 400;
+  --text-hero-leading: 1.02;
+  --text-hero-tracking: 0.02em;
 
-  /* Page title. */
+  /* Page title. Bodoni Moda at 600: its hairlines carry the contrast, so the
+     weight sits one rung lower than the sans headings used to. */
   --text-h1-size: clamp(2rem, 1.5rem + 2vw, 3rem);
-  --text-h1-weight: 700;
+  --text-h1-weight: 600;
   --text-h1-leading: 1.08;
-  --text-h1-tracking: -0.025em;
+  --text-h1-tracking: -0.015em;
 
   /* Major section. */
   --text-h2-size: clamp(1.5rem, 1.3rem + 0.9vw, 2.125rem);
-  --text-h2-weight: 700;
+  --text-h2-weight: 600;
   --text-h2-leading: 1.15;
-  --text-h2-tracking: -0.02em;
+  --text-h2-tracking: -0.012em;
 
   /* Subsection. */
   --text-h3-size: clamp(1.1875rem, 1.1rem + 0.35vw, 1.4375rem);
@@ -196,7 +206,7 @@ body {
   min-height: 100dvh;
   background-color: var(--app-surface);
   color: var(--app-text);
-  font-family: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
   font-size: var(--text-body-size);
   font-weight: var(--text-body-weight);
   line-height: var(--text-body-leading);
@@ -220,6 +230,8 @@ h6 {
 }
 
 h1 {
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-optical-sizing: auto;
   font-size: var(--text-h1-size);
   font-weight: var(--text-h1-weight);
   line-height: var(--text-h1-leading);
@@ -227,6 +239,8 @@ h1 {
 }
 
 h2 {
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-optical-sizing: auto;
   font-size: var(--text-h2-size);
   font-weight: var(--text-h2-weight);
   line-height: var(--text-h2-leading);
@@ -340,7 +354,7 @@ a {
 /* ==========================================================================
    Focus
    --------------------------------------------------------------------------
-   One ring for every interactive element: brass, 2px, offset 2px. The first two
+   One ring for every interactive element: warm ink, 2px, offset 2px. The first two
    selectors restate Mantine's own focus classes at equal specificity but later
    in the cascade, so Mantine components get the app ring instead of the
    `primary-color-filled` default. The outline follows each element's own

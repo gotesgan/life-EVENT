@@ -1,17 +1,38 @@
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
-import { Manrope } from 'next/font/google';
+import { Bodoni_Moda, Jost } from 'next/font/google';
 import { ColorSchemeScript, mantineHtmlProps } from '@mantine/core';
 import { AppProviders } from '@/theme/app-providers';
 import { darkSchemeTokens, lightSchemeTokens } from '@/theme/tokens';
 import './globals.css';
 
-/* One family, loaded once, exposed as a CSS variable so it is inherited by every
-   element — public site, enquiry forms and admin tables alike. */
-const manrope = Manrope({
+/*
+ * Two faces, two jobs — the ceiling the style guide allows.
+ *
+ * - **Bodoni Moda** is the editorial display face: the hero headline, page
+ *   titles, section headings and the wordmark. Its high stroke contrast is what
+ *   makes the dark stage read as a photography house rather than a SaaS page.
+ * - **Jost** is the UI face: body copy, controls, tables, prices, admin. A
+ *   geometric sans next to a high-contrast serif is the pairing the reference
+ *   uses (thin serif display, tracked geometric nav), and it keeps forms and
+ *   dense tables crisp where Bodoni's hairlines would disappear.
+ *
+ * Both are Google-hosted variable fonts, downloaded at build time by
+ * `next/font`, self-hosted by Next, and exposed as variables inherited by every
+ * element. `opsz` is requested on Bodoni so its optical size axis follows the
+ * rendered size instead of using one fixed cut.
+ */
+const display = Bodoni_Moda({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-manrope',
+  variable: '--font-display',
+  axes: ['opsz'],
+});
+
+const body = Jost({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-body',
 });
 
 const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'http://localhost:3000';
@@ -124,7 +145,7 @@ export const viewport: Viewport = {
  */
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={manrope.variable} {...mantineHtmlProps}>
+    <html lang="en" className={`${display.variable} ${body.variable}`} {...mantineHtmlProps}>
       <head>
         {/* Must match `COLOR_SCHEME_STORAGE_KEY` in src/theme/color-scheme.ts and
             the manager handed to MantineProvider in AppProviders. */}

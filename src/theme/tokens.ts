@@ -13,28 +13,25 @@
  *
  * ## The visual world
  *
- * A **marketplace** world, not an editorial one. The references are Amazon,
- * Flipkart and Myntra (see `docs/marketplace-styling-guide.md`): a neutral wall,
- * one dominant action colour, and colour spent almost entirely on action and
- * status rather than on decoration. The palette is deliberately neutral — a
- * charcoal action on a cool slate neutral — with a single warm amber accent
- * carrying the wedding register and the "featured / verified" highlights.
- *
- * Neutrals do the work; the only saturation in the system is the amber accent
- * and the semantic status tones.
+ * **Ink & vermilion.** The reference is an editorial photography house: a
+ * near-black ground, warm bone type, and one deep vermilion mark — the colour is
+ * spent almost entirely on action, "featured" and "verified", never on
+ * decoration. The neutrals are a warm stone family rather than the previous cool
+ * slate, so photographs sit on paper rather than on a screen. The single accent
+ * is sindoor/vermilion, which carries the Indian wedding register without the
+ * candy-pink cast the earlier plum ramp produced.
  *
  * Coverage budget, enforced by review rather than by code: neutrals ≥90% of
- * painted area, ink ≤9%, primary ≤4% (at most one primary fill per card and per
- * page section), accent ≤1.5% (a line or a glyph, never a large fill), semantic
- * tones ≤3% combined.
+ * painted area, ink ≤9%, primary (ink fill) ≤4%, accent (vermilion) ≤1.5%, and
+ * semantic tones ≤3% combined.
  *
  * ## Measured contrast
  *
- * Every pair below was computed from relative luminance, not estimated, and the
- * figures are recorded in `docs/design-system.md`. The rule that shapes the
- * palette: in the light scheme the action colour is dark and takes **white**
- * text; in the dark scheme it is light and takes **dark** text. Both directions
- * clear 4.5:1 with the same `luminanceThreshold` of 0.22 — see `theme.ts`.
+ * Every pair below was computed from relative luminance, not estimated. The rule
+ * that shapes the palette: in the light scheme the action colour is near-black
+ * and takes **bone/white** text; in the dark scheme it is light warm stone and
+ * takes **near-black** text. Both directions clear 4.5:1 with the same
+ * `luminanceThreshold` of 0.22 — see `theme.ts`.
  */
 import type { MantineColorsTuple } from '@mantine/core';
 
@@ -43,75 +40,73 @@ import type { MantineColorsTuple } from '@mantine/core';
 /* -------------------------------------------------------------------------- */
 
 /**
- * Primary. **Charcoal slate** — links, primary actions, active navigation.
+ * Primary. **Warm ink** — links, primary actions, active navigation.
  *
- * One action colour for the whole product. A marketplace needs the eye to learn
- * a single "this does something" signal, and spending it anywhere else (badges,
- * headings, borders) spends the affordance itself.
+ * One action colour for the whole product, and it is deliberately neutral: a
+ * marketplace needs the eye to learn a single "this does something" signal, and
+ * spending it on a hue (headings, badges, borders) spends the affordance itself.
+ * The ramp is role-keyed rather than a smooth sweep because Mantine reads it in
+ * two directions:
  *
- * This ramp is deliberately role-keyed rather than a smooth light→dark sweep,
- * because the two things Mantine reads out of it want opposite directions:
- *
- *   * `primaryShade.light = 6` → `#0F172A` (slate-900). White text, 17.85:1.
- *   * `primaryShade.dark  = 3` → `#CBD5E1` (slate-300). Dark text, 12.02:1.
+ *   * `primaryShade.light = 6` → #191512: white text, 18.15:1.
+ *   * `primaryShade.dark  = 3` → #E3DACA: near-black text, 13.70:1.
  *   * shade 7 is deliberately **lighter** than shade 6, so the filled-button
- *     hover raises the fill (`slate-900` → `slate-800`) instead of deepening it.
- *
- * A neutral action colour is the point: a saturated hue reads as decoration on a
- * page that already spends amber on "featured" and green on "verified". Neutral
- * actions plus one warm accent is the register a general-purpose marketplace
- * uses, and it cannot clash with a photograph of somebody's wedding.
- *
- * Shades 0–5 are the tints and mid-neutrals the `light`/`outline`/`subtle`
- * variants draw on; 8–9 are pressed states.
+ *     hover raises the fill (#191512 → #2A2520) instead of deepening it.
  */
 export const brand: MantineColorsTuple = [
-  '#F8FAFC',
-  '#F1F5F9',
-  '#E2E8F0',
-  '#CBD5E1',
-  '#94A3B8',
-  '#64748B',
-  '#0F172A',
-  '#1E293B',
-  '#334155',
-  '#475569',
-];
-
-/** Secondary. Warm amber — the wedding register, featured and verified marks. */
-export const accent: MantineColorsTuple = [
-  '#FEF9EF',
-  '#FCF0DA',
-  '#F8DFAF',
-  '#F1C878',
-  '#E8AE45',
-  '#D99A2B',
-  '#C0851F',
-  '#9A6A18',
-  '#744F12',
-  '#4E340B',
+  '#FBF9F6',
+  '#F4F0E9',
+  '#E7E1D6',
+  '#E3DACA',
+  '#C9C2B6',
+  '#8A7F6E',
+  '#191512',
+  '#2A2520',
+  '#3B342C',
+  '#4C4338',
 ];
 
 /**
- * Cool slate neutral. Replaces Mantine's `gray` ramp everywhere, so no second
+ * Secondary. **Vermilion** (sindoor red) — the wedding register, featured and
+ * verified marks, and the hero stage's accent.
+ *
+ * Never a large fill: the tint steps carry badges and soft callouts, and shade 6
+ * is the only step used as text (measured 6.81:1 on the canvas). The previous
+ * accent was amber; vermilion reads as an Indian wedding material rather than a
+ * generic "premium" gold, and it is the one hue in a warm-neutral system.
+ */
+export const accent: MantineColorsTuple = [
+  '#FDF3F0',
+  '#FBE4DE',
+  '#F6C8BC',
+  '#F0987F',
+  '#E57C68',
+  '#D4563F',
+  '#A8201A',
+  '#8A1A15',
+  '#6E1511',
+  '#520F0C',
+];
+
+/**
+ * **Warm stone** neutral. Replaces Mantine's `gray` ramp everywhere, so no second
  * neutral family leaks in. This is the wall: ≥90% of the painted area.
  *
- * The previous ramp was named `plum` and carried a pink cast (`#FDF7F9`,
- * `#F9EDF1`), which tinted the entire canvas and every Mantine grey — the
- * "washed-out pink" the redesign removes. These are the standard cool slate
- * steps, so a white card separates from the wall by luminance alone.
+ * The previous ramp was cool slate (`#F8FAFC`, `#F1F5F9`), which made every
+ * surface read as a screen; warm stone makes photographs and paper-like type sit
+ * on a page instead. A white card separates from the canvas by luminance alone.
  */
-export const slate: MantineColorsTuple = [
-  '#F8FAFC',
-  '#F1F5F9',
-  '#E2E8F0',
-  '#CBD5E1',
-  '#94A3B8',
-  '#64748B',
-  '#475569',
-  '#334155',
-  '#1E293B',
-  '#0F172A',
+export const stone: MantineColorsTuple = [
+  '#FBF9F6',
+  '#F6F2EC',
+  '#ECE6DD',
+  '#DCD4C8',
+  '#BCB2A3',
+  '#948A7B',
+  '#6E6456',
+  '#4E463B',
+  '#2B2721',
+  '#1A1714',
 ];
 
 /** Success. Signal green for confirmed and verified states. */
@@ -119,7 +114,7 @@ export const success: MantineColorsTuple = [
   '#EFFAF4',
   '#D6F2E3',
   '#A9E5C6',
-  '#6FD3A1',
+  '#5FC98F',
   '#4FBE84',
   '#2FA46B',
   '#1B7F4B',
@@ -130,62 +125,67 @@ export const success: MantineColorsTuple = [
 
 /** Warning. Ochre — "needs attention", never "error". */
 export const warning: MantineColorsTuple = [
-  '#FFF9EC',
-  '#FDF0D5',
-  '#F8DEA5',
-  '#F0C468',
+  '#FDF6EA',
+  '#F9EACB',
+  '#F1D397',
   '#E0A046',
   '#C4842C',
-  '#9A5B00',
-  '#7C4900',
-  '#613900',
-  '#412600',
-];
-
-/** Danger. Brick red for destructive actions and failures. */
-export const danger: MantineColorsTuple = [
-  '#FEF2F2',
-  '#FDE0E0',
-  '#FAC2C3',
-  '#F49A9C',
-  '#F0736F',
-  '#DE4F4F',
-  '#C2333A',
-  '#9E282E',
-  '#7C2025',
-  '#54151A',
-];
-
-/** Dark-theme surfaces and primary dark text, lightest → deepest. Cool, never warm. */
-export const dark: MantineColorsTuple = [
-  '#F1F5F9',
-  '#CBD5E1',
-  '#A8B3C4',
-  '#8A97AB',
-  '#64748B',
-  '#475569',
-  '#334155',
-  '#232A34',
-  '#171C24',
-  '#0F1319',
+  '#A66A12',
+  '#8A5A00',
+  '#6E4700',
+  '#553700',
+  '#3A2500',
 ];
 
 /**
- * The complete palette handed to `createTheme`. `slate` deliberately replaces
+ * Danger. Deep crimson — destructive actions and failures.
+ *
+ * Deliberately darker and less orange than the vermilion accent so a rejection
+ * badge cannot be mistaken for a "featured" mark; it is never used as decoration.
+ */
+export const danger: MantineColorsTuple = [
+  '#FDF2F2',
+  '#FDE0E0',
+  '#FAC2C3',
+  '#F08A82',
+  '#E46363',
+  '#C43A38',
+  '#A02020',
+  '#8E1B1B',
+  '#701414',
+  '#521010',
+];
+
+/** Dark-theme surfaces and primary dark text, lightest → deepest. Warm, never cool. */
+export const dark: MantineColorsTuple = [
+  '#F7F3EC',
+  '#D8CFC0',
+  '#B4A896',
+  '#948878',
+  '#7A6F60',
+  '#5C5347',
+  '#403A32',
+  '#2A2521',
+  '#1A1714',
+  '#12100D',
+];
+
+/**
+ * The complete palette handed to `createTheme`. `stone` deliberately replaces
  * Mantine's `gray` ramp (see `css-variables-resolver.ts`) so every neutral in
  * the product comes from one family.
  */
-export const palette = { brand, accent, slate, success, warning, danger, dark } as const;
+export const palette = { brand, accent, stone, success, warning, danger, dark } as const;
 
 /*
  * Scheme-dependent surface ramp, kept here as comments because these four
  * values are the ones a reviewer will want to sanity-check:
  *
  *              darkest ──────────────────────────────► lightest
- *   light:  sunken #E2E8F0 · muted #F1F5F9 · surface #F8FAFC · raised #FFFFFF
- *   dark:   sunken #0A0D12 · surface #0F1319 · raised #171C24 · muted #232A34
+ *   light:  sunken #E7E0D5 · muted #F2EDE5 · surface #FAF7F2 · raised #FFFFFF
+ *   dark:   sunken #0B0A08 · surface #12100D · raised #1A1714 · muted #24201B
  *
- * In light mode the canvas is a neutral cool off-white and cards are pure white,
+ * In light mode the canvas is a warm bone off-white and cards are pure white,
  * so elevation reads as "brighter is higher" and a white card separates from the
  * wall without needing a shadow. In dark mode elevation reads as "lighter is
  * higher" on the palette steps 9 → 8 → 7, with one derived step below the canvas
@@ -197,43 +197,45 @@ export const palette = { brand, accent, slate, success, warning, danger, dark } 
 /* -------------------------------------------------------------------------- */
 
 export const lightSchemeTokens = {
-  /* Surfaces: brightest is highest. A clean, neutral, cool canvas (slate-50)
-     with **pure white** cards. The previous canvas was a pink-tinted `#FFF7F9`
-     with a `#FBE9EF` muted step, which tinted every card edge and made white
-     photographs look warm. A neutral wall is what lets a photograph be the only
-     colour on a browse grid. */
-  '--app-surface': '#F8FAFC',
+  /* Surfaces: the wall is warm bone (#FAF7F2) and cards are pure white, so
+     elevation reads as "brighter is higher" and a photograph is the only colour
+     on a browse grid. The muted/sunken steps are the same paper family one and
+     two tones down. */
+  '--app-surface': '#FAF7F2',
   '--app-surface-raised': '#FFFFFF',
-  '--app-surface-muted': '#F1F5F9',
-  '--app-surface-sunken': '#E2E8F0',
-  '--app-surface-hover': '#F1F5F9',
+  '--app-surface-muted': '#F2EDE5',
+  '--app-surface-sunken': '#E7E0D5',
+  '--app-surface-hover': '#F2EDE5',
 
   /* Borders. `border` is a decorative hairline and carries no contrast duty.
-     `border-strong` is the outline of an actual control, so it must clear the
-     3:1 non-text requirement of WCAG 1.4.11 — measured 4.55:1 on the canvas. */
-  '--app-border': '#E2E8F0',
-  '--app-border-strong': '#64748B',
+     `border-strong` outlines an actual control, so it must clear the 3:1
+     non-text requirement of WCAG 1.4.11 — measured 3.68:1 on the canvas and
+     3.37:1 on the muted step. */
+  '--app-border': '#E7E0D5',
+  '--app-border-strong': '#8A7F6E',
 
-  /* Text. All three clear 4.5:1 on the canvas, on muted and on every raised
-     surface. Measured: text 17.06:1, muted 7.24:1, subtle 4.55:1 on the canvas. */
-  '--app-text': '#0F172A',
-  '--app-text-muted': '#475569',
-  '--app-text-subtle': '#64748B',
+  /* Text. All three clear 4.5:1 on the canvas, the muted step and white.
+     Measured on canvas: text 16.70:1, muted 7.06:1, subtle 4.97:1; worst case
+     is subtle on muted at 4.56:1. */
+  '--app-text': '#1A1714',
+  '--app-text-muted': '#5C5347',
+  '--app-text-subtle': '#746A5B',
 
-  /* Brand — the action colour. Charcoal slate, not a hue: `brand-soft` is a tint
-     for quiet emphasis (selected filter, active nav row), never a large fill. */
-  '--app-brand': '#0F172A',
-  '--app-brand-soft': 'rgba(15, 23, 42, 0.06)',
-  '--app-brand-soft-hover': 'rgba(15, 23, 42, 0.11)',
-  '--app-brand-soft-text': '#1E293B',
+  /* Brand — the action colour. Warm ink, not a hue: `brand-soft` is a tint for
+     quiet emphasis (selected filter, active nav row), never a large fill. */
+  '--app-brand': '#191512',
+  '--app-brand-soft': 'rgba(25, 21, 18, 0.06)',
+  '--app-brand-soft-hover': 'rgba(25, 21, 18, 0.11)',
+  '--app-brand-soft-text': '#2A2520',
   '--app-brand-contrast': '#FFFFFF',
 
-  /* Accent — amber, for featured and warm emphasis. Text-safe on white
-     (measured 4.66:1 on the canvas). It is the only warm hue in the system. */
-  '--app-accent': '#A85F0A',
-  '--app-accent-soft': 'rgba(168, 95, 10, 0.12)',
-  '--app-accent-soft-hover': 'rgba(168, 95, 10, 0.18)',
-  '--app-accent-soft-text': '#7A4405',
+  /* Accent — vermilion, for featured and the wedding register. Text-safe on the
+     canvas (measured 6.81:1), and the soft-tint text clears 8.19:1 on its own
+     tint. It is the only chromatic hue in the system. */
+  '--app-accent': '#A8201A',
+  '--app-accent-soft': 'rgba(168, 32, 26, 0.12)',
+  '--app-accent-soft-hover': 'rgba(168, 32, 26, 0.18)',
+  '--app-accent-soft-text': '#7A1712',
 
   /* Success */
   '--app-success': '#1B7F4B',
@@ -242,16 +244,17 @@ export const lightSchemeTokens = {
   '--app-success-soft-text': '#145436',
 
   /* Warning */
-  '--app-warning': '#9A5B00',
-  '--app-warning-soft': 'rgba(154, 91, 0, 0.12)',
-  '--app-warning-soft-hover': 'rgba(154, 91, 0, 0.18)',
+  '--app-warning': '#8A5A00',
+  '--app-warning-soft': 'rgba(138, 90, 0, 0.12)',
+  '--app-warning-soft-hover': 'rgba(138, 90, 0, 0.18)',
   '--app-warning-soft-text': '#613900',
 
-  /* Danger */
-  '--app-danger': '#C2333A',
-  '--app-danger-soft': 'rgba(194, 51, 58, 0.12)',
-  '--app-danger-soft-hover': 'rgba(194, 51, 58, 0.18)',
-  '--app-danger-soft-text': '#7C2025',
+  /* Danger. Deep crimson, deliberately darker than the vermilion accent so a
+     rejection cannot read as a "featured" mark. Measured 8.46:1 on the canvas. */
+  '--app-danger': '#8E1B1B',
+  '--app-danger-soft': 'rgba(142, 27, 27, 0.12)',
+  '--app-danger-soft-hover': 'rgba(142, 27, 27, 0.18)',
+  '--app-danger-soft-text': '#6E1414',
 
   /* The colour to set on a *saturated* fill in this scheme. In light every
      semantic tone is a dark colour, so it is white; in dark every semantic tone
@@ -260,19 +263,19 @@ export const lightSchemeTokens = {
   '--app-contrast': '#FFFFFF',
 
   /* Focus + overlays */
-  '--app-focus-ring': '#0F172A',
-  '--app-overlay': 'rgba(15, 23, 42, 0.60)',
+  '--app-focus-ring': '#191512',
+  '--app-overlay': 'rgba(26, 23, 20, 0.60)',
 
-  /* Elevation. E0 is the default and is *not* a shadow — a resting card is a
-     1px border on a white surface. Shadows are reserved for things that float
-     above the page, so 95% of the app paints none. Tinted with the slate ink
-     rather than a warm black, so a shadow never adds a brown cast. */
-  '--app-shadow-raised': '0 1px 2px rgba(15, 23, 42, 0.06), 0 2px 8px -3px rgba(15, 23, 42, 0.10)',
+  /* Elevation. E0 is the default and is *not* a shadow — a resting card is a 1px
+     border on a white surface. Shadows are reserved for things that float above
+     the page, so 95% of the app paints none. Tinted with the warm ink rather than
+     pure black, so a shadow never adds a cold cast. */
+  '--app-shadow-raised': '0 1px 2px rgba(26, 23, 20, 0.06), 0 2px 8px -3px rgba(26, 23, 20, 0.10)',
   '--app-shadow-overlay':
-    '0 1px 2px rgba(15, 23, 42, 0.05), 0 10px 28px -14px rgba(15, 23, 42, 0.16)',
-  '--app-shadow-card': '0 1px 2px rgba(15, 23, 42, 0.05), 0 10px 28px -14px rgba(15, 23, 42, 0.16)',
-  '--app-shadow-top': '0 28px 72px -18px rgba(15, 23, 42, 0.30)',
-  '--app-shadow-overlay-strong': '0 28px 72px -18px rgba(15, 23, 42, 0.3)',
+    '0 1px 2px rgba(26, 23, 20, 0.05), 0 10px 28px -14px rgba(26, 23, 20, 0.16)',
+  '--app-shadow-card': '0 1px 2px rgba(26, 23, 20, 0.05), 0 10px 28px -14px rgba(26, 23, 20, 0.16)',
+  '--app-shadow-top': '0 28px 72px -18px rgba(26, 23, 20, 0.30)',
+  '--app-shadow-overlay-strong': '0 28px 72px -18px rgba(26, 23, 20, 0.3)',
 } as const;
 
 /* -------------------------------------------------------------------------- */
@@ -280,41 +283,41 @@ export const lightSchemeTokens = {
 /* -------------------------------------------------------------------------- */
 
 export const darkSchemeTokens = {
-  '--app-surface': '#0F1319',
-  '--app-surface-raised': '#171C24',
-  '--app-surface-muted': '#232A34',
-  '--app-surface-sunken': '#0A0D12',
-  '--app-surface-hover': '#1C222C',
+  '--app-surface': '#12100D',
+  '--app-surface-raised': '#1A1714',
+  '--app-surface-muted': '#24201B',
+  '--app-surface-sunken': '#0B0A08',
+  '--app-surface-hover': '#221E19',
 
   /* Raised, not lowered: on dark ground a hairline must be *lighter* than the
      surface to be perceptible, and a control outline must still clear 3:1 —
-     `border-strong` measures 3.91:1 on the canvas. */
-  '--app-border': '#263042',
-  '--app-border-strong': '#64748B',
+     `border-strong` measures 4.83:1 on the canvas and 4.12:1 on the muted step. */
+  '--app-border': '#302A24',
+  '--app-border-strong': '#8A7F6E',
 
-  /* Re-tuned so muted and subtle hold ≥4.5:1 on the canvas and on raised
-     surfaces. Measured: text 17.00:1, muted 8.79:1, subtle 6.29:1. */
-  '--app-text': '#F1F5F9',
-  '--app-text-muted': '#A8B3C4',
-  '--app-text-subtle': '#8A97AB',
+  /* Re-tuned so muted and subtle hold ≥4.5:1 on the canvas, the muted step and
+     raised surfaces. Measured on canvas: text 17.17:1, muted 9.91:1, subtle
+     7.03:1; worst case is subtle on muted at 5.99:1. */
+  '--app-text': '#F7F3EC',
+  '--app-text-muted': '#C4BAAB',
+  '--app-text-subtle': '#A79C8B',
 
-  /* The action colour inverts: a light slate fill with near-black text, because
-     a charcoal fill is invisible against a near-black canvas. Measured 12.02:1
-     with the dark ink. */
-  '--app-brand': '#CBD5E1',
-  '--app-brand-soft': 'rgba(203, 213, 225, 0.14)',
-  '--app-brand-soft-hover': 'rgba(203, 213, 225, 0.22)',
-  '--app-brand-soft-text': '#E2E8F0',
-  '--app-brand-contrast': '#0F172A',
+  /* The action colour inverts: a warm bone fill with near-black text, because a
+     dark fill is invisible against a near-black canvas. Measured 13.70:1. */
+  '--app-brand': '#E3DACA',
+  '--app-brand-soft': 'rgba(227, 218, 202, 0.14)',
+  '--app-brand-soft-hover': 'rgba(227, 218, 202, 0.22)',
+  '--app-brand-soft-text': '#EDE6DA',
+  '--app-brand-contrast': '#12100D',
 
-  '--app-accent': '#E0A046',
-  '--app-accent-soft': 'rgba(224, 160, 70, 0.18)',
-  '--app-accent-soft-hover': 'rgba(224, 160, 70, 0.26)',
-  '--app-accent-soft-text': '#F0C684',
+  '--app-accent': '#F0987F',
+  '--app-accent-soft': 'rgba(240, 152, 127, 0.18)',
+  '--app-accent-soft-hover': 'rgba(240, 152, 127, 0.26)',
+  '--app-accent-soft-text': '#F8C3B4',
 
-  '--app-success': '#4FBE84',
-  '--app-success-soft': 'rgba(79, 190, 132, 0.18)',
-  '--app-success-soft-hover': 'rgba(79, 190, 132, 0.26)',
+  '--app-success': '#5FC98F',
+  '--app-success-soft': 'rgba(95, 201, 143, 0.18)',
+  '--app-success-soft-hover': 'rgba(95, 201, 143, 0.26)',
   '--app-success-soft-text': '#A9E5C6',
 
   '--app-warning': '#E0A046',
@@ -322,17 +325,17 @@ export const darkSchemeTokens = {
   '--app-warning-soft-hover': 'rgba(224, 160, 70, 0.26)',
   '--app-warning-soft-text': '#F0C684',
 
-  '--app-danger': '#F0736F',
-  '--app-danger-soft': 'rgba(240, 115, 111, 0.18)',
-  '--app-danger-soft-hover': 'rgba(240, 115, 111, 0.26)',
+  '--app-danger': '#F08A82',
+  '--app-danger-soft': 'rgba(240, 138, 130, 0.18)',
+  '--app-danger-soft-hover': 'rgba(240, 138, 130, 0.26)',
   '--app-danger-soft-text': '#FAC2C3',
 
   /* Every dark-scheme semantic tone is a light colour, so a saturated fill takes
      the near-black. */
-  '--app-contrast': '#0F172A',
+  '--app-contrast': '#12100D',
 
-  '--app-focus-ring': '#CBD5E1',
-  '--app-overlay': 'rgba(2, 6, 23, 0.72)',
+  '--app-focus-ring': '#E3DACA',
+  '--app-overlay': 'rgba(8, 6, 4, 0.72)',
 
   /* Dark alphas are far higher than light ones on purpose: a 5%-black shadow on
      a near-black canvas is invisible, so elevation has to be bought with depth
@@ -350,28 +353,27 @@ export const darkSchemeTokens = {
 
 export const sharedTokens = {
   /* A light success tint for content that sits on a *dark* scrim regardless of
-     the active scheme — currently the check glyphs in the homepage hero, which
-     are always drawn over the `slate-900/60` photograph overlay. Without it the
-     light scheme's `--app-success` (#1B7F4B) would be a dark green on a dark
-     scrim, and the alternative is a hex literal outside this file. */
-  '--app-success-on-dark': '#6FD3A1',
+     the active scheme. Without it the light scheme's `--app-success` (#1B7F4B)
+     would be a dark green on a dark scrim, and the alternative is a hex literal
+     outside this file. */
+  '--app-success-on-dark': '#7AD3A1',
 
   /* Text drawn on the same dark scrim. These do not flip with the scheme — the
      photograph and its `--app-overlay` are dark in both — so they are a
      three-step white ramp rather than `--app-text` and friends. Two nearly
      identical alphas (90% and 85%) were folded into one muted step; the link
      underline moved up to the subtle step so the affordance is perceivable. */
-  '--app-text-on-dark': '#FFFFFF',
-  '--app-text-on-dark-muted': 'rgb(255 255 255 / 90%)',
-  '--app-text-on-dark-subtle': 'rgb(255 255 255 / 75%)',
+  '--app-text-on-dark': '#FBF8F2',
+  '--app-text-on-dark-muted': 'rgb(251 248 242 / 90%)',
+  '--app-text-on-dark-subtle': 'rgb(251 248 242 / 75%)',
 
   /* The homepage hero's cinematic stage. It is dark in *both* schemes — a band of
      film under the page, not a themed surface — so it cannot use `--app-surface`
      (which flips with the scheme), and `--app-overlay` is a translucent scrim
      rather than a fill. The hairline is the frame edge that separates the video
      from the band. */
-  '--app-stage-surface': '#0B0F1A',
-  '--app-stage-border': 'rgb(255 255 255 / 12%)',
+  '--app-stage-surface': '#0E0C0A',
+  '--app-stage-border': 'rgb(250 246 239 / 12%)',
 
   /* Scrims for the hero stage. The base overlay alone leaves a bright clip's
      centre too light for 14px white text, and its foot too light for the tracked
@@ -379,9 +381,9 @@ export const sharedTokens = {
      short gradient under the foot line. They are shared because the stage is dark
      in both schemes. */
   '--app-stage-vignette':
-    'radial-gradient(ellipse 95% 75% at 50% 42%, rgb(2 6 23 / 46%) 0%, rgb(2 6 23 / 0%) 72%)',
+    'radial-gradient(ellipse 95% 75% at 50% 42%, rgb(12 10 8 / 46%) 0%, rgb(12 10 8 / 0%) 72%)',
   '--app-stage-foot-scrim':
-    'linear-gradient(to top, rgb(2 6 23 / 72%) 0%, rgb(2 6 23 / 38%) 55%, rgb(2 6 23 / 0%) 100%)',
+    'linear-gradient(to top, rgb(12 10 8 / 72%) 0%, rgb(12 10 8 / 38%) 55%, rgb(12 10 8 / 0%) 100%)',
 
   /* Radii. Radius cost scales with how many times it is drawn: 24 tiles at a
      generous 16px reads as a field of lozenges and the grid edges stop
@@ -421,9 +423,9 @@ export const sharedTokens = {
   '--app-ease-in': 'cubic-bezier(0.4, 0, 1, 1)',
 } as const;
 
-/** Mantine's own neutral ramp is remapped to `slate` so no second family leaks in. */
+/** Mantine's own neutral ramp is remapped to `stone` so no second family leaks in. */
 export const grayRampTokens = Object.fromEntries(
-  slate.map((shade, index) => [`--mantine-color-gray-${index}`, shade]),
+  stone.map((shade, index) => [`--mantine-color-gray-${index}`, shade]),
 ) as Record<`--mantine-color-gray-${number}`, string>;
 
 /** Every colour-bearing semantic token, in emission order. */
