@@ -1,4 +1,4 @@
-# Testing Strategy — Live Envt
+# Testing Strategy — Life Events
 
 Status: **Accepted** · Last updated: 2026-10-14 · Owner: Backend lead
 Companion documents: [system-design](./system-design.md) §11, [security](./security.md),

@@ -7,7 +7,7 @@ import { Container, PageHeader, Prose, Surface } from '@/components/ui';
 export const metadata: Metadata = {
   title: 'Terms of use',
   description:
-    'The terms for using Live Envt: what the service is, what it is not, your responsibilities when you send an enquiry, and acceptable use.',
+    'The terms for using Life Events: what the service is, what it is not, your responsibilities when you send an enquiry, and acceptable use.',
   alternates: { canonical: '/terms' },
 };
 
@@ -17,14 +17,14 @@ export default function TermsPage() {
       <Container size="prose" className="surface--editorial">
         <PageHeader
           title="Terms of use"
-          description="Plain terms for a plain service. Live Envt helps you find businesses and send them an enquiry. Nothing more is promised here."
+          description="Plain terms for a plain service. Life Events helps you find businesses and send them an enquiry. Nothing more is promised here."
           breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Terms' }]}
         />
 
         <PageSection title="What the service does">
           <Prose>
             <p>
-              Live Envt publishes listings for wedding and event businesses, lets you filter them,
+              Life Events publishes listings for wedding and event businesses, lets you filter them,
               and passes your enquiry to the businesses you choose. That is the whole service.
             </p>
             <p>

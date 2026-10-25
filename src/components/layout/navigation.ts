@@ -565,7 +565,7 @@ export const DRAWER_GROUPS: readonly { label: string; links: readonly NavLink[] 
     ],
   },
   {
-    label: 'Live Envt',
+    label: 'Life Events',
     links: [
       { href: '/about', label: 'About' },
       { href: '/contact', label: 'Contact' },

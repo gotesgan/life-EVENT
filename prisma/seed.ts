@@ -1197,7 +1197,7 @@ async function printSummary(summary: SeedSummary): Promise<void> {
 // ---------------------------------------------------------------------------
 
 async function main(): Promise<void> {
-  console.log('Seeding Live Envt development data…');
+  console.log('Seeding Life Events development data…');
 
   const locations = await seedLocations();
   const eventTypes = await seedEventTypes();

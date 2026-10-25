@@ -1,4 +1,4 @@
-# Live Envt — Design System
+# Life Events — Design System
 
 Status: **implemented** · Last updated: 2026-10-15 · Applies to the public discovery site, the auth
 and enquiry surfaces, and the admin panel.
@@ -27,7 +27,9 @@ Source of truth:
 ## 1. Visual direction
 
 The product is a lead-generation discovery platform for Indian wedding and event vendors. Its visual
-identity is a **marketplace** identity, not an editorial one. The structural references are Amazon,
+identity is a **marketplace** identity, and since the ink & vermilion revision it wears an
+editorial surface: a high-contrast serif for display, a quiet geometric sans for interface text, and
+photography doing the identity work. The structural references are Amazon,
 Flipkart and Myntra — their _structure_, never their branding. `docs/marketplace-styling-guide.md`
 derives the rules from those sites, marks how confident each claim about them is, and is the
 companion to this file: it states what the implementation _should_ do, this file states what is
@@ -83,10 +85,12 @@ and density added only where comparison load demands it.
    abstract motifs derived deterministically from the listing's slug. The research found
    placeholder-dominated galleries (Weddingz emitted ~29 `<img>` slots, most blank) and calls a
    gallery that looks broken worse than a smaller deliberate one.
-4. **A serif accent was considered and rejected.** `docs/ui-reference-research.md` divergence #7
-   recommends a display serif plus a UI sans; `docs/technology-decisions.md` §4 settles on one
-   family. Hierarchy is therefore carried by size, weight, tracking and colour — four channels
-   within one family. See §2.
+4. **A serif display face was adopted, not rejected.** `docs/ui-reference-research.md` divergence #7
+   recommended a display serif plus a UI sans; the earlier build shipped one family (Manrope) for
+   consistency, and the ink & vermilion revision reversed that: the reference the product now follows
+   is an editorial photography house, so **Bodoni Moda** carries display type and **Jost** carries the
+   interface. Two faces is the ceiling, and the family is a property of the role — never mixed inside
+   one element. See §2.
 5. **No phone number as page text, no login wall on shortlisting, no multi-step booking flow.** These
    are product rules from the research, but they shape the primitives: `EmptyState` and `ErrorState`
    always expose a single clear action, and there is no "call us" primitive to reach for.
@@ -700,7 +704,7 @@ composition wrappers**: no business logic, no data fetching, no formatting that 
 | `EmptyState`       | No results / nothing yet                                                                                      | `icon`, `title`, `description`, `primaryAction`, `secondaryAction`, `size`, `titleAs`                                                                                                    | no      |
 | `ErrorState`       | Failure surface                                                                                               | `title`, `description`, `onRetry`, `retryLabel`, `secondaryAction`                                                                                                                       | **yes** |
 | `Skeletons`        | `ListingCardSkeleton`, `ListingGridSkeleton`, `ListingDetailSkeleton`, `TableSkeleton`, `FilterPanelSkeleton` | `count`, `rows`, `columns`, `groups`, `optionsPerGroup`                                                                                                                                  | no      |
-| `BrandMark`        | Wordmark + arch tile                                                                                          | `size: sm \| md \| lg`, `showWordmark`                                                                                                                                                   | no      |
+| `BrandMark`        | Supplied "LE" monogram (artwork) + wordmark (text)                                                            | `size: sm \| md \| lg`, `showWordmark`                                                                                                                                                   | no      |
 | `ThemeToggle`      | Light/dark switch                                                                                             | `size: sm \| md \| lg`                                                                                                                                                                   | **yes** |
 | `Surface`          | Panel primitive                                                                                               | `tone: base \| raised \| muted \| sunken \| brand \| accent \| success \| warning \| danger`, `padding: none \| sm \| md \| lg`, `radius: control \| card`, `bordered`, `elevated`, `as` | no      |
 | `MediaPlaceholder` | Designed no-photo motif                                                                                       | `seed` (required), `ratio: 3/2 \| 4/3 \| 1/1 \| 16/9`, `label`                                                                                                                           | no      |

@@ -7,7 +7,7 @@ import { Container, PageHeader, Prose, Surface } from '@/components/ui';
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    'How to reach Live Envt about an enquiry: send a new enquiry, track one with its reference code, or manage it from your account.',
+    'How to reach Life Events about an enquiry: send a new enquiry, track one with its reference code, or manage it from your account.',
   alternates: { canonical: '/contact' },
 };
 

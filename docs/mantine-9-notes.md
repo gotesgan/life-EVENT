@@ -82,7 +82,7 @@ import { DatesProvider } from '@mantine/dates';
 import { theme } from '@/theme/theme';
 
 const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope', display: 'swap' });
-export const metadata: Metadata = { title: 'Live Envt' };
+export const metadata: Metadata = { title: 'Life Events' };
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
@@ -860,7 +860,7 @@ export function AppFrame({ children }: { children: React.ReactNode }) {
               size="sm"
               aria-label="Toggle navigation"
             />
-            <Text fw={650}>Live Envt</Text>
+            <Text fw={650}>Life Events</Text>
           </Group>
           <ColorSchemeToggle />
         </Group>

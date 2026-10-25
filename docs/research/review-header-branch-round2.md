@@ -145,7 +145,7 @@ All values recomputed from tokens and spot-checked live in the browser:
 Focus ring, live tab-walk over the production build (element names read from the DOM):
 
 ```
-light  Track an enquiry / Contact us / Live Envt — home / All vendors / Venues /
+light  Track an enquiry / Contact us / Life Events — home / All vendors / Venues /
        Photography & Film / Planning & Decor / Catering / All categories /
        Search vendors / Switch to dark theme / Sign in
        → all: 2px solid rgb(214,0,110)   (--app-focus-ring, light)

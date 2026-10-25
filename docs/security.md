@@ -1,4 +1,4 @@
-# Security — Live Envt
+# Security — Life Events
 
 Status: **Accepted** · Last updated: 2026-10-14 · Owner: Backend lead
 Scope: the controls that exist in code today, plus the gaps a production launch would still have to close.

@@ -13,7 +13,7 @@ import classes from './page.module.css';
 export const metadata: Metadata = {
   title: 'List your business',
   description:
-    'Register a wedding or event business on Live Envt. Tell us the business name, what kind of vendor you are, a contact number and what you offer.',
+    'Register a wedding or event business on Life Events. Tell us the business name, what kind of vendor you are, a contact number and what you offer.',
   alternates: { canonical: '/partner-with-us' },
 };
 
@@ -71,7 +71,7 @@ export default function PartnerWithUsPage() {
     <SiteShell>
       <Container>
         <PageHeader
-          title="List your business on Live Envt"
+          title="List your business on Life Events"
           description="Reach couples and companies who are already comparing published prices. Send the short form and the team gets in touch."
           breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'List your business' }]}
         />

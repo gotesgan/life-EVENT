@@ -7,7 +7,7 @@ import { SignUpForm } from './SignUpForm';
 export const metadata: Metadata = {
   title: 'Create an account',
   description:
-    'Create a Live Envt account to keep track of every enquiry you send and the contact details you asked us to hold.',
+    'Create a Life Events account to keep track of every enquiry you send and the contact details you asked us to hold.',
   robots: { index: false, follow: true },
 };
 

@@ -8,7 +8,7 @@ import { PRIVACY_POLICY_VERSION } from '@/lib/validation/enquiry';
 export const metadata: Metadata = {
   title: 'Privacy notice',
   description:
-    'What Live Envt collects when you send an enquiry or create an account, why it is collected, how consent is recorded, and what is deliberately not collected.',
+    'What Life Events collects when you send an enquiry or create an account, why it is collected, how consent is recorded, and what is deliberately not collected.',
   alternates: { canonical: '/privacy' },
 };
 

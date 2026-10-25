@@ -85,7 +85,7 @@ export function SiteHeader() {
             <MobileNav />
           </div>
 
-          <Link href="/" className={classes.brand} aria-label="Live Envt — home">
+          <Link href="/" className={classes.brand} aria-label="Life Events — home">
             <BrandMark size="md" />
           </Link>
 

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { cx } from './cx';
 import classes from './BrandMark.module.css';
 
@@ -11,49 +12,33 @@ export interface BrandMarkProps {
 }
 
 /**
- * The wordmark: a warm ink tile carrying an arch — the one form that reads as
- * "venue" without resorting to a building or a ring — topped with a vermilion
- * keystone dot drawn from the accent ramp.
+ * The brand lockup: the supplied "LE" monogram and the wordmark.
  *
- * Everything is inline SVG plus tokens, so it needs no asset request, cannot
- * 404, and is correct in both schemes by construction: the tile uses
- * `--app-brand` and the arch uses `--app-brand-contrast`, which Mantine defines
- * as white in light and warm near-black ink in dark.
+ * The monogram is the artwork the client provided (`public/brand/le-mark.png`),
+ * keyed out of its checkerboard background so it sits on any surface — the gold
+ * is the identity and it works on both the bone and the near-black scheme
+ * without needing a second asset. The wordmark beside it is **set as text**, not
+ * shipped as an image: it stays crisp at every density, inherits the ink/bone
+ * text colour so it clears contrast in both schemes, and carries the accessible
+ * name. The full supplied lockup (monogram + wordmark + "moments to cherish") is
+ * used as artwork in the footer, at a size where its lettering is legible.
  *
- * When the wordmark is shown the SVG is `aria-hidden` and the text carries the
- * accessible name; without it the SVG becomes `role="img"` with a label.
+ * When the wordmark is shown the image is `alt=""` (decorative; the text beside
+ * it is the name). Alone, the image becomes the accessible name.
  */
 export function BrandMark({ size = 'md', showWordmark = true, className }: BrandMarkProps) {
   return (
     <span className={cx(classes.root, classes[size], className)}>
-      <svg
+      <Image
         className={classes.mark}
-        viewBox="0 0 32 32"
-        xmlns="http://www.w3.org/2000/svg"
-        focusable="false"
-        aria-hidden={showWordmark ? true : undefined}
-        role={showWordmark ? undefined : 'img'}
-        aria-label={showWordmark ? undefined : 'Live Envt'}
-      >
-        <rect x="0" y="0" width="32" height="32" rx="9" fill="var(--app-brand)" />
-        <path
-          d="M10.5 24.5V17.5a5.5 5.5 0 0 1 11 0v7"
-          fill="none"
-          stroke="var(--app-brand-contrast)"
-          strokeWidth="2.4"
-          strokeLinecap="round"
-        />
-        <circle cx="16" cy="7.6" r="2.1" fill="var(--app-accent)" />
-      </svg>
+        src="/brand/le-mark.png"
+        alt={showWordmark ? '' : 'Life Events'}
+        width={256}
+        height={256}
+        sizes="48px"
+      />
 
-      {showWordmark ? (
-        <span className={classes.wordmark}>
-          Live Envt
-          <span aria-hidden className={classes.stop}>
-            .
-          </span>
-        </span>
-      ) : null}
+      {showWordmark ? <span className={classes.wordmark}>Life Events</span> : null}
     </span>
   );
 }

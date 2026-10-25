@@ -7,7 +7,7 @@ import { SignInForm } from './SignInForm';
 export const metadata: Metadata = {
   title: 'Sign in',
   description:
-    'Sign in to Live Envt to see the enquiries you have sent, their current stage, and the contact details you keep on file.',
+    'Sign in to Life Events to see the enquiries you have sent, their current stage, and the contact details you keep on file.',
   robots: { index: false, follow: true },
 };
 

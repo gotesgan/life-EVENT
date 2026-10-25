@@ -39,25 +39,25 @@ const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'http://localhost:3000';
 
 export const metadata: Metadata = {
   metadataBase: new URL(appUrl),
-  applicationName: 'Live Envt',
+  applicationName: 'Life Events',
   title: {
-    default: 'Live Envt — wedding and event vendors, with real prices',
-    template: '%s · Live Envt',
+    default: 'Life Events — wedding and event vendors, with real prices',
+    template: '%s · Life Events',
   },
   description:
     'Find banquet halls, photographers, decorators, caterers and more. Compare published prices, capacity and inclusions, then send one short enquiry — no phone-number chasing, no booking maze.',
   robots: { index: true, follow: true },
   openGraph: {
     type: 'website',
-    siteName: 'Live Envt',
-    title: 'Live Envt — wedding and event vendors, with real prices',
+    siteName: 'Life Events',
+    title: 'Life Events — wedding and event vendors, with real prices',
     description:
       'Compare published prices, capacity and inclusions across wedding and event vendors. One short enquiry form, sent to the vendors you choose.',
     url: appUrl,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Live Envt — wedding and event vendors, with real prices',
+    title: 'Life Events — wedding and event vendors, with real prices',
     description:
       'Compare published prices, capacity and inclusions across wedding and event vendors.',
   },

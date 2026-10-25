@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: ListingPageProps): Promise<Me
       listing.primaryCategory
         ? `A ${listing.primaryCategory.name.toLowerCase()} listing`
         : 'A listing'
-    } on Live Envt with published prices${
+    } on Life Events with published prices${
       listing.location ? ` in ${listing.location.name}` : ''
     }. Send an enquiry to see the business name and contact details.`;
 

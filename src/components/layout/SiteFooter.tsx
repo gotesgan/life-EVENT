@@ -1,5 +1,5 @@
+import Image from 'next/image';
 import Link from 'next/link';
-import { BrandMark } from '@/components/ui/BrandMark';
 import { Container } from '@/components/ui/Container';
 import { FOOTER_CATEGORIES, FOOTER_COMPANY, FOOTER_LEGAL, type NavLink } from './navigation';
 import classes from './SiteFooter.module.css';
@@ -35,7 +35,18 @@ export function SiteFooter() {
       <Container>
         <div className={classes.inner}>
           <div className={classes.intro}>
-            <BrandMark size="sm" />
+            {/* The full supplied lockup — monogram, wordmark and the "moments to
+                cherish" line — is the one place its lettering is large enough to
+                read as artwork. Gold on the footer surface is a logo, not body
+                text; the wordmark the header needs is set as text. */}
+            <Image
+              className={classes.lockup}
+              src="/brand/le-lockup.png"
+              alt="Life Events — moments to cherish"
+              width={1000}
+              height={800}
+              sizes="200px"
+            />
             <p className={classes.tagline}>
               Browse wedding and event vendors with published prices, capacity and verification
               status. Send one enquiry to the businesses you choose and track every reply in one
@@ -44,14 +55,12 @@ export function SiteFooter() {
           </div>
 
           <LinkColumn title="Categories" links={FOOTER_CATEGORIES} />
-          <LinkColumn title="Live Envt" links={FOOTER_COMPANY} />
+          <LinkColumn title="Life Events" links={FOOTER_COMPANY} />
           <LinkColumn title="Legal" links={FOOTER_LEGAL} />
         </div>
 
         <div className={classes.baseline}>
-          <p className={classes.baselineText}>
-            Live Envt — vendor discovery for weddings and events.
-          </p>
+          <p className={classes.baselineText}>Life Events — moments to cherish.</p>
           <p className={classes.baselineText}>
             Prices and availability are published by each business.
           </p>

@@ -36,6 +36,13 @@
   max-width: 34ch;
 }
 
+/* The supplied lockup is 1000×800; 200px keeps it a footer signature rather than
+   a second hero. */
+.lockup {
+  width: rem(200px);
+  height: auto;
+}
+
 .tagline {
   margin: 0;
   color: var(--app-text-muted);

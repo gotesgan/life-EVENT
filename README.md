@@ -1,4 +1,4 @@
-# Live Envt
+# Life Events
 
 A multi-category **wedding and event business discovery and lead-generation platform**. Customers
 discover providers, filter results, open a profile and send an enquiry; one central admin panel
