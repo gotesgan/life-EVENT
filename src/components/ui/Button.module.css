@@ -44,6 +44,12 @@
     box-shadow var(--app-duration-micro) var(--app-ease-in-out);
 }
 
+/* `fullWidth` survives `unstyled`: Mantine still sets `data-block`, which is the
+   contract this rule honours. */
+.root[data-block='true'] {
+  width: 100%;
+}
+
 /* A button that only carries an icon must stay square. */
 .root[data-with-left-section='false'][data-with-right-section='false'] {
   padding-inline: var(--btn-pad);

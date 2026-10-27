@@ -1,4 +1,4 @@
-# Database Design — Live Envt
+# Database Design — Life Events
 
 Status: **Accepted** · Last updated: 2026-10-14 · Owner: Backend lead
 Source of truth: `prisma/schema.prisma` (29 models, 14 enums) and `prisma/migrations/**`.

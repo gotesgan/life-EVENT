@@ -44,10 +44,13 @@ test.describe('crawler surfaces', () => {
     expect(canonical).toContain('/categories/venues');
   });
 
-  test('a listing page declares a canonical URL', async ({ page }) => {
+  test('a listing page declares an opaque canonical URL', async ({ page }) => {
     await page.goto('/vendors/gulmohar-banjara-banquets');
     const canonical = await page.locator('link[rel="canonical"]').getAttribute('href');
-    expect(canonical).toContain('/vendors/gulmohar-banjara-banquets');
+    // Canonicals must not spell the withheld trading name out; they carry the
+    // listing's opaque public reference instead.
+    expect(canonical).toMatch(/\/vendors\/ul_[a-z0-9]+$/);
+    expect(canonical).not.toContain('gulmohar');
   });
 
   test('private surfaces are not indexed', async ({ page }) => {

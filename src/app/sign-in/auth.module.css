@@ -95,7 +95,7 @@
 
 .switchLink {
   color: var(--app-brand);
-  font-weight: 650;
+  font-weight: 600;
 
   @mixin hover {
     text-decoration: underline;

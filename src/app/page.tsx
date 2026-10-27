@@ -16,13 +16,67 @@ import { EmptyState } from '@/components/ui/EmptyState';
 import { Surface } from '@/components/ui/Surface';
 import { searchQuerySchema } from '@/lib/validation/search';
 import { listCategories, listLocations } from '@/server/services/catalog.service';
+import { getSiteSettings } from '@/server/services/settings.service';
 import { searchPublicListings } from '@/server/services/search.service';
+import { getRevealedSlugs, publicListingCards } from '@/lib/listing-privacy';
 
 export const metadata: Metadata = {
   title: 'Wedding and event vendors, with published prices',
-  description: 'Compare published prices and send one enquiry to the businesses you choose.',
+  description:
+    'Compare published prices and send an enquiry to the businesses you choose. Names unlock when you enquire.',
   alternates: { canonical: '/' },
 };
+
+/*
+ * The hero clip.
+ *
+ * A hosted 12-second loop (Cloudflare R2). Only its first nine seconds were cut
+ * to loop seamlessly, so the player loops at 0:09 rather than at the file's end
+ * — see `HomeHeroMedia` for how the playhead is moved back. To change the video,
+ * change the URL; there is no local file to replace.
+ */
+const HERO_VIDEO_URL = 'https://pub-4669c5f1fbd346d6994920d5422e4d3f.r2.dev/video/hero-loop.mp4';
+const HERO_VIDEO_SEGMENT_END_SECONDS = 9;
+
+/**
+ * The copy that never changes with settings, kept in one place so the streaming
+ * hero and its prerendered fallback cannot drift.
+ */
+const HERO_COPY = {
+  title: 'Your wedding, your way.',
+  lede: 'Compare published prices, then enquire with the business you want.',
+  facts: ['Published prices and inclusions', 'Names unlock when you enquire'],
+  imageUrl: '/media/seed/home-hero-cover.jpg',
+  imageAlt: 'A couple celebrating beneath a floral arch as confetti falls',
+  popularSearches: [
+    { label: 'Banquet halls', href: '/vendors?category=venues' },
+    { label: 'Photographers', href: '/vendors?category=photographers' },
+    { label: 'Makeup artists', href: '/vendors?category=makeup-artists' },
+    { label: 'Decorators', href: '/vendors?category=decorators-and-florists' },
+  ],
+} as const;
+
+/**
+ * The hero video comes from admin settings, so it streams rather than being part
+ * of the static shell. The fallback below renders the same frame with the shipped
+ * defaults, so there is no empty band while the value arrives.
+ */
+async function HomeHeroLive() {
+  await connection();
+  const site = await getSiteSettings();
+
+  return (
+    <HomeHero
+      {...HERO_COPY}
+      videoUrl={site.heroVideoUrl || HERO_VIDEO_URL}
+      videoSegmentEndSeconds={site.heroVideoSegmentEndSeconds}
+    >
+      <Suspense fallback={<SearchSkeleton />}>
+        <HomeSearch />
+      </Suspense>
+    </HomeHero>
+  );
+}
 
 /*
  * Every data-reading subtree below is its own async component behind a
@@ -90,6 +144,7 @@ async function PopularCategories() {
           name={category.name}
           listingCount={category.listingCount}
           shortDescription={category.shortDescription}
+          imageUrl={category.heroImageUrl}
         />
       ))}
     </SimpleGrid>
@@ -130,8 +185,10 @@ async function TopPicksRail() {
     rawParams: { verified: 'true' },
     basePath: '/vendors',
   });
+  const revealed = await getRevealedSlugs();
+  const cards = publicListingCards(result.cards, revealed);
 
-  if (result.cards.length === 0) {
+  if (cards.length === 0) {
     return (
       <EmptyState
         title="No top picks yet"
@@ -147,7 +204,7 @@ async function TopPicksRail() {
 
   return (
     <>
-      <ListingGrid listings={result.cards} label="Top picks" />
+      <ListingGrid listings={cards} label="Top picks" />
       <Group mt="md">
         <Button component={Link} href="/vendors?verified=true" variant="default" size="sm">
           See all top picks
@@ -164,23 +221,21 @@ export default function HomePage() {
           in the viewport, so the page breathes. Density is only added where the
           task demands comparison — the browse grid (guide §8.1). */}
       <div className="surface--editorial">
-        <HomeHero
-          title="Your wedding, your way."
-          lede="Compare published prices, then send one enquiry."
-          facts={['Published prices and inclusions', 'One enquiry to up to 10 businesses']}
-          imageUrl="/media/seed/home-hero-cover.jpg"
-          imageAlt="A couple celebrating beneath a floral arch as confetti falls"
-          popularSearches={[
-            { label: 'Banquet halls', href: '/vendors?category=venues' },
-            { label: 'Photographers', href: '/vendors?category=photographers' },
-            { label: 'Makeup artists', href: '/vendors?category=makeup-artists' },
-            { label: 'Decorators', href: '/vendors?category=decorators-and-florists' },
-          ]}
+        <Suspense
+          fallback={
+            <HomeHero
+              {...HERO_COPY}
+              videoUrl={HERO_VIDEO_URL}
+              videoSegmentEndSeconds={HERO_VIDEO_SEGMENT_END_SECONDS}
+            >
+              <Suspense fallback={<SearchSkeleton />}>
+                <HomeSearch />
+              </Suspense>
+            </HomeHero>
+          }
         >
-          <Suspense fallback={<SearchSkeleton />}>
-            <HomeSearch />
-          </Suspense>
-        </HomeHero>
+          <HomeHeroLive />
+        </Suspense>
       </div>
 
       <Container className="surface--editorial">
@@ -236,14 +291,16 @@ export default function HomePage() {
             </Surface>
             <Surface tone="raised" padding="md" radius="card">
               <Stack gap="xs">
-                <h3>Enquire once</h3>
-                <p>One form to up to ten businesses.</p>
+                <h3>Enquire, and unlock</h3>
+                <p>
+                  One short form per business. Sending it reveals their name and contact details.
+                </p>
               </Stack>
             </Surface>
             <Surface tone="raised" padding="md" radius="card">
               <Stack gap="xs">
                 <h3>Track replies</h3>
-                <p>One reference code. No account needed.</p>
+                <p>One reference code per enquiry. No account needed.</p>
               </Stack>
             </Surface>
           </SimpleGrid>

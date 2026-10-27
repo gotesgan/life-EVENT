@@ -163,14 +163,14 @@ model User {
   sessions          Session[]
   accounts          Account[]
   profile           CustomerProfile?
-  enquiries         Enquiry[]          @relation("EnquiryCustomer")
-  assignedEnquiries Enquiry[]          @relation("EnquiryAssignee")
-  assignedLeads     EnquiryListing[]   @relation("EnquiryListingAssignee")
+  enquiries         Enquiry[]         @relation("EnquiryCustomer")
+  assignedEnquiries Enquiry[]         @relation("EnquiryAssignee")
+  assignedLeads     EnquiryListing[]  @relation("EnquiryListingAssignee")
   activities        EnquiryActivity[]
   notes             EnquiryNote[]
   auditLogs         AuditLog[]
-  createdListings   BusinessListing[]  @relation("ListingCreatedBy")
-  uploadedMedia     ListingMedia[]     @relation("MediaUploadedBy")
+  createdListings   BusinessListing[] @relation("ListingCreatedBy")
+  uploadedMedia     ListingMedia[]    @relation("MediaUploadedBy")
 
   @@index([role, status])
   @@map("users")
@@ -253,30 +253,30 @@ model CustomerProfile {
 /// `path` is the materialised slug path and is the authoritative uniqueness key
 /// (a nullable `parentId` cannot be part of a reliable unique constraint).
 model Location {
-  id          String       @id @default(cuid())
+  id           String       @id @default(cuid())
   /// Globally unique so a location is addressable by a single clean URL
   /// segment. Localities are therefore slugged with their city context
   /// (e.g. `mumbai-bandra-west`) rather than bare (`bandra-west`).
-  slug        String       @unique
-  name        String
-  type        LocationType
-  path        String       @unique
-  parentId    String?
-  isActive    Boolean      @default(true)
-  latitude    Float?
-  longitude   Float?
+  slug         String       @unique
+  name         String
+  type         LocationType
+  path         String       @unique
+  parentId     String?
+  isActive     Boolean      @default(true)
+  latitude     Float?
+  longitude    Float?
   heroImageUrl String?
-  description String?      @db.Text
-  sortOrder   Int          @default(0)
-  createdAt   DateTime     @default(now())
-  updatedAt   DateTime     @updatedAt
+  description  String?      @db.Text
+  sortOrder    Int          @default(0)
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
 
-  parent           Location?            @relation("LocationTree", fields: [parentId], references: [id], onDelete: Restrict)
-  children         Location[]           @relation("LocationTree")
-  primaryListings  BusinessListing[]    @relation("ListingPrimaryLocation")
-  serviceAreas     ListingServiceArea[]
-  profileCities    CustomerProfile[]    @relation("ProfileCity")
-  enquiries        Enquiry[]
+  parent          Location?            @relation("LocationTree", fields: [parentId], references: [id], onDelete: Restrict)
+  children        Location[]           @relation("LocationTree")
+  primaryListings BusinessListing[]    @relation("ListingPrimaryLocation")
+  serviceAreas    ListingServiceArea[]
+  profileCities   CustomerProfile[]    @relation("ProfileCity")
+  enquiries       Enquiry[]
 
   @@index([type, isActive, name])
   @@index([parentId])
@@ -306,11 +306,11 @@ model Category {
   createdAt        DateTime @default(now())
   updatedAt        DateTime @updatedAt
 
-  parent        Category?           @relation("CategoryTree", fields: [parentId], references: [id], onDelete: Restrict)
-  children      Category[]          @relation("CategoryTree")
-  primaryListings BusinessListing[] @relation("ListingPrimaryCategory")
-  listingLinks  ListingCategory[]
-  attributes    CategoryAttribute[]
+  parent          Category?           @relation("CategoryTree", fields: [parentId], references: [id], onDelete: Restrict)
+  children        Category[]          @relation("CategoryTree")
+  primaryListings BusinessListing[]   @relation("ListingPrimaryCategory")
+  listingLinks    ListingCategory[]
+  attributes      CategoryAttribute[]
 
   @@unique([parentId, slug])
   @@index([parentId, isActive, sortOrder])
@@ -339,20 +339,20 @@ model EventType {
 /// many categories with different behaviour through `CategoryAttribute`, so
 /// adding a category or a filter is a data operation, not a code change.
 model AttributeDefinition {
-  id           String            @id @default(cuid())
-  code         String            @unique
-  label        String
-  dataType     AttributeDataType
-  unit         String?
-  helpText     String?
-  placeholder  String?
-  minNumber    Float?
-  maxNumber    Float?
-  maxLength    Int?
-  isGlobal     Boolean           @default(false)
-  sortOrder    Int               @default(0)
-  createdAt    DateTime          @default(now())
-  updatedAt    DateTime          @updatedAt
+  id          String            @id @default(cuid())
+  code        String            @unique
+  label       String
+  dataType    AttributeDataType
+  unit        String?
+  helpText    String?
+  placeholder String?
+  minNumber   Float?
+  maxNumber   Float?
+  maxLength   Int?
+  isGlobal    Boolean           @default(false)
+  sortOrder   Int               @default(0)
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
 
   options          AttributeOption[]
   categoryBindings CategoryAttribute[]
@@ -364,23 +364,23 @@ model AttributeDefinition {
 
 /// Per-category binding: what this attribute means for this category.
 model CategoryAttribute {
-  id                  String         @id @default(cuid())
-  categoryId          String
-  attributeId         String
-  isRequired          Boolean        @default(false)
-  isFilterable        Boolean        @default(false)
-  isSearchable        Boolean        @default(false)
-  isVisibleOnProfile  Boolean        @default(true)
-  isComparable        Boolean        @default(false)
+  id                 String         @id @default(cuid())
+  categoryId         String
+  attributeId        String
+  isRequired         Boolean        @default(false)
+  isFilterable       Boolean        @default(false)
+  isSearchable       Boolean        @default(false)
+  isVisibleOnProfile Boolean        @default(true)
+  isComparable       Boolean        @default(false)
   /// Marks an attribute as a highlight on search-result cards. Venues surface
   /// capacity and venue type, photographers surface style and coverage hours —
   /// driven by data so cards are not forced into one generic shape.
-  showOnCard          Boolean        @default(false)
-  filterControl       FilterControl?
-  groupLabel          String?
-  sortOrder           Int            @default(0)
-  createdAt           DateTime       @default(now())
-  updatedAt           DateTime       @updatedAt
+  showOnCard         Boolean        @default(false)
+  filterControl      FilterControl?
+  groupLabel         String?
+  sortOrder          Int            @default(0)
+  createdAt          DateTime       @default(now())
+  updatedAt          DateTime       @updatedAt
 
   category  Category            @relation(fields: [categoryId], references: [id], onDelete: Cascade)
   attribute AttributeDefinition @relation(fields: [attributeId], references: [id], onDelete: Cascade)
@@ -391,12 +391,12 @@ model CategoryAttribute {
 }
 
 model AttributeOption {
-  id          String   @id @default(cuid())
+  id          String  @id @default(cuid())
   attributeId String
-  value       String   @db.VarChar(64)
+  value       String  @db.VarChar(64)
   label       String
-  sortOrder   Int      @default(0)
-  isActive    Boolean  @default(true)
+  sortOrder   Int     @default(0)
+  isActive    Boolean @default(true)
 
   attribute AttributeDefinition @relation(fields: [attributeId], references: [id], onDelete: Cascade)
 
@@ -409,13 +409,13 @@ model AttributeOption {
 
 /// Normalised amenity/tag catalogue, shared across categories.
 model Amenity {
-  id         String   @id @default(cuid())
-  code       String   @unique
+  id         String  @id @default(cuid())
+  code       String  @unique
   label      String
   groupLabel String?
   iconKey    String?
-  isActive   Boolean  @default(true)
-  sortOrder  Int      @default(0)
+  isActive   Boolean @default(true)
+  sortOrder  Int     @default(0)
 
   listings ListingAmenity[]
 
@@ -428,8 +428,8 @@ model Amenity {
 // ---------------------------------------------------------------------------
 
 model BusinessListing {
-  id          String @id @default(cuid())
-  slug        String @unique
+  id          String  @id @default(cuid())
+  slug        String  @unique
   name        String
   tagline     String?
   description String? @db.Text
@@ -451,10 +451,10 @@ model BusinessListing {
   contactEmail      String?
   contactWhatsapp   String?
   websiteUrl        String?
-  showPhone         Boolean            @default(false)
-  showEmail         Boolean            @default(false)
-  showWhatsapp      Boolean            @default(false)
-  showWebsite       Boolean            @default(true)
+  showPhone         Boolean @default(false)
+  showEmail         Boolean @default(false)
+  showWhatsapp      Boolean @default(false)
+  showWebsite       Boolean @default(true)
 
   addressLine1 String?
   addressLine2 String?
@@ -465,11 +465,11 @@ model BusinessListing {
   // Denormalised commercial summary. These back the universal budget and
   // capacity filters and sorts, so they are real indexed columns rather than
   // values that would have to be recomputed from child rows per query.
-  priceMin     Int?
-  priceMax     Int?
-  priceUnit    PriceUnit?
-  capacityMin  Int?
-  capacityMax  Int?
+  priceMin    Int?
+  priceMax    Int?
+  priceUnit   PriceUnit?
+  capacityMin Int?
+  capacityMax Int?
 
   /// Service-maintained lowercase haystack (name + tagline + description +
   /// categories + event types + locations + services). Indexed with a trigram
@@ -481,9 +481,9 @@ model BusinessListing {
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
-  primaryCategory Category  @relation("ListingPrimaryCategory", fields: [primaryCategoryId], references: [id], onDelete: Restrict)
-  primaryLocation Location  @relation("ListingPrimaryLocation", fields: [primaryLocationId], references: [id], onDelete: Restrict)
-  createdBy       User?     @relation("ListingCreatedBy", fields: [createdById], references: [id], onDelete: SetNull)
+  primaryCategory Category @relation("ListingPrimaryCategory", fields: [primaryCategoryId], references: [id], onDelete: Restrict)
+  primaryLocation Location @relation("ListingPrimaryLocation", fields: [primaryLocationId], references: [id], onDelete: Restrict)
+  createdBy       User?    @relation("ListingCreatedBy", fields: [createdById], references: [id], onDelete: SetNull)
 
   categories      ListingCategory[]
   eventTypes      ListingEventType[]
@@ -553,20 +553,20 @@ model ListingServiceArea {
 }
 
 model ListingMedia {
-  id          String      @id @default(cuid())
-  listingId   String
-  storageKey  String      @unique
-  publicUrl   String
-  altText     String
-  kind        MediaKind   @default(IMAGE)
-  status      MediaStatus @default(PENDING)
-  mimeType    String
-  sizeBytes   Int
-  width       Int?
-  height      Int?
-  blurDataUrl String?     @db.Text
-  sortOrder   Int         @default(0)
-  isCover     Boolean     @default(false)
+  id            String      @id @default(cuid())
+  listingId     String
+  storageKey    String      @unique
+  publicUrl     String
+  altText       String
+  kind          MediaKind   @default(IMAGE)
+  status        MediaStatus @default(PENDING)
+  mimeType      String
+  sizeBytes     Int
+  width         Int?
+  height        Int?
+  blurDataUrl   String?     @db.Text
+  sortOrder     Int         @default(0)
+  isCover       Boolean     @default(false)
   failureReason String?
 
   uploadedById String?
@@ -629,17 +629,17 @@ model ListingPackage {
 /// separate venue entity) so a resort with banquet halls, a lawn and a poolside
 /// can describe capacity and layout without a second listing system.
 model VenueSpace {
-  id               String  @id @default(cuid())
+  id               String   @id @default(cuid())
   listingId        String
   name             String
-  description      String? @db.Text
+  description      String?  @db.Text
   capacitySeated   Int?
   capacityStanding Int?
   areaSqft         Int?
-  isIndoor         Boolean @default(true)
-  isOutdoor        Boolean @default(false)
+  isIndoor         Boolean  @default(true)
+  isOutdoor        Boolean  @default(false)
   layoutOptions    String[]
-  sortOrder        Int     @default(0)
+  sortOrder        Int      @default(0)
   createdAt        DateTime @default(now())
   updatedAt        DateTime @updatedAt
 
@@ -653,17 +653,17 @@ model VenueSpace {
 /// a Postgres text array so writes stay atomic and `hasSome` gives correct
 /// AND/OR facet semantics with a GIN index.
 model ListingAttributeValue {
-  id          String   @id @default(cuid())
-  listingId   String
-  attributeId String
-  valueText   String?
-  valueNumber Float?
+  id           String    @id @default(cuid())
+  listingId    String
+  attributeId  String
+  valueText    String?
+  valueNumber  Float?
   valueBoolean Boolean?
-  valueDate   DateTime?
-  optionId    String?
-  optionIds   String[]
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  valueDate    DateTime?
+  optionId     String?
+  optionIds    String[]
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
 
   listing   BusinessListing     @relation(fields: [listingId], references: [id], onDelete: Cascade)
   attribute AttributeDefinition @relation(fields: [attributeId], references: [id], onDelete: Cascade)
@@ -709,16 +709,16 @@ model Enquiry {
 
   // Null for guest submissions. Guests are never auto-claimed by a later
   // sign-up (see docs/security.md).
-  customerUserId String?
-  contactName    String
-  contactEmail   String
+  customerUserId         String?
+  contactName            String
+  contactEmail           String
   /// Digits-only form of `contactPhone`, maintained by the service so duplicate
   /// detection can match `+91 98765 43210`, `098765-43210` and `9876543210`
   /// with an indexed lookup instead of a scan.
   contactPhoneNormalised String
-  contactPhone   String
-  contactCityId  String?
-  contactMethod  ContactMethod @default(EMAIL)
+  contactPhone           String
+  contactCityId          String?
+  contactMethod          ContactMethod @default(EMAIL)
 
   eventTypeId       String?
   eventDate         DateTime?
@@ -729,13 +729,13 @@ model Enquiry {
   requirements      String?   @db.Text
   referralSource    String?
 
-  status                EnquiryStatus @default(NEW)
-  isPotentialDuplicate  Boolean       @default(false)
-  assignedAdminId       String?
+  status               EnquiryStatus @default(NEW)
+  isPotentialDuplicate Boolean       @default(false)
+  assignedAdminId      String?
 
-  consentPrivacy     Boolean   @default(false)
+  consentPrivacy       Boolean   @default(false)
   consentPolicyVersion String?
-  consentedAt        DateTime?
+  consentedAt          DateTime?
 
   source          EnquirySource @default(WEB)
   submittedIpHash String?
@@ -744,9 +744,9 @@ model Enquiry {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  customer      User?     @relation("EnquiryCustomer", fields: [customerUserId], references: [id], onDelete: SetNull)
-  assignedAdmin User?     @relation("EnquiryAssignee", fields: [assignedAdminId], references: [id], onDelete: SetNull)
-  contactCity   Location? @relation(fields: [contactCityId], references: [id], onDelete: SetNull)
+  customer      User?      @relation("EnquiryCustomer", fields: [customerUserId], references: [id], onDelete: SetNull)
+  assignedAdmin User?      @relation("EnquiryAssignee", fields: [assignedAdminId], references: [id], onDelete: SetNull)
+  contactCity   Location?  @relation(fields: [contactCityId], references: [id], onDelete: SetNull)
   eventType     EventType? @relation(fields: [eventTypeId], references: [id], onDelete: SetNull)
 
   listings   EnquiryListing[]
@@ -766,7 +766,7 @@ model Enquiry {
 /// A single provider lead inside an enquiry. Independent status, assignee and
 /// SLA timestamps per provider.
 model EnquiryListing {
-  id        String @id @default(cuid())
+  id        String        @id @default(cuid())
   enquiryId String
   listingId String
   status    EnquiryStatus @default(NEW)
@@ -802,18 +802,18 @@ model EnquiryListing {
 /// Append-only lead history. `isCustomerVisible` is the single switch that
 /// decides whether an entry may cross into the customer-facing projection.
 model EnquiryActivity {
-  id               String              @id @default(cuid())
-  enquiryId        String
-  enquiryListingId String?
-  type             EnquiryActivityType
-  fromStatus       EnquiryStatus?
-  toStatus         EnquiryStatus?
-  message          String?             @db.Text
-  isCustomerVisible Boolean            @default(false)
-  actorUserId      String?
-  actorName        String?
-  metadata         Json?
-  createdAt        DateTime            @default(now())
+  id                String              @id @default(cuid())
+  enquiryId         String
+  enquiryListingId  String?
+  type              EnquiryActivityType
+  fromStatus        EnquiryStatus?
+  toStatus          EnquiryStatus?
+  message           String?             @db.Text
+  isCustomerVisible Boolean             @default(false)
+  actorUserId       String?
+  actorName         String?
+  metadata          Json?
+  createdAt         DateTime            @default(now())
 
   enquiry        Enquiry         @relation(fields: [enquiryId], references: [id], onDelete: Cascade)
   enquiryListing EnquiryListing? @relation(fields: [enquiryListingId], references: [id], onDelete: Cascade)
@@ -830,8 +830,8 @@ model EnquiryNote {
   id               String   @id @default(cuid())
   enquiryId        String
   enquiryListingId String?
-  authorUserId      String?
-  authorName        String?
+  authorUserId     String?
+  authorName       String?
   body             String   @db.Text
   createdAt        DateTime @default(now())
   updatedAt        DateTime @updatedAt
@@ -904,4 +904,169 @@ model IdempotencyKey {
   @@index([expiresAt])
   @@index([enquiryId])
   @@map("idempotency_keys")
+}
+
+// ---------------------------------------------------------------------------
+// Vendor applications
+// ---------------------------------------------------------------------------
+
+/// Where a vendor self-registration stands in the back office.
+enum VendorApplicationStatus {
+  NEW
+  REVIEWING
+  APPROVED
+  REJECTED
+}
+
+/// A business asking to be listed on the marketplace.
+///
+/// Deliberately a separate table from `Enquiry`: an application is not a lead,
+/// has no event brief, and must never appear in the enquiry inbox or in a
+/// customer's own list. Keeping it separate also means the four public fields
+/// collected at sign-up (company, vendor type, phone, description) stay exactly
+/// those four, rather than growing into the enquiry schema.
+model VendorApplication {
+  id                     String @id @default(cuid())
+  businessName           String
+  /// The catalogue category slug the applicant chose — validated against the
+  /// live catalogue when the application is accepted, so the value can be
+  /// resolved back to a real category afterwards.
+  vendorType             String
+  /// As typed by the applicant, plus the digits-only form so the back office can
+  /// search `+91 98765 43210`, `098765-43210` and `9876543210` the same way
+  /// enquiry duplicates are matched.
+  contactPhone           String
+  contactPhoneNormalised String
+  description            String @db.Text
+
+  status     VendorApplicationStatus @default(NEW)
+  reviewNote String?                 @db.Text
+  reviewedAt DateTime?
+
+  /// Where the application came from: the public short form, or a private
+  /// onboarding invite the back office sent to a business.
+  source String @default("PUBLIC")
+
+  /// Populated by the invite onboarding form (the public form collects only the
+  /// four fields above). Kept nullable so the short form stays short.
+  contactName  String?
+  contactEmail String?
+  citySlug     String?
+  websiteUrl   String?
+  /// Raw structured answers from the onboarding form, for the review screen.
+  submitted    Json?
+  /// The draft listing created from this application on approval, so a second
+  /// approval cannot create a duplicate and the review screen can link to it.
+  listingId    String?
+
+  ipHash    String?
+  userAgent String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status, createdAt(sort: Desc)])
+  @@index([contactPhoneNormalised])
+  @@map("vendor_applications")
+}
+
+/// A private, single-use link that lets a business fill in its own listing
+/// details without an account. The raw token is shown once and never stored —
+/// only its SHA-256 hash lives here, so a database leak cannot mint links.
+model VendorInvite {
+  id String @id @default(cuid())
+
+  tokenHash String @unique
+  email     String?
+
+  /// The application this invite fills in, when the back office invited a
+  /// business that had already applied through the short public form.
+  applicationId String?
+  /// The listing this invite is completing, for "claim your listing" flows.
+  listingId String?
+
+  status VendorInviteStatus @default(SENT)
+
+  expiresAt   DateTime
+  openedAt    DateTime?
+  submittedAt DateTime?
+  revokedAt   DateTime?
+  createdById String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status, createdAt(sort: Desc)])
+  @@index([applicationId])
+  @@map("vendor_invites")
+}
+
+enum VendorInviteStatus {
+  SENT
+  OPENED
+  SUBMITTED
+  EXPIRED
+  REVOKED
+}
+
+/// Key/value application settings — integrations, content and feature flags.
+/// Values are JSON so a setting can be a scalar or a small object without a
+/// schema migration per field.
+model AppSetting {
+  key       String   @id
+  value     Json
+  updatedAt DateTime @updatedAt
+
+  @@map("app_settings")
+}
+
+enum EmailStatus {
+  SENT
+  FAILED
+  SKIPPED
+}
+
+/// Every outbound notification, whether it was delivered, failed or skipped
+/// because no provider is configured. Delivery is deliberately never allowed to
+/// fail a business operation; this table is how it is audited afterwards.
+model EmailLog {
+  id       String      @id @default(cuid())
+  to       String
+  subject  String
+  template String
+  status   EmailStatus
+  provider String
+  providerMessageId String?
+  error    String?
+
+  createdAt DateTime @default(now())
+
+  @@index([createdAt(sort: Desc)])
+  @@index([status, createdAt(sort: Desc)])
+  @@map("email_logs")
+}
+
+enum MetaEventStatus {
+  SENT
+  FAILED
+  SKIPPED
+}
+
+/// Conversions API deliveries. One row per attempted server-side event so the
+/// back office can prove what was sent, replay a failure and reconcile with the
+/// browser pixel (same `eventId`).
+model MetaEventLog {
+  id        String           @id @default(cuid())
+  eventName String
+  eventId   String?
+  status    MetaEventStatus
+  httpStatus Int?
+  error     String?
+  enquiryId String?
+
+  createdAt DateTime @default(now())
+
+  @@index([createdAt(sort: Desc)])
+  @@index([status, createdAt(sort: Desc)])
+  @@map("meta_event_logs")
 }

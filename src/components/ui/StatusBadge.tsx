@@ -8,7 +8,8 @@ import classes from './StatusBadge.module.css';
  * (`--app-<tone>` and `--app-<tone>-soft`) so a page never names a hue.
  *
  * `info` is an alias of `brand`: the palette is six ramps by design and contains
- * no blue, so inventing one for a single badge would break the system. An
+ * one action colour, so inventing a second hue for a single badge would break the
+ * system. An
  * informational state that must be visually distinct from brand should use
  * `accent` or `neutral` — but those carry different meaning, so prefer rewording
  * the status over recolouring it.

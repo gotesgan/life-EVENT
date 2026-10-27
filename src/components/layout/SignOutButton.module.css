@@ -1,0 +1,10 @@
+/* The header signed-in state has no room for a second text action; the icon
+   carries the action and the button keeps its accessible name "Sign out". */
+.label {
+  display: none;
+}
+
+/* Explicit opt-in for surfaces that are the only place to sign out. */
+.labelAlways {
+  display: inline;
+}

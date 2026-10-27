@@ -4,14 +4,16 @@
  * Design rules encoded here, all of which pages can rely on without restating
  * them:
  *
- * - one font family (Manrope) for every element, including admin tables;
- * - `brand` is the primary colour — charcoal slate, not a hue — with
+ * - two families with fixed jobs: Bodoni Moda for display headings and the
+ *   wordmark, Jost for body, controls, tables and admin (the maximum the style
+ *   guide allows is two);
+ * - `brand` is the primary colour — warm ink, not a hue — with
  *   `primaryShade` 6 in light and 3 in dark;
  * - `autoContrast` is on and `luminanceThreshold` is 0.22, which is what makes
  *   a filled brand button legible in *both* schemes (see the measured ratios
  *   below);
  * - reduced motion is respected by Mantine's own transitions;
- * - `slate` is the neutral ramp and Mantine's `gray` ramp is remapped to it in
+ * - `stone` is the warm neutral ramp and Mantine's `gray` ramp is remapped to it in
  *   `cssVariablesResolver`, so no second neutral family can appear anywhere.
  *
  * `createTheme` returns a plain, serialisable object — `cssVariablesResolver` is
@@ -21,38 +23,39 @@
 import { createTheme } from '@mantine/core';
 import { palette } from './tokens';
 
-const FONT_STACK = 'var(--font-manrope), ui-sans-serif, system-ui, sans-serif';
+const FONT_BODY = 'var(--font-body), ui-sans-serif, system-ui, sans-serif';
+const FONT_DISPLAY = 'var(--font-display), ui-serif, Georgia, serif';
 
 /**
  * Why 0.22.
  *
  * `getContrastColor` puts dark text on a fill when `luminance(fill) > theme.luminanceThreshold`,
  * and white text otherwise. The marketplace palette inverts its action colour
- * between schemes — a deep charcoal in light, a light slate in dark — so the
+ * between schemes — warm ink in light, warm bone in dark — so the
  * threshold has to classify both correctly with a single number:
  *
- *   light `brand[6]` #0F172A  luminance 0.009  → white  17.85:1
- *   light `brand[7]` #1E293B  luminance 0.022  → white  14.63:1
- *   dark  `brand[3]` #CBD5E1  luminance 0.657  → dark   12.02:1
- *   dark  `brand[4]` #94A3B8  luminance 0.360  → dark    6.96:1
+ *   light `brand[6]` #191512  luminance 0.0079 → white  18.15:1
+ *   light `brand[7]` #2A2520  luminance 0.0192 → white  15.17:1
+ *   dark  `brand[3]` #E3DACA  luminance 0.7074 → dark   13.70:1
+ *   dark  `brand[4]` #C9C2B6  luminance 0.5438 → dark   10.74:1
  *
- * 0.22 sits between 0.022 and 0.360, so every one of those takes the readable
- * direction. Mantine's default of 0.3 would put *white* on the dark-scheme
- * slate (1.79:1, an AA failure). The same threshold is correct for the semantic
- * fills: light danger #C2333A (0.141 → white, 5.49:1) and dark danger #F0736F
- * (0.319 → dark, 6.59:1).
+ * 0.22 sits between 0.0192 and 0.5438, so every one of those takes the readable
+ * direction. Mantine's default of 0.3 would put *white* on the dark-scheme bone
+ * fill (1.39:1, an AA failure). The same threshold is correct for the semantic
+ * fills: light danger #8E1B1B (0.0661 → white, 9.04:1) and dark danger #F08A82
+ * (0.3831 → dark, 7.84:1).
  */
 export const LUMINANCE_THRESHOLD = 0.22;
 
 export const theme = createTheme({
-  fontFamily: FONT_STACK,
+  fontFamily: FONT_BODY,
   fontFamilyMonospace:
     'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace',
   fontSmoothing: true,
 
   headings: {
-    fontFamily: FONT_STACK,
-    fontWeight: '700',
+    fontFamily: FONT_DISPLAY,
+    fontWeight: '600',
     textWrap: 'balance',
     sizes: {
       h1: { fontSize: 'var(--text-h1-size)', lineHeight: 'var(--text-h1-leading)' },
@@ -68,7 +71,7 @@ export const theme = createTheme({
   primaryColor: 'brand',
   primaryShade: { light: 6, dark: 3 },
   white: '#FFFFFF',
-  black: '#0F172A',
+  black: '#12100D',
   autoContrast: true,
   luminanceThreshold: LUMINANCE_THRESHOLD,
 
@@ -122,7 +125,7 @@ export const theme = createTheme({
   },
 
   components: {
-    Button: { defaultProps: { radius: 'md' } },
+    Button: { defaultProps: { radius: 'md', autoContrast: true } },
     ActionIcon: { defaultProps: { radius: 'md' } },
     TextInput: { defaultProps: { radius: 'md' } },
     Select: { defaultProps: { radius: 'md' } },

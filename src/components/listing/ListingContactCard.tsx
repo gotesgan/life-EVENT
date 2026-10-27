@@ -1,88 +1,62 @@
-import Link from '@/components/ui/ClientLink';
-import { Button } from '@mantine/core';
-import { IconBrandWhatsapp, IconExternalLink, IconMail, IconSend } from '@tabler/icons-react';
+import { IconBrandWhatsapp, IconExternalLink, IconLock, IconMail } from '@tabler/icons-react';
 import { Surface } from '@/components/ui/Surface';
-import { parseQuery, readSelectedListings } from '@/lib/filter-state';
 import type { ListingContactView } from '@/server/dto/listing.dto';
-import { AddToEnquiryButton, EnquirySubmitButton } from './EnquiryShortlist';
 import classes from './ListingContactCard.module.css';
-
-/**
- * The slug this card is about, read back out of the enquiry URL it is handed.
- *
- * The profile page owns that URL (`/enquire?enquire=<slug>`) and belongs to
- * another workstream, so the card recovers the one slug it points at instead of
- * asking the page for a new prop. It is `null` only when the URL is not an
- * enquiry URL, in which case the card falls back to the plain link.
- */
-function shortlistSlugFrom(enquiryHref: string): string | null {
-  const queryStart = enquiryHref.indexOf('?');
-  if (queryStart === -1) return null;
-  return readSelectedListings(parseQuery(enquiryHref.slice(queryStart + 1)))[0] ?? null;
-}
 
 export interface ListingContactCardProps {
   contact: ListingContactView;
+  /** The display name — the anonymous stand-in while identity is withheld. */
   listingName: string;
-  enquiryHref: string;
-  /** Rendered under the CTA, e.g. a response-time expectation. */
+  /** True while the name and contact channels are still gated behind an enquiry. */
+  hidden: boolean;
+  /** Rendered under the channels, e.g. a response-time expectation. */
   footnote?: string;
 }
 
 /**
- * The contact panel and the profile's primary action.
+ * The identity panel in the profile's right rail.
  *
- * The primary action is deliberately **"Send an enquiry"**, never a phone link:
- * the competitor research is explicit that a click-to-call CTA destroys lead
- * attribution and turns a marketplace into classifieds. Where a business has
- * chosen to publish a phone number it is shown as plain text (not a clickable
- * `tel:` action) beneath the enquiry button, so the number is available without
- * becoming the path of least resistance. A `null` channel is never invented —
- * when every channel is withheld, the DTO's message explains why and the
- * enquiry button is the only action.
+ * The product rule is that a visitor must send an enquiry before the trading
+ * name and any contact channel are shown — the enquiry is what the marketplace
+ * exists to capture, and a visible phone number turns the page into classifieds
+ * with no attributable lead.
  *
- * The button now carries the visitor's whole shortlist, and the secondary
- * control adds this business to it, so contacting from here no longer wipes an
- * earlier selection — see `EnquiryShortlist`.
+ * So this card has exactly two states:
+ *
+ * - **withheld** (the default) — the anonymous name, a lock and an explanation
+ *   of what unlocks it. No channel is rendered, and the server DTO carries no
+ *   channel values to render (see `publicListingDetail`).
+ * - **unlocked** — the real name and whichever channels the business chose to
+ *   publish. A phone number is shown as plain text, never a `tel:` action, so it
+ *   stays available without becoming the path of least resistance.
+ *
+ * A `null` channel is never invented: when every channel is withheld, or the
+ * visitor has not enquired yet, the DTO's message explains why.
  */
 export function ListingContactCard({
   contact,
   listingName,
-  enquiryHref,
+  hidden,
   footnote,
 }: ListingContactCardProps) {
   const hasChannel = Boolean(contact.phone || contact.email || contact.whatsapp || contact.website);
-  const slug = shortlistSlugFrom(enquiryHref);
 
   return (
     <Surface tone="raised" padding="md" elevated className={classes.card}>
-      <h2 className={classes.heading}>Contact {listingName}</h2>
-
-      <p className={classes.lede}>
-        Send one enquiry and the business replies to you directly. Your details are shared only with
-        the businesses you choose.
-      </p>
-
-      {slug ? (
-        <EnquirySubmitButton slug={slug} />
+      {hidden ? (
+        <>
+          <h2 className={classes.heading}>
+            <IconLock size="1rem" stroke={1.5} aria-hidden /> Name &amp; contact details
+          </h2>
+          <p className={classes.lede}>They appear here as soon as you send the enquiry below.</p>
+        </>
       ) : (
-        <Button
-          component={Link}
-          href={enquiryHref}
-          fullWidth
-          leftSection={<IconSend size="1rem" stroke={1.5} aria-hidden />}
-        >
-          Send an enquiry
-        </Button>
+        <h2 className={classes.heading}>Contact {listingName}</h2>
       )}
-
-      {/* Adding from here no longer replaces an earlier selection: the shortlist
-          is carried into the enquiry link above. */}
-      {slug ? <AddToEnquiryButton slug={slug} name={listingName} /> : null}
 
       {footnote ? <p className={classes.footnote}>{footnote}</p> : null}
 
-      {contact.message ? <p className={classes.message}>{contact.message}</p> : null}
+      {contact.message && !hidden ? <p className={classes.message}>{contact.message}</p> : null}
 
       {hasChannel ? (
         <dl className={classes.channels}>
@@ -142,6 +116,8 @@ export function ListingContactCard({
             </div>
           ) : null}
         </dl>
+      ) : !hidden ? (
+        <p className={classes.message}>{contact.message ?? 'No contact channels published.'}</p>
       ) : null}
     </Surface>
   );

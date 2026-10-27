@@ -8,7 +8,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
-# Live Envt — engineering notes
+# Life Events — engineering notes
 
 A two-sided marketplace for wedding and event vendors in India, with published prices.
 The public side browses vendors by category and city, shows a vendor profile, sends an
@@ -159,8 +159,10 @@ Commit subjects use conventional prefixes (`feat(scope):`, `fix(scope):`, `docs(
   inline often will not override `.env`.
 - The dev database is `liveenvt_dev`. `psql` rejects a Prisma URL containing
   `?schema=public` with `invalid URI query parameter: "schema"` — strip that parameter.
-- Image work runs on macOS built-ins: `sips`, `jq`, `curl`, `tsx`, or a small HTML page
-  driven by Playwright. There is no ImageMagick and no Python imaging library.
+- Image work runs on macOS built-ins (`sips`, `jq`, `curl`), `tsx`, a small HTML page
+  driven by Playwright, or the bundled Python (Pillow) returned by
+  `load_workspace_dependencies` — use that for keying, cropping and resizing brand
+  assets. There is no ImageMagick.
 - `prisma generate` must run before typecheck after a schema change, because
   `src/generated` is gitignored.
 

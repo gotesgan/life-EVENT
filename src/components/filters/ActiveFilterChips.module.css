@@ -33,7 +33,7 @@
   color: var(--app-text);
   font-family: inherit;
   font-size: var(--text-label-size);
-  font-weight: 650;
+  font-weight: 600;
   line-height: 1;
   cursor: pointer;
   transition:

@@ -3,3 +3,12 @@
   align-items: center;
   gap: var(--mantine-spacing-xs);
 }
+
+/*
+ * The signed-in header has no room for a first name beside seven nav sections.
+ * The action is the icon (with the accessible name "Your account"); the name is
+ * shown on the account page itself.
+ */
+.name {
+  display: none;
+}

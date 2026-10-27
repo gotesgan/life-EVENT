@@ -10,6 +10,8 @@ import {
   IconBuildingStore,
   IconCalendarEvent,
   IconCategory,
+  IconChartBar,
+  IconSettings,
   IconExternalLink,
   IconInbox,
   IconLayoutDashboard,
@@ -17,9 +19,11 @@ import {
   IconShieldCheck,
   IconSofa,
   IconTags,
+  IconUserPlus,
   IconUsers,
 } from '@tabler/icons-react';
 import { BrandMark, ThemeToggle } from '@/components/ui';
+import { TourHost } from '@/components/tour/TourHost';
 import classes from './AdminShell.module.css';
 
 /** The topbar is a single dense line: enough for orientation, not a banner. */
@@ -47,7 +51,14 @@ const PRIMARY_NAV: NavItem[] = [
     icon: <IconInbox size={18} stroke={1.5} />,
     badge: 'inbox',
   },
+  {
+    href: '/admin/vendor-applications',
+    label: 'Vendor applications',
+    icon: <IconUserPlus size={18} stroke={1.5} />,
+  },
   { href: '/admin/customers', label: 'Customers', icon: <IconUsers size={18} stroke={1.5} /> },
+  { href: '/admin/reports', label: 'Reports', icon: <IconChartBar size={18} stroke={1.5} /> },
+  { href: '/admin/settings', label: 'Settings', icon: <IconSettings size={18} stroke={1.5} /> },
 ];
 
 const CATALOGUE_NAV: NavItem[] = [
@@ -252,6 +263,9 @@ export function AdminShell({ children, actorName, newEnquiryCount }: AdminShellP
       <AppShell.Main className={classes.main}>
         <div className={classes.mainInner}>{children}</div>
       </AppShell.Main>
+
+      {/* Lives in the shell, so one tour can cross admin routes without unmounting. */}
+      <TourHost />
     </AppShell>
   );
 }

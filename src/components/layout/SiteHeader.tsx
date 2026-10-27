@@ -62,6 +62,14 @@ export function SiteHeader() {
               </Link>
             </li>
             <li>
+              {/* The supply-side entry point, deliberately beside the
+                  demand-side one: a vendor looking at the marketplace should not
+                  have to hunt for how to join it. */}
+              <Link href="/partner-with-us" className={classes.utilityLink}>
+                List your business
+              </Link>
+            </li>
+            <li>
               <Link href="/contact" className={classes.utilityLink}>
                 Contact us
               </Link>
@@ -77,7 +85,7 @@ export function SiteHeader() {
             <MobileNav />
           </div>
 
-          <Link href="/" className={classes.brand} aria-label="Live Envt — home">
+          <Link href="/" className={classes.brand} aria-label="Life Events — home">
             <BrandMark size="md" />
           </Link>
 
@@ -93,13 +101,26 @@ export function SiteHeader() {
           </Suspense>
 
           <div className={classes.actions}>
-            <Link href="/vendors" className={classes.iconAction} aria-label="Search vendors">
+            <Link
+              href="/vendors"
+              className={`${classes.iconAction} ${classes.searchAction}`}
+              aria-label="Search vendors"
+              title="Search vendors"
+            >
               <IconSearch size="1.125rem" stroke={1.5} aria-hidden />
             </Link>
             <ThemeToggle className={classes.iconAction} />
-            <Suspense fallback={<HeaderAccountFallback />}>
-              <HeaderAccount />
-            </Suspense>
+            {/*
+             * Below `lg` the bottom quick-action bar owns the account entry, so
+             * the header does not repeat the same "Sign in" control two hundred
+             * pixels apart. Hidden rather than duplicated; the tab bar keeps the
+             * account reachable and labelled.
+             */}
+            <div className={classes.accountSlot}>
+              <Suspense fallback={<HeaderAccountFallback />}>
+                <HeaderAccount />
+              </Suspense>
+            </div>
           </div>
         </Container>
       </div>

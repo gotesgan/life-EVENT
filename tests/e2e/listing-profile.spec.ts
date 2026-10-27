@@ -4,9 +4,9 @@ import { SEEDED_CUSTOMER, expectNoErrorBoundary, signInAs } from './helpers';
 /**
  * Listing profile journeys.
  *
- * Selectors are taken from the real components rather than invented: the page
- * heading is the business name, the enquiry call to action is a link into
- * `/enquire`, and the price treatment comes from `PriceTag`.
+ * Selectors are taken from the real components rather than invented. The page
+ * heading shows the anonymous identity until the visitor enquires — the
+ * trading name is withheld by design — and the enquiry form sits in the rail.
  */
 
 const PUBLISHED_SLUG = 'gulmohar-banjara-banquets';
@@ -18,7 +18,8 @@ test.describe('listing profile', () => {
     await expect(firstCardLink).toBeVisible();
     await firstCardLink.click();
 
-    await expect(page).toHaveURL(/\/vendors\/[a-z0-9-]+$/);
+    // Public links carry an opaque `ul_` reference, never the name-bearing slug.
+    await expect(page).toHaveURL(/\/vendors\/ul_[a-z0-9]+$/);
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
     await expectNoErrorBoundary(page);
   });
@@ -26,7 +27,10 @@ test.describe('listing profile', () => {
   test('renders the business details from a direct URL', async ({ page }) => {
     await page.goto(`/vendors/${PUBLISHED_SLUG}`);
 
-    await expect(page.getByRole('heading', { level: 1 })).toContainText(/gulmohar/i);
+    // Identity is withheld until an enquiry: the heading names the category and
+    // locality, never the business.
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(/banquet hall/i);
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(/andheri east/i);
     await expect(page.getByRole('heading', { name: /about this business/i })).toBeVisible();
     await expect(page.getByRole('heading', { name: /services/i })).toBeVisible();
     await expectNoErrorBoundary(page);
@@ -37,9 +41,9 @@ test.describe('listing profile', () => {
 
     // Wait for the streamed profile header before reading the page text; the
     // sticky enquiry rail is in the static shell and would resolve too early.
-    await expect(page.getByRole('heading', { level: 1, name: /gulmohar/i })).toBeVisible({
-      timeout: 30_000,
-    });
+    await expect(
+      page.getByRole('heading', { level: 1, name: /banquet hall in andheri east/i }),
+    ).toBeVisible({ timeout: 30_000 });
 
     const body = await page.locator('body').innerText();
 
@@ -67,7 +71,7 @@ test.describe('listing profile', () => {
       // A 10-digit run shown as plain text is the failure mode this guards
       // against: contact details must go through an enquiry, not the page copy.
       const plainPhone = /(?:\+91[\s-]?)?\b9\d{4}[\s-]?\d{5}\b/.test(body);
-      const hasEnquiryCta = /send an enquiry/i.test(body);
+      const hasEnquiryCta = /send an enquiry|view & enquire/i.test(body);
       expect(plainPhone && !hasEnquiryCta).toBe(false);
     }
   });

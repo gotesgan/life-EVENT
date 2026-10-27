@@ -31,7 +31,7 @@
 
 .count {
   font-size: var(--text-caption-size);
-  font-weight: 550;
+  font-weight: 500;
   color: var(--app-text-muted);
   /* The numbers in the count are the point of the line, so they line up with
      every other figure in the panel. */

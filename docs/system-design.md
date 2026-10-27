@@ -1,4 +1,4 @@
-# System Design — Live Envt
+# System Design — Life Events
 
 A multi-category wedding and event business **discovery and lead-generation** platform.
 

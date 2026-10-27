@@ -57,7 +57,7 @@
   background-color: var(--app-surface-raised);
   color: var(--app-text);
   font-size: var(--text-secondary-size);
-  font-weight: 550;
+  font-weight: 500;
   text-decoration: none;
   transition:
     border-color var(--app-duration-micro) var(--app-ease-out),

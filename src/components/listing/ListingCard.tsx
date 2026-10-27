@@ -1,7 +1,9 @@
 import Link from 'next/link';
+import { IconArrowRight, IconLock } from '@tabler/icons-react';
 import { PriceTag } from '@/components/ui/PriceTag';
+import { listingRef } from '@/lib/public-listing-ref';
 import type { ListingCard as ListingCardDto } from '@/server/dto/listing.dto';
-import { AddToEnquiryButton, EnquirySubmitLink } from './EnquiryShortlist';
+import { EnquiryModal } from '@/components/enquiry/EnquiryModal';
 import { ListingMedia } from './ListingMedia';
 import { TopPickBadge } from './TopPickBadge';
 import classes from './ListingCard.module.css';
@@ -25,12 +27,6 @@ export interface ListingCardProps {
  *   1. a published price (`priceMin`/`priceMax` from a real package);
  *   2. capacity (`capacityMin`/`capacityMax`);
  *   3. the designed "Price on request" state.
- *
- * Rungs 3–6 of the guide's ladder (service-area breadth, years in business,
- * measured response time, listed recency) need fields the card DTO does not
- * carry yet, so they cannot be rendered here without inventing a claim. When
- * they are added to `ListingCard`, they slot in between capacity and the
- * fallback and no surface has to change.
  *
  * The function is deliberately total: it never returns `₹0`, an empty string or
  * `N/A`. A zero or missing price falls through rather than rendering.
@@ -57,24 +53,34 @@ export function resolveListingAnchor(listing: ListingCardDto): ListingAnchor {
 /**
  * The one listing card.
  *
- * The anatomy is fixed (guide §1.5): 3:2 media, a two-line title with its box
- * reserved, two one-line meta rows, the anchor slot, a hairline and a single
- * full-width action. Reserved heights are what keep the anchor row on a common
- * baseline down a column of tiles; without them a long title pushes one card's
- * number below its neighbour's and the grid stops reading as a table.
+ * The anatomy is a fixed stack, top to bottom: 3:2 media with its overlay chips,
+ * a title box reserved for two lines, one identity line, one quiet line of
+ * supporting copy, the anchor slot, and a hairline above a single action pinned
+ * to the bottom. The reserved boxes are what keep the price on the same baseline
+ * down a column of tiles — without them a long title pushes one card's number
+ * below its neighbour's and the grid stops reading as a table.
  *
- * The card is one link: the title carries a stretched `::after` that covers the
- * whole card, so a click anywhere (including the media) opens the profile. The
- * shortlist toggle and the enquiry action sit above it, each with its own
- * accessible name.
- *
- * The title stays an `<h3>`: the E2E suite reads a card's name from it.
+ * **Identity.** While a listing's name is withheld, the title is the anonymous
+ * stand-in ("Banquet hall in Andheri East") and the identity line explains how
+ * to unlock it. The real name is not rendered, not serialised into the RSC
+ * payload, and not put in the URL — the link carries an opaque `ul_` reference
+ * instead (see `src/lib/public-listing-ref.ts`). The whole card remains one
+ * link; the action at the foot is the visible affordance for the same
+ * destination.
  */
 export function ListingCard({ listing, preloadImage = false }: ListingCardProps) {
-  const href = `/vendors/${listing.slug}`;
+  const href = `/vendors/${listingRef(listing.id)}`;
   const anchor = resolveListingAnchor(listing);
+  const hidden = listing.isNameHidden === true;
 
-  const metaLine = [listing.category?.name, listing.location?.name].filter(Boolean).join(' · ');
+  const identityLine = hidden
+    ? 'Name shown after enquiry'
+    : [listing.category?.name, listing.location?.name].filter(Boolean).join(' · ');
+
+  // One quiet line of supporting copy, never a clamped list of chips: the card
+  // is a scanning surface, and two highlights in a single line was what forced
+  // the old card to truncate its own content row.
+  const supportingLine = listing.tagline ?? listing.highlights[0]?.value ?? null;
 
   return (
     <article className={classes.card}>
@@ -86,64 +92,67 @@ export function ListingCard({ listing, preloadImage = false }: ListingCardProps)
           sizes="(max-width: 48em) 100vw, (max-width: 75em) 45vw, 360px"
         />
 
-        {listing.isFeatured ? <span className={classes.ribbon}>Featured</span> : null}
+        {listing.isFeatured ? (
+          <span className={classes.featuredSlot}>
+            <span className={classes.ribbon}>Featured</span>
+          </span>
+        ) : null}
+
+        <span className={classes.pickSlot}>
+          <TopPickBadge isVerified={listing.isVerified} />
+        </span>
 
         {listing.galleryCount > 1 ? (
           <span className={classes.photoCount}>{listing.galleryCount} photos</span>
         ) : null}
-
-        <span className={classes.shortlistSlot}>
-          <AddToEnquiryButton slug={listing.slug} name={listing.name} compact />
-        </span>
       </div>
 
       <div className={classes.body}>
         <h3 className={classes.title}>
           <Link className={classes.titleLink} href={href}>
-            {listing.name}
+            {hidden ? (
+              <span className={classes.maskedTitle}>
+                <IconLock className={classes.lockIcon} size="0.875rem" stroke={1.6} aria-hidden />
+                {listing.name}
+              </span>
+            ) : (
+              listing.name
+            )}
           </Link>
         </h3>
 
-        <div className={classes.metaRow}>
-          {metaLine ? <span className={classes.metaText}>{metaLine}</span> : null}
-          <span className={classes.badgeSlot}>
-            <TopPickBadge isVerified={listing.isVerified} />
-          </span>
-        </div>
+        {identityLine ? <p className={classes.identity}>{identityLine}</p> : null}
 
-        <div className={classes.metaRow}>
-          {listing.highlights.length > 0 ? (
-            <ul className={classes.highlights}>
-              {listing.highlights.slice(0, 2).map((highlight) => (
-                <li key={highlight.code} className={classes.highlight}>
-                  {/* The label is the accessible half of the pair: a chip reading
-                      "Candid, Documentary" is clear, but "8 hours" is not. */}
-                  <span className="visually-hidden">{highlight.label}: </span>
-                  {highlight.value}
-                </li>
-              ))}
-            </ul>
-          ) : listing.tagline ? (
-            <span className={classes.metaText}>{listing.tagline}</span>
-          ) : null}
-        </div>
+        {supportingLine ? <p className={classes.supporting}>{supportingLine}</p> : null}
 
         <div className={classes.anchorRow}>
-          {anchor.kind === 'onRequest' ? (
-            <PriceTag priceMin={null} priceMax={null} size="md" onRequestLabel="Price on request" />
-          ) : (
+          {anchor.kind === 'price' ? (
+            <PriceTag
+              priceMin={listing.priceMin}
+              priceMax={listing.priceMax}
+              priceUnit={listing.priceUnit}
+              size="md"
+              stack
+            />
+          ) : anchor.kind === 'capacity' ? (
             <span className={classes.anchorValue}>{anchor.text}</span>
+          ) : (
+            <PriceTag priceMin={null} priceMax={null} size="md" onRequestLabel="Price on request" />
           )}
         </div>
 
-        <hr className={classes.divider} />
-
-        <div className={classes.actions}>
-          <EnquirySubmitLink
-            slug={listing.slug}
-            name={listing.name}
-            className={classes.action}
-            iconClassName={classes.actionIcon}
+        <div className={classes.footer}>
+          <Link className={classes.action} href={href}>
+            <span>View details</span>
+            <IconArrowRight className={classes.actionIcon} size="1rem" stroke={1.8} aria-hidden />
+          </Link>
+          <EnquiryModal
+            listingRef={listingRef(listing.id)}
+            hidden={hidden}
+            triggerLabel="Enquire"
+            triggerVariant="secondary"
+            triggerSize="sm"
+            triggerClassName={classes.footerEnquire}
           />
         </div>
       </div>

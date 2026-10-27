@@ -16,6 +16,7 @@ import { NotFoundError } from '@/lib/errors';
 import { searchQuerySchema } from '@/lib/validation/search';
 import { listCategories, resolveLocationOrThrow } from '@/server/services/catalog.service';
 import { searchPublicListings } from '@/server/services/search.service';
+import { getRevealedSlugs, publicListingCards } from '@/lib/listing-privacy';
 
 /**
  * Location landing page.
@@ -84,7 +85,8 @@ async function CityLanding({ slug }: { slug: string }) {
     sort: 'recommended',
   });
 
-  const [results, categories] = await Promise.all([
+  const revealed = await getRevealedSlugs();
+  const [rawResults, categories] = await Promise.all([
     searchPublicListings({
       query,
       rawParams: { location: location.slug },
@@ -92,6 +94,10 @@ async function CityLanding({ slug }: { slug: string }) {
     }),
     listCategories(),
   ]);
+  const results = {
+    ...rawResults,
+    cards: publicListingCards(rawResults.cards, revealed),
+  };
 
   // Only categories that actually have published listings in this city, so the
   // page never links to an empty combination.
@@ -127,6 +133,7 @@ async function CityLanding({ slug }: { slug: string }) {
                 name={category.name}
                 shortDescription={category.shortDescription}
                 listingCount={category.listingCount}
+                imageUrl={category.heroImageUrl}
                 href={`/vendors?category=${category.slug}&location=${location.slug}`}
               />
             ))}

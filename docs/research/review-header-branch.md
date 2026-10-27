@@ -239,7 +239,7 @@ none is `white`, and none removes focus:**
 | ----------------------------------------- | -------------------------- | ---------------------------- |
 | utility `Track an enquiry` / `Contact us` | `2px solid rgb(214,0,110)` | `2px solid rgb(248,127,174)` |
 | Burger (`Open navigation menu`, 390 only) | `2px solid rgb(214,0,110)` | `2px solid rgb(248,127,174)` |
-| brand link `Live Envt — home`             | `2px solid rgb(214,0,110)` | `2px solid rgb(248,127,174)` |
+| brand link `Life Events — home`           | `2px solid rgb(214,0,110)` | `2px solid rgb(248,127,174)` |
 | nav links (all 6, `outline-offset: -2px`) | `2px solid rgb(214,0,110)` | `2px solid rgb(248,127,174)` |
 | search link `Search vendors`              | `2px solid rgb(214,0,110)` | `2px solid rgb(248,127,174)` |
 | theme toggle `Switch to dark theme`       | `2px solid rgb(214,0,110)` | `2px solid rgb(248,127,174)` |
@@ -277,7 +277,7 @@ definition rather than a header-local one. This is a genuine de-duplication.
 **Nothing semantic removed.** Landmarks present after the change on every page I
 loaded: `HEADER`, `NAV[aria-label="Primary"]`, `MAIN`, `a[href="#main-content"]`
 (skip link). Icon-only controls keep their names: `Open navigation menu`,
-`Live Envt — home`, `Search vendors`, `Switch to dark theme`/`Switch to light theme`.
+`Life Events — home`, `Search vendors`, `Switch to dark theme`/`Switch to light theme`.
 The CSS-only diff cannot remove roles and the TSX diff touched only `variant`.
 
 **No horizontal overflow.** `document.documentElement.scrollWidth − clientWidth`

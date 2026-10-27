@@ -4,7 +4,7 @@ import { Button, Drawer, ScrollArea } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { IconAdjustmentsHorizontal } from '@tabler/icons-react';
 import { clearAllFilters } from '@/lib/filter-state';
-import { FilterPanel, type FilterFacets } from './FilterPanel';
+import { FilterPanel, type FilterBounds, type FilterFacets } from './FilterPanel';
 import { useFilterNavigation } from './useFilterNavigation';
 import type { FilterDefinition } from '@/server/domain/search-filters';
 import classes from './MobileFilterDrawer.module.css';
@@ -16,6 +16,8 @@ export interface MobileFilterDrawerProps {
   activeFilterCount: number;
   /** The exact number the results header shows, so the button cannot lie. */
   resultCount: number;
+  /** Catalogue envelope for the budget and capacity range inputs. */
+  bounds?: FilterBounds;
 }
 
 /**
@@ -32,6 +34,7 @@ export function MobileFilterDrawer({
   categoryName,
   activeFilterCount,
   resultCount,
+  bounds,
 }: MobileFilterDrawerProps) {
   const [opened, { open, close }] = useDisclosure(false);
   const nav = useFilterNavigation();
@@ -65,6 +68,7 @@ export function MobileFilterDrawer({
         <FilterPanel
           facets={facets}
           definitions={definitions}
+          bounds={bounds}
           categoryName={categoryName}
           idPrefix="drawer"
           flush

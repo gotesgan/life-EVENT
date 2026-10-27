@@ -42,6 +42,12 @@ export interface SurfaceProps {
   as?: SurfaceElement;
   className?: string;
   id?: string;
+  /**
+   * Optional `data-tour` anchor for the guided tours. Surfaces do not spread
+   * arbitrary props by design, so the one attribute the product needs to address
+   * a panel from outside is declared explicitly.
+   */
+  'data-tour'?: string;
 }
 
 /**
@@ -63,12 +69,14 @@ export function Surface({
   as,
   className,
   id,
+  'data-tour': dataTour,
 }: SurfaceProps) {
   return (
     <Paper
       unstyled
       component={as}
       id={id}
+      data-tour={dataTour}
       className={cx(
         classes.root,
         classes[`tone-${tone}`],

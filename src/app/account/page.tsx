@@ -7,6 +7,7 @@ import { AccountNav } from '@/components/account/AccountNav';
 import { EnquiryStatusBadge } from '@/components/account/EnquiryStatusBadge';
 import { contactMethodLabel } from '@/components/account/contact-method';
 import { SiteShell } from '@/components/layout/SiteShell';
+import { SignOutButton } from '@/components/layout/SignOutButton';
 import { ClientLink, Container, EmptyState, PageHeader, Surface, cx } from '@/components/ui';
 import { getCurrentActor } from '@/lib/auth/actor';
 import { formatDate, pluralise } from '@/lib/format';
@@ -63,6 +64,7 @@ export default async function AccountOverviewPage() {
         <PageHeader
           title={`Hello, ${firstName}`}
           description="Everything you have sent us, and every detail we hold about your account, in one place."
+          actions={<SignOutButton showLabel />}
         />
 
         <AccountNav active="overview" />

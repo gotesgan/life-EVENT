@@ -1,4 +1,4 @@
-# Frontend adversarial review — Live Envt
+# Frontend adversarial review — Life Events
 
 Reviewer: `reviewer-frontend` (shared task `task-2`). Scope: `src/app/**` (public + admin), `src/components/**`, `src/lib/filter-state.ts`, `src/theme/**`, and the Server/Client boundary between them. Write scope: this file only.
 

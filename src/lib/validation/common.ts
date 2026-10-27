@@ -27,7 +27,10 @@ export const emailSchema = z
 export const phoneSchema = z
   .string()
   .trim()
-  .min(8)
+  // The length floor and the digit-count refine say the same thing to a visitor;
+  // without this message Zod's default ("Too small: expected string to have >=8
+  // characters") leaks into the form for a short number.
+  .min(8, { message: 'Enter a phone number with at least 10 digits' })
   .max(24)
   .refine((value) => value.replace(/\D/g, '').length >= 10, {
     message: 'Enter a phone number with at least 10 digits',

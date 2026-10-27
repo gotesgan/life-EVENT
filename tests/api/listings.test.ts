@@ -11,7 +11,7 @@ import {
 } from './api-helpers';
 
 interface SearchBody {
-  cards: Array<{ slug: string; isVerified: boolean; name: string }>;
+  cards: Array<{ slug: string; isVerified: boolean; name: string; isNameHidden?: boolean }>;
   pagination: {
     page: number;
     pageSize: number;
@@ -53,15 +53,56 @@ describe('GET /api/listings', () => {
     const { status, body } = await search('?pageSize=48');
     expect(status).toBe(200);
     expect(body.pagination.totalItems).toBe(publishedSlugs.size);
+    expect(body.cards).toHaveLength(publishedSlugs.size);
+  });
+
+  /**
+   * The enquiry gate, asserted at the API boundary.
+   *
+   * An anonymous client must receive the anonymous identity: no trading name and
+   * no name-bearing slug. The site's own forms post the opaque `ul_` reference,
+   * so that is the identifier these payloads carry until the reveal cookie is
+   * present.
+   */
+  it('masks a listing identity until the reveal cookie is present', async () => {
+    const { status, body } = await search('?pageSize=48');
+    expect(status).toBe(200);
 
     for (const card of body.cards) {
-      expect(publishedSlugs.has(card.slug)).toBe(true);
+      expect(card.isNameHidden).toBe(true);
+      expect(card.slug).toMatch(/^ul_[a-z0-9]+$/);
+      // A masked card's name is a category + locality label, never a trade name.
+      expect(card.name).not.toContain('Gulmohar');
+      expect(card.name).not.toContain('Sandalwood');
     }
+  });
 
-    const slugs = body.cards.map((card) => card.slug);
-    expect(slugs).toContain(SEEDED_LISTINGS.published);
-    expect(slugs).not.toContain(SEEDED_LISTINGS.draft);
-    expect(slugs).not.toContain(SEEDED_LISTINGS.unpublished);
+  it('exposes the real identity once the visitor has enquired', async () => {
+    const { prisma } = await import('@/lib/db');
+    const listing = await prisma.businessListing.findUniqueOrThrow({
+      where: { slug: SEEDED_LISTINGS.published },
+      select: { slug: true, name: true },
+    });
+
+    const { sealRevealedSlugs, REVEAL_COOKIE } = await import('@/lib/listing-privacy');
+    const response = await listListings(
+      makeRequest(`/api/listings?pageSize=48`, {
+        headers: { cookie: `${REVEAL_COOKIE}=${sealRevealedSlugs([listing.slug])}` },
+      }),
+      routeContext({}),
+    );
+    const body = await readJson<SearchBody>(response);
+    const revealed = body.cards.find((card) => card.slug === listing.slug);
+
+    expect(revealed, 'the revealed listing should be addressable by its real slug').toBeTruthy();
+    expect(revealed?.name).toBe(listing.name);
+
+    // Every other card stays masked, so the unlock is per-listing rather than a
+    // global "this visitor may see all names" switch.
+    for (const card of body.cards) {
+      if (card.slug === listing.slug) continue;
+      expect(card.isNameHidden).toBe(true);
+    }
   });
 
   it('narrows results when filters are combined', async () => {

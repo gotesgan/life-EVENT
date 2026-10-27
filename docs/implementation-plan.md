@@ -1,4 +1,4 @@
-# Implementation Plan — Live Envt
+# Implementation Plan — Life Events
 
 Status: **Accepted** · Last updated: 2026-10-14 · Owner: Lead engineer
 Companion documents: [system-design](./system-design.md), [technology-decisions](./technology-decisions.md),

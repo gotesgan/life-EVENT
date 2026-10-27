@@ -25,9 +25,16 @@
   }
 }
 
+/*
+ * Four tabs fill the bar evenly.
+ *
+ * This was a five-column grid with four children, which left an empty fifth
+ * column on the right: every tab sat one column to the left and the account tab
+ * was not flush with the edge. A flex row with equal-basis items adapts to the
+ * actual number of tabs instead of encoding a count in two places.
+ */
 .list {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  display: flex;
   max-width: var(--app-max-width);
   margin-inline: auto;
   margin-block: 0;
@@ -36,6 +43,7 @@
 }
 
 .item {
+  flex: 1 1 0;
   min-width: 0;
 }
 

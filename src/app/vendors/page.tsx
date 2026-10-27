@@ -23,6 +23,7 @@ import { AppError } from '@/lib/errors';
 import { pluralise } from '@/lib/format';
 import { searchQuerySchema } from '@/lib/validation/search';
 import {
+  getCatalogBounds,
   getFilterDefinitionsForCategory,
   listAmenities,
   listCategories,
@@ -30,6 +31,7 @@ import {
   listLocations,
 } from '@/server/services/catalog.service';
 import { searchPublicListings } from '@/server/services/search.service';
+import { getRevealedSlugs, publicListingCards } from '@/lib/listing-privacy';
 import classes from './page.module.css';
 
 export const metadata: Metadata = {
@@ -106,11 +108,12 @@ async function SearchResults({ rawParams }: { rawParams: RawSearchParams }) {
     throw error;
   }
 
-  const [categories, cities, eventTypes, amenities] = await Promise.all([
+  const [categories, cities, eventTypes, amenities, bounds] = await Promise.all([
     listCategories(),
     listLocations({ type: 'CITY' }),
     listEventTypes(),
     listAmenities(),
+    getCatalogBounds(),
   ]);
 
   // Category attribute filters only exist for the active category; with no
@@ -136,12 +139,17 @@ async function SearchResults({ rawParams }: { rawParams: RawSearchParams }) {
   const from = pagination.totalItems === 0 ? 0 : (pagination.page - 1) * pagination.pageSize + 1;
   const to = Math.min(pagination.page * pagination.pageSize, pagination.totalItems);
 
+  // Identity is masked here, on the server, so an unrevealed visitor's payload
+  // never contains a trading name (see `src/lib/listing-privacy.ts`).
+  const revealed = await getRevealedSlugs();
+  const cards = publicListingCards(result.cards, revealed);
+
   const clearHref = `/vendors${buildQuery(clearAllFilters(normalised, { keep: ['category'] }))}`;
 
   const title = context.category ? context.category.name : 'Wedding and event vendors';
   const description = context.category
-    ? `Every published ${context.category.name.toLowerCase()} listing, filtered and sorted in one place.`
-    : 'Browse every published business. Use the filters to narrow by category, city, event type, budget or guest count.';
+    ? `Every published ${context.category.name.toLowerCase()} listing, filtered and sorted in one place. Names unlock when you enquire.`
+    : 'Browse every published business. Names stay private until you enquire — open any listing to see its prices, capacity and facilities.';
 
   return (
     <>
@@ -166,6 +174,7 @@ async function SearchResults({ rawParams }: { rawParams: RawSearchParams }) {
             definitions={definitions}
             categoryName={context.category?.name ?? null}
             idPrefix="sidebar"
+            bounds={bounds}
           />
         </aside>
 
@@ -178,6 +187,7 @@ async function SearchResults({ rawParams }: { rawParams: RawSearchParams }) {
               categoryName={context.category?.name ?? null}
               activeFilterCount={activeFilterCount}
               resultCount={pagination.totalItems}
+              bounds={bounds}
             />
             <ActiveFilterChips
               appliedFilters={appliedFilters}
@@ -201,8 +211,8 @@ async function SearchResults({ rawParams }: { rawParams: RawSearchParams }) {
             <SortSelect value={context.sort} />
           </div>
 
-          {result.cards.length > 0 ? (
-            <ListingGrid listings={result.cards} label="Search results" />
+          {cards.length > 0 ? (
+            <ListingGrid listings={cards} label="Search results" />
           ) : (
             <div className={classes.stateBlock}>
               <EmptyState

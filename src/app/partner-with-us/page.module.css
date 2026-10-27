@@ -1,0 +1,169 @@
+/*
+ * The vendor registration page.
+ *
+ * Two equal-height panels rather than a loose column beside a card. The pitch
+ * gets its own muted panel so both columns share:
+ *
+ *   - one top edge (their first lines sit on the same baseline),
+ *   - one inner inset (both use `pad-lg`),
+ *   - one bottom edge (the steps block is pinned to the foot of its panel).
+ *
+ * The form is the primary object, so its panel is raised; the pitch panel is
+ * muted and flat so the two do not compete.
+ */
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: rem(24px);
+  /* Panels stretch to the taller column instead of each ending at its own
+     content, which is what makes the bottom edges line up. */
+  align-items: stretch;
+
+  @mixin larger-than $mantine-breakpoint-md {
+    grid-template-columns: minmax(0, 1fr) rem(420px);
+    gap: rem(32px);
+  }
+}
+
+.pitchCard,
+.formCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.pitchCard {
+  gap: rem(20px);
+}
+
+.formCard {
+  scroll-margin-top: calc(var(--app-header-height) + rem(16px));
+}
+
+/* One heading style for both columns, so "Why list with us" and "Register your
+   business" start at the same size and on the same line. */
+.panelTitle {
+  margin: 0;
+  font-size: var(--text-h3-size);
+  font-weight: var(--text-h3-weight);
+  line-height: var(--text-h3-leading);
+  letter-spacing: var(--text-h3-tracking);
+}
+
+.panelLede {
+  margin: rem(8px) 0 rem(20px);
+  max-width: 46ch;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.reasons {
+  display: flex;
+  flex-direction: column;
+  gap: rem(20px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reason {
+  display: flex;
+  align-items: flex-start;
+  gap: rem(12px);
+}
+
+/* 22px mark against a 22px first line, with no offset, so the tick sits on the
+   same optical line as the title beside it. */
+.reasonIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: rem(22px);
+  height: rem(22px);
+  margin-top: 0;
+  border-radius: 50%;
+  background-color: var(--app-success-soft);
+  color: var(--app-success-soft-text);
+}
+
+.reasonTitle {
+  margin: 0 0 rem(2px);
+  font-size: var(--text-card-title-size);
+  font-weight: var(--text-card-title-weight);
+  line-height: var(--text-card-title-leading);
+  letter-spacing: var(--text-card-title-tracking);
+}
+
+.reasonBody {
+  margin: 0;
+  max-width: 52ch;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+/* The catalogue families, kept as prose rather than chips: this panel answers
+   "is this for a business like mine?" without becoming a second navigation
+   surface. */
+.whoTitle {
+  margin: 0 0 rem(6px);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: var(--text-label-leading);
+}
+
+.whoBody {
+  margin: 0;
+  max-width: 60ch;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+/* Pinned to the foot of the panel: the auto margin absorbs whatever height the
+   form panel adds, so both panels end on the same line. The divider replaces a
+   nested surface — a card inside a card reads as two objects, not one panel. */
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: rem(10px);
+  margin-top: auto;
+  padding-top: rem(20px);
+  border-top: 1px solid var(--app-border);
+}
+
+.stepsTitle {
+  margin: 0;
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: var(--text-label-leading);
+}
+
+.stepList {
+  display: flex;
+  flex-direction: column;
+  gap: rem(6px);
+  margin: 0;
+  padding-inline-start: rem(18px);
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.formSkeleton {
+  display: flex;
+  flex-direction: column;
+  gap: rem(14px);
+}
+
+.skeletonRow {
+  height: rem(56px);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-surface-muted);
+}
+
+/* The guided-tour launcher sits under the form's lede, above the fields. */
+.tourLaunch {
+  margin-block: rem(-6px) rem(14px);
+}

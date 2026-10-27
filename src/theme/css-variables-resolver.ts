@@ -10,7 +10,7 @@
  *
  * Beyond the `--app-*` tokens this file does two things deliberately:
  *
- * 1. remaps Mantine's cool `gray` ramp to the `slate` ramp, so neutrals
+ * 1. remaps Mantine's cool `gray` ramp to the warm `stone` ramp, so neutrals
  *    inside Mantine components (skeletons, table borders, dividers) match the
  *    surfaces they sit on;
  * 2. repoints Mantine's own semantic variables (`--mantine-color-body`,
@@ -59,7 +59,7 @@ export const cssVariablesResolver: CSSVariablesResolver = () => ({
 
     /* Mantine derives the dark `light` variant by darkening shade 9 by 50%,
        which for the charcoal ramp is a near-black chip on a near-black canvas.
-       Replace it with a real, desaturated slate tint and keep the chip label
+       Replace it with a real, desaturated stone tint and keep the chip label
        light enough to read on it. */
     '--mantine-color-brand-light': 'var(--app-brand-soft)',
     '--mantine-color-brand-light-hover': 'var(--app-brand-soft-hover)',

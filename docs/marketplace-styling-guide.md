@@ -1,6 +1,6 @@
 # Marketplace Styling Guide
 
-**Derived from Amazon, Flipkart and Myntra — applied to Live Envt**
+**Derived from Amazon, Flipkart and Myntra — applied to Life Events**
 
 Status: **guidance for engineers** · Audience: anyone writing a component in
 `src/components/**` or `src/app/**` · Companion to [`docs/design-system.md`](./design-system.md),
@@ -8,7 +8,13 @@ which documents what is _already implemented_. This file documents the _structur
 implementation should follow, and the reasoning behind them.
 
 Stack assumptions: Next.js App Router, Mantine 9, CSS Modules, design tokens in
-`src/theme/tokens.ts`. One font family: **Manrope**. Light and dark themes are both first-class.
+`src/theme/tokens.ts`. Light and dark themes are both first-class.
+
+> **Revision note (ink & vermilion).** This guide was researched for a single-sans, cool-slate
+> system. The shipped product now uses **two faces** — Bodoni Moda for display type and Jost for UI
+> text — and a warm **ink & vermilion** palette on a `stone` neutral ramp. The research below is kept
+> for its reasoning; the exact hex values and the "one font family" rule are superseded by
+> `docs/design-system.md` §2–§3, which describes what is actually implemented.
 
 ---
 
@@ -23,7 +29,7 @@ therefore separates two kinds of statement, and you should treat them differentl
 | **[observed]** | A structural pattern that is plainly visible on the live sites and widely described. High confidence.                                                                     |
 | **[reported]** | A specific value (usually a hex) taken from third-party reverse-engineering or brand-palette aggregators, not from the company. Medium confidence — treat as approximate. |
 | **[approx]**   | The author is reasoning from a source that may be stale or AI-generated. Low confidence. Verify before treating as fact.                                                  |
-| **[ours]**     | A decision made for Live Envt. Not a claim about anyone else's site. This is the part you should actually implement.                                                      |
+| **[ours]**     | A decision made for Life Events. Not a claim about anyone else's site. This is the part you should actually implement.                                                    |
 
 **Sources used**
 
@@ -46,7 +52,7 @@ therefore separates two kinds of statement, and you should treat them differentl
 - Flipkart Assured as a quality/speed badge:
   [Adgully announcement](https://archive.adgully.com/flipkart-launches-india--s-first-quality-speed-badge--flipkart-assured-68264.html)
   — **[observed]**.
-- Live Envt's implemented tokens: [`docs/design-system.md`](./design-system.md) and
+- Life Events's implemented tokens: [`docs/design-system.md`](./design-system.md) and
   `src/theme/tokens.ts` — **[ours]**.
 
 **Things this guide will not tell you.** It will not give you a confident hex for Flipkart's UI
@@ -62,7 +68,7 @@ inventing them would be worse than admitting it. Where a colour is needed, this 
 
 All three are **grid-of-tiles** marketplaces: a filter rail on the left, a sort bar on top, and a
 repeating tile. Their tiles differ in a way that is worth understanding, because the difference is
-the whole argument for what Live Envt should do. **[observed]**
+the whole argument for what Life Events should do. **[observed]**
 
 |                            | **Amazon**                                                                                                                                                              | **Flipkart**                                                                                    | **Myntra**                                                          |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
@@ -99,7 +105,7 @@ from the fact that the tile only has to _inform and route_, never _convert_. **[
 You cannot copy a cart card. Concretely, the elements below exist because Amazon/Flipkart/Myntra sell
 discrete physical units, and each one has to be re-pointed at a _service_ or deleted.
 
-| Their element                         | Why it exists                        | Live Envt replacement                                                                                                                        |
+| Their element                         | Why it exists                        | Life Events replacement                                                                                                                      |
 | ------------------------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | SKU / variant swatches (size, colour) | One listing = many purchasable units | **Deleted.** A vendor is one entity. Category-specific packages ("Veg / Non-veg / Jain") belong on the profile, not the tile.                |
 | Stock / "In stock" / "Only 2 left"    | Inventory depletion                  | **Deleted.** Services have capacity and dates, not stock. If availability is shown at all it must come from a real calendar.                 |
@@ -122,7 +128,7 @@ then the price. The eye lands on that value, decides "yes/no, cheaper/better tha
 and moves on. Every other element on the tile — title, delivery, offers — is _supporting evidence_
 that the user only reads after the anchor has passed. **[observed]**
 
-Live Envt has neither ratings (forbidden — fabricated ratings) nor always-available prices. §2
+Life Events has neither ratings (forbidden — fabricated ratings) nor always-available prices. §2
 specifies what replaces the anchor. The rule for now:
 
 > **Anchor invariant.** Every listing tile reserves the same fixed-height row for its single
@@ -226,6 +232,13 @@ A separate, much simpler component, modelled on Flipkart's and Myntra's category
   are navigation, not decisions).
 - Radius: `--app-radius-2` (8px). Category tiles are chrome; they get less radius than listing cards.
 
+> **Shipped implementation (ink & vermilion revision).** The tile is 3:2 photographic media with the
+> name, the real count and one clamped description _beneath_ the image — not the centred overlay label
+> described above — because a marketplace category needs its count and a scannable description, and the
+> reference the product now follows puts the label under the picture. Media comes from
+> `Category.heroImageUrl`; a category without a photograph falls back to the deterministic placeholder
+> motif, so a tile is never an empty box. Radius is `--app-radius-card-dense` (12px).
+
 ### 1.8 Filter sidebar
 
 Modelled on all three, which are structurally almost identical. **[observed]**
@@ -295,7 +308,7 @@ happens server-side in one function so that a card is identical on every surface
 | 3        | **Service area breadth** | real `ListingServiceArea` rows                   | `Serves 12 cities`                                | `--app-ink`                                            |
 | 4        | **Experience**           | real non-null founding year                      | `12 years in business`                            | `--app-ink`                                            |
 | 5        | **Response commitment**  | measured, n ≥ 10 (see §2.4)                      | `Usually replies in 4h`                           | `--app-positive-ink`                                   |
-| 6        | **Listed recency**       | `publishedAt`                                    | `New on Live Envt`                                | `--app-ink-muted`, neutral — **never** a positive tone |
+| 6        | **Listed recency**       | `publishedAt`                                    | `New on Life Events`                              | `--app-ink-muted`, neutral — **never** a positive tone |
 | 7        | **Fallback**             | —                                                | `Ask for details` over a dashed 1px rule          | `--app-ink-muted`                                      |
 
 Position 7 is the honest floor and it must be _designed_, not blank: the repo's `PriceTag` already
@@ -320,7 +333,7 @@ many Indian venues and decorators do not publish rates. Treat it as a legitimate
 
 ### 2.4 The trust row — the honest substitute for ratings
 
-Where Flipkart spends one green chip on "is this good", Live Envt spends a compact row of **at most
+Where Flipkart spends one green chip on "is this good", Life Events spends a compact row of **at most
 three verifiable facts**. This is the direct answer to "no ratings allowed".
 
 ```
@@ -398,7 +411,7 @@ also appears on the header, the badges, the links and the filter chips, then no 
 means "this is the action" any more. Multi-colour marketplaces fail at the exact moment the user
 decides to convert, because the convert button is indistinguishable from the chrome.
 
-Live Envt's primary is **plum**, and the accent is **brass**; the full ramps are in
+Life Events's primary is **plum**, and the accent is **brass**; the full ramps are in
 `src/theme/tokens.ts` and §3.1 of [`docs/design-system.md`](./design-system.md). The role spec below
 is what components code against. **[ours]**
 
@@ -497,21 +510,22 @@ typeface. That is backwards for a marketplace, for three reasons:
 Values match the implemented tokens in `src/app/globals.css` **[ours]**; the `anchor` step is the one
 addition this guide introduces.
 
-| Token               | Size                                           | Line-height | Weight  | Letter-spacing | Colour role                                            | Used on                                                                               |
-| ------------------- | ---------------------------------------------- | ----------- | ------- | -------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------- |
-| `--text-display`    | `clamp(2.5rem, 1.6rem + 3.6vw, 4rem)`          | 1.05        | **800** | `-0.03em`      | `--app-ink`                                            | Home hero only. Never on a browse or admin surface.                                   |
-| `--text-h1`         | `clamp(2rem, 1.5rem + 2vw, 3rem)`              | 1.08        | **750** | `-0.025em`     | `--app-ink`                                            | Page title, one per page.                                                             |
-| `--text-h2`         | `clamp(1.5rem, 1.3rem + 0.9vw, 2.125rem)`      | 1.15        | **720** | `-0.02em`      | `--app-ink`                                            | Major section headings.                                                               |
-| `--text-h3`         | `clamp(1.1875rem, 1.1rem + 0.35vw, 1.4375rem)` | 1.22        | **700** | `-0.015em`     | `--app-ink`                                            | Subsections, vendor-profile block headings.                                           |
-| **`--text-anchor`** | **`1.125rem` (18px)**                          | **1.2**     | **750** | **`-0.01em`**  | `--app-ink` (or `--app-primary` for a published price) | **The card anchor row.** Pair with `font-variant-numeric: tabular-nums`.              |
-| `--text-card-title` | `1.0625rem` (17px)                             | 1.3         | **700** | `-0.01em`      | `--app-ink`                                            | Listing titles, card headings. Clamp to 2 lines.                                      |
-| `--text-body`       | `0.9375rem` (15px)                             | 1.6         | **450** | `0`            | `--app-ink`                                            | Prose, profile copy, form help.                                                       |
-| `--text-secondary`  | `0.875rem` (14px)                              | 1.55        | **450** | `0`            | `--app-ink`                                            | Body copy inside dense regions, form inputs.                                          |
-| `--text-button`     | `0.875rem` (14px)                              | 1           | **650** | `0`            | depends on variant                                     | All buttons. Weight 650, never 700 — a 700 button label competes with the card title. |
-| `--text-label`      | `0.8125rem` (13px)                             | 1.3         | **650** | `0`            | `--app-ink`                                            | Field labels, table headers, filter group headers, meta row 1 and 2.                  |
-| `--text-caption`    | `0.75rem` (12px)                               | 1.4         | **550** | `+0.005em`     | `--app-ink-muted`                                      | Badges, counts, timestamps, units.                                                    |
-| `--text-error`      | `0.75rem` (12px)                               | 1.4         | **600** | `+0.005em`     | `--app-critical`                                       | Inline validation only.                                                               |
-| `--text-dense`      | `0.8125rem` (13px)                             | 1.35        | **500** | `0`            | `--app-ink`                                            | Admin tables. `tabular-nums` on numeric columns. Never for prose.                     |
+| Token               | Size                                           | Line-height | Weight  | Letter-spacing | Colour role                                            | Used on                                                                                   |
+| ------------------- | ---------------------------------------------- | ----------- | ------- | -------------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| `--text-hero`       | `clamp(2.5rem, 2rem + 3.2vw, 4.75rem)`         | 1.04        | **600** | `0.01em`       | on-dark ramp                                           | Home hero only, uppercase. Never on a browse or admin surface.                            |
+| `--text-display`    | `clamp(2.5rem, 1.6rem + 3.6vw, 4rem)`          | 1.05        | **800** | `-0.03em`      | `--app-ink`                                            | Reserved. The hero now uses `--text-hero`; sentence-case display copy may still use this. |
+| `--text-h1`         | `clamp(2rem, 1.5rem + 2vw, 3rem)`              | 1.08        | **750** | `-0.025em`     | `--app-ink`                                            | Page title, one per page.                                                                 |
+| `--text-h2`         | `clamp(1.5rem, 1.3rem + 0.9vw, 2.125rem)`      | 1.15        | **720** | `-0.02em`      | `--app-ink`                                            | Major section headings.                                                                   |
+| `--text-h3`         | `clamp(1.1875rem, 1.1rem + 0.35vw, 1.4375rem)` | 1.22        | **700** | `-0.015em`     | `--app-ink`                                            | Subsections, vendor-profile block headings.                                               |
+| **`--text-anchor`** | **`1.125rem` (18px)**                          | **1.2**     | **750** | **`-0.01em`**  | `--app-ink` (or `--app-primary` for a published price) | **The card anchor row.** Pair with `font-variant-numeric: tabular-nums`.                  |
+| `--text-card-title` | `1.0625rem` (17px)                             | 1.3         | **700** | `-0.01em`      | `--app-ink`                                            | Listing titles, card headings. Clamp to 2 lines.                                          |
+| `--text-body`       | `0.9375rem` (15px)                             | 1.6         | **450** | `0`            | `--app-ink`                                            | Prose, profile copy, form help.                                                           |
+| `--text-secondary`  | `0.875rem` (14px)                              | 1.55        | **450** | `0`            | `--app-ink`                                            | Body copy inside dense regions, form inputs.                                              |
+| `--text-button`     | `0.875rem` (14px)                              | 1           | **650** | `0`            | depends on variant                                     | All buttons. Weight 650, never 700 — a 700 button label competes with the card title.     |
+| `--text-label`      | `0.8125rem` (13px)                             | 1.3         | **650** | `0`            | `--app-ink`                                            | Field labels, table headers, filter group headers, meta row 1 and 2.                      |
+| `--text-caption`    | `0.75rem` (12px)                               | 1.4         | **550** | `+0.005em`     | `--app-ink-muted`                                      | Badges, counts, timestamps, units.                                                        |
+| `--text-error`      | `0.75rem` (12px)                               | 1.4         | **600** | `+0.005em`     | `--app-critical`                                       | Inline validation only.                                                                   |
+| `--text-dense`      | `0.8125rem` (13px)                             | 1.35        | **500** | `0`            | `--app-ink`                                            | Admin tables. `tabular-nums` on numeric columns. Never for prose.                         |
 
 **Weights used: 450, 500, 550, 600, 650, 700, 720, 750, 800.**
 
@@ -680,7 +694,7 @@ the badge's whole value is that it is rare. Second, **every badge is a claim the
 Amazon's Best Seller is a computed rank, Flipkart Assured is a fulfilment programme with published
 criteria. Neither is decorative. **[observed]**
 
-### 6.2 The rule for Live Envt
+### 6.2 The rule for Life Events
 
 > **A badge may only render if the platform can produce the underlying record on demand.**
 
@@ -999,14 +1013,14 @@ does not just take a slot — it corrupts the only comparison the page is offeri
 
 Amazon tiles carry 6–9 text rows including delivery date, offers, seller name, Prime status and two
 price figures. **[observed]** It works because Amazon shoppers are repeat users with a mental model
-of the schema. Live Envt's user arrives once, for one wedding, with no schema. Copying the row count
+of the schema. Life Events's user arrives once, for one wedding, with no schema. Copying the row count
 produces a card that is dense but not scannable. §1.5 caps the card at **two meta rows and one
 anchor** for this reason.
 
 ### 9.7 Programme badges without a programme
 
 Do not copy `Prime`, `Assured`, `Plus`, `Insider`. Each of those is backed by a real, published
-service commitment with SLAs. A `Live Envt Assured` badge with nothing behind it is exactly the
+service commitment with SLAs. A `Life Events Assured` badge with nothing behind it is exactly the
 fabricated claim §6.2 forbids. `Verified` is available only because a `Verification` record exists.
 
 ### 9.8 Other specific exclusions

@@ -1,0 +1,119 @@
+/*
+ * The per-listing enquiry form.
+ *
+ * It lives in the profile's right rail at `lg`, where it is a narrow column, and
+ * stacks under the profile on smaller screens. Labels stay above their inputs
+ * (Mantine's default) rather than floating inside: the form is long enough that a
+ * visitor scans the labels before typing, and a floating label that becomes the
+ * placeholder loses the field name exactly when it is needed.
+ */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: rem(14px);
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: rem(6px);
+}
+
+.title {
+  margin: 0;
+  font-size: var(--text-h3-size);
+  font-weight: var(--text-h3-weight);
+  line-height: var(--text-h3-leading);
+  letter-spacing: var(--text-h3-tracking);
+}
+
+.note {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+/* One column, always. The form's home is a ~340px rail, where two columns gave
+   ~150px inputs that clipped their own placeholders ("you@example.co"). On a
+   phone the column is narrower still. Stacking is the only width that keeps the
+   full value visible while typing. */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: rem(12px);
+}
+
+/* The +91 prefix is a fixed, non-editable affordance — the input beside it takes
+   the subscriber's own digits. */
+.prefix {
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  font-weight: 600;
+}
+
+.inlineLink {
+  color: var(--app-brand);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.honeypot {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.error {
+  margin: 0;
+  padding: rem(10px) rem(12px);
+  border: 1px solid var(--app-border-strong);
+  border-radius: var(--app-radius-control);
+  background-color: var(--app-danger-soft);
+  color: var(--app-danger-soft-text);
+  font-size: var(--text-secondary-size);
+  font-weight: 500;
+  line-height: var(--text-secondary-leading);
+}
+
+.footnote {
+  margin: 0;
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  line-height: var(--text-caption-leading);
+}
+
+/* Confirmation replaces the form in the same rail. */
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: rem(10px);
+}
+
+.resultIcon {
+  display: inline-flex;
+  color: var(--app-success);
+}
+
+.resultTitle {
+  margin: 0;
+  font-size: var(--text-h3-size);
+  font-weight: var(--text-h3-weight);
+  line-height: var(--text-h3-leading);
+}
+
+.resultBody {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.reference {
+  color: var(--app-text);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+}

@@ -1,0 +1,14 @@
+.content {
+  background-color: var(--app-surface-raised);
+}
+
+.title {
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-size: var(--text-h3-size);
+  font-weight: 600;
+  line-height: var(--text-h3-leading);
+}
+
+.body {
+  padding-block-start: var(--mantine-spacing-xs);
+}

@@ -15,7 +15,8 @@ const PUBLIC_PAGES = [
   '/vendors',
   '/vendors?category=venues&location=mumbai&verified=true',
   '/vendors/gulmohar-banjara-banquets',
-  '/enquire?enquire=gulmohar-banjara-banquets',
+  '/partner-with-us',
+  '/corporate-events',
   '/track',
   '/sign-in',
   '/about',
@@ -87,7 +88,9 @@ test.describe('accessibility basics', () => {
     // `.focus()`) is what makes `:focus-visible` match, which is how this design
     // system renders its ring — a programmatic focus intentionally shows none.
     let reached = false;
-    for (let attempt = 0; attempt < 60; attempt += 1) {
+    // Generous because every header dropdown materialises its own links into the
+    // tab order while its trigger is focused.
+    for (let attempt = 0; attempt < 200; attempt += 1) {
       await page.keyboard.press('Tab');
       reached = await page.evaluate(() => {
         const active = document.activeElement;
@@ -134,10 +137,16 @@ test.describe('accessibility basics', () => {
   });
 
   test('form inputs have accessible labels', async ({ page }) => {
-    await page.goto('/enquire?enquire=gulmohar-banjara-banquets');
-    await expect(page.getByLabel('Your name')).toBeVisible();
-    await expect(page.getByLabel('Email')).toBeVisible();
-    await expect(page.getByLabel('Phone')).toBeVisible();
+    await page.goto('/vendors/gulmohar-banjara-banquets');
+    await page
+      .getByRole('button', { name: /^send an enquiry$/i })
+      .first()
+      .click();
+    const dialog = page.getByRole('dialog');
+    await expect(dialog).toBeVisible({ timeout: 30_000 });
+    await expect(dialog.getByLabel('Full name')).toBeVisible();
+    await expect(dialog.getByLabel('Email address')).toBeVisible();
+    await expect(dialog.getByLabel('Contact number')).toBeVisible();
   });
 
   test('reduced motion removes long transitions', async ({ browser }) => {

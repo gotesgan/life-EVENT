@@ -5,9 +5,9 @@ import { SiteShell } from '@/components/layout/SiteShell';
 import { Container, PageHeader, Prose, Surface } from '@/components/ui';
 
 export const metadata: Metadata = {
-  title: 'About Live Envt',
+  title: 'About Life Events',
   description:
-    'Live Envt is a discovery and enquiry platform for wedding and event businesses. Here is exactly what it does, what it publishes and what it deliberately does not do.',
+    'Life Events is a discovery and enquiry platform for wedding and event businesses. Here is exactly what it does, what it publishes and what it deliberately does not do.',
   alternates: { canonical: '/about' },
 };
 
@@ -16,7 +16,7 @@ export default function AboutPage() {
     <SiteShell>
       <Container size="prose" className="surface--editorial">
         <PageHeader
-          title="What Live Envt is for"
+          title="What Life Events is for"
           description="Finding a wedding or event business should not mean calling ten numbers to learn ten prices."
           breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'About' }]}
         />
@@ -24,7 +24,7 @@ export default function AboutPage() {
         <PageSection title="Compare first, enquire once">
           <Prose>
             <p>
-              Live Envt is a directory of wedding and event businesses — venues, photographers,
+              Life Events is a directory of wedding and event businesses — venues, photographers,
               decorators, caterers, beauty studios, entertainers and more. Each profile shows what
               that business has chosen to publish: its price, capacity, what it includes, and where
               it works.
@@ -78,7 +78,7 @@ export default function AboutPage() {
           <Surface tone="muted" padding="md">
             <Prose>
               <p>
-                Live Envt is not a booking system and not a payment system. No contract is formed
+                Life Events is not a booking system and not a payment system. No contract is formed
                 here, and no money changes hands on this site. Once an enquiry is under way, the
                 arrangement is between you and the business.
               </p>

@@ -37,12 +37,24 @@ export interface ListingCard {
    */
   priceMin: number | null;
   priceMax: number | null;
+  /** Unit the amounts are quoted in, so the card can render `PriceTag` exactly. */
+  priceUnit: PriceUnit | null;
   capacityLabel: string | null;
   isVerified: boolean;
   isFeatured: boolean;
   cover: ListingCardMedia | null;
   galleryCount: number;
   highlights: ListingCardHighlight[];
+  /**
+   * True when `name` is the anonymous stand-in ("Banquet hall in Andheri East")
+   * rather than the business's real trading name.
+   *
+   * The name is withheld until the visitor has sent an enquiry for this listing
+   * — see `src/lib/listing-privacy.ts`. The flag travels with the DTO so a card
+   * can mark the masked state without re-deriving it, and the real name never
+   * reaches the browser payload at all.
+   */
+  isNameHidden?: boolean;
 }
 
 export interface ListingServiceView {
@@ -142,6 +154,14 @@ export interface ListingDetail {
   capacityLabel: string | null;
 
   contact: ListingContactView;
+
+  /**
+   * True when the trading name and contact channels are withheld pending an
+   * enquiry. The profile renders a masked identity ("Banquet hall in Andheri
+   * East") and keeps its published prices, capacity and facilities, because
+   * those are the facts a visitor needs to decide whether to enquire.
+   */
+  isNameHidden?: boolean;
 }
 
 export interface SearchAppliedFilter {

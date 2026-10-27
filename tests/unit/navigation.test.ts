@@ -60,7 +60,7 @@ describe('activeSectionId', () => {
 
   it('names nothing for a page no section carries', () => {
     expect(activeSectionId('/cities/mumbai')).toBeNull();
-    expect(activeSectionId('/enquire')).toBeNull();
+    expect(activeSectionId('/partner-with-us')).toBeNull();
     expect(activeSectionId('/account/enquiries')).toBeNull();
   });
 
@@ -90,7 +90,7 @@ describe('currentNavHref', () => {
 
   it('names the link whose route is the page', () => {
     expect(currentNavHref('/about', DRAWER_LINKS)).toBe('/about');
-    expect(currentNavHref('/enquire', DRAWER_LINKS)).toBe('/enquire');
+    expect(currentNavHref('/partner-with-us', DRAWER_LINKS)).toBe('/partner-with-us');
   });
 
   it('picks one winner where a plain route and a filter share a path', () => {

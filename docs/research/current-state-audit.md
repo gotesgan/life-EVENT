@@ -1,4 +1,4 @@
-# Live Envt — current-state visual audit
+# Life Events — current-state visual audit
 
 **Purpose:** establish an honest baseline of what the product looks like today, so a premium redesign can be
 planned against evidence rather than impressions.
@@ -464,7 +464,7 @@ Three separate issues inside that:
 ### 3.12 Mobile home is 5,867px long and mostly text — MINOR
 
 `baseline-home-390-light.png`: 7 stacked text-only category cards (each title + "N listings" + a description),
-then 5 city chips across two rows, then 4 stacked listing cards, then three "How Live Envt works" cards, then a
+then 5 city chips across two rows, then 4 stacked listing cards, then three "How Life Events works" cards, then a
 single-column footer. Height **5,867px** against 2,909px on desktop. The category tiles carry **no imagery and no
 differentiation** beyond a title, a count and one sentence; stacked seven deep on a phone they are the weakest
 content in the product.

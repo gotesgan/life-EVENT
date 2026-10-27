@@ -6,50 +6,68 @@
   text-decoration: none;
 }
 
+/*
+ * The monogram is a transparent PNG, so it needs no background or radius of its
+ * own; the artwork carries the circle. `object-fit: contain` keeps the square
+ * canvas from distorting if a caller changes the box.
+ */
 .mark {
   flex-shrink: 0;
   display: block;
-  border-radius: rem(9px);
+  object-fit: contain;
 }
 
+/*
+ * The wordmark is display type set to match the supplied lockup: Bodoni Moda,
+ * uppercase, tracked out. It is text rather than artwork so it inherits the
+ * scheme's ink/bone colour (the gold wordmark in the source is unreadable on the
+ * bone header) and stays sharp at any density.
+ */
 .wordmark {
-  font-weight: 760;
-  letter-spacing: -0.025em;
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-weight: 500;
+  text-transform: uppercase;
   white-space: nowrap;
 }
 
-/* The brass full stop: the only decorative mark in the identity, and it is a
-   typographic character rather than an effect. */
-.stop {
-  color: var(--app-accent);
-}
-
 .sm .mark {
-  width: rem(24px);
-  height: rem(24px);
+  width: rem(26px);
+  height: rem(26px);
 }
 
 .sm .wordmark {
-  font-size: var(--text-secondary-size);
+  font-size: rem(11px);
+  letter-spacing: 0.16em;
   line-height: 1;
 }
 
 .md .mark {
-  width: rem(28px);
-  height: rem(28px);
+  width: rem(32px);
+  height: rem(32px);
 }
 
 .md .wordmark {
-  font-size: var(--text-card-title-size);
+  font-size: rem(15px);
+  letter-spacing: 0.14em;
   line-height: 1;
 }
 
 .lg .mark {
-  width: rem(36px);
-  height: rem(36px);
+  width: rem(44px);
+  height: rem(44px);
 }
 
 .lg .wordmark {
-  font-size: 1.5rem;
+  font-size: rem(22px);
+  letter-spacing: 0.12em;
   line-height: 1;
+}
+
+/* On a phone the header has to fit the burger, the search and the account action
+   beside the brand, so the wordmark steps down rather than wrapping. */
+@media (max-width: 30em) {
+  .md .wordmark {
+    font-size: rem(13px);
+    letter-spacing: 0.1em;
+  }
 }

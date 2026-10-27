@@ -1,4 +1,4 @@
-# Live Envt — Design System
+# Life Events — Design System
 
 Status: **implemented** · Last updated: 2026-10-15 · Applies to the public discovery site, the auth
 and enquiry surfaces, and the admin panel.
@@ -27,7 +27,9 @@ Source of truth:
 ## 1. Visual direction
 
 The product is a lead-generation discovery platform for Indian wedding and event vendors. Its visual
-identity is a **marketplace** identity, not an editorial one. The structural references are Amazon,
+identity is a **marketplace** identity, and since the ink & vermilion revision it wears an
+editorial surface: a high-contrast serif for display, a quiet geometric sans for interface text, and
+photography doing the identity work. The structural references are Amazon,
 Flipkart and Myntra — their _structure_, never their branding. `docs/marketplace-styling-guide.md`
 derives the rules from those sites, marks how confident each claim about them is, and is the
 companion to this file: it states what the implementation _should_ do, this file states what is
@@ -37,12 +39,12 @@ and density added only where comparison load demands it.
 
 **The four load-bearing decisions**
 
-1. **A neutral wall.** The cool `slate` ramp (§3.1) covers ≥90% of painted area. The page is a quiet
+1. **A neutral wall.** The warm `stone` ramp (§3.1) covers ≥90% of painted area. The page is a quiet
    field, so the few coloured things on it can be found at a glance.
-2. **One dominant action colour.** A deep blue (`brand`) means "this does something" everywhere:
+2. **One dominant action colour.** Warm ink (`brand`) means "this does something" everywhere:
    links, primary buttons, active navigation. Spending it on badges, headings or decorative borders
    spends the affordance itself. There is exactly one action hue in the palette.
-3. **Colour on action and status, not decoration.** Amber (`accent`) carries the wedding register
+3. **Colour on action and status, not decoration.** Vermilion (`accent`) carries the wedding register
    and the "featured / verified" marks; `success`, `warning` and `danger` carry state. The coverage
    budget in `src/theme/tokens.ts` — neutrals ≥90%, ink ≤9%, primary ≤4%, accent ≤1.5%, semantic
    tones ≤3% combined — is enforced by review, not by code, and is the number to design against.
@@ -83,41 +85,50 @@ and density added only where comparison load demands it.
    abstract motifs derived deterministically from the listing's slug. The research found
    placeholder-dominated galleries (Weddingz emitted ~29 `<img>` slots, most blank) and calls a
    gallery that looks broken worse than a smaller deliberate one.
-4. **A serif accent was considered and rejected.** `docs/ui-reference-research.md` divergence #7
-   recommends a display serif plus a UI sans; `docs/technology-decisions.md` §4 settles on one
-   family. Hierarchy is therefore carried by size, weight, tracking and colour — four channels
-   within one family. See §2.
+4. **A serif display face was adopted, not rejected.** `docs/ui-reference-research.md` divergence #7
+   recommended a display serif plus a UI sans; the earlier build shipped one family (Manrope) for
+   consistency, and the ink & vermilion revision reversed that: the reference the product now follows
+   is an editorial photography house, so **Bodoni Moda** carries display type and **Jost** carries the
+   interface. Two faces is the ceiling, and the family is a property of the role — never mixed inside
+   one element. See §2.
 5. **No phone number as page text, no login wall on shortlisting, no multi-step booking flow.** These
    are product rules from the research, but they shape the primitives: `EmptyState` and `ErrorState`
    always expose a single clear action, and there is no "call us" primitive to reach for.
 
 ---
 
-## 2. One font family
+## 2. Two faces, two jobs
 
-**Manrope**, loaded once through `next/font/google` in `src/app/layout.tsx` as the CSS variable
-`--font-manrope`, and applied to `body` in `globals.css`. Every element inherits it, including admin
-tables.
+**Bodoni Moda** is the display face and **Jost** is the UI face, both loaded through
+`next/font/google` in `src/app/layout.tsx` as `--font-display` and `--font-body` and applied in
+`globals.css` and `src/theme/theme.ts`. This replaces the previous single family (Manrope): the
+"Studio 27"-style reference the product now follows is an editorial photography house, and its
+identity is a high-contrast serif display over a quiet geometric sans — something one sans cannot
+supply.
 
-Why one family:
+- **Bodoni Moda** — `h1`, `h2`, the hero headline and the wordmark. Requested with its `opsz` axis so
+  the optical size follows the rendered size (`font-optical-sizing: auto`). Weights used: 400 (hero,
+  uppercase and positively tracked), 600 (`h1`/`h2`). Its hairlines are the point; at 600 they are
+  thick enough to hold up without losing the contrast.
+- **Jost** — body copy, `h3`–`h6` card headings, controls, prices, tables, admin. A geometric sans
+  with a large x-height and open apertures, so it stays legible at 12–13px in a dense admin table and
+  in form labels. Weights used: 400/500/600/700.
 
-- Manrope is a variable geometric-humanist sans with a large x-height and open apertures, so it
-  holds up at 13px in a dense admin table and at 56px in a marketing display headline.
-- The variable axis runs 200–800, so the full hierarchy above is reachable with one font file.
-- `next/font` self-hosts it: no third-party request at runtime, no layout shift, no privacy surface.
+Why this pairing: the skill library's "Luxury Minimalist" match (Bodoni Moda + Jost) pairs the
+high-contrast serif the reference uses with a geometric sans for interface text. Both are
+variable fonts, so each is one file; `next/font` self-hosts both: no third-party request at runtime,
+no layout shift, no privacy surface. The fallbacks are metric-adjusted locals generated by Next, so
+a swap does not move text.
 
-`--font-manrope` resolves in the compiled CSS to `"Manrope", "Manrope Fallback"` — verified in the
-development CSS output. The fallback is a metric-adjusted local font generated by Next, so the
-swap does not move text.
+`--font-display` resolves to `"Bodoni Moda", "Bodoni Moda Fallback", ui-serif, Georgia, serif` and
+`--font-body` to `"Jost", "Jost Fallback", ui-sans-serif, system-ui, sans-serif`, verified in the
+development CSS output and in `document.fonts`. The Mantine theme references both, so a Mantine
+component used without a wrapper still inherits the right face: `fontFamily` is Jost,
+`headings.fontFamily` is Bodoni Moda.
 
-The Mantine theme's `fontFamily` and `headings.fontFamily` both reference
-`var(--font-manrope), ui-sans-serif, system-ui, sans-serif`, so even a Mantine component used without
-a wrapper is in Manrope. This is the **only UI family** in the repository and there is no CDN
-`@import`. Manrope is not the only family rendered: `--mantine-font-family-monospace` is the second
-family, used deliberately for code-like and tabular text — the enquiry reference
-(`src/components/enquiry/EnquiryForm.module.css` `.reference`), `pre`/`code`/`kbd`/`samp`
-(`src/app/globals.css`), and admin reference/identifier cells (for example
-`src/components/admin/Enquiries.module.css` and `src/app/account/account.module.css`).
+The one deliberate exception is machine text: `--mantine-font-family-monospace` remains the second
+family in the admin back office, for identifiers, audit payloads and code-like cells. The public site
+uses no monospace — reference codes are Jost with `tabular-nums` and letter-spacing.
 
 ---
 
@@ -129,85 +140,64 @@ Seven 10-step ramps, lightest → darkest, defined once in `src/theme/tokens.ts`
 `createTheme({ colors })`. No other file may contain a hex value; ESLint plus review is the
 enforcement mechanism.
 
-| Ramp      | Role                     | 0         | 1         | 2         | 3         | 4         | 5         | 6         | 7         | 8         | 9         |
-| --------- | ------------------------ | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
-| `brand`   | Action blue              | `#EEF4FF` | `#DCE8FE` | `#BBD0FC` | `#8FB2F9` | `#4E88F5` | `#3371EA` | `#1F5EDC` | `#1B4FB8` | `#174094` | `#123170` |
-| `accent`  | Warm amber               | `#FEF9EF` | `#FCF0DA` | `#F8DFAF` | `#F1C878` | `#E8AE45` | `#D99A2B` | `#C0851F` | `#9A6A18` | `#744F12` | `#4E340B` |
-| `slate`   | Cool neutral (the wall)  | `#FFFFFF` | `#F7F8FA` | `#EEF1F4` | `#E3E6EB` | `#C6CCD6` | `#9AA3B2` | `#6B7585` | `#4A5462` | `#2B333F` | `#14181F` |
-| `success` | Success                  | `#EFFAF4` | `#D6F2E3` | `#A9E5C6` | `#6FD3A1` | `#4FBE84` | `#2FA46B` | `#1B7F4B` | `#166742` | `#145436` | `#0E3C27` |
-| `warning` | Warning                  | `#FFF9EC` | `#FDF0D5` | `#F8DEA5` | `#F0C468` | `#E0A046` | `#C4842C` | `#9A5B00` | `#7C4900` | `#613900` | `#412600` |
-| `danger`  | Error / destructive      | `#FEF2F2` | `#FDE0E0` | `#FAC2C3` | `#F49A9C` | `#F0736F` | `#DE4F4F` | `#C2333A` | `#9E282E` | `#7C2025` | `#54151A` |
-| `dark`    | Dark surfaces, dark text | `#EEF1F5` | `#DDE2E9` | `#B9C1CC` | `#949EAC` | `#6E7887` | `#4A5462` | `#2F3742` | `#232A34` | `#171C24` | `#0F1319` |
+| Ramp      | Role                         | 0         | 1         | 2         | 3         | 4         | 5         | 6         | 7         | 8         | 9         |
+| --------- | ---------------------------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| `brand`   | Warm ink (action)            | `#FBF9F6` | `#F4F0E9` | `#E7E1D6` | `#E3DACA` | `#C9C2B6` | `#8A7F6E` | `#191512` | `#2A2520` | `#3B342C` | `#4C4338` |
+| `accent`  | Vermilion (wedding register) | `#FDF3F0` | `#FBE4DE` | `#F6C8BC` | `#F0987F` | `#E57C68` | `#D4563F` | `#A8201A` | `#8A1A15` | `#6E1511` | `#520F0C` |
+| `stone`   | Warm neutral (the wall)      | `#FBF9F6` | `#F6F2EC` | `#ECE6DD` | `#DCD4C8` | `#BCB2A3` | `#948A7B` | `#6E6456` | `#4E463B` | `#2B2721` | `#1A1714` |
+| `success` | Success                      | `#EFFAF4` | `#D6F2E3` | `#A9E5C6` | `#5FC98F` | `#4FBE84` | `#2FA46B` | `#1B7F4B` | `#166742` | `#145436` | `#0E3C27` |
+| `warning` | Warning                      | `#FDF6EA` | `#F9EACB` | `#F1D397` | `#E0A046` | `#C4842C` | `#A66A12` | `#8A5A00` | `#6E4700` | `#553700` | `#3A2500` |
+| `danger`  | Error / destructive          | `#FDF2F2` | `#FDE0E0` | `#FAC2C3` | `#F08A82` | `#E46363` | `#C43A38` | `#A02020` | `#8E1B1B` | `#701414` | `#521010` |
+| `dark`    | Dark surfaces, dark text     | `#F7F3EC` | `#D8CFC0` | `#B4A896` | `#948878` | `#7A6F60` | `#5C5347` | `#403A32` | `#2A2521` | `#1A1714` | `#12100D` |
 
-`palette` exports exactly seven tuples — `brand`, `accent`, `slate`, `success`, `warning`, `danger`,
-`dark` — and `src/theme/index.ts` re-exports them by those names. `stone`, `sage` and `clay` no
-longer exist; a reference to any of them is a stale import, not an alias.
+`palette` exports exactly seven tuples — `brand`, `accent`, `stone`, `success`, `warning`, `danger`,
+`dark` — and `src/theme/index.ts` re-exports them by those names. `slate` was renamed to `stone` when
+the ramp warmed; a reference to `slate` is a stale import, not an alias.
 
-`slate` also **replaces Mantine's `gray` ramp**: `cssVariablesResolver` writes
-`--mantine-color-gray-0…9` from `slate[0…9]`, so skeletons, table borders and dividers inside
+`stone` also **replaces Mantine's `gray` ramp**: `cssVariablesResolver` writes
+`--mantine-color-gray-0…9` from `stone[0…9]`, so skeletons, table borders and dividers inside
 Mantine components use the same neutral family as the surfaces they sit on. Verified in the emitted
-variables: `--mantine-color-gray-0: #FFFFFF`, `--mantine-color-gray-9: #14181F`.
+variables: `--mantine-color-gray-0: #FBF9F6`, `--mantine-color-gray-9: #1A1714`.
 
-`brand` **is** the product's blue — the palette is deliberately cool, and the deep action blue on a
-cool slate neutral is the whole visual identity. `StatusBadge`'s `info` tone is an explicit alias of
-`brand` rather than its own hue: there is one action colour, and an informational state that must be
-visually distinct from brand should use `accent` or `neutral`, or be reworded. (The comment above
-`StatusTone` in `src/components/ui/StatusBadge.tsx` still says the palette "contains no blue"; that
-comment is stale — see §12.)
+`brand` **is** the product's ink — the palette is deliberately warm and neutral, and near-black on
+warm stone is the whole identity. `StatusBadge`'s `info` tone is an explicit alias of `brand` rather
+than its own hue: there is one action colour, and an informational state that must be visually
+distinct from brand should use `accent` or `neutral`, or be reworded.
 
 ### 3.2 Primary colour and `autoContrast`
 
 ```ts
 primaryColor: 'brand'
-primaryShade: { light: 6, dark: 4 }   // #1F5EDC light · #4E88F5 dark
+primaryShade: { light: 6, dark: 3 }   // #191512 light · #E3DACA dark
 autoContrast: true
 luminanceThreshold: 0.22              // Mantine's default is 0.30
 white: '#FFFFFF'
-black: '#1D1917'                      // still the warm near-black, not #000
+black: '#12100D'                      // warm near-black, not #000
 ```
 
-**The key insight: the action colour inverts between schemes.** In light the action colour is a deep
-blue and takes **white** text; in dark it is a light blue and takes **dark** text. Both directions
-have to be classified correctly by one number.
+**The action colour inverts between schemes.** In light the action colour is near-black and takes
+**white** text; in dark it is warm bone and takes **dark** text. Both directions have to be classified
+correctly by one number.
 
 Mantine's `getContrastColor` classifies a fill by `luminance(fill) > theme.luminanceThreshold` and
 then puts `theme.black` or `theme.white` on it. So a single threshold must sit between the luminance
 of the light-scheme fill and the luminance of the dark-scheme fill. Measured relative luminances and
 the resulting text contrast:
 
-| Fill                       | Luminance | White text | `#1D1917` text | Chosen by 0.22 |
-| -------------------------- | --------- | ---------- | -------------- | -------------- |
-| light `brand[6]` `#1F5EDC` | 0.1346    | **5.69:1** | 3.07:1         | white          |
-| light `brand[5]` `#3371EA` | 0.1845    | 4.48:1     | 3.90:1         | white          |
-| dark `brand[4]` `#4E88F5`  | 0.2582    | 3.41:1     | **5.12:1**     | `#1D1917`      |
-| dark `brand[3]` `#8FB2F9`  | 0.4452    | 2.12:1     | **8.23:1**     | `#1D1917`      |
-| light `danger` `#C2333A`   | 0.1414    | **5.49:1** | 3.18:1         | white          |
-| dark `danger` `#F0736F`    | 0.3193    | 2.84:1     | **6.14:1**     | `#1D1917`      |
+| Fill                       | Luminance | White text  | `#12100D` text | Chosen by 0.22 |
+| -------------------------- | --------- | ----------- | -------------- | -------------- |
+| light `brand[6]` `#191512` | 0.0079    | **18.15:1** | 1.05:1         | white          |
+| light `brand[7]` `#2A2520` | 0.0192    | **15.17:1** | 1.25:1         | white          |
+| dark `brand[3]` `#E3DACA`  | 0.7074    | 1.39:1      | **13.70:1**    | `#12100D`      |
+| dark `brand[4]` `#C9C2B6`  | 0.5438    | 1.77:1      | **10.74:1**    | `#12100D`      |
+| light `danger` `#8E1B1B`   | 0.0661    | **9.04:1**  | 2.10:1         | white          |
+| dark `danger` `#F08A82`    | 0.3831    | 2.42:1      | **7.84:1**     | `#12100D`      |
 
-**0.22 sits between 0.1346 and 0.2582**, so both action fills take the readable direction. Mantine's
-default of 0.30 would put _white_ on the dark-scheme blue — measured 3.41:1, an AA failure. Among
-the ten emitted tone fills (five tones × two schemes) the dark `brand` is the **only** one whose
-classification changes between 0.22 and 0.30; every other fill measures either well below 0.22
-(0.1414–0.1653 light) or well above 0.30 (0.3193–0.4143 dark). The threshold change is therefore
-targeted rather than a global shift of the palette.
+**0.22 sits between 0.0192 and 0.5438**, so both action fills take the readable direction. Mantine's
+default of 0.30 would put _white_ on the dark-scheme bone fill — measured 1.39:1, an AA failure.
 
-Two caveats, both measured rather than assumed:
-
-- `brand[5]` (`#3371EA`) takes white text under this threshold at **4.48:1**, which is 0.02 below
-  the 4.5:1 AA floor. It is not reachable through the theme: `primaryShade.light` is **6**, and
-  `--app-brand` is `brand[6]`. A component that deliberately fills with `brand[5]` would fail AA.
-- The dark-scheme value the _token layer_ promises is `--app-brand-contrast: #0B1220` (5.50:1
-  against `#4E88F5`), but Mantine's `autoContrast` does not read that token — it uses `theme.black`
-  `#1D1917`, which measures **5.12:1**. Both pass; a Mantine filled control and an app component
-  using the token differ slightly.
-
-**Measured filled brand button:** light **5.69:1**, dark **5.12:1** on Mantine's `autoContrast`
-path, or **5.50:1** on the `--app-brand-contrast` token — all pass WCAG AA for normal text.
-
-(A comment in `src/theme/theme.ts` gives `brand[5]` as luminance 0.121 / 6.28:1 and `brand[3]` as
-0.420 / 8.66:1. Those two figures do not match the colours they name; the measured values are the
-table above. The comment is not load-bearing — the threshold itself is correct — and `src/**` is out
-of scope for this document's revision.)
+**Measured filled brand button:** light **18.15:1**, dark **13.70:1** on Mantine's `autoContrast`
+path. Every semantic fill also clears AA in both directions under the same threshold.
 
 ### 3.3 Semantic tokens
 
@@ -218,45 +208,50 @@ risk**: `variables` lands on `:root`, `light`/`dark` land inside
 
 | Token                      | Light                     | Dark                        |
 | -------------------------- | ------------------------- | --------------------------- |
-| `--app-surface`            | `#F7F8FA`                 | `#0F1319`                   |
-| `--app-surface-raised`     | `#FFFFFF`                 | `#171C24`                   |
-| `--app-surface-muted`      | `#EEF1F4`                 | `#232A34`                   |
-| `--app-surface-sunken`     | `#E3E6EB`                 | `#0A0D12`                   |
-| `--app-surface-hover`      | `#F0F3F7`                 | `#2A323D`                   |
-| `--app-border`             | `#E3E6EB`                 | `#2F3742`                   |
-| `--app-border-strong`      | `#737D8D`                 | `#71808F`                   |
-| `--app-text`               | `#14181F`                 | `#EEF1F5`                   |
-| `--app-text-muted`         | `#454E5C`                 | `#A7B0BD`                   |
-| `--app-text-subtle`        | `#5A6474`                 | `#95A0AF`                   |
-| `--app-brand`              | `#1F5EDC`                 | `#4E88F5`                   |
-| `--app-brand-soft`         | `rgba(31, 94, 220, 0.10)` | `rgba(78, 136, 245, 0.16)`  |
-| `--app-brand-soft-hover`   | `rgba(31, 94, 220, 0.16)` | `rgba(78, 136, 245, 0.24)`  |
-| `--app-brand-soft-text`    | `#15489F`                 | `#A8C6FC`                   |
-| `--app-brand-contrast`     | `#FFFFFF`                 | `#0B1220`                   |
-| `--app-contrast`           | `#FFFFFF`                 | `#0B1220`                   |
-| `--app-accent`             | `#A85F0A`                 | `#E0A046`                   |
-| `--app-accent-soft`        | `rgba(168, 95, 10, 0.12)` | `rgba(224, 160, 70, 0.18)`  |
-| `--app-accent-soft-hover`  | `rgba(168, 95, 10, 0.18)` | `rgba(224, 160, 70, 0.26)`  |
-| `--app-accent-soft-text`   | `#7A4405`                 | `#F0C684`                   |
-| `--app-success`            | `#1B7F4B`                 | `#4FBE84`                   |
-| `--app-success-soft`       | `rgba(27, 127, 75, 0.12)` | `rgba(79, 190, 132, 0.18)`  |
-| `--app-success-soft-hover` | `rgba(27, 127, 75, 0.18)` | `rgba(79, 190, 132, 0.26)`  |
+| `--app-surface`            | `#FAF7F2`                 | `#12100D`                   |
+| `--app-surface-raised`     | `#FFFFFF`                 | `#1A1714`                   |
+| `--app-surface-muted`      | `#F2EDE5`                 | `#24201B`                   |
+| `--app-surface-sunken`     | `#E7E0D5`                 | `#0B0A08`                   |
+| `--app-surface-hover`      | `#F2EDE5`                 | `#221E19`                   |
+| `--app-border`             | `#E7E0D5`                 | `#302A24`                   |
+| `--app-border-strong`      | `#8A7F6E`                 | `#8A7F6E`                   |
+| `--app-text`               | `#1A1714`                 | `#F7F3EC`                   |
+| `--app-text-muted`         | `#5C5347`                 | `#C4BAAB`                   |
+| `--app-text-subtle`        | `#746A5B`                 | `#A79C8B`                   |
+| `--app-brand`              | `#191512`                 | `#E3DACA`                   |
+| `--app-brand-soft`         | `rgba(25, 21, 18, 0.06)`  | `rgba(227, 218, 202, 0.14)` |
+| `--app-brand-soft-hover`   | `rgba(25, 21, 18, 0.11)`  | `rgba(227, 218, 202, 0.22)` |
+| `--app-brand-soft-text`    | `#2A2520`                 | `#EDE6DA`                   |
+| `--app-brand-contrast`     | `#FFFFFF`                 | `#12100D`                   |
+| `--app-contrast`           | `#FFFFFF`                 | `#12100D`                   |
+| `--app-accent`             | `#A8201A`                 | `#F0987F`                   |
+| `--app-accent-soft`        | `rgba(168, 32, 26, 0.12)` | `rgba(240, 152, 127, 0.18)` |
+| `--app-accent-soft-hover`  | `rgba(168, 32, 26, 0.18)` | `rgba(240, 152, 127, 0.26)` |
+| `--app-accent-soft-text`   | `#7A1712`                 | `#F8C3B4`                   |
+| `--app-success`            | `#1B7F4B`                 | `#5FC98F`                   |
+| `--app-success-soft`       | `rgba(27, 127, 75, 0.12)` | `rgba(95, 201, 143, 0.18)`  |
+| `--app-success-soft-hover` | `rgba(27, 127, 75, 0.18)` | `rgba(95, 201, 143, 0.26)`  |
 | `--app-success-soft-text`  | `#145436`                 | `#A9E5C6`                   |
-| `--app-warning`            | `#9A5B00`                 | `#E0A046`                   |
-| `--app-warning-soft`       | `rgba(154, 91, 0, 0.12)`  | `rgba(224, 160, 70, 0.18)`  |
-| `--app-warning-soft-hover` | `rgba(154, 91, 0, 0.18)`  | `rgba(224, 160, 70, 0.26)`  |
+| `--app-warning`            | `#8A5A00`                 | `#E0A046`                   |
+| `--app-warning-soft`       | `rgba(138, 90, 0, 0.12)`  | `rgba(224, 160, 70, 0.18)`  |
+| `--app-warning-soft-hover` | `rgba(138, 90, 0, 0.18)`  | `rgba(224, 160, 70, 0.26)`  |
 | `--app-warning-soft-text`  | `#613900`                 | `#F0C684`                   |
-| `--app-danger`             | `#C2333A`                 | `#F0736F`                   |
-| `--app-danger-soft`        | `rgba(194, 51, 58, 0.12)` | `rgba(240, 115, 111, 0.18)` |
-| `--app-danger-soft-hover`  | `rgba(194, 51, 58, 0.18)` | `rgba(240, 115, 111, 0.26)` |
-| `--app-danger-soft-text`   | `#7C2025`                 | `#FAC2C3`                   |
-| `--app-focus-ring`         | `#1F5EDC`                 | `#6B9CF8`                   |
-| `--app-overlay`            | `rgba(17, 20, 26, 0.55)`  | `rgba(4, 6, 10, 0.72)`      |
+| `--app-danger`             | `#8E1B1B`                 | `#F08A82`                   |
+| `--app-danger-soft`        | `rgba(142, 27, 27, 0.12)` | `rgba(240, 138, 130, 0.18)` |
+| `--app-danger-soft-hover`  | `rgba(142, 27, 27, 0.18)` | `rgba(240, 138, 130, 0.26)` |
+| `--app-danger-soft-text`   | `#6E1414`                 | `#FAC2C3`                   |
+| `--app-focus-ring`         | `#191512`                 | `#E3DACA`                   |
+| `--app-overlay`            | `rgba(26, 23, 20, 0.60)`  | `rgba(8, 6, 4, 0.72)`       |
 
 Note that `--app-brand-contrast` and `--app-contrast` are the same value in both schemes today but
 are not the same token: the first is the label colour for a brand fill, the second for any saturated
-semantic fill. `--app-accent` and `--app-warning` are both amber in the dark scheme (`#E0A046`) and
-differ in light (`#A85F0A` vs `#9A5B00`); they carry different meanings, so they are not merged.
+semantic fill. `--app-accent` (vermilion) and `--app-danger` (deep crimson) are deliberately
+different hues: a rejection badge must not be mistaken for a "featured" mark. `--app-accent` and
+`--app-warning` are also distinct (vermilion vs ochre) and are never merged.
+
+Measured on their own surfaces: light text 16.70:1 / muted 7.06:1 / subtle 4.97:1; dark text
+17.17:1 / muted 9.91:1 / subtle 7.03:1. `border-strong` clears the 3:1 non-text requirement in both
+schemes (3.68:1 light, 4.83:1 dark).
 
 Scheme-independent tokens (`sharedTokens`, emitted on `:root`). Radii, elevation and motion are
 contracts, not just values — §5 is the normative description.
@@ -291,17 +286,15 @@ Four deliberate decisions:
 
 1. **Separate elevation steps.** Light mode reads _brighter is higher_: `sunken #E3E6EB` →
    `muted #EEF1F4` → `surface #F7F8FA` → `raised #FFFFFF`. Dark mode reads _lighter is higher_ on
-   palette steps 9 → 8 → 7 (`surface #0F1319` → `raised #171C24` → `muted #232A34`), with one
-   derived step (`sunken #0A0D12`) _below_ the canvas for recessed wells, so a sunken well is still
+   warm steps 9 → 8 → 7 (`surface #12100D` → `raised #1A1714` → `muted #24201B`), with one
+   derived step (`sunken #0B0A08`) _below_ the canvas for recessed wells, so a sunken well is still
    visibly below the canvas rather than identical to it. The dark values are not a mechanical
    inversion of the light ones: `surface-hover`, `border-strong`, `text-muted` and `text-subtle` are
    all derived colours measured against the surfaces rather than palette entries.
-2. **Desaturated brand tints for large fills.** The dark brand tint is a translucent blue
-   (`rgba(78, 136, 245, 0.16)`) over the raised surface, not a solid light-blue block. The same
-   override is applied to Mantine's own `--mantine-color-brand-light*`, because Mantine derives that
-   by darkening shade 9 by 50%, which would be a near-black chip. (The comment in
-   `css-variables-resolver.ts` justifying the override still says "which for plum is a near-black
-   chip"; the mechanism is right, the noun is stale.)
+2. **Desaturated brand tints for large fills.** The dark brand tint is a translucent bone
+   (`rgba(227, 218, 202, 0.14)`) over the raised surface, not a solid light block. The same override
+   is applied to Mantine's own `--mantine-color-brand-light*`, because Mantine derives that by
+   darkening shade 9 by 50%, which would be a near-black chip on a dark surface.
 3. **Raised border contrast.** The light hairline `#E3E6EB` is _darker_ than its surface; the dark
    hairline `#2F3742` is _lighter_ than its surface. Control borders go up again:
    `--app-border-strong` is `#737D8D` in light and `#71808F` in dark, and both clear 3:1 against
@@ -438,19 +431,29 @@ applied — `font-size: var(--text-h1)` is not valid CSS — and the shorthand a
 
 | Token                 | Size                                           | Weight | Line height | Tracking   |
 | --------------------- | ---------------------------------------------- | ------ | ----------- | ---------- |
+| `--text-hero-*`       | `clamp(2.5rem, 2rem + 3.2vw, 4.75rem)`         | 400    | 1.02        | `0.02em`   |
 | `--text-display-*`    | `clamp(2.5rem, 1.6rem + 3.6vw, 4rem)`          | 800    | 1.05        | `-0.03em`  |
-| `--text-h1-*`         | `clamp(2rem, 1.5rem + 2vw, 3rem)`              | 750    | 1.08        | `-0.025em` |
-| `--text-h2-*`         | `clamp(1.5rem, 1.3rem + 0.9vw, 2.125rem)`      | 720    | 1.15        | `-0.02em`  |
+| `--text-h1-*`         | `clamp(2rem, 1.5rem + 2vw, 3rem)`              | 600    | 1.08        | `-0.015em` |
+| `--text-h2-*`         | `clamp(1.5rem, 1.3rem + 0.9vw, 2.125rem)`      | 600    | 1.15        | `-0.012em` |
 | `--text-h3-*`         | `clamp(1.1875rem, 1.1rem + 0.35vw, 1.4375rem)` | 700    | 1.22        | `-0.015em` |
 | `--text-card-title-*` | `1.0625rem` (17px)                             | 700    | 1.3         | `-0.01em`  |
-| `--text-anchor-*`     | `1.125rem` (18px)                              | 750    | 1.2         | `-0.01em`  |
-| `--text-body-*`       | `0.9375rem` (15px)                             | 450    | 1.6         | `0`        |
-| `--text-secondary-*`  | `0.875rem` (14px)                              | 450    | 1.55        | —          |
-| `--text-label-*`      | `0.8125rem` (13px)                             | 650    | 1.3         | —          |
-| `--text-button-*`     | `0.875rem` (14px)                              | 650    | 1           | —          |
-| `--text-caption-*`    | `0.75rem` (12px)                               | 550    | 1.4         | —          |
+| `--text-anchor-*`     | `1.125rem` (18px)                              | 700    | 1.2         | `-0.01em`  |
+| `--text-body-*`       | `0.9375rem` (15px)                             | 400    | 1.6         | `0`        |
+| `--text-secondary-*`  | `0.875rem` (14px)                              | 400    | 1.55        | —          |
+| `--text-label-*`      | `0.8125rem` (13px)                             | 600    | 1.3         | —          |
+| `--text-button-*`     | `0.875rem` (14px)                              | 600    | 1           | —          |
+| `--text-caption-*`    | `0.75rem` (12px)                               | 500    | 1.4         | —          |
 | `--text-error-*`      | `0.75rem` (12px)                               | 600    | 1.4         | —          |
 | `--text-dense-*`      | `0.8125rem` (13px)                             | 500    | 1.35        | —          |
+
+`--text-hero` and `--text-h1`/`--text-h2` are set in **Bodoni Moda**; every other step is Jost (see
+§2). The display weights sit at 400–600 because the serif's stroke contrast supplies the emphasis
+that a sans needed 700–800 for.
+
+`--text-hero` is the homepage hero headline only. It is set in uppercase with positive tracking, so
+it cannot borrow `--text-display`: that step is tuned for sentence-case copy at negative tracking, and
+uppercase at −0.03em collides. The hero is the one place on the public site that uses this
+tracked-caps register; every other heading stays sentence case.
 
 `--text-dense` is the admin-table size. It is 13px rather than 12px, is paired with `tabular-nums`
 so currency columns align, and is never used for prose.
@@ -460,14 +463,28 @@ value sits in the same slot on every tile; Amazon and Flipkart use price and rat
 product has neither (fabricated ratings are forbidden and rates are often "on request"), so the slot
 is filled by a deterministic ladder (`docs/marketplace-styling-guide.md` §2.2). The step is larger
 and heavier than a card title, tabular so digits align down a column, and never the loudest thing on
-the page. It is defined in `globals.css`; **no component consumes it yet** — that migration is part
-of the in-flight component restyle, so treat the token as available-but-unadopted rather than as a
-description of shipped tiles.
+the page. It is defined in `globals.css`. The listing card's price slot now renders through `PriceTag`
+(the amount is the card-title step at weight 700, with the unit on its own line in narrow columns),
+so the anchor slot is adopted rather than aspirational.
 
-**Hierarchy is four-channel, not just size.** A caption is smaller _and_ lighter (550) _and_ muted
+**Five weights, not nine.** The scale ships exactly five weights: **400** reading text and the
+display serif, **500** supporting text (captions, metadata, dense table cells), **600** labels,
+controls and `h1`/`h2`, **700** card titles (`h3`) and the scan anchor, **800** the reserved display
+step. The previous scale
+used nine
+(450/500/550/600/650/700/720/750/800); nine values inside a 400-wide axis are indistinguishable at
+text sizes, so the result read as inconsistency rather than emphasis — a label at 550 and one at 650
+looked identical and neither looked chosen. New type picks a rung; it never invents a weight between
+two rungs.
+
+**Hierarchy is four-channel, not just size.** A caption is smaller _and_ lighter (500) _and_ muted
 (`--app-text-subtle`); a card title is larger _and_ heavier (700) _and_ tighter (-0.01em) _and_ full
-contrast. Weight comes from Manrope's variable axis, so 450/550/650/720/750 are real weights, not
-faux-bold.
+contrast. Weight comes from the variable axes, so all five are real weights, not faux-bold.
+
+**Two faces, no more.** Bodoni Moda carries display type (`h1`, `h2`, hero, wordmark); Jost carries
+everything worked in (body, `h3`–`h6`, controls, prices, tables). Reference codes are set in Jost
+with `tabular-nums` and letter-spacing rather than a third monospace family. Monospace remains only
+in the admin back office, where it marks machine data (ids, audit payloads).
 
 The Mantine theme mirrors these into `headings.sizes` by reference
 (`h1.fontSize: 'var(--text-h1-size)'`), so Mantine's `Title` renders at the same size as a plain
@@ -476,6 +493,23 @@ The Mantine theme mirrors these into `headings.sizes` by reference
 Global element rules in `globals.css`: headings inherit the scale, `text-wrap: balance` on
 `h1…h6`, `text-wrap: pretty` on `p`, and zeroed default margins (spacing belongs to layout
 primitives).
+
+### The hero stage
+
+The homepage hero is the one surface built as a dark **stage**: a near-black band
+(`--app-stage-surface`) with the video inset inside a thin frame (`--app-stage-border`) rather than
+bled under the header. The stage is dark in both colour schemes — it is film, not a themed surface —
+so its text uses the on-dark ramp and nothing about it flips with the theme.
+
+Two scrims sit over the media: the scheme's flat `--app-overlay`, plus a soft
+`--app-stage-vignette` that concentrates darkness behind the copy block, and a short
+`--app-stage-foot-scrim` under the foot link line. Both are legibility layers, not decoration:
+measured against the worst frame of the current clip, the copy band's background stays at or below
+luminance 0.14 (≥5.6:1 for white text) and the foot line below 0.04 (≥11.8:1).
+
+The search console stays a rectangle with `--app-radius-control` — squarer than a card — because it
+is the single interactive object in the frame, not another tile. On a phone the frame hugs its
+content and the foot link line is dropped; it would otherwise land under the fixed tab bar.
 
 ---
 
@@ -619,13 +653,12 @@ necessity (TypeScript and PostCSS); they must be changed together. The values ar
 ## 6. Focus and accessibility states
 
 - **Focus ring.** One ring for everything interactive: `outline: 2px solid var(--app-focus-ring)`
-  with `outline-offset: 2px`. It is the action blue in light (`#1F5EDC`) and a lighter blue in dark
-  (`#6B9CF8`). Measured against all five surface steps: **4.55–5.69:1** light, **4.77–7.17:1** dark
-  (§3.5), so it clears both the 3:1 non-text requirement and 4.5:1 as text. In light the ring colour
-  is **identical** to the brand fill (1.00:1 against it), and in dark it is only 1.26:1 against the
-  fill — the ring therefore works because `outline-offset: 2px` places it over the surrounding
-  surface, where it has 4.55:1 or better, not because it contrasts with the button. A focused blue
-  button reads as focused by the 2px gap, not by ring-versus-fill contrast. The global rule also
+  with `outline-offset: 2px`. It is the warm ink in light (`#191512`) and warm bone in dark
+  (`#E3DACA`). Measured against every surface step: **13.84–18.15:1** light and **11.67–14.27:1**
+  dark, so it clears both the 3:1 non-text requirement and 4.5:1 as text. In both schemes the ring is
+  **identical** to the brand fill (1.00:1 against it), so it works because `outline-offset: 2px`
+  places it over the surrounding surface, not because it contrasts with the button. A focused
+  filled button reads as focused by the 2px gap, not by ring-versus-fill contrast. The global rule also
   restates Mantine's own focus classes at equal specificity but later in the cascade, so Mantine
   components get the app ring instead of `--mantine-primary-color-filled`. Verified present in the
   compiled CSS. (The comment above that rule in `globals.css` still says "brass"; the declaration
@@ -671,7 +704,7 @@ composition wrappers**: no business logic, no data fetching, no formatting that 
 | `EmptyState`       | No results / nothing yet                                                                                      | `icon`, `title`, `description`, `primaryAction`, `secondaryAction`, `size`, `titleAs`                                                                                                    | no      |
 | `ErrorState`       | Failure surface                                                                                               | `title`, `description`, `onRetry`, `retryLabel`, `secondaryAction`                                                                                                                       | **yes** |
 | `Skeletons`        | `ListingCardSkeleton`, `ListingGridSkeleton`, `ListingDetailSkeleton`, `TableSkeleton`, `FilterPanelSkeleton` | `count`, `rows`, `columns`, `groups`, `optionsPerGroup`                                                                                                                                  | no      |
-| `BrandMark`        | Wordmark + arch tile                                                                                          | `size: sm \| md \| lg`, `showWordmark`                                                                                                                                                   | no      |
+| `BrandMark`        | Supplied "LE" monogram (artwork) + wordmark (text)                                                            | `size: sm \| md \| lg`, `showWordmark`                                                                                                                                                   | no      |
 | `ThemeToggle`      | Light/dark switch                                                                                             | `size: sm \| md \| lg`                                                                                                                                                                   | **yes** |
 | `Surface`          | Panel primitive                                                                                               | `tone: base \| raised \| muted \| sunken \| brand \| accent \| success \| warning \| danger`, `padding: none \| sm \| md \| lg`, `radius: control \| card`, `bordered`, `elevated`, `as` | no      |
 | `MediaPlaceholder` | Designed no-photo motif                                                                                       | `seed` (required), `ratio: 3/2 \| 4/3 \| 1/1 \| 16/9`, `label`                                                                                                                           | no      |
@@ -694,7 +727,7 @@ Notable implementation decisions:
   and a tone from the `brand` / `accent` / `success` / `warning` application tokens; a mulberry32
   PRNG seeded from the same hash jitters it. Identical on server and client, stable across renders,
   and different for different listings — so a grid of photo-less listings reads as a set of distinct
-  objects. One amber (`--app-accent`) element is present in every composition as a signature, and
+  objects. One vermilion (`--app-accent`) element is present in every composition as a signature, and
   `danger` is never used: a placeholder is not an error.
 - **`AspectImage` owns the ratio**, so a page physically cannot mix ratios inside one grid. When
   `src` is null it renders the placeholder in the same box, so adding a photograph later causes no
@@ -743,7 +776,7 @@ Two notes, both of which a page author should know rather than guess:
 - **One set**: `@tabler/icons-react` (3.49.0). No second icon library, no bespoke icon font, no
   emoji anywhere in the UI.
 - **One stroke width**: `1.5`, passed explicitly (`stroke={1.5}`) on the vast majority of icons.
-  Tabler's default is 2, which reads heavier than Manrope at small sizes. Four icon usages do **not**
+  Tabler's default is 2, which reads heavier than Jost at small sizes. Four icon usages do **not**
   pass it and therefore render at the default 2: `src/app/admin/page.tsx`,
   `src/components/admin/listing-editor/ListingEditor.tsx`,
   `src/components/admin/listing-editor/MediaManager.tsx` and
@@ -939,10 +972,7 @@ Stated plainly so nothing here is mistaken for shipped work:
   inline `120ms ease`, which should be re-pointed at the token scale as part of the component
   restyle. `--text-anchor` and the `--app-radius-1` / `--app-shadow-raised` / `--app-shadow-top` /
   `--app-shadow-overlay-strong` tokens are likewise defined-but-unadopted.
-- **Three stale source comments could not be fixed here** (`src/**` is out of scope for this
-  document, and four agents were editing components concurrently): the `StatusTone` comment in
-  `src/components/ui/StatusBadge.tsx` says the palette "contains no blue" (it is now built on one);
-  the focus block in `src/app/globals.css` says the ring is "brass" (it uses the blue token); and
-  the `--mantine-color-brand-light*` override in `src/theme/css-variables-resolver.ts` justifies
-  itself with "which for plum is a near-black chip" (the mechanism is right, the noun is stale).
-  The declarations are correct in all three cases; only the prose is wrong.
+- **The three stale source comments are fixed.** The `StatusTone` comment in
+  `src/components/ui/StatusBadge.tsx`, the focus block in `src/app/globals.css` and the
+  `--mantine-color-brand-light*` comment in `src/theme/css-variables-resolver.ts` were rewritten for
+  the ink & vermilion palette as part of this revision; the prose now matches the declarations.

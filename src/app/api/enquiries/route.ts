@@ -8,6 +8,12 @@ import {
 } from '@/lib/api/response';
 import { getActorFromHeaders, requireActor } from '@/lib/auth/actor';
 import { getClientIp } from '@/lib/client-ip';
+import {
+  REVEAL_COOKIE,
+  readRevealedSlugs,
+  revealCookieOptions,
+  sealRevealedSlugs,
+} from '@/lib/listing-privacy';
 import { createEnquirySchema, customerEnquiryQuerySchema } from '@/lib/validation/enquiry';
 import { createEnquiry, listCustomerEnquiries } from '@/server/services/enquiry.service';
 
@@ -37,7 +43,7 @@ export const POST = apiHandler(async (request) => {
     idempotencyKey: request.headers.get('idempotency-key'),
   });
 
-  return jsonCreated({
+  const response = jsonCreated({
     data: {
       referenceCode: result.referenceCode,
       status: result.status,
@@ -45,4 +51,22 @@ export const POST = apiHandler(async (request) => {
       listings: result.listingNames,
     },
   });
+
+  /*
+   * Sending an enquiry is what unlocks the listing's identity, so the reveal is
+   * recorded on this response.
+   *
+   * The cookie is signed and httpOnly: signing is what stops a visitor from
+   * simply writing any listing into it, and httpOnly keeps it out of reach of
+   * scripts. The identifiers are stored exactly as posted (`ul_…` from the site's
+   * own form, a slug from an API client); `isListingRevealed` accepts either, so
+   * the unlock works whichever way the enquiry arrived.
+   */
+  const previous = readRevealedSlugs(request.cookies.get(REVEAL_COOKIE)?.value);
+  response.cookies.set({
+    ...revealCookieOptions(),
+    value: sealRevealedSlugs([...previous, ...input.listings]),
+  });
+
+  return response;
 });

@@ -76,6 +76,18 @@ export function SignInForm() {
       return;
     }
 
+    /*
+     * The admin shell is a blocking, authorized segment: it was fetched while the
+     * visitor was anonymous, and its redirect payload can be reused by the client
+     * router right after sign-in. A full navigation guarantees the next request is
+     * server-rendered with the new cookie; ordinary destinations keep the SPA
+     * transition.
+     */
+    if (next.startsWith('/admin')) {
+      window.location.assign(next);
+      return;
+    }
+
     router.push(next);
     router.refresh();
   }

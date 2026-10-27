@@ -27,7 +27,7 @@ const RATIO_CLASS: Record<MediaRatio, string> = {
   '16/9': classes.r16x9,
 };
 
-/** Plum, brass, sage, clay — never danger; a placeholder is not an error. */
+/** Ink, vermilion, success green, ochre — never danger; a placeholder is not an error. */
 const MOTIF_TONES = [
   'var(--app-brand)',
   'var(--app-accent)',
@@ -66,7 +66,7 @@ interface MotifProps {
 
 /**
  * Four compositions, chosen deterministically from the seed. All of them are
- * built from a single `currentColor` plus one brass element, so any motif works
+ * built from a single `currentColor` plus one accent element, so any motif works
  * on any surface in either scheme.
  */
 function Motif({ seed, width, height }: MotifProps) {

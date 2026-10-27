@@ -1,56 +1,86 @@
 import { expect, test } from '@playwright/test';
-import { uniqueEmail, uniquePhone } from './helpers';
+import {
+  expectNoErrorBoundary,
+  openEnquiryDialog,
+  submitListingEnquiry,
+  uniqueEmail,
+  uniquePhone,
+} from './helpers';
 
 /**
  * Enquiry journeys — the platform's core business action.
  *
- * The form is the one place where a mistake costs a lead, so these tests assert
- * the guards as well as the happy path: consent is required, the honeypot is
- * hidden, a reference code comes back, and tracking needs both the code and the
- * matching email.
+ * Every enquiry belongs to exactly one listing. Opening its profile is what a
+ * visitor compares; sending the form is what unlocks the business's name and
+ * contact details, so these tests assert the lock, the unlock, and the guards
+ * around the form (consent, honeypot, duplicate replay) rather than a
+ * multi-business basket that no longer exists.
  */
 
 const PROVIDER_SLUG = 'gulmohar-banjara-banquets';
-const SECOND_PROVIDER_SLUG = 'smriti-frame-studios';
 
 test.describe('enquiry submission', () => {
-  test('a guest can submit an enquiry and receives a reference code', async ({ page }) => {
-    await page.goto(`/enquire?enquire=${PROVIDER_SLUG}`);
+  test('a guest can submit an enquiry and receives a reference', async ({ page }) => {
+    await page.goto(`/vendors/${PROVIDER_SLUG}`);
 
-    await page.getByLabel('Your name').fill('E2E Guest');
-    await page.getByLabel('Email').fill(uniqueEmail('guest'));
-    await page.getByLabel('Phone').fill(uniquePhone());
-    await page.getByLabel(/accept the privacy terms/i).check();
+    // The profile streams in behind a Suspense boundary, so wait for the locked
+    // state before reading the text: an early read sees the skeleton and passes
+    // the "no name" assertion for the wrong reason.
+    await expect(page.getByRole('heading', { name: /name & contact details/i })).toBeVisible({
+      timeout: 30_000,
+    });
 
-    await page.getByRole('button', { name: /send enquiry/i }).click();
+    // Before submitting, the trading name must not be on the page at all.
+    const before = await page.locator('main').innerText();
+    expect(before).not.toMatch(/gulmohar/i);
+    // The rail names the withheld state; the anonymous label is the evidence.
+    expect(before).toMatch(/name & contact details/i);
 
-    await expect(page.getByRole('heading', { name: /your enquiry has been sent/i })).toBeVisible({
+    const reference = await submitListingEnquiry(page, PROVIDER_SLUG, { name: 'E2E Guest' });
+    expect(reference).toMatch(/LE-[A-Z0-9]{8}/);
+
+    await expect(page.getByRole('heading', { name: /enquiry sent/i })).toBeVisible({
       timeout: 20_000,
     });
-    await expect(page.getByText(/LE-[A-Z0-9]{8}/)).toBeVisible();
+    await expectNoErrorBoundary(page);
+
+    /*
+     * The unlock itself is deliberately not asserted here.
+     *
+     * It is carried by a `Secure` httpOnly cookie. Browsers only store a
+     * `Secure` cookie on an https origin (localhost is the special case), and
+     * this suite deliberately runs against a non-loopback host because the
+     * hardened production environment refuses a loopback public URL. The reveal
+     * contract is therefore covered where it can be: the API-level test in
+     * `tests/api/listings.test.ts` ("exposes the real identity once the visitor
+     * has enquired") signs the cookie and asserts the unmasked payload.
+     */
   });
 
   test('consent is required and the form does not submit without it', async ({ page }) => {
-    await page.goto(`/enquire?enquire=${PROVIDER_SLUG}`);
+    await page.goto(`/vendors/${PROVIDER_SLUG}`);
+    const dialog = await openEnquiryDialog(page);
 
-    await page.getByLabel('Your name').fill('E2E Guest');
-    await page.getByLabel('Email').fill(uniqueEmail('no-consent'));
-    await page.getByLabel('Phone').fill(uniquePhone());
+    await dialog.getByLabel('Full name').fill('E2E No Consent');
+    await dialog.getByLabel('Contact number').fill(uniquePhone());
+    await dialog.getByLabel('Email address').fill(uniqueEmail('no-consent'));
 
     // Deliberately leave consent unchecked.
-    await page.getByRole('button', { name: /send enquiry/i }).click();
+    await dialog.getByRole('button', { name: /^send enquiry$/i }).click();
 
-    await expect(page.getByText(/privacy terms/i).first()).toBeVisible();
-    await expect(page.getByRole('heading', { name: /your enquiry has been sent/i })).toBeHidden();
+    await expect(page.getByText(/please accept the privacy terms/i)).toBeVisible({
+      timeout: 20_000,
+    });
+    await expect(page.getByRole('heading', { name: /enquiry sent/i })).toBeHidden();
   });
 
   test('the honeypot field is hidden from real users and out of the tab order', async ({
     page,
   }) => {
-    await page.goto(`/enquire?enquire=${PROVIDER_SLUG}`);
+    await page.goto(`/vendors/${PROVIDER_SLUG}`);
+    const dialog = await openEnquiryDialog(page);
 
-    const honeypot = page.getByLabel('Company website');
-    // Present in the DOM so bots fill it, but not reachable by keyboard.
+    const honeypot = dialog.locator('input[tabindex="-1"]').first();
     await expect(honeypot).toHaveAttribute('tabindex', '-1');
     await expect(honeypot).not.toBeInViewport();
   });
@@ -58,96 +88,48 @@ test.describe('enquiry submission', () => {
   test('submitting the same enquiry twice does not create a second lead', async ({ page }) => {
     const email = uniqueEmail('dup');
     const phone = uniquePhone();
-    const fill = async () => {
-      await page.getByLabel('Your name').fill('E2E Duplicate');
-      await page.getByLabel('Email').fill(email);
-      await page.getByLabel('Phone').fill(phone);
-      await page.getByLabel(/accept the privacy terms/i).check();
-      await page.getByRole('button', { name: /send enquiry/i }).click();
-    };
 
-    await page.goto(`/enquire?enquire=${PROVIDER_SLUG}`);
-    await fill();
+    const first = await submitListingEnquiry(page, PROVIDER_SLUG, {
+      name: 'E2E Duplicate',
+      email,
+      phone,
+    });
 
-    const reference = page.getByText(/LE-[A-Z0-9]{8}/);
-    await expect(reference).toBeVisible({ timeout: 20_000 });
-    const firstReference = (await reference.innerText()).trim();
-
-    // The duplicate path is reported honestly rather than as a fresh success.
     await page.reload();
-    await fill();
+    const dialog = await openEnquiryDialog(page);
+    await dialog.getByLabel('Full name').fill('E2E Duplicate');
+    await dialog.getByLabel('Contact number').fill(phone);
+    await dialog.getByLabel('Email address').fill(email);
+    await dialog.getByLabel(/privacy terms/i).check();
+    await dialog.getByRole('button', { name: /^send enquiry$/i }).click();
 
-    await expect(
-      page.getByRole('heading', { name: /already received|has been sent/i }),
-    ).toBeVisible({ timeout: 20_000 });
-    const secondReference = (await page.getByText(/LE-[A-Z0-9]{8}/).innerText()).trim();
-
-    expect(secondReference).toBe(firstReference);
+    // The duplicate path is reported honestly rather than as a fresh success,
+    // and reuses the original reference.
+    await expect(page.getByRole('heading', { name: /already received|enquiry sent/i })).toBeVisible(
+      { timeout: 20_000 },
+    );
+    const second = (await page.getByText(/LE-[A-Z0-9]{8}/).innerText()).trim();
+    expect(second).toBe(first);
   });
 
-  test('multiple providers can be selected and submitted in one enquiry', async ({ page }) => {
-    await page.goto(`/enquire?enquire=${PROVIDER_SLUG}`);
+  test('a rejected field is reported inline and can be corrected', async ({ page }) => {
+    await page.goto(`/vendors/${PROVIDER_SLUG}`);
+    const dialog = await openEnquiryDialog(page);
 
-    const selected = page.getByRole('list', { name: 'Selected businesses' });
-    await expect(selected.getByText('Gulmohar Banjara Banquets')).toBeVisible();
+    await dialog.getByLabel('Full name').fill('E2E Recovery');
+    // Too few digits: the shared phone schema refuses it.
+    // Eight characters passes the length floor but has too few digits, so the
+    // digit-count rule is the one that reports.
+    await dialog.getByLabel('Contact number').fill('12345678');
+    await dialog.getByLabel('Email address').fill(uniqueEmail('recover'));
+    await dialog.getByLabel(/privacy terms/i).check();
+    await dialog.getByRole('button', { name: /^send enquiry$/i }).click();
 
-    // Add a second provider through the real control; the selection must grow.
-    // A provider added after load has no server-resolved name yet, so the pill
-    // shows its slug — that is the real behaviour, and the submission below
-    // proves the server still resolves it.
-    await page.getByLabel('Add a business by its page address').fill(SECOND_PROVIDER_SLUG);
-    await page.getByRole('button', { name: 'Add' }).click();
+    await expect(page.getByText(/at least 10 digits/i)).toBeVisible({ timeout: 20_000 });
 
-    await expect(selected.getByText(SECOND_PROVIDER_SLUG)).toBeVisible();
-    await expect(selected.getByRole('listitem')).toHaveCount(2);
-
-    // And the second provider is genuinely part of the submitted payload.
-    await page.getByLabel('Your name').fill('E2E Multi Provider');
-    await page.getByLabel('Email').fill(uniqueEmail('multi'));
-    await page.getByLabel('Phone').fill(uniquePhone());
-    await page.getByLabel(/accept the privacy terms/i).check();
-    await page.getByRole('button', { name: /send enquiry/i }).click();
-
-    await expect(page.getByRole('heading', { name: /your enquiry has been sent/i })).toBeVisible({
-      timeout: 20_000,
-    });
-    await expect(page.getByText(/LE-[A-Z0-9]{8}/)).toBeVisible();
-  });
-
-  test('recovers from a rejected submission once the business address is corrected', async ({
-    page,
-  }) => {
-    const unknownSlug = 'this-business-does-not-exist-xyz';
-
-    await page.goto(`/enquire?enquire=${PROVIDER_SLUG}`);
-    await page.getByLabel('Add a business by its page address').fill(unknownSlug);
-    await page.getByRole('button', { name: 'Add' }).click();
-    await expect(
-      page.getByRole('list', { name: 'Selected businesses' }).getByText(unknownSlug),
-    ).toBeVisible();
-
-    await page.getByLabel('Your name').fill('E2E Recovery');
-    await page.getByLabel('Email').fill(uniqueEmail('recover'));
-    await page.getByLabel('Phone').fill(uniquePhone());
-    await page.getByLabel(/accept the privacy terms/i).check();
-    await page.getByRole('button', { name: /send enquiry/i }).click();
-
-    // First attempt is refused because that business does not exist.
-    await expect(page.getByRole('alert').filter({ hasText: /could not be found/i })).toBeVisible({
-      timeout: 20_000,
-    });
-
-    // Correct the mistake rather than starting over. Before the idempotency fix
-    // this second attempt was answered with a permanent 409. The pill's remove
-    // button is aria-hidden by Mantine's Pill, so it is targeted structurally.
-    await page
-      .getByRole('list', { name: 'Selected businesses' })
-      .locator('li', { hasText: unknownSlug })
-      .locator('button')
-      .click();
-    await page.getByRole('button', { name: /send enquiry/i }).click();
-
-    await expect(page.getByRole('heading', { name: /your enquiry has been sent/i })).toBeVisible({
+    await dialog.getByLabel('Contact number').fill(uniquePhone());
+    await dialog.getByRole('button', { name: /^send enquiry$/i }).click();
+    await expect(page.getByRole('heading', { name: /enquiry sent/i })).toBeVisible({
       timeout: 20_000,
     });
     await expect(page.getByText(/LE-[A-Z0-9]{8}/)).toBeVisible();

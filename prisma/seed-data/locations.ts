@@ -47,7 +47,7 @@ const COUNTRY = {
   name: 'India',
   latitude: 21.1458,
   longitude: 79.0882,
-  description: 'Live Envt currently operates across India.',
+  description: 'Life Events currently operates across India.',
   sortOrder: 0,
 } as const;
 

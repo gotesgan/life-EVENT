@@ -317,12 +317,71 @@ export const NAV_SECTIONS: readonly NavSection[] = [
         },
       ],
       quickLinks: [
-        { href: '/enquire', label: 'Send an enquiry' },
+        { href: '/partner-with-us', label: 'List your business' },
         { href: '/track', label: 'Track an enquiry' },
       ],
     },
   },
   ...HEADER_BRANCH_SLUGS.map((slug) => categorySection(branchBySlug(slug))),
+  {
+    id: 'corporate-events',
+    label: 'Corporate events',
+    href: '/corporate-events',
+    panel: {
+      railHeading: 'Corporate events',
+      rail: [
+        {
+          href: '/corporate-events',
+          label: 'All corporate events',
+          description: 'Venues, catering, AV and offsites for conferences, launches and team days.',
+          links: [
+            { href: '/corporate-events', label: 'Corporate events home' },
+            { href: '/vendors?category=corporate-events', label: 'Every corporate listing' },
+            {
+              href: '/vendors?category=corporate-events&location=pune',
+              label: 'Corporate events in Pune',
+            },
+          ],
+        },
+        {
+          href: '/vendors?category=corporate-venues',
+          label: 'Corporate venues',
+          description: 'Conference centres, business hotels and auditoriums with AV on site.',
+          links: [
+            { href: '/vendors?category=corporate-venues', label: 'All corporate venues' },
+            {
+              href: '/vendors?category=corporate-venues&location=pune',
+              label: 'Corporate venues in Pune',
+            },
+          ],
+        },
+        {
+          href: '/vendors?category=conference-and-av',
+          label: 'Conference & AV',
+          description: 'Staging, sound, projection and hybrid-meeting production.',
+          links: [{ href: '/vendors?category=conference-and-av', label: 'All conference and AV' }],
+        },
+        {
+          href: '/vendors?category=corporate-catering',
+          label: 'Corporate catering',
+          description: 'Board lunches, conference catering and office celebration menus.',
+          links: [
+            { href: '/vendors?category=corporate-catering', label: 'All corporate catering' },
+          ],
+        },
+        {
+          href: '/vendors?category=team-offsites',
+          label: 'Team offsites',
+          description: 'Resort and estate stays for offsites, retreats and team days.',
+          links: [{ href: '/vendors?category=team-offsites', label: 'All team offsites' }],
+        },
+      ],
+      quickLinks: [
+        { href: '/partner-with-us', label: 'List your business' },
+        { href: '/track', label: 'Track an enquiry' },
+      ],
+    },
+  },
   {
     id: 'all-categories',
     label: 'All categories',
@@ -476,8 +535,9 @@ export const FOOTER_CATEGORIES: readonly NavLink[] = CATEGORY_LINKS;
 
 export const FOOTER_COMPANY: readonly NavLink[] = [
   { href: '/about', label: 'About' },
+  { href: '/corporate-events', label: 'Corporate events' },
   { href: '/contact', label: 'Contact' },
-  { href: '/enquire', label: 'Send an enquiry' },
+  { href: '/partner-with-us', label: 'List your business' },
   { href: '/track', label: 'Track an enquiry' },
 ];
 
@@ -500,12 +560,12 @@ export const DRAWER_GROUPS: readonly { label: string; links: readonly NavLink[] 
     label: 'Quick actions',
     links: [
       { href: '/vendors?verified=true', label: 'Top picks' },
-      { href: '/enquire', label: 'Send an enquiry' },
+      { href: '/partner-with-us', label: 'List your business' },
       { href: '/track', label: 'Track an enquiry' },
     ],
   },
   {
-    label: 'Live Envt',
+    label: 'Life Events',
     links: [
       { href: '/about', label: 'About' },
       { href: '/contact', label: 'Contact' },

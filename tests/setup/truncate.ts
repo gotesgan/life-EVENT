@@ -22,7 +22,9 @@ export const TRUNCATE_ALL_SQL =
   '"listing_media", "listing_services", "listing_packages", "venue_spaces", "listing_categories", ' +
   '"business_listings", "category_attributes", "attribute_options", "attribute_definitions", ' +
   '"amenities", "event_types", "categories", "customer_profiles", "sessions", "accounts", ' +
-  '"verifications", "idempotency_keys", "rate_limit_buckets", "audit_logs", "users", "locations" ' +
+  '"verifications", "idempotency_keys", "rate_limit_buckets", "audit_logs", ' +
+  '"vendor_invites", "vendor_applications", "email_logs", "meta_event_logs", "app_settings", ' +
+  '"users", "locations" ' +
   'RESTART IDENTITY CASCADE';
 
 /**

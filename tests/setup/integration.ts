@@ -60,6 +60,11 @@ const TABLES_IN_DELETE_ORDER = [
   'idempotency_keys',
   'rate_limit_buckets',
   'audit_logs',
+  'vendor_invites',
+  'vendor_applications',
+  'email_logs',
+  'meta_event_logs',
+  'app_settings',
   'users',
   'locations',
 ] as const;
@@ -118,7 +123,7 @@ export async function seedTestDatabaseSafely(): Promise<void> {
 export async function clearRuntimeState(): Promise<void> {
   const { prisma } = await import('@/lib/db');
   await prisma.$executeRawUnsafe(
-    'TRUNCATE TABLE "enquiry_notes", "enquiry_activities", "enquiry_listings", "enquiries", "idempotency_keys", "rate_limit_buckets", "audit_logs" RESTART IDENTITY CASCADE',
+    'TRUNCATE TABLE "enquiry_notes", "enquiry_activities", "enquiry_listings", "enquiries", "idempotency_keys", "rate_limit_buckets", "audit_logs", "vendor_invites", "vendor_applications", "email_logs", "meta_event_logs", "app_settings" RESTART IDENTITY CASCADE',
   );
 }
 

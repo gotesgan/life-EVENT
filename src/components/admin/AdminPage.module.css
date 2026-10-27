@@ -118,7 +118,7 @@
 /* The one number in a row the administrator sorts by eye. */
 .numeric {
   font-variant-numeric: tabular-nums;
-  font-weight: 550;
+  font-weight: 500;
 }
 
 /* Numerics that sit in a real column: aligned by their own flex container, so
