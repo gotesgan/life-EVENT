@@ -26,6 +26,12 @@
     inset-inline: rem(24px);
     inset-block-end: rem(24px);
   }
+
+  /* The mobile quick-action bar sits at z-index 190 above this banner, so the
+     banner must clear its height rather than let the bar cover its buttons. */
+  @mixin smaller-than $mantine-breakpoint-lg {
+    inset-block-end: calc(var(--app-tab-bar-height) + env(safe-area-inset-bottom, 0px) + rem(12px));
+  }
 }
 
 .text {

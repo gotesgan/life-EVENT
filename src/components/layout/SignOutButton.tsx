@@ -9,6 +9,11 @@ import classes from './SignOutButton.module.css';
 export interface SignOutButtonProps {
   /** Where to land after the session is cleared. */
   redirectTo?: string;
+  /**
+   * Show the label even where the header compacts it to an icon. The account
+   * page passes this: it is the only sign-out affordance on a phone.
+   */
+  showLabel?: boolean;
 }
 
 /**
@@ -18,7 +23,7 @@ export interface SignOutButtonProps {
  * no client-side auth SDK is needed for one action. The button owns its own
  * pending state so a slow request cannot be double-submitted.
  */
-export function SignOutButton({ redirectTo = '/' }: SignOutButtonProps) {
+export function SignOutButton({ redirectTo = '/', showLabel = false }: SignOutButtonProps) {
   const router = useRouter();
   const [pending, setPending] = useState(false);
   const [failed, setFailed] = useState(false);
@@ -51,7 +56,9 @@ export function SignOutButton({ redirectTo = '/' }: SignOutButtonProps) {
       aria-label="Sign out"
       title={failed ? 'Sign out failed — please try again' : 'Sign out'}
     >
-      <span className={classes.label}>{failed ? 'Retry sign out' : 'Sign out'}</span>
+      <span className={`${classes.label} ${showLabel ? classes.labelAlways : ''}`}>
+        {failed ? 'Retry sign out' : 'Sign out'}
+      </span>
     </Button>
   );
 }

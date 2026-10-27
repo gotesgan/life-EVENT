@@ -543,6 +543,19 @@
   margin-inline-start: auto;
 }
 
+/* Mobile hides the header's account action: the quick-action bar is the single
+   place to sign in or reach the account on a phone. */
+.accountSlot {
+  display: inline-flex;
+  align-items: center;
+}
+
+@mixin smaller-than $mantine-breakpoint-lg {
+  .accountSlot {
+    display: none;
+  }
+}
+
 /* On laptop widths the account and sign-out icons take priority over this
    convenience shortcut; search remains reachable through the vendor nav and the
    mobile tab bar. Declared after `.iconAction` so it wins at equal specificity. */

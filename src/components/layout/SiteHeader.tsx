@@ -110,9 +110,17 @@ export function SiteHeader() {
               <IconSearch size="1.125rem" stroke={1.5} aria-hidden />
             </Link>
             <ThemeToggle className={classes.iconAction} />
-            <Suspense fallback={<HeaderAccountFallback />}>
-              <HeaderAccount />
-            </Suspense>
+            {/*
+             * Below `lg` the bottom quick-action bar owns the account entry, so
+             * the header does not repeat the same "Sign in" control two hundred
+             * pixels apart. Hidden rather than duplicated; the tab bar keeps the
+             * account reachable and labelled.
+             */}
+            <div className={classes.accountSlot}>
+              <Suspense fallback={<HeaderAccountFallback />}>
+                <HeaderAccount />
+              </Suspense>
+            </div>
           </div>
         </Container>
       </div>
