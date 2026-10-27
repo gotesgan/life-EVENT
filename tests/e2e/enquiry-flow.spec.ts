@@ -1,5 +1,11 @@
 import { expect, test } from '@playwright/test';
-import { expectNoErrorBoundary, submitListingEnquiry, uniqueEmail, uniquePhone } from './helpers';
+import {
+  expectNoErrorBoundary,
+  openEnquiryDialog,
+  submitListingEnquiry,
+  uniqueEmail,
+  uniquePhone,
+} from './helpers';
 
 /**
  * Enquiry journeys — the platform's core business action.
@@ -53,13 +59,14 @@ test.describe('enquiry submission', () => {
 
   test('consent is required and the form does not submit without it', async ({ page }) => {
     await page.goto(`/vendors/${PROVIDER_SLUG}`);
+    const dialog = await openEnquiryDialog(page);
 
-    await page.getByLabel('Full name').fill('E2E No Consent');
-    await page.getByLabel('Contact number').fill(uniquePhone());
-    await page.getByLabel('Email address').fill(uniqueEmail('no-consent'));
+    await dialog.getByLabel('Full name').fill('E2E No Consent');
+    await dialog.getByLabel('Contact number').fill(uniquePhone());
+    await dialog.getByLabel('Email address').fill(uniqueEmail('no-consent'));
 
     // Deliberately leave consent unchecked.
-    await page.getByRole('button', { name: /^send enquiry$/i }).click();
+    await dialog.getByRole('button', { name: /^send enquiry$/i }).click();
 
     await expect(page.getByText(/please accept the privacy terms/i)).toBeVisible({
       timeout: 20_000,
@@ -71,8 +78,9 @@ test.describe('enquiry submission', () => {
     page,
   }) => {
     await page.goto(`/vendors/${PROVIDER_SLUG}`);
+    const dialog = await openEnquiryDialog(page);
 
-    const honeypot = page.locator('input[tabindex="-1"]').first();
+    const honeypot = dialog.locator('input[tabindex="-1"]').first();
     await expect(honeypot).toHaveAttribute('tabindex', '-1');
     await expect(honeypot).not.toBeInViewport();
   });
@@ -88,11 +96,12 @@ test.describe('enquiry submission', () => {
     });
 
     await page.reload();
-    await page.getByLabel('Full name').fill('E2E Duplicate');
-    await page.getByLabel('Contact number').fill(phone);
-    await page.getByLabel('Email address').fill(email);
-    await page.getByLabel(/privacy terms/i).check();
-    await page.getByRole('button', { name: /^send enquiry$/i }).click();
+    const dialog = await openEnquiryDialog(page);
+    await dialog.getByLabel('Full name').fill('E2E Duplicate');
+    await dialog.getByLabel('Contact number').fill(phone);
+    await dialog.getByLabel('Email address').fill(email);
+    await dialog.getByLabel(/privacy terms/i).check();
+    await dialog.getByRole('button', { name: /^send enquiry$/i }).click();
 
     // The duplicate path is reported honestly rather than as a fresh success,
     // and reuses the original reference.
@@ -105,20 +114,21 @@ test.describe('enquiry submission', () => {
 
   test('a rejected field is reported inline and can be corrected', async ({ page }) => {
     await page.goto(`/vendors/${PROVIDER_SLUG}`);
+    const dialog = await openEnquiryDialog(page);
 
-    await page.getByLabel('Full name').fill('E2E Recovery');
+    await dialog.getByLabel('Full name').fill('E2E Recovery');
     // Too few digits: the shared phone schema refuses it.
     // Eight characters passes the length floor but has too few digits, so the
     // digit-count rule is the one that reports.
-    await page.getByLabel('Contact number').fill('12345678');
-    await page.getByLabel('Email address').fill(uniqueEmail('recover'));
-    await page.getByLabel(/privacy terms/i).check();
-    await page.getByRole('button', { name: /^send enquiry$/i }).click();
+    await dialog.getByLabel('Contact number').fill('12345678');
+    await dialog.getByLabel('Email address').fill(uniqueEmail('recover'));
+    await dialog.getByLabel(/privacy terms/i).check();
+    await dialog.getByRole('button', { name: /^send enquiry$/i }).click();
 
     await expect(page.getByText(/at least 10 digits/i)).toBeVisible({ timeout: 20_000 });
 
-    await page.getByLabel('Contact number').fill(uniquePhone());
-    await page.getByRole('button', { name: /^send enquiry$/i }).click();
+    await dialog.getByLabel('Contact number').fill(uniquePhone());
+    await dialog.getByRole('button', { name: /^send enquiry$/i }).click();
     await expect(page.getByRole('heading', { name: /enquiry sent/i })).toBeVisible({
       timeout: 20_000,
     });

@@ -207,8 +207,16 @@
 }
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(8px);
   padding-top: rem(12px);
   border-top: 1px solid var(--app-border);
+}
+
+.footerEnquire {
+  flex: none;
 }
 
 /* A quiet action: the card is one link, so the foot is the visible affordance
@@ -216,6 +224,7 @@
    action colour on repetition and stops it meaning "primary". */
 .action {
   display: flex;
+  flex: 1 1 auto;
   align-items: center;
   justify-content: space-between;
   gap: rem(8px);

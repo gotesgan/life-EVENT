@@ -104,7 +104,28 @@
 .priceRow {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  gap: rem(12px);
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: rem(24px);
+  }
+}
+
+/* Price and its note travel together; the CTA sits on the same line on a
+   desktop and stacks under the price on a phone. */
+.priceInfo {
+  display: flex;
+  flex-direction: column;
   gap: rem(4px);
+  min-width: 0;
+}
+
+.priceCta {
+  flex: none;
 }
 
 .priceNote {
@@ -148,10 +169,6 @@
     position: sticky;
     top: calc(var(--app-header-height) + rem(20px));
   }
-}
-
-.enquiryCard {
-  scroll-margin-top: calc(var(--app-header-height) + rem(20px));
 }
 
 .related {

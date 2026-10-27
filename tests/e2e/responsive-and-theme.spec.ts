@@ -138,9 +138,15 @@ test.describe('accessibility basics', () => {
 
   test('form inputs have accessible labels', async ({ page }) => {
     await page.goto('/vendors/gulmohar-banjara-banquets');
-    await expect(page.getByLabel('Full name')).toBeVisible();
-    await expect(page.getByLabel('Email address')).toBeVisible();
-    await expect(page.getByLabel('Contact number')).toBeVisible();
+    await page
+      .getByRole('button', { name: /^send an enquiry$/i })
+      .first()
+      .click();
+    const dialog = page.getByRole('dialog');
+    await expect(dialog).toBeVisible({ timeout: 30_000 });
+    await expect(dialog.getByLabel('Full name')).toBeVisible();
+    await expect(dialog.getByLabel('Email address')).toBeVisible();
+    await expect(dialog.getByLabel('Contact number')).toBeVisible();
   });
 
   test('reduced motion removes long transitions', async ({ browser }) => {

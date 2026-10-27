@@ -3,6 +3,7 @@ import { IconArrowRight, IconLock } from '@tabler/icons-react';
 import { PriceTag } from '@/components/ui/PriceTag';
 import { listingRef } from '@/lib/public-listing-ref';
 import type { ListingCard as ListingCardDto } from '@/server/dto/listing.dto';
+import { EnquiryModal } from '@/components/enquiry/EnquiryModal';
 import { ListingMedia } from './ListingMedia';
 import { TopPickBadge } from './TopPickBadge';
 import classes from './ListingCard.module.css';
@@ -142,9 +143,17 @@ export function ListingCard({ listing, preloadImage = false }: ListingCardProps)
 
         <div className={classes.footer}>
           <Link className={classes.action} href={href}>
-            <span>{hidden ? 'View & enquire' : 'Send enquiry'}</span>
+            <span>View details</span>
             <IconArrowRight className={classes.actionIcon} size="1rem" stroke={1.8} aria-hidden />
           </Link>
+          <EnquiryModal
+            listingRef={listingRef(listing.id)}
+            hidden={hidden}
+            triggerLabel="Enquire"
+            triggerVariant="secondary"
+            triggerSize="sm"
+            triggerClassName={classes.footerEnquire}
+          />
         </div>
       </div>
     </article>

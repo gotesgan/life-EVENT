@@ -110,11 +110,28 @@ export async function registerNewCustomer(
 }
 
 /**
- * Sends an enquiry from a listing's own profile form.
+ * Opens the enquiry dialog from a listing profile.
  *
- * Every enquiry belongs to exactly one listing now, so there is no multi-business
- * form to drive: the journey is "open the profile, fill the four required fields,
- * send". Returns the reference code shown on the confirmation.
+ * The form is a modal now, so every journey starts with this trigger. Scoping
+ * the returned locator to the dialog also keeps `getByLabel` from matching the
+ * dialog title or the page behind it.
+ */
+export async function openEnquiryDialog(page: Page) {
+  await page
+    .getByRole('button', { name: /^send an enquiry$/i })
+    .first()
+    .click();
+  const dialog = page.getByRole('dialog');
+  await expect(dialog).toBeVisible({ timeout: 30_000 });
+  return dialog;
+}
+
+/**
+ * Sends an enquiry from a listing's own profile dialog.
+ *
+ * Every enquiry belongs to exactly one listing, so the journey is "open the
+ * profile, open the dialog, fill the four required fields, send". Returns the
+ * reference code shown on the confirmation.
  */
 export async function submitListingEnquiry(
   page: Page,
@@ -122,17 +139,18 @@ export async function submitListingEnquiry(
   options: { name?: string; email?: string; phone?: string; consent?: boolean } = {},
 ): Promise<string> {
   await page.goto(`/vendors/${slug}`);
+  const dialog = await openEnquiryDialog(page);
 
-  await page.getByLabel('Full name').fill(options.name ?? 'E2E Guest');
-  await page.getByLabel('Contact number').fill(options.phone ?? uniquePhone());
-  await page.getByLabel('Email address').fill(options.email ?? uniqueEmail('guest'));
+  await dialog.getByLabel('Full name').fill(options.name ?? 'E2E Guest');
+  await dialog.getByLabel('Contact number').fill(options.phone ?? uniquePhone());
+  await dialog.getByLabel('Email address').fill(options.email ?? uniqueEmail('guest'));
 
   if (options.consent !== false) {
-    await page.getByLabel(/privacy terms/i).check();
+    await dialog.getByLabel(/privacy terms/i).check();
   }
-  await page.getByRole('button', { name: /^send enquiry$/i }).click();
+  await dialog.getByRole('button', { name: /^send enquiry$/i }).click();
 
-  const reference = page.getByText(/LE-[A-Z0-9]{8}/);
+  const reference = dialog.getByText(/LE-[A-Z0-9]{8}/);
   await expect(reference).toBeVisible({ timeout: 30_000 });
   return (await reference.innerText()).trim();
 }

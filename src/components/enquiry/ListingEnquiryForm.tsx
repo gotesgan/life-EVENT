@@ -29,6 +29,11 @@ export interface ListingEnquiryFormProps {
   eventTypeOptions: readonly SelectOption[];
   /** Rendered above the form while the venue's identity is still withheld. */
   hidden: boolean;
+  /**
+   * Show the form's own "Send an enquiry" heading. False inside a dialog whose
+   * title already says it, so the modal does not repeat itself.
+   */
+  showHeading?: boolean;
 }
 
 interface FormValues {
@@ -114,6 +119,7 @@ export function ListingEnquiryForm({
   listingRef,
   eventTypeOptions,
   hidden,
+  showHeading = true,
 }: ListingEnquiryFormProps) {
   const router = useRouter();
   const [submitted, setSubmitted] = useState<SubmissionResult | null>(null);
@@ -271,14 +277,16 @@ export function ListingEnquiryForm({
 
   return (
     <form className={classes.form} onSubmit={form.onSubmit(handleSubmit)} noValidate>
-      <div className={classes.head}>
-        <h2 className={classes.title}>Send an enquiry</h2>
-        <p className={classes.note}>
-          {hidden
-            ? 'One short form — no account needed.'
-            : 'Your details go to this business only. One enquiry, one reply, no phone-number chasing.'}
-        </p>
-      </div>
+      {showHeading ? (
+        <div className={classes.head}>
+          <h2 className={classes.title}>Send an enquiry</h2>
+          <p className={classes.note}>
+            {hidden
+              ? 'One short form — no account needed.'
+              : 'Your details go to this business only. One enquiry, one reply, no phone-number chasing.'}
+          </p>
+        </div>
+      ) : null}
 
       <div className={classes.grid}>
         <TextInput

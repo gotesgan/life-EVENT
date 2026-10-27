@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Link from '@/components/ui/ClientLink';
 import { notFound } from 'next/navigation';
 import { IconMapPin } from '@tabler/icons-react';
-import { ListingEnquiryForm } from '@/components/enquiry/ListingEnquiryForm';
+import { EnquiryModal } from '@/components/enquiry/EnquiryModal';
 import { SiteShell } from '@/components/layout/SiteShell';
 import { AmenityList } from '@/components/listing/AmenityList';
 import { AttributeList } from '@/components/listing/AttributeList';
@@ -21,7 +21,6 @@ import { PageHeader } from '@/components/ui/PageHeader';
 import { PriceTag } from '@/components/ui/PriceTag';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { ListingDetailSkeleton, ListingGridSkeleton } from '@/components/ui/Skeletons';
-import { Surface } from '@/components/ui/Surface';
 import { getAppUrl } from '@/lib/env';
 import { NotFoundError } from '@/lib/errors';
 import {
@@ -226,17 +225,32 @@ async function ListingProfile({ slug }: { slug: string }) {
           */}
 
           <div className={classes.priceRow}>
-            <PriceTag
-              priceMin={listing.priceMin}
-              priceMax={listing.priceMax}
-              priceUnit={listing.priceUnit}
-              size="lg"
+            <div className={classes.priceInfo}>
+              <PriceTag
+                priceMin={listing.priceMin}
+                priceMax={listing.priceMax}
+                priceUnit={listing.priceUnit}
+                size="lg"
+              />
+              <p className={classes.priceNote}>
+                {listing.priceLabel
+                  ? 'The price this business published. Anything not shown here has not been published.'
+                  : 'This business has not published a price, so we show no number rather than guessing.'}
+              </p>
+            </div>
+
+            <EnquiryModal
+              listingRef={publicReference}
+              hidden={identityHidden}
+              eventTypeOptions={eventTypes.map((eventType) => ({
+                value: eventType.slug,
+                label: eventType.name,
+              }))}
+              triggerLabel="Send an enquiry"
+              triggerSize="md"
+              triggerClassName={classes.priceCta}
+              title="Send an enquiry"
             />
-            <p className={classes.priceNote}>
-              {listing.priceLabel
-                ? 'The price this business published. Anything not shown here has not been published.'
-                : 'This business has not published a price, so we show no number rather than guessing.'}
-            </p>
           </div>
 
           <ListingFacts groups={listing.attributeGroups} extras={factExtras(listing)} />
@@ -307,17 +321,6 @@ async function ListingProfile({ slug }: { slug: string }) {
               hidden={identityHidden}
               footnote="Businesses typically reply within two working days."
             />
-
-            <Surface tone="raised" padding="md" elevated className={classes.enquiryCard}>
-              <ListingEnquiryForm
-                listingRef={publicReference}
-                eventTypeOptions={eventTypes.map((eventType) => ({
-                  value: eventType.slug,
-                  label: eventType.name,
-                }))}
-                hidden={identityHidden}
-              />
-            </Surface>
           </div>
         </aside>
       </div>
