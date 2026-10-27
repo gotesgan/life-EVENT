@@ -2,8 +2,7 @@ import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import Link from '@/components/ui/ClientLink';
 import { notFound } from 'next/navigation';
-import { IconMapPin, IconSend } from '@tabler/icons-react';
-import { Button } from '@mantine/core';
+import { IconMapPin } from '@tabler/icons-react';
 import { ListingEnquiryForm } from '@/components/enquiry/ListingEnquiryForm';
 import { SiteShell } from '@/components/layout/SiteShell';
 import { AmenityList } from '@/components/listing/AmenityList';
@@ -214,16 +213,6 @@ async function ListingProfile({ slug }: { slug: string }) {
             actions={
               <div className={classes.identityActions}>
                 <TopPickBadge isVerified={isVerified} size="md" />
-                <span className={classes.mobileCta}>
-                  <Button
-                    component="a"
-                    href="#enquiry"
-                    leftSection={<IconSend size="1rem" stroke={1.6} aria-hidden />}
-                    size="sm"
-                  >
-                    Send an enquiry
-                  </Button>
-                </span>
               </div>
             }
           />

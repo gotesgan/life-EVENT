@@ -1,7 +1,9 @@
 'use client';
 
+import { Button } from '@/components/ui';
+
 import { useState } from 'react';
-import { Button, CopyButton as MantineCopyButton, Tooltip } from '@mantine/core';
+import { CopyButton as MantineCopyButton, Tooltip } from '@mantine/core';
 import { IconCheck, IconCopy } from '@tabler/icons-react';
 
 /**

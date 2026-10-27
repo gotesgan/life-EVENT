@@ -1,8 +1,10 @@
 'use client';
 
+import { Button } from '@/components/ui';
+
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
-import { Button, type ButtonProps } from '@mantine/core';
+import { type ButtonProps } from '@mantine/core';
 import {
   TOUR_RESET_EVENT,
   TOUR_START_EVENT,

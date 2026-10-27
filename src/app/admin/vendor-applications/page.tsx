@@ -99,7 +99,7 @@ async function ApplicationsResult() {
             autoComplete="email"
           />
           <Button type="submit" size="sm">
-            Create onboarding link
+            Create link &amp; copy
           </Button>
         </form>
       </Surface>
@@ -136,12 +136,25 @@ async function ApplicationsResult() {
                     {invite.status.toLowerCase()}
                   </StatusBadge>
                   {invite.status === 'SENT' || invite.status === 'OPENED' ? (
-                    <form action={revokeVendorInviteAction}>
-                      <input type="hidden" name="id" value={invite.id} />
-                      <Button type="submit" size="xs" variant="default">
-                        Revoke
-                      </Button>
-                    </form>
+                    <>
+                      <form action={createVendorInviteAction}>
+                        <input type="hidden" name="email" value={invite.email ?? ''} />
+                        <input
+                          type="hidden"
+                          name="applicationId"
+                          value={invite.applicationId ?? ''}
+                        />
+                        <Button type="submit" size="xs" variant="default">
+                          New copy link
+                        </Button>
+                      </form>
+                      <form action={revokeVendorInviteAction}>
+                        <input type="hidden" name="id" value={invite.id} />
+                        <Button type="submit" size="xs" variant="default">
+                          Revoke
+                        </Button>
+                      </form>
+                    </>
                   ) : null}
                 </div>
               </li>
@@ -228,7 +241,7 @@ async function ApplicationsResult() {
                       <input type="hidden" name="email" value={application.contactEmail} />
                       <input type="hidden" name="applicationId" value={application.id} />
                       <Button type="submit" size="xs" variant="default">
-                        Send onboarding link
+                        Create link &amp; copy
                       </Button>
                     </form>
                   ) : null}

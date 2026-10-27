@@ -125,7 +125,7 @@ export const theme = createTheme({
   },
 
   components: {
-    Button: { defaultProps: { radius: 'md' } },
+    Button: { defaultProps: { radius: 'md', autoContrast: true } },
     ActionIcon: { defaultProps: { radius: 'md' } },
     TextInput: { defaultProps: { radius: 'md' } },
     Select: { defaultProps: { radius: 'md' } },

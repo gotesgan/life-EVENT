@@ -1,9 +1,10 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { Button, Select, Textarea, TextInput } from '@mantine/core';
+import { Select, Textarea, TextInput } from '@mantine/core';
 import { schemaResolver, useForm, type FormErrors } from '@mantine/form';
 import { IconCircleCheck, IconSend } from '@tabler/icons-react';
+import { Button } from '@/components/ui';
 import { Surface } from '@/components/ui';
 import { vendorOnboardingSchema } from '@/lib/validation/vendor-invite';
 import classes from './VendorOnboardingForm.module.css';

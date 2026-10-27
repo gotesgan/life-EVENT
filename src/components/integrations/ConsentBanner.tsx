@@ -1,9 +1,11 @@
 'use client';
 
+import { Button } from '@/components/ui';
+
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Button } from '@mantine/core';
+
 import {
   readAnalyticsConsent,
   writeAnalyticsConsent,

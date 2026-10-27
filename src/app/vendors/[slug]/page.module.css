@@ -101,14 +101,6 @@
   }
 }
 
-.mobileCta {
-  display: inline-flex;
-
-  @mixin larger-than $mantine-breakpoint-md {
-    display: none;
-  }
-}
-
 .priceRow {
   display: flex;
   flex-direction: column;
