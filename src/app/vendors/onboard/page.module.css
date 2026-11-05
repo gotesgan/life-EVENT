@@ -1,5 +1,84 @@
-.page {
-  padding-block: clamp(2rem, 1.5rem + 2vw, 4rem);
+/*
+ * Standalone vendor-onboarding shell.
+ *
+ * This route intentionally does not use `SiteShell`: an invited business is not
+ * browsing the marketplace, they are completing an app-like task. The surface has
+ * its own chrome (a single quiet top bar), its own canvas, and no footer or
+ * public navigation, so it cannot be mistaken for a page of the customer site.
+ */
+
+.app {
+  display: flex;
+  min-height: 100dvh;
+  flex-direction: column;
+  background-color: var(--app-surface-muted);
+}
+
+/* --- App header ----------------------------------------------------------- */
+
+.topbar {
+  border-block-end: 1px solid var(--app-border);
+  background-color: var(--app-surface-raised);
+}
+
+.topbarInner {
+  display: flex;
+  align-items: center;
+  gap: rem(12px);
+  width: 100%;
+  max-width: rem(1120px);
+  min-height: rem(60px);
+  margin-inline: auto;
+  padding-inline: clamp(rem(16px), 3vw, rem(32px));
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--app-radius-control);
+  text-decoration: none;
+}
+
+.brand:focus-visible {
+  outline: 2px solid var(--app-focus-ring);
+  outline-offset: 4px;
+}
+
+.topbarDivider {
+  width: 1px;
+  height: rem(20px);
+  background-color: var(--app-border);
+}
+
+.topbarLabel {
+  color: var(--app-text);
+  font-size: var(--text-caption-size);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.privateTag {
+  margin-inline-start: auto;
+  white-space: nowrap;
+  padding: rem(3px) rem(8px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-pill);
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: 600;
+}
+
+/* --- Canvas --------------------------------------------------------------- */
+
+.main {
+  flex: 1 1 auto;
+  width: 100%;
+  max-width: rem(1120px);
+  margin-inline: auto;
+  padding-block: clamp(rem(24px), 4vw, rem(56px)) clamp(rem(32px), 5vw, rem(72px));
+  padding-inline: clamp(rem(16px), 3vw, rem(32px));
 }
 
 .layout {
@@ -9,14 +88,23 @@
   align-items: start;
 
   @mixin larger-than $mantine-breakpoint-lg {
-    grid-template-columns: minmax(0, 26rem) minmax(0, 1fr);
+    grid-template-columns: minmax(0, rem(380px)) minmax(0, 1fr);
     gap: rem(48px);
   }
 }
 
+/* --- Intro column --------------------------------------------------------- */
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: rem(20px);
+  min-width: 0;
+}
+
 .eyebrow {
-  margin: 0 0 rem(8px);
-  color: var(--app-text-subtle);
+  margin: 0;
+  color: var(--app-brand);
   font-size: var(--text-caption-size);
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -24,44 +112,201 @@
 }
 
 .title {
-  margin: 0 0 rem(12px);
-  font-size: var(--text-h1-size);
-  font-weight: var(--text-h1-weight);
-  line-height: var(--text-h1-leading);
-  letter-spacing: var(--text-h1-tracking);
+  margin: 0;
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-size: clamp(rem(30px), rem(24px) + 1.6vw, rem(44px));
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
 }
 
 .lede {
-  margin: 0 0 rem(12px);
+  margin: 0;
   color: var(--app-text-muted);
   font-size: var(--text-body-size);
   line-height: var(--text-body-leading);
   text-wrap: pretty;
 }
 
+.checklistBlock {
+  display: flex;
+  flex-direction: column;
+  gap: rem(10px);
+  padding-block-start: rem(18px);
+  border-block-start: 1px solid var(--app-border);
+}
+
+.blockTitle {
+  margin: 0;
+  color: var(--app-text);
+  font-size: var(--text-body-size);
+  font-weight: 700;
+}
+
+.checklist {
+  display: flex;
+  flex-direction: column;
+  gap: rem(8px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.checklistItem {
+  display: flex;
+  align-items: flex-start;
+  gap: rem(10px);
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+.checkmark {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(18px);
+  height: rem(18px);
+  margin-block-start: rem(1px);
+  border-radius: var(--app-radius-pill);
+  background-color: var(--app-brand-soft);
+  color: var(--app-brand-soft-text);
+  font-size: rem(11px);
+  font-weight: 700;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-block-start: 1px solid var(--app-border);
+}
+
+.step {
+  display: flex;
+  align-items: baseline;
+  gap: rem(12px);
+  padding-block: rem(10px);
+  border-block-end: 1px solid var(--app-border);
+}
+
+.stepNumber {
+  flex: none;
+  width: rem(24px);
+  color: var(--app-text-subtle);
+  font-family: var(--mantine-font-family-monospace);
+  font-size: var(--text-caption-size);
+}
+
+.stepBody {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: rem(4px) rem(8px);
+  min-width: 0;
+}
+
+.stepLabel {
+  color: var(--app-text);
+  font-size: var(--text-secondary-size);
+  font-weight: 600;
+}
+
+.stepNote {
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+}
+
 .expiry {
-  margin: rem(16px) 0 0;
+  margin: 0;
   padding: rem(10px) rem(12px);
   border: 1px solid var(--app-border);
   border-radius: var(--app-radius-control);
-  background-color: var(--app-surface-muted);
+  background-color: var(--app-surface-sunken);
   color: var(--app-text-muted);
   font-size: var(--text-caption-size);
   line-height: var(--text-caption-leading);
 }
 
+/* --- Form card ------------------------------------------------------------ */
+
+.formCard {
+  min-width: 0;
+}
+
+.formHead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: rem(12px);
+  margin-block-end: rem(6px);
+}
+
+.formEyebrow {
+  margin: 0 0 rem(4px);
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.formTitle {
+  margin: 0;
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-size: var(--text-h3-size);
+  font-weight: 600;
+  line-height: var(--text-h3-leading);
+}
+
+.draftBadge {
+  flex: none;
+  padding: rem(3px) rem(8px);
+  border-radius: var(--app-radius-pill);
+  background-color: var(--app-warning-soft);
+  color: var(--app-warning-soft-text);
+  font-size: var(--text-caption-size);
+  font-weight: 700;
+}
+
+.formNote {
+  margin: 0 0 rem(18px);
+  padding-block-end: rem(14px);
+  border-block-end: 1px solid var(--app-border);
+  color: var(--app-text-muted);
+  font-size: var(--text-caption-size);
+  line-height: var(--text-caption-leading);
+}
+
+/* --- Terminal states ------------------------------------------------------ */
+
 .message {
   display: flex;
   flex-direction: column;
   gap: rem(8px);
-  max-width: 40rem;
-  margin-inline: auto;
+  max-width: rem(560px);
+  margin: clamp(rem(20px), 8vh, rem(80px)) auto 0;
+}
+
+.messageEyebrow {
+  margin: 0;
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .messageTitle {
   margin: 0;
+  font-family: var(--font-display), ui-serif, Georgia, serif;
   font-size: var(--text-h2-size);
-  font-weight: var(--text-h2-weight);
+  font-weight: 600;
   line-height: var(--text-h2-leading);
 }
 
@@ -73,5 +318,32 @@
 }
 
 .loading {
-  min-height: rem(320px);
+  min-height: rem(360px);
+}
+
+/*
+ * Keep these last: the component rules above set `display` on the checklist and
+ * steps, and same-specificity earlier rules would lose. On phones the intro is a
+ * masthead, not a second page, so the form is reachable on the first screen; the
+ * supporting detail remains on tablet/desktop.
+ */
+@mixin smaller-than $mantine-breakpoint-lg {
+  .intro {
+    gap: rem(12px);
+  }
+
+  .intro .checklistBlock,
+  .intro .steps {
+    display: none;
+  }
+
+  .title {
+    font-size: clamp(rem(26px), rem(22px) + 1.4vw, rem(34px));
+  }
+}
+
+@mixin smaller-than $mantine-breakpoint-sm {
+  .privateTag {
+    display: none;
+  }
 }
