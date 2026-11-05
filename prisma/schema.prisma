@@ -949,15 +949,16 @@ model VendorApplication {
 
   /// Populated by the invite onboarding form (the public form collects only the
   /// four fields above). Kept nullable so the short form stays short.
-  contactName  String?
-  contactEmail String?
-  citySlug     String?
-  websiteUrl   String?
+  contactName     String?
+  contactEmail    String?
+  citySlug        String?
+  websiteUrl      String?
   /// Raw structured answers from the onboarding form, for the review screen.
-  submitted    Json?
+  submitted       Json?
   /// The draft listing created from this application on approval, so a second
   /// approval cannot create a duplicate and the review screen can link to it.
-  listingId    String?
+  listingId       String?
+  onboardingMedia VendorOnboardingMedia[]
 
   ipHash    String?
   userAgent String?
@@ -976,22 +977,23 @@ model VendorApplication {
 model VendorInvite {
   id String @id @default(cuid())
 
-  tokenHash String @unique
+  tokenHash String  @unique
   email     String?
 
   /// The application this invite fills in, when the back office invited a
   /// business that had already applied through the short public form.
   applicationId String?
   /// The listing this invite is completing, for "claim your listing" flows.
-  listingId String?
+  listingId     String?
 
   status VendorInviteStatus @default(SENT)
 
-  expiresAt   DateTime
-  openedAt    DateTime?
-  submittedAt DateTime?
-  revokedAt   DateTime?
-  createdById String?
+  expiresAt       DateTime
+  openedAt        DateTime?
+  submittedAt     DateTime?
+  revokedAt       DateTime?
+  createdById     String?
+  onboardingMedia VendorOnboardingMedia[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -999,6 +1001,31 @@ model VendorInvite {
   @@index([status, createdAt(sort: Desc)])
   @@index([applicationId])
   @@map("vendor_invites")
+}
+
+/// Invite-scoped uploads are staged until the application is approved and a
+/// listing exists. They use the same storage verification as listing media.
+model VendorOnboardingMedia {
+  id            String      @id @default(cuid())
+  inviteId      String
+  applicationId String?
+  storageKey    String      @unique
+  publicUrl     String
+  altText       String
+  mimeType      String
+  sizeBytes     Int
+  sortOrder     Int         @default(0)
+  isMenu        Boolean     @default(false)
+  status        MediaStatus @default(PENDING)
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  invite      VendorInvite       @relation(fields: [inviteId], references: [id], onDelete: Cascade)
+  application VendorApplication? @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+
+  @@index([inviteId, status, sortOrder])
+  @@index([applicationId, status, sortOrder])
+  @@map("vendor_onboarding_media")
 }
 
 enum VendorInviteStatus {

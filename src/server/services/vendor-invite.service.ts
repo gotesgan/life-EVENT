@@ -273,14 +273,15 @@ export async function submitVendorOnboarding(
       websiteUrl: input.websiteUrl,
       description: input.description,
       package: {
-        name: input.packageName,
-        description: input.packageDescription,
-        price: input.packagePrice,
-        priceUnit: input.packagePriceUnit,
-        inclusions: input.packageInclusions,
+        name: input.packageName ?? null,
+        description: input.packageDescription ?? null,
+        price:
+          input.packagePrice == null || input.packagePrice === ''
+            ? null
+            : Number(input.packagePrice),
+        priceUnit: input.packagePriceUnit || null,
+        inclusions: input.packageInclusions ?? null,
       },
-      menuImageUrl: input.menuImageUrl,
-      imageUrls: input.imageUrls ?? [],
       submittedAt: new Date().toISOString(),
     },
   };
@@ -292,6 +293,28 @@ export async function submitVendorOnboarding(
           data: { ...payload, status: 'NEW' },
         })
       : await tx.vendorApplication.create({ data: payload });
+
+    const imageMediaIds = input.imageMediaIds ?? [];
+    if (imageMediaIds.length > 0) {
+      const uploads = await tx.vendorOnboardingMedia.findMany({
+        where: {
+          id: { in: imageMediaIds },
+          inviteId: invite.id,
+          status: 'READY',
+          applicationId: null,
+        },
+        select: { id: true },
+      });
+      if (uploads.length !== imageMediaIds.length) {
+        throw new ValidationError(
+          'One or more uploaded images are not ready. Remove them and upload again.',
+        );
+      }
+      await tx.vendorOnboardingMedia.updateMany({
+        where: { id: { in: imageMediaIds }, inviteId: invite.id },
+        data: { applicationId: saved.id },
+      });
+    }
 
     await tx.vendorInvite.update({
       where: { id: invite.id },
@@ -427,6 +450,29 @@ export async function approveVendorApplicationToListing(
           priceUnit: packageDetails.priceUnit ? (packageDetails.priceUnit as 'PER_EVENT') : null,
           inclusions,
         },
+      });
+    }
+
+    const onboardingMedia = await tx.vendorOnboardingMedia.findMany({
+      where: { applicationId: application.id, status: 'READY' },
+      orderBy: [{ sortOrder: 'asc' }, { createdAt: 'asc' }],
+    });
+    if (onboardingMedia.length > 0) {
+      await tx.listingMedia.createMany({
+        data: onboardingMedia.map((media, index) => ({
+          listingId: listing.id,
+          storageKey: media.storageKey,
+          publicUrl: media.publicUrl,
+          altText: media.isMenu ? `Menu image: ${media.altText}`.slice(0, 200) : media.altText,
+          status: 'READY',
+          mimeType: media.mimeType,
+          sizeBytes: media.sizeBytes,
+          sortOrder: index,
+          isCover: index === 0,
+        })),
+      });
+      await tx.vendorOnboardingMedia.deleteMany({
+        where: { applicationId: application.id },
       });
     }
 

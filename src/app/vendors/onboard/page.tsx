@@ -3,6 +3,7 @@ import { Suspense } from 'react';
 import { connection } from 'next/server';
 import Link from '@/components/ui/ClientLink';
 import { BrandMark } from '@/components/ui/BrandMark';
+import { getServerEnv } from '@/lib/env';
 import { Surface } from '@/components/ui/Surface';
 import { VendorOnboardingForm } from '@/components/vendor/VendorOnboardingForm';
 import { listCategories, listLocations } from '@/server/services/catalog.service';
@@ -184,6 +185,7 @@ async function InviteContent({ searchParams }: { searchParams: SearchParams }) {
 
         <VendorOnboardingForm
           token={token}
+          maxUploadBytes={getServerEnv().MEDIA_MAX_UPLOAD_BYTES}
           vendorTypes={vendorTypes}
           cities={cities.map((city) => ({ value: city.slug, label: city.name }))}
           defaults={{

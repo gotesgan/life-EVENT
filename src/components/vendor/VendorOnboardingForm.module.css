@@ -93,3 +93,39 @@
   font-size: var(--text-secondary-size);
   line-height: var(--text-secondary-leading);
 }
+
+.imageUploader {
+  display: flex;
+  flex-direction: column;
+  gap: rem(10px);
+  padding: rem(14px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-control);
+  background: var(--app-surface-muted);
+}
+
+.imageList {
+  display: grid;
+  gap: rem(6px);
+  margin: 0;
+  padding-inline-start: rem(20px);
+  color: var(--app-text-subtle);
+  font-size: var(--text-secondary-size);
+}
+
+.imageList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(12px);
+}
+
+.imageList button {
+  border: 0;
+  padding: rem(4px);
+  background: transparent;
+  color: var(--app-accent);
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
