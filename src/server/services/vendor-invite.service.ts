@@ -272,6 +272,15 @@ export async function submitVendorOnboarding(
       contactEmail: input.contactEmail,
       websiteUrl: input.websiteUrl,
       description: input.description,
+      package: {
+        name: input.packageName,
+        description: input.packageDescription,
+        price: input.packagePrice,
+        priceUnit: input.packagePriceUnit,
+        inclusions: input.packageInclusions,
+      },
+      menuImageUrl: input.menuImageUrl,
+      imageUrls: input.imageUrls ?? [],
       submittedAt: new Date().toISOString(),
     },
   };
@@ -392,6 +401,34 @@ export async function approveVendorApplicationToListing(
       },
       select: { id: true },
     });
+
+    const submitted = application.submitted as {
+      package?: {
+        name?: string;
+        description?: string;
+        price?: number | string;
+        priceUnit?: string;
+        inclusions?: string;
+      };
+    } | null;
+    const packageDetails = submitted?.package;
+    if (packageDetails?.name) {
+      const price = Number(packageDetails.price);
+      const inclusions = (packageDetails.inclusions ?? '')
+        .split(/[\n,]/)
+        .map((item) => item.trim())
+        .filter(Boolean);
+      await tx.listingPackage.create({
+        data: {
+          listingId: listing.id,
+          name: packageDetails.name,
+          description: packageDetails.description || null,
+          price: Number.isFinite(price) && price > 0 ? Math.round(price) : null,
+          priceUnit: packageDetails.priceUnit ? (packageDetails.priceUnit as 'PER_EVENT') : null,
+          inclusions,
+        },
+      });
+    }
 
     await tx.vendorApplication.update({
       where: { id: application.id },

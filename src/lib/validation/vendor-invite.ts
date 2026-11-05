@@ -32,6 +32,19 @@ export const vendorOnboardingSchema = z.object({
     .max(300)
     .refine((value) => value === '' || /^https?:\/\//i.test(value), 'Start with https://'),
   description: requiredText(20, 4000),
+  /** Optional first package; all fields can be omitted independently. */
+  packageName: optionalText(120),
+  packageDescription: optionalText(2000),
+  packagePrice: z
+    .union([z.literal(''), z.coerce.number().int().min(0).max(1_000_000_000)])
+    .optional(),
+  packagePriceUnit: z
+    .enum(['PER_EVENT', 'PER_PERSON', 'PER_PLATE', 'PER_HOUR', 'PER_DAY', 'PER_PACKAGE'])
+    .or(z.literal(''))
+    .optional(),
+  packageInclusions: optionalText(2000),
+  menuImageUrl: z.string().trim().url().max(1000).or(z.literal('')).optional(),
+  imageUrls: z.array(z.string().trim().url().max(1000)).max(10).optional(),
   /** Honeypot, same contract as the public short form. */
   companyWebsite: optionalText(200),
 });

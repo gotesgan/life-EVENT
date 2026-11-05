@@ -34,6 +34,13 @@ interface FormValues {
   contactEmail: string;
   websiteUrl: string;
   description: string;
+  packageName: string;
+  packageDescription: string;
+  packagePrice: string;
+  packagePriceUnit: string;
+  packageInclusions: string;
+  menuImageUrl: string;
+  imageUrlsText: string;
   companyWebsite: string;
 }
 
@@ -70,10 +77,22 @@ export function VendorOnboardingForm({
       contactEmail: defaults?.contactEmail ?? '',
       websiteUrl: '',
       description: '',
+      packageName: '',
+      packageDescription: '',
+      packagePrice: '',
+      packagePriceUnit: '',
+      packageInclusions: '',
+      menuImageUrl: '',
+      imageUrlsText: '',
       companyWebsite: '',
     },
     validate: (values): FormErrors =>
-      validateWithSchema({ ...values, token, websiteUrl: values.websiteUrl.trim() }),
+      validateWithSchema({
+        ...values,
+        token,
+        websiteUrl: values.websiteUrl.trim(),
+        imageUrls: values.imageUrlsText.split(/\s*[\n,]\s*/).filter(Boolean),
+      }),
   });
 
   async function handleSubmit(values: FormValues) {
@@ -90,6 +109,10 @@ export function VendorOnboardingForm({
           token,
           websiteUrl: values.websiteUrl.trim(),
           companyWebsite: values.companyWebsite || undefined,
+          packagePrice: values.packagePrice || undefined,
+          packagePriceUnit: values.packagePriceUnit || undefined,
+          menuImageUrl: values.menuImageUrl || undefined,
+          imageUrls: values.imageUrlsText.split(/\s*[\n,]\s*/).filter(Boolean),
         }),
       });
     } catch {
@@ -225,6 +248,72 @@ export function VendorOnboardingForm({
           autosize
           maxRows={12}
           {...form.getInputProps('description')}
+        />
+      </section>
+
+      <section className={classes.section}>
+        <h3 className={classes.sectionTitle}>
+          Packages and images <span className={classes.optional}>Optional</span>
+        </h3>
+        <p className={classes.helper}>
+          Share a package or upload links to your menu and photos. You can skip everything here and
+          add details later.
+        </p>
+        <div className={classes.grid}>
+          <TextInput
+            label="Package name"
+            placeholder="e.g. Wedding buffet"
+            {...form.getInputProps('packageName')}
+          />
+          <TextInput
+            label="Starting price (₹)"
+            type="number"
+            min={0}
+            placeholder="e.g. 1200"
+            {...form.getInputProps('packagePrice')}
+          />
+          <Select
+            label="Price is per"
+            placeholder="Choose a unit"
+            clearable
+            data={['event', 'person', 'plate', 'hour', 'day', 'package'].map((unit) => ({
+              value: `PER_${unit.toUpperCase()}`,
+              label: unit,
+            }))}
+            {...form.getInputProps('packagePriceUnit')}
+          />
+          <Textarea
+            label="Package details"
+            placeholder="What's included?"
+            autosize
+            minRows={2}
+            maxRows={5}
+            {...form.getInputProps('packageDescription')}
+          />
+        </div>
+        <Textarea
+          label="Package inclusions"
+          description="List items separated by commas or new lines."
+          placeholder="Venue, catering, basic decor…"
+          autosize
+          minRows={2}
+          maxRows={4}
+          {...form.getInputProps('packageInclusions')}
+        />
+        <Textarea
+          label="Menu image link"
+          description="Paste a public image URL (for example, a menu photo hosted on your website or a shareable image link)."
+          placeholder="https://…"
+          {...form.getInputProps('menuImageUrl')}
+        />
+        <Textarea
+          label="Other image links"
+          description="Add links to your work, venue, food or portfolio. Separate links with commas or new lines."
+          placeholder={'https://…\nhttps://…'}
+          autosize
+          minRows={2}
+          maxRows={5}
+          {...form.getInputProps('imageUrlsText')}
         />
       </section>
 
