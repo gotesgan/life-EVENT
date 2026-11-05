@@ -143,79 +143,90 @@ export function VendorOnboardingForm({
 
   return (
     <form className={classes.form} onSubmit={form.onSubmit(handleSubmit)} noValidate>
-      <div className={classes.grid}>
-        <TextInput
-          label="Business name"
-          placeholder="e.g. Gulmohar Banquets"
+      <section className={classes.section}>
+        <h3 className={classes.sectionTitle}>Business details</h3>
+        <div className={classes.grid}>
+          <TextInput
+            label="Business name"
+            placeholder="e.g. Gulmohar Banquets"
+            withAsterisk
+            autoComplete="organization"
+            {...form.getInputProps('businessName')}
+          />
+
+          <Select
+            label="Type of vendor"
+            placeholder="What kind of business is this?"
+            withAsterisk
+            data={vendorTypes}
+            searchable
+            nothingFoundMessage="No matching category"
+            {...form.getInputProps('vendorType')}
+          />
+
+          <Select
+            label="City"
+            placeholder="Where do you operate?"
+            withAsterisk
+            data={cities}
+            searchable
+            nothingFoundMessage="No matching city"
+            {...form.getInputProps('citySlug')}
+          />
+        </div>
+      </section>
+
+      <section className={classes.section}>
+        <h3 className={classes.sectionTitle}>Contact</h3>
+        <div className={classes.grid}>
+          <TextInput
+            label="Contact person"
+            placeholder="Who should we speak to?"
+            withAsterisk
+            autoComplete="name"
+            {...form.getInputProps('contactName')}
+          />
+
+          <TextInput
+            label="Contact number"
+            placeholder="98765 43210"
+            withAsterisk
+            type="tel"
+            autoComplete="tel"
+            {...form.getInputProps('contactPhone')}
+          />
+
+          <TextInput
+            label="Email"
+            placeholder="you@business.com"
+            withAsterisk
+            type="email"
+            autoComplete="email"
+            {...form.getInputProps('contactEmail')}
+          />
+
+          <TextInput
+            label="Website (optional)"
+            placeholder="https://"
+            autoComplete="url"
+            {...form.getInputProps('websiteUrl')}
+          />
+        </div>
+      </section>
+
+      <section className={classes.section}>
+        <h3 className={classes.sectionTitle}>About your business</h3>
+        <Textarea
+          label="What do you offer?"
+          description="Services, packages, capacity, anything a customer should know. This becomes the first draft of your listing description."
+          placeholder="Banquet hall for 150–400 guests, in-house catering, valet parking…"
           withAsterisk
-          autoComplete="organization"
-          {...form.getInputProps('businessName')}
+          minRows={6}
+          autosize
+          maxRows={12}
+          {...form.getInputProps('description')}
         />
-
-        <Select
-          label="Type of vendor"
-          placeholder="What kind of business is this?"
-          withAsterisk
-          data={vendorTypes}
-          searchable
-          nothingFoundMessage="No matching category"
-          {...form.getInputProps('vendorType')}
-        />
-
-        <Select
-          label="City"
-          placeholder="Where do you operate?"
-          withAsterisk
-          data={cities}
-          searchable
-          nothingFoundMessage="No matching city"
-          {...form.getInputProps('citySlug')}
-        />
-
-        <TextInput
-          label="Contact person"
-          placeholder="Who should we speak to?"
-          withAsterisk
-          autoComplete="name"
-          {...form.getInputProps('contactName')}
-        />
-
-        <TextInput
-          label="Contact number"
-          placeholder="98765 43210"
-          withAsterisk
-          type="tel"
-          autoComplete="tel"
-          {...form.getInputProps('contactPhone')}
-        />
-
-        <TextInput
-          label="Email"
-          placeholder="you@business.com"
-          withAsterisk
-          type="email"
-          autoComplete="email"
-          {...form.getInputProps('contactEmail')}
-        />
-
-        <TextInput
-          label="Website (optional)"
-          placeholder="https://"
-          autoComplete="url"
-          {...form.getInputProps('websiteUrl')}
-        />
-      </div>
-
-      <Textarea
-        label="What do you offer?"
-        description="Services, packages, capacity, anything a customer should know. This becomes the first draft of your listing description."
-        placeholder="Banquet hall for 150–400 guests, in-house catering, valet parking…"
-        withAsterisk
-        minRows={6}
-        autosize
-        maxRows={12}
-        {...form.getInputProps('description')}
-      />
+      </section>
 
       {/* Honeypot — visually hidden, skipped by the tab order. */}
       <div className={classes.honeypot} aria-hidden>
@@ -231,7 +242,12 @@ export function VendorOnboardingForm({
 
       {formError ? <p className={classes.formError}>{formError}</p> : null}
 
-      <Button type="submit" loading={pending} leftSection={<IconSend size="1rem" stroke={1.75} />}>
+      <Button
+        type="submit"
+        fullWidth
+        loading={pending}
+        leftSection={<IconSend size="1rem" stroke={1.75} />}
+      >
         Send my details
       </Button>
     </form>
