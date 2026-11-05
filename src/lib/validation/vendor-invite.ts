@@ -43,12 +43,24 @@ export const vendorOnboardingSchema = z.object({
     .or(z.literal(''))
     .optional(),
   packageInclusions: optionalText(2000),
-  menuImageUrl: z.string().trim().url().max(1000).or(z.literal('')).optional(),
-  imageUrls: z.array(z.string().trim().url().max(1000)).max(10).optional(),
+  imageMediaIds: z.array(z.string().min(1).max(40)).max(10).default([]),
   /** Honeypot, same contract as the public short form. */
   companyWebsite: optionalText(200),
 });
-export type VendorOnboardingInput = z.infer<typeof vendorOnboardingSchema>;
+export type VendorOnboardingInput = z.input<typeof vendorOnboardingSchema>;
+
+export const vendorOnboardingMediaPresignSchema = z.object({
+  token: vendorInviteTokenSchema,
+  filename: z.string().trim().min(1).max(240),
+  contentType: z.string().trim().min(1).max(100),
+  sizeBytes: z.number().int().positive(),
+  altText: z.string().trim().min(3).max(200),
+  isMenu: z.boolean().default(false),
+});
+
+export const vendorOnboardingMediaCompleteSchema = z.object({
+  token: vendorInviteTokenSchema,
+});
 
 export const revokeVendorInviteSchema = z.object({ id: z.string().min(1).max(40) });
 

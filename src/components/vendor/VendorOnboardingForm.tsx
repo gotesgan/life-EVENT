@@ -7,6 +7,7 @@ import { IconCircleCheck, IconSend } from '@tabler/icons-react';
 import { Button } from '@/components/ui';
 import { Surface } from '@/components/ui';
 import { vendorOnboardingSchema } from '@/lib/validation/vendor-invite';
+import { VendorOnboardingImageUpload } from './VendorOnboardingImageUpload';
 import classes from './VendorOnboardingForm.module.css';
 
 export interface OnboardingOption {
@@ -18,6 +19,7 @@ export interface VendorOnboardingFormProps {
   token: string;
   vendorTypes: readonly OnboardingOption[];
   cities: readonly OnboardingOption[];
+  maxUploadBytes: number;
   defaults?: {
     businessName?: string | null;
     contactEmail?: string | null;
@@ -39,8 +41,6 @@ interface FormValues {
   packagePrice: string;
   packagePriceUnit: string;
   packageInclusions: string;
-  menuImageUrl: string;
-  imageUrlsText: string;
   companyWebsite: string;
 }
 
@@ -56,11 +56,14 @@ export function VendorOnboardingForm({
   token,
   vendorTypes,
   cities,
+  maxUploadBytes,
   defaults,
 }: VendorOnboardingFormProps) {
   const [submitted, setSubmitted] = useState(false);
   const [formError, setFormError] = useState<string | null>(null);
   const [pending, setPending] = useState(false);
+  const [uploadingImages, setUploadingImages] = useState(false);
+  const [imageMediaIds, setImageMediaIds] = useState<string[]>([]);
 
   const validateWithSchema = useMemo(
     () => schemaResolver(vendorOnboardingSchema, { sync: true }),
@@ -82,8 +85,6 @@ export function VendorOnboardingForm({
       packagePrice: '',
       packagePriceUnit: '',
       packageInclusions: '',
-      menuImageUrl: '',
-      imageUrlsText: '',
       companyWebsite: '',
     },
     validate: (values): FormErrors =>
@@ -91,7 +92,7 @@ export function VendorOnboardingForm({
         ...values,
         token,
         websiteUrl: values.websiteUrl.trim(),
-        imageUrls: values.imageUrlsText.split(/\s*[\n,]\s*/).filter(Boolean),
+        imageMediaIds,
       }),
   });
 
@@ -111,8 +112,7 @@ export function VendorOnboardingForm({
           companyWebsite: values.companyWebsite || undefined,
           packagePrice: values.packagePrice || undefined,
           packagePriceUnit: values.packagePriceUnit || undefined,
-          menuImageUrl: values.menuImageUrl || undefined,
-          imageUrls: values.imageUrlsText.split(/\s*[\n,]\s*/).filter(Boolean),
+          imageMediaIds,
         }),
       });
     } catch {
@@ -256,8 +256,8 @@ export function VendorOnboardingForm({
           Packages and images <span className={classes.optional}>Optional</span>
         </h3>
         <p className={classes.helper}>
-          Share a package or upload links to your menu and photos. You can skip everything here and
-          add details later.
+          Share package details and upload menu or business images. Every field here is optional and
+          can be completed later.
         </p>
         <div className={classes.grid}>
           <TextInput
@@ -300,20 +300,11 @@ export function VendorOnboardingForm({
           maxRows={4}
           {...form.getInputProps('packageInclusions')}
         />
-        <Textarea
-          label="Menu image link"
-          description="Paste a public image URL (for example, a menu photo hosted on your website or a shareable image link)."
-          placeholder="https://…"
-          {...form.getInputProps('menuImageUrl')}
-        />
-        <Textarea
-          label="Other image links"
-          description="Add links to your work, venue, food or portfolio. Separate links with commas or new lines."
-          placeholder={'https://…\nhttps://…'}
-          autosize
-          minRows={2}
-          maxRows={5}
-          {...form.getInputProps('imageUrlsText')}
+        <VendorOnboardingImageUpload
+          token={token}
+          maxUploadBytes={maxUploadBytes}
+          onChange={setImageMediaIds}
+          onUploadingChange={setUploadingImages}
         />
       </section>
 
@@ -334,7 +325,8 @@ export function VendorOnboardingForm({
       <Button
         type="submit"
         fullWidth
-        loading={pending}
+        loading={pending || uploadingImages}
+        disabled={uploadingImages}
         leftSection={<IconSend size="1rem" stroke={1.75} />}
       >
         Send my details
