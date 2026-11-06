@@ -535,6 +535,7 @@ export const FOOTER_CATEGORIES: readonly NavLink[] = CATEGORY_LINKS;
 
 export const FOOTER_COMPANY: readonly NavLink[] = [
   { href: '/about', label: 'About' },
+  { href: '/team', label: 'Team' },
   { href: '/corporate-events', label: 'Corporate events' },
   { href: '/contact', label: 'Contact' },
   { href: '/partner-with-us', label: 'List your business' },
@@ -550,9 +551,9 @@ export const FOOTER_LEGAL: readonly NavLink[] = [
  * The mobile drawer's groups, in full.
  *
  * The drawer has no panels, so its grouping is explicit rather than derived —
- * and deliberately non-overlapping: "Browse" carries the six header sections,
- * and the footer's company links are trimmed to the two that are not already in
- * "Quick actions". Thirteen rows and four labels, no link repeated.
+ * and deliberately non-overlapping: "Browse" carries every header section, and
+ * the footer's company links are trimmed to those not already in "Quick
+ * actions". Four labels, no link repeated.
  */
 export const DRAWER_GROUPS: readonly { label: string; links: readonly NavLink[] }[] = [
   { label: 'Browse', links: PRIMARY_NAV },
@@ -568,6 +569,7 @@ export const DRAWER_GROUPS: readonly { label: string; links: readonly NavLink[] 
     label: 'Life Events',
     links: [
       { href: '/about', label: 'About' },
+      { href: '/team', label: 'Team' },
       { href: '/contact', label: 'Contact' },
     ],
   },

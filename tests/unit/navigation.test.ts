@@ -22,6 +22,7 @@ describe('activeSectionId', () => {
   it('names no section on a page outside the navigation', () => {
     expect(activeSectionId('/')).toBeNull();
     expect(activeSectionId('/about')).toBeNull();
+    expect(activeSectionId('/team')).toBeNull();
     expect(activeSectionId('/track')).toBeNull();
   });
 
@@ -90,6 +91,7 @@ describe('currentNavHref', () => {
 
   it('names the link whose route is the page', () => {
     expect(currentNavHref('/about', DRAWER_LINKS)).toBe('/about');
+    expect(currentNavHref('/team', DRAWER_LINKS)).toBe('/team');
     expect(currentNavHref('/partner-with-us', DRAWER_LINKS)).toBe('/partner-with-us');
   });
 
