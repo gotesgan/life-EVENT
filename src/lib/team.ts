@@ -1,5 +1,5 @@
 /**
- * The leadership team shown on `/team`.
+ * The team shown on `/team`.
  *
  * Kept in one module rather than inline in the page so the portrait grid stays a
  * presentation concern: a name, role or photograph changes here and every
@@ -11,8 +11,6 @@ export interface TeamMember {
   slug: string;
   name: string;
   role: string;
-  /** One line on what the role owns — not a biography. */
-  focus: string;
   image: {
     src: string;
     /** Describes the photograph, not the person's job. */
@@ -30,8 +28,6 @@ export const TEAM_MEMBERS = [
     slug: 'pratik-nachare',
     name: 'Pratik Nachare',
     role: 'CEO',
-    focus:
-      'Company direction, product and the standard the catalogue is held to — including what it refuses to publish.',
     image: {
       src: '/media/team/pratik-nachare.jpg',
       alt: 'Portrait of Pratik Nachare in a navy blazer over a black shirt.',
@@ -41,8 +37,6 @@ export const TEAM_MEMBERS = [
     slug: 'ravindra-bohara',
     name: 'Ravindra Bohara',
     role: 'Managing Partner',
-    focus:
-      'Partnerships, and the event businesses that join the catalogue and keep its published details honest.',
     image: {
       src: '/media/team/ravindra-bohara.jpg',
       alt: 'Portrait of Ravindra Bohara in a blue blazer and a checked white shirt.',
@@ -52,8 +46,6 @@ export const TEAM_MEMBERS = [
     slug: 'jyoti-solanke',
     name: 'Jyoti Solanke',
     role: 'Founder',
-    focus:
-      'The idea Life Events started with, and the direction the company is still held to as it grows.',
     image: {
       src: '/media/team/jyoti-solanke.jpg',
       alt: 'Portrait of Jyoti Solanke in a dark green blazer and a cream top.',
