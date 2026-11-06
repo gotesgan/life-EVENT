@@ -1,0 +1,260 @@
+/*
+ * The team page.
+ *
+ * Three registers, in order: the page header, the portrait grid, and a full-bleed
+ * statement of the catalogue standard. The portraits are the page's content, so
+ * everything around them is deliberately quiet — a hairline rule, one accent
+ * label and a serif name.
+ *
+ * The grid is one column until `sm` (768px), then three. A two-column
+ * intermediate step would leave the third portrait orphaned, which reads as a
+ * missing teammate rather than a layout choice.
+ */
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: rem(40px) rem(24px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: rem(24px);
+  }
+}
+
+.member {
+  min-width: 0;
+}
+
+.figure {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  /* One column on a phone or a narrow tablet: cap the card and centre it rather
+     than leaving a full-width portrait with dead space beside it. */
+  max-width: rem(420px);
+  margin-inline: auto;
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    max-width: none;
+    margin-inline: 0;
+  }
+}
+
+/* A photograph, not a card: the frame is a hairline so the image sits in the
+   page rather than floating above it. */
+.media {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-muted);
+}
+
+.image {
+  object-fit: cover;
+  object-position: center top;
+}
+
+.meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: rem(12px);
+  margin-top: rem(16px);
+  padding-bottom: rem(10px);
+  border-bottom: 1px solid var(--app-border);
+}
+
+.index {
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+  letter-spacing: 0.08em;
+  color: var(--app-text-subtle);
+  font-variant-numeric: tabular-nums;
+}
+
+/* The accent is held to one small label per portrait — it is the mark that
+   separates role from name, not a filled surface. */
+.role {
+  font-size: var(--text-caption-size);
+  font-weight: 700;
+  line-height: var(--text-caption-leading);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--app-accent);
+}
+
+/* A person's name is display content, not a card title, so it takes the display
+   face even though it is an `h3`. The design system's "h3–h6 use Jost" rule is
+   about UI headings; this is the exception the page's editorial register asks
+   for. */
+.name {
+  margin-top: rem(12px);
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-optical-sizing: auto;
+  font-size: clamp(1.5rem, 1.25rem + 0.8vw, 2rem);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--app-text);
+}
+
+.focus {
+  margin-top: rem(8px);
+  max-width: 38ch;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+/* -------------------------------------------------------------------------- */
+/* The standard band                                                           */
+/* -------------------------------------------------------------------------- */
+
+.standard {
+  background-color: var(--app-surface-muted);
+  border-block: 1px solid var(--app-border);
+}
+
+.standardGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: rem(40px);
+  padding-block: clamp(3.5rem, 2rem + 4vw, 6rem);
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+    gap: clamp(2.5rem, 1.5rem + 4vw, 5rem);
+  }
+}
+
+.standardIntro {
+  align-self: start;
+  max-width: 38rem;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: var(--text-caption-size);
+  font-weight: 700;
+  line-height: var(--text-caption-leading);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--app-accent);
+}
+
+.standardTitle {
+  margin-top: rem(12px);
+  max-width: 16ch;
+  font-size: var(--text-h2-size);
+  font-weight: var(--text-h2-weight);
+  line-height: var(--text-h2-leading);
+  letter-spacing: var(--text-h2-tracking);
+  color: var(--app-text);
+}
+
+.standardBody {
+  margin-top: rem(16px);
+  max-width: 46ch;
+  color: var(--app-text-muted);
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-leading);
+}
+
+.principles {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--app-border);
+}
+
+.principle {
+  display: grid;
+  grid-template-columns: rem(32px) minmax(0, 1fr);
+  gap: rem(12px);
+  padding-block: rem(20px);
+  border-bottom: 1px solid var(--app-border);
+}
+
+.principleIndex {
+  padding-top: rem(3px);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+  letter-spacing: 0.08em;
+  color: var(--app-text-subtle);
+  font-variant-numeric: tabular-nums;
+}
+
+.principleTitle {
+  font-size: var(--text-card-title-size);
+  font-weight: var(--text-card-title-weight);
+  line-height: var(--text-card-title-leading);
+  letter-spacing: var(--text-card-title-tracking);
+  color: var(--app-text);
+}
+
+.principleBody {
+  margin-top: rem(6px);
+  max-width: 50ch;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Closing action                                                              */
+/* -------------------------------------------------------------------------- */
+
+.cta {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: rem(28px);
+  padding-block: clamp(3.5rem, 2rem + 4vw, 5.5rem);
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+    gap: rem(48px);
+  }
+}
+
+.ctaText {
+  max-width: 42rem;
+}
+
+.ctaTitle {
+  margin-top: rem(12px);
+  max-width: 18ch;
+  font-size: var(--text-h2-size);
+  font-weight: var(--text-h2-weight);
+  line-height: var(--text-h2-leading);
+  letter-spacing: var(--text-h2-tracking);
+  color: var(--app-text);
+}
+
+.ctaBody {
+  margin-top: rem(16px);
+  max-width: 48ch;
+  color: var(--app-text-muted);
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-leading);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: rem(12px);
+
+  @mixin larger-than $mantine-breakpoint-sm {
+    justify-content: flex-end;
+  }
+}

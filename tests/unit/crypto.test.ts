@@ -30,7 +30,12 @@ describe('encryptSecret / decryptSecret', () => {
   it('rejects a tampered payload', () => {
     const encrypted = encryptSecret(plaintext, secret);
     const parts = encrypted.split('.');
-    const tampered = [parts[0], parts[1], parts[2], `${parts[3]?.slice(0, -2)}AA`].join('.');
+    /* Tamper the GCM tag rather than the last base64url characters: the final
+       character's unused bits are padding, so a suffix rewrite can decode to the
+       same bytes and make this assertion flaky. The tag has no such slack. */
+    const tag = parts[2] ?? '';
+    const tamperedTag = `${tag.startsWith('A') ? 'B' : 'A'}${tag.slice(1)}`;
+    const tampered = [parts[0], parts[1], tamperedTag, parts[3]].join('.');
     expect(decryptSecret(tampered, secret)).toBeNull();
   });
 

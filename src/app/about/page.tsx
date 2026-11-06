@@ -98,6 +98,9 @@ export default function AboutPage() {
               capacity.
             </p>
             <p>
+              The people who run the catalogue are on <Link href="/team">the team page</Link>.
+            </p>
+            <p>
               Questions about how we handle your details are answered in the{' '}
               <Link href="/privacy">privacy notice</Link>. If you want to reach a person, see{' '}
               <Link href="/contact">contact</Link>.
