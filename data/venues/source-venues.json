@@ -1,0 +1,7022 @@
+[
+  {
+    "slug": "007-universe-resort-and-spa",
+    "name": "007 UNIVERSE Resort and Spa",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://www.007universe.com",
+    "phone": "+91 99230 65007",
+    "email": null,
+    "area": "Bollywood Boulevard",
+    "address": "Bollywood Boulevard, Village Khandpe, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 55
+      }
+    ]
+  },
+  {
+    "slug": "7-apple-resort",
+    "name": "7 Apple Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://www.7applehotels.com/hotels/lonavala-resort/overview",
+    "phone": "+91 74100 27777",
+    "email": null,
+    "area": "Sr. No 30",
+    "address": "Sr. No 30, New, Gold Valley, Tungarli Road, Sector E, Tungarli, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 10
+      }
+    ]
+  },
+  {
+    "slug": "aaryans-riverwood-resort",
+    "name": "Aaryans Riverwood Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://aaryansresort.com",
+    "phone": "+91 98900 44556",
+    "email": null,
+    "area": "Riverside Corridor",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 2
+      }
+    ]
+  },
+  {
+    "slug": "aisshwarya-banquet-hall",
+    "name": "Aisshwarya Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://aisshwaryabanquets.com",
+    "phone": "+91 98811 23456",
+    "email": null,
+    "area": "Katraj-Dehu Rd Bypass",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 3
+      }
+    ]
+  },
+  {
+    "slug": "alankaran-lawns",
+    "name": "Alankaran Lawns",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://alankaranlawns.com",
+    "phone": "+91 98220 12345",
+    "email": null,
+    "area": "Pune Region / General",
+    "address": null,
+    "city": "karjat",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 4
+      }
+    ]
+  },
+  {
+    "slug": "alpa-bachat-bhavan",
+    "name": "Alpa Bachat Bhavan",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://alpabachatbhavan.com",
+    "phone": "+91 20 2612 2424",
+    "email": null,
+    "area": "Camp / Chhatrapati Shivaji Marg",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 5
+      }
+    ]
+  },
+  {
+    "slug": "amanora-the-fern-pune",
+    "name": "Amanora The Fern Pune",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://fernhotels.com",
+    "phone": "+91 20 4234 5678",
+    "email": null,
+    "area": "Magarpatta / Hadapsar",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 6
+      }
+    ]
+  },
+  {
+    "slug": "amoravida-by-7-apple-resorts",
+    "name": "Amoravida by 7 Apple Resorts",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": null,
+    "email": null,
+    "area": "Kune Village",
+    "address": "Kune Village, Khandala, Lonavala, Maharashtra 410302",
+    "city": "lonavala",
+    "postalCode": "410302",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 11
+      }
+    ]
+  },
+  {
+    "slug": "annapurna-banquet-hall",
+    "name": "Annapurna Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://annapurnabanquets.com",
+    "phone": "+91 98220 55666",
+    "email": null,
+    "area": "DP Road / Hadapsar",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 7
+      }
+    ]
+  },
+  {
+    "slug": "anushree-hall",
+    "name": "Anushree Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://anushreehall.com",
+    "phone": "+91 20 2434 5569",
+    "email": null,
+    "area": "Sinhgad Road",
+    "address": null,
+    "city": "khadakwasla",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 8
+      }
+    ]
+  },
+  {
+    "slug": "aquarius-resort-and-lawns",
+    "name": "AQUARIUS Resort & Lawns",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 83799 95599",
+    "email": null,
+    "area": "off Sinhgad Road",
+    "address": "off Sinhgad Road, Khiridwasti, Gorhe Bk., Girinagar, Pune 411025",
+    "city": "khadakwasla",
+    "postalCode": "411025",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 58
+      }
+    ]
+  },
+  {
+    "slug": "arova-woods-zinc-journey-by-the-fern",
+    "name": "Arova Woods Zinc Journey By The Fern",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": null,
+    "email": null,
+    "area": "Opp. Valvan Dam",
+    "address": "Opp. Valvan Dam, Gold Valley Sector E, Tungarli, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 24
+      }
+    ]
+  },
+  {
+    "slug": "ashirwad-hall",
+    "name": "Ashirwad Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://ashirwadhallpune.com",
+    "phone": "+91 98220 12345",
+    "email": null,
+    "area": "Pune Region / General",
+    "address": null,
+    "city": "karjat",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 9
+      }
+    ]
+  },
+  {
+    "slug": "ashish-garden-banquet-hall",
+    "name": "Ashish Garden Banquet Hall",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://ashishgarden.com",
+    "phone": "+91 20 2588 5566",
+    "email": null,
+    "area": "Pashan / Sagar Colony",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 10
+      }
+    ]
+  },
+  {
+    "slug": "ashwamedh-hall-ac-banquet-hall",
+    "name": "Ashwamedh Hall- AC Banquet hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://ashwamedhhall.com",
+    "phone": "+91 20 2543 8383",
+    "email": null,
+    "area": "Karve Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 11
+      }
+    ]
+  },
+  {
+    "slug": "asodit-banquets",
+    "name": "Asodit Banquets",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://asoditbanquets.com",
+    "phone": "+91 91751 66666",
+    "email": null,
+    "area": "Magarpatta Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 12
+      }
+    ]
+  },
+  {
+    "slug": "atharva-banquets",
+    "name": "Atharva Banquets",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://atharvabanquets.com",
+    "phone": "+91 20 2434 6777",
+    "email": null,
+    "area": "Sinhgad Road",
+    "address": null,
+    "city": "khadakwasla",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 13
+      }
+    ]
+  },
+  {
+    "slug": "athiva-resort-and-spa",
+    "name": "Athiva Resort & Spa",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 91686 83561",
+    "email": null,
+    "area": "NH 48",
+    "address": "NH 48, Old Mumbai - Pune Hwy, Khandala, Lonavala, Maharashtra 410301",
+    "city": "lonavala",
+    "postalCode": "410301",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 5
+      }
+    ]
+  },
+  {
+    "slug": "atlantic-blue",
+    "name": "Atlantic Blue",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://atlanticbluebanquets.com",
+    "phone": "+91 20 2683 4455",
+    "email": null,
+    "area": "Wanowrie / Sacred World",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 14
+      }
+    ]
+  },
+  {
+    "slug": "atmantan-wellness-resort",
+    "name": "Atmantan Wellness Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 20 6790 3000",
+    "email": null,
+    "area": "Village Palse",
+    "address": "Village Palse, Tamhini Ghat Road, Mulshi, Pune, Maharashtra 412108",
+    "city": "mulshi",
+    "postalCode": "412108",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 76
+      }
+    ]
+  },
+  {
+    "slug": "banquets-at-e-square-the-fern-pune",
+    "name": "Banquets at E-Square The Fern, Pune",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://fernhotels.com",
+    "phone": "+91 20 6604 4100",
+    "email": null,
+    "area": "Ganeshkhind / University Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 15
+      }
+    ]
+  },
+  {
+    "slug": "bba-networking-community-center",
+    "name": "BBA Networking (Community Center)",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://bbanetworkingpune.com",
+    "phone": "+91 20 2633 4455",
+    "email": null,
+    "area": "Camp / Convent St",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 16
+      }
+    ]
+  },
+  {
+    "slug": "bijis-hotel-elegant",
+    "name": "Bijis Hotel Elegant",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 21142 73062",
+    "email": null,
+    "area": "Near Main Market",
+    "address": "Near Main Market, Opp. Lonavala Railway Station, Rao Colony, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 28
+      }
+    ]
+  },
+  {
+    "slug": "bird-valley-banquet-hall",
+    "name": "Bird Valley Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://birdvalley.in",
+    "phone": "+91 20 2434 5569",
+    "email": null,
+    "area": "Sinhgad Road",
+    "address": null,
+    "city": "khadakwasla",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 17
+      }
+    ]
+  },
+  {
+    "slug": "bird-valley-wakad-restaurant-and-bar",
+    "name": "Bird Valley Wakad Restaurant and Bar",
+    "venueType": "Restaurant",
+    "starCategory": null,
+    "websiteUrl": "https://birdvalley.in",
+    "phone": "+91 20 2729 3333",
+    "email": null,
+    "area": "Wakad / Datta Mandir Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 18
+      }
+    ]
+  },
+  {
+    "slug": "bizz-tamanna-hotel",
+    "name": "Bizz Tamanna Hotel",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://tamannahotels.com",
+    "phone": "+91 20 4212 1212",
+    "email": null,
+    "area": "Hinjawadi Phase 1 / IT Park",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 19
+      }
+    ]
+  },
+  {
+    "slug": "bliss-county-resort",
+    "name": "Bliss County Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 76203 04050",
+    "email": null,
+    "area": "Gat No. 46",
+    "address": "Gat No. 46, Near Wet N Joy Water Park, Old Mumbai - Pune Hwy, Karla, Lonavala, Maharashtra 410405",
+    "city": "lonavala",
+    "postalCode": "410405",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 29
+      }
+    ]
+  },
+  {
+    "slug": "blue-diamond-pune-ihcl-seleqtions",
+    "name": "Blue Diamond, Pune - IHCL SeleQtions",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://tajhotels.com",
+    "phone": "+91 20 6602 5555",
+    "email": null,
+    "area": "Koregaon Park / Mundhwa",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 20
+      }
+    ]
+  },
+  {
+    "slug": "blue-water-multi-cuisine-restaurant",
+    "name": "Blue Water Multi Cuisine Restaurant",
+    "venueType": "Restaurant",
+    "starCategory": null,
+    "websiteUrl": "https://bluewaterpcmc.com",
+    "phone": "+91 20 2742 1111",
+    "email": null,
+    "area": "Pimpri-Chinchwad / Central",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 21
+      }
+    ]
+  },
+  {
+    "slug": "bottomsup-nx-family-resto-and-lounge",
+    "name": "BottomsUp Nx Family Resto and Lounge",
+    "venueType": "Restaurant",
+    "starCategory": null,
+    "websiteUrl": "https://bottomsupnx.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Pune Center / Yerwada",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 22
+      }
+    ]
+  },
+  {
+    "slug": "buntara-bhavana-banquet-hall",
+    "name": "Buntara Bhavana Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://buntarabhavanapune.com",
+    "phone": "+91 20 2729 3333",
+    "email": null,
+    "area": "Baner / Highway",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 23
+      }
+    ]
+  },
+  {
+    "slug": "casa-de-silver",
+    "name": "Casa de Silver",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://casadesilver.com",
+    "phone": "+91 20 6733 5555",
+    "email": null,
+    "area": "Aundh - Ravet BRTS Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 24
+      }
+    ]
+  },
+  {
+    "slug": "citrus-hotel-lonavala",
+    "name": "Citrus Hotel Lonavala",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 21146 68900",
+    "email": null,
+    "area": "D T Shahani Road",
+    "address": "D T Shahani Road, Near Telephone Exchange, Rao Colony, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 36
+      }
+    ]
+  },
+  {
+    "slug": "cloud-99-banquet-restaurant-bar",
+    "name": "Cloud 99 Banquet | Restaurant | Bar",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://cloud99pune.com",
+    "phone": "+91 20 6719 5555",
+    "email": null,
+    "area": "Hinjawadi / Core",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 25
+      }
+    ]
+  },
+  {
+    "slug": "cocoon-hotel",
+    "name": "Cocoon Hotel",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://cocoonpune.com",
+    "phone": "+91 20 6613 5555",
+    "email": null,
+    "area": "Magarpatta / Hadapsar",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 26
+      }
+    ]
+  },
+  {
+    "slug": "conrad-pune",
+    "name": "Conrad Pune",
+    "venueType": "Hotel",
+    "starCategory": "5-star (verify certificate before publishing)",
+    "websiteUrl": "https://hilton.com",
+    "phone": "+91 20 6745 6745",
+    "email": "conradpune.info@conradhotels.com",
+    "area": "Mangaldas Rd",
+    "address": "7, Mangaldas Road, Sangamvadi, Pune 411001",
+    "city": "pune",
+    "postalCode": "411001",
+    "eventTypes": ["Wedding", "Corporate", "Birthday", "Social events"],
+    "venueSpaces": ["Ballrooms", "Meeting rooms"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Conrad+Pune",
+    "sourceUrl": "https://conradpune.com/",
+    "notes": "Official website; confirm current event capacity and official star classification.",
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 27
+      },
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 3
+      }
+    ]
+  },
+  {
+    "slug": "coronet-the-boutique-hotel",
+    "name": "Coronet The Boutique Hotel",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://coronethotel.com",
+    "phone": "+91 20 2553 4941",
+    "email": null,
+    "area": "Shivajinagar / Center",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 28
+      }
+    ]
+  },
+  {
+    "slug": "courtyard-by-marriott-pune-chakan",
+    "name": "Courtyard by Marriott Pune Chakan",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://marriott.com",
+    "phone": "+91 2135 668888",
+    "email": null,
+    "area": "Chakan Industrial Area",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 29
+      }
+    ]
+  },
+  {
+    "slug": "courtyard-by-marriott-pune-hinjewadi",
+    "name": "Courtyard by Marriott Pune Hinjewadi",
+    "venueType": "Hotel",
+    "starCategory": "5-star (listed by travel directory; confirm certificate)",
+    "websiteUrl": "https://www.marriott.com/en-us/hotels/pnqph-courtyard-pune-hinjewadi/overview",
+    "phone": "+91 20 4212 2222",
+    "email": null,
+    "area": "Hinjawadi Phase 1",
+    "address": "S. No. 19 & 20, P4, Rajiv Gandhi Infotech Park Phase 1, Pune 411057",
+    "city": "pune",
+    "postalCode": "411057",
+    "eventTypes": ["Wedding", "Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Event spaces", "meeting rooms - confirm"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Courtyard+by+Marriott+Pune+Hinjewadi",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/pnqph-courtyard-pune-hinjewadi/overview/",
+    "notes": "Official Marriott page gives contact/address; capacity to be confirmed.",
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 30
+      },
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 5
+      }
+    ]
+  },
+  {
+    "slug": "crowne-plaza-pune-city-centre-by-ihg",
+    "name": "Crowne Plaza Pune City Centre by IHG",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://ihg.com",
+    "phone": "+91 20 6641 1111",
+    "email": null,
+    "area": "Bund Garden Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 31
+      }
+    ]
+  },
+  {
+    "slug": "cygnus-hall-and-sinori-lawns",
+    "name": "Cygnus Hall & Sinori Lawns",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://cygnushall.com",
+    "phone": "+91 20 2422 1414",
+    "email": null,
+    "area": "Pune - Satara Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 32
+      }
+    ]
+  },
+  {
+    "slug": "dadasaheb-darode-hall",
+    "name": "Dadasaheb Darode Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://darodehall.com",
+    "phone": "+91 20 2567 5566",
+    "email": null,
+    "area": "Shivajinagar / Agarkar Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 33
+      }
+    ]
+  },
+  {
+    "slug": "darja-by-hotel-varhadi",
+    "name": "DARJA By Hotel Varhadi",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://darjabanquets.com",
+    "phone": "+91 20 4900 0049",
+    "email": null,
+    "area": "Wakad / Service Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 34
+      }
+    ]
+  },
+  {
+    "slug": "darshan-restaurant",
+    "name": "Darshan Restaurant",
+    "venueType": "Restaurant",
+    "starCategory": null,
+    "websiteUrl": "https://darshandan.com",
+    "phone": "+91 20 6719 5555",
+    "email": null,
+    "area": "Baner / Balewadi",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 35
+      }
+    ]
+  },
+  {
+    "slug": "della-resorts",
+    "name": "Della Resorts",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://www.dellaresorts.com",
+    "phone": null,
+    "email": null,
+    "area": "Kunegaon",
+    "address": "Kunegaon, Khandala, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 2
+      }
+    ]
+  },
+  {
+    "slug": "discover-resorts",
+    "name": "Discover Resorts",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://www.discoverresorts.co.in",
+    "phone": "+91 93269 03151",
+    "email": null,
+    "area": "Damothe Village",
+    "address": "Damothe Village, Neral - Kalamb Road, Karjat Taluka, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 49
+      }
+    ]
+  },
+  {
+    "slug": "dnyanal-mangal-karyalaya",
+    "name": "Dnyanal Mangal Karyalaya",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://dnyanalmangal.com",
+    "phone": "+91 20 2685 1515",
+    "email": null,
+    "area": "Dnyanal Karyalaya Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 36
+      }
+    ]
+  },
+  {
+    "slug": "drome-arena",
+    "name": "Drome Arena",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://dromearena.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Kharadi / Mayfield Estate",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 37
+      }
+    ]
+  },
+  {
+    "slug": "dutch-palace",
+    "name": "Dutch Palace",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://dutchpalacepune.com",
+    "phone": "+91 20 2612 4444",
+    "email": null,
+    "area": "Bund Garden Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 38
+      }
+    ]
+  },
+  {
+    "slug": "ekaant-the-retreat",
+    "name": "Ekaant The Retreat",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 20 6798 3000",
+    "email": null,
+    "area": "Village Dasve",
+    "address": "Village Dasve, Lavasa (Mulshi Reservoir View), Maharashtra 412112",
+    "city": "mulshi",
+    "postalCode": "412112",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 68
+      }
+    ]
+  },
+  {
+    "slug": "emerald-multipurpose-hall",
+    "name": "Emerald Multipurpose Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://emeraldhallpune.com",
+    "phone": "+91 91751 88888",
+    "email": null,
+    "area": "Sus / Pashan Bypass",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 39
+      }
+    ]
+  },
+  {
+    "slug": "enrise-by-sayaji-hinjawadi-pune",
+    "name": "Enrise by Sayaji - Hinjawadi, Pune",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://sayajihotels.com",
+    "phone": "+91 20 6719 2200",
+    "email": null,
+    "area": "Hinjawadi / Marunji Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 40
+      }
+    ]
+  },
+  {
+    "slug": "estrella-karjat",
+    "name": "Estrella Karjat",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 86556 65131",
+    "email": null,
+    "area": "Survey No 8",
+    "address": "Survey No 8, 2/B, At Dahivali, Avalas, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 48
+      }
+    ]
+  },
+  {
+    "slug": "evviva-sky-lounge-crowne-plaza-pune",
+    "name": "Evviva Sky Lounge @ Crowne Plaza Pune",
+    "venueType": "Restaurant",
+    "starCategory": null,
+    "websiteUrl": "https://ihg.com",
+    "phone": "+91 20 6641 1111",
+    "email": null,
+    "area": "Bund Garden Rd / Station",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 41
+      }
+    ]
+  },
+  {
+    "slug": "farm-paradise-restaurant-and-banquet-hall",
+    "name": "Farm Paradise Restaurant & Banquet Hall",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://farmparadise.in",
+    "phone": "+91 98900 88990",
+    "email": null,
+    "area": "Hinjawadi / Maan Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 42
+      }
+    ]
+  },
+  {
+    "slug": "feast-restaurant-sheraton-grand",
+    "name": "Feast Restaurant (Sheraton Grand)",
+    "venueType": "Restaurant",
+    "starCategory": null,
+    "websiteUrl": "https://marriott.com",
+    "phone": "+91 20 6641 1111",
+    "email": null,
+    "area": "Raja Bahadur Motilal Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 43
+      }
+    ]
+  },
+  {
+    "slug": "fort-jadhavgadh-pune",
+    "name": "Fort JadhavGADH, Pune",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://orchidhotel.com",
+    "phone": "+91 2115 305200",
+    "email": null,
+    "area": "Hadapsar / Saswad Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 44
+      }
+    ]
+  },
+  {
+    "slug": "fortune-inn-exotica-hinjawadi",
+    "name": "Fortune Inn Exotica, Hinjawadi",
+    "venueType": "Hotel",
+    "starCategory": "Classification pending verification",
+    "websiteUrl": "https://www.itchotels.com/in/en/fortuneinnexotica-pune",
+    "phone": "020 3984 8484",
+    "email": null,
+    "area": "Hinjawadi Phase 1",
+    "address": "S. No. 21, Plot No. 3/2, Rajiv Gandhi Infotech Park Phase I, Hinjawadi, Pune 411057",
+    "city": "pune",
+    "postalCode": "411057",
+    "eventTypes": ["Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Meeting / event facilities - confirm"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fortune+Inn+Exotica+Hinjawadi+Pune",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fortune+Inn+Exotica+Hinjawadi+Pune",
+    "notes": "Candidate listed in hotel directory; verify current brand/site, category and event facilities.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 14
+      }
+    ]
+  },
+  {
+    "slug": "four-points-by-sheraton-hotel",
+    "name": "Four Points by Sheraton Hotel",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://marriott.com",
+    "phone": "+91 20 3093 1000",
+    "email": null,
+    "area": "Nagar Rd / Viman Nagar",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 45
+      }
+    ]
+  },
+  {
+    "slug": "gandharva-residency",
+    "name": "Gandharva Residency",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://gandharvaresidency.com",
+    "phone": "+91 20 2551 1332",
+    "email": null,
+    "area": "Shivajinagar / Center",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 46
+      }
+    ]
+  },
+  {
+    "slug": "gharkul-lawns",
+    "name": "Gharkul Lawns",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://gharkullawns.com",
+    "phone": "+91 98220 12345",
+    "email": null,
+    "area": "DP Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 47
+      }
+    ]
+  },
+  {
+    "slug": "giri-sarovar-resort",
+    "name": "Giri Sarovar Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://girisarovarresort.in",
+    "phone": "+91 72670 17171",
+    "email": null,
+    "area": "Taluka AP",
+    "address": "Taluka AP, Sathesai Rd, Satesai, Mulshi 412108",
+    "city": "mulshi",
+    "postalCode": "412108",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 67
+      }
+    ]
+  },
+  {
+    "slug": "gitai-lawns-banquets-and-convention",
+    "name": "GITAI Lawns / Banquets & Convention",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://gitailawns.com",
+    "phone": "+91 91751 23456",
+    "email": null,
+    "area": "Dhanori - Lohegaon Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 48
+      }
+    ]
+  },
+  {
+    "slug": "gmk-banquet-hall",
+    "name": "GMK Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://gmkbanquets.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Pimpri-Chinchwad (Dattwadi)",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 49
+      }
+    ]
+  },
+  {
+    "slug": "gmk-banquets-and-lawns-ravet",
+    "name": "GMK Banquets and Lawns Ravet",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://gmkbanquets.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Katraj-Dehu Rd / Ravet",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 50
+      }
+    ]
+  },
+  {
+    "slug": "golden-fields-resort",
+    "name": "Golden Fields Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 70302 19999",
+    "email": null,
+    "area": "Opposite Mahindra United World College",
+    "address": "Opposite Mahindra United World College, Village Khubavali, Mulshi 412108",
+    "city": "mulshi",
+    "postalCode": "412108",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 65
+      }
+    ]
+  },
+  {
+    "slug": "goyal-garden",
+    "name": "Goyal Garden",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://goyalgardenpune.com",
+    "phone": "+91 91751 23456",
+    "email": null,
+    "area": "Gangadham - Shatrunjay Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 51
+      }
+    ]
+  },
+  {
+    "slug": "grand-tamanna-hotel",
+    "name": "Grand Tamanna Hotel",
+    "venueType": "Hotel",
+    "starCategory": "Classification pending verification",
+    "websiteUrl": "https://grandtamanna.com",
+    "phone": "+91 20 4212 1212",
+    "email": "grand@tamannahotels.com",
+    "area": "Hinjawadi Phase 1",
+    "address": "Plot No. 16, Hinjawadi Phase II, Rajiv Gandhi Infotech Park, Pune 411057",
+    "city": "pune",
+    "postalCode": "411057",
+    "eventTypes": ["Wedding", "Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Event space", "banquet facilities - confirm"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grand+Tamanna+Hotel+Hinjawadi+Pune",
+    "sourceUrl": "https://tamannahotels.com/",
+    "notes": "Official Tamanna site confirms group contact and event venues; verify star classification.",
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 52
+      },
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 9
+      }
+    ]
+  },
+  {
+    "slug": "gurukrupa-mangal-karyalay",
+    "name": "Gurukrupa Mangal karyalay",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://gurukrupamangal.com",
+    "phone": "+91 98220 12345",
+    "email": null,
+    "area": "Alandi Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 53
+      }
+    ]
+  },
+  {
+    "slug": "harshal-banquets-and-conventions",
+    "name": "Harshal Banquets & Conventions",
+    "venueType": "Independent banquet hall",
+    "starCategory": "Not applicable — not classified as a hotel",
+    "websiteUrl": null,
+    "phone": "020 2545 5742",
+    "email": null,
+    "area": "Karve Road / Kothrud",
+    "address": "Karve Road, Pune (confirm full address)",
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": ["Wedding", "Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Banquet hall (confirm)"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Harshal+Banquets+Pune",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Harshal+Banquets+Pune",
+    "notes": "Separate independent-venue category; include only if app allows non-star-rated venues.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 13
+      }
+    ]
+  },
+  {
+    "slug": "her-highness-banquets",
+    "name": "Her Highness Banquets",
+    "venueType": "Banquet hall",
+    "starCategory": "Not applicable — not classified as a hotel",
+    "websiteUrl": "https://herhighnessbanquets.com",
+    "phone": "+91 99755 66778",
+    "email": null,
+    "area": "Viman Nagar / Sky Cruise",
+    "address": "Lunkad Sky Cruise area, Viman Nagar, Pune (confirm full address)",
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": ["Wedding", "Corporate", "Birthday", "Social events"],
+    "venueSpaces": ["Banquet hall (confirm)"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Her+Highness+Banquets+Pune",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Her+Highness+Banquets+Pune",
+    "notes": "Separate independent-venue category; include only if app allows non-star-rated venues.",
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 54
+      },
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 14
+      }
+    ]
+  },
+  {
+    "slug": "hilton-garden-inn-pune-hinjawadi",
+    "name": "Hilton Garden Inn Pune Hinjawadi",
+    "venueType": "Hotel",
+    "starCategory": "Classification pending verification",
+    "websiteUrl": "https://www.hilton.com/en/hotels/pnqhpgi-hilton-garden-inn-pune-hinjawadi",
+    "phone": "+91 20 3500 4500",
+    "email": "pnqhp_gm@hilton.com",
+    "area": "Hinjewadi - Wakad Rd",
+    "address": "Survey No. 40/3, Hinjawadi Wakad Road, next to Shell petrol pump, Pune 411057",
+    "city": "pune",
+    "postalCode": "411057",
+    "eventTypes": ["Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Meeting rooms", "rooftop dining", "pool"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hilton+Garden+Inn+Pune+Hinjawadi",
+    "sourceUrl": "https://www.hilton.com/en/hotels/pnqhpgi-hilton-garden-inn-pune-hinjawadi/hotel-info/",
+    "notes": "Official Hilton page confirms address, phone, email and meeting rooms.",
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 55
+      },
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 7
+      }
+    ]
+  },
+  {
+    "slug": "holiday-inn-express-pune-hinjewadi",
+    "name": "Holiday Inn Express Pune Hinjewadi",
+    "venueType": "Hotel",
+    "starCategory": "3-star (listed by hotel directory; confirm certificate)",
+    "websiteUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/reservation",
+    "phone": null,
+    "email": null,
+    "area": "Hinjawadi",
+    "address": "Survey No. 9/2, Hinjawadi, Pune (confirm full address)",
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": ["Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Meeting spaces - confirm"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Pune+Hinjewadi",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Pune+Hinjewadi",
+    "notes": "Candidate from hotel directory; verify current operation, exact contact and star certificate.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 13
+      }
+    ]
+  },
+  {
+    "slug": "hotel-ajit-banquets",
+    "name": "Hotel Ajit Banquets",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotelajitpune.com",
+    "phone": "+91 20 2553 4455",
+    "email": null,
+    "area": "Deccan Gymkhana",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 56
+      }
+    ]
+  },
+  {
+    "slug": "hotel-alpine",
+    "name": "Hotel Alpine",
+    "venueType": "Hotel",
+    "starCategory": "Classification pending verification",
+    "websiteUrl": null,
+    "phone": "99213 82138",
+    "email": null,
+    "area": "Pimpri",
+    "address": "Pimpri Chowk, Mumbai–Pune Highway, Pune 411018",
+    "city": "pune",
+    "postalCode": "411018",
+    "eventTypes": ["Corporate", "Social events (confirm)"],
+    "venueSpaces": ["Banquet facilities (confirm)"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Alpine+Pimpri+Pune",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Alpine+Pimpri+Pune",
+    "notes": "Candidate only; verify business identity, facilities, contact and star classification.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 9
+      }
+    ]
+  },
+  {
+    "slug": "hotel-ambience-model-colony",
+    "name": "Hotel Ambience - Model Colony",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://theambiencehotel.com",
+    "phone": "+91 20 2566 2200",
+    "email": null,
+    "area": "Model Colony / Lakaki Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 57
+      }
+    ]
+  },
+  {
+    "slug": "hotel-ananta-sagar",
+    "name": "Hotel Ananta Sagar",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotelanantasagar.com",
+    "phone": "+91 90963 00004",
+    "email": null,
+    "area": "Nagar Rd / Viman Nagar",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 58
+      }
+    ]
+  },
+  {
+    "slug": "hotel-aurora-towers",
+    "name": "Hotel Aurora Towers",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotelauroratowers.com",
+    "phone": "+91 20 2613 0161",
+    "email": null,
+    "area": "Moledina Rd / Camp",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 59
+      }
+    ]
+  },
+  {
+    "slug": "hotel-basera",
+    "name": "Hotel Basera",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotelbaserapune.com",
+    "phone": "+91 20 2445 4242",
+    "email": null,
+    "area": "Shivajinagar / Baji Rao Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 60
+      }
+    ]
+  },
+  {
+    "slug": "hotel-blu-grass-banquet-fine-dine",
+    "name": "Hotel Blu Grass Banquet | Fine Dine",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotelblugrass.com",
+    "phone": "+91 20 6719 5555",
+    "email": null,
+    "area": "Hinjawadi / Blue Ridge",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 61
+      }
+    ]
+  },
+  {
+    "slug": "hotel-deccan-park",
+    "name": "Hotel Deccan Park",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://deccanparkhotel.com",
+    "phone": "+91 20 2565 6464",
+    "email": null,
+    "area": "Deccan Gymkhana",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 62
+      }
+    ]
+  },
+  {
+    "slug": "hotel-deccan-pavilion",
+    "name": "Hotel Deccan Pavilion",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://deccanpavilion.com",
+    "phone": "+91 20 2422 9999",
+    "email": null,
+    "area": "Deccan Gymkhana",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 63
+      }
+    ]
+  },
+  {
+    "slug": "hotel-gautam-lonavala",
+    "name": "Hotel Gautam Lonavala",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 91670 91570",
+    "email": null,
+    "area": "Behind Telephone Exchange",
+    "address": "Behind Telephone Exchange, Near Railway Station, Rao Colony, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 25
+      }
+    ]
+  },
+  {
+    "slug": "hotel-kohinoor-executive",
+    "name": "Hotel Kohinoor Executive",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://kohinoorhotels.com",
+    "phone": "+91 91527 35942",
+    "email": null,
+    "area": "Deccan / Apte Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 64
+      }
+    ]
+  },
+  {
+    "slug": "hotel-moistin-pune",
+    "name": "Hotel Moistin Pune",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotelmoistin.com",
+    "phone": "+91 20 2689 0111",
+    "email": null,
+    "area": "Hadapsar / Solapur Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 65
+      }
+    ]
+  },
+  {
+    "slug": "hotel-parc-estique",
+    "name": "Hotel Parc Estique",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://parcestique.com",
+    "phone": "+91 20 4005 5555",
+    "email": null,
+    "area": "Nagar Rd / Viman Nagar",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 66
+      }
+    ]
+  },
+  {
+    "slug": "hotel-parichay",
+    "name": "Hotel Parichay",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotelparichay.com",
+    "phone": "+91 20 2553 1511",
+    "email": null,
+    "area": "JM Road / Shivajinagar",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 67
+      }
+    ]
+  },
+  {
+    "slug": "hotel-poonam",
+    "name": "Hotel Poonam",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotelpoonampune.com",
+    "phone": "+91 20 2553 4455",
+    "email": null,
+    "area": "Deccan Gymkhana",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 68
+      }
+    ]
+  },
+  {
+    "slug": "hotel-rajmudra",
+    "name": "Hotel Rajmudra",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotelrajmudra.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Marunji Rd / Hinjawadi",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 69
+      }
+    ]
+  },
+  {
+    "slug": "hotel-raviraj",
+    "name": "Hotel Raviraj",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotelraviraj.com",
+    "phone": "+91 20 2567 7559",
+    "email": null,
+    "area": "Deccan Gymkhana",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 70
+      }
+    ]
+  },
+  {
+    "slug": "hotel-s4g",
+    "name": "Hotel S4G",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotels4g.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Solapur Road / Hadapsar",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 71
+      }
+    ]
+  },
+  {
+    "slug": "hotel-sadanand-regency",
+    "name": "Hotel Sadanand Regency",
+    "venueType": "Hotel",
+    "starCategory": "Classification pending verification",
+    "websiteUrl": "https://phapune.in/members",
+    "phone": null,
+    "email": null,
+    "area": "Wakad / Hinjawadi vicinity",
+    "address": "Wakad area, Pune (confirm exact address)",
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": ["Wedding", "Corporate", "Social events"],
+    "venueSpaces": ["Banquet/event facilities - confirm"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Sadanand+Regency+Pune",
+    "sourceUrl": "https://phapune.in/members",
+    "notes": "Pune Hoteliers Association lists Sadanand Regency; confirm proximity, contact, event facilities and classification.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 12
+      }
+    ]
+  },
+  {
+    "slug": "hotel-sanket-inn",
+    "name": "Hotel Sanket Inn",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://sanketinn.com",
+    "phone": "+91 20 6733 4455",
+    "email": null,
+    "area": "Wakad / Bhumkar Bridge",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 72
+      }
+    ]
+  },
+  {
+    "slug": "hotel-shree-panchratna",
+    "name": "Hotel Shree Panchratna",
+    "venueType": "Hotel",
+    "starCategory": "Classification pending verification",
+    "websiteUrl": "https://shreepanchratna.com",
+    "phone": "+91 20 2611 9393",
+    "email": "reservations@hotelshreepanchratna.in",
+    "area": "Tadiwala Rd / Station",
+    "address": "7, Tadiwala Road, Pune 411001",
+    "city": "pune",
+    "postalCode": "411001",
+    "eventTypes": ["Wedding", "Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Banquets", "Conference spaces (confirm)"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Shree+Panchratna+Pune",
+    "sourceUrl": "https://www.hotelshreepanchratna.in/",
+    "notes": "Event venue candidate; do not mark 3-star without official evidence.",
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 73
+      },
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 11
+      }
+    ]
+  },
+  {
+    "slug": "hotel-shreyas",
+    "name": "Hotel Shreyas",
+    "venueType": "Hotel",
+    "starCategory": "Classification pending verification",
+    "websiteUrl": "https://hotelshreyas.com/banquets-lawns.html",
+    "phone": "020 2553 2785 / 83800 96528",
+    "email": "partybooking@hotelshreyas.in",
+    "area": "Deccan Gymkhana",
+    "address": "1242 B, Apte Road, Pune 411004",
+    "city": "pune",
+    "postalCode": "411004",
+    "eventTypes": ["Wedding", "Corporate", "Birthday", "Social events"],
+    "venueSpaces": ["Banquets", "Lawns (confirm current offerings)"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Shreyas+Pune",
+    "sourceUrl": "https://hotelshreyas.com/banquets-lawns.html",
+    "notes": "Event venue candidate; do not mark 3-star without official evidence.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 10
+      }
+    ]
+  },
+  {
+    "slug": "hotel-silver-seven",
+    "name": "Hotel Silver Seven",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotelsilverseven.com",
+    "phone": "+91 20 6631 3131",
+    "email": null,
+    "area": "Old Mumbai - Pune Hwy",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 74
+      }
+    ]
+  },
+  {
+    "slug": "hotel-solitaire-hinjawadi-pune",
+    "name": "Hotel Solitaire, Hinjawadi, Pune",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://hotelsolitaire.in",
+    "phone": "+91 20 6791 4000",
+    "email": null,
+    "area": "Hinjawadi Phase 2 Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 75
+      }
+    ]
+  },
+  {
+    "slug": "hotel-studio-estique",
+    "name": "Hotel Studio Estique",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://studioestique.com",
+    "phone": "+91 20 4018 4000",
+    "email": null,
+    "area": "Bund Garden Rd / Station",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 76
+      }
+    ]
+  },
+  {
+    "slug": "hotel-tiptop-international",
+    "name": "Hotel TipTop International",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://tiptophotel.in",
+    "phone": "+91 20 6311 1111",
+    "email": null,
+    "area": "Pimpri-Chinchwad / Wakad",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 77
+      }
+    ]
+  },
+  {
+    "slug": "hyatt-place-pune-hinjawadi",
+    "name": "Hyatt Place Pune Hinjawadi",
+    "venueType": "Hotel",
+    "starCategory": "4-star listing — exclude from 3/5-star approved list unless criteria change",
+    "websiteUrl": "https://www.hyatt.com/hyatt-place/en-US/pnqzp-hyatt-place-pune-hinjawadi",
+    "phone": "020 6698 1234",
+    "email": null,
+    "area": "Hinjawadi Phase 1",
+    "address": "Rajiv Gandhi Infotech Park, Phase 1, Hinjawadi, Pune 411057",
+    "city": "pune",
+    "postalCode": "411057",
+    "eventTypes": ["Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Meeting/event facilities - confirm"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hyatt+Place+Pune+Hinjawadi",
+    "sourceUrl": "https://www.hyatt.com/hyatt-place/en-US/pnqzp-hyatt-place-pune-hinjawadi",
+    "notes": "Included for review because you named it; official page verifies phone/address, but directory lists 4-star.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 8
+      }
+    ]
+  },
+  {
+    "slug": "hyatt-regency-pune-and-residences",
+    "name": "Hyatt Regency Pune & Residences",
+    "venueType": "Hotel",
+    "starCategory": "5-star (verify certificate before publishing)",
+    "websiteUrl": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-pune/punhr",
+    "phone": "+91 20 6645 1234",
+    "email": null,
+    "area": "Nagar Rd / Viman Nagar",
+    "address": "Weikfield IT Park, Nagar Road, Pune 411014",
+    "city": "pune",
+    "postalCode": "411014",
+    "eventTypes": ["Wedding", "Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Ballrooms", "Meeting rooms"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hyatt+Regency+Pune",
+    "sourceUrl": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-pune/punhr/special-events/weddings",
+    "notes": "Official events page; verify current contact, facilities and official star classification.",
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 78
+      },
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 6
+      }
+    ]
+  },
+  {
+    "slug": "ibis-pune-hinjewadi",
+    "name": "ibis Pune Hinjewadi",
+    "venueType": "Hotel",
+    "starCategory": "3-star (listed by hotel directory; confirm certificate)",
+    "websiteUrl": "https://all.accor.com/hotel/7253/index.en.shtml",
+    "phone": "020 3995 6200",
+    "email": "h7253-re@accor.com",
+    "area": "Hinjawadi Phase II",
+    "address": "Rajiv Gandhi Infotech Park, Hinjewadi Phase II, Pune 411057",
+    "city": "pune",
+    "postalCode": "411057",
+    "eventTypes": ["Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Meeting rooms", "restaurant"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=ibis+Pune+Hinjewadi",
+    "sourceUrl": "https://all.accor.com/hotel/7253/index.en.shtml",
+    "notes": "Official Accor page confirms contact and meeting-room facilities; verify star certificate.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 6
+      }
+    ]
+  },
+  {
+    "slug": "ikshana-resort-and-spa",
+    "name": "Ikshana Resort and Spa",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://ikshanaresorts.com",
+    "phone": "+91 74295 00500",
+    "email": null,
+    "area": "Sub Division A",
+    "address": "Sub Division A, Old Mumbai - Pune Hwy, Khandala, Lonavala, Maharashtra 410301",
+    "city": "lonavala",
+    "postalCode": "410301",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 4
+      }
+    ]
+  },
+  {
+    "slug": "indraprastha-multipurpose-halls",
+    "name": "Indraprastha Multipurpose Halls",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://indraprasthahalls.com",
+    "phone": "+91 20 2565 2424",
+    "email": null,
+    "area": "Senapati Bapat Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 79
+      }
+    ]
+  },
+  {
+    "slug": "iris-banquet-and-lawn",
+    "name": "iRiS BANQUET & LAWN",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://irisbanquets.com",
+    "phone": "+91 99755 66778",
+    "email": null,
+    "area": "NIBM Rd / Wanowrie",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 80
+      }
+    ]
+  },
+  {
+    "slug": "ishadan-hall",
+    "name": "Ishadan Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://ishadanhall.com",
+    "phone": "+91 20 2546 4545",
+    "email": null,
+    "area": "Paud Rd / Kothrud",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 81
+      }
+    ]
+  },
+  {
+    "slug": "jalsrushti-luxury-island-resort",
+    "name": "Jalsrushti Luxury Island Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://jalsrushti.com",
+    "phone": null,
+    "email": null,
+    "area": "At Post Bhadas",
+    "address": "At Post Bhadas, Taluka Mulshi, Pune, Maharashtra 412108",
+    "city": "mulshi",
+    "postalCode": "412108",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 74
+      }
+    ]
+  },
+  {
+    "slug": "jansagar-hall",
+    "name": "Jansagar Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://jansagarhall.com",
+    "phone": "+91 20 2444 8383",
+    "email": null,
+    "area": "Jawaharlal Nehru Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 82
+      }
+    ]
+  },
+  {
+    "slug": "jawaharlal-nehru-memorial-hall",
+    "name": "Jawaharlal Nehru Memorial Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://jnmhallpune.org",
+    "phone": "+91 20 2612 2424",
+    "email": null,
+    "area": "Camp / Dr. Ambedkar Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 83
+      }
+    ]
+  },
+  {
+    "slug": "joshi-farms",
+    "name": "Joshi Farms",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://joshifarms.com",
+    "phone": "+91 98220 55666",
+    "email": null,
+    "area": "Nimgaon Road / Outer",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 84
+      }
+    ]
+  },
+  {
+    "slug": "jw-marriott-hotel-pune",
+    "name": "JW Marriott Hotel Pune",
+    "venueType": "Hotel",
+    "starCategory": "5-star (verify certificate before publishing)",
+    "websiteUrl": "https://marriott.com",
+    "phone": "+91 20 6683 3333",
+    "email": null,
+    "area": "Senapati Bapat Rd",
+    "address": "Senapati Bapat Road, Model Colony, Pune 411016",
+    "city": "pune",
+    "postalCode": "411016",
+    "eventTypes": ["Wedding", "Corporate", "Gala dinner", "Social events"],
+    "venueSpaces": ["Grand Ballroom", "Meeting spaces"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=JW+Marriott+Hotel+Pune",
+    "sourceUrl": "https://www.marriott.com/",
+    "notes": "Marriott official site; verify property-specific contact and current event details.",
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 85
+      },
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 4
+      }
+    ]
+  },
+  {
+    "slug": "kamayanis-munot-hall",
+    "name": "Kamayani's Munot Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://kamayanischool.org",
+    "phone": "+91 20 2565 2424",
+    "email": null,
+    "area": "Senapati Bapat Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 86
+      }
+    ]
+  },
+  {
+    "slug": "karjat-heritage-resort",
+    "name": "Karjat Heritage Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 99304 14414",
+    "email": null,
+    "area": "Village Bhalivadi",
+    "address": "Village Bhalivadi, Off TATA Power Road, Near Kadav, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 51
+      }
+    ]
+  },
+  {
+    "slug": "kedari-garden",
+    "name": "Kedari Garden",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://kedarigarden.com",
+    "phone": "+91 20 2683 4455",
+    "email": null,
+    "area": "Wanowrie / Vitthal Rao Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 87
+      }
+    ]
+  },
+  {
+    "slug": "krushnai-resort",
+    "name": "Krushnai Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 83800 96375",
+    "email": null,
+    "area": "Old Mumbai - Pune Hwy",
+    "address": "Old Mumbai - Pune Hwy, opp. Kumar Water Park, Rao Colony, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 15
+      }
+    ]
+  },
+  {
+    "slug": "kumar-resort-by-turtle",
+    "name": "Kumar Resort by TURTLE",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 92200 00005",
+    "email": null,
+    "area": "202B",
+    "address": "202B, Old Mumbai - Pune Hwy, Gautam Park Society, Rao Colony, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 31
+      }
+    ]
+  },
+  {
+    "slug": "lakme-executive-hotel",
+    "name": "Lakme Executive Hotel",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://lakmeexecutive.com",
+    "phone": "+91 20 2553 4455",
+    "email": null,
+    "area": "Deccan / Apte Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 88
+      }
+    ]
+  },
+  {
+    "slug": "le-jardin-resort-and-spa",
+    "name": "Le Jardin Resort and Spa",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 89761 77577",
+    "email": null,
+    "area": "Plot No. 197",
+    "address": "Plot No. 197, Sr. No. 64, Sawargaon Village, Kalyan Highway, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 46
+      }
+    ]
+  },
+  {
+    "slug": "le-parc-thergaon",
+    "name": "LE PARC THERGAON",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://leparcthergaon.com",
+    "phone": "+91 20 6733 5555",
+    "email": null,
+    "area": "Aundh - Ravet BRTS Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 89
+      }
+    ]
+  },
+  {
+    "slug": "le-tranquil-resort",
+    "name": "Le Tranquil Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://www.letranquilresort.com",
+    "phone": "+91 96072 76501",
+    "email": null,
+    "area": "Near Valvan Lake Road",
+    "address": "Near Valvan Lake Road, Next to Nusi Holiday Home, Nangargaon, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 26
+      }
+    ]
+  },
+  {
+    "slug": "lemon-tree-hotel-hinjawadi-pune",
+    "name": "Lemon Tree Hotel, Hinjawadi, Pune",
+    "venueType": "Hotel",
+    "starCategory": "Classification pending verification",
+    "websiteUrl": "https://www.lemontreehotels.com/lemon-tree-hotel/pune/hinjawadi-pune/contact-us",
+    "phone": "020 4423 2323",
+    "email": "hi.hp@lemontreehotels.com",
+    "area": "Hinjawadi Phase 1",
+    "address": "P4, Rajiv Gandhi Infotech Park, Phase I, Hinjawadi, Pune 411057",
+    "city": "pune",
+    "postalCode": "411057",
+    "eventTypes": ["Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Meeting rooms", "event spaces - confirm"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lemon+Tree+Hotel+Hinjawadi+Pune",
+    "sourceUrl": "https://www.lemontreehotels.com/lemon-tree-hotel/pune/hinjawadi-pune/contact-us",
+    "notes": "Official contact page; don't assign 3/5-star label until verified.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 3
+      }
+    ]
+  },
+  {
+    "slug": "lemon-tree-hotel-viman-nagar",
+    "name": "Lemon Tree Hotel, Viman Nagar",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://lemontreehotels.com",
+    "phone": "+91 20 6743 2000",
+    "email": null,
+    "area": "Wiman Nagar / Sakore Nagar",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 90
+      }
+    ]
+  },
+  {
+    "slug": "lemon-tree-premier-pune",
+    "name": "Lemon Tree Premier Pune",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://lemontreehotels.com",
+    "phone": "+91 20 6768 4343",
+    "email": null,
+    "area": "City Center / Connaught Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 91
+      }
+    ]
+  },
+  {
+    "slug": "madhura-lawns",
+    "name": "Madhura Lawns",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://madhuralawns.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Aundh - Ravet BRTS Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 92
+      }
+    ]
+  },
+  {
+    "slug": "mahasainik-lawns",
+    "name": "Mahasainik Lawns",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://mahasainiklawns.com",
+    "phone": "+91 20 2633 4455",
+    "email": null,
+    "area": "Camp / Prince of Wales Dr",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 93
+      }
+    ]
+  },
+  {
+    "slug": "malhar-machi-mountain-resort",
+    "name": "Malhar Machi Mountain Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 80 6590 3423",
+    "email": null,
+    "area": "Taluka Mulshi",
+    "address": "Taluka Mulshi, Post Valne, Mulshi, Maharashtra 412108",
+    "city": "mulshi",
+    "postalCode": "412108",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 66
+      }
+    ]
+  },
+  {
+    "slug": "malhar-resort",
+    "name": "Malhar Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 78789 79718",
+    "email": null,
+    "area": "Panshet Rd",
+    "address": "Panshet Rd, Khanapur, Gorhe Khurd, Maharashtra 411025",
+    "city": "panshet",
+    "postalCode": "411025",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 70
+      }
+    ]
+  },
+  {
+    "slug": "mango-leaf-lake-resort",
+    "name": "Mango Leaf Lake Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 92265 54250",
+    "email": null,
+    "area": "NDA Rd",
+    "address": "NDA Rd, near Malai Mata Temple, Khadakwadi, Khadakwasla 411023",
+    "city": "khadakwasla",
+    "postalCode": "411023",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 60
+      }
+    ]
+  },
+  {
+    "slug": "maratha-mandir-banquets",
+    "name": "Maratha Mandir Banquets",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://marathamandirhalls.com",
+    "phone": "+91 20 2685 1515",
+    "email": null,
+    "area": "Wanalawadi / Outer",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 94
+      }
+    ]
+  },
+  {
+    "slug": "marigold-banquets-n-conventions",
+    "name": "Marigold Banquets 'N' Conventions",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://marigoldbanquets.com",
+    "phone": "+91 20 6625 4444",
+    "email": null,
+    "area": "Bavdhan",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 95
+      }
+    ]
+  },
+  {
+    "slug": "marigold-banquets-and-conventions",
+    "name": "Marigold Banquets & Conventions",
+    "venueType": "Independent banquet hall",
+    "starCategory": "Not applicable — not classified as a hotel",
+    "websiteUrl": null,
+    "phone": "90904 04444",
+    "email": null,
+    "area": "Bavdhan",
+    "address": "Bavdhan, Pune (confirm full address)",
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": ["Wedding", "Corporate", "Social events"],
+    "venueSpaces": ["Banquet hall (confirm)"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Marigold+Banquets+Pune",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Marigold+Banquets+Pune",
+    "notes": "Separate independent-venue category; include only if app allows non-star-rated venues.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 12
+      }
+    ]
+  },
+  {
+    "slug": "masu",
+    "name": "Masu",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://hilton.com",
+    "phone": "+91 20 6745 6745",
+    "email": null,
+    "area": "Mangaldas Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 96
+      }
+    ]
+  },
+  {
+    "slug": "mauli-veg-restaurant-and-banquet-hall",
+    "name": "Mauli Veg Restaurant & Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://maulivegbanquets.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Wakad Corridor / Highway",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 97
+      }
+    ]
+  },
+  {
+    "slug": "mayur-retreat-and-spa",
+    "name": "Mayur Retreat & Spa",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://mayurretreat.com",
+    "phone": null,
+    "email": null,
+    "area": "Old Mumbai - Pune Hwy",
+    "address": "Old Mumbai - Pune Hwy, next to L&T Learning Centre, Arsiwalla Villa, Lonavala, Maharashtra 410302",
+    "city": "lonavala",
+    "postalCode": "410302",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 17
+      }
+    ]
+  },
+  {
+    "slug": "mds-banquets-and-lawns",
+    "name": "MDS Banquets & Lawns",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://mdsbanquets.com",
+    "phone": "+91 88888 77777",
+    "email": null,
+    "area": "Pimpri-Chinchwad (MDS)",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 98
+      }
+    ]
+  },
+  {
+    "slug": "meritas-aura-resort",
+    "name": "Meritas Aura Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 93243 58732",
+    "email": null,
+    "area": "Survey no 51/3 Gold Valley Road",
+    "address": "Survey no 51/3 Gold Valley Road, Tungarli, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 18
+      }
+    ]
+  },
+  {
+    "slug": "meritas-countryside-resort",
+    "name": "Meritas Countryside Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 96895 21111",
+    "email": null,
+    "area": "Opp. Kaveri Farm",
+    "address": "Opp. Kaveri Farm, near Swami Samarth Mandir, Nangargaon, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 19
+      }
+    ]
+  },
+  {
+    "slug": "meritas-picaddle-resort",
+    "name": "Meritas Picaddle Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 96895 21111",
+    "email": null,
+    "area": "Plot No. 137 A",
+    "address": "Plot No. 137 A, Opp, Old Mumbai - Pune Hwy, Khandala, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 16
+      }
+    ]
+  },
+  {
+    "slug": "mezza-9-family-fine-dine-and-banquets",
+    "name": "Mezza 9 Family Fine Dine & Banquets",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://mezza9.co.in",
+    "phone": "+91 20 2293 9999",
+    "email": null,
+    "area": "Hinjawadi Phase 1 / IT Park",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 99
+      }
+    ]
+  },
+  {
+    "slug": "misty-blues-villas-and-resort",
+    "name": "Misty Blues Villas & Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 91522 77222",
+    "email": null,
+    "area": "Survey- 82",
+    "address": "Survey- 82, Temple, Plot no.10, near Narayani Dham Road, Tungarli, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 8
+      }
+    ]
+  },
+  {
+    "slug": "modis-resort-karjat",
+    "name": "Modi's Resort-Karjat",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 90497 73333",
+    "email": null,
+    "area": "Post Kirauli",
+    "address": "Post Kirauli, Village Wanjale, Taluka Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 40
+      }
+    ]
+  },
+  {
+    "slug": "multi-spice",
+    "name": "Multi Spice",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://multispice.in",
+    "phone": "+91 20 2545 4747",
+    "email": null,
+    "area": "DP Road / Mhatre Bridge",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 100
+      }
+    ]
+  },
+  {
+    "slug": "nakshatra-palace",
+    "name": "Nakshatra Palace",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://nakshatrapalace.com",
+    "phone": "+91 98220 55666",
+    "email": null,
+    "area": "Khedshivapur Baug",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 101
+      }
+    ]
+  },
+  {
+    "slug": "navyug-banquet-hall",
+    "name": "Navyug Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://courtmarriagepune.in",
+    "phone": "+91 98900 44556",
+    "email": null,
+    "area": "Dhole Patil Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 102
+      }
+    ]
+  },
+  {
+    "slug": "nishigandha-lawns-and-convention",
+    "name": "Nishigandha Lawns & Convention",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://nishigandhalawns.com",
+    "phone": "+91 98220 77888",
+    "email": null,
+    "area": "Ghotawade / Hinjawadi Outer",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 103
+      }
+    ]
+  },
+  {
+    "slug": "noorah-al-bassam-hall",
+    "name": "Noorah-Al-Bassam Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://noorahhallpune.com",
+    "phone": "+91 20 2636 0000",
+    "email": null,
+    "area": "Bund Garden Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 104
+      }
+    ]
+  },
+  {
+    "slug": "noorya-business-and-banquet-hotel",
+    "name": "Noorya Business & Banquet Hotel",
+    "venueType": "Hotel",
+    "starCategory": "Classification pending verification",
+    "websiteUrl": "https://www.noorya.in/inquire-now.htm",
+    "phone": "88888 90883",
+    "email": "reservations@noorya.in",
+    "area": "Thergaon",
+    "address": "Survey No. 31, opposite Aditya Birla Hospital, Thergaon, Pune 411033",
+    "city": "pune",
+    "postalCode": "411033",
+    "eventTypes": ["Corporate", "Conference", "Wedding", "Social events"],
+    "venueSpaces": ["Banquet halls", "Meeting spaces (confirm)"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Noorya+Business+Banquet+Hotel+Pune",
+    "sourceUrl": "https://www.noorya.in/inquire-now.htm",
+    "notes": "Candidate only; do not assume 3-star category without certificate.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 8
+      }
+    ]
+  },
+  {
+    "slug": "novotel-pune-nagar-road",
+    "name": "Novotel Pune Nagar Road",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://accor.com",
+    "phone": "+91 20 6705 6000",
+    "email": null,
+    "area": "Nagar Rd / Viman Nagar",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 105
+      }
+    ]
+  },
+  {
+    "slug": "o-hotel-pune-koregaon-park",
+    "name": "O Hotel Pune- Koregaon Park",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://ohotelsindia.com",
+    "phone": "+91 20 4001 1000",
+    "email": null,
+    "area": "Koregaon Park",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 106
+      }
+    ]
+  },
+  {
+    "slug": "oleander-farms-luxury-resort",
+    "name": "Oleander Farms Luxury Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 22 5002 2222",
+    "email": null,
+    "area": "Karjat Chowk Road",
+    "address": "Karjat Chowk Road, Wavarle Village, Khalapur, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 38
+      }
+    ]
+  },
+  {
+    "slug": "orritel-hotel",
+    "name": "Orritel Hotel",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://orritel.com",
+    "phone": "+91 20 4492 4492",
+    "email": null,
+    "area": "Hinjawadi",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 107
+      }
+    ]
+  },
+  {
+    "slug": "oxford-golf-resort",
+    "name": "Oxford Golf Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://oxfordgolfresort.com",
+    "phone": "+91 20 6699 9999",
+    "email": null,
+    "area": "Mumbai-Bangalore Highway",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 108
+      }
+    ]
+  },
+  {
+    "slug": "oxygen-ac-banquet-hall",
+    "name": "Oxygen AC Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://oxygenbanquets.com",
+    "phone": "+91 20 4120 4455",
+    "email": null,
+    "area": "Alandi Road / Dighi",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 109
+      }
+    ]
+  },
+  {
+    "slug": "paramount-riverfront-resort-and-spa",
+    "name": "Paramount Riverfront Resort & Spa",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 84337 54040",
+    "email": null,
+    "area": "Murbad Road",
+    "address": "Murbad Road, Posari, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 41
+      }
+    ]
+  },
+  {
+    "slug": "parvati-hall",
+    "name": "Parvati Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://parvatihallpune.com",
+    "phone": "+91 20 2444 8899",
+    "email": null,
+    "area": "Parvati Corridor",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 110
+      }
+    ]
+  },
+  {
+    "slug": "phadke-dining-hall",
+    "name": "Phadke Dining Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://phadkedining.com",
+    "phone": "+91 20 2444 8383",
+    "email": null,
+    "area": "Khajina Vihir Chowk / Core",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 111
+      }
+    ]
+  },
+  {
+    "slug": "pinewood-resort-karjat",
+    "name": "Pinewood Resort Karjat",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 98709 00421",
+    "email": null,
+    "area": "Village Varai",
+    "address": "Village Varai, Karjat West, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 52
+      }
+    ]
+  },
+  {
+    "slug": "pinnacle-high-resort",
+    "name": "Pinnacle High Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 97632 77000",
+    "email": null,
+    "area": "Plot No. 8",
+    "address": "Plot No. 8, Survey No. 80, Near Narayani Dham Temple, Tungarli, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 27
+      }
+    ]
+  },
+  {
+    "slug": "porwal-bhavan",
+    "name": "Porwal Bhavan",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://porwalbhavan.com",
+    "phone": "+91 20 2712 3636",
+    "email": null,
+    "area": "Alandi Road / Outer",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 112
+      }
+    ]
+  },
+  {
+    "slug": "prana-resorts-and-banquets",
+    "name": "Prana Resorts and Banquets",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://pranaresorts.com",
+    "phone": "+91 98220 44556",
+    "email": null,
+    "area": "Mumbai-Pune Highway",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 113
+      }
+    ]
+  },
+  {
+    "slug": "pride-premier-pune",
+    "name": "Pride Premier Pune",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://pridehotel.com",
+    "phone": "+91 20 6604 4100",
+    "email": null,
+    "area": "Ganeshkhind / University Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 114
+      }
+    ]
+  },
+  {
+    "slug": "providence-divine-banquet-hall",
+    "name": "Providence Divine Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://providencebanquets.com",
+    "phone": "+91 99755 66778",
+    "email": null,
+    "area": "Camp / East St",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 115
+      }
+    ]
+  },
+  {
+    "slug": "purohit-holiday-resort",
+    "name": "Purohit Holiday Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 77094 98707",
+    "email": null,
+    "area": "Chhatrapati Shivaji Maharaj Rd",
+    "address": "Chhatrapati Shivaji Maharaj Rd, Near ST Stand, Gawliwada, Rao Colony, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 30
+      }
+    ]
+  },
+  {
+    "slug": "pushpam-sanskruti-resort",
+    "name": "Pushpam Sanskruti Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 80078 22338",
+    "email": null,
+    "area": "S.No.143 Village Kashele",
+    "address": "S.No.143 Village Kashele, Murbad Highway, Takave, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 50
+      }
+    ]
+  },
+  {
+    "slug": "pyc-hindu-gymkhana",
+    "name": "PYC Hindu Gymkhana",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://pycgymkhana.com",
+    "phone": "+91 20 2566 3006",
+    "email": null,
+    "area": "Bhandarkar Rd / Deccan",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 116
+      }
+    ]
+  },
+  {
+    "slug": "quality-inn-mint",
+    "name": "Quality Inn Mint",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://choicehotels.com",
+    "phone": "+91 20 4100 2200",
+    "email": null,
+    "area": "Dhole Patil Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 117
+      }
+    ]
+  },
+  {
+    "slug": "raaga-heritage-banquets-and-lawns",
+    "name": "Raaga Heritage Banquets & Lawns",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://raagaheritage.com",
+    "phone": "+91 98811 55666",
+    "email": null,
+    "area": "Hinjawadi / Marunji Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 120
+      }
+    ]
+  },
+  {
+    "slug": "raaga-imperio",
+    "name": "Raaga Imperio",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://raagaimperio.com",
+    "phone": "+91 20 6733 5555",
+    "email": null,
+    "area": "Aundh - Ravet BRTS Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 121
+      }
+    ]
+  },
+  {
+    "slug": "raaga-palace",
+    "name": "Raaga Palace",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://raagapalace.com",
+    "phone": "+91 20 2727 3333",
+    "email": null,
+    "area": "Thergaon / Flyover",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 122
+      }
+    ]
+  },
+  {
+    "slug": "radisson-blu-hotel-pune-kharadi",
+    "name": "Radisson Blu Hotel, Pune Kharadi",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://radissonhotels.com",
+    "phone": "+91 20 6952 8000",
+    "email": null,
+    "area": "Nagar Rd / Kharadi",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 118
+      }
+    ]
+  },
+  {
+    "slug": "radisson-blu-plaza-resort",
+    "name": "Radisson Blu Plaza Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 2148 350 000",
+    "email": null,
+    "area": "Village Khandpe",
+    "address": "Village Khandpe, Taluka Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 37
+      }
+    ]
+  },
+  {
+    "slug": "radisson-blu-pune-hinjawadi",
+    "name": "Radisson Blu Pune Hinjawadi",
+    "venueType": "Hotel",
+    "starCategory": "5-star (listed by travel directory; confirm certificate)",
+    "websiteUrl": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-hinjawadi-pune",
+    "phone": "+91 20 6693 9000",
+    "email": "reservation.hinjawadi@radissonblu.com",
+    "area": "Hinjawadi Phase 1",
+    "address": "Hinjewadi Phase 1 Road, behind Mahindra International School, Pune 411057",
+    "city": "pune",
+    "postalCode": "411057",
+    "eventTypes": ["Wedding", "Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Meeting spaces", "rooftop pool", "event facilities - confirm"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Radisson+Blu+Pune+Hinjawadi",
+    "sourceUrl": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-hinjawadi-pune",
+    "notes": "Official contact and address available; confirm event capacities and certificate.",
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 119
+      },
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 4
+      }
+    ]
+  },
+  {
+    "slug": "raghunandan-hall",
+    "name": "Raghunandan Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://raghunandanhall.com",
+    "phone": "+91 96898 88888",
+    "email": null,
+    "area": "Mumbai - Pune Highway",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 123
+      }
+    ]
+  },
+  {
+    "slug": "rajendra-sinhji-institute-rsi-club",
+    "name": "Rajendra Sinhji Institute (RSI) Club",
+    "venueType": "Club",
+    "starCategory": null,
+    "websiteUrl": "https://rsiclubpune.com",
+    "phone": "+91 20 2633 4455",
+    "email": null,
+    "area": "Camp / Officers Mess",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 124
+      }
+    ]
+  },
+  {
+    "slug": "ramee-grand-hotel-and-spa-pune",
+    "name": "Ramee Grand Hotel and Spa, Pune",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://rameehotels.com",
+    "phone": "+91 20 6684 6565",
+    "email": null,
+    "area": "Pune Center",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 125
+      }
+    ]
+  },
+  {
+    "slug": "regency-ballroom-hyatt-regency",
+    "name": "Regency Ballroom (Hyatt Regency)",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://hyatt.com",
+    "phone": "+91 20 6645 1234",
+    "email": null,
+    "area": "Viman Nagar / Nagar Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 126
+      }
+    ]
+  },
+  {
+    "slug": "regenta-central-grand-exotica-pune",
+    "name": "Regenta Central Grand Exotica Pune",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://royalorchidhotels.com",
+    "phone": "+91 20 6631 3131",
+    "email": null,
+    "area": "Old Mumbai - Pune Hwy",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 127
+      }
+    ]
+  },
+  {
+    "slug": "residency-lake-resort-and-spa",
+    "name": "Residency Lake Resort & Spa",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": null,
+    "email": null,
+    "area": "Gonoor",
+    "address": "Gonoor, Mulshi, Pune, Maharashtra 412108",
+    "city": "mulshi",
+    "postalCode": "412108",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 71
+      }
+    ]
+  },
+  {
+    "slug": "resort-silver-oak",
+    "name": "Resort Silver Oak",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 98200 44299",
+    "email": null,
+    "area": "Plot No. 56",
+    "address": "Plot No. 56, Near Valvan Dam, Gold Valley Sector E, Tungarli, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 22
+      }
+    ]
+  },
+  {
+    "slug": "rhythm-banquet-hall",
+    "name": "Rhythm Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://rhythmbanquets.com",
+    "phone": "+91 91751 99999",
+    "email": null,
+    "area": "Rahatani / Kokane Chowk",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 128
+      }
+    ]
+  },
+  {
+    "slug": "rhythm-rooftop-bar-and-kitchen",
+    "name": "Rhythm Rooftop Bar and Kitchen",
+    "venueType": "Restaurant",
+    "starCategory": null,
+    "websiteUrl": "https://rhythmbanquets.com",
+    "phone": "+91 91751 99999",
+    "email": null,
+    "area": "Rahatani / Kokane Chowk",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 129
+      }
+    ]
+  },
+  {
+    "slug": "ripples-resort",
+    "name": "Ripples Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 74480 10777",
+    "email": null,
+    "area": "Pune - Panshet Rd",
+    "address": "Pune - Panshet Rd, Malkhed, Maharashtra 411025",
+    "city": "panshet",
+    "postalCode": "411025",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 69
+      }
+    ]
+  },
+  {
+    "slug": "royal-karjat-camp",
+    "name": "Royal Karjat Camp",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 94239 08899",
+    "email": null,
+    "area": "Malwadi village Road",
+    "address": "Malwadi village Road, Nana Master Nagar, Deulwadi, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 43
+      }
+    ]
+  },
+  {
+    "slug": "rsi-reception-ashoka-marg",
+    "name": "RSI Reception (Ashoka Marg)",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://rsiclubpune.com",
+    "phone": "+91 20 2633 1234",
+    "email": null,
+    "area": "Camp / Richardson Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 130
+      }
+    ]
+  },
+  {
+    "slug": "rutugandh-lakeside-leisure-resort",
+    "name": "Rutugandh Lakeside Leisure Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 98810 99427",
+    "email": null,
+    "area": "Pune - Panshet Rd",
+    "address": "Pune - Panshet Rd, Khanapur, Gorhe Khurd, Maharashtra 411025",
+    "city": "panshet",
+    "postalCode": "411025",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 77
+      }
+    ]
+  },
+  {
+    "slug": "sadanand-regency",
+    "name": "Sadanand Regency",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://sadanandregency.com",
+    "phone": "+91 20 6685 4444",
+    "email": null,
+    "area": "Balewadi / Wakad Bypass",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 131
+      }
+    ]
+  },
+  {
+    "slug": "sadanand-resorts",
+    "name": "Sadanand Resorts",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://sadanandresorts.com",
+    "phone": "+91 20 6685 4444",
+    "email": null,
+    "area": "Baner / Mahalunge",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 132
+      }
+    ]
+  },
+  {
+    "slug": "saffron-banquets",
+    "name": "Saffron Banquets",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://saffronbanquets.com",
+    "phone": "+91 20 2685 1515",
+    "email": null,
+    "area": "Salunke Vihar / Wanowrie",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 133
+      }
+    ]
+  },
+  {
+    "slug": "saj-by-the-mountain",
+    "name": "Saj By The Mountain",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 96194 92999",
+    "email": null,
+    "area": "Sector E",
+    "address": "Sector E, Gold Valley, Tungarli, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 20
+      }
+    ]
+  },
+  {
+    "slug": "samudra-veg-and-banquet-hall",
+    "name": "Samudra Veg and Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://samudraveg.com",
+    "phone": "+91 20 2444 8383",
+    "email": null,
+    "area": "Swargate / Saras Baug Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 134
+      }
+    ]
+  },
+  {
+    "slug": "sanjog-hall-complex",
+    "name": "Sanjog Hall Complex",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://sanjoghallpune.com",
+    "phone": "+91 20 2612 4455",
+    "email": null,
+    "area": "Station Road / Sanjog",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 135
+      }
+    ]
+  },
+  {
+    "slug": "sant-tukaram-garden-mangal-karyalay",
+    "name": "Sant Tukaram Garden Mangal Karyalay",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://santtukaramgarden.com",
+    "phone": "+91 98900 88990",
+    "email": null,
+    "area": "Wakad / Bypass Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 136
+      }
+    ]
+  },
+  {
+    "slug": "saundarya-garden-kitchen-and-bar",
+    "name": "Saundarya Garden - Kitchen & Bar",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://saundaryagarden.com",
+    "phone": "+91 20 6719 5555",
+    "email": null,
+    "area": "Hinjawadi / Wakad Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 137
+      }
+    ]
+  },
+  {
+    "slug": "sayaji-hotel-pune",
+    "name": "Sayaji Hotel Pune",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://sayajihotels.com",
+    "phone": "+91 20 4900 0049",
+    "email": null,
+    "area": "Mumbai-Bangalore Hwy",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 138
+      }
+    ]
+  },
+  {
+    "slug": "seasons-24-banquets",
+    "name": "Seasons 24 Banquets",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://seasons24banquets.com",
+    "phone": "+91 20 6707 9000",
+    "email": null,
+    "area": "Wagholi Corridor / Outer",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 140
+      }
+    ]
+  },
+  {
+    "slug": "seasons-banquets-akurdi",
+    "name": "Seasons Banquets Akurdi",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://seasonsbanquets.com",
+    "phone": "+91 20 6733 4455",
+    "email": null,
+    "area": "Akurdi / Pimpri-Chinchwad",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 139
+      }
+    ]
+  },
+  {
+    "slug": "sentosa-banquet-halls-pune",
+    "name": "Sentosa Banquet Halls Pune",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://sentosaresorts.com",
+    "phone": "+91 20 6699 9999",
+    "email": null,
+    "area": "Mumbai - Pune Expressway",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 141
+      }
+    ]
+  },
+  {
+    "slug": "sereniity-resort",
+    "name": "Sereniity Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 96076 92999",
+    "email": null,
+    "area": "S No 64",
+    "address": "S No 64, near Lagoona Hotel, Gold Valley Sector D, Tungarli, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 6
+      }
+    ]
+  },
+  {
+    "slug": "seven-star-holiday-resort",
+    "name": "Seven Star Holiday Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 96372 29450",
+    "email": null,
+    "area": "Survey No 52 / 7",
+    "address": "Survey No 52 / 7, Asal Village, Karjat To Neral Road, Near Bhivpuri Railway Station, Karjat, Maharashtra 410101",
+    "city": "karjat",
+    "postalCode": "410101",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 53
+      }
+    ]
+  },
+  {
+    "slug": "shahi-banquet-hall",
+    "name": "Shahi Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://shahibanquet.com",
+    "phone": "+91 20 2422 3636",
+    "email": null,
+    "area": "Satara Road / Shahi",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 142
+      }
+    ]
+  },
+  {
+    "slug": "shantai-hotel",
+    "name": "Shantai Hotel",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://shantaihotel.com",
+    "phone": "+91 20 2613 0083",
+    "email": null,
+    "area": "Camp / Moledina Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 143
+      }
+    ]
+  },
+  {
+    "slug": "sheraton-grand-pune",
+    "name": "Sheraton Grand Pune",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://marriott.com",
+    "phone": "+91 20 6641 1111",
+    "email": null,
+    "area": "Bund Garden / Station Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 144
+      }
+    ]
+  },
+  {
+    "slug": "sheraton-grand-pune-bund-garden-hotel",
+    "name": "Sheraton Grand Pune Bund Garden Hotel",
+    "venueType": "Hotel",
+    "starCategory": "5-star (verify certificate before publishing)",
+    "websiteUrl": "https://www.marriott.com",
+    "phone": "020 6641 1111",
+    "email": null,
+    "area": "Bund Garden",
+    "address": "Raja Bahadur Motilal Road, Bund Garden, Pune 411001",
+    "city": "pune",
+    "postalCode": "411001",
+    "eventTypes": ["Wedding", "Corporate", "Gala dinner", "Social events"],
+    "venueSpaces": ["Ballroom", "Meeting spaces"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sheraton+Grand+Pune+Bund+Garden+Hotel",
+    "sourceUrl": "https://www.marriott.com/",
+    "notes": "Marriott official site; verify property-specific contact and current event details.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 5
+      }
+    ]
+  },
+  {
+    "slug": "shiv-shakti-pure-veg-restaurant",
+    "name": "Shiv Shakti Pure Veg Restaurant",
+    "venueType": "Restaurant",
+    "starCategory": null,
+    "websiteUrl": "https://shivshaktipureveg.com",
+    "phone": "+91 20 6707 9000",
+    "email": null,
+    "area": "Mundhwa - Kharadi Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 145
+      }
+    ]
+  },
+  {
+    "slug": "shivarmachi-lake-resort",
+    "name": "Shivarmachi Lake Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 88056 61161",
+    "email": null,
+    "area": "Group Grampanchayat Wadghar Dhindli",
+    "address": "Group Grampanchayat Wadghar Dhindli, Shrikoli Road, Panshet 412107",
+    "city": "panshet",
+    "postalCode": "412107",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 62
+      }
+    ]
+  },
+  {
+    "slug": "shree-pure-veg-restaurant-and-banquet",
+    "name": "Shree Pure Veg Restaurant & Banquet",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://shreepurevegbanquets.com",
+    "phone": "+91 20 2668 1234",
+    "email": null,
+    "area": "Yerwada / Mental Corner",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 146
+      }
+    ]
+  },
+  {
+    "slug": "shreeganesh-sabhagruha-ac-banquet",
+    "name": "Shreeganesh Sabhagruha - AC Banquet",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://shreeganeshsabhagruha.com",
+    "phone": "+91 20 2543 8383",
+    "email": null,
+    "area": "Karve Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 147
+      }
+    ]
+  },
+  {
+    "slug": "shreeji-banquet-and-lawns",
+    "name": "Shreeji Banquet and Lawns",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://shreejibanquet.com",
+    "phone": "+91 91751 23456",
+    "email": null,
+    "area": "Gangadham Kondhwa Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 148
+      }
+    ]
+  },
+  {
+    "slug": "shrombh-lawns",
+    "name": "Shrombh Lawns",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://shubharambhlawns.com",
+    "phone": "+91 20 2545 4747",
+    "email": null,
+    "area": "DP Road / Mhatre Bridge",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 149
+      }
+    ]
+  },
+  {
+    "slug": "shrustee-lawns",
+    "name": "Shrustee Lawns",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://shrusteelawns.com",
+    "phone": "+91 20 2545 4747",
+    "email": null,
+    "area": "DP Road / Mhatre Bridge",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 150
+      }
+    ]
+  },
+  {
+    "slug": "shruti-mangal-karyalaya",
+    "name": "Shruti Mangal Karyalaya",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://shrutimangal.com",
+    "phone": "+91 20 2553 5555",
+    "email": null,
+    "area": "Shivajinagar / Apte Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 151
+      }
+    ]
+  },
+  {
+    "slug": "siddhi-gardens-and-banquets",
+    "name": "Siddhi Gardens and Banquets",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://siddhigardens.com",
+    "phone": "+91 20 2545 4747",
+    "email": null,
+    "area": "DP Road / Mhatre Bridge",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 152
+      }
+    ]
+  },
+  {
+    "slug": "siddhi-lawns-and-banquet-hall",
+    "name": "Siddhi Lawns and Banquet Hall",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://siddhilawns.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Wakad - Nashik Phata Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 153
+      }
+    ]
+  },
+  {
+    "slug": "siddhi-saaj-banquets-and-lawn",
+    "name": "Siddhi Saaj Banquets and Lawn",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://siddhisaajbanquets.com",
+    "phone": "+91 20 2444 8899",
+    "email": null,
+    "area": "Zonal Hub / Karve Corridor",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 154
+      }
+    ]
+  },
+  {
+    "slug": "silver-banquet-hall",
+    "name": "Silver Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://silverbanquets.com",
+    "phone": "+91 20 6733 5555",
+    "email": null,
+    "area": "Aundh - Ravet BRTS Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 155
+      }
+    ]
+  },
+  {
+    "slug": "silver-palace-banquets-and-lawn",
+    "name": "Silver Palace Banquets & Lawn",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://silverpalacebanquets.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Hinjawadi / Laxmi Chowk",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 156
+      }
+    ]
+  },
+  {
+    "slug": "sirimirii-restaurant-and-banquets",
+    "name": "Sirimirii Restaurant & Banquets",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://sirimirii.com",
+    "phone": "+91 91751 99999",
+    "email": null,
+    "area": "Katraj - Kondhwa Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 157
+      }
+    ]
+  },
+  {
+    "slug": "sky-blue-banquet-hall",
+    "name": "Sky Blue Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://skybluebanquets.com",
+    "phone": "+91 20 2742 1111",
+    "email": null,
+    "area": "Pimpri-Chinchwad (Central)",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 159
+      }
+    ]
+  },
+  {
+    "slug": "skydeck-rooftop-restaurant",
+    "name": "SkyDeck Rooftop Restaurant",
+    "venueType": "Restaurant",
+    "starCategory": null,
+    "websiteUrl": "https://skydeckpune.in",
+    "phone": "+91 98900 88990",
+    "email": null,
+    "area": "Pimpri-Chinchwad (SkyDeck)",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 160
+      }
+    ]
+  },
+  {
+    "slug": "skye-rooftop-by-eternia",
+    "name": "SKYE Rooftop by Eternia",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://skyerooftoppune.com",
+    "phone": "+91 20 6683 3333",
+    "email": null,
+    "area": "Senapati Bapat Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 158
+      }
+    ]
+  },
+  {
+    "slug": "solasta-stays-and-banquets",
+    "name": "Solasta Stays and Banquets",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://solastastays.com",
+    "phone": "+91 95450 09292",
+    "email": null,
+    "area": "Wakad / Highway",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 161
+      }
+    ]
+  },
+  {
+    "slug": "solitaire-banquets-at-enrise-pune",
+    "name": "Solitaire Banquets at Enrise Pune",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://sayajihotels.com",
+    "phone": "+91 20 6719 2200",
+    "email": null,
+    "area": "Laxmi Chowk Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 162
+      }
+    ]
+  },
+  {
+    "slug": "sorina-hillside-resort",
+    "name": "Sorina Hillside Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://sorinaresort.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Khadakwasla / Panshet Rd",
+    "address": "Gat No.297, Panshet Rd, Gorhe Khurd, Khadakwasla, Pune 411025",
+    "city": "panshet",
+    "postalCode": "411025",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 163
+      },
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 57
+      }
+    ]
+  },
+  {
+    "slug": "sparsh-resort-and-chalet",
+    "name": "Sparsh Resort & Chalet",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": null,
+    "email": null,
+    "area": "Salokh Tarf Secondary Road",
+    "address": "Salokh Tarf Secondary Road, Near Salokh Village, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 56
+      }
+    ]
+  },
+  {
+    "slug": "spree-adventure-resort",
+    "name": "Spree Adventure Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 77440 23127",
+    "email": null,
+    "area": "Plot No 7",
+    "address": "Plot No 7, 141-152, Vinegaon, Khalapur, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 42
+      }
+    ]
+  },
+  {
+    "slug": "sterling-stolen-heaven-lonavala",
+    "name": "Sterling Stolen Heaven Lonavala",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 79697 92012",
+    "email": null,
+    "area": "Plot No. 7",
+    "address": "Plot No. 7, Kune Village, Khandala, Lonavala, Maharashtra 410301",
+    "city": "lonavala",
+    "postalCode": "410301",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 34
+      }
+    ]
+  },
+  {
+    "slug": "studio-estique",
+    "name": "Studio Estique",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://studioestique.com",
+    "phone": "+91 20 4018 9999",
+    "email": null,
+    "area": "Bund Garden / Center",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 164
+      }
+    ]
+  },
+  {
+    "slug": "sunnys-world",
+    "name": "Sunny's World",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://sunnysworldpune.com",
+    "phone": "+91 96898 88888",
+    "email": null,
+    "area": "Pashan Sus Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 165
+      }
+    ]
+  },
+  {
+    "slug": "sunshine-resort",
+    "name": "Sunshine Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 91588 80099",
+    "email": null,
+    "area": "Sinhgad Rd",
+    "address": "Sinhgad Rd, near Khadakwasla Dam Backwater, Gorhe Khurd, Pune 411025",
+    "city": "khadakwasla",
+    "postalCode": "411025",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 61
+      }
+    ]
+  },
+  {
+    "slug": "suparna-mangal-karyalay",
+    "name": "Suparna Mangal Karyalay",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://suparnamangal.com",
+    "phone": "+91 20 2444 8899",
+    "email": null,
+    "area": "Parvati / Aranyeshwar Marg",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 166
+      }
+    ]
+  },
+  {
+    "slug": "surya-mangal-veg-thali-and-banquet",
+    "name": "Surya Mangal - Veg Thali & Banquet",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://suryamangalbanquets.com",
+    "phone": "+91 20 2742 1111",
+    "email": null,
+    "area": "Pimpri-Chinchwad / Tilak Bridge",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 167
+      }
+    ]
+  },
+  {
+    "slug": "tamanna-executive",
+    "name": "Tamanna Executive",
+    "venueType": "Hotel",
+    "starCategory": "Classification pending verification",
+    "websiteUrl": "https://tamannahotels.com",
+    "phone": "020 6693 5000 / 020 2293 3164",
+    "email": null,
+    "area": "Hinjawadi Phase 1",
+    "address": "Plot No. P-10, Rajiv Gandhi Infotech Park, MIDC Phase 1, Hinjawadi, Pune 411057",
+    "city": "pune",
+    "postalCode": "411057",
+    "eventTypes": ["Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Boardrooms / banquet facilities - confirm"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tamanna+Executive+Hinjawadi+Pune",
+    "sourceUrl": "https://tamannahotels.com/",
+    "notes": "Tamanna group property; verify current contact and category.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 10
+      }
+    ]
+  },
+  {
+    "slug": "tamanna-residency",
+    "name": "Tamanna Residency",
+    "venueType": "Hotel",
+    "starCategory": "Classification pending verification",
+    "websiteUrl": "https://tamannahotels.com",
+    "phone": "020 6693 5000 / 020 2293 3164",
+    "email": null,
+    "area": "Hinjawadi Phase 1",
+    "address": "Plot No. P-10, Rajiv Gandhi Infotech Park, MIDC Phase 1, Hinjawadi, Pune 411057",
+    "city": "pune",
+    "postalCode": "411057",
+    "eventTypes": ["Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Event facilities - confirm"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tamanna+Residency+Hinjawadi+Pune",
+    "sourceUrl": "https://tamannahotels.com/",
+    "notes": "Property appears in hotel directory; verify exact property and category.",
+    "sources": [
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 11
+      }
+    ]
+  },
+  {
+    "slug": "tarawade-clarks-inn",
+    "name": "Tarawade Clarks Inn",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://theclarkshotels.com",
+    "phone": "+91 77200 10401",
+    "email": null,
+    "area": "Shivajinagar / Center",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 168
+      }
+    ]
+  },
+  {
+    "slug": "teak-resort",
+    "name": "Teak Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 73042 07783",
+    "email": null,
+    "area": "House No.865",
+    "address": "House No.865, Survey No.52/2, Savele, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 44
+      }
+    ]
+  },
+  {
+    "slug": "the-ambassador-hotel",
+    "name": "The Ambassador Hotel",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://ambassadorpune.com",
+    "phone": "+91 20 2566 0011",
+    "email": null,
+    "area": "Shivajinagar / Center",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 169
+      }
+    ]
+  },
+  {
+    "slug": "the-bark-an-art-resort",
+    "name": "The Bark - An Art Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 91361 76204",
+    "email": null,
+    "area": "Plot No. 5 & 6",
+    "address": "Plot No. 5 & 6, Old, behind Hotel Fariyas, Tungarli, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 13
+      }
+    ]
+  },
+  {
+    "slug": "the-central-park-hotel-pune",
+    "name": "The Central Park Hotel, Pune",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://thecentralparkhotel.com",
+    "phone": "+91 20 4010 4000",
+    "email": null,
+    "area": "Bund Garden Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 170
+      }
+    ]
+  },
+  {
+    "slug": "the-corinthians-resort-pune",
+    "name": "The Corinthians Resort Pune",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://thecorinthianspune.com",
+    "phone": "+91 20 2695 2222",
+    "email": null,
+    "area": "Undri / NIBM",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 171
+      }
+    ]
+  },
+  {
+    "slug": "the-fern-an-ecotel-hotel",
+    "name": "The Fern An Ecotel Hotel",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://www.fernhotels.com",
+    "phone": "+91 21142 73200",
+    "email": null,
+    "area": "S. No 96",
+    "address": "S. No 96, 2, near Valvan Dam, Gold Valley Sector E, Tungarli, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 33
+      }
+    ]
+  },
+  {
+    "slug": "the-fern-residency-midc-pune",
+    "name": "The Fern Residency, MIDC, Pune",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://fernhotels.com",
+    "phone": "+91 20 4242 4242",
+    "email": null,
+    "area": "MIDC / Pimpri",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 172
+      }
+    ]
+  },
+  {
+    "slug": "the-forest-club-resort",
+    "name": "The Forest Club Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 84948 88888",
+    "email": null,
+    "area": "AT-Deulwadi",
+    "address": "AT-Deulwadi, POST-Kiravali, Tal-Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 39
+      }
+    ]
+  },
+  {
+    "slug": "the-foresta-resort-and-spa",
+    "name": "The Foresta Resort & Spa",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 98344 00821",
+    "email": null,
+    "area": "Gat no.378",
+    "address": "Gat no.378, Mahindra International College Road, Ravade, Mulshi 412108",
+    "city": "mulshi",
+    "postalCode": "412108",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 64
+      }
+    ]
+  },
+  {
+    "slug": "the-grand-ballroom-pune",
+    "name": "The Grand Ballroom Pune",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://thegrandballroompune.com",
+    "phone": "+91 98220 12345",
+    "email": null,
+    "area": "Standalone Hub",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 173
+      }
+    ]
+  },
+  {
+    "slug": "the-grand-tulip",
+    "name": "The Grand Tulip",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://thegrandtulip.com",
+    "phone": "+91 20 2444 8899",
+    "email": null,
+    "area": "Swargate Square",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 174
+      }
+    ]
+  },
+  {
+    "slug": "the-green-gate-resort",
+    "name": "The Green Gate Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 97632 77000",
+    "email": null,
+    "area": "Dhokalwadi",
+    "address": "Dhokalwadi, Mulshi Hill Station, Tamhini Ghat Road, Mulshi, Maharashtra 412108",
+    "city": "mulshi",
+    "postalCode": "412108",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 75
+      }
+    ]
+  },
+  {
+    "slug": "the-mistty-mountain-resort",
+    "name": "The Mistty Mountain Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://www.themisttymountain.com",
+    "phone": null,
+    "email": null,
+    "area": "Tamhini Ghat Road",
+    "address": "Tamhini Ghat Road, Mulshi, Maharashtra 412108",
+    "city": "mulshi",
+    "postalCode": "412108",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 73
+      }
+    ]
+  },
+  {
+    "slug": "the-mountain-resort-by-redwings",
+    "name": "The Mountain Resort by Redwings",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://themountainresorts.com",
+    "phone": "+91 98338 66655",
+    "email": null,
+    "area": "Survey No. 120",
+    "address": "Survey No. 120, Wavarle Village, Vadvihir, Khalapur, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 54
+      }
+    ]
+  },
+  {
+    "slug": "the-orchid-hotel-pune",
+    "name": "The Orchid Hotel Pune",
+    "venueType": "Hotel",
+    "starCategory": "Classification pending verification",
+    "websiteUrl": "https://www.orchidhotel.com/pune",
+    "phone": "+91 91691 66789",
+    "email": "resv.pune@orchidhotel.com",
+    "area": "Mumbai-Bangalore Hwy",
+    "address": "Pune–Bangalore Highway, Balewadi, Pune 411045",
+    "city": "pune",
+    "postalCode": "411045",
+    "eventTypes": ["Wedding", "Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Banquet halls", "Meeting spaces (confirm)"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Orchid+Hotel+Pune",
+    "sourceUrl": "https://www.orchidhotel.com/pune/",
+    "notes": "Do not label 3-star/5-star until current official classification is confirmed.",
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 175
+      },
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 7
+      }
+    ]
+  },
+  {
+    "slug": "the-orchid-lonavala",
+    "name": "The Orchid Lonavala",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 91434 57771",
+    "email": null,
+    "area": "10 1",
+    "address": "10 1, Old Mumbai - Pune Hwy, Valvan, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 3
+      }
+    ]
+  },
+  {
+    "slug": "the-poona-club-ltd",
+    "name": "The Poona Club Ltd.",
+    "venueType": "Club",
+    "starCategory": null,
+    "websiteUrl": "https://poonaclubltd.com",
+    "phone": "+91 20 2636 0000",
+    "email": null,
+    "area": "Bund Garden Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 176
+      }
+    ]
+  },
+  {
+    "slug": "the-residency-club",
+    "name": "The Residency Club",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": "https://residencyclubpune.com",
+    "phone": "+91 20 7101 2345",
+    "email": null,
+    "area": "Camp / Center",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 177
+      }
+    ]
+  },
+  {
+    "slug": "the-ritz-carlton-pune",
+    "name": "The Ritz-Carlton, Pune",
+    "venueType": "Hotel",
+    "starCategory": "5-star (verify certificate before publishing)",
+    "websiteUrl": "https://www.marriottindiaweddings.com/the-ritz-carlton-pune",
+    "phone": "+91 20 6767 5000",
+    "email": null,
+    "area": "Airport Road / Yerwada",
+    "address": "Golf Course Square, Yerawada, Pune 411006",
+    "city": "pune",
+    "postalCode": "411006",
+    "eventTypes": ["Wedding", "Corporate", "Social events"],
+    "venueSpaces": ["Ballroom", "Crown Deck (verify current offerings)"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Ritz-Carlton+Pune",
+    "sourceUrl": "https://www.marriottindiaweddings.com/the-ritz-carlton-pune",
+    "notes": "Official wedding page; confirm contact numbers, capacity and current star classification before publishing.",
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 178
+      },
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Earlier Pune Shortlist",
+        "row": 2
+      }
+    ]
+  },
+  {
+    "slug": "the-westin-pune-koregaon-park",
+    "name": "The Westin Pune Koregaon Park",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://marriott.com",
+    "phone": "+91 20 6721 0000",
+    "email": null,
+    "area": "Koregaon Park / Mundhwa",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 179
+      }
+    ]
+  },
+  {
+    "slug": "thopate-banquets",
+    "name": "Thopate Banquets",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://thopatebanquets.com",
+    "phone": "+91 98900 88990",
+    "email": null,
+    "area": "Thergaon / Godambe Chowk",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 180
+      }
+    ]
+  },
+  {
+    "slug": "town-plaza-ac-banquet-hall",
+    "name": "Town Plaza - Ac Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://townplazapune.com",
+    "phone": "+91 20 2636 0000",
+    "email": null,
+    "area": "Camp / MG Road Hub",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 181
+      }
+    ]
+  },
+  {
+    "slug": "triose-boutique-hotel",
+    "name": "Triose Boutique Hotel",
+    "venueType": "Hotel",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 21142 73934",
+    "email": null,
+    "area": "22",
+    "address": "22, Ryewood, Kurwande Road, near Lonavala Lake, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 23
+      }
+    ]
+  },
+  {
+    "slug": "tulsi-villa-banquets",
+    "name": "Tulsi Villa Banquets",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://tulsivillabanquets.com",
+    "phone": "+91 98220 55666",
+    "email": null,
+    "area": "Mundhwa Rd / Hadapsar",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 182
+      }
+    ]
+  },
+  {
+    "slug": "u-rivergate-karjat",
+    "name": "U Rivergate Karjat",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://www.uhotelsresorts.com/urivergatekarjat",
+    "phone": "+91 70309 59069",
+    "email": null,
+    "area": "Kalamboli Village",
+    "address": "Kalamboli Village, Via Kadav, Karjat - Murbad Road, Nasrapur, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 45
+      }
+    ]
+  },
+  {
+    "slug": "united-21-retreat-lonavala",
+    "name": "United-21 Retreat Lonavala",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 92200 00005",
+    "email": null,
+    "area": "Near HDFC Bank",
+    "address": "Near HDFC Bank, Next to Zalewadi Sanatorium, Old Mumbai - Pune Hwy, Rao Colony, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 35
+      }
+    ]
+  },
+  {
+    "slug": "upper-deck-resort",
+    "name": "Upper Deck Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://www.upperdeckresort.com",
+    "phone": "+91 90110 14580",
+    "email": null,
+    "area": "13/15",
+    "address": "13/15, off Tungarli Lake Pangloli Village, Thakurwadi, Gold Valley, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 9
+      }
+    ]
+  },
+  {
+    "slug": "urban-banquets",
+    "name": "Urban Banquets",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://urbanbanquets.com",
+    "phone": "+91 20 4006 4999",
+    "email": null,
+    "area": "Ishanya Mall Rd / Yerwada",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 183
+      }
+    ]
+  },
+  {
+    "slug": "ved-resort-and-spa",
+    "name": "Ved Resort And Spa",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 86695 58405",
+    "email": null,
+    "area": "H No. 513",
+    "address": "H No. 513, Posari, Murbad Road, Karjat, Maharashtra 410201",
+    "city": "karjat",
+    "postalCode": "410201",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 47
+      }
+    ]
+  },
+  {
+    "slug": "velvett-villas-and-resort",
+    "name": "Velvett Villas & Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 88880 32222",
+    "email": null,
+    "area": "Vikas Valley",
+    "address": "Vikas Valley, Khandala, Lonavala, Maharashtra 410301",
+    "city": "lonavala",
+    "postalCode": "410301",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 21
+      }
+    ]
+  },
+  {
+    "slug": "villa-san-lawrenz",
+    "name": "Villa San Lawrenz",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 77568 06228",
+    "email": null,
+    "area": "Thomrewadi Ryewood",
+    "address": "Thomrewadi Ryewood, Kurwande Road, Opposite Lonavla Lake, Lonavala, Maharashtra 410401",
+    "city": "lonavala",
+    "postalCode": "410401",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 14
+      }
+    ]
+  },
+  {
+    "slug": "vinkar-sabhagruh-by-parampara",
+    "name": "Vinkar Sabhagruh by Parampara",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": "https://vinkarsabhagruh.com",
+    "phone": "+91 20 2422 1414",
+    "email": null,
+    "area": "Pune - Satara Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 184
+      }
+    ]
+  },
+  {
+    "slug": "vits-lonavala",
+    "name": "VITS Lonavala",
+    "venueType": "Venue",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 21142 77000",
+    "email": null,
+    "area": "Down Bell",
+    "address": "Down Bell, Old Mumbai - Pune Hwy, near Valvan Lake, Varsoli, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 32
+      }
+    ]
+  },
+  {
+    "slug": "vitthal-lawns",
+    "name": "Vitthal Lawns",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://vitthallawns.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Wakad / Bhumkar Das Rd",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 185
+      }
+    ]
+  },
+  {
+    "slug": "vivanta-pune-hinjawadi",
+    "name": "Vivanta Pune, Hinjawadi",
+    "venueType": "Hotel",
+    "starCategory": "5-star (listed by brand; confirm certificate)",
+    "websiteUrl": "https://www.vivantahotels.com/en-in/hotels/vivanta-pune",
+    "phone": "+91 20 6658 4040",
+    "email": "bookvivanta.hinjawadi@tajhotels.com",
+    "area": "Hinjawadi Rd",
+    "address": "Xion Complex, Hinjawadi Road, Pune 411057",
+    "city": "pune",
+    "postalCode": "411057",
+    "eventTypes": ["Wedding", "Corporate", "Conference", "Social events"],
+    "venueSpaces": ["Banquets / meeting spaces - confirm"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vivanta+Pune+Hinjawadi",
+    "sourceUrl": "https://www.vivantahotels.com/en-in/hotels/vivanta-pune",
+    "notes": "Official brand listing; confirm banquet capacities directly.",
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 186
+      },
+      {
+        "workbook": "Hinjewadi_Pune_Venue_Database_Expanded.xlsx",
+        "sheet": "Hinjewadi Venues",
+        "row": 2
+      }
+    ]
+  },
+  {
+    "slug": "vrundavan-lakeview-resort",
+    "name": "Vrundavan Lakeview Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 93736 99248",
+    "email": null,
+    "area": "Kurawati Village",
+    "address": "Kurawati Village, Opposite Bamboo Bricks Resort, Panshet-Ghol Road, Velhe, Maharashtra 412108",
+    "city": "panshet",
+    "postalCode": "412108",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 72
+      }
+    ]
+  },
+  {
+    "slug": "vrundavan-veg-and-banquet",
+    "name": "Vrundavan Veg & Banquet",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://vrundavanbanquets.com",
+    "phone": "+91 20 6719 5555",
+    "email": null,
+    "area": "Wakad / Beverly Hills",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 187
+      }
+    ]
+  },
+  {
+    "slug": "w-banquet-hall",
+    "name": "W Banquet Hall",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://wbanquethall.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Narhe Service Road",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 188
+      }
+    ]
+  },
+  {
+    "slug": "waves-and-vibes-resort",
+    "name": "Waves and Vibes Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": null,
+    "phone": "+91 88880 42221",
+    "email": null,
+    "area": "Panshet Backwaters",
+    "address": "Panshet Backwaters, Koshimghar, Pune 412107",
+    "city": "panshet",
+    "postalCode": "412107",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 63
+      }
+    ]
+  },
+  {
+    "slug": "whispering-woods-resort",
+    "name": "Whispering Woods Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://www.whispering.in",
+    "phone": "+91 86250 05414",
+    "email": null,
+    "area": "Sr. No. 71",
+    "address": "Sr. No. 71, Old Mumbai-Pune Highway, Near Valvan College, Lonavala, Maharashtra 410403",
+    "city": "lonavala",
+    "postalCode": "410403",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 7
+      }
+    ]
+  },
+  {
+    "slug": "wildernest-hilltop-resort",
+    "name": "Wildernest Hilltop Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://wildernestpune.com",
+    "phone": "+91 95455 52200",
+    "email": null,
+    "area": "Kharkwasla / Sinhagad Rd",
+    "address": "Survey No - 58, 59, 60, Sinhgad Rd, Khadakwasla, Pune 411025",
+    "city": "pune",
+    "postalCode": "411025",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 189
+      },
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 59
+      }
+    ]
+  },
+  {
+    "slug": "yash-lawns",
+    "name": "Yash Lawns",
+    "venueType": "Lawn / farmhouse",
+    "starCategory": null,
+    "websiteUrl": "https://yashlawns.com",
+    "phone": "+91 20 2422 3535",
+    "email": null,
+    "area": "Bibvewadi",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 190
+      }
+    ]
+  },
+  {
+    "slug": "zambre-palace",
+    "name": "Zambre Palace",
+    "venueType": "Banquet hall",
+    "starCategory": null,
+    "websiteUrl": "https://zambrepalace.com",
+    "phone": "+91 20 2426 1122",
+    "email": null,
+    "area": "Kothrud / Mukund Nagar",
+    "address": null,
+    "city": "pune",
+    "postalCode": null,
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Pune all Venue",
+        "row": 191
+      }
+    ]
+  },
+  {
+    "slug": "zaras-resort",
+    "name": "Zara's Resort",
+    "venueType": "Resort",
+    "starCategory": null,
+    "websiteUrl": "https://www.zarasresort.com",
+    "phone": "+91 90299 99185",
+    "email": null,
+    "area": "Old Mumbai - Pune Hwy",
+    "address": "Old Mumbai - Pune Hwy, near D.C. High School, Khandala, Lonavala, Maharashtra 410301",
+    "city": "lonavala",
+    "postalCode": "410301",
+    "eventTypes": [],
+    "venueSpaces": [],
+    "mapsUrl": null,
+    "sourceUrl": null,
+    "notes": null,
+    "sources": [
+      {
+        "workbook": "All Data For Hotels.xlsx",
+        "sheet": "Destinastion Wedding",
+        "row": 12
+      }
+    ]
+  }
+]

@@ -177,3 +177,5 @@ Commit subjects use conventional prefixes (`feat(scope):`, `fix(scope):`, `docs(
 - `docs/testing-strategy.md`, `docs/security.md` — how the suites isolate themselves, and
   the security posture.
 - `docs/research/` — audits and independent review notes.
+- `docs/venue-import.md` — how the two venue workbooks become listings (scrape → images →
+  build → import), and the provenance/consent rules that apply to that real-business data.
