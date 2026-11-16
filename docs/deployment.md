@@ -124,10 +124,12 @@ would upload without touching the bucket or the database.
    **Production** (and Preview if you use it).
 2. `NEXT_PUBLIC_APP_URL` must be set **before** the build; after changing any
    `NEXT_PUBLIC_*` value, redeploy (Vercel's "Redeploy" is enough).
-3. Build command: leave it at the default. Vercel runs `pnpm vercel-build` when
-   that script exists, which generates the Prisma client, applies migrations,
-   bootstraps the catalogue and then builds. Install command: `pnpm install`
-   (its `postinstall` also generates the client).
+3. Build command: `vercel.json` pins it to `pnpm run vercel-build`, which
+   generates the Prisma client, applies migrations, bootstraps the catalogue and
+   then builds. Do not set a Build Command in the dashboard — it would override
+   `vercel.json`, and a bare `next build` fails with `Can't resolve
+'@/generated/prisma/client'` because the client is generated, not committed.
+   Install command: `pnpm install` (its `postinstall` also generates the client).
 4. Node.js: project uses Node ≥ 24 (`package.json` engines); select Node 24 if
    the platform default is older.
 5. Point the domain at the project and use that exact origin for
