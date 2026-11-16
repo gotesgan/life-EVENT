@@ -89,14 +89,14 @@ export const ENQUIRY_SEEDS: readonly EnquirySeed[] = [
     budgetMin: 1500000,
     budgetMax: 3000000,
     requirements:
-      'December wedding in Mumbai: a banquet venue for 450 guests, a candid photographer for both days, and a multi-cuisine caterer. Sangeet on the previous evening at the same venue.',
+      'December wedding in Mumbai for 450 guests: a decorator for the mandap and the sangeet stage, a candid photographer for both days, and a multi-cuisine caterer.',
     referralSource: 'Organic search',
     isPotentialDuplicate: false,
     assignedAdmin: true,
     createdAt: '2026-09-18T05:30:00.000Z',
     listings: [
       {
-        listingSlug: 'gulmohar-banjara-banquets',
+        listingSlug: 'phoolpatte-designs',
         status: 'QUALIFIED',
         assignedAdmin: true,
         firstContactedMinutes: 360,
@@ -151,21 +151,21 @@ export const ENQUIRY_SEEDS: readonly EnquirySeed[] = [
         actor: SYSTEM,
       },
       {
-        listingSlug: 'gulmohar-banjara-banquets',
+        listingSlug: 'phoolpatte-designs',
         type: 'STATUS_CHANGED',
         fromStatus: 'NEW',
         toStatus: 'CONTACTED',
-        message: 'Called the venue; they are checking the December calendar.',
+        message: 'Called the decorator; they are checking the December calendar.',
         isCustomerVisible: true,
         offsetMinutes: 360,
         actor: ADMIN,
       },
       {
-        listingSlug: 'gulmohar-banjara-banquets',
+        listingSlug: 'phoolpatte-designs',
         type: 'STATUS_CHANGED',
         fromStatus: 'CONTACTED',
         toStatus: 'QUALIFIED',
-        message: 'Venue can host 450 with the lawn for the sangeet.',
+        message: 'Decorator can cover the mandap and the sangeet stage for 450 guests.',
         isCustomerVisible: true,
         offsetMinutes: 480,
         actor: ADMIN,
@@ -238,14 +238,14 @@ export const ENQUIRY_SEEDS: readonly EnquirySeed[] = [
     budgetMin: 1000000,
     budgetMax: 2200000,
     requirements:
-      'Looking for a five-star hotel in Mumbai for a November wedding, 300 guests, with rooms for about 80 outstation guests.',
+      'Looking for a wedding planner in Mumbai for a November wedding, 300 guests, with rooms for about 80 outstation guests at a five-star hotel.',
     referralSource: 'Instagram',
     isPotentialDuplicate: false,
     assignedAdmin: true,
     createdAt: '2026-10-05T11:15:00.000Z',
     listings: [
       {
-        listingSlug: 'the-sandalwood-grand',
+        listingSlug: 'sunheri-plans-weddings',
         status: 'NEW',
         assignedAdmin: true,
         firstContactedMinutes: null,
@@ -281,7 +281,7 @@ export const ENQUIRY_SEEDS: readonly EnquirySeed[] = [
     notes: [
       {
         listingSlug: null,
-        body: 'Guest enquiry — verify the phone number before sharing anything with the hotel.',
+        body: 'Guest enquiry — verify the phone number before sharing anything with the planner.',
         offsetMinutes: 30,
       },
     ],

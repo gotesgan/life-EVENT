@@ -9,7 +9,9 @@ import { SEEDED_CUSTOMER, expectNoErrorBoundary, signInAs } from './helpers';
  * trading name is withheld by design — and the enquiry form sits in the rail.
  */
 
-const PUBLISHED_SLUG = 'gulmohar-banjara-banquets';
+// A published venue from the imported catalogue (docs/venue-import.md). The seed
+// no longer invents venues, so the e2e harness imports the real ones.
+const PUBLISHED_SLUG = 'della-resorts';
 
 test.describe('listing profile', () => {
   test('opens from the search results', async ({ page }) => {
@@ -29,8 +31,8 @@ test.describe('listing profile', () => {
 
     // Identity is withheld until an enquiry: the heading names the category and
     // locality, never the business.
-    await expect(page.getByRole('heading', { level: 1 })).toContainText(/banquet hall/i);
-    await expect(page.getByRole('heading', { level: 1 })).toContainText(/andheri east/i);
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(/hotel and resort/i);
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(/lonavala/i);
     await expect(page.getByRole('heading', { name: /about this business/i })).toBeVisible();
     await expect(page.getByRole('heading', { name: /services/i })).toBeVisible();
     await expectNoErrorBoundary(page);
@@ -42,7 +44,7 @@ test.describe('listing profile', () => {
     // Wait for the streamed profile header before reading the page text; the
     // sticky enquiry rail is in the static shell and would resolve too early.
     await expect(
-      page.getByRole('heading', { level: 1, name: /banquet hall in andheri east/i }),
+      page.getByRole('heading', { level: 1, name: /hotel and resort in lonavala/i }),
     ).toBeVisible({ timeout: 30_000 });
 
     const body = await page.locator('body').innerText();
@@ -104,7 +106,7 @@ test.describe('listing profile', () => {
     await page.goto('/account/enquiries/LE-ZM4H6CYV');
 
     await expect(page.getByText(/LE-ZM4H6CYV/).first()).toBeVisible({ timeout: 30_000 });
-    await expect(page.getByText('+91 90000 00010')).toBeVisible();
+    await expect(page.getByText('+91 90000 00006')).toBeVisible();
     // Withheld publicly (`showEmail: false`), disclosed because the lead reached
     // the provider. Deleting the disclosure gate makes this fail.
     await expect(page.getByText('hello@mirage-beauty-studio.example.test')).toBeVisible();

@@ -55,61 +55,6 @@ export const HERO_PHOTO = {
 
 export const LISTING_PHOTOS: Readonly<Record<string, readonly ListingPhotoSeed[]>> = {
   // --- Venues ------------------------------------------------------------
-  'gulmohar-banjara-banquets': [
-    {
-      variant: 'cover',
-      unsplashId: '1698934641149-93431f3bd4f7',
-      alt: 'A banquet hall laid with round tables and chairs beneath chandeliers',
-    },
-    {
-      variant: 'gallery-2',
-      unsplashId: '1759477274116-e3cb02d2b9d8',
-      alt: 'An empty banquet hall set with red chairs around round tables',
-    },
-    {
-      variant: 'gallery-3',
-      unsplashId: '1712314947761-a8d718bd8c32',
-      alt: 'A pillar-free hall of tables and chandeliers prepared for a reception',
-    },
-  ],
-  'the-sandalwood-grand': [
-    {
-      variant: 'cover',
-      unsplashId: '1675247488725-22d1b78e75db',
-      alt: 'A ballroom set for dinner with chandeliers above the tables',
-    },
-    {
-      variant: 'gallery-2',
-      unsplashId: '1549895058-36748fa6c6a7',
-      alt: 'A chandelier lit above a white-panelled banqueting hall',
-    },
-    {
-      variant: 'gallery-3',
-      unsplashId: '1744805624890-9931ebb50428',
-      alt: 'A ceremony set in front of a floral arch, chairs laid out on the lawn',
-    },
-  ],
-  'tarang-resort-and-spa': [
-    {
-      variant: 'cover',
-      unsplashId: '1782025419777-09e493453d9f',
-      alt: 'White canvas tents pitched on a green lawn beside the water',
-    },
-  ],
-  'vaatika-lawns-and-farmhouse': [
-    {
-      variant: 'cover',
-      unsplashId: '1774814305525-c302b0dee3e7',
-      alt: 'Rows of white chairs arranged on a wide green lawn',
-    },
-  ],
-  'navrang-convention-centre': [
-    {
-      variant: 'cover',
-      unsplashId: '1677129663241-5be1f17fe6fe',
-      alt: 'A convention hall set with long rows of white-dressed tables',
-    },
-  ],
 
   // --- Photography & film -----------------------------------------------
   'smriti-frame-studios': [
@@ -325,8 +270,8 @@ export const LISTING_PHOTOS: Readonly<Record<string, readonly ListingPhotoSeed[]
  * Listing files are named from a digest of the slug rather than from the slug
  * itself. The product withholds a listing's trading name until an enquiry is
  * sent, and the slug is derived from that name — a file called
- * `gulmohar-banjara-banquets-cover.jpg` would spell the withheld name out in
- * every `<img src>`, in the Open Graph image and in the network panel, which is
+ * `smriti-frame-studios-cover.jpg` would spell the withheld name out in every
+ * `<img src>`, in the Open Graph image and in the network panel, which is
  * exactly the leak the mask exists to prevent.
  *
  * The digest is deterministic, so re-running the seed resolves the same file

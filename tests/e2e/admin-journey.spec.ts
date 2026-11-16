@@ -146,8 +146,9 @@ test.describe('admin panel', () => {
     const rows = page.locator('tbody tr');
     await expect(rows.first()).toBeVisible({ timeout: 30_000 });
 
-    // A known published seed listing is visible before filtering.
-    await expect(page.getByText('Gulmohar Banjara Banquets').first()).toBeVisible();
+    // A known published listing is visible before filtering. The seed invents no
+    // venues, so this is one from the imported catalogue (docs/venue-import.md).
+    await expect(page.getByText('GMK Banquet Hall').first()).toBeVisible();
 
     await page.goto('/admin/listings?publicationStatus=DRAFT');
     await expect(rows.first()).toBeVisible({ timeout: 30_000 });
@@ -157,12 +158,12 @@ test.describe('admin panel', () => {
     // …every one of them a draft…
     await expect(page.locator('tbody tr', { hasText: 'Published' })).toHaveCount(0);
     // …and it must have excluded the published listing. A no-op filter fails here.
-    await expect(page.getByText('Gulmohar Banjara Banquets')).toHaveCount(0);
+    await expect(page.getByText('GMK Banquet Hall')).toHaveCount(0);
   });
 
   test('the listing editor renders category-specific attribute controls', async ({ page }) => {
     await page.goto('/admin/listings');
-    const editLink = page.getByRole('link', { name: 'Gulmohar Banjara Banquets' }).first();
+    const editLink = page.getByRole('link', { name: 'GMK Banquet Hall' }).first();
     await expect(editLink).toBeVisible({ timeout: 30_000 });
     await editLink.click();
 

@@ -18,7 +18,7 @@ import {
  * that the reference exists.
  */
 
-const PROVIDER_SLUG = 'gulmohar-banjara-banquets';
+const PROVIDER_SLUG = 'smriti-frame-studios';
 
 async function submitEnquiry(page: import('@playwright/test').Page, email: string) {
   // One enquiry per listing: the profile's own form is the submission surface.

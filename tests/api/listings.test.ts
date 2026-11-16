@@ -72,8 +72,8 @@ describe('GET /api/listings', () => {
       expect(card.isNameHidden).toBe(true);
       expect(card.slug).toMatch(/^ul_[a-z0-9]+$/);
       // A masked card's name is a category + locality label, never a trade name.
-      expect(card.name).not.toContain('Gulmohar');
-      expect(card.name).not.toContain('Sandalwood');
+      expect(card.name).not.toContain('Smriti');
+      expect(card.name).not.toContain('Patang');
     }
   });
 
@@ -107,7 +107,7 @@ describe('GET /api/listings', () => {
 
   it('narrows results when filters are combined', async () => {
     const baseline = await search('?pageSize=48');
-    const filtered = await search('?pageSize=48&category=venues&verified=true');
+    const filtered = await search('?pageSize=48&category=photography&verified=true');
 
     expect(filtered.status).toBe(200);
     expect(filtered.body.pagination.totalItems).toBeGreaterThan(0);
