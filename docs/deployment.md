@@ -61,6 +61,40 @@ pnpm db:seed
 Do not seed a real production database with demo listings unless you want them.
 The seeded admin account is `admin@liveenvt.test` / `AdminPass123!` — change it.
 
+## Catalogue bootstrap on deploy
+
+The venue catalogue is data, not code: pushing a branch does not put listings in
+the database. `pnpm vercel-build` therefore runs, in order:
+
+```bash
+prisma generate
+prisma migrate deploy          # needs DIRECT_URL
+pnpm tsx scripts/deploy/bootstrap-catalogue.mts
+next build
+```
+
+The bootstrap loads the reference tables (locations, categories, event types,
+attributes, amenities) and then imports every venue from
+`data/venues/listings.json`. It is idempotent by slug, so a redeploy repairs the
+catalogue rather than duplicating it. It deliberately does **not** run
+`prisma/seed.ts`: that also writes demo users, enquiries and audit rows.
+
+It is opt-in. Set `BOOTSTRAP_CATALOGUE_ON_DEPLOY=true` on the environment that
+owns the catalogue and leave it unset on previews — a preview deployment shares
+the production database unless its variables say otherwise, so an ungated build
+would let a branch publish to the live catalogue. Without the flag the script
+exits 0 and does nothing.
+
+`CATALOGUE_PUBLISH_MODE` decides what goes live:
+
+| Value           | Effect                                                                                                                                                                                                          |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `all` (default) | Every imported venue is published, including the ones `venues:build` held back for having fewer than three photographs or for tripping the location-conflict / spam checks. Those render the placeholder motif. |
+| `json`          | Respect the statuses in `listings.json` — only listings with three or more photographs go live.                                                                                                                 |
+
+Run it by hand against any database with
+`pnpm tsx scripts/deploy/bootstrap-catalogue.mts --force`.
+
 ## Platform notes
 
 ### Vercel
@@ -69,8 +103,10 @@ The seeded admin account is `admin@liveenvt.test` / `AdminPass123!` — change i
    **Production** (and Preview if you use it).
 2. `NEXT_PUBLIC_APP_URL` must be set **before** the build; after changing any
    `NEXT_PUBLIC_*` value, redeploy (Vercel's "Redeploy" is enough).
-3. Build command: `pnpm build` (it now runs `prisma generate` first).
-   Install command: `pnpm install` (its `postinstall` also generates the client).
+3. Build command: leave it at the default. Vercel runs `pnpm vercel-build` when
+   that script exists, which generates the Prisma client, applies migrations,
+   bootstraps the catalogue and then builds. Install command: `pnpm install`
+   (its `postinstall` also generates the client).
 4. Node.js: project uses Node ≥ 24 (`package.json` engines); select Node 24 if
    the platform default is older.
 5. Point the domain at the project and use that exact origin for

@@ -20,18 +20,27 @@ import { PrismaPg } from '@prisma/adapter-pg';
 import { PrismaClient } from '@/generated/prisma/client';
 import type { AttributeDataType, PriceUnit, PublicationStatus } from '@/generated/prisma/enums';
 import { LOCATION_SEEDS } from '../../prisma/seed-data/locations';
+import { isDirectRun } from '../lib/is-direct-run.mts';
 import type { ImportedListing } from './lib/listing';
 
-if (process.env.NODE_ENV === 'production' && process.env.ALLOW_SEED_IN_PRODUCTION !== 'true') {
-  console.error(
-    [
-      'Refusing to import: NODE_ENV=production.',
-      '',
-      'This writes scraped venue data into the catalogue. Point it at a development',
-      'database, or set ALLOW_SEED_IN_PRODUCTION=true if the target is disposable.',
-    ].join('\n'),
-  );
-  process.exit(1);
+/**
+ * Refuses to import into production unless explicitly allowed.
+ *
+ * A function rather than a module-level statement because the deploy bootstrap
+ * imports `runImport` from this module and sets the escape hatch itself.
+ */
+function assertImportAllowed(): void {
+  if (process.env.NODE_ENV === 'production' && process.env.ALLOW_SEED_IN_PRODUCTION !== 'true') {
+    console.error(
+      [
+        'Refusing to import: NODE_ENV=production.',
+        '',
+        'This writes scraped venue data into the catalogue. Point it at a development',
+        'database, or set ALLOW_SEED_IN_PRODUCTION=true if the target is disposable.',
+      ].join('\n'),
+    );
+    process.exit(1);
+  }
 }
 
 const connectionString = process.env.DIRECT_URL ?? process.env.DATABASE_URL ?? '';
@@ -445,22 +454,44 @@ async function importListing(listing: ImportedListing, context: Context): Promis
   return true;
 }
 
-async function main(): Promise<void> {
-  const args = parseArgs(process.argv.slice(2));
+export interface ImportOptions {
+  /** Restrict the run to these slugs. */
+  only?: ReadonlySet<string> | null;
+  /** Force every selected listing to DRAFT. */
+  draft?: boolean;
+  /** Force every selected listing to PUBLISHED, ignoring the build gate. */
+  publish?: boolean;
+}
+
+export interface ImportSummary {
+  total: number;
+  imported: number;
+  published: number;
+}
+
+/**
+ * Imports `data/venues/listings.json` into the database.
+ *
+ * Exported so the deploy bootstrap can run it in-process and choose the
+ * publication mode without re-parsing CLI flags.
+ */
+export async function runImport(options: ImportOptions = {}): Promise<ImportSummary> {
+  assertImportAllowed();
+
   const listings: ImportedListing[] = JSON.parse(
     await readFile(join(process.cwd(), 'data/venues/listings.json'), 'utf8'),
   );
 
   const selected = listings
-    .filter((listing) => (args.only ? args.only.has(listing.slug) : true))
+    .filter((listing) => (options.only ? options.only.has(listing.slug) : true))
     .map((listing) => ({
       ...listing,
-      publicationStatus: args.draft
+      publicationStatus: options.draft
         ? ('DRAFT' as const)
-        : args.publish
+        : options.publish
           ? ('PUBLISHED' as const)
           : listing.publicationStatus,
-      publishedAt: args.publish
+      publishedAt: options.publish
         ? (listing.publishedAt ?? new Date().toISOString())
         : listing.publishedAt,
     }));
@@ -488,13 +519,26 @@ async function main(): Promise<void> {
   }
 
   console.log(`\nImported ${imported} listings (${published} published).`);
+  return { total: selected.length, imported, published };
 }
 
-await main()
-  .catch((error) => {
-    console.error(error);
-    process.exitCode = 1;
-  })
-  .finally(async () => {
-    await prisma.$disconnect();
-  });
+/** Closes the module's Prisma client. The CLI path calls this on exit. */
+export async function disconnectImportClient(): Promise<void> {
+  await prisma.$disconnect();
+}
+
+async function main(): Promise<void> {
+  const args = parseArgs(process.argv.slice(2));
+  await runImport({ only: args.only, draft: args.draft, publish: args.publish });
+}
+
+if (isDirectRun(import.meta.url)) {
+  main()
+    .catch((error) => {
+      console.error(error);
+      process.exitCode = 1;
+    })
+    .finally(async () => {
+      await disconnectImportClient();
+    });
+}
