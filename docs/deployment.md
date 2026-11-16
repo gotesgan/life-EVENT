@@ -70,6 +70,7 @@ the database. `pnpm vercel-build` therefore runs, in order:
 prisma generate
 prisma migrate deploy          # needs DIRECT_URL
 pnpm tsx scripts/deploy/bootstrap-catalogue.mts
+pnpm tsx scripts/deploy/upload-media-to-r2.mts
 next build
 ```
 
@@ -94,6 +95,26 @@ exits 0 and does nothing.
 
 Run it by hand against any database with
 `pnpm tsx scripts/deploy/bootstrap-catalogue.mts --force`.
+
+### Photographs on R2
+
+The seed and the importer reference files under `public/media/`, which Next
+serves from the deployment. `upload-media-to-r2.mts` moves those bytes to the
+bucket once and rewrites `listing_media.publicUrl` to the CDN URL, so the app
+stops serving ~67 MB of JPEGs from its own origin.
+
+It runs only when the full R2 configuration is present (`R2_ACCESS_KEY_ID`,
+`R2_SECRET_ACCESS_KEY`, `R2_BUCKET`, `R2_PUBLIC_BASE_URL`, and `R2_ACCOUNT_ID`
+or `R2_ENDPOINT`); otherwise it logs a skip and exits 0. It is idempotent: an
+object that already exists with the same byte length is not re-uploaded, and a
+row already pointing at the bucket is not rewritten, so a redeploy costs one
+`HEAD` per media row rather than a full transfer.
+
+`R2_PUBLIC_BASE_URL` is also added to the `next/image` allow-list at build time,
+so a custom CDN domain works without editing `next.config.ts`.
+
+Run it by hand with `pnpm media:r2 --force`; add `--dry-run` to see what it
+would upload without touching the bucket or the database.
 
 ## Platform notes
 

@@ -14,6 +14,28 @@ import type { NextConfig } from 'next';
  */
 const projectRoot = process.cwd();
 
+/**
+ * The bucket's public host, when it is a custom domain.
+ *
+ * `next/image` only optimises remote sources whose hostname is allow-listed, and
+ * `R2_PUBLIC_BASE_URL` is often a branded CDN domain rather than `*.r2.dev`. The
+ * value is inlined at build time, which is why it must be set before the build.
+ */
+const r2PublicHost = (() => {
+  const base = process.env.R2_PUBLIC_BASE_URL;
+  if (!base) return null;
+
+  try {
+    const url = new URL(base);
+    return {
+      protocol: url.protocol === 'http:' ? ('http' as const) : ('https' as const),
+      hostname: url.hostname,
+    };
+  } catch {
+    return null;
+  }
+})();
+
 const nextConfig: NextConfig = {
   // The static shell plus streamed dynamic content model. Kept on deliberately:
   // see docs/design-system.md §10.3 for what it costs and why that cost was
@@ -34,6 +56,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { protocol: 'https', hostname: '**.r2.dev' },
       { protocol: 'https', hostname: '**.r2.cloudflarestorage.com' },
+      ...(r2PublicHost ? [r2PublicHost] : []),
     ],
   },
 };
