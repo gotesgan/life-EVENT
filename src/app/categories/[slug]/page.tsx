@@ -121,11 +121,6 @@ async function CategoryLanding({ slug }: { slug: string }) {
           ...(parent ? [{ label: parent.name, href: `/categories/${parent.slug}` }] : []),
           { label: category.name },
         ]}
-        actions={
-          <Button component={Link} href={browseHref} size="sm">
-            Browse all {listingCount} with filters
-          </Button>
-        }
       />
 
       <FilterNavigationProvider basePath="/vendors" seed={{ category: category.slug }}>
@@ -187,9 +182,9 @@ async function CategoryLanding({ slug }: { slug: string }) {
                   : undefined
               }
               action={
-                <Button component={Link} href={browseHref} variant="default" size="sm">
+                <Link className={classes.seeAll} href={browseHref}>
                   See all {listingCount}
-                </Button>
+                </Link>
               }
             />
 
@@ -198,6 +193,22 @@ async function CategoryLanding({ slug }: { slug: string }) {
               label={`${category.name} listings`}
               variant="grid"
             />
+
+            {/* The preview ends here. Without this the page finished on a
+                footnote and the only route to the full list was back at the
+                top, which is the scroll the visitor has just done. */}
+            <div className={classes.browsePanel}>
+              <div className={classes.browsePanelText}>
+                <p className={classes.browsePanelEyebrow}>Still deciding?</p>
+                <p className={classes.browsePanelTitle}>Narrow it down to the ones that fit</p>
+                <p className={classes.browsePanelBody}>
+                  Filter by city, guest count, budget and amenities on the full results page.
+                </p>
+              </div>
+              <Button component={Link} href={browseHref} size="md">
+                Browse all {listingCount} venues
+              </Button>
+            </div>
 
             {category.description ? (
               <div className={classes.prose}>{category.description}</div>
