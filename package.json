@@ -38,7 +38,8 @@
     "e2e:install": "playwright install chromium",
     "e2e:report": "playwright show-report",
     "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "scrape:blog": "tsx scripts/scrape/wedmegood-blog.mts"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1151.0",
