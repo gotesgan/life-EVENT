@@ -17,9 +17,14 @@
   @mixin larger-than $mantine-breakpoint-md {
     display: block;
     position: sticky;
-    top: calc(var(--app-header-height) + #{rem(12px)});
-    max-height: calc(100dvh - var(--app-header-height) - #{rem(24px)});
+    /* `rem()` must not be wrapped in `#{}`: that is Sass interpolation, which
+       PostCSS leaves in place, so the browser drops the whole declaration and
+       the sidebar grows to its full 2800px instead of scrolling in place. */
+    top: calc(var(--app-header-height) + rem(12px));
+    max-height: calc(100dvh - var(--app-header-height) - rem(24px));
     overflow-y: auto;
+    /* Reserved so the rail does not shift sideways when it starts scrolling. */
+    scrollbar-gutter: stable;
     padding-inline-end: rem(4px);
   }
 }
@@ -92,4 +97,61 @@
   color: var(--app-text-subtle);
   font-size: var(--text-caption-size);
   line-height: var(--text-caption-leading);
+}
+
+/* A quiet text link in the section header, matching the corporate-events
+   surface. The filled button that used to sit here competed with the page's
+   own primary action. */
+.seeAll {
+  color: var(--app-brand);
+  font-size: var(--text-button-size);
+  font-weight: var(--text-button-weight);
+  text-decoration: none;
+
+  @mixin hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+/* End-of-grid call to action. The preview is six cards; without this the page
+   ended on a footnote and the only route to the full list was back at the top. */
+.browsePanel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(20px);
+  margin-top: rem(28px);
+  padding: rem(24px) rem(28px);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-card);
+  background-color: var(--app-surface-raised);
+}
+
+.browsePanelText {
+  max-width: 52ch;
+}
+
+.browsePanelEyebrow {
+  margin: 0 0 rem(4px);
+  color: var(--app-text-subtle);
+  font-size: var(--text-caption-size);
+  font-weight: 650;
+  line-height: var(--text-caption-leading);
+}
+
+.browsePanelTitle {
+  margin: 0 0 rem(6px);
+  font-size: var(--text-card-title-size);
+  font-weight: var(--text-card-title-weight);
+  line-height: var(--text-card-title-leading);
+  letter-spacing: var(--text-card-title-tracking);
+}
+
+.browsePanelBody {
+  margin: 0;
+  color: var(--app-text-muted);
+  font-size: var(--text-secondary-size);
+  line-height: var(--text-secondary-leading);
 }

@@ -55,6 +55,23 @@ const CITY_NAMES: Record<string, string> = {
 const PUBLISHED_BASE_MS = Date.UTC(2026, 5, 1, 6, 0, 0);
 const DAY_MS = 24 * 60 * 60 * 1000;
 
+/**
+ * Rows the workbooks list twice under different names.
+ *
+ * The extract step merges on a slug of the name, so a venue that appears as
+ * "Hotel Studio Estique" in one row and "Studio Estique" in another survives as
+ * two records. These are the pairs confirmed by hand — same website, phone,
+ * address or photographs — mapped to the record that was kept. Dropping them
+ * here keeps `listings.json` and the database in agreement: the importer is
+ * idempotent by slug, so without this a rebuild would re-create the duplicates
+ * that were deleted from the catalogue.
+ */
+const DUPLICATE_SLUGS = new Map([
+  ['hotel-sadanand-regency', 'sadanand-regency'],
+  ['studio-estique', 'hotel-studio-estique'],
+  ['gmk-banquet-hall', 'gmk-banquets-and-lawns-ravet'],
+]);
+
 function venueTypeAttribute(venueType: string): string {
   const type = venueType.toLowerCase();
   if (/resort/.test(type)) return 'resort';
@@ -324,7 +341,9 @@ async function main(): Promise<void> {
     scrapes.set(scrape.slug, scrape);
   }
 
-  const selected = only ? venues.filter((venue) => venue.slug === only) : venues;
+  const selected = venues.filter(
+    (venue) => (only ? venue.slug === only : true) && !DUPLICATE_SLUGS.has(venue.slug),
+  );
   const listings = selected.map((venue, index) =>
     buildListing(venue, scrapes.get(venue.slug) ?? null, media[venue.slug] ?? [], index, draft),
   );
@@ -333,7 +352,11 @@ async function main(): Promise<void> {
   const previous: ImportedListing[] = await readFile(outputPath, 'utf8')
     .then((raw) => JSON.parse(raw) as ImportedListing[])
     .catch(() => []);
-  const merged = new Map(previous.map((listing) => [listing.slug, listing]));
+  const merged = new Map(
+    previous
+      .filter((listing) => !DUPLICATE_SLUGS.has(listing.slug))
+      .map((listing) => [listing.slug, listing]),
+  );
   for (const listing of listings) merged.set(listing.slug, listing);
   const output = [...merged.values()].sort((a, b) => a.name.localeCompare(b.name));
 

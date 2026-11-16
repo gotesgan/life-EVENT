@@ -24,8 +24,11 @@
   @mixin larger-than $mantine-breakpoint-md {
     display: block;
     position: sticky;
-    top: calc(var(--app-header-height) + #{rem(12px)});
-    max-height: calc(100dvh - var(--app-header-height) - #{rem(24px)});
+    /* `rem()` must not be wrapped in `#{}`: that is Sass interpolation, which
+       PostCSS leaves in place, so the browser drops the declaration and the
+       rail grows to its full height instead of scrolling in place. */
+    top: calc(var(--app-header-height) + rem(12px));
+    max-height: calc(100dvh - var(--app-header-height) - rem(24px));
     overflow-y: auto;
     /* Reserved so the rail does not shift sideways when it starts scrolling. */
     scrollbar-gutter: stable;
