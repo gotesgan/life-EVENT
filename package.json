@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "prisma generate && next build",
-    "vercel-build": "prisma generate && prisma migrate deploy && tsx scripts/deploy/bootstrap-catalogue.mts && next build",
+    "vercel-build": "prisma generate && prisma migrate deploy && tsx scripts/deploy/bootstrap-catalogue.mts && tsx scripts/deploy/upload-media-to-r2.mts && next build",
     "catalogue:bootstrap": "tsx scripts/deploy/bootstrap-catalogue.mts",
+    "media:r2": "tsx scripts/deploy/upload-media-to-r2.mts",
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
