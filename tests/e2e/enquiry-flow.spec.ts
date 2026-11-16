@@ -17,7 +17,7 @@ import {
  * multi-business basket that no longer exists.
  */
 
-const PROVIDER_SLUG = 'gulmohar-banjara-banquets';
+const PROVIDER_SLUG = 'smriti-frame-studios';
 
 test.describe('enquiry submission', () => {
   test('a guest can submit an enquiry and receives a reference', async ({ page }) => {
@@ -32,7 +32,7 @@ test.describe('enquiry submission', () => {
 
     // Before submitting, the trading name must not be on the page at all.
     const before = await page.locator('main').innerText();
-    expect(before).not.toMatch(/gulmohar/i);
+    expect(before).not.toMatch(/smriti/i);
     // The rail names the withheld state; the anonymous label is the evidence.
     expect(before).toMatch(/name & contact details/i);
 

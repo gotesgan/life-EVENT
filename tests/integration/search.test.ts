@@ -73,9 +73,9 @@ async function createPublishedListing(options: PublishedListingOptions = {}) {
 
 describe('category-only search', () => {
   it('returns only listings inside the category subtree and only published ones', async () => {
-    const subtree = new Set(await resolveCategorySubtreeIds('venues'));
+    const subtree = new Set(await resolveCategorySubtreeIds('photography'));
 
-    const result = await runSearch({ category: 'venues', pageSize: 48 });
+    const result = await runSearch({ category: 'photography', pageSize: 48 });
 
     expect(result.pagination.totalItems).toBeGreaterThan(0);
     expect(result.cards.length).toBeGreaterThan(0);
@@ -97,7 +97,7 @@ describe('category-only search', () => {
     }
 
     const seeded = await prisma.businessListing.findUniqueOrThrow({
-      where: { slug: 'gulmohar-banjara-banquets' },
+      where: { slug: 'smriti-frame-studios' },
       select: { id: true },
     });
     expect(result.cards.map((card) => card.id)).toContain(seeded.id);
@@ -110,8 +110,8 @@ describe('category-only search', () => {
 
 describe('city filtering', () => {
   it('narrows the category result set and matches primary location or a service area', async () => {
-    const all = await runSearch({ category: 'venues', pageSize: 48 });
-    const inMumbai = await runSearch({ category: 'venues', location: 'mumbai', pageSize: 48 });
+    const all = await runSearch({ category: 'photography', pageSize: 48 });
+    const inMumbai = await runSearch({ category: 'photography', location: 'mumbai', pageSize: 48 });
 
     expect(inMumbai.pagination.totalItems).toBeLessThanOrEqual(all.pagination.totalItems);
 
@@ -385,7 +385,6 @@ describe('unpublished listings never leak into search', () => {
 
   it('hides the seeded drafts and unpublished listings', async () => {
     const cases: Array<{ category: string; slug: string }> = [
-      { category: 'venues', slug: 'navrang-convention-centre' },
       { category: 'photography', slug: 'chitrakatha-films' },
       { category: 'beauty', slug: 'saffron-threads-styling' },
       { category: 'rentals-and-transport', slug: 'raatrani-rovers' },

@@ -20,10 +20,16 @@ export const SEEDED_USERS = {
   arjun: { email: 'arjun@example.test', password: 'CustomerPass123!' },
 } as const;
 
-/** Seeded listing slugs used across API suites. */
+/**
+ * Seeded listing slugs used across API suites.
+ *
+ * These are non-venue listings on purpose: the venue catalogue is imported from
+ * `data/venues/listings.json` (see docs/venue-import.md) and is not part of the
+ * seed, so a venue slug would not exist in the test database.
+ */
 export const SEEDED_LISTINGS = {
-  published: 'gulmohar-banjara-banquets',
-  draft: 'navrang-convention-centre',
+  published: 'smriti-frame-studios',
+  draft: 'chitrakatha-films',
   unpublished: 'raatrani-rovers',
 } as const;
 

@@ -65,7 +65,14 @@ export default defineConfig({
       // a variable whose whole purpose is to guarantee the *right* database.
       DATABASE_URL: testDatabaseUrl,
       DIRECT_URL: testDatabaseUrl,
-      NEXT_PUBLIC_APP_URL: BASE_URL,
+      // Deliberately *not* BASE_URL. `pnpm start` runs in production mode, where
+      // `src/lib/env.ts` rejects a loopback origin for this variable — and the
+      // suite must browse over loopback, because production mode marks the
+      // session cookie `Secure` and a browser only accepts that on https or
+      // localhost. A non-loopback BASE_URL satisfies the env check and then
+      // silently drops the session cookie, so the two requirements can only be
+      // met by keeping them separate.
+      NEXT_PUBLIC_APP_URL: 'https://liveenvt.e2e.test',
       BETTER_AUTH_URL: BASE_URL,
       // `pnpm start` runs a production build, so the hardened environment checks
       // apply. These are test-only values that satisfy them deliberately: the

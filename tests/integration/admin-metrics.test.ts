@@ -8,7 +8,7 @@ import { createTestAdmin, uniqueEmail, uniqueIp, uniquePhone } from './helpers';
 
 async function createSingleLeadEnquiry() {
   const input = createEnquirySchema.parse({
-    listings: ['gulmohar-banjara-banquets'],
+    listings: ['smriti-frame-studios'],
     contactName: 'Metrics Fixture',
     contactEmail: uniqueEmail('metrics'),
     contactPhone: uniquePhone(),

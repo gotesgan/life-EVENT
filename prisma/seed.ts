@@ -20,6 +20,7 @@ import 'dotenv/config';
 import { stat } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { PrismaPg } from '@prisma/adapter-pg';
+import { isDirectRun } from '../scripts/lib/is-direct-run.mts';
 import { PrismaClient } from '@/generated/prisma/client';
 import type { AttributeDataType, EnquiryStatus } from '@/generated/prisma/enums';
 import { deriveEnquiryStatus } from '@/server/domain/enquiry-status';
@@ -51,18 +52,25 @@ import { USER_SEEDS } from './seed-data/users';
  * DATABASE_URL would have populated it. The test harnesses had their own guards;
  * the script itself did not, which is the case that matters because it is the one
  * an operator runs by hand.
+ *
+ * This is a function rather than a module-level statement because the deploy
+ * bootstrap imports `seedReferenceData` from this module. A top-level
+ * `process.exit(1)` would kill that process before it could run, and the
+ * bootstrap sets `ALLOW_SEED_IN_PRODUCTION` itself.
  */
-if (process.env.NODE_ENV === 'production' && process.env.ALLOW_SEED_IN_PRODUCTION !== 'true') {
-  console.error(
-    [
-      'Refusing to seed: NODE_ENV=production.',
-      '',
-      'This script writes demo listings, demo customers and a demo administrator.',
-      'Point it at a development database, or set ALLOW_SEED_IN_PRODUCTION=true if',
-      'you are certain the target database is disposable.',
-    ].join('\n'),
-  );
-  process.exit(1);
+function assertSeedAllowed(): void {
+  if (process.env.NODE_ENV === 'production' && process.env.ALLOW_SEED_IN_PRODUCTION !== 'true') {
+    console.error(
+      [
+        'Refusing to seed: NODE_ENV=production.',
+        '',
+        'This script writes demo listings, demo customers and a demo administrator.',
+        'Point it at a development database, or set ALLOW_SEED_IN_PRODUCTION=true if',
+        'you are certain the target database is disposable.',
+      ].join('\n'),
+    );
+    process.exit(1);
+  }
 }
 
 const connectionString = process.env.DIRECT_URL ?? process.env.DATABASE_URL ?? '';
@@ -1201,10 +1209,58 @@ async function printSummary(summary: SeedSummary): Promise<void> {
 }
 
 // ---------------------------------------------------------------------------
+// Reference data
+// ---------------------------------------------------------------------------
+
+export interface ReferenceDataSummary {
+  locations: number;
+  categories: number;
+  eventTypes: number;
+  attributeDefinitions: number;
+  attributeOptions: number;
+  categoryAttributes: number;
+  amenities: number;
+}
+
+/**
+ * The catalogue's reference rows — geography, categories, event types,
+ * attributes and amenities — without the demo users, listings, enquiries and
+ * audit rows that `main()` adds.
+ *
+ * The venue importer resolves slugs against these tables, so a production
+ * deploy needs them. It must not receive the demo catalogue, which is why the
+ * deploy bootstrap calls this instead of the full seed.
+ */
+export async function seedReferenceData(): Promise<ReferenceDataSummary> {
+  const locations = await seedLocations();
+  const eventTypes = await seedEventTypes();
+  const categories = await seedCategories();
+  const attributes = await seedAttributes(categories.records);
+  const amenities = await seedAmenities();
+
+  return {
+    locations: locations.count,
+    categories: categories.count,
+    eventTypes: eventTypes.count,
+    attributeDefinitions: attributes.definitionCount,
+    attributeOptions: attributes.optionCount,
+    categoryAttributes: attributes.bindingCount,
+    amenities: amenities.count,
+  };
+}
+
+/** Closes the module's Prisma client. The deploy bootstrap calls this on exit. */
+export async function disconnectSeedClient(): Promise<void> {
+  await prisma.$disconnect();
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 
 async function main(): Promise<void> {
+  assertSeedAllowed();
+
   console.log('Seeding Life Events development data…');
 
   const locations = await seedLocations();
@@ -1256,12 +1312,14 @@ async function main(): Promise<void> {
   });
 }
 
-main()
-  .catch((error: unknown) => {
-    console.error('Seed failed:');
-    console.error(error);
-    process.exitCode = 1;
-  })
-  .finally(async () => {
-    await prisma.$disconnect();
-  });
+if (isDirectRun(import.meta.url)) {
+  main()
+    .catch((error: unknown) => {
+      console.error('Seed failed:');
+      console.error(error);
+      process.exitCode = 1;
+    })
+    .finally(async () => {
+      await prisma.$disconnect();
+    });
+}

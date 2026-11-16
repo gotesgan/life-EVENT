@@ -73,7 +73,7 @@ describe('POST /api/enquiries', () => {
     expect(status).toBe(201);
     expect(body.data.referenceCode).toMatch(/^LE-/);
     expect(body.data.duplicate).toBe(false);
-    expect(body.data.listings).toEqual(['Gulmohar Banjara Banquets']);
+    expect(body.data.listings).toEqual(['Smriti Frame Studios']);
   });
 
   it('rejects an enquiry without privacy consent', async () => {

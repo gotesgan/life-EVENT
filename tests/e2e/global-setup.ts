@@ -18,6 +18,11 @@ import pg from 'pg';
  *  - seeding over data a previous run left behind trips the seed's own
  *    consistency check ("every listing has a cover media row"), which then
  *    surfaces as a setup failure rather than as a test result.
+ *
+ * The venue catalogue is imported after the seed. `prisma/seed.ts` deliberately
+ * invents no venues — the real ones come from `data/venues/listings.json` (see
+ * docs/venue-import.md) — and the journeys that exercise a venue profile need
+ * one to exist. The import reads committed files only: no network, no scraping.
  */
 export default async function globalSetup() {
   config();
@@ -54,6 +59,7 @@ export default async function globalSetup() {
     await client.query('SELECT pg_advisory_lock($1)', [SEED_LOCK_KEY]);
     await client.query(TRUNCATE_ALL_SQL);
     execSync('npx tsx prisma/seed.ts', { env, stdio: 'inherit', cwd: process.cwd() });
+    execSync('npx tsx scripts/venues/import.mts', { env, stdio: 'inherit', cwd: process.cwd() });
   } finally {
     await client.query('SELECT pg_advisory_unlock($1)', [SEED_LOCK_KEY]).catch(() => undefined);
     await client.end().catch(() => undefined);

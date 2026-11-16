@@ -23,7 +23,7 @@ function states(results: ClaimResult[]): string[] {
 
 async function submitEnquiry() {
   const input = createEnquirySchema.parse({
-    listings: ['gulmohar-banjara-banquets'],
+    listings: ['smriti-frame-studios'],
     contactName: 'Idempotency Tester',
     contactEmail: uniqueEmail('idem'),
     contactPhone: uniquePhone(),
@@ -192,7 +192,7 @@ describe('createEnquiry replay protection', () => {
 
     const first = createEnquirySchema.parse({
       ...base,
-      listings: ['gulmohar-banjara-banquets'],
+      listings: ['smriti-frame-studios'],
       contactEmail: uniqueEmail('mismatch'),
     });
     const differing = createEnquirySchema.parse({

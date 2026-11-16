@@ -14,7 +14,7 @@ const PUBLIC_PAGES = [
   '/categories',
   '/vendors',
   '/vendors?category=venues&location=mumbai&verified=true',
-  '/vendors/gulmohar-banjara-banquets',
+  '/vendors/della-resorts',
   '/partner-with-us',
   '/corporate-events',
   '/track',
@@ -137,7 +137,7 @@ test.describe('accessibility basics', () => {
   });
 
   test('form inputs have accessible labels', async ({ page }) => {
-    await page.goto('/vendors/gulmohar-banjara-banquets');
+    await page.goto('/vendors/della-resorts');
     await page
       .getByRole('button', { name: /^send an enquiry$/i })
       .first()
